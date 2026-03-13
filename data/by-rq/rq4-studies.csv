@@ -1,0 +1,22 @@
+Key,Title,Year,Venue,Categories
+2308_10462,Exploring Parameter-Efficient Fine-Tuning Techniques for Code Generation with Large Language Models,2023,ACM Trans. Softw. Eng. Methodol.,2b-PEFT; 4b-EmpiricalStudy
+arxiv_2304_05216,Towards Efficient Fine-Tuning of Pre-trained Code Models: An Experimental Study and Beyond,2023,International Symposium on Software Testing and Analysis,2b-PEFT; 4b-EmpiricalStudy
+doi_10_1109_ASE56229_2023_00125,An Empirical Study of Parameter-Efficient Fine-Tuning Methods for Pre-Trained Code Models,2023,International Conference on Automated Software Engineering,2b-PEFT; 4b-EmpiricalStudy
+doi_10_1109_TSE_2023_3267446,MultiPL-E: A Scalable and Polyglot Approach to Benchmarking Neural Code Generation,2023,IEEE Transactions on Software Engineering,4a-Benchmark
+2401_00788,Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models,2024,arXiv preprint,2b-PEFT; 4b-EmpiricalStudy
+2410_14766,Evaluating Quantized Large Language Models for Code Generation on Low-Resource Language Benchmarks,2024,J. Comput. Lang.,3g-PTQ; 4b-EmpiricalStudy
+2412_15441,Insights into resource utilization of code small language models serving with runtime engines and execution providers,2024,J. Syst. Softw.,4b-EmpiricalStudy; 3m-SystemOpt
+arxiv_2408_06450,Evaluating Language Models for Efficient Code Generation,2024,arXiv preprint,4b-EmpiricalStudy
+doi_10_48550_arXiv_2402_07844,Mercury: An Efficiency Benchmark for LLM Code Synthesis,2024,arXiv preprint,4a-Benchmark
+2501_05899,Prompt engineering and its implications on the energy consumption of Large Language Models,2025,GREENS@ICSE,3n-PromptEng; 4b-EmpiricalStudy
+2503_07103,Evaluating the Impact of Post-Training Quantization on Large Language Models for Code Generation,2025,arXiv preprint,3g-PTQ; 4b-EmpiricalStudy
+2506_01604,Exploring Prompt Patterns in AI-Assisted Code Generation: Towards Faster and More Effective Developer-AI Collaboration,2025,International Conference on Multimodal Interaction,3n-PromptEng; 4b-EmpiricalStudy
+2508_13666,The Hidden Cost of Readability: How Code Formatting Silently Consumes Your LLM Budget,2025,arXiv preprint,3l-CodeSpecific; 4b-EmpiricalStudy
+2509_09947,Toward Green Code: Prompting Small Language Models for Energy-Efficient Code Generation,2025,FLLM,3n-PromptEng; 4b-EmpiricalStudy
+Giagnorio2025quantizing,Quantizing Large Language Models for Code Generation: A Differentiated Replication,2025,Zenodo,3g-PTQ; 4b-EmpiricalStudy
+arxiv_2505_02133,"Enhancing LLM Code Generation: A Systematic Evaluation of Multi-Agent Collaboration and Runtime Debugging for Improved Accuracy, Reliability, and Latency",2025,arXiv preprint,3k-MultiAgent; 4b-EmpiricalStudy
+arxiv_2505_14200,Capturing the Effects of Quantization on Trojans in Code LLMs,2025,arXiv preprint,3g-PTQ; 4b-EmpiricalStudy
+arxiv_2506_22776,Smaller = Weaker? Benchmarking Robustness of Quantized LLMs in Code Generation,2025,arXiv preprint,3g-PTQ; 4b-EmpiricalStudy
+arxiv_2508_08332,Energy-Aware Code Generation with LLMs: Benchmarking Small vs. Large Language Models for Sustainable AI Programming,2025,2025 3rd International Conference on Foundation and Large Language Models (FLLM),4b-EmpiricalStudy
+2602_05712,Towards Green AI: Decoding the Energy of LLM Inference in Software Development,2026,arXiv preprint,4b-EmpiricalStudy; 3b-EarlyExit
+2602_21800,An Evaluation of Context Length Extrapolation in Long Code via Positional Embeddings and Efficient Attention,2026,arXiv preprint,4b-EmpiricalStudy

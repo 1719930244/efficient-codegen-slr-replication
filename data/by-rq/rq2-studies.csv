@@ -1,0 +1,25 @@
+Key,Title,Year,Venue,Categories
+2308_10462,Exploring Parameter-Efficient Fine-Tuning Techniques for Code Generation with Large Language Models,2023,ACM Trans. Softw. Eng. Methodol.,2b-PEFT; 4b-EmpiricalStudy
+2310_18628,Personalised Distillation: Empowering Open-Sourced LLMs with Adaptive Learning for Code Generation,2023,arXiv preprint,2c-Distillation
+arxiv_2304_05216,Towards Efficient Fine-Tuning of Pre-trained Code Models: An Experimental Study and Beyond,2023,International Symposium on Software Testing and Analysis,2b-PEFT; 4b-EmpiricalStudy
+arxiv_2312_05562,Chain-of-Thought in Neural Code Generation: From and for Lightweight Language Models,2023,IEEE Transactions on Software Engineering,3o-CoTOpt; 2c-Distillation
+doi_10_1109_ASE56229_2023_00125,An Empirical Study of Parameter-Efficient Fine-Tuning Methods for Pre-Trained Code Models,2023,International Conference on Automated Software Engineering,2b-PEFT; 4b-EmpiricalStudy
+2401_00788,Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models,2024,arXiv preprint,2b-PEFT; 4b-EmpiricalStudy
+2402_01035,Getting the most out of your tokenizer for pre-training and domain adaptation,2024,ICML,2a-EfficientPretrain
+2407_05040,"Code Less, Align More: Efficient LLM Fine-tuning for Code Generation with Data Pruning",2024,arXiv preprint,1a-DataSelection; 2b-PEFT
+2408_03680,Smaller but Better: Self-Paced Knowledge Distillation for Lightweight yet Effective LCMs,2024,Proc. ACM Softw. Eng.,2c-Distillation; 2d-CurriculumLearning
+2412_16589,Improving FIM Code Completions via Context \& Curriculum Based Learning,2024,WSDM,2d-CurriculumLearning; 2b-PEFT
+arxiv_2410_00558,AMR-Evol: Adaptive Modular Response Evolution Elicits Better Knowledge Distillation for Large Language Models in Code Generation,2024,Conference on Empirical Methods in Natural Language Processing,2c-Distillation
+2501_01054,Dynamic Scaling of Unit Tests for Code Reward Modeling,2025,ACL,2f-RLTraining
+2501_18657,Enhancing Large Language Model Efficiencyvia Symbolic Compression: A Formal Approach Towards Interpretability,2025,arXiv preprint,3d-PromptCompression; 2b-PEFT
+2503_17793,Every Sample Matters: Leveraging Mixture-of-Experts and High-Quality Data for Efficient and Accurate Code LLM,2025,arXiv preprint,1a-DataSelection; 1b-DataQuality; 2a-EfficientPretrain
+2504_00019,ObscuraCoder: Powering Efficient Code LM Pre-Training Via Obfuscation Grounding,2025,arXiv preprint,1b-DataQuality; 2a-EfficientPretrain
+2504_12687,Data-efficient LLM Fine-tuning for Code Generation,2025,IJCNN,1a-DataSelection; 2a-EfficientPretrain
+2504_14560,ReasoningV: Efficient Verilog Code Generation with Adaptive Hybrid Reasoning Model,2025,arXiv preprint,3o-CoTOpt; 2b-PEFT
+2509_07858,SCoder: Iterative Self-Distillation for Bootstrapping Small-Scale Data Synthesizers to Empower Code LLMs,2025,arXiv preprint,1b-DataQuality; 2c-Distillation
+2509_17489,MapCoder-Lite: Distilling Multi-Agent Coding into a Single Small LLM,2025,arXiv preprint,2c-Distillation
+2509_25243,Reinforcement Learning-Guided Chain-of-Draft for Token-Efficient Code Generation,2025,arXiv preprint,3o-CoTOpt; 2f-RLTraining
+2511_23321,Chart2Code-MoLA: Efficient Multi-Modal Code Generation via Adaptive Expert Routing,2025,Asia-Pacific Software Engineering Conference,2b-PEFT; 3i-Routing
+doi_10_1109_TCAD_2024_3483089,RTLCoder: Fully Open-Source and Efficient LLM-Assisted RTL Code Generation Technique,2025,IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,2b-PEFT; 1b-DataQuality
+doi_10_3390_sym17081325,Symmetry-Aware Code Generation: Distilling Pseudocode Reasoning for Lightweight Deployment of Large Language Models,2025,Symmetry,2c-Distillation
+2602_17684,CodeScaler: Scaling Code LLM Training and Test-Time Inference via Execution-Free Reward Models,2026,arXiv preprint,2f-RLTraining; 3j-Sampling

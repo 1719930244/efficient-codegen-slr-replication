@@ -1,0 +1,26 @@
+Key,Title,Year,Venue,Categories
+2312_02418,Decoding Data Quality via Synthetic Corruptions: Embedding-guided Pruning of Code Data,2023,arXiv preprint,1b-DataQuality; 1a-DataSelection
+2306_08568,WizardCoder: Empowering Code LLMs with Evol-Instruct,2024,ICLR,1b-DataQuality
+2306_11644,Textbooks Are All You Need,2024,arXiv preprint,1a-DataSelection; 1b-DataQuality
+2311_14904,LLM-Assisted Code Cleaning For Training Accurate Code Generators,2024,ICLR,1b-DataQuality
+2312_14187,WaveCoder: Widespread And Versatile Enhanced Instruction Tuning with Refined Data Generation,2024,arXiv preprint,1b-DataQuality
+2407_00434,Brevity is the soul of wit: Pruning long files for code generation,2024,arXiv preprint,1a-DataSelection
+2407_05040,"Code Less, Align More: Efficient LLM Fine-tuning for Code Generation with Data Pruning",2024,arXiv preprint,1a-DataSelection; 2b-PEFT
+2409_02326,Arctic-SnowCoder: Demystifying High-Quality Data in Code Pretraining,2024,arXiv preprint,1a-DataSelection; 1b-DataQuality
+2410_18194,ZIP-FIT: Embedding-Free Data Selection via Compression-Based Alignment,2024,arXiv preprint,1a-DataSelection
+2411_00005,Mastering the Craft of Data Synthesis for CodeLLMs,2024,NAACL,1b-DataQuality
+2411_04905,OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models,2024,arXiv preprint,1a-DataSelection; 1b-DataQuality
+2503_02951,"KodCode: A Diverse, Challenging, and Verifiable Synthetic Dataset for Coding",2024,ACL,1b-DataQuality
+Jiang2024seed,SEED: Customize Large Language Models with Sample-Efficient Adaptation for Code Generation,2024,arXiv preprint,1a-DataSelection
+arxiv_2403_00046,Exploring Data-Efficient Adaptation of Large Language Models for Code Generation,2024,ACM Transactions on Software Engineering and Methodology,1a-DataSelection
+2503_17793,Every Sample Matters: Leveraging Mixture-of-Experts and High-Quality Data for Efficient and Accurate Code LLM,2025,arXiv preprint,1a-DataSelection; 1b-DataQuality; 2a-EfficientPretrain
+2504_00019,ObscuraCoder: Powering Efficient Code LM Pre-Training Via Obfuscation Grounding,2025,arXiv preprint,1b-DataQuality; 2a-EfficientPretrain
+2504_12687,Data-efficient LLM Fine-tuning for Code Generation,2025,IJCNN,1a-DataSelection; 2a-EfficientPretrain
+2505_02881,Rewriting Pre-Training Data Boosts LLM Performance in Math and Code,2025,arXiv preprint,1b-DataQuality
+2506_03524,Seed-Coder: Let the Code Model Curate Data for Itself,2025,arXiv preprint,1a-DataSelection; 1b-DataQuality
+2509_07858,SCoder: Iterative Self-Distillation for Bootstrapping Small-Scale Data Synthesizers to Empower Code LLMs,2025,arXiv preprint,1b-DataQuality; 2c-Distillation
+2511_06307,DRIVE: Data Curation Best Practices for Reinforcement Learning with Verifiable Reward in Competitive Code Generation,2025,arXiv preprint,1a-DataSelection; 1b-DataQuality
+arxiv_2507_02378,Efficient Code LLM Training via Distribution-Consistent and Diversity-Aware Data Selection,2025,arXiv preprint,1a-DataSelection
+arxiv_2512_24570,On the Effectiveness of Training Data Optimization for LLM-based Code Generation: An Empirical Study,2025,arXiv preprint,1a-DataSelection; 1b-DataQuality
+doi_10_1109_TCAD_2024_3483089,RTLCoder: Fully Open-Source and Efficient LLM-Assisted RTL Code Generation Technique,2025,IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,2b-PEFT; 1b-DataQuality
+2601_21115,Multi-task Code LLMs: Data Mix or Model Merge?,2026,arXiv preprint,1d-DataMixing

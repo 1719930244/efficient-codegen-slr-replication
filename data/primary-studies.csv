@@ -1,0 +1,125 @@
+ID,Key,Title,Year,Venue,Venue Type,Source,RQ,Primary Categories,Secondary Categories,QA Total
+S001,arxiv_2004_13651,Fast and Memory-Efficient Neural Code Completion,2020,IEEE Working Conference on Mining Software Repositories,conference,snowball-backward,RQ3,3b-EarlyExit; 3l-CodeSpecific,,3
+S002,2204_09877,Non-autoregressive Model for Full-line Code Completion,2022,arXiv preprint,preprint,database,RQ3,3c-NAR,,3
+S003,2303_05378,Greener yet Powerful: Taming Large Code Generation Models with Quantization,2023,arXiv preprint,preprint,database,RQ3,3g-PTQ,,3
+S004,2303_07457,AMOM: Adaptive Masking over Masking for Conditional Masked Language Model,2023,AAAI,conference,database,RQ3,3c-NAR,,3.5
+S005,2305_11860,Let's Sample Step by Step: Adaptive-Consistency for Efficient Reasoning and Coding with LLMs,2023,EMNLP,conference,database,RQ3,3j-Sampling,,3.5
+S006,2308_10462,Exploring Parameter-Efficient Fine-Tuning Techniques for Code Generation with Large Language Models,2023,ACM Trans. Softw. Eng. Methodol.,journal,database,RQ2; RQ4,2b-PEFT; 4b-EmpiricalStudy,,3.5
+S007,2309_14021,LORD: Low Rank Decomposition Of Monolingual Code LLMs For One-Shot Compression,2023,arXiv preprint,preprint,database,RQ3,3h-ModelPruning,,3
+S008,2310_18628,Personalised Distillation: Empowering Open-Sourced LLMs with Adaptive Learning for Code Generation,2023,arXiv preprint,preprint,database,RQ2,2c-Distillation,,3
+S009,2312_02418,Decoding Data Quality via Synthetic Corruptions: Embedding-guided Pruning of Code Data,2023,arXiv preprint,preprint,database,RQ1,1b-DataQuality; 1a-DataSelection,,3
+S010,2312_08583,ZeroQuant(4+2): Redefining LLMs Quantization with a New FP6-Centric Strategy for Diverse Generative Tasks,2023,arXiv preprint,preprint,database,RQ3,3g-PTQ,,3
+S011,2312_11511,ComplexityNet: Increasing LLM Inference Efficiency by Learning Task Complexity,2023,arXiv preprint,preprint,database,RQ3,3i-Routing,,3
+S012,2312_13010,AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation,2023,arXiv preprint,preprint,database,RQ3,3k-MultiAgent,,3.5
+S013,arxiv_2304_05216,Towards Efficient Fine-Tuning of Pre-trained Code Models: An Experimental Study and Beyond,2023,International Symposium on Software Testing and Analysis,conference,snowball-backward,RQ2; RQ4,2b-PEFT; 4b-EmpiricalStudy,,3
+S014,arxiv_2312_05562,Chain-of-Thought in Neural Code Generation: From and for Lightweight Language Models,2023,IEEE Transactions on Software Engineering,journal,snowball-forward,RQ2; RQ3,3o-CoTOpt; 2c-Distillation,,3.5
+S015,doi_10_1109_ASE56229_2023_00125,An Empirical Study of Parameter-Efficient Fine-Tuning Methods for Pre-Trained Code Models,2023,International Conference on Automated Software Engineering,conference,snowball-backward,RQ2; RQ4,2b-PEFT; 4b-EmpiricalStudy,,3
+S016,doi_10_1109_TSE_2023_3267446,MultiPL-E: A Scalable and Polyglot Approach to Benchmarking Neural Code Generation,2023,IEEE Transactions on Software Engineering,journal,snowball-backward,RQ4,4a-Benchmark,,4
+S017,2306_08568,WizardCoder: Empowering Code LLMs with Evol-Instruct,2024,ICLR,conference,supplementary-rq1,RQ1,1b-DataQuality,,3
+S018,2306_11644,Textbooks Are All You Need,2024,arXiv preprint,preprint,supplementary-rq1,RQ1,1a-DataSelection; 1b-DataQuality,,3
+S019,2311_14904,LLM-Assisted Code Cleaning For Training Accurate Code Generators,2024,ICLR,conference,supplementary-rq1,RQ1,1b-DataQuality,,3
+S020,2312_14187,WaveCoder: Widespread And Versatile Enhanced Instruction Tuning with Refined Data Generation,2024,arXiv preprint,preprint,supplementary-rq1,RQ1,1b-DataQuality,,3
+S021,2401_00788,Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models,2024,arXiv preprint,preprint,database,RQ2; RQ4,2b-PEFT; 4b-EmpiricalStudy,,3.5
+S022,2401_09964,When Neural Code Completion Models Size up the Situation: Attaining Cheaper and Faster Completion through Dynamic Model Inference,2024,ICSE,conference,database,RQ3,3b-EarlyExit,,3.5
+S023,2402_01035,Getting the most out of your tokenizer for pre-training and domain adaptation,2024,ICML,conference,database,RQ2,2a-EfficientPretrain,,3.5
+S024,2402_14323,REPOFUSE: Repository-Level Code Completion with Fused Dual Context,2024,arXiv preprint,preprint,database,RQ3,3e-ContextPruning,,3.5
+S025,2403_10059,Repoformer: Selective Retrieval for Repository-Level Code Completion,2024,ICML,conference,database,RQ3,3e-ContextPruning,,4
+S026,2404_16333,AI Coders Are Among Us: Rethinking Programming Language Grammar Towards Efficient Code Generation,2024,ISSTA,conference,database,RQ3,3l-CodeSpecific,,3.5
+S027,2405_15208,Decoding at the Speed of Thought: Harnessing Parallel Decoding of Lexical Units for LLMs,2024,LREC/COLING,conference,database,RQ3,3a-SpeculativeDecoding,,3.5
+S028,2405_15842,Model Cascading for Code: A Cascaded Black-Box Multi-Model Framework for Cost-Efficient Code Completion with Self-Testing,2024,IJCNN,conference,database,RQ3,3i-Routing,,3
+S029,2406_10263,A Lightweight Framework for Adaptive Retrieval In Code Completion With Critique Model,2024,arXiv preprint,preprint,database,RQ3,3e-ContextPruning,,2.5
+S030,2406_18294,Hierarchical Context Pruning: Optimizing Real-World Code Completion with Repository-Level Pretrained Code LLMs,2024,AAAI,conference,database,RQ3,3e-ContextPruning,,3.5
+S031,2407_00434,Brevity is the soul of wit: Pruning long files for code generation,2024,arXiv preprint,preprint,database,RQ1,1a-DataSelection,3e-ContextPruning,3
+S032,2407_03157,Let the Code LLM Edit Itself When You Edit the Code,2024,ICLR,conference,database,RQ3,3f-KVCache,,3.5
+S033,2407_05040,"Code Less, Align More: Efficient LLM Fine-tuning for Code Generation with Data Pruning",2024,arXiv preprint,preprint,database,RQ1; RQ2,1a-DataSelection; 2b-PEFT,,3
+S034,2407_20042,When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention,2024,ISSTA,conference,database,RQ3,3b-EarlyExit,,3.5
+S035,2408_03680,Smaller but Better: Self-Paced Knowledge Distillation for Lightweight yet Effective LCMs,2024,Proc. ACM Softw. Eng.,journal,database,RQ2,2c-Distillation; 2d-CurriculumLearning,,3.5
+S036,2408_11198,Automated Prompt Engineering for Cost-Effective Code Generation Using Evolutionary Algorithm,2024,arXiv preprint,preprint,database,RQ3,3n-PromptEng,,3
+S037,2409_02326,Arctic-SnowCoder: Demystifying High-Quality Data in Code Pretraining,2024,arXiv preprint,preprint,supplementary-rq1,RQ1,1a-DataSelection; 1b-DataQuality,,3
+S038,2409_16416,Selection of Prompt Engineering Techniques for Code Generation through Predicting Code Complexity,2024,arXiv preprint,preprint,database,RQ3,3n-PromptEng,,3
+S039,2410_08391,KV Prediction for Improved Time to First Token,2024,arXiv preprint,preprint,database,RQ3,3f-KVCache,,3
+S040,2410_14766,Evaluating Quantized Large Language Models for Code Generation on Low-Resource Language Benchmarks,2024,J. Comput. Lang.,journal,database,RQ3; RQ4,3g-PTQ; 4b-EmpiricalStudy,,3.5
+S041,2410_18194,ZIP-FIT: Embedding-Free Data Selection via Compression-Based Alignment,2024,arXiv preprint,preprint,database,RQ1,1a-DataSelection,,3
+S042,2410_22480,Scaling LLM Inference with Optimized Sample Compute Allocation,2024,arXiv preprint,preprint,database,RQ3,3j-Sampling,,3
+S043,2410_22793,Less is More: DocString Compression in Code Generation,2024,arXiv preprint,preprint,database,RQ3,3d-PromptCompression,,3
+S044,2411_00005,Mastering the Craft of Data Synthesis for CodeLLMs,2024,NAACL,conference,supplementary-rq1,RQ1,1b-DataQuality,,3
+S045,2411_04905,OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models,2024,arXiv preprint,preprint,supplementary-rq1,RQ1,1a-DataSelection; 1b-DataQuality,,3
+S046,2411_05010,Scattered Forest Search: Smarter Code Space Exploration with LLMs,2024,arXiv preprint,preprint,database,RQ3,3j-Sampling,,3
+S047,2411_06680,"Anchor Attention, Small Cache: Code Generation with Large Language Models",2024,IEEE Trans. Software Eng.,journal,database,RQ3,3f-KVCache,,3.5
+S048,2411_11055,FastDraft: How to Train Your Draft,2024,ACL,conference,database,RQ3,3a-SpeculativeDecoding,,3.5
+S049,2412_15441,Insights into resource utilization of code small language models serving with runtime engines and execution providers,2024,J. Syst. Softw.,journal,database,RQ3; RQ4,4b-EmpiricalStudy; 3m-SystemOpt,,3
+S050,2412_16589,Improving FIM Code Completions via Context \& Curriculum Based Learning,2024,WSDM,conference,database,RQ2,2d-CurriculumLearning; 2b-PEFT,,3.5
+S051,2503_02951,"KodCode: A Diverse, Challenging, and Verifiable Synthetic Dataset for Coding",2024,ACL,conference,supplementary-rq1,RQ1,1b-DataQuality,,3
+S052,Jiang2024seed,SEED: Customize Large Language Models with Sample-Efficient Adaptation for Code Generation,2024,arXiv preprint,preprint,supplementary-rq1,RQ1,1a-DataSelection,,3
+S053,arxiv_2403_00046,Exploring Data-Efficient Adaptation of Large Language Models for Code Generation,2024,ACM Transactions on Software Engineering and Methodology,journal,snowball-forward,RQ1,1a-DataSelection,,3.5
+S054,arxiv_2404_02183,Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization,2024,arXiv preprint,preprint,snowball-backward,RQ3,3k-MultiAgent,,2.5
+S055,arxiv_2408_06450,Evaluating Language Models for Efficient Code Generation,2024,arXiv preprint,preprint,snowball-backward,RQ4,4b-EmpiricalStudy,,3
+S056,arxiv_2410_00558,AMR-Evol: Adaptive Modular Response Evolution Elicits Better Knowledge Distillation for Large Language Models in Code Generation,2024,Conference on Empirical Methods in Natural Language Processing,conference,snowball-forward,RQ2,2c-Distillation,,4
+S057,doi_10_48550_arXiv_2402_07844,Mercury: An Efficiency Benchmark for LLM Code Synthesis,2024,arXiv preprint,preprint,snowball-backward,RQ4,4a-Benchmark,,3.5
+S058,ss_Zhang2024llm,LLM-Cloud Complete: Leveraging Cloud Computing for Efficient Large Language Model-based Code Completion,2024,Journal of Artificial Intelligence General science (JAIGS) ISSN:3006-4023,journal,database,RQ3,3m-SystemOpt,,3.5
+S059,2501_01054,Dynamic Scaling of Unit Tests for Code Reward Modeling,2025,ACL,conference,database,RQ2,2f-RLTraining,3j-Sampling,3.5
+S060,2501_05248,Deriving Coding-Specific Sub-Models from LLMs using Resource-Efficient Pruning,2025,LLM4Code@ICSE,conference,database,RQ3,3h-ModelPruning,,3.5
+S061,2501_05899,Prompt engineering and its implications on the energy consumption of Large Language Models,2025,GREENS@ICSE,conference,database,RQ3; RQ4,3n-PromptEng; 4b-EmpiricalStudy,,3.5
+S062,2501_11006,GREEN-CODE: Learning to Optimize Energy Efficiency in LLM-based Code Generation,2025,"IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing",conference,database,RQ3,3b-EarlyExit,,3.5
+S063,2501_18653,"Cogito, ergo sum: A Neurobiologically-Inspired Cognition-Memory-Growth System for Code Generation",2025,arXiv preprint,preprint,database,RQ3,3k-MultiAgent,,2.5
+S064,2501_18657,Enhancing Large Language Model Efficiencyvia Symbolic Compression: A Formal Approach Towards Interpretability,2025,arXiv preprint,preprint,database,RQ2; RQ3,3d-PromptCompression; 2b-PEFT,,3
+S065,2502_17139,FastCoder: Accelerating Repository-level Code Generation via Efficient Retrieval and Verification,2025,ASE,conference,database,RQ3,3e-ContextPruning; 3l-CodeSpecific,,4
+S066,2503_07103,Evaluating the Impact of Post-Training Quantization on Large Language Models for Code Generation,2025,arXiv preprint,preprint,database,RQ3; RQ4,3g-PTQ; 4b-EmpiricalStudy,,2.5
+S067,2503_17793,Every Sample Matters: Leveraging Mixture-of-Experts and High-Quality Data for Efficient and Accurate Code LLM,2025,arXiv preprint,preprint,database,RQ1; RQ2,1a-DataSelection; 1b-DataQuality; 2a-EfficientPretrain,,3
+S068,2503_19876,SLA-Awareness for AI-assisted coding,2025,arXiv preprint,preprint,database,RQ3,3m-SystemOpt,,3
+S069,2504_00019,ObscuraCoder: Powering Efficient Code LM Pre-Training Via Obfuscation Grounding,2025,arXiv preprint,preprint,supplementary-rq1,RQ1; RQ2,1b-DataQuality; 2a-EfficientPretrain,,3
+S070,2504_03723,VFlow: Discovering Optimal Agentic Workflows for Verilog Generation,2025,arXiv preprint,preprint,database,RQ3,3k-MultiAgent,,3.5
+S071,2504_12687,Data-efficient LLM Fine-tuning for Code Generation,2025,IJCNN,conference,database,RQ1; RQ2,1a-DataSelection; 2a-EfficientPretrain,,3.5
+S072,2504_14560,ReasoningV: Efficient Verilog Code Generation with Adaptive Hybrid Reasoning Model,2025,arXiv preprint,preprint,database,RQ2; RQ3,3o-CoTOpt; 2b-PEFT,,3
+S073,2505_01572,PipeSpec: Breaking Stage Dependencies in Hierarchical LLM Decoding,2025,ACL,conference,database,RQ3,3a-SpeculativeDecoding,,3.5
+S074,2505_02881,Rewriting Pre-Training Data Boosts LLM Performance in Math and Code,2025,arXiv preprint,preprint,supplementary-rq1,RQ1,1b-DataQuality,,3
+S075,2505_14174,"Cheaper, Better, Faster, Stronger: Robust Text-to-SQL without Chain-of-Thought or Fine-Tuning",2025,arXiv preprint,preprint,database,RQ3,3n-PromptEng; 3j-Sampling,,3
+S076,2505_20182,An Empirical Study on Strong-Weak Model Collaboration for Repo-level Code Generation,2025,EMNLP,conference,database,RQ3,3i-Routing,,3
+S077,2506_01604,Exploring Prompt Patterns in AI-Assisted Code Generation: Towards Faster and More Effective Developer-AI Collaboration,2025,International Conference on Multimodal Interaction,conference,database,RQ3; RQ4,3n-PromptEng; 4b-EmpiricalStudy,,3.5
+S078,2506_03524,Seed-Coder: Let the Code Model Curate Data for Itself,2025,arXiv preprint,preprint,supplementary-rq1,RQ1,1a-DataSelection; 1b-DataQuality,,3
+S079,2506_10525,AdaptiveLLM: A Framework for Selecting Optimal Cost-Efficient LLM for Code-Generation Based on CoT Length,2025,Internetware,conference,database,RQ3,3i-Routing,,3
+S080,2506_18796,Context-Aware CodeLLM Eviction for AI-assisted Coding,2025,ASE,conference,database,RQ3,3m-SystemOpt,,3.5
+S081,2508_03258,SmartLLMs Scheduler: A Framework for Cost-Effective LLMs Utilization,2025,arXiv preprint,preprint,database,RQ3,3m-SystemOpt; 3i-Routing,,2.5
+S082,2508_05970,Impact-driven Context Filtering For Cross-file Code Completion,2025,arXiv preprint,preprint,database,RQ3,3e-ContextPruning,,2.5
+S083,2508_13666,The Hidden Cost of Readability: How Code Formatting Silently Consumes Your LLM Budget,2025,arXiv preprint,preprint,database,RQ3; RQ4,3l-CodeSpecific; 4b-EmpiricalStudy,,2.5
+S084,2509_07858,SCoder: Iterative Self-Distillation for Bootstrapping Small-Scale Data Synthesizers to Empower Code LLMs,2025,arXiv preprint,preprint,supplementary-rq1,RQ1; RQ2,1b-DataQuality; 2c-Distillation,,3
+S085,2509_09947,Toward Green Code: Prompting Small Language Models for Energy-Efficient Code Generation,2025,FLLM,conference,database,RQ3; RQ4,3n-PromptEng; 4b-EmpiricalStudy,,3.5
+S086,2509_12159,EfficientUICoder: Efficient MLLM-based UI Code Generation via Input and Output Token Compression,2025,arXiv preprint,preprint,database,RQ3,3d-PromptCompression; 3l-CodeSpecific,,3
+S087,2509_14093,Reasoning Efficiently Through Adaptive Chain-of-Thought Compression: A Self-Optimizing Framework,2025,arXiv preprint,preprint,database,RQ3,3o-CoTOpt,,2.5
+S088,2509_17489,MapCoder-Lite: Distilling Multi-Agent Coding into a Single Small LLM,2025,arXiv preprint,preprint,database,RQ2,2c-Distillation,,3.5
+S089,2509_25243,Reinforcement Learning-Guided Chain-of-Draft for Token-Efficient Code Generation,2025,arXiv preprint,preprint,database,RQ2; RQ3,3o-CoTOpt; 2f-RLTraining,,3
+S090,2510_00446,LongCodeZip: Compress Long Context for Code Language Models,2025,ASE,conference,database,RQ3,3d-PromptCompression,,4
+S091,2510_18165,Saber: An Efficient Sampling with Adaptive Acceleration and Backtracking Enhanced Remasking for Diffusion Language Model,2025,arXiv preprint,preprint,database,RQ3,3c-NAR; 3j-Sampling,,3.5
+S092,2510_19644,LLavaCode: Compressed Code Representations for Retrieval-Augmented Code Generation,2025,arXiv preprint,preprint,database,RQ3,3e-ContextPruning,,3
+S093,2511_06307,DRIVE: Data Curation Best Practices for Reinforcement Learning with Verifiable Reward in Competitive Code Generation,2025,arXiv preprint,preprint,supplementary-rq1,RQ1,1a-DataSelection; 1b-DataQuality,,3
+S094,2511_23321,Chart2Code-MoLA: Efficient Multi-Modal Code Generation via Adaptive Expert Routing,2025,Asia-Pacific Software Engineering Conference,conference,database,RQ2; RQ3,2b-PEFT; 3i-Routing,,3.5
+S095,2512_08266,Token Sugar: Making Source Code Sweeter for LLMs through Token-Efficient Shorthand,2025,ASE,conference,database,RQ3,3l-CodeSpecific,,4
+S096,2512_14048,Intention Chain-of-Thought Prompting with Dynamic Routing for Code Generation,2025,arXiv preprint,preprint,database,RQ3,3o-CoTOpt; 3i-Routing,,3
+S097,2512_23367,Post-Training Quantization of OpenPangu Models for Efficient Deployment on Atlas A2,2025,arXiv preprint,preprint,database,RQ3,3g-PTQ,,3
+S098,Giagnorio2025quantizing,Quantizing Large Language Models for Code Generation: A Differentiated Replication,2025,Zenodo,journal,database,RQ3; RQ4,3g-PTQ; 4b-EmpiricalStudy,,3.5
+S099,He2025codepromptzip,CODEPROMPTZIP: Code-specific Prompt Compression for Retrieval-Augmented Generation in Coding Tasks with LMs,2025,arXiv preprint,preprint,database,RQ3,3d-PromptCompression,,3.5
+S100,Zhao2025codeswift,CodeSwift: Accelerating LLM Inference for Efficient Code Generation,2025,arXiv preprint,preprint,database,RQ3,3l-CodeSpecific,,3
+S101,arxiv_2505_02133,"Enhancing LLM Code Generation: A Systematic Evaluation of Multi-Agent Collaboration and Runtime Debugging for Improved Accuracy, Reliability, and Latency",2025,arXiv preprint,preprint,snowball-backward,RQ3; RQ4,3k-MultiAgent; 4b-EmpiricalStudy,,3
+S102,arxiv_2505_14200,Capturing the Effects of Quantization on Trojans in Code LLMs,2025,arXiv preprint,preprint,snowball-forward,RQ3; RQ4,3g-PTQ; 4b-EmpiricalStudy,,3
+S103,arxiv_2506_22776,Smaller = Weaker? Benchmarking Robustness of Quantized LLMs in Code Generation,2025,arXiv preprint,preprint,snowball-forward,RQ3; RQ4,3g-PTQ; 4b-EmpiricalStudy,,3
+S104,arxiv_2507_02378,Efficient Code LLM Training via Distribution-Consistent and Diversity-Aware Data Selection,2025,arXiv preprint,preprint,snowball-forward,RQ1,1a-DataSelection,,3
+S105,arxiv_2508_08332,Energy-Aware Code Generation with LLMs: Benchmarking Small vs. Large Language Models for Sustainable AI Programming,2025,2025 3rd International Conference on Foundation and Large Language Models (FLLM),conference,snowball-backward,RQ4,4b-EmpiricalStudy,,3.5
+S106,arxiv_2512_24570,On the Effectiveness of Training Data Optimization for LLM-based Code Generation: An Empirical Study,2025,arXiv preprint,preprint,snowball-forward,RQ1,1a-DataSelection; 1b-DataQuality,,2.5
+S107,doi_10_1109_TCAD_2024_3483089,RTLCoder: Fully Open-Source and Efficient LLM-Assisted RTL Code Generation Technique,2025,IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems,journal,snowball-backward,RQ1; RQ2,2b-PEFT; 1b-DataQuality,,4
+S108,doi_10_3390_sym17081325,Symmetry-Aware Code Generation: Distilling Pseudocode Reasoning for Lightweight Deployment of Large Language Models,2025,Symmetry,journal,snowball-forward,RQ2,2c-Distillation,,3.5
+S109,ieee_Morte2025efficient,Efficient LLM Tuning: A Multi-Objective Approach for Code Generation,2025,WCNPS,,supplementary,RQ3,3j-Sampling,,
+S110,ieee_Rohilla2025graphmoe,Graph-MoE: A Graph-Based LLM Framework for Scalable and Efficient Code Completion in Integrated Development Environment,2025,INCET,,supplementary,RQ3,3i-Routing,,
+S111,2601_09703,ShortCoder: Knowledge-Augmented Syntax Optimization for Token-Efficient Code Generation,2026,arXiv preprint,preprint,database,RQ3,3l-CodeSpecific; 3d-PromptCompression,,3.5
+S112,2601_20223,Control Models for In-IDE Code Completion,2026,arXiv preprint,preprint,database,RQ3,3i-Routing,,3
+S113,2601_21115,Multi-task Code LLMs: Data Mix or Model Merge?,2026,arXiv preprint,preprint,supplementary-rq1,RQ1,1d-DataMixing,,3
+S114,2601_21469,Adaptive Confidence Gating in Multi-Agent Collaboration for Efficient and Optimized Code Generation,2026,arXiv preprint,preprint,database,RQ3,3k-MultiAgent,,3
+S115,2601_22132,"Pay for Hints, Not Answers: LLM Shepherding for Cost-Efficient Inference",2026,arXiv preprint,preprint,database,RQ3,3i-Routing,,3
+S116,2601_23254,GrepRAG: An Empirical Study and Optimization of Grep-Like Retrieval for Code Completion,2026,arXiv preprint,preprint,database,RQ3,3e-ContextPruning,,2.5
+S117,2602_02597,ContextEvolve: Multi-Agent Context Compression for Systems Code Optimization,2026,arXiv preprint,preprint,database,RQ3,3k-MultiAgent,,2.5
+S118,2602_05712,Towards Green AI: Decoding the Energy of LLM Inference in Software Development,2026,arXiv preprint,preprint,database,RQ3; RQ4,4b-EmpiricalStudy; 3b-EarlyExit,,3
+S119,2602_07670,Surprisal-Guided Selection: Compute-Optimal Test-Time Strategies for Execution-Grounded Code Generation,2026,arXiv preprint,preprint,database,RQ3,3j-Sampling,,3
+S120,2602_15843,The Perplexity Paradox: Why Code Compresses Better Than Math in LLM Prompts,2026,arXiv preprint,preprint,database,RQ3,3d-PromptCompression,,3
+S121,2602_17100,AgentConductor: Topology Evolution for Multi-Agent Competition-Level Code Generation,2026,arXiv preprint,preprint,database,RQ3,3k-MultiAgent,,3
+S122,2602_17684,CodeScaler: Scaling Code LLM Training and Test-Time Inference via Execution-Free Reward Models,2026,arXiv preprint,preprint,database,RQ2; RQ3,2f-RLTraining; 3j-Sampling,,3
+S123,2602_21800,An Evaluation of Context Length Extrapolation in Long Code via Positional Embeddings and Efficient Attention,2026,arXiv preprint,preprint,database,RQ4,4b-EmpiricalStudy,,3
+S124,2603_04646,HDLFORGE: A Two-Stage Multi-Agent Framework for Efficient Verilog Code Generation with Adaptive Model Escalation,2026,arXiv preprint,preprint,database,RQ3,3i-Routing,,2.5

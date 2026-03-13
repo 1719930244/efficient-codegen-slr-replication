@@ -1,0 +1,56 @@
+{
+  "total_studies": 124,
+  "year_distribution": {
+    "2020": 1,
+    "2022": 1,
+    "2023": 14,
+    "2024": 42,
+    "2025": 52,
+    "2026": 14
+  },
+  "source_distribution": {
+    "snowball-backward": 10,
+    "database": 89,
+    "snowball-forward": 8,
+    "supplementary-rq1": 15,
+    "supplementary": 2
+  },
+  "venue_type_distribution": {
+    "conference": 37,
+    "preprint": 73,
+    "journal": 12
+  },
+  "rq_distribution": {
+    "RQ3": 82,
+    "RQ2": 24,
+    "RQ4": 21,
+    "RQ1": 25
+  },
+  "category_distribution": {
+    "1a": 15,
+    "1b": 17,
+    "1d": 1,
+    "2a": 4,
+    "2b": 10,
+    "2c": 7,
+    "2d": 2,
+    "2f": 3,
+    "3a": 3,
+    "3b": 5,
+    "3c": 3,
+    "3d": 7,
+    "3e": 8,
+    "3f": 3,
+    "3g": 8,
+    "3h": 2,
+    "3i": 11,
+    "3j": 8,
+    "3k": 8,
+    "3l": 8,
+    "3m": 5,
+    "3n": 6,
+    "3o": 5,
+    "4a": 2,
+    "4b": 19
+  }
+}
