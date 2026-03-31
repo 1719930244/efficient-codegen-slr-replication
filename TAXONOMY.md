@@ -1,6 +1,6 @@
 # Classification Taxonomy
 
-This document describes the 24-category classification taxonomy used to organize 124 primary studies on efficiency in LLM-based code generation.
+This document describes the 24-category classification taxonomy used to organize 122 primary studies on efficiency in LLM-based code generation.
 
 ## Organizing Principle
 
@@ -9,7 +9,7 @@ The taxonomy follows the **LLM lifecycle**, from data preparation through traini
 ```
 Lifecycle Stage          Research Question    Categories
 ─────────────────────────────────────────────────────────
-Data Preparation         RQ1                  1a, 1b, 1d
+Data Preparation         RQ1                  1a, 1b
 Model Training           RQ2                  2a-2f
 Inference Optimization   RQ3                  3a-3o
 Evaluation               RQ4                  4a, 4b
@@ -21,14 +21,11 @@ Evaluation               RQ4                  4a, 4b
 
 How do data-level strategies improve the efficiency of training code LLMs?
 
-### 1a - Data Selection (15 studies)
+### 1a - Data Selection (9 studies)
 Techniques for selecting high-quality subsets from large code corpora to reduce training cost while maintaining model quality. Includes influence-function-based pruning, embedding-based selection, and task-aware filtering.
 
-### 1b - Data Quality Assessment & Synthesis (17 studies)
-Methods for evaluating training data quality and generating synthetic data when natural corpora are insufficient. Includes corruption-based quality scoring, LLM-assisted data refinement, and domain-specific synthesis for low-resource languages (e.g., Verilog, RTL).
-
-### 1d - Data Mixing (1 study)
-Strategies for combining data from multiple sources, languages, or domains to optimize training data composition.
+### 1b - Data Quality Assessment & Synthesis (4 studies)
+Methods for evaluating training data quality and generating synthetic data when natural corpora are insufficient. Includes corruption-based quality scoring, LLM-assisted data refinement, and domain-specific synthesis for low-resource languages.
 
 ---
 
@@ -36,19 +33,19 @@ Strategies for combining data from multiple sources, languages, or domains to op
 
 How do training-level techniques reduce the cost of building code LLMs?
 
-### 2a - Efficient Pre-training (4 studies)
+### 2a - Efficient Pre-training (3 studies)
 Architectural and scheduling optimizations that reduce pre-training cost. Includes code-aware tokenizers, dynamic packing, and Mixture-of-Experts routing during training.
 
 ### 2b - Parameter-Efficient Fine-Tuning (10 studies)
 Methods that update only a small fraction of model parameters during fine-tuning. Includes LoRA, QLoRA, prefix tuning, adapters, and domain-specific PEFT adaptations for code tasks.
 
-### 2c - Knowledge Distillation (7 studies)
-Transferring capabilities from large teacher models to smaller student models. Includes standard distillation, agent-aware distillation (compressing multi-agent pipelines), and reasoning distillation (transferring chain-of-thought capabilities).
+### 2c - Knowledge Distillation (6 studies)
+Transferring capabilities from large teacher models to smaller student models. Includes standard distillation, agent-aware distillation, and reasoning distillation.
 
 ### 2d - Curriculum Learning (2 studies)
 Organizing training data from simple to complex examples to improve convergence speed. Includes difficulty-based ordering and context-progressive training for fill-in-the-middle tasks.
 
-### 2f - RL-based Training (3 studies)
+### 2f - RL-based Training (10 studies)
 Reinforcement learning techniques applied during training. Distinguishes between RL for generation process efficiency (reducing token/compute cost during inference) and RL for generated code efficiency (improving runtime performance of output code).
 
 ---
@@ -74,7 +71,7 @@ Terminating computation at intermediate layers when confidence is sufficient, re
 #### 3c - Non-Autoregressive Generation (3 studies)
 Generating multiple tokens in parallel rather than one at a time, trading some accuracy for significant latency reduction.
 
-#### 3g - Post-Training Quantization (8 studies)
+#### 3g - Post-Training Quantization (7 studies)
 Reducing numerical precision of model weights (e.g., from 16-bit to 4-bit) to decrease memory consumption and potentially improve throughput.
 
 #### 3h - Model Pruning (2 studies)
@@ -88,27 +85,27 @@ Optimizing the key-value cache used during autoregressive generation. Includes i
 #### 3d - Prompt Compression (7 studies)
 Reducing input token counts while preserving information needed for accurate generation. Includes structure-aware compression, AST-level importance weighting, and symbolic token replacement.
 
-#### 3e - Context Pruning (9 studies)
+#### 3e - Context Pruning (8 studies)
 Selecting relevant context from repositories for code completion. Includes hierarchical pruning, retrieval-aware skipping, and dependency-based context filtering.
 
-#### 3l - Code-Specific Optimization (8 studies)
+#### 3l - Code-Specific Optimization (9 studies)
 Leveraging properties unique to code (syntax, structure, formatting conventions) for optimization. Includes grammar redesign for LLM consumption and formatting-aware token reduction.
 
-#### 3n - Prompt Engineering (6 studies)
+#### 3n - Prompt Engineering (8 studies)
 Optimizing prompt design for efficiency. Includes evolutionary prompt optimization, difficulty-based prompt strategy selection, and energy-aware prompt evaluation.
 
 #### 3o - Chain-of-Thought Optimization (5 studies)
 Reducing the token cost of reasoning chains while maintaining their benefits. Includes adaptive detail adjustment, compressed reasoning drafts, and reasoning distillation to smaller models.
 
-#### 3j - Adaptive Sampling (9 studies)
+#### 3j - Adaptive Sampling (8 studies)
 Optimizing test-time compute allocation across generated candidates. Includes confidence-based early stopping, compute-optimal allocation based on difficulty, and multi-objective hyperparameter tuning.
 
 ### Reducing Invocation Count
 
 #### 3i - Model Routing (11 studies)
-Directing queries to appropriately-sized models based on task complexity. Includes complexity-based routing, cascading with self-testing, hint-based shepherding, and control models that suppress unnecessary invocations.
+Directing queries to appropriately-sized models based on task complexity. Includes complexity-based routing, cascading with self-testing, shepherding based on hints, and control models that suppress unnecessary invocations.
 
-#### 3k - Multi-Agent Orchestration (8 studies)
+#### 3k - Multi-Agent Orchestration (11 studies)
 Optimizing multi-agent code generation pipelines. Includes topology optimization via RL, confidence-based agent gating, and fast/slow reasoning separation.
 
 ### System-Level
@@ -122,8 +119,8 @@ Deployment infrastructure optimization. Includes SLA-aware batch sizing, context
 
 How is efficiency evaluated in LLM-based code generation research?
 
-### 4a - Benchmark Design (2 studies)
+### 4a - Benchmark Design (3 studies)
 Design and development of benchmarks that include efficiency dimensions.
 
-### 4b - Empirical Study (19 studies)
+### 4b - Empirical Study (18 studies)
 Systematic empirical evaluations that compare techniques, establish baselines, or analyze evaluation practices across the field. Includes quantization evaluations, PEFT comparisons, energy measurements, and prompt interaction studies.
