@@ -37,15 +37,7 @@
 - 关键数字: 122 primary studies, 26,265 records screened, 7 databases, 5 RQs, 7 findings
 - 链接: 论文 PDF（待定）、GitHub 仓库、引用 BibTeX
 
-### 2. PRISMA 流程图
-
-可视化展示筛选流程:
-```
-26,265 raw → 22,118 dedup → 3,810 T&A → 89 full-text
-  + 18 snowball + 18 supplementary → 125 → 122 (去重)
-```
-
-### 3. 统计可视化
+### 2. 统计可视化
 
 - 年份分布柱状图: 2020(1), 2022(1), 2023(14), 2024(35), 2025(52), 2026(19)
 - RQ 分布饼图/柱状图: RQ1:10, RQ2:29, RQ3:87, RQ4:21（25 篇跨 RQ）

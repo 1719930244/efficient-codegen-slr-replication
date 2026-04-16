@@ -242,7 +242,7 @@
       Large Language Models (LLMs) have become indispensable tools for code generation, yet their computational costs&mdash;spanning data preparation, model training, inference, and evaluation&mdash;remain a critical barrier to practical adoption. This systematic review analyzes <strong>122 primary studies</strong> to provide a comprehensive map of efficiency techniques across the full lifecycle of LLM-based code generation.
     </p>
     <p>
-      Our review spans four research questions covering data preparation (RQ1, 10 studies), model training (RQ2, 29 studies), inference optimization (RQ3, 87 studies), and evaluation practices (RQ4, 21 studies). We identify 24 fine-grained technique categories and distill 7 key findings that reveal both progress and critical gaps in the field.
+      Our review spans five research questions aligned with the model lifecycle: data preparation (RQ1, 10 studies), model training (RQ2, 29 studies), inference optimization (RQ3, ~62 studies), deployment (RQ4, ~24 studies), and evaluation (RQ5, 21 studies). We identify 24 fine-grained technique categories and distill 7 key findings that reveal both progress and critical gaps in the field.
     </p>
   </div>
 </section>
@@ -494,14 +494,19 @@ const CATEGORIES = {
 const RQS = [
   {id:"RQ1",title:"RQ1: Data Preparation",question:"How do data-level strategies improve the efficiency of training code LLMs?",cats:["1a","1b"],groups:null},
   {id:"RQ2",title:"RQ2: Model Training",question:"How do training-level techniques reduce the cost of building code LLMs?",cats:["2a","2b","2c","2d","2f"],groups:null},
-  {id:"RQ3",title:"RQ3: Inference Optimization",question:"How do inference-level techniques reduce the cost of code generation?",cats:["3a","3b","3c","3g","3h","3f","3d","3e","3l","3n","3o","3j","3i","3k","3m"],
+  {id:"RQ3",title:"RQ3: Inference Optimization",question:"How do inference-level techniques reduce the cost per request of code generation? We organize techniques using a cost decomposition: Cost \u2248 C_tok \u00d7 N_tok.",cats:["3a","3b","3c","3f","3d","3e","3l","3n","3o","3j","3k"],
     groups:[
-      {label:"Reducing Cost per Token (Cost_per_token)",cats:["3a","3b","3c","3g","3h","3f"]},
-      {label:"Reducing Token Count (N_tokens)",cats:["3d","3e","3l","3n","3o","3j"]},
-      {label:"Reducing Invocation Count (K_calls)",cats:["3i","3k"]},
-      {label:"System-Level",cats:["3m"]}
+      {label:"Reducing Cost per Token (C_tok)",cats:["3a","3b","3c","3f"]},
+      {label:"Reducing Token Count (N_tok)",cats:["3d","3e","3l","3n","3o","3j"]},
+      {label:"Reducing Invocation Count (K_calls)",cats:["3k"]}
     ]},
-  {id:"RQ4",title:"RQ4: Evaluation",question:"How is efficiency evaluated in LLM-based code generation research?",cats:["4a","4b"],groups:null}
+  {id:"RQ4",title:"RQ4: Deployment",question:"How do deployment-level techniques optimize the persistent serving configuration of code generation systems? Unlike per-request inference techniques, deployment optimizations are applied once and amortize savings across all subsequent requests.",cats:["3g","3h","3i","3m"],
+    groups:[
+      {label:"Model Compression",cats:["3g","3h"]},
+      {label:"Model Routing and Cascading",cats:["3i"]},
+      {label:"System-Level Serving",cats:["3m"]}
+    ]},
+  {id:"RQ5",title:"RQ5: Evaluation",question:"How is efficiency evaluated in LLM-based code generation research?",cats:["4a","4b"],groups:null}
 ];
 
 /* ── URL generation ── */
