@@ -19,21 +19,16 @@
       --shadow: 0 1px 3px rgba(0,0,0,0.1);
       --shadow-lg: 0 4px 14px rgba(0,0,0,0.08);
     }
-
     * { margin: 0; padding: 0; box-sizing: border-box; }
-
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      color: var(--text);
-      line-height: 1.7;
-      background: var(--bg);
+      color: var(--text); line-height: 1.7; background: var(--bg);
     }
 
     /* ── Nav ── */
     nav {
       position: sticky; top: 0; z-index: 100;
-      background: var(--primary);
-      padding: 0 2rem;
+      background: var(--primary); padding: 0 2rem;
       display: flex; align-items: center; justify-content: space-between;
       box-shadow: var(--shadow);
     }
@@ -66,12 +61,73 @@
     .btn-outline:hover { border-color: #fff; background: rgba(255,255,255,.1); }
 
     /* ── Sections ── */
-    .container { max-width: 860px; margin: 0 auto; padding: 0 1.5rem; }
+    .container { max-width: 960px; margin: 0 auto; padding: 0 1.5rem; }
     section { padding: 3rem 0; }
     section:nth-child(even) { background: var(--bg-alt); }
     h2 { font-size: 1.45rem; color: var(--primary); margin-bottom: 1.2rem; padding-bottom: .5rem; border-bottom: 2px solid var(--border); }
     h3 { font-size: 1.1rem; color: var(--primary-light); margin: 1.5rem 0 .6rem; }
     p { margin-bottom: .8rem; color: var(--text-secondary); }
+
+    /* ── Taxonomy ── */
+    .rq-block { margin-bottom: 2rem; }
+    .rq-header { font-size: 1.15rem; color: var(--primary); font-weight: 700; margin-bottom: .3rem; }
+    .rq-desc { font-size: .9rem; color: var(--text-secondary); margin-bottom: .8rem; }
+    .cost-group { font-size: .85rem; color: var(--accent); font-weight: 600; margin: 1.2rem 0 .5rem; padding-left: .3rem; border-left: 3px solid var(--accent); padding: .2rem .6rem; }
+
+    .cat-card {
+      border: 1px solid var(--border); border-radius: 8px; margin-bottom: .6rem;
+      background: var(--bg); overflow: hidden; transition: box-shadow .2s;
+    }
+    .cat-card:hover { box-shadow: var(--shadow-lg); }
+    .cat-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: .7rem 1rem; cursor: pointer; user-select: none;
+      background: var(--bg); transition: background .15s;
+    }
+    .cat-header:hover { background: var(--bg-alt); }
+    .cat-header .left { display: flex; align-items: center; gap: .6rem; }
+    .cat-header .cat-name { font-weight: 600; font-size: .92rem; color: var(--text); }
+    .cat-header .cat-desc { font-size: .8rem; color: var(--text-secondary); margin-left: .3rem; }
+    .cat-badge {
+      background: var(--primary); color: #fff; font-size: .72rem; font-weight: 700;
+      padding: .15rem .5rem; border-radius: 10px; flex-shrink: 0;
+    }
+    .cat-arrow { font-size: .7rem; color: var(--text-secondary); margin-left: .5rem; transition: transform .2s; flex-shrink: 0; }
+    .cat-card.open .cat-arrow { transform: rotate(90deg); }
+
+    .cat-body { display: none; border-top: 1px solid var(--border); }
+    .cat-card.open .cat-body { display: block; }
+    .cat-body .cat-intro { font-size: .82rem; color: var(--text-secondary); padding: .6rem 1rem .3rem; line-height: 1.5; }
+
+    .paper-item {
+      display: flex; align-items: flex-start; gap: .6rem;
+      padding: .5rem 1rem; border-top: 1px solid #f0f0f0; font-size: .85rem;
+    }
+    .paper-item:first-child { border-top: none; }
+    .paper-id { color: var(--accent); font-weight: 600; font-size: .75rem; flex-shrink: 0; min-width: 2.5rem; padding-top: .1rem; }
+    .paper-info { flex: 1; min-width: 0; }
+    .paper-title { color: var(--text); line-height: 1.4; }
+    .paper-title a { color: var(--accent); text-decoration: none; }
+    .paper-title a:hover { text-decoration: underline; }
+    .paper-meta { font-size: .78rem; color: var(--text-secondary); margin-top: .15rem; }
+    .paper-meta .venue-tag {
+      display: inline-block; background: #edf2f7; padding: .05rem .35rem;
+      border-radius: 3px; font-size: .72rem; margin-right: .3rem;
+    }
+    .venue-conference { background: #e6f6e6; color: #276749; }
+    .venue-journal { background: #fef3c7; color: #92400e; }
+    .venue-preprint { background: #edf2f7; color: #4a5568; }
+
+    /* ── Search ── */
+    .search-box {
+      display: flex; gap: .5rem; margin-bottom: 1.2rem; flex-wrap: wrap;
+    }
+    .search-box input {
+      flex: 1; min-width: 200px; padding: .55rem .9rem; border: 1px solid var(--border);
+      border-radius: 6px; font-size: .9rem; outline: none; transition: border .2s;
+    }
+    .search-box input:focus { border-color: var(--accent); }
+    .search-stats { font-size: .82rem; color: var(--text-secondary); margin-bottom: .8rem; }
 
     /* ── Cite ── */
     .cite-block {
@@ -93,8 +149,6 @@
     }
     .copy-btn:hover { opacity: 1; }
     .copy-btn.copied { background: #38a169; }
-
-    /* ── How to cite ── */
     .how-card {
       background: var(--bg); border: 1px solid var(--border);
       border-radius: 8px; padding: 1rem 1.2rem; margin-bottom: .8rem;
@@ -104,15 +158,12 @@
       background: var(--bg-code); padding: .15rem .4rem; border-radius: 3px;
       font-size: .85rem; font-family: "SFMono-Regular", Consolas, monospace;
     }
-
-    /* ── Notice ── */
+    .how-card p { margin-bottom: 0; }
     .notice {
       background: #ebf8ff; border-left: 4px solid var(--accent);
       padding: 1rem 1.2rem; border-radius: 0 6px 6px 0; margin-top: 1.5rem;
       font-size: .9rem; color: var(--primary);
     }
-
-    /* ── Living banner ── */
     .living-banner {
       background: linear-gradient(90deg, #ebf8ff 0%, #e9d8fd 100%);
       border: 1px solid #bee3f8; border-radius: 8px;
@@ -121,6 +172,14 @@
     }
     .living-banner .icon { font-size: 1.5rem; flex-shrink: 0; }
     .living-banner strong { color: var(--primary); }
+
+    /* ── Findings ── */
+    .finding-card {
+      background: var(--bg); border: 1px solid var(--border);
+      border-radius: 8px; padding: 1rem 1.2rem; margin-bottom: .8rem;
+    }
+    .finding-card h4 { font-size: .95rem; color: var(--primary); margin-bottom: .3rem; }
+    .finding-card p { margin-bottom: 0; }
 
     /* ── Footer ── */
     footer {
@@ -137,6 +196,7 @@
       .stat .num { font-size: 1.5rem; }
       nav ul { gap: 0; }
       nav a { padding: .85rem .5rem; font-size: .8rem; }
+      .cat-header .cat-desc { display: none; }
     }
   </style>
 </head>
@@ -152,7 +212,6 @@
   </ul>
 </nav>
 
-<!-- ── Hero ── -->
 <header class="hero">
   <h1>Towards Efficient LLM-Based Code Generation: A Systematic Review</h1>
   <div class="authors">Zongwen Shen, Jionghan Wu, Yidan Xu, Xuejin Liu, Xiang Chen, Jidong Ge, Chuanyi Li, Liguo Huang, and Bin Luo</div>
@@ -192,51 +251,12 @@
 <section id="taxonomy">
   <div class="container">
     <h2>Classification Taxonomy</h2>
-    <p>Our taxonomy organizes 122 primary studies into 24 categories across four lifecycle stages:</p>
-
-    <h3>RQ1: Data Preparation</h3>
-    <table style="width:100%; border-collapse:collapse; margin-bottom:1rem; font-size:.9rem;">
-      <tr style="background:var(--bg-alt); border-bottom:1px solid var(--border);"><th style="text-align:left;padding:.5rem;">Category</th><th style="text-align:center;padding:.5rem;">Count</th></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Data Selection</td><td style="text-align:center;">9</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Data Quality Assessment &amp; Synthesis</td><td style="text-align:center;">4</td></tr>
-    </table>
-
-    <h3>RQ2: Model Training</h3>
-    <table style="width:100%; border-collapse:collapse; margin-bottom:1rem; font-size:.9rem;">
-      <tr style="background:var(--bg-alt); border-bottom:1px solid var(--border);"><th style="text-align:left;padding:.5rem;">Category</th><th style="text-align:center;padding:.5rem;">Count</th></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Efficient Pre-training</td><td style="text-align:center;">3</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Parameter-Efficient Fine-Tuning (PEFT)</td><td style="text-align:center;">10</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Knowledge Distillation</td><td style="text-align:center;">6</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Curriculum Learning</td><td style="text-align:center;">2</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">RL-based Training</td><td style="text-align:center;">10</td></tr>
-    </table>
-
-    <h3>RQ3: Inference Optimization</h3>
-    <table style="width:100%; border-collapse:collapse; margin-bottom:1rem; font-size:.9rem;">
-      <tr style="background:var(--bg-alt); border-bottom:1px solid var(--border);"><th style="text-align:left;padding:.5rem;">Category</th><th style="text-align:center;padding:.5rem;">Count</th></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Speculative Decoding</td><td style="text-align:center;">3</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Early Exit</td><td style="text-align:center;">5</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Non-Autoregressive Generation</td><td style="text-align:center;">3</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Prompt Compression</td><td style="text-align:center;">7</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Context Pruning</td><td style="text-align:center;">8</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">KV Cache Optimization</td><td style="text-align:center;">3</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Post-Training Quantization</td><td style="text-align:center;">7</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Model Pruning</td><td style="text-align:center;">2</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Model Routing</td><td style="text-align:center;">11</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Adaptive Sampling</td><td style="text-align:center;">8</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Multi-Agent Orchestration</td><td style="text-align:center;">11</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Code-Specific Optimization</td><td style="text-align:center;">9</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">System-Level Serving</td><td style="text-align:center;">5</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Prompt Engineering</td><td style="text-align:center;">8</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Chain-of-Thought Optimization</td><td style="text-align:center;">5</td></tr>
-    </table>
-
-    <h3>RQ4: Evaluation</h3>
-    <table style="width:100%; border-collapse:collapse; margin-bottom:1rem; font-size:.9rem;">
-      <tr style="background:var(--bg-alt); border-bottom:1px solid var(--border);"><th style="text-align:left;padding:.5rem;">Category</th><th style="text-align:center;padding:.5rem;">Count</th></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Benchmark Design</td><td style="text-align:center;">3</td></tr>
-      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Empirical Study</td><td style="text-align:center;">18</td></tr>
-    </table>
+    <p>Our taxonomy follows the <strong>LLM lifecycle</strong>, organizing 122 primary studies into 24 categories. Click any category to browse its papers with direct links.</p>
+    <div class="search-box">
+      <input type="text" id="paperSearch" placeholder="Search papers by title, venue, year, or keyword..." oninput="filterPapers()">
+    </div>
+    <div class="search-stats" id="searchStats"></div>
+    <div id="taxonomyRoot"></div>
   </div>
 </section>
 
@@ -244,15 +264,15 @@
 <section id="findings">
   <div class="container">
     <h2>Key Findings</h2>
-    <p>Our systematic analysis distills 7 key findings:</p>
+    <p>Our systematic analysis distills 7 key findings across the LLM code generation lifecycle:</p>
     <div style="display:grid; gap:.8rem; margin-top:1rem;">
-      <div class="how-card"><h4>Finding 1</h4><p>Quality Dominates Quantity &mdash; data quality trumps volume for efficient training.</p></div>
-      <div class="how-card"><h4>Finding 2</h4><p>Minimal Parameter Updates Suffice &mdash; PEFT achieves competitive performance with a fraction of parameters.</p></div>
-      <div class="how-card"><h4>Finding 3</h4><p>What to Distill Matters More Than How &mdash; selecting the right knowledge to transfer is key.</p></div>
-      <div class="how-card"><h4>Finding 4</h4><p>Adaptive Resource Allocation Outperforms Uniform &mdash; dynamic strategies beat static resource distribution.</p></div>
-      <div class="how-card"><h4>Finding 5</h4><p>Code Structure Enables Unique Optimizations &mdash; syntactic and semantic code properties open domain-specific efficiency gains.</p></div>
-      <div class="how-card"><h4>Finding 6</h4><p>Deployment Compounds with Inference but Rarely Evaluated Together &mdash; end-to-end efficiency is under-studied.</p></div>
-      <div class="how-card"><h4>Finding 7</h4><p>Efficiency Evaluation Lags Behind Optimization &mdash; reporting standards for efficiency metrics remain inconsistent.</p></div>
+      <div class="finding-card"><h4>Finding 1: Quality Dominates Quantity</h4><p>Three complementary data-level strategies improve training efficiency with a common insight: quality dominates quantity. Training on fewer than 10% of carefully selected examples can match full-corpus performance; combining quality filtering with data selection yields larger gains than either alone; and curriculum ordering from simple to complex accelerates convergence by up to 30%. The optimal selection criterion and complexity metric vary by task, underscoring the need for strategies tailored to the target setting.</p></div>
+      <div class="finding-card"><h4>Finding 2: Minimal Parameter Updates Suffice</h4><p>Training-level efficiency spans two complementary strategies with compounding benefits. Pre-training cost can be reduced by up to 40% through tokenizer optimization, dynamic packing, and sparse architectures. Parameter-efficient fine-tuning with LoRA and QLoRA matches full fine-tuning accuracy while updating fewer than 1% of parameters and reducing memory by up to 70%. Combining PEFT with data selection yields multiplicative gains across both data volume and parameter count.</p></div>
+      <div class="finding-card"><h4>Finding 3: What to Distill Matters More Than How</h4><p>Knowledge distillation enables 7B-parameter students to approximate teachers over 10&times; larger. The critical design choice is what to distill: targeting the student&rsquo;s weaknesses, transferring reasoning chains, or compressing multi-agent behaviors each yields distinct advantages over uniform distillation. RL for code LLMs serves two objectives, generation efficiency and generated code efficiency, but existing work predominantly targets the latter, leaving RL for generation process efficiency as a promising direction.</p></div>
+      <div class="finding-card"><h4>Finding 4: Adaptive Resource Allocation Outperforms Uniform</h4><p>Inference techniques that adapt computation to task difficulty consistently outperform uniform strategies. Speculative decoding achieves 2&times; speedup, early exit reduces latency by up to 50%, and confidence gating in multi-agent systems cuts cost by 45%. The common principle is matching resource expenditure to actual need rather than applying fixed computation to every request.</p></div>
+      <div class="finding-card"><h4>Finding 5: Code Structure Enables Unique Optimizations</h4><p>Compression that leverages code structure consistently outperforms generic methods, achieving up to 4&times; prompt compression with less than 2% accuracy loss. Irrelevant context actively harms generation quality, making well-targeted pruning a rare technique that improves both efficiency and accuracy simultaneously. Syntax-aware representations reduce token counts by up to 30%, demonstrating that the structural regularity of code creates optimization opportunities unavailable in natural language.</p></div>
+      <div class="finding-card"><h4>Finding 6: Deployment Compounds with Inference but Rarely Evaluated Together</h4><p>Deployment-level techniques yield substantial standalone gains: quantization reduces memory by up to 70% with degradation that varies across languages, and model routing achieves over 30% cost reduction by directing queries to appropriately sized models. These deployment optimizations can compound with per-request inference techniques, but few studies evaluate such compositions, representing a significant gap between research and production deployment.</p></div>
+      <div class="finding-card"><h4>Finding 7: Efficiency Evaluation Lags Behind Optimization</h4><p>Efficiency evaluation lacks standardization: latency is reported by 54% of studies, memory by 19%, energy by only 8%. Generation process efficiency as a first-class metric remains absent from existing benchmarks. Three priorities emerge: standardized reporting protocols, benchmarks that jointly measure correctness and generation cost, and unified cost models for comparison across techniques.</p></div>
     </div>
   </div>
 </section>
@@ -302,7 +322,6 @@
       <h4>In GitHub Repositories</h4>
       <p>Reference the companion repository:<br><code>https://github.com/1719930244/efficient-codegen-slr-replication</code></p>
     </div>
-
     <div class="notice">
       <strong>Citation Update Notice:</strong> This citation information reflects the current manuscript under review. Once formally published, the citation will be updated with the official venue, DOI, volume, and page numbers. Please check back for the latest information.
     </div>
@@ -319,6 +338,291 @@
 </footer>
 
 <script>
+/* ── Data ── */
+const STUDIES = [
+  {id:"S001",key:"arxiv_2004_13651",title:"Fast and Memory-Efficient Neural Code Completion",year:2020,venue:"MSR",type:"conference",cats:["3b","3l"],rationale:"Fast and memory-efficient neural code completion via early exit and code-specific optimizations"},
+  {id:"S002",key:"2204_09877",title:"Non-autoregressive Model for Full-line Code Completion",year:2022,venue:"arXiv",type:"preprint",cats:["3c"],rationale:"Non-autoregressive Transformer for full-line code completion with reported speedup"},
+  {id:"S003",key:"2303_05378",title:"Greener yet Powerful: Taming Large Code Generation Models with Quantization",year:2023,venue:"arXiv",type:"preprint",cats:["3g"],rationale:"Quantization of large code generation models (CodeGen, StarCoder) with quality analysis"},
+  {id:"S004",key:"2303_07457",title:"AMOM: Adaptive Masking over Masking for Conditional Masked Language Model",year:2023,venue:"AAAI",type:"conference",cats:["3c"],rationale:"Adaptive masking for non-autoregressive generation including code tasks"},
+  {id:"S005",key:"2305_11860",title:"Let's Sample Step by Step: Adaptive-Consistency for Efficient Reasoning and Coding with LLMs",year:2023,venue:"EMNLP",type:"conference",cats:["3j"],rationale:"Adaptive sampling reducing LLM code generation sampling cost"},
+  {id:"S006",key:"2308_10462",title:"Exploring Parameter-Efficient Fine-Tuning Techniques for Code Generation with Large Language Models",year:2023,venue:"TOSEM",type:"journal",cats:["2b","4b"],rationale:"Empirical study of PEFT + quantization for code generation with large language models"},
+  {id:"S007",key:"2309_14021",title:"LORD: Low Rank Decomposition Of Monolingual Code LLMs For One-Shot Compression",year:2023,venue:"arXiv",type:"preprint",cats:["3h"],rationale:"Low-rank decomposition for one-shot compression of monolingual code LLMs"},
+  {id:"S008",key:"2310_18628",title:"Personalised Distillation: Empowering Open-Sourced LLMs with Adaptive Learning for Code Generation",year:2023,venue:"arXiv",type:"preprint",cats:["2c"],rationale:"Adaptive learning for efficient code generation from large to small models"},
+  {id:"S009",key:"2312_02418",title:"Decoding Data Quality via Synthetic Corruptions: Embedding-guided Pruning of Code Data",year:2023,venue:"arXiv",type:"preprint",cats:["1b","1a"],rationale:"Embedding-guided data pruning via synthetic corruptions for code training data quality"},
+  {id:"S010",key:"2312_08583",title:"ZeroQuant(4+2): Redefining LLMs Quantization with a New FP6-Centric Strategy for Diverse Generative Tasks",year:2023,venue:"arXiv",type:"preprint",cats:["3g"],rationale:"FP6-centric quantization strategy for LLM efficiency"},
+  {id:"S011",key:"2312_11511",title:"ComplexityNet: Increasing LLM Inference Efficiency by Learning Task Complexity",year:2023,venue:"arXiv",type:"preprint",cats:["3i"],rationale:"Task complexity-based routing among LLMs for code generation"},
+  {id:"S012",key:"2312_13010",title:"AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation",year:2023,venue:"arXiv",type:"preprint",cats:["3k"],rationale:"Multi-agent code generation with iterative testing reducing token overhead"},
+  {id:"S013",key:"arxiv_2304_05216",title:"Towards Efficient Fine-Tuning of Pre-trained Code Models: An Experimental Study and Beyond",year:2023,venue:"ISSTA",type:"conference",cats:["2b","4b"],rationale:"Empirical study of efficient fine-tuning methods for pre-trained code models"},
+  {id:"S014",key:"arxiv_2312_05562",title:"Chain-of-Thought in Neural Code Generation: From and for Lightweight Language Models",year:2023,venue:"TSE",type:"journal",cats:["3o","2c"],rationale:"Chain-of-Thought for lightweight code LMs; training + inference optimization"},
+  {id:"S015",key:"doi_10_1109_ASE56229_2023_00125",title:"An Empirical Study of Parameter-Efficient Fine-Tuning Methods for Pre-Trained Code Models",year:2023,venue:"ASE",type:"conference",cats:["2b","4b"],rationale:"Empirical study of parameter-efficient fine-tuning methods for pre-trained code models"},
+  {id:"S016",key:"doi_10_1109_TSE_2023_3267446",title:"MultiPL-E: A Scalable and Polyglot Approach to Benchmarking Neural Code Generation",year:2023,venue:"TSE",type:"journal",cats:["4a"],rationale:"Scalable polyglot benchmarking framework for neural code generation"},
+  {id:"S017",key:"2401_00788",title:"Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models",year:2024,venue:"arXiv",type:"preprint",cats:["2b","4b"],rationale:"Systematic evaluation of 7 PEFT methods for code LLMs across 4 model scales"},
+  {id:"S018",key:"2401_09964",title:"When Neural Code Completion Models Size up the Situation: Attaining Cheaper and Faster Completion through Dynamic Model Inference",year:2024,venue:"ICSE",type:"conference",cats:["3b"],rationale:"Dynamic model inference using intermediate layers for faster code completion"},
+  {id:"S019",key:"2402_01035",title:"Getting the most out of your tokenizer for pre-training and domain adaptation",year:2024,venue:"ICML",type:"conference",cats:["2a"],rationale:"Tokenizer design optimization for pre-training efficiency in code LLMs"},
+  {id:"S020",key:"2402_14323",title:"REPOFUSE: Repository-Level Code Completion with Fused Dual Context",year:2024,venue:"arXiv",type:"preprint",cats:["3e"],rationale:"Fused dual context with rank truncated generation for efficient repo-level completion"},
+  {id:"S021",key:"2403_10059",title:"Repoformer: Selective Retrieval for Repository-Level Code Completion",year:2024,venue:"ICML",type:"conference",cats:["3e"],rationale:"Selective retrieval reducing unnecessary RAG overhead for code completion"},
+  {id:"S022",key:"2404_16333",title:"AI Coders Are Among Us: Rethinking Programming Language Grammar Towards Efficient Code Generation",year:2024,venue:"ISSTA",type:"conference",cats:["3l"],rationale:"SimPy: AI-oriented grammar reducing token usage for LLM code completion"},
+  {id:"S023",key:"2405_15189",title:"EffiLearner: Enhancing Efficiency of Generated Code via Self-Optimization",year:2024,venue:"NeurIPS",type:"conference",cats:["2f"],rationale:"LLM self-optimization for generating more runtime-efficient code"},
+  {id:"S024",key:"2405_15208",title:"Decoding at the Speed of Thought: Harnessing Parallel Decoding of Lexical Units for LLMs",year:2024,venue:"LREC/COLING",type:"conference",cats:["3a"],rationale:"Parallel decoding of lexical units for LLM inference speedup including code generation"},
+  {id:"S025",key:"2405_15842",title:"Model Cascading for Code: A Cascaded Black-Box Multi-Model Framework for Cost-Efficient Code Completion with Self-Testing",year:2024,venue:"IJCNN",type:"conference",cats:["3i"],rationale:"Model cascading with self-testing for cost-efficient code completion"},
+  {id:"S026",key:"2406_10263",title:"A Lightweight Framework for Adaptive Retrieval In Code Completion With Critique Model",year:2024,venue:"arXiv",type:"preprint",cats:["3e"],rationale:"Lightweight adaptive retrieval framework with critique for efficient code completion"},
+  {id:"S027",key:"2406_18294",title:"Hierarchical Context Pruning: Optimizing Real-World Code Completion with Repository-Level Pretrained Code LLMs",year:2024,venue:"AAAI",type:"conference",cats:["3e"],rationale:"Hierarchical context pruning to reduce prompt length for repo-level code completion"},
+  {id:"S028",key:"2407_00434",title:"Brevity is the soul of wit: Pruning long files for code generation",year:2024,venue:"arXiv",type:"preprint",cats:["1a","3e"],rationale:"Heuristic file pruning to improve data efficiency for code generation training"},
+  {id:"S029",key:"2407_03157",title:"Let the Code LLM Edit Itself When You Edit the Code",year:2024,venue:"ICLR",type:"conference",cats:["3f"],rationale:"PIE: efficiently updating KV cache for incremental code editing in LLMs"},
+  {id:"S030",key:"2407_05040",title:"Code Less, Align More: Efficient LLM Fine-tuning for Code Generation with Data Pruning",year:2024,venue:"arXiv",type:"preprint",cats:["1a","2b"],rationale:"Data pruning for efficient LLM code generation fine-tuning"},
+  {id:"S031",key:"2407_20042",title:"When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention",year:2024,venue:"ISSTA",type:"conference",cats:["3b"],rationale:"CodeFast: early stopping of excess token generation for faster code completion"},
+  {id:"S032",key:"2408_03680",title:"Smaller but Better: Self-Paced Knowledge Distillation for Lightweight yet Effective LCMs",year:2024,venue:"PACMSE",type:"journal",cats:["2c","2d"],rationale:"Self-paced knowledge distillation for lightweight yet effective code LLMs"},
+  {id:"S033",key:"2408_11198",title:"Automated Prompt Engineering for Cost-Effective Code Generation Using Evolutionary Algorithm",year:2024,venue:"arXiv",type:"preprint",cats:["3n"],rationale:"Evolutionary automated prompt engineering for cost-effective code generation"},
+  {id:"S034",key:"2409_16416",title:"Selection of Prompt Engineering Techniques for Code Generation through Predicting Code Complexity",year:2024,venue:"arXiv",type:"preprint",cats:["3n"],rationale:"Prompt engineering technique selection via difficulty prediction"},
+  {id:"S035",key:"2410_08391",title:"KV Prediction for Improved Time to First Token",year:2024,venue:"arXiv",type:"preprint",cats:["3f"],rationale:"KV Prediction to reduce time-to-first-token for LLM inference including code generation"},
+  {id:"S036",key:"2410_10209",title:"EffiCoder: Enhancing Code Generation in Large Language Models through Efficiency-Aware Fine-tuning",year:2024,venue:"ICML",type:"conference",cats:["2f"],rationale:"Efficiency-aware fine-tuning for improving runtime efficiency of generated code"},
+  {id:"S037",key:"2410_14766",title:"Evaluating Quantized Large Language Models for Code Generation on Low-Resource Language Benchmarks",year:2024,venue:"J. Comput. Lang.",type:"journal",cats:["3g","4b"],rationale:"Evaluates quantized LLMs for code generation on low-resource languages"},
+  {id:"S038",key:"2410_18194",title:"ZIP-FIT: Embedding-Free Data Selection via Compression-Based Alignment",year:2024,venue:"arXiv",type:"preprint",cats:["1a"],rationale:"Compression-based data selection for LM training with code generation experiments"},
+  {id:"S039",key:"2410_22480",title:"Scaling LLM Inference with Optimized Sample Compute Allocation",year:2024,venue:"arXiv",type:"preprint",cats:["3j"],rationale:"Optimized sample compute allocation to reduce inference cost for LLM code generation"},
+  {id:"S040",key:"2410_22793",title:"Less is More: DocString Compression in Code Generation",year:2024,venue:"arXiv",type:"preprint",cats:["3d"],rationale:"DocString compression to reduce input tokens and improve code generation efficiency"},
+  {id:"S041",key:"2411_05010",title:"Scattered Forest Search: Smarter Code Space Exploration with LLMs",year:2024,venue:"arXiv",type:"preprint",cats:["3j"],rationale:"Efficient code space exploration reducing iterations needed"},
+  {id:"S042",key:"2411_06680",title:"Anchor Attention, Small Cache: Code Generation with Large Language Models",year:2024,venue:"TSE",type:"journal",cats:["3f"],rationale:"AnchorCoder: anchor attention to reduce KV cache memory for code generation"},
+  {id:"S043",key:"2411_11055",title:"FastDraft: How to Train Your Draft",year:2024,venue:"ACL",type:"conference",cats:["3a"],rationale:"Efficient draft model training for speculative decoding with code generation"},
+  {id:"S044",key:"2412_15441",title:"Insights into resource utilization of code small language models serving with runtime engines and execution providers",year:2024,venue:"J. Syst. Softw.",type:"journal",cats:["4b","3m"],rationale:"Empirical evaluation of serving configurations for code SLM resource utilization"},
+  {id:"S045",key:"2412_16589",title:"Improving FIM Code Completions via Context & Curriculum Based Learning",year:2024,venue:"WSDM",type:"conference",cats:["2d","2b"],rationale:"Context and curriculum-based learning for improving FIM code completion efficiency"},
+  {id:"S046",key:"arxiv_2403_00046",title:"Exploring Data-Efficient Adaptation of Large Language Models for Code Generation",year:2024,venue:"TOSEM",type:"journal",cats:["1a"],rationale:"Data-efficient adaptation of LLMs for code generation"},
+  {id:"S047",key:"arxiv_2404_02183",title:"Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization",year:2024,venue:"arXiv",type:"preprint",cats:["3k"],rationale:"Self-organized agents for ultra large-scale code generation"},
+  {id:"S048",key:"arxiv_2408_06450",title:"Evaluating Language Models for Efficient Code Generation",year:2024,venue:"arXiv",type:"preprint",cats:["4b"],rationale:"Evaluation study of language models for efficient code generation"},
+  {id:"S049",key:"arxiv_2410_00558",title:"AMR-Evol: Adaptive Modular Response Evolution Elicits Better Knowledge Distillation for Large Language Models in Code Generation",year:2024,venue:"EMNLP",type:"conference",cats:["2c"],rationale:"Adaptive modular response evolution for knowledge distillation in code LLMs"},
+  {id:"S050",key:"doi_10_48550_arXiv_2402_07844",title:"Mercury: An Efficiency Benchmark for LLM Code Synthesis",year:2024,venue:"NeurIPS",type:"conference",cats:["4a"],rationale:"Efficiency benchmark for LLM code synthesis"},
+  {id:"S051",key:"ss_Zhang2024llm",title:"LLM-Cloud Complete: Leveraging Cloud Computing for Efficient Large Language Model-based Code Completion",year:2024,venue:"JAIGS",type:"journal",cats:["3m"],rationale:"Cloud computing system for efficient LLM-based code completion"},
+  {id:"S052",key:"2501_01054",title:"Dynamic Scaling of Unit Tests for Code Reward Modeling",year:2025,venue:"ACL",type:"conference",cats:["2f","3j"],rationale:"Dynamic scaling of unit tests for code reward modeling to improve RL training efficiency"},
+  {id:"S053",key:"2501_05248",title:"Deriving Coding-Specific Sub-Models from LLMs using Resource-Efficient Pruning",year:2025,venue:"LLM4Code@ICSE",type:"conference",cats:["3h"],rationale:"Unstructured pruning (Wanda) to derive coding-specific compact LLM sub-models"},
+  {id:"S054",key:"2501_05899",title:"Prompt engineering and its implications on the energy consumption of Large Language Models",year:2025,venue:"GREENS@ICSE",type:"conference",cats:["3n","4b"],rationale:"Evaluates prompt engineering techniques for reducing energy consumption of LLM code generation"},
+  {id:"S055",key:"2501_11006",title:"GREEN-CODE: Learning to Optimize Energy Efficiency in LLM-based Code Generation",year:2025,venue:"CCGrid",type:"conference",cats:["3b"],rationale:"RL-based early exit framework for energy-efficient LLM code generation"},
+  {id:"S056",key:"2501_18653",title:"Cogito, ergo sum: A Neurobiologically-Inspired Cognition-Memory-Growth System for Code Generation",year:2025,venue:"arXiv",type:"preprint",cats:["3k"],rationale:"Cogito multi-agent framework reducing computational cost for code generation"},
+  {id:"S057",key:"2501_18657",title:"Enhancing Large Language Model Efficiency via Symbolic Compression: A Formal Approach Towards Interpretability",year:2025,venue:"arXiv",type:"preprint",cats:["3d","2b"],rationale:"Symbolic token compression + PEFT for LLM code generation efficiency"},
+  {id:"S058",key:"2502_17139",title:"FastCoder: Accelerating Repository-level Code Generation via Efficient Retrieval and Verification",year:2025,venue:"ASE",type:"conference",cats:["3e","3l"],rationale:"Code-aware retrieval acceleration and verification for repo-level code generation"},
+  {id:"S059",key:"2502_18489",title:"LLM4EFFI: Leveraging Large Language Models to Enhance Code Efficiency and Correctness",year:2025,venue:"arXiv",type:"preprint",cats:["3n"],rationale:"Leveraging LLMs to generate more runtime-efficient code"},
+  {id:"S060",key:"2503_07103",title:"Evaluating the Impact of Post-Training Quantization on Large Language Models for Code Generation",year:2025,venue:"arXiv",type:"preprint",cats:["3g","4b"],rationale:"Evaluates post-training quantization of LLMs for code generation with memory footprint analysis"},
+  {id:"S061",key:"2503_17793",title:"Every Sample Matters: Leveraging Mixture-of-Experts and High-Quality Data for Efficient and Accurate Code LLM",year:2025,venue:"arXiv",type:"preprint",cats:["1a","1b","2a"],rationale:"MoE architecture + program-analytics-based data curation for efficient code LLM"},
+  {id:"S062",key:"2503_19876",title:"SLA-Awareness for AI-assisted coding",year:2025,venue:"arXiv",type:"preprint",cats:["3m"],rationale:"SLA-aware serving framework for code completion with TTFT/E2E latency optimization"},
+  {id:"S063",key:"2504_03723",title:"VFlow: Discovering Optimal Agentic Workflows for Verilog Generation",year:2025,venue:"arXiv",type:"preprint",cats:["3k"],rationale:"Optimizes agentic workflows for Verilog generation with token cost/ROI tradeoff"},
+  {id:"S064",key:"2504_12687",title:"Data-efficient LLM Fine-tuning for Code Generation",year:2025,venue:"IJCNN",type:"conference",cats:["1a","2a"],rationale:"Data selection strategy + dynamic pack tokenization for data-efficient LLM fine-tuning"},
+  {id:"S065",key:"2504_14560",title:"ReasoningV: Efficient Verilog Code Generation with Adaptive Hybrid Reasoning Model",year:2025,venue:"arXiv",type:"preprint",cats:["3o","2b"],rationale:"Adaptive reasoning reducing token consumption for Verilog generation + two-stage PEFT training"},
+  {id:"S066",key:"2505_01572",title:"PipeSpec: Breaking Stage Dependencies in Hierarchical LLM Decoding",year:2025,venue:"ACL",type:"conference",cats:["3a"],rationale:"Hierarchical pipeline for speculative decoding with code generation evaluation"},
+  {id:"S067",key:"2505_14174",title:"Cheaper, Better, Faster, Stronger: Robust Text-to-SQL without Chain-of-Thought or Fine-Tuning",year:2025,venue:"arXiv",type:"preprint",cats:["3n","3j"],rationale:"Cost-efficient text-to-SQL using multiple schema representations without CoT"},
+  {id:"S068",key:"2505_20182",title:"An Empirical Study on Strong-Weak Model Collaboration for Repo-level Code Generation",year:2025,venue:"EMNLP",type:"conference",cats:["3i"],rationale:"Strong-weak model collaboration/routing for cost-efficient repo-level code generation"},
+  {id:"S069",key:"2506_01604",title:"Exploring Prompt Patterns in AI-Assisted Code Generation: Towards Faster and More Effective Developer-AI Collaboration",year:2025,venue:"ICMI",type:"conference",cats:["3n","4b"],rationale:"Analyzes prompt patterns to reduce interaction iterations in AI-assisted code generation"},
+  {id:"S070",key:"2506_03006",title:"A Preference-Driven Methodology for High-Quality Solidity Code Generation",year:2025,venue:"arXiv",type:"preprint",cats:["2f"],rationale:"DPO preference alignment for gas-efficient Solidity code"},
+  {id:"S071",key:"2506_09092",title:"CUDA-LLM: LLMs Can Write Efficient CUDA Kernels",year:2025,venue:"arXiv",type:"preprint",cats:["2f"],rationale:"FSR framework for generating high-performance CUDA kernels"},
+  {id:"S072",key:"2506_10525",title:"AdaptiveLLM: A Framework for Selecting Optimal Cost-Efficient LLM for Code-Generation Based on CoT Length",year:2025,venue:"Internetware",type:"conference",cats:["3i"],rationale:"Dynamic LLM selection based on CoT length for cost-efficient code generation"},
+  {id:"S073",key:"2506_12355",title:"QiMeng-Attention: SOTA Attention Operator is generated by SOTA Attention Algorithm",year:2025,venue:"ACL",type:"conference",cats:["3l"],rationale:"LLM generates efficient attention operators via domain-specific thinking language"},
+  {id:"S074",key:"2506_18796",title:"Context-Aware CodeLLM Eviction for AI-assisted Coding",year:2025,venue:"ASE",type:"conference",cats:["3m"],rationale:"Context-aware CodeLLM eviction strategy for efficient model serving under resource constraints"},
+  {id:"S075",key:"2507_23194",title:"Geak: Introducing Triton Kernel AI Agent & Evaluation Benchmarks",year:2025,venue:"arXiv",type:"preprint",cats:["4a"],rationale:"Triton kernel AI agent + evaluation benchmarks for kernel speedup"},
+  {id:"S076",key:"2508_03258",title:"SmartLLMs Scheduler: A Framework for Cost-Effective LLMs Utilization",year:2025,venue:"arXiv",type:"preprint",cats:["3m","3i"],rationale:"Dynamic scheduling and LLM selection for cost-effective code generation"},
+  {id:"S077",key:"2508_05970",title:"Impact-driven Context Filtering For Cross-file Code Completion",year:2025,venue:"arXiv",type:"preprint",cats:["3e"],rationale:"Impact-driven context filtering for cross-file code completion reducing prompt length"},
+  {id:"S078",key:"2508_20124",title:"Towards Better Correctness and Efficiency in Code Generation",year:2025,venue:"arXiv",type:"preprint",cats:["2f"],rationale:"RL framework to improve runtime efficiency of generated code"},
+  {id:"S079",key:"2509_09947",title:"Toward Green Code: Prompting Small Language Models for Energy-Efficient Code Generation",year:2025,venue:"FLLM",type:"conference",cats:["3n","4b"],rationale:"Evaluates prompt strategies for SLM code generation; reports generation energy and code runtime"},
+  {id:"S080",key:"2509_12159",title:"EfficientUICoder: Efficient MLLM-based UI Code Generation via Input and Output Token Compression",year:2025,venue:"arXiv",type:"preprint",cats:["3d","3l"],rationale:"Input image token compression + output code token compression for UI code generation"},
+  {id:"S081",key:"2509_14093",title:"Reasoning Efficiently Through Adaptive Chain-of-Thought Compression: A Self-Optimizing Framework",year:2025,venue:"arXiv",type:"preprint",cats:["3o"],rationale:"Adaptive CoT compression reducing reasoning length/latency for code generation"},
+  {id:"S082",key:"2509_17489",title:"MapCoder-Lite: Distilling Multi-Agent Coding into a Single Small LLM",year:2025,venue:"arXiv",type:"preprint",cats:["2c"],rationale:"Distilling multi-agent coding knowledge into single 7B model via agent-wise LoRA"},
+  {id:"S083",key:"2509_25243",title:"Reinforcement Learning-Guided Chain-of-Draft for Token-Efficient Code Generation",year:2025,venue:"arXiv",type:"preprint",cats:["3o","2f"],rationale:"RL-guided Chain-of-Draft for token-efficient code generation reasoning"},
+  {id:"S084",key:"2510_00446",title:"LongCodeZip: Compress Long Context for Code Language Models",year:2025,venue:"ASE",type:"conference",cats:["3d"],rationale:"Code-specific long context compression with dual-stage strategy"},
+  {id:"S085",key:"2510_16996",title:"STARK: Strategic Team of Agents for Refining Kernels",year:2025,venue:"arXiv",type:"preprint",cats:["3k"],rationale:"Multi-agent GPU kernel optimization with runtime speedup focus"},
+  {id:"S086",key:"2510_18165",title:"Saber: An Efficient Sampling with Adaptive Acceleration and Backtracking Enhanced Remasking for Diffusion Language Model",year:2025,venue:"arXiv",type:"preprint",cats:["3c","3j"],rationale:"Efficient sampling for diffusion language models in code generation"},
+  {id:"S087",key:"2510_19644",title:"LLavaCode: Compressed Code Representations for Retrieval-Augmented Code Generation",year:2025,venue:"arXiv",type:"preprint",cats:["3e"],rationale:"Compressed code representations for RAG reducing TTFT latency"},
+  {id:"S088",key:"2511_01884",title:"CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization",year:2025,venue:"arXiv",type:"preprint",cats:["3k"],rationale:"Multi-agent CUDA kernel optimization with hardware feedback"},
+  {id:"S089",key:"2511_23321",title:"Chart2Code-MoLA: Efficient Multi-Modal Code Generation via Adaptive Expert Routing",year:2025,venue:"APSEC",type:"conference",cats:["2b","3i"],rationale:"MoE+LoRA with complexity-aware routing for chart-to-code generation"},
+  {id:"S090",key:"2512_08266",title:"Token Sugar: Making Source Code Sweeter for LLMs through Token-Efficient Shorthand",year:2025,venue:"ASE",type:"conference",cats:["3l"],rationale:"Semantic-level shorthand reducing token count for code LLMs"},
+  {id:"S091",key:"2512_23367",title:"Post-Training Quantization of OpenPangu Models for Efficient Deployment on Atlas A2",year:2025,venue:"arXiv",type:"preprint",cats:["3g"],rationale:"Post-training quantization of OpenPangu models for deployment on Ascend NPUs"},
+  {id:"S092",key:"He2025codepromptzip",title:"CODEPROMPTZIP: Code-specific Prompt Compression for Retrieval-Augmented Generation in Coding Tasks with LMs",year:2025,venue:"arXiv",type:"preprint",cats:["3d"],rationale:"Code-specific prompt compression for retrieval-augmented code generation"},
+  {id:"S093",key:"Zhao2025codeswift",title:"CodeSwift: Accelerating LLM Inference for Efficient Code Generation",year:2025,venue:"arXiv",type:"preprint",cats:["3l"],rationale:"LLM inference acceleration tailored for code generation"},
+  {id:"S094",key:"arxiv_2505_02133",title:"Enhancing LLM Code Generation: A Systematic Evaluation of Multi-Agent Collaboration and Runtime Debugging for Improved Accuracy, Reliability, and Latency",year:2025,venue:"arXiv",type:"preprint",cats:["3k","4b"],rationale:"Systematic evaluation of multi-agent collaboration and debugging for code generation latency"},
+  {id:"S095",key:"arxiv_2505_14200",title:"Capturing the Effects of Quantization on Trojans in Code LLMs",year:2025,venue:"arXiv",type:"preprint",cats:["3g","4b"],rationale:"Studies quantization effects on trojans in code LLMs; reports quantization impacts"},
+  {id:"S096",key:"arxiv_2506_22776",title:"Smaller = Weaker? Benchmarking Robustness of Quantized LLMs in Code Generation",year:2025,venue:"arXiv",type:"preprint",cats:["3g","4b"],rationale:"Benchmarking robustness of quantized LLMs for code generation across model families"},
+  {id:"S097",key:"arxiv_2507_02378",title:"Efficient Code LLM Training via Distribution-Consistent and Diversity-Aware Data Selection",year:2025,venue:"arXiv",type:"preprint",cats:["1a"],rationale:"Distribution-consistent and diversity-aware data selection for efficient code LLM training"},
+  {id:"S098",key:"arxiv_2508_08332",title:"Energy-Aware Code Generation with LLMs: Benchmarking Small vs. Large Language Models for Sustainable AI Programming",year:2025,venue:"FLLM",type:"conference",cats:["4b"],rationale:"Benchmarking SLM vs LLM for energy-aware code generation"},
+  {id:"S099",key:"arxiv_2512_24570",title:"On the Effectiveness of Training Data Optimization for LLM-based Code Generation: An Empirical Study",year:2025,venue:"arXiv",type:"preprint",cats:["1a","1b"],rationale:"Empirical study of training data optimization techniques for LLM code generation"},
+  {id:"S100",key:"doi_10_1109_TCAD_2024_3483089",title:"RTLCoder: Fully Open-Source and Efficient LLM-Assisted RTL Code Generation Technique",year:2025,venue:"TCAD",type:"journal",cats:["2b","1b"],rationale:"Data generation + fine-tuning for RTL code generation"},
+  {id:"S101",key:"doi_10_3390_sym17081325",title:"Symmetry-Aware Code Generation: Distilling Pseudocode Reasoning for Lightweight Deployment of Large Language Models",year:2025,venue:"Symmetry",type:"journal",cats:["2c"],rationale:"Distilling pseudocode reasoning for lightweight LLM deployment in code generation"},
+  {id:"S102",key:"ieee_Morte2025efficient",title:"Efficient LLM Tuning: A Multi-Objective Approach for Code Generation",year:2025,venue:"WCNPS",type:"conference",cats:["3j"],rationale:"NSGA-II multi-objective optimization of inference hyperparameters to minimize token consumption"},
+  {id:"S103",key:"ieee_Rohilla2025graphmoe",title:"Graph-MoE: A Graph-Based LLM Framework for Scalable and Efficient Code Completion in Integrated Development Environment",year:2025,venue:"INCET",type:"conference",cats:["3i"],rationale:"Graph-based MoE routing queries to tiered open-source LLMs with caching for 65% cost reduction"},
+  {id:"S104",key:"2508_13666",title:"The Hidden Cost of Readability: How Code Formatting Silently Consumes Your LLM Budget",year:2026,venue:"ICSE 2026",type:"conference",cats:["3l","4b"],rationale:"Code formatting tokens waste LLM budget; proposes removal strategies"},
+  {id:"S105",key:"2512_14048",title:"Intention Chain-of-Thought Prompting with Dynamic Routing for Code Generation",year:2026,venue:"AAAI 2026",type:"conference",cats:["3o","3i"],rationale:"Intention CoT with difficulty-aware dynamic routing for efficient code generation"},
+  {id:"S106",key:"2601_09703",title:"ShortCoder: Knowledge-Augmented Syntax Optimization for Token-Efficient Code Generation",year:2026,venue:"arXiv",type:"preprint",cats:["3l","3d"],rationale:"Token-efficient syntax optimization reducing tokens during code generation"},
+  {id:"S107",key:"2601_20223",title:"Control Models for In-IDE Code Completion",year:2026,venue:"IDE'26 @ ICSE'26",type:"conference",cats:["3i"],rationale:"Control models trigger/filter LLM inference to reduce unnecessary code completion requests"},
+  {id:"S108",key:"2601_21469",title:"Adaptive Confidence Gating in Multi-Agent Collaboration for Efficient and Optimized Code Generation",year:2026,venue:"arXiv",type:"preprint",cats:["3k"],rationale:"Multi-agent collaboration with confidence gating to reduce SLM inference cost"},
+  {id:"S109",key:"2601_22132",title:"Pay for Hints, Not Answers: LLM Shepherding for Cost-Efficient Inference",year:2026,venue:"arXiv",type:"preprint",cats:["3i"],rationale:"Strong model provides hints to weak model, reducing full inference cost"},
+  {id:"S110",key:"2601_23254",title:"GrepRAG: An Empirical Study and Optimization of Grep-Like Retrieval for Code Completion",year:2026,venue:"arXiv",type:"preprint",cats:["3e"],rationale:"Lightweight index-free lexical retrieval optimization for repo-level code completion"},
+  {id:"S111",key:"2602_02597",title:"ContextEvolve: Multi-Agent Context Compression for Systems Code Optimization",year:2026,venue:"arXiv",type:"preprint",cats:["3k"],rationale:"Multi-agent context compression for systems code optimization"},
+  {id:"S112",key:"2602_05712",title:"Towards Green AI: Decoding the Energy of LLM Inference in Software Development",year:2026,venue:"arXiv",type:"preprint",cats:["4b","3b"],rationale:"Empirical energy analysis of LLM inference for code + babbling suppression technique"},
+  {id:"S113",key:"2602_07670",title:"Surprisal-Guided Selection: Compute-Optimal Test-Time Strategies for Execution-Grounded Code Generation",year:2026,venue:"arXiv",type:"preprint",cats:["3j"],rationale:"Compute-optimal test-time strategies for kernel generation"},
+  {id:"S114",key:"2602_12049",title:"Improving HPC Code Generation Capability of LLMs via Online Reinforcement Learning with Real-Machine Benchmark Rewards",year:2026,venue:"arXiv",type:"preprint",cats:["2f"],rationale:"RL with runtime GFLOPS rewards for HPC code performance"},
+  {id:"S115",key:"2602_12305",title:"OptiML: An End-to-End Framework for Program Synthesis and CUDA Kernel Optimization",year:2026,venue:"arXiv",type:"preprint",cats:["3k"],rationale:"CUDA kernel optimization framework for runtime performance"},
+  {id:"S116",key:"2602_15843",title:"The Perplexity Paradox: Why Code Compresses Better Than Math in LLM Prompts",year:2026,venue:"arXiv",type:"preprint",cats:["3d"],rationale:"Task-aware prompt compression validated on code generation benchmarks"},
+  {id:"S117",key:"2602_17100",title:"AgentConductor: Topology Evolution for Multi-Agent Competition-Level Code Generation",year:2026,venue:"arXiv",type:"preprint",cats:["3k"],rationale:"RL-optimized multi-agent topology reducing token cost"},
+  {id:"S118",key:"2602_17169",title:"SimulatorCoder: DNN Accelerator Simulator Code Generation and Optimization via Large Language Models",year:2026,venue:"arXiv",type:"preprint",cats:["3n"],rationale:"ICL/CoT for simulator code generation and performance"},
+  {id:"S119",key:"2602_17684",title:"CodeScaler: Scaling Code LLM Training and Test-Time Inference via Execution-Free Reward Models",year:2026,venue:"arXiv",type:"preprint",cats:["2f","3j"],rationale:"Execution-free reward model for RL training + test-time inference scaling"},
+  {id:"S120",key:"2602_21800",title:"An Evaluation of Context Length Extrapolation in Long Code via Positional Embeddings and Efficient Attention",year:2026,venue:"arXiv",type:"preprint",cats:["4b"],rationale:"Evaluation of positional embeddings and efficient attention for long-code completion"},
+  {id:"S121",key:"2602_24286",title:"CUDA Agent: Large-Scale Agentic RL for High-Performance CUDA Kernel Generation",year:2026,venue:"arXiv",type:"preprint",cats:["2f"],rationale:"Agentic RL for generating high-performance CUDA kernels"},
+  {id:"S122",key:"2603_04646",title:"HDLFORGE: A Two-Stage Multi-Agent Framework for Efficient Verilog Code Generation with Adaptive Model Escalation",year:2026,venue:"arXiv",type:"preprint",cats:["3i"],rationale:"Two-stage model escalation for Verilog generation with latency tradeoff"}
+];
+
+const CATEGORIES = {
+  "1a":{name:"Data Selection",count:9,desc:"Selecting high-quality subsets from large code corpora to reduce training cost while maintaining model quality."},
+  "1b":{name:"Data Quality Assessment & Synthesis",count:4,desc:"Evaluating training data quality and generating synthetic data when natural corpora are insufficient."},
+  "2a":{name:"Efficient Pre-training",count:3,desc:"Architectural and scheduling optimizations that reduce pre-training cost, including code-aware tokenizers and MoE routing."},
+  "2b":{name:"Parameter-Efficient Fine-Tuning (PEFT)",count:10,desc:"Updating only a small fraction of model parameters during fine-tuning: LoRA, QLoRA, prefix tuning, adapters."},
+  "2c":{name:"Knowledge Distillation",count:6,desc:"Transferring capabilities from large teacher models to smaller student models for lightweight deployment."},
+  "2d":{name:"Curriculum Learning",count:2,desc:"Organizing training data from simple to complex examples to improve convergence speed."},
+  "2f":{name:"RL-based Training",count:10,desc:"Reinforcement learning techniques for generation process efficiency or improving runtime performance of generated code."},
+  "3a":{name:"Speculative Decoding",count:3,desc:"Using a small draft model to generate candidate tokens verified by the target model for lossless speedup."},
+  "3b":{name:"Early Exit",count:5,desc:"Terminating computation at intermediate layers when confidence is sufficient, reducing per-token compute."},
+  "3c":{name:"Non-Autoregressive Generation",count:3,desc:"Generating multiple tokens in parallel rather than one at a time, trading some accuracy for significant latency reduction."},
+  "3d":{name:"Prompt Compression",count:7,desc:"Reducing input token counts while preserving information needed for accurate generation."},
+  "3e":{name:"Context Pruning",count:9,desc:"Selecting relevant context from repositories for code completion, including hierarchical pruning and dependency-based filtering."},
+  "3f":{name:"KV Cache Optimization",count:3,desc:"Optimizing key-value cache during autoregressive generation: incremental reuse, anchor attention, predictive population."},
+  "3g":{name:"Post-Training Quantization",count:7,desc:"Reducing numerical precision of model weights (e.g., 16-bit to 4-bit) to decrease memory and improve throughput."},
+  "3h":{name:"Model Pruning",count:2,desc:"Removing redundant parameters or structures from trained models via unstructured pruning or low-rank decomposition."},
+  "3i":{name:"Model Routing",count:11,desc:"Directing queries to appropriately-sized models based on task complexity: cascading, shepherding, control models."},
+  "3j":{name:"Adaptive Sampling",count:9,desc:"Optimizing test-time compute allocation across generated candidates with confidence-based early stopping."},
+  "3k":{name:"Multi-Agent Orchestration",count:11,desc:"Optimizing multi-agent code generation pipelines via topology evolution, confidence gating, and agent collaboration."},
+  "3l":{name:"Code-Specific Optimization",count:9,desc:"Leveraging code syntax, structure, and formatting conventions for domain-specific efficiency gains."},
+  "3m":{name:"System-Level Serving",count:5,desc:"Deployment infrastructure optimization: SLA-aware batch sizing, context-aware eviction, runtime engine comparison."},
+  "3n":{name:"Prompt Engineering",count:8,desc:"Optimizing prompt design for efficiency: evolutionary optimization, difficulty-based strategy selection."},
+  "3o":{name:"Chain-of-Thought Optimization",count:5,desc:"Reducing the token cost of reasoning chains while maintaining their benefits via adaptive compression."},
+  "4a":{name:"Benchmark Design",count:3,desc:"Design and development of benchmarks that include efficiency dimensions for LLM code generation."},
+  "4b":{name:"Empirical Study",count:18,desc:"Systematic empirical evaluations comparing techniques, establishing baselines, or analyzing evaluation practices."}
+};
+
+const RQS = [
+  {id:"RQ1",title:"RQ1: Data Preparation",question:"How do data-level strategies improve the efficiency of training code LLMs?",cats:["1a","1b"],groups:null},
+  {id:"RQ2",title:"RQ2: Model Training",question:"How do training-level techniques reduce the cost of building code LLMs?",cats:["2a","2b","2c","2d","2f"],groups:null},
+  {id:"RQ3",title:"RQ3: Inference Optimization",question:"How do inference-level techniques reduce the cost of code generation?",cats:["3a","3b","3c","3g","3h","3f","3d","3e","3l","3n","3o","3j","3i","3k","3m"],
+    groups:[
+      {label:"Reducing Cost per Token (Cost_per_token)",cats:["3a","3b","3c","3g","3h","3f"]},
+      {label:"Reducing Token Count (N_tokens)",cats:["3d","3e","3l","3n","3o","3j"]},
+      {label:"Reducing Invocation Count (K_calls)",cats:["3i","3k"]},
+      {label:"System-Level",cats:["3m"]}
+    ]},
+  {id:"RQ4",title:"RQ4: Evaluation",question:"How is efficiency evaluated in LLM-based code generation research?",cats:["4a","4b"],groups:null}
+];
+
+/* ── URL generation ── */
+function paperUrl(key) {
+  if (/^\d{4}_\d{4,5}$/.test(key)) return 'https://arxiv.org/abs/' + key.replace('_','.');
+  if (key.startsWith('arxiv_')) {
+    const id = key.slice(6).replace('_','.');
+    return 'https://arxiv.org/abs/' + id;
+  }
+  if (key.startsWith('doi_')) {
+    const parts = key.split('_');
+    const reg = parts[2];
+    const suffix = parts.slice(3).join('.');
+    return 'https://doi.org/10.' + reg + '/' + suffix;
+  }
+  return null;
+}
+
+function scholarUrl(title) {
+  return 'https://scholar.google.com/scholar?q=' + encodeURIComponent(title);
+}
+
+/* ── Render ── */
+function getStudiesForCat(catId) {
+  return STUDIES.filter(s => s.cats.includes(catId));
+}
+
+function venueClass(type) {
+  if (type === 'conference') return 'venue-conference';
+  if (type === 'journal') return 'venue-journal';
+  return 'venue-preprint';
+}
+
+function renderPaper(s) {
+  const url = paperUrl(s.key);
+  const titleHtml = url
+    ? `<a href="${url}" target="_blank" rel="noopener">${s.title}</a>`
+    : `<a href="${scholarUrl(s.title)}" target="_blank" rel="noopener" title="Search on Google Scholar">${s.title}</a>`;
+  const typeLabel = s.type === 'conference' ? 'Conf' : s.type === 'journal' ? 'Journal' : 'Preprint';
+  return `<div class="paper-item" data-title="${s.title.toLowerCase()}" data-venue="${s.venue.toLowerCase()}" data-year="${s.year}" data-rationale="${s.rationale.toLowerCase()}">
+    <span class="paper-id">${s.id}</span>
+    <div class="paper-info">
+      <div class="paper-title">${titleHtml}</div>
+      <div class="paper-meta"><span class="paper-meta venue-tag ${venueClass(s.type)}">${typeLabel}</span>${s.venue}, ${s.year} &mdash; ${s.rationale}</div>
+    </div>
+  </div>`;
+}
+
+function renderCategory(catId) {
+  const cat = CATEGORIES[catId];
+  const studies = getStudiesForCat(catId);
+  const papersHtml = studies.map(renderPaper).join('');
+  return `<div class="cat-card" id="cat-${catId}">
+    <div class="cat-header" onclick="this.parentElement.classList.toggle('open')">
+      <div class="left">
+        <span class="cat-name">${cat.name}</span>
+        <span class="cat-desc">&mdash; ${cat.desc.split('.')[0]}</span>
+      </div>
+      <div style="display:flex;align-items:center;">
+        <span class="cat-badge">${studies.length}</span>
+        <span class="cat-arrow">&#9654;</span>
+      </div>
+    </div>
+    <div class="cat-body">
+      <div class="cat-intro">${cat.desc}</div>
+      ${papersHtml}
+    </div>
+  </div>`;
+}
+
+function renderTaxonomy() {
+  let html = '';
+  for (const rq of RQS) {
+    html += `<div class="rq-block">
+      <div class="rq-header">${rq.title}</div>
+      <div class="rq-desc">${rq.question}</div>`;
+    if (rq.groups) {
+      for (const g of rq.groups) {
+        html += `<div class="cost-group">${g.label}</div>`;
+        for (const c of g.cats) html += renderCategory(c);
+      }
+    } else {
+      for (const c of rq.cats) html += renderCategory(c);
+    }
+    html += '</div>';
+  }
+  document.getElementById('taxonomyRoot').innerHTML = html;
+  updateStats();
+}
+
+function filterPapers() {
+  const q = document.getElementById('paperSearch').value.toLowerCase().trim();
+  let shown = 0, total = 0;
+  document.querySelectorAll('.paper-item').forEach(el => {
+    total++;
+    const match = !q ||
+      el.dataset.title.includes(q) ||
+      el.dataset.venue.includes(q) ||
+      el.dataset.year.includes(q) ||
+      el.dataset.rationale.includes(q);
+    el.style.display = match ? '' : 'none';
+    if (match) shown++;
+  });
+  if (q) {
+    document.querySelectorAll('.cat-card').forEach(card => {
+      const visible = card.querySelectorAll('.paper-item[style=""],.paper-item:not([style])');
+      const hasVisible = Array.from(card.querySelectorAll('.paper-item')).some(el => el.style.display !== 'none');
+      if (hasVisible) card.classList.add('open');
+      else card.classList.remove('open');
+    });
+  }
+  updateStats(q ? `Showing ${shown} of ${total} papers` : '');
+}
+
+function updateStats(msg) {
+  document.getElementById('searchStats').textContent = msg || `Showing all 122 primary studies across 24 categories. Click a category to expand.`;
+}
+
+document.addEventListener('DOMContentLoaded', renderTaxonomy);
+
+/* ── Cite ── */
 function copyBibtex() {
   const text = document.getElementById('bibtex').textContent;
   navigator.clipboard.writeText(text).then(() => {
@@ -328,8 +632,6 @@ function copyBibtex() {
     setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
   });
 }
-
-// Nav active state
 document.querySelectorAll('nav a').forEach(link => {
   link.addEventListener('click', () => {
     document.querySelectorAll('nav a').forEach(l => l.classList.remove('active'));
