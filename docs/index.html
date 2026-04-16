@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Towards Efficient LLM-Based Code Generation: A Systematic Review</title>
+  <meta name="description" content="Companion website for the systematic review on efficient LLM-based code generation. 122 primary studies, continuously maintained.">
+  <style>
+    :root {
+      --primary: #1a3a5c;
+      --primary-light: #2c5282;
+      --accent: #3182ce;
+      --bg: #ffffff;
+      --bg-alt: #f7fafc;
+      --bg-code: #edf2f7;
+      --text: #1a202c;
+      --text-secondary: #4a5568;
+      --border: #e2e8f0;
+      --shadow: 0 1px 3px rgba(0,0,0,0.1);
+      --shadow-lg: 0 4px 14px rgba(0,0,0,0.08);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: var(--text);
+      line-height: 1.7;
+      background: var(--bg);
+    }
+
+    /* ── Nav ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--primary);
+      padding: 0 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+      box-shadow: var(--shadow);
+    }
+    nav .logo { color: #fff; font-weight: 700; font-size: 1.05rem; padding: .85rem 0; }
+    nav ul { list-style: none; display: flex; gap: .25rem; }
+    nav a { color: rgba(255,255,255,.85); text-decoration: none; padding: .85rem .9rem; display: block; font-size: .9rem; border-bottom: 2px solid transparent; transition: .2s; }
+    nav a:hover, nav a.active { color: #fff; border-bottom-color: var(--accent); }
+
+    /* ── Hero ── */
+    .hero {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+      color: #fff; text-align: center; padding: 4rem 2rem 3.5rem;
+    }
+    .hero h1 { font-size: 1.85rem; max-width: 800px; margin: 0 auto 1rem; line-height: 1.35; }
+    .hero .authors { font-size: .95rem; opacity: .9; max-width: 700px; margin: 0 auto .6rem; }
+    .hero .venue { font-size: .9rem; opacity: .75; margin-bottom: 1.8rem; }
+    .stats { display: flex; justify-content: center; gap: 2.5rem; flex-wrap: wrap; }
+    .stat { text-align: center; }
+    .stat .num { font-size: 2rem; font-weight: 700; display: block; }
+    .stat .label { font-size: .8rem; opacity: .8; text-transform: uppercase; letter-spacing: .5px; }
+    .hero-links { margin-top: 2rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .hero-links a {
+      display: inline-flex; align-items: center; gap: .4rem;
+      padding: .55rem 1.3rem; border-radius: 6px; font-size: .9rem;
+      text-decoration: none; font-weight: 500; transition: .2s;
+    }
+    .btn-primary { background: #fff; color: var(--primary); }
+    .btn-primary:hover { background: #edf2f7; }
+    .btn-outline { border: 1.5px solid rgba(255,255,255,.5); color: #fff; }
+    .btn-outline:hover { border-color: #fff; background: rgba(255,255,255,.1); }
+
+    /* ── Sections ── */
+    .container { max-width: 860px; margin: 0 auto; padding: 0 1.5rem; }
+    section { padding: 3rem 0; }
+    section:nth-child(even) { background: var(--bg-alt); }
+    h2 { font-size: 1.45rem; color: var(--primary); margin-bottom: 1.2rem; padding-bottom: .5rem; border-bottom: 2px solid var(--border); }
+    h3 { font-size: 1.1rem; color: var(--primary-light); margin: 1.5rem 0 .6rem; }
+    p { margin-bottom: .8rem; color: var(--text-secondary); }
+
+    /* ── Cite ── */
+    .cite-block {
+      background: var(--bg-alt); border: 1px solid var(--border);
+      border-radius: 8px; padding: 1.2rem 1.4rem; margin-bottom: 1.2rem;
+      position: relative;
+    }
+    .cite-block.formatted { font-style: italic; line-height: 1.6; color: var(--text); }
+    .cite-block pre {
+      margin: 0; white-space: pre-wrap; word-break: break-word;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: .85rem; line-height: 1.55; color: var(--text);
+    }
+    .copy-btn {
+      position: absolute; top: .6rem; right: .6rem;
+      background: var(--primary); color: #fff; border: none;
+      padding: .3rem .7rem; border-radius: 4px; font-size: .75rem;
+      cursor: pointer; opacity: .85; transition: .2s;
+    }
+    .copy-btn:hover { opacity: 1; }
+    .copy-btn.copied { background: #38a169; }
+
+    /* ── How to cite ── */
+    .how-card {
+      background: var(--bg); border: 1px solid var(--border);
+      border-radius: 8px; padding: 1rem 1.2rem; margin-bottom: .8rem;
+    }
+    .how-card h4 { font-size: .95rem; color: var(--primary); margin-bottom: .3rem; }
+    .how-card code {
+      background: var(--bg-code); padding: .15rem .4rem; border-radius: 3px;
+      font-size: .85rem; font-family: "SFMono-Regular", Consolas, monospace;
+    }
+
+    /* ── Notice ── */
+    .notice {
+      background: #ebf8ff; border-left: 4px solid var(--accent);
+      padding: 1rem 1.2rem; border-radius: 0 6px 6px 0; margin-top: 1.5rem;
+      font-size: .9rem; color: var(--primary);
+    }
+
+    /* ── Living banner ── */
+    .living-banner {
+      background: linear-gradient(90deg, #ebf8ff 0%, #e9d8fd 100%);
+      border: 1px solid #bee3f8; border-radius: 8px;
+      padding: 1.2rem 1.5rem; margin-bottom: 1.5rem;
+      display: flex; align-items: flex-start; gap: .8rem;
+    }
+    .living-banner .icon { font-size: 1.5rem; flex-shrink: 0; }
+    .living-banner strong { color: var(--primary); }
+
+    /* ── Footer ── */
+    footer {
+      background: var(--primary); color: rgba(255,255,255,.7);
+      text-align: center; padding: 2rem; font-size: .85rem;
+    }
+    footer a { color: rgba(255,255,255,.9); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    footer .updated { margin-top: .5rem; font-size: .8rem; opacity: .6; }
+
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 1.35rem; }
+      .stats { gap: 1.5rem; }
+      .stat .num { font-size: 1.5rem; }
+      nav ul { gap: 0; }
+      nav a { padding: .85rem .5rem; font-size: .8rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Efficient LLM Code Gen</div>
+  <ul>
+    <li><a href="#overview" class="active">Overview</a></li>
+    <li><a href="#taxonomy">Taxonomy</a></li>
+    <li><a href="#findings">Findings</a></li>
+    <li><a href="#cite">Cite</a></li>
+  </ul>
+</nav>
+
+<!-- ── Hero ── -->
+<header class="hero">
+  <h1>Towards Efficient LLM-Based Code Generation: A Systematic Review</h1>
+  <div class="authors">Zongwen Shen, Jionghan Wu, Yidan Xu, Xuejin Liu, Xiang Chen, Jidong Ge, Chuanyi Li, Liguo Huang, and Bin Luo</div>
+  <div class="venue">Manuscript under review, 2026</div>
+  <div class="stats">
+    <div class="stat"><span class="num">122</span><span class="label">Primary Studies</span></div>
+    <div class="stat"><span class="num">26,265</span><span class="label">Records Screened</span></div>
+    <div class="stat"><span class="num">7</span><span class="label">Databases</span></div>
+    <div class="stat"><span class="num">24</span><span class="label">Categories</span></div>
+  </div>
+  <div class="hero-links">
+    <a href="#cite" class="btn-primary">Cite This Work</a>
+    <a href="https://github.com/1719930244/efficient-codegen-slr-replication" class="btn-outline" target="_blank">GitHub Repository</a>
+  </div>
+</header>
+
+<!-- ── Overview ── -->
+<section id="overview">
+  <div class="container">
+    <h2>Overview</h2>
+    <div class="living-banner">
+      <div class="icon">&#x1F4E1;</div>
+      <div>
+        <strong>Living Resource</strong> &mdash; This companion website and the associated repository are <strong>continuously maintained</strong>. We regularly update the paper list with newly published studies on efficient LLM-based code generation. Last content update: <strong>April 2026</strong>.
+      </div>
+    </div>
+    <p>
+      Large Language Models (LLMs) have become indispensable tools for code generation, yet their computational costs&mdash;spanning data preparation, model training, inference, and evaluation&mdash;remain a critical barrier to practical adoption. This systematic review analyzes <strong>122 primary studies</strong> to provide a comprehensive map of efficiency techniques across the full lifecycle of LLM-based code generation.
+    </p>
+    <p>
+      Our review spans four research questions covering data preparation (RQ1, 10 studies), model training (RQ2, 29 studies), inference optimization (RQ3, 87 studies), and evaluation practices (RQ4, 21 studies). We identify 24 fine-grained technique categories and distill 7 key findings that reveal both progress and critical gaps in the field.
+    </p>
+  </div>
+</section>
+
+<!-- ── Taxonomy ── -->
+<section id="taxonomy">
+  <div class="container">
+    <h2>Classification Taxonomy</h2>
+    <p>Our taxonomy organizes 122 primary studies into 24 categories across four lifecycle stages:</p>
+
+    <h3>RQ1: Data Preparation</h3>
+    <table style="width:100%; border-collapse:collapse; margin-bottom:1rem; font-size:.9rem;">
+      <tr style="background:var(--bg-alt); border-bottom:1px solid var(--border);"><th style="text-align:left;padding:.5rem;">Category</th><th style="text-align:center;padding:.5rem;">Count</th></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Data Selection</td><td style="text-align:center;">9</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Data Quality Assessment &amp; Synthesis</td><td style="text-align:center;">4</td></tr>
+    </table>
+
+    <h3>RQ2: Model Training</h3>
+    <table style="width:100%; border-collapse:collapse; margin-bottom:1rem; font-size:.9rem;">
+      <tr style="background:var(--bg-alt); border-bottom:1px solid var(--border);"><th style="text-align:left;padding:.5rem;">Category</th><th style="text-align:center;padding:.5rem;">Count</th></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Efficient Pre-training</td><td style="text-align:center;">3</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Parameter-Efficient Fine-Tuning (PEFT)</td><td style="text-align:center;">10</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Knowledge Distillation</td><td style="text-align:center;">6</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Curriculum Learning</td><td style="text-align:center;">2</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">RL-based Training</td><td style="text-align:center;">10</td></tr>
+    </table>
+
+    <h3>RQ3: Inference Optimization</h3>
+    <table style="width:100%; border-collapse:collapse; margin-bottom:1rem; font-size:.9rem;">
+      <tr style="background:var(--bg-alt); border-bottom:1px solid var(--border);"><th style="text-align:left;padding:.5rem;">Category</th><th style="text-align:center;padding:.5rem;">Count</th></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Speculative Decoding</td><td style="text-align:center;">3</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Early Exit</td><td style="text-align:center;">5</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Non-Autoregressive Generation</td><td style="text-align:center;">3</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Prompt Compression</td><td style="text-align:center;">7</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Context Pruning</td><td style="text-align:center;">8</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">KV Cache Optimization</td><td style="text-align:center;">3</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Post-Training Quantization</td><td style="text-align:center;">7</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Model Pruning</td><td style="text-align:center;">2</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Model Routing</td><td style="text-align:center;">11</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Adaptive Sampling</td><td style="text-align:center;">8</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Multi-Agent Orchestration</td><td style="text-align:center;">11</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Code-Specific Optimization</td><td style="text-align:center;">9</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">System-Level Serving</td><td style="text-align:center;">5</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Prompt Engineering</td><td style="text-align:center;">8</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Chain-of-Thought Optimization</td><td style="text-align:center;">5</td></tr>
+    </table>
+
+    <h3>RQ4: Evaluation</h3>
+    <table style="width:100%; border-collapse:collapse; margin-bottom:1rem; font-size:.9rem;">
+      <tr style="background:var(--bg-alt); border-bottom:1px solid var(--border);"><th style="text-align:left;padding:.5rem;">Category</th><th style="text-align:center;padding:.5rem;">Count</th></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Benchmark Design</td><td style="text-align:center;">3</td></tr>
+      <tr style="border-bottom:1px solid var(--border);"><td style="padding:.4rem .5rem;">Empirical Study</td><td style="text-align:center;">18</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- ── Findings ── -->
+<section id="findings">
+  <div class="container">
+    <h2>Key Findings</h2>
+    <p>Our systematic analysis distills 7 key findings:</p>
+    <div style="display:grid; gap:.8rem; margin-top:1rem;">
+      <div class="how-card"><h4>Finding 1</h4><p>Quality Dominates Quantity &mdash; data quality trumps volume for efficient training.</p></div>
+      <div class="how-card"><h4>Finding 2</h4><p>Minimal Parameter Updates Suffice &mdash; PEFT achieves competitive performance with a fraction of parameters.</p></div>
+      <div class="how-card"><h4>Finding 3</h4><p>What to Distill Matters More Than How &mdash; selecting the right knowledge to transfer is key.</p></div>
+      <div class="how-card"><h4>Finding 4</h4><p>Adaptive Resource Allocation Outperforms Uniform &mdash; dynamic strategies beat static resource distribution.</p></div>
+      <div class="how-card"><h4>Finding 5</h4><p>Code Structure Enables Unique Optimizations &mdash; syntactic and semantic code properties open domain-specific efficiency gains.</p></div>
+      <div class="how-card"><h4>Finding 6</h4><p>Deployment Compounds with Inference but Rarely Evaluated Together &mdash; end-to-end efficiency is under-studied.</p></div>
+      <div class="how-card"><h4>Finding 7</h4><p>Efficiency Evaluation Lags Behind Optimization &mdash; reporting standards for efficiency metrics remain inconsistent.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Cite ── -->
+<section id="cite">
+  <div class="container">
+    <h2>Cite</h2>
+    <p>If you find our survey useful for your research, please consider citing our work.</p>
+
+    <h3>Formatted Citation</h3>
+    <div class="cite-block formatted">
+      Shen, Z., Wu, J., Xu, Y., Liu, X., Chen, X., Ge, J., Li, C., Huang, L., &amp; Luo, B. (2026). <em>Towards Efficient LLM-Based Code Generation: A Systematic Review</em>. Manuscript under review.
+    </div>
+
+    <h3>BibTeX</h3>
+    <div class="cite-block" id="bibtex-block">
+      <button class="copy-btn" onclick="copyBibtex()">Copy</button>
+      <pre id="bibtex">@article{shen2026towards,
+  title     = {Towards Efficient LLM-Based Code Generation: A Systematic Review},
+  author    = {Shen, Zongwen and Wu, Jionghan and Xu, Yidan and Liu, Xuejin and Chen, Xiang and Ge, Jidong and Li, Chuanyi and Huang, Liguo and Luo, Bin},
+  journal   = {Manuscript under review},
+  year      = {2026}
+}</pre>
+    </div>
+
+    <h3>APA Style</h3>
+    <div class="cite-block formatted">
+      Shen, Z., Wu, J., Xu, Y., Liu, X., Chen, X., Ge, J., Li, C., Huang, L., &amp; Luo, B. (2026). Towards efficient LLM-based code generation: A systematic review. <em>Manuscript under review</em>.
+    </div>
+
+    <h3>MLA Style</h3>
+    <div class="cite-block formatted">
+      Shen, Zongwen, et al. &ldquo;Towards Efficient LLM-Based Code Generation: A Systematic Review.&rdquo; <em>Manuscript under review</em>, 2026.
+    </div>
+
+    <h3>How to Cite</h3>
+    <div class="how-card">
+      <h4>In Academic Papers</h4>
+      <p>Use the BibTeX entry above in your LaTeX documents: <code>\cite{shen2026towards}</code></p>
+    </div>
+    <div class="how-card">
+      <h4>In Blog Posts or Articles</h4>
+      <p>Use the formatted citation: Shen et al. (2026). <em>Towards Efficient LLM-Based Code Generation: A Systematic Review</em>.</p>
+    </div>
+    <div class="how-card">
+      <h4>In GitHub Repositories</h4>
+      <p>Reference the companion repository:<br><code>https://github.com/1719930244/efficient-codegen-slr-replication</code></p>
+    </div>
+
+    <div class="notice">
+      <strong>Citation Update Notice:</strong> This citation information reflects the current manuscript under review. Once formally published, the citation will be updated with the official venue, DOI, volume, and page numbers. Please check back for the latest information.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div>
+    <a href="https://github.com/1719930244/efficient-codegen-slr-replication" target="_blank">GitHub</a> &nbsp;&middot;&nbsp;
+    <a href="#cite">Cite</a> &nbsp;&middot;&nbsp;
+    License: MIT
+  </div>
+  <div class="updated">Last updated: April 2026</div>
+</footer>
+
+<script>
+function copyBibtex() {
+  const text = document.getElementById('bibtex').textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.querySelector('.copy-btn');
+    btn.textContent = 'Copied!';
+    btn.classList.add('copied');
+    setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
+  });
+}
+
+// Nav active state
+document.querySelectorAll('nav a').forEach(link => {
+  link.addEventListener('click', () => {
+    document.querySelectorAll('nav a').forEach(l => l.classList.remove('active'));
+    link.classList.add('active');
+  });
+});
+</script>
+
+</body>
+</html>
