@@ -181,6 +181,18 @@
     .finding-card h4 { font-size: .95rem; color: var(--primary); margin-bottom: .3rem; }
     .finding-card p { margin-bottom: 0; }
 
+    /* ── Updates ── */
+    .update-batch { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.2rem; margin-bottom: 1rem; }
+    .update-batch h3 { margin-top: 0; }
+    .update-batch .batch-meta { font-size: .82rem; color: var(--text-secondary); margin-bottom: .8rem; }
+    .update-rq { margin-top: .8rem; }
+    .update-rq h4 { font-size: .92rem; color: var(--primary); margin-bottom: .3rem; }
+    .update-rq ul { margin: 0 0 .4rem 1.2rem; padding: 0; }
+    .update-rq li { font-size: .87rem; color: var(--text); margin-bottom: .2rem; line-height: 1.5; }
+    .update-rq li .cat-tag { display: inline-block; font-size: .72rem; color: var(--accent); background: var(--bg-code); padding: .05rem .4rem; border-radius: 4px; margin-right: .35rem; }
+    .update-rq li a { color: var(--accent); text-decoration: none; }
+    .update-rq li a:hover { text-decoration: underline; }
+
     /* ── Footer ── */
     footer {
       background: var(--primary); color: rgba(255,255,255,.7);
@@ -207,6 +219,7 @@
   <ul>
     <li><a href="#overview" class="active">Overview</a></li>
     <li><a href="#taxonomy">Taxonomy</a></li>
+    <li><a href="#updates">Updates</a></li>
     <li><a href="#findings">Findings</a></li>
     <li><a href="#cite">Cite</a></li>
   </ul>
@@ -235,7 +248,7 @@
     <div class="living-banner">
       <div class="icon">&#x1F4E1;</div>
       <div>
-        <strong>Living Resource</strong> &mdash; This companion website and the associated repository are <strong>continuously maintained</strong>. We regularly update the paper list with newly published studies on efficient LLM-based code generation. Last content update: <strong>April 2026</strong>.
+        <strong>Living Resource</strong> &mdash; This companion website and the associated repository are <strong>continuously maintained</strong>. We regularly update the paper list with newly published studies on efficient LLM-based code generation. Last content update: <strong>May 2026</strong> &mdash; see the <a href="#updates">Updates</a> section below for the running log.
       </div>
     </div>
     <p>
@@ -257,6 +270,49 @@
     </div>
     <div class="search-stats" id="searchStats"></div>
     <div id="taxonomyRoot"></div>
+  </div>
+</section>
+
+<!-- ── Updates ── -->
+<section id="updates">
+  <div class="container">
+    <h2>Living Updates</h2>
+    <p>The <strong>122-study core corpus</strong> reflects the manuscript&rsquo;s frozen scope at submission. This section logs newly published primary studies tracked after that cut-off, applying the same three-group term schema used in the review. Studies appear here without re-opening the systematic review.</p>
+
+    <div class="update-batch">
+      <h3>May 2026 &mdash; 16 new studies</h3>
+      <p class="batch-meta">Window: 2026-04-01 to 2026-05-28 &middot; Source: Semantic Scholar bulk index &middot; Filter: Group A (code-generation phrases) AND Group B (efficiency terms) AND Group C (LLM/transformer terms), title efficiency signal required. IEEE Xplore, ACM Digital Library, Scopus, and Web of Science remain deferred to the annual sweep because they require institutional credentials.</p>
+
+      <div class="update-rq">
+        <h4>RQ2 Model Training (3)</h4>
+        <ul>
+          <li><span class="cat-tag">2c Distillation</span><a href="https://arxiv.org/abs/2604.01193" target="_blank">arXiv:2604.01193</a> &mdash; Embarrassingly Simple Self-Distillation Improves Code Generation</li>
+          <li><span class="cat-tag">2c Distillation</span><a href="https://arxiv.org/abs/2604.23106" target="_blank">arXiv:2604.23106</a> &mdash; No Test Cases, No Problem: Distillation-Driven Code Generation for Scientific Workflows</li>
+          <li><span class="cat-tag">1a Data &middot; 2b PEFT</span><a href="https://arxiv.org/abs/2604.15388" target="_blank">arXiv:2604.15388</a> &mdash; Exploring LLM-based Verilog Code Generation with Data-Efficient Fine-Tuning and Testbench Automation</li>
+        </ul>
+      </div>
+
+      <div class="update-rq">
+        <h4>RQ3 Inference Optimization (13)</h4>
+        <ul>
+          <li><span class="cat-tag">3l Code-Specific</span><a href="https://arxiv.org/abs/2604.00491" target="_blank">arXiv:2604.00491</a> &mdash; Executing as You Generate: Hiding Execution Latency in LLM Code Generation</li>
+          <li><span class="cat-tag">3k Multi-Agent</span><a href="https://arxiv.org/abs/2604.04238" target="_blank">arXiv:2604.04238</a> &mdash; Agentic Code Optimization via Compiler-LLM Cooperation</li>
+          <li><span class="cat-tag">3d Prompt Compression</span><a href="https://arxiv.org/abs/2604.09442" target="_blank">arXiv:2604.09442</a> &mdash; UIPress: Bringing Optical Token Compression to UI-to-Code Generation</li>
+          <li><span class="cat-tag">3f KV Cache</span><a href="https://arxiv.org/abs/2604.10235" target="_blank">arXiv:2604.10235</a> &mdash; CodeComp: Structural KV Cache Compression for Agentic Coding</li>
+          <li><span class="cat-tag">3e Context Pruning</span><a href="https://arxiv.org/abs/2604.13725" target="_blank">arXiv:2604.13725</a> &mdash; On the Effectiveness of Context Compression for Repository-Level Tasks: An Empirical Investigation</li>
+          <li><span class="cat-tag">3l Code-Specific</span><a href="https://arxiv.org/abs/2604.16625" target="_blank">arXiv:2604.16625</a> &mdash; AdaExplore: Failure-Driven Adaptation and Diversity-Preserving Search for Efficient Kernel Generation</li>
+          <li><span class="cat-tag">3i Routing</span><a href="https://arxiv.org/abs/2604.17182" target="_blank">arXiv:2604.17182</a> &mdash; Layer-wise MoE Routing Locality under Shared-Prefix Code Generation</li>
+          <li><span class="cat-tag">3a Speculative Decoding</span><a href="https://arxiv.org/abs/2604.26469" target="_blank">arXiv:2604.26469</a> &mdash; An Empirical Study of Speculative Decoding on Software Engineering Tasks</li>
+          <li><span class="cat-tag">3l Code-Specific</span><a href="https://arxiv.org/abs/2604.27296" target="_blank">arXiv:2604.27296</a> &mdash; To Diff or Not to Diff? Structure-Aware and Adaptive Output Formats for Efficient LLM-based Coding</li>
+          <li><span class="cat-tag">3o CoT</span><a href="https://arxiv.org/abs/2605.07248" target="_blank">arXiv:2605.07248</a> &mdash; PaT: Planning-after-Trial for Efficient Test-Time Code Generation</li>
+          <li><span class="cat-tag">3j Adaptive Sampling</span><a href="https://arxiv.org/abs/2605.15238" target="_blank">arXiv:2605.15238</a> &mdash; Hydra: Efficient, Correct Code Generation via Checkpoint-and-Rollback Support</li>
+          <li><span class="cat-tag">3a Speculative Decoding</span><a href="https://arxiv.org/abs/2605.15609" target="_blank">arXiv:2605.15609</a> &mdash; PSD: Pushing the Pareto Frontier of Diffusion LLMs via Parallel Speculative Decoding</li>
+          <li><span class="cat-tag">3i Routing</span><a href="https://arxiv.org/abs/2605.27849" target="_blank">arXiv:2605.27849</a> &mdash; FPMoE: A Sparse Mixture-of-Experts Approach to Functional Code Generation</li>
+        </ul>
+      </div>
+
+      <p class="batch-meta">Structured record: <a href="https://github.com/1719930244/efficient-codegen-slr-replication/blob/master/data/monthly-updates/2026-05.json" target="_blank">data/monthly-updates/2026-05.json</a></p>
+    </div>
   </div>
 </section>
 
@@ -334,7 +390,7 @@
     <a href="#cite">Cite</a> &nbsp;&middot;&nbsp;
     License: MIT
   </div>
-  <div class="updated">Last updated: April 2026</div>
+  <div class="updated">Last updated: May 2026</div>
 </footer>
 
 <script>
