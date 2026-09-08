@@ -1,0 +1,21 @@
+{
+  "config_id": "C09",
+  "model_name": "Qwen2.5-Coder-7B-Instruct",
+  "precision": "int4",
+  "decoding": "standard",
+  "sampling": "adaptive",
+  "pass_at_1": 91.46341463414635,
+  "pass_at_10": 100.0,
+  "mean_ms_per_token": 65.69979187624082,
+  "mean_total_time_ms": 65643.96195565053,
+  "p50_total_time_ms": 45841.33621444926,
+  "p95_total_time_ms": 156604.89798377382,
+  "mean_tokens_per_sec": 15.30290504273808,
+  "peak_gpu_memory_mb": 15596.45849609375,
+  "total_tokens_generated": 164942,
+  "total_energy_j": 1289954.036,
+  "mean_energy_j_per_request": 7865.573390243902,
+  "mean_energy_j_per_token": 7.820652326272266,
+  "num_problems": 164,
+  "details": []
+}

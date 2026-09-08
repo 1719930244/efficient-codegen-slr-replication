@@ -1,0 +1,10 @@
+{
+  "config_id": "P12",
+  "model": "Qwen2.5-Coder-7B-Instruct",
+  "precision": "int4",
+  "decoding": "standard",
+  "sampling": "greedy",
+  "device": "cuda:2",
+  "n_problems": 164,
+  "finished_utc": "2026-09-07T11:31:08Z"
+}
