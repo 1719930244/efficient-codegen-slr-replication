@@ -16,3 +16,8 @@ Notes:
   arrays are empty, i.e. no per-task records were retained on the V100 side.
 - Spot checks reproduce the published V100 numbers exactly (e.g. C01 pass@1 81.71,
   INT8 latency ratio 4.38, 1.5B FP16 46.34, 14B INT4 88.41).
+
+Update 2026-09-08: the six V100 HumanEval+ regenerations (`heplus/P10,P11,P12,C04,C05,C06`)
+were judged offline with EvalPlus 0.3.1; judged values (base and plus pass@1) are recorded in
+`heplus/v100_heplus_judged_summary.json` under V-prefixed keys (V10=P10, V11=P11, V12=P12,
+V04=C04, V05=C05, V06=C06) to distinguish them from the A800 regeneration of the same IDs.

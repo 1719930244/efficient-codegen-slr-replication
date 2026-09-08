@@ -1,0 +1,56 @@
+{
+ "V04": {
+  "base_any_pass": 81.1,
+  "base_pass_at_1": 81.1,
+  "config_id": "V04",
+  "n_solutions": 164,
+  "n_tasks": 164,
+  "plus_any_pass": 76.22,
+  "plus_pass_at_1": 76.22
+ },
+ "V05": {
+  "base_any_pass": 79.27,
+  "base_pass_at_1": 79.27,
+  "config_id": "V05",
+  "n_solutions": 164,
+  "n_tasks": 164,
+  "plus_any_pass": 73.78,
+  "plus_pass_at_1": 73.78
+ },
+ "V06": {
+  "base_any_pass": 79.88,
+  "base_pass_at_1": 79.88,
+  "config_id": "V06",
+  "n_solutions": 164,
+  "n_tasks": 164,
+  "plus_any_pass": 75.0,
+  "plus_pass_at_1": 75.0
+ },
+ "V10": {
+  "base_any_pass": 81.1,
+  "base_pass_at_1": 81.1,
+  "config_id": "V10",
+  "n_solutions": 164,
+  "n_tasks": 164,
+  "plus_any_pass": 76.22,
+  "plus_pass_at_1": 76.22
+ },
+ "V11": {
+  "base_any_pass": 78.66,
+  "base_pass_at_1": 78.66,
+  "config_id": "V11",
+  "n_solutions": 164,
+  "n_tasks": 164,
+  "plus_any_pass": 73.78,
+  "plus_pass_at_1": 73.78
+ },
+ "V12": {
+  "base_any_pass": 80.49,
+  "base_pass_at_1": 80.49,
+  "config_id": "V12",
+  "n_solutions": 164,
+  "n_tasks": 164,
+  "plus_any_pass": 75.61,
+  "plus_pass_at_1": 75.61
+ }
+}
