@@ -1,0 +1,21 @@
+{
+  "config_id": "P10",
+  "model_name": "Qwen2.5-Coder-7B-Instruct",
+  "precision": "fp16",
+  "decoding": "standard",
+  "sampling": "greedy",
+  "pass_at_1": 81.70731707317073,
+  "pass_at_10": 0.0,
+  "mean_ms_per_token": 23.20265978956361,
+  "mean_total_time_ms": 3888.5163769692754,
+  "p50_total_time_ms": 3232.7689935045782,
+  "p95_total_time_ms": 8942.509964843339,
+  "mean_tokens_per_sec": 43.10052430270765,
+  "peak_gpu_memory_mb": 14610.12890625,
+  "total_tokens_generated": 27518,
+  "total_energy_j": -1.0,
+  "mean_energy_j_per_request": -1.0,
+  "mean_energy_j_per_token": -1.0,
+  "num_problems": 164,
+  "details": []
+}

@@ -1,0 +1,21 @@
+{
+  "config_id": "P14",
+  "model_name": "Qwen2.5-Coder-14B-Instruct",
+  "precision": "int8",
+  "decoding": "standard",
+  "sampling": "greedy",
+  "pass_at_1": 85.36585365853658,
+  "pass_at_10": 0.0,
+  "mean_ms_per_token": 199.41863000536313,
+  "mean_total_time_ms": 41092.72041298888,
+  "p50_total_time_ms": 43263.92553850019,
+  "p95_total_time_ms": 93338.16015081243,
+  "mean_tokens_per_sec": 5.015805452414767,
+  "peak_gpu_memory_mb": 16065.5625,
+  "total_tokens_generated": 33820,
+  "total_energy_j": -1.0,
+  "mean_energy_j_per_request": -1.0,
+  "mean_energy_j_per_token": -1.0,
+  "num_problems": 164,
+  "details": []
+}

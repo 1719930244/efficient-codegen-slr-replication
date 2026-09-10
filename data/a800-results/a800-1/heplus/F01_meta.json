@@ -1,0 +1,10 @@
+{
+  "config_id": "F01",
+  "model": "deepseek-coder-6.7b-instruct",
+  "precision": "fp16",
+  "decoding": "standard",
+  "sampling": "greedy",
+  "device": "cuda:0",
+  "n_problems": 164,
+  "finished_utc": "2026-09-08T02:26:13Z"
+}

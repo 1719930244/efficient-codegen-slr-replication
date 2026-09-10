@@ -1,0 +1,17 @@
+{
+  "config": "T7INT8",
+  "target": "Qwen2.5-Coder-7B-Instruct",
+  "precision": "int8",
+  "draft": "Qwen2.5-Coder-0.5B-Instruct",
+  "k": 5,
+  "n_problems": 60,
+  "acceptance_rate": 0.8094575108149769,
+  "tau_mean_tokens_per_round": 4.755224349087014,
+  "tau_sd": 0.7029617750906237,
+  "total_proposed": 20111,
+  "total_accepted": 16279,
+  "total_rounds": 4045,
+  "wall_s": 800.7734739780426,
+  "note": "instrumented draft-verify loop replicating HF assisted-decoding greedy acceptance rule; K fixed at args.k",
+  "finished_utc": "2026-09-08T09:08:38Z"
+}

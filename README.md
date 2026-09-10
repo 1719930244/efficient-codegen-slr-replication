@@ -31,6 +31,10 @@ data/
     rq3-studies.csv            # RQ3: Inference Optimization studies
     rq4-studies.csv            # RQ4: Deployment studies
     rq5-studies.csv            # RQ5: Evaluation studies
+  EXPERIMENT-DATA.md           # Provenance map for all raw experiment data (read this first)
+  v100-original-results/       # V100 campaign: aggregates, regeneration, April logs, manifests
+  a800-results/                # A800 extension campaign: full raw data of both rental servers
+  xgpu-3090ti-217/             # RTX 3090 Ti third-architecture reference point + judged outputs
 experiments/                   # RQ6 empirical experiments
   EXPERIMENT-PLAN.md           # Design doc: factorial composition + Pareto frontier + energy round
   scripts/
@@ -125,6 +129,8 @@ Three controlled experiments evaluate efficiency techniques in combination, some
 3. **Energy Round** (27 configurations, single pass): NVML `nvmlDeviceGetTotalEnergyConsumption`-based energy measurement for every configuration, validated on V100 driver 570+.
 
 Hardware: 4x NVIDIA Tesla V100-SXM2-32GB, PyTorch 2.5.1 + CUDA 12.4. All scripts and the design document are in `experiments/`.
+
+The extended suite (2026) adds: five-run A800 replication of the composition and Pareto cells at six scales including 32B; EvalPlus re-judgment (HumanEval+) of every central cell on V100, A800, and a consumer RTX 3090 Ti third-architecture reference point; MBPP (five runs) and BigCodeBench (four runs, plus an instruct-protocol check); pre-registered hypothesis tests; a second model family (DeepSeek-Coder-6.7B-Instruct) at the four central cells; and instrumented draft-acceptance measurements on two architectures. Raw data, per-platform software stacks, quarantined defective outputs, the dropped MBPP+ layer, and the files lost when the second A800 rental expired are documented in `data/EXPERIMENT-DATA.md`.
 
 ## Data Description
 

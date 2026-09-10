@@ -1,0 +1,378 @@
+{"task_id": "Mbpp/2", "completion": "from typing import Tuple\n"}
+{"task_id": "Mbpp/3", "completion": "from math import sqrt\n"}
+{"task_id": "Mbpp/4", "completion": "from heapq import nlargest\n"}
+{"task_id": "Mbpp/6", "completion": "def differ_At_One_Bit_Pos(x, y):\n    # Check if exactly one bit is different between x and y\n    return (x ^ y).bit_count() == 1\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/7", "completion": "from re import findall\n"}
+{"task_id": "Mbpp/8", "completion": "def square_nums(nums):\n    # Use list comprehension to square each element\n    return [x ** 2 for x in nums]\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/9", "completion": "from collections import Counter\n"}
+{"task_id": "Mbpp/11", "completion": "def remove_Occ(s, ch):\n    # Find the index of the first occurrence of the character\n    first_occurrence = s.find(ch)\n    \n    if first_occurrence != -1:\n        # Remove the first occurrence by slicing the string\n        s = s[:first_occurrence] + s[first_occurrence + 1:]\n    \n    # Find the index of the last occurrence of the character\n    last_occurrence = s.rfind(ch)\n    \n    if last_occurrence != -1:\n        # Remove the last occurrence by slicing the string\n        s = s[:last_occurrence] + s[last_occurrence + 1:]\n    \n    return s\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/12", "completion": "def sort_matrix(mat):\n    # Sort the matrix based on the sum of each row\n    return sorted(mat, key=sum)\n    \n# Test the function with the provided test case"}
+{"task_id": "Mbpp/14", "completion": "def find_Volume(base, height, length):\n    # Calculate the area of the base triangle\n    base_area = (base * height) / 2\n    \n    # Calculate the volume of the triangular prism\n    volume = base_area * length\n    \n    return volume\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/16", "completion": "import re\n"}
+{"task_id": "Mbpp/17", "completion": "def square_perimeter(side):\n    # Calculate the perimeter by multiplying the side length by 4\n    return side * 4\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/18", "completion": "def remove_dirty_chars(str1, str2):\n    # Create a set of characters to be removed\n    remove_chars = set(str2)\n    \n    # Use list comprehension to filter out unwanted characters\n    result = ''.join([char for char in str1 if char not in remove_chars])\n    \n    return result\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/19", "completion": "def test_duplicate(nums):\n    # Check if the length of the list is equal to the length of the set created from the list\n    return len(nums) != len(set(nums))\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/20", "completion": "from math import log2, floor\n\n"}
+{"task_id": "Mbpp/56", "completion": "def check(n):\n    # Reverse the number by converting it to string, reversing, and converting back to integer\n    rev = int(str(n)[::-1])\n    \n    # Check if the original number is one less than twice its reverse\n    return n == 2 * rev - 1\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/57", "completion": "from functools import cmp_to_key\n"}
+{"task_id": "Mbpp/58", "completion": "def opposite_Signs(x, y):\n    # Check if the product of x and y is negative\n    return (x ^ y) < 0\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/59", "completion": "from math import sqrt\n\n"}
+{"task_id": "Mbpp/61", "completion": "from collections import defaultdict\n\n"}
+{"task_id": "Mbpp/62", "completion": "def smallest_num(list):\n    # Find the minimum value in the list using the min() function\n    return min(list)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/63", "completion": "from typing import List, Tuple\n"}
+{"task_id": "Mbpp/64", "completion": "def subject_marks(marks):\n    # Sort the list of tuples based on the second element (marks) in ascending order\n    return sorted(marks, key=lambda x: x[1])\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/65", "completion": "from collections import deque\n\n"}
+{"task_id": "Mbpp/66", "completion": "def pos_count(nums):\n    # Count the number of positive numbers using a generator expression\n    return sum(1 for num in nums if num > 0)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/67", "completion": "from math import factorial\n\n"}
+{"task_id": "Mbpp/68", "completion": "from typing import List\n"}
+{"task_id": "Mbpp/69", "completion": "def is_sublist(main_list, sub_list):\n    # Check if all elements of sub_list are in main_list\n    return all(elem in main_list for elem in sub_list)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/70", "completion": "from typing import List, Tuple\n"}
+{"task_id": "Mbpp/71", "completion": "from typing import List\n\n"}
+{"task_id": "Mbpp/72", "completion": "def dif_Square(n):\n    # Check if n is odd or zero, return True if so\n    if (n % 2 == 0 or n == 0):\n        return True\n    else:\n        return False\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/74", "completion": "from collections import defaultdict\n"}
+{"task_id": "Mbpp/75", "completion": "from functools import reduce\n"}
+{"task_id": "Mbpp/77", "completion": "def is_Diff(n):\n    # Check if the absolute difference between n and its reverse is divisible by 11\n    return abs(int(str(n)[::-1]) - n) % 11 == 0\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/79", "completion": "def word_len(word):\n    # Check if the length of the word is even\n    return len(word) % 2 == 0\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/80", "completion": "from math import factorial\n\n"}
+{"task_id": "Mbpp/82", "completion": "import math\n\n"}
+{"task_id": "Mbpp/84", "completion": "from functools import lru_cache\n\n"}
+{"task_id": "Mbpp/85", "completion": "import math\n\n"}
+{"task_id": "Mbpp/86", "completion": "def centered_hexagonal_number(n):\n    # Formula to calculate the nth centered hexagonal number\n    return 3 * n * (n - 1) + 1\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/87", "completion": "from collections import Counter\n"}
+{"task_id": "Mbpp/88", "completion": "from collections import Counter\n"}
+{"task_id": "Mbpp/89", "completion": "from bisect import bisect_left\n"}
+{"task_id": "Mbpp/90", "completion": "def len_log(words):\n    # Find the maximum length of words in the list using max() and len()\n    return max(len(word) for word in words)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/91", "completion": "from typing import List\n"}
+{"task_id": "Mbpp/92", "completion": "def is_undulating(n):\n    # Check if the number has at least 3 digits and alternating pattern\n    return len(str(n)) >= 3 and str(n)[0] == str(n)[2] and str(n)[1] == str(n)[3]\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/93", "completion": "def power(a, b):\n    # Base case: if exponent is 0, return 1 (any number to the power of 0 is 1)\n    if b == 0:\n        return 1\n    # If exponent is negative, convert it to positive and compute the reciprocal\n    elif b < 0:\n        return 1 / power(a, -b)\n    # Recursive case: multiply 'a' by the result of 'power(a, b-1)'\n    else:\n        return a * power(a, b - 1)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/94", "completion": "def index_minimum(test_list):\n    # Find the first element of the tuple with the minimum second element\n    res = min(test_list, key=lambda x: x[1])[0]\n    return res\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/95", "completion": "from typing import List\n"}
+{"task_id": "Mbpp/96", "completion": "def divisor(n):\n    # Initialize count to 0\n    count = 0\n    \n    # Iterate through all numbers from 1 to n\n    for i in range(1, n + 1):\n        # Check if i is a divisor of n\n        if n % i == 0:\n            # If so, increment the count\n            count += 1\n            \n    return count\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/97", "completion": "from collections import Counter"}
+{"task_id": "Mbpp/98", "completion": "import math\n\n"}
+{"task_id": "Mbpp/99", "completion": "def decimal_to_binary(n):\n    # Convert the decimal number to binary using bin() and remove the '0b' prefix\n    return bin(n)[2:]\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/100", "completion": "def next_smallest_palindrome(num):\n    # Convert the number to a string and check if it's already a palindrome\n    for i in range(num + 1, sys.maxsize):\n        s = str(i)\n        if s == s[::-1]:\n            return int(s)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/101", "completion": "def kth_element(arr, k):\n    # Return the k-th element (1-based index)\n    return arr[k - 1]\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/102", "completion": "def snake_to_camel(word):\n    # Split the word by underscore and capitalize each segment\n    return ''.join(x.capitalize() or '_' for x in word.split('_'))\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/103", "completion": "from math import factorial\n\n"}
+{"task_id": "Mbpp/104", "completion": "from operator import itemgetter\n"}
+{"task_id": "Mbpp/105", "completion": "def count(lst):\n    # Count the number of True values in the list using sum and generator expression\n    return sum(1 for i in lst if i is True)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/106", "completion": "def add_lists(test_list, test_tup):\n    # Convert tuple to list and extend it with the original list\n    res = list(test_tup) + test_list\n    return tuple(res)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/108", "completion": "from heapq import merge\n"}
+{"task_id": "Mbpp/109", "completion": "def odd_Equivalent(s, n):\n    # Count the number of '1's in the binary string\n    ones = s.count('1')\n    \n    # If there are no '1's or all '1's, return 0 as no rotation will change the parity\n    if ones == 0 or ones == len(s):\n        return 0\n    \n    # Initialize count of rotations resulting in an odd number\n    cnt = 0\n    \n    # Iterate through each character in the string\n    for i in range(len(s)):\n        # Check if the current character is '1'\n        if s[i] == '1':\n            # Increment the count if the position is even (since it will contribute to an odd number)\n            if i % 2 == 0:\n                cnt += 1\n    \n    # Return the total count of such rotations\n    return cnt\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/111", "completion": "from functools import reduce\n"}
+{"task_id": "Mbpp/113", "completion": "import re\n"}
+{"task_id": "Mbpp/116", "completion": "def tuple_to_int(nums):\n    # Convert each element in the tuple to a string and concatenate them\n    result = int(''.join(map(str, nums)))\n    return result\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/118", "completion": "def string_to_list(string):\n    # Split the string by spaces and return the resulting list\n    return string.split(' ')\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/119", "completion": "def search(nums):\n    # Iterate through pairs of elements\n    for i in range(0, len(nums) - 1, 2):\n        # If a pair is not equal, return the first element of the pair\n        if nums[i] != nums[i + 1]:\n            return nums[i]\n    # If no unique element found, return the last element\n    return nums[-1]\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/120", "completion": "def max_product_tuple(test_list):\n    # Calculate the maximum absolute product of pairs using a generator expression\n    res = max(abs(x * y) for x, y in test_list)\n    return res\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/123", "completion": "from math import sqrt\n"}
+{"task_id": "Mbpp/124", "completion": "import cmath"}
+{"task_id": "Mbpp/125", "completion": "def find_length(s):\n    # Initialize variables to store the maximum length, current sum, and minimum sum\n    max_len = 0\n    curr_sum = 0\n    min_sum = 0\n    \n    # Iterate through each character in the string\n    for i in range(len(s)):\n        # Update the current sum based on whether the character is '0' or '1'\n        if s[i] == \"0\":\n            curr_sum += 1\n        else:\n            curr_sum -= 1\n        \n        # If the current sum is less than the minimum sum, update the minimum sum\n        if curr_sum < min_sum:\n            min_sum = curr_sum\n        \n        # Calculate the maximum length by taking the absolute value of the difference\n        # between the current sum and the minimum sum\n        max_len = max(max_len, abs(curr_sum - min_sum))\n    \n    return max_len\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/126", "completion": "def sum(n1,n2):\n    # Initialize sum of common divisors\n    s = 0\n    \n    # Iterate through all possible divisors up to the minimum of n1 and n2\n    for i in range(1,min(n1,n2)+1):\n        # Check if both n1 and n2 are divisible by i\n        if (n1 % i == 0 and n2 % i == 0):\n            # Add the divisor to the sum\n            s += i\n            \n    return s\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/127", "completion": "def multiply_int(x, y):\n    # Initialize the result variable to 0\n    res = 0\n    \n    # If x is negative, make it positive and negate the result at the end\n    if x < 0:\n        x = -x\n        neg = True\n    else:\n        neg = False\n    \n    # Iterate through each bit of y\n    for i in range(y.bit_length()):\n        # If the ith bit of y is set (i.e., 1), add x shifted left by i bits to the result\n        if y & (1 << i):\n            res += x << i\n    \n    # If the original y was negative, negate the result\n    if neg:\n        res = -res\n    \n    return res\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/128", "completion": "from typing import List\n"}
+{"task_id": "Mbpp/129", "completion": "from itertools import chain\n"}
+{"task_id": "Mbpp/130", "completion": "from collections import Counter\n"}
+{"task_id": "Mbpp/131", "completion": "def reverse_vowels(s):\n    # Extract all vowels from the string\n    vowels = [char for char in s if char.lower() in 'aeiou']\n    \n    # Initialize an empty list to store the result characters\n    result = []\n    \n    # Iterate through each character in the original string\n    for char in s:\n        # If the character is a vowel, pop the last vowel from the list and add it to the result\n        if char.lower() in 'aeiou':\n            result.append(vowels.pop())\n        else:\n            # If the character is not a vowel, add it as is to the result\n            result.append(char)\n    \n    # Join the list into a string and return it\n    return ''.join(result)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/132", "completion": "def tup_string(tup):\n    # Join the elements of the tuple into a single string\n    result = ''.join(tup)\n    return result\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/133", "completion": "from functools import reduce\n"}
+{"task_id": "Mbpp/135", "completion": "def hexagonal_num(n):\n    # Calculate the nth hexagonal number using the formula\n    return n * (2 * n - 1)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/137", "completion": "import math\n\n"}
+{"task_id": "Mbpp/138", "completion": "def is_Sum_Of_Powers_Of_Two(n):\n    # Check if n is greater than 0 and has only one bit set in its binary representation\n    return (n > 0) and ((n & (n - 1)) == 0)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/139", "completion": "import math\n\n"}
+{"task_id": "Mbpp/140", "completion": "from itertools import chain\n"}
+{"task_id": "Mbpp/141", "completion": "from typing import List\n\n"}
+{"task_id": "Mbpp/142", "completion": "from typing import List\n"}
+{"task_id": "Mbpp/145", "completion": "def max_Abs_Diff(arr):\n    # Find the minimum and maximum values in the array\n    min_val = arr[0]\n    max_val = arr[0]\n    \n    # Iterate through the array to update min_val and max_val\n    for i in range(1, len(arr)):\n        if arr[i] < min_val:\n            min_val = arr[i]\n        elif arr[i] > max_val:\n            max_val = arr[i]\n    \n    # Return the absolute difference between the maximum and minimum values\n    return abs(max_val - min_val)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/160", "completion": "from sympy import symbols, Eq, solve\n"}
+{"task_id": "Mbpp/161", "completion": "def remove_elements(list1, list2):\n    # Create a new list that contains only the elements not present in list2\n    result = [element for element in list1 if element not in list2]\n    return result\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/162", "completion": "def sum_series(n):\n    # Base case: if n is less than or equal to 0, return 0\n    if n <= 0:\n        return 0\n    else:\n        # Recursive case: add n to the result of sum_series with n-2\n        return n + sum_series(n - 2)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/165", "completion": "from string import ascii_lowercase\n"}
+{"task_id": "Mbpp/166", "completion": "from itertools import combinations\n"}
+{"task_id": "Mbpp/167", "completion": "import math\n\n"}
+{"task_id": "Mbpp/168", "completion": "from collections import Counter\n\n"}
+{"task_id": "Mbpp/170", "completion": "def sum_range_list(nums, l, r):\n    # Calculate the sum of elements from index l to r (inclusive)\n    return sum(nums[l : r + 1])\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/171", "completion": "from math import tan, pi\n"}
+{"task_id": "Mbpp/172", "completion": "from collections import Counter\n\n"}
+{"task_id": "Mbpp/222", "completion": "from typing import Tuple\n"}
+{"task_id": "Mbpp/223", "completion": "from typing import *\n"}
+{"task_id": "Mbpp/224", "completion": "from math import log2, floor\n\n"}
+{"task_id": "Mbpp/226", "completion": "def odd_values_string(str1):\n    # Initialize an empty string to store the result\n    result = \"\"\n    # Iterate over the string using enumerate to get both index and character\n    for i, c in enumerate(str1):\n        # Check if the index is even (i.e., character at odd position)\n        if i % 2 == 0:\n            # Append the character to the result string\n            result += c\n    return result\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/227", "completion": "def min_of_three(x,y,z):\n    # Use the built-in min function to find the minimum of the three numbers\n    return min(x, y, z)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/230", "completion": "from typing import *\n"}
+{"task_id": "Mbpp/232", "completion": "from heapq import nlargest\n"}
+{"task_id": "Mbpp/233", "completion": "import math\n"}
+{"task_id": "Mbpp/234", "completion": "from math import pow\n"}
+{"task_id": "Mbpp/235", "completion": "def even_bit_set_number(n):\n    # Initialize result to 0 and bit position to 0\n    res = 0\n    bit_pos = 0\n    \n    # Iterate through each bit of the number\n    while n > 0:\n        # Check if the current bit position is even\n        if (bit_pos % 2 == 0):\n            # Set the corresponding bit in the result\n            res |= (1 << bit_pos)\n        \n        # Move to the next bit position\n        bit_pos += 1\n        # Right shift the number by 1 to process the next bit\n        n >>= 1\n    \n    # Combine the original number with the result to set even bits\n    return (n | res)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/237", "completion": "from collections import defaultdict\n"}
+{"task_id": "Mbpp/238", "completion": "from itertools import combinations\n"}
+{"task_id": "Mbpp/239", "completion": "from functools import lru_cache\n\n# Define a memoized function to calculate the total number of sequences\n@lru_cache(None)"}
+{"task_id": "Mbpp/240", "completion": "from typing import *\n"}
+{"task_id": "Mbpp/242", "completion": "from collections import Counter\n\n"}
+{"task_id": "Mbpp/244", "completion": "import math\n\n"}
+{"task_id": "Mbpp/245", "completion": "def max_sum(arr):\n    n = len(arr)\n    # dp[i] stores the maximum sum of increasing subsequence ending at index i\n    dp = [arr[i] for i in range(n)]\n    \n    # Compute maximum sum of increasing subsequences for all elements\n    for i in range(1, n):\n        for j in range(i):\n            if arr[i] > arr[j]:\n                dp[i] = max(dp[i], dp[j] + arr[i])\n    \n    # Initialize result with the maximum value from dp array\n    res = max(dp)\n    \n    # Compute maximum sum of decreasing subsequences for all elements\n    for i in range(n - 2, -1, -1):\n        for j in range(n - 1, i, -1):\n            if arr[i] > arr[j]:\n                dp[i] = max(dp[i], dp[j] + arr[i])\n                res = max(res, dp[i])\n    \n    return res\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/247", "completion": "from collections import defaultdict\n\n"}
+{"task_id": "Mbpp/250", "completion": "from collections import Counter\n"}
+{"task_id": "Mbpp/251", "completion": "from typing import List\n"}
+{"task_id": "Mbpp/252", "completion": "import cmath\n\n"}
+{"task_id": "Mbpp/253", "completion": "from collections import Iterable\n\n"}
+{"task_id": "Mbpp/255", "completion": "from itertools import product\n"}
+{"task_id": "Mbpp/256", "completion": "from math import sqrt\n\n"}
+{"task_id": "Mbpp/257", "completion": "def swap_numbers(x, y):\n    # Create a tuple with the second number followed by the first number\n    return (y, x)"}
+{"task_id": "Mbpp/259", "completion": "from operator import add\n"}
+{"task_id": "Mbpp/260", "completion": "from sympy import isprime\n\n"}
+{"task_id": "Mbpp/261", "completion": "from operator import truediv\n"}
+{"task_id": "Mbpp/262", "completion": "from typing import *\n"}
+{"task_id": "Mbpp/264", "completion": "def dog_age(human_years):\n    # Check if the input is negative\n    if human_years < 0:\n        exit()\n    # For the first two years, a dog year is equal to 10.5 human years\n    elif human_years <= 2:\n        dog_years = human_years * 10.5\n    # After two years, each dog year is equal to 4 human years\n    else:\n        dog_years = 21 + (human_years - 2) * 4\n    return dog_years\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/265", "completion": "from itertools import islice\n"}
+{"task_id": "Mbpp/266", "completion": "def lateralsurface_cube(side):\n    # Calculate the lateral surface area of the cube\n    return 4 * (side ** 2)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/267", "completion": "def square_Sum(n):\n    # Calculate the sum of squares of the first n odd natural numbers\n    return int(n * (4 * n * n - 1) / 3)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/268", "completion": "from math import sqrt\n\n"}
+{"task_id": "Mbpp/269", "completion": "from string import ascii_uppercase, ascii_lowercase\n\n# Define uppercase and lowercase ASCII characters"}
+{"task_id": "Mbpp/270", "completion": "def sum_even_and_even_index(lst):\n    # Sum even numbers at even indices using list comprehension and modulo operator\n    return sum(x for i, x in enumerate(lst) if i % 2 == 0 and x % 2 == 0)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/271", "completion": "def even_Power_Sum(n):\n    # Initialize the sum variable to store the result\n    Sum = 0\n    \n    # Iterate through the first n even numbers\n    for i in range(1, n + 1):\n        # Calculate the fifth power of the current even number and add it to the sum\n        Sum += (2 * i) ** 5\n    \n    return Sum\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/272", "completion": "def rear_extract(test_list):\n    # Extract the last element from each tuple using list comprehension\n    res = [sub[-1] for sub in test_list]\n    return res\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/273", "completion": "def substract_elements(test_tup1, test_tup2):\n    # Subtract corresponding elements from both tuples\n    res = tuple(x - y for x, y in zip(test_tup1, test_tup2))\n    return res\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/274", "completion": "from math import comb\n"}
+{"task_id": "Mbpp/276", "completion": "import math\n\n"}
+{"task_id": "Mbpp/277", "completion": "from typing import Dict\n"}
+{"task_id": "Mbpp/278", "completion": "def count_first_elements(test_tup):\n    # Check if the first element is a tuple and count accordingly\n    res = 1 if isinstance(test_tup[0], tuple) else 0\n    for ele in test_tup:\n        # If an element is a tuple, break the loop\n        if isinstance(ele, tuple):\n            break\n        # Increment the result counter for non-tuple elements\n        res += 1\n    return res\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/279", "completion": "def is_num_decagonal(n):\n    # Calculate the nth decagonal number using the formula\n    return 4 * n * n - 3 * n\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/280", "completion": "def sequential_search(arr, x):\n    # Iterate through each element in the array\n    for i in range(len(arr)):\n        # Check if the current element matches the target value\n        if arr[i] == x:\n            # Return True and the index where the element was found\n            return (True, i)\n    \n    # If the loop completes without finding the element, return False and -1\n    return (False, -1)"}
+{"task_id": "Mbpp/281", "completion": "from typing import *"}
+{"task_id": "Mbpp/282", "completion": "from operator import sub"}
+{"task_id": "Mbpp/283", "completion": "from collections import Counter\n"}
+{"task_id": "Mbpp/284", "completion": "from typing import List\n"}
+{"task_id": "Mbpp/285", "completion": "import re\n"}
+{"task_id": "Mbpp/286", "completion": "from sys import maxsize\n\n"}
+{"task_id": "Mbpp/287", "completion": "def square_Sum(n):\n    # Calculate the sum of squares of first n even natural numbers using the formula\n    return int(2 * n * (n + 1) * (2 * n + 1) / 3)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/290", "completion": "from functools import reduce\n"}
+{"task_id": "Mbpp/292", "completion": "import math\n"}
+{"task_id": "Mbpp/293", "completion": "import math\n"}
+{"task_id": "Mbpp/294", "completion": "def max_val(mixed):\n    # Filter out non-integer values and find the maximum integer value\n    return max(item for item in mixed if isinstance(item, int))\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/296", "completion": "from itertools import combinations\n\n"}
+{"task_id": "Mbpp/297", "completion": "from collections import deque\n"}
+{"task_id": "Mbpp/299", "completion": "from collections import defaultdict\n"}
+{"task_id": "Mbpp/300", "completion": "from math import comb\n"}
+{"task_id": "Mbpp/301", "completion": "from collections import Mapping\n\n"}
+{"task_id": "Mbpp/305", "completion": "from operator import itemgetter\n"}
+{"task_id": "Mbpp/306", "completion": "from bisect import bisect_right\n"}
+{"task_id": "Mbpp/308", "completion": "from itertools import product"}
+{"task_id": "Mbpp/309", "completion": "def maximum(a, b):\n    # Use the max() function to find and return the maximum of two numbers\n    return (max(a, b))\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/310", "completion": "def string_to_tuple(string):\n    # Convert the string to a tuple of characters\n    return tuple(string)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/311", "completion": "def set_left_most_unset_bit(n):\n    # Check if all bits are set (n is a power of two minus one)\n    if n & (n + 1) != 0:\n        return n\n    \n    # Find the position of the leftmost unset bit\n    pos = 0\n    while n != 0:\n        n >>= 1\n        pos += 1\n    \n    # Set the leftmost unset bit\n    return (1 << pos) | n\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/312", "completion": "import math\n\n"}
+{"task_id": "Mbpp/388", "completion": "import math\n\n"}
+{"task_id": "Mbpp/389", "completion": "from functools import lru_cache\n\n# Function to calculate the nth Lucas number using memoization\n@lru_cache(None)"}
+{"task_id": "Mbpp/390", "completion": "from functools import partial\n"}
+{"task_id": "Mbpp/391", "completion": "from itertools import zip_longest\n"}
+{"task_id": "Mbpp/392", "completion": "from math import floor\n\n"}
+{"task_id": "Mbpp/394", "completion": "from typing import Tuple\n"}
+{"task_id": "Mbpp/395", "completion": "from collections import Counter\n\n"}
+{"task_id": "Mbpp/397", "completion": "def median_numbers(a, b, c):\n    # Sort the numbers and return the middle one\n    return sorted([a, b, c])[1]\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/398", "completion": "from functools import reduce\n\n"}
+{"task_id": "Mbpp/404", "completion": "def minimum(x, y):\n    # Use the min() function to find and return the minimum of x and y\n    return min(x, y)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/405", "completion": "def check_tuplex(tuplex, element):\n    # Check if the element is in the tuple and return True if it is, otherwise False\n    return element in tuplex\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/406", "completion": "from functools import reduce\n\n"}
+{"task_id": "Mbpp/409", "completion": "from functools import reduce\n"}
+{"task_id": "Mbpp/410", "completion": "from functools import reduce\n"}
+{"task_id": "Mbpp/412", "completion": "def remove_odd(nums):\n    # Use list comprehension to filter out odd numbers\n    return [num for num in nums if num % 2 == 0]\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/413", "completion": "from operator import itemgetter\n"}
+{"task_id": "Mbpp/414", "completion": "def overlapping(list1, list2):\n    # Check if there is any common element between the two lists\n    return bool(set(list1) & set(list2))\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/415", "completion": "from itertools import combinations"}
+{"task_id": "Mbpp/418", "completion": "from operator import itemgetter\n"}
+{"task_id": "Mbpp/419", "completion": "from math import ceil\n"}
+{"task_id": "Mbpp/420", "completion": "def cube_Sum(n):\n    # Calculate the sum of cubes of the first n even natural numbers\n    return int((n * (n + 1)) ** 2)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/421", "completion": "from typing import Tuple\n"}
+{"task_id": "Mbpp/422", "completion": "def find_Average_Of_Cube(n):\n    sum = 0\n    \n    # Calculate the sum of cubes of first n natural numbers\n    for i in range(1, n + 1):\n        sum += i ** 3\n    \n    # Return the average of cubes\n    return sum / n\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/424", "completion": "def extract_rear(test_tup):\n    # Extracting last character from each string using list comprehension\n    res = [sub[-1] for sub in test_tup]\n    return res\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/425", "completion": "from collections import Counter\n"}
+{"task_id": "Mbpp/426", "completion": "def filter_oddnumbers(nums):\n    # Use list comprehension to filter out even numbers\n    return [num for num in nums if num % 2 != 0]\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/427", "completion": "from datetime import datetime\n"}
+{"task_id": "Mbpp/428", "completion": "def shell_sort(arr):\n    n = len(arr)\n    gap = n // 2\n\n    # Continue until the gap is zero\n    while gap > 0:\n        # Perform insertion sort for this gap size\n        for i in range(gap, n):\n            temp = arr[i]\n            j = i\n            # Shift earlier gap-sorted elements up until the correct location for arr[i] is found\n            while j >= gap and arr[j - gap] > temp:\n                arr[j] = arr[j - gap]\n                j -= gap\n            # Put temp (the original arr[i]) in its correct location\n            arr[j] = temp\n        gap //= 2\n\n    return arr\n\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/429", "completion": "from operator import sub\n\n"}
+{"task_id": "Mbpp/430", "completion": "from sympy import symbols, Eq, solve\n"}
+{"task_id": "Mbpp/432", "completion": "def median_trapezium(base_a, base_b, height):\n    # Calculate the median length using the formula: (base_a + base_b) / 2\n    return (base_a + base_b) / 2\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/433", "completion": "from typing import List\n"}
+{"task_id": "Mbpp/435", "completion": "def last_Digit(n):\n    # Return the last digit by using modulo operator\n    return n % 10\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/436", "completion": "def neg_nos(list):\n    # Use list comprehension to filter out negative numbers\n    new_list = [num for num in list if num < 0]\n    return new_list\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/437", "completion": "from re import sub\n"}
+{"task_id": "Mbpp/439", "completion": "from functools import reduce\n"}
+{"task_id": "Mbpp/440", "completion": "import re\n"}
+{"task_id": "Mbpp/441", "completion": "from math import pow\n\n"}
+{"task_id": "Mbpp/445", "completion": "def index_multiplication(test_tup1, test_tup2):\n    # Using zip() + map() + lambda\n    res = tuple(map(lambda x, y: tuple(z * w for z, w in zip(x, y)), test_tup1, test_tup2))\n    return (res)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/446", "completion": "from collections import Counter\n"}
+{"task_id": "Mbpp/447", "completion": "def cube_nums(nums):\n    # Use list comprehension to cube each element\n    return [x ** 3 for x in nums]\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/448", "completion": "from functools import lru_cache\n\n"}
+{"task_id": "Mbpp/450", "completion": "from operator import itemgetter\n"}
+{"task_id": "Mbpp/451", "completion": "import re\n"}
+{"task_id": "Mbpp/453", "completion": "def sumofFactors(n):\n    # Initialize result\n    res = 0\n    \n    # Iterate through all numbers from 1 to n\n    for i in range(1, n + 1):\n        # Check if i is a factor of n and if it's even\n        if (n % i == 0 and i % 2 == 0):\n            res += i\n            \n    return res\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/454", "completion": "import re\n\n# Define the regular expression pattern to match words containing 'z'"}
+{"task_id": "Mbpp/455", "completion": "def check_monthnumb_number(month):\n    # Check if the month has 31 days\n    return month in (1, 3, 5, 7, 8, 10, 12)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/456", "completion": "def reverse_string_list(string_list):\n    # Reverse each string in the list using list comprehension\n    result = [word[::-1] for word in string_list]\n    return result\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/457", "completion": "from functools import reduce\n"}
+{"task_id": "Mbpp/458", "completion": "def rectangle_area(length, width):\n    # Calculate the area by multiplying length and width\n    return length * width\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/459", "completion": "import re\n"}
+{"task_id": "Mbpp/460", "completion": "from operator import itemgetter\n"}
+{"task_id": "Mbpp/462", "completion": "from itertools import chain, combinations\n"}
+{"task_id": "Mbpp/463", "completion": "from sys import maxsize\n\n"}
+{"task_id": "Mbpp/465", "completion": "from collections import OrderedDict\n"}
+{"task_id": "Mbpp/468", "completion": "from math import prod\n"}
+{"task_id": "Mbpp/470", "completion": "from itertools import islice\n"}
+{"task_id": "Mbpp/471", "completion": "def find_remainder(arr,n):\n    # Initialize result as 1\n    res = 1\n    \n    # Iterate through all elements in arr\n    for i in range(len(arr)):\n        # Update result by multiplying current element and taking modulo n\n        res = (res * arr[i]) % n\n    \n    # Return the final result\n    return res\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/472", "completion": "def check_Consecutive(nums):\n    return sorted(nums) == list(range(min(nums), max(nums)+1))\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/473", "completion": "from collections import Counter\n"}
+{"task_id": "Mbpp/474", "completion": "from collections import Counter\n"}
+{"task_id": "Mbpp/475", "completion": "from operator import itemgetter\n"}
+{"task_id": "Mbpp/476", "completion": "def big_sum(nums):\n    # Calculate the sum of the maximum and minimum values in the list\n    return max(nums) + min(nums)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/477", "completion": "def is_lower(s):\n    # Check if all characters in the string are lowercase\n    return s.islower()\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/478", "completion": "import re\n\n"}
+{"task_id": "Mbpp/479", "completion": "def first_Digit(n):\n    # Loop until n is reduced to a single digit\n    while n >= 10:\n        n = n // 10\n    return n\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/554", "completion": "from typing import *"}
+{"task_id": "Mbpp/555", "completion": "def difference(n):\n    # Calculate the sum of the first n natural numbers\n    sum_n = (n * (n + 1)) // 2\n    \n    # Calculate the sum of cubes of the first n natural numbers\n    sum_cubes = (n * (n + 1) // 2) ** 2\n    \n    # Return the difference between the sum of cubes and the sum of the first n natural numbers\n    return sum_cubes - sum_n\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/556", "completion": "from itertools import combinations\n"}
+{"task_id": "Mbpp/557", "completion": "def toggle_string(s):\n    # Use list comprehension to iterate through each character\n    return ''.join([i.lower() if i.isupper() else i.upper() for i in s])\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/558", "completion": "def digit_distance_nums(num1, num2):\n    # Convert numbers to strings and pad with leading zeros if necessary\n    str_num1 = str(num1).zfill(5)\n    str_num2 = str(num2).zfill(5)\n\n    # Calculate the sum of absolute differences of corresponding digits\n    return sum(abs(int(str_num1[i]) - int(str_num2[i])) for i in range(len(str_num1)))\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/559", "completion": "from sys import maxsize\n\n"}
+{"task_id": "Mbpp/560", "completion": "def union_elements(test_tup1, test_tup2):\n    # Find the union of both tuples\n    res = tuple(sorted(set(test_tup1 + test_tup2)))\n    return res\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/562", "completion": "from itertools import chain\n"}
+{"task_id": "Mbpp/563", "completion": "import re\n"}
+{"task_id": "Mbpp/564", "completion": "from itertools import combinations\n"}
+{"task_id": "Mbpp/565", "completion": "def split(string):\n    # Split the string into individual characters and return as a list\n    return list(string)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/566", "completion": "def sum_digits(n):\n    # Convert the number to a string to iterate over each digit\n    return sum(int(digit) for digit in str(n))\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/567", "completion": "def issort_list(nums):\n    return all(nums[i] <= nums[i + 1] for i in range(len(nums) - 1))\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/568", "completion": "from typing import List\n"}
+{"task_id": "Mbpp/569", "completion": "from operator import itemgetter\n"}
+{"task_id": "Mbpp/572", "completion": "from collections import Counter"}
+{"task_id": "Mbpp/573", "completion": "from functools import reduce\n"}
+{"task_id": "Mbpp/576", "completion": "from typing import List\n"}
+{"task_id": "Mbpp/577", "completion": "from math import factorial\n"}
+{"task_id": "Mbpp/578", "completion": "from itertools import chain\n"}
+{"task_id": "Mbpp/579", "completion": "from typing import Tuple\n"}
+{"task_id": "Mbpp/580", "completion": "from collections import deque\n"}
+{"task_id": "Mbpp/581", "completion": "from math import sqrt\n"}
+{"task_id": "Mbpp/583", "completion": "from math import factorial\n\n"}
+{"task_id": "Mbpp/585", "completion": "from operator import itemgetter\n"}
+{"task_id": "Mbpp/586", "completion": "def split_Arr(arr,n):\n    # Split the array into two parts\n    arr = arr[n:] + arr[:n] \n    return arr\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/587", "completion": "def list_tuple(test_list):\n    # Convert the list to a tuple using tuple() function\n    res = tuple(test_list)\n    return (res)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/588", "completion": "def big_diff(nums):\n    return max(nums) - min(nums)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/589", "completion": "from math import sqrt\n"}
+{"task_id": "Mbpp/590", "completion": "import cmath\n"}
+{"task_id": "Mbpp/591", "completion": "def swap_List(newList):\n    # Storing the first and last element\n    size = len(newList)\n    \n    # Swapping\n    temp = newList[0]\n    newList[0] = newList[size - 1]\n    newList[size - 1] = temp\n    \n    return newList\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/592", "completion": "from math import comb\n"}
+{"task_id": "Mbpp/593", "completion": "import re\n"}
+{"task_id": "Mbpp/594", "completion": "from itertools import islice\n"}
+{"task_id": "Mbpp/596", "completion": "import sys\n\n"}
+{"task_id": "Mbpp/597", "completion": "from heapq import merge\n\n"}
+{"task_id": "Mbpp/598", "completion": "def armstrong_number(n):\n    # Convert the number to a string to easily iterate over its digits\n    s = str(n)\n    # Calculate the length of the number (number of digits)\n    l = len(s)\n    # Initialize sum to store the sum of each digit raised to the power of the number of digits\n    sum = 0\n    \n    # Iterate over each character in the string representation of the number\n    for i in range(l):\n        # Convert the character back to an integer and raise it to the power of 'l'\n        # Add the result to the sum\n        sum += int(s[i]) ** l\n    \n    # Check if the calculated sum is equal to the original number\n    if sum == n:\n        return True\n    else:\n        return False\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/599", "completion": "def sum_average(n):\n    # Calculate the sum of the first n natural numbers\n    total_sum = (n * (n + 1)) // 2\n    \n    # Calculate the average of the first n natural numbers\n    average = total_sum / n\n    \n    return total_sum, average\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/600", "completion": "def is_Even(n):\n    # Check if the number modulo 2 is equal to 0\n    return n % 2 == 0\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/602", "completion": "from collections import defaultdict\n"}
+{"task_id": "Mbpp/603", "completion": "from typing import List\n"}
+{"task_id": "Mbpp/604", "completion": "def reverse_words(s):\n    # Split the string into words\n    words = s.split(' ')\n    \n    # Reverse each word and join them back with space\n    reversed_words = ' '.join(word[::-1] for word in words)\n    \n    return reversed_words\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/605", "completion": "from math import sqrt\n"}
+{"task_id": "Mbpp/606", "completion": "import math\n"}
+{"task_id": "Mbpp/607", "completion": "import re\n"}
+{"task_id": "Mbpp/608", "completion": "from math import factorial\n\n"}
+{"task_id": "Mbpp/610", "completion": "def remove_kth_element(lst, k):\n    # Remove the k-th element from the list\n    return lst[:k] + lst[k+1:]\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/611", "completion": "from typing import List\n"}
+{"task_id": "Mbpp/612", "completion": "from itertools import zip_longest\n"}
+{"task_id": "Mbpp/614", "completion": "from functools import reduce\n"}
+{"task_id": "Mbpp/615", "completion": "def average_tuple(test_tup):\n    # Calculate the average of each inner tuple\n    res = [sum(inner) / len(inner) for inner in test_tup]\n    return res\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/616", "completion": "from operator import mod\n\n"}
+{"task_id": "Mbpp/618", "completion": "from operator import truediv\n\n"}
+{"task_id": "Mbpp/619", "completion": "import re\n"}
+{"task_id": "Mbpp/620", "completion": "from typing import List\n"}
+{"task_id": "Mbpp/622", "completion": "from typing import List\n\n"}
+{"task_id": "Mbpp/623", "completion": "def nth_nums(numbers,n):\n    # Use list comprehension to raise each element to the power 'n'\n    return [x ** n for x in numbers]\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/624", "completion": "from string import ascii_lowercase\n\n"}
+{"task_id": "Mbpp/626", "completion": "from math import pi, sqrt\n"}
+{"task_id": "Mbpp/628", "completion": "def replace_spaces(s):\n    # Replace each space character with '%20' using the str.replace() method\n    return s.replace(' ', '%20')\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/629", "completion": "def Split(lst):\n    # Use list comprehension to filter even numbers\n    return [i for i in lst if i % 2 == 0]\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/630", "completion": "from itertools import product\n"}
+{"task_id": "Mbpp/631", "completion": "import re\n"}
+{"task_id": "Mbpp/632", "completion": "def move_zero(nums):\n    # Count the number of zeroes in the list\n    count = nums.count(0)\n    \n    # Remove all zeroes from the list\n    while 0 in nums:\n        nums.remove(0)\n    \n    # Append the same number of zeroes at the end of the list\n    for i in range(count):\n        nums.append(0)\n    \n    return nums\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/633", "completion": "from itertools import combinations\n"}
+{"task_id": "Mbpp/635", "completion": "from heapq import heapify, heappop\n\n"}
+{"task_id": "Mbpp/637", "completion": "def noprofit_noloss(cost_price,selling_price):\n    # Check if selling price is less than cost price (loss)\n    if selling_price < cost_price:\n        return True\n    # Check if selling price is greater than cost price (profit)\n    elif selling_price > cost_price:\n        return False\n    else:\n        # If selling price equals cost price, there's no profit or loss\n        return True\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/638", "completion": "import math\n"}
+{"task_id": "Mbpp/639", "completion": "from functools import reduce\n"}
+{"task_id": "Mbpp/641", "completion": "from math import floor\n\n"}
+{"task_id": "Mbpp/643", "completion": "import re\n"}
+{"task_id": "Mbpp/644", "completion": "def reverse_Array_Upto_K(arr, k):\n    # Reverse the elements from index 0 to k-1\n    for i in range(k // 2):\n        arr[i], arr[k - i - 1] = arr[k - i - 1], arr[i]\n    return arr\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/720", "completion": "def add_dict_to_tuple(test_tup, res_dict):\n    # Convert the tuple to a list\n    test_list = list(test_tup)\n    # Append the dictionary to the list\n    test_list.append(res_dict)\n    # Convert the list back to a tuple\n    res = tuple(test_list)\n    return res\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/721", "completion": "from math import inf\n"}
+{"task_id": "Mbpp/722", "completion": "from operator import itemgetter\n"}
+{"task_id": "Mbpp/723", "completion": "from typing import List\n"}
+{"task_id": "Mbpp/724", "completion": "from math import pow\n"}
+{"task_id": "Mbpp/725", "completion": "import re\n"}
+{"task_id": "Mbpp/726", "completion": "def multiply_elements(test_tup):\n    # Initialize an empty list to store the results\n    res = []\n    \n    # Iterate through the tuple using enumerate to get both index and value\n    for idx in range(len(test_tup) - 1):\n        # Multiply the current element with the next one and append to the result list\n        res.append(test_tup[idx] * test_tup[idx + 1])\n    \n    # Convert the result list back to a tuple and return it\n    return tuple(res)"}
+{"task_id": "Mbpp/728", "completion": "from typing import *"}
+{"task_id": "Mbpp/730", "completion": "from itertools import groupby\n"}
+{"task_id": "Mbpp/731", "completion": "import math\n"}
+{"task_id": "Mbpp/732", "completion": "import re\n"}
+{"task_id": "Mbpp/733", "completion": "from bisect import bisect_left\n\n"}
+{"task_id": "Mbpp/734", "completion": "from itertools import combinations\n"}
+{"task_id": "Mbpp/735", "completion": "def toggle_middle_bits(n):\n    # Calculate the number of bits in 'n'\n    num_bits = n.bit_length()\n    \n    # Create a mask with all bits set except the first and last bit\n    mask = ((1 << (num_bits - 1)) - 1) ^ 1\n    \n    # Toggle the middle bits using the mask\n    return n ^ mask\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/736", "completion": "from bisect import bisect_left\n"}
+{"task_id": "Mbpp/737", "completion": "import re\n"}
+{"task_id": "Mbpp/739", "completion": "from math import sqrt\n"}
+{"task_id": "Mbpp/740", "completion": "def tuple_to_dict(test_tup):\n    res = dict(test_tup[idx : idx + 2] for idx in range(0, len(test_tup), 2))\n    return res\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/741", "completion": "from collections import Counter\n"}
+{"task_id": "Mbpp/742", "completion": "from math import sqrt\n\n"}
+{"task_id": "Mbpp/743", "completion": "def rotate_right(nums, k):\n    # Calculate the effective rotation needed\n    k = k % len(nums)\n    \n    # Rotate the list using slicing\n    return nums[-k:] + nums[:-k]\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/744", "completion": "def check_none(test_tup):\n    # Check if 'None' is in the tuple and return the result\n    res = None in test_tup\n    return res\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/745", "completion": "def divisible_by_digits(startnum, endnum):\n    # Filter numbers in the range that are divisible by all their digits\n    return [n for n in range(startnum, endnum + 1) if all(int(digit) != 0 and n % int(digit) == 0 for digit in str(n))]\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/748", "completion": "import re\n\n"}
+{"task_id": "Mbpp/749", "completion": "from functools import cmp_to_key\n"}
+{"task_id": "Mbpp/750", "completion": "def add_tuple(test_list, test_tup):\n    # Extend the list with elements from the tuple\n    test_list.extend(test_tup)\n    return test_list\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/751", "completion": "from math import ceil\n\n"}
+{"task_id": "Mbpp/752", "completion": "from functools import lru_cache\n\n"}
+{"task_id": "Mbpp/753", "completion": "from heapq import nsmallest\n"}
+{"task_id": "Mbpp/754", "completion": "from typing import *"}
+{"task_id": "Mbpp/755", "completion": "def second_smallest(numbers):\n    # Check if the list has less than 2 elements\n    if len(numbers) < 2:\n        return None\n    \n    # Initialize first and second smallest with infinity\n    first = second = float('inf')\n    \n    for x in numbers:\n        # Update first and second smallest values\n        if x <= first:\n            first, second = x, first\n        elif x < second:\n            second = x\n    \n    # Return the second smallest value if it's not infinity\n    return second if second != float('inf') else first\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/757", "completion": "from collections import Counter\n"}
+{"task_id": "Mbpp/758", "completion": "from collections import Counter\n"}
+{"task_id": "Mbpp/759", "completion": "import re\n"}
+{"task_id": "Mbpp/760", "completion": "from collections import Counter\n"}
+{"task_id": "Mbpp/762", "completion": "def check_monthnumber_number(n):\n    # Check if the month has 30 days\n    return n in (4, 6, 9, 11)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/763", "completion": "def find_min_diff(arr,n):\n    # Sort the array first\n    arr.sort()\n    \n    # Initialize the minimum difference as a large number\n    min_diff = float('inf')\n    \n    # Iterate through the array and calculate differences\n    for i in range(1, n):\n        diff = arr[i] - arr[i-1]\n        if diff < min_diff:\n            min_diff = diff\n    \n    return min_diff\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/764", "completion": "def number_ctr(str):\n    return sum(c.isdigit() for c in str)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/765", "completion": "from math import log2\n\n"}
+{"task_id": "Mbpp/766", "completion": "from itertools import pairwise\n"}
+{"task_id": "Mbpp/767", "completion": "def get_pairs_count(arr,sum):\n    count = 0\n    for i in range(len(arr)):\n        for j in range(i+1,len(arr)):\n            if arr[i] + arr[j] == sum:\n                count += 1\n    return count\n"}
+{"task_id": "Mbpp/769", "completion": "from typing import *"}
+{"task_id": "Mbpp/770", "completion": "def odd_num_sum(n):\n    # Initialize sum to 0\n    sum = 0\n    \n    # Iterate through the first n odd numbers\n    for i in range(1, 2 * n + 1, 2):\n        # Add the fourth power of the current odd number to the sum\n        sum += i ** 4\n    \n    return sum\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/771", "completion": "from collections import deque\n"}
+{"task_id": "Mbpp/772", "completion": "import re\n\n"}
+{"task_id": "Mbpp/773", "completion": "import re\n"}
+{"task_id": "Mbpp/775", "completion": "def odd_position(nums):\n    # Check if all elements at odd indices are odd\n    return all(nums[i] % 2 != 0 for i in range(1, len(nums), 2))\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/777", "completion": "from collections import Counter\n"}
+{"task_id": "Mbpp/778", "completion": "from itertools import groupby\n"}
+{"task_id": "Mbpp/780", "completion": "from itertools import product\n"}
+{"task_id": "Mbpp/781", "completion": "def count_divisors(n):\n    # Initialize a counter for divisors\n    c = 0\n    \n    # Iterate through possible divisors from 1 to n\n    for i in range(1, n + 1):\n        if n % i == 0:\n            c += 1\n    \n    # Check if the number of divisors is even\n    return c % 2 == 0\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/782", "completion": "from itertools import combinations\n"}
+{"task_id": "Mbpp/784", "completion": "from functools import reduce\n"}
+{"task_id": "Mbpp/785", "completion": "def tuple_str_int(test_str):\n    # Convert the string representation of the tuple into an actual tuple of integers\n    res = tuple(int(num) for num in test_str.strip('()').split(', '))\n    return res\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/786", "completion": "def right_insertion(arr, x):\n    # Initialize left and right pointers\n    l = 0\n    r = len(arr)\n    \n    # Perform binary search\n    while l < r:\n        mid = (l + r) // 2\n        \n        # If the middle element is less than or equal to x, move the left pointer\n        if arr[mid] <= x:\n            l = mid + 1\n        else:\n            # Otherwise, move the right pointer\n            r = mid\n    \n    # Return the insertion index\n    return l\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/787", "completion": "import re\n\n# Define the regular expression pattern to match 'a' followed by exactly three 'b's"}
+{"task_id": "Mbpp/788", "completion": "from typing import List, Tuple\n"}
+{"task_id": "Mbpp/790", "completion": "def even_position(nums):\n    # Check if all elements at even indices are even\n    return all(nums[i] % 2 == i % 2 for i in range(len(nums)))\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/791", "completion": "def remove_nested(test_tup):\n    # Using generator expression to filter out nested tuples\n    res = tuple(ele for ele in test_tup if not isinstance(ele, tuple))\n    return res\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/792", "completion": "from collections import Counter\n"}
+{"task_id": "Mbpp/793", "completion": "def last(arr, x):\n    low = 0\n    high = len(arr) - 1\n    result = -1\n\n    while low <= high:\n        mid = (low + high) // 2\n\n        if arr[mid] > x:\n            high = mid - 1\n        elif arr[mid] < x:\n            low = mid + 1\n        else:\n            result = mid\n            low = mid + 1\n\n    return result\n\n"}
+{"task_id": "Mbpp/794", "completion": "import re\n\n# Define the regular expression pattern"}
+{"task_id": "Mbpp/796", "completion": "from functools import reduce\n"}
+{"task_id": "Mbpp/797", "completion": "def sum_in_range(l,r):\n    # Calculate the number of odd numbers in the range\n    n = (r - l + 1 + 1) // 2\n    \n    # Calculate the first odd number in the range\n    first_odd = l if l % 2 != 0 else l + 1\n    \n    # Calculate the last odd number in the range\n    last_odd = r if r % 2 != 0 else r - 1\n    \n    # Calculate the sum of the arithmetic series of odd numbers\n    return int(n * (first_odd + last_odd) / 2)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/798", "completion": "from functools import reduce\n\n"}
+{"task_id": "Mbpp/799", "completion": "def left_rotate(n, d):\n    # Perform bitwise left shift on n by d bits\n    return (n << d) & 0xFFFFFFFF\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/800", "completion": "from re import sub\n"}
+{"task_id": "Mbpp/801", "completion": "def test_three_equal(x, y, z):\n    # Check if all three numbers are equal and return the count\n    return 3 if x == y == z else 0\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/803", "completion": "import math\n"}
+{"task_id": "Mbpp/804", "completion": "from functools import reduce\n"}
+{"task_id": "Mbpp/805", "completion": "from functools import reduce\n"}
+{"task_id": "Mbpp/806", "completion": "from itertools import groupby\n"}
+{"task_id": "Mbpp/807", "completion": "def first_odd(nums):\n    # Use filter to find all odd numbers and return the first one\n    return next(filter(lambda x: (x % 2 != 0), nums))\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/808", "completion": "def check_K(test_tup, K):\n    # Check if K is in the tuple and return the result\n    res = K in test_tup\n    return (res)\n\n# Test the function with the provided test case"}
+{"task_id": "Mbpp/809", "completion": "def check_smaller(test_tup1, test_tup2):\n    # Check if all elements in test_tup2 are smaller than their corresponding elements in test_tup1\n    res = all(x > y for x, y in zip(test_tup1, test_tup2))\n    return res\n\n# Test the function with the provided test case"}

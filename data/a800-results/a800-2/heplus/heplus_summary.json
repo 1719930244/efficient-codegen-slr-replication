@@ -1,0 +1,101 @@
+{
+  "P04": {
+    "base_any_pass": 46.95,
+    "base_pass_at_1": 46.95,
+    "config_id": "P04",
+    "n_solutions": 164,
+    "n_tasks": 164,
+    "plus_any_pass": 44.51,
+    "plus_pass_at_1": 44.51
+  },
+  "P05": {
+    "base_any_pass": 48.78,
+    "base_pass_at_1": 48.78,
+    "config_id": "P05",
+    "n_solutions": 164,
+    "n_tasks": 164,
+    "plus_any_pass": 46.34,
+    "plus_pass_at_1": 46.34
+  },
+  "P06": {
+    "base_any_pass": 51.83,
+    "base_pass_at_1": 51.83,
+    "config_id": "P06",
+    "n_solutions": 164,
+    "n_tasks": 164,
+    "plus_any_pass": 49.39,
+    "plus_pass_at_1": 49.39
+  },
+  "P07": {
+    "base_any_pass": 75.0,
+    "base_pass_at_1": 75.0,
+    "config_id": "P07",
+    "n_solutions": 164,
+    "n_tasks": 164,
+    "plus_any_pass": 70.12,
+    "plus_pass_at_1": 70.12
+  },
+  "P08": {
+    "base_any_pass": 73.17,
+    "base_pass_at_1": 73.17,
+    "config_id": "P08",
+    "n_solutions": 164,
+    "n_tasks": 164,
+    "plus_any_pass": 68.9,
+    "plus_pass_at_1": 68.9
+  },
+  "P09": {
+    "base_any_pass": 70.73,
+    "base_pass_at_1": 70.73,
+    "config_id": "P09",
+    "n_solutions": 164,
+    "n_tasks": 164,
+    "plus_any_pass": 67.68,
+    "plus_pass_at_1": 67.68
+  },
+  "P14": {
+    "base_any_pass": 85.37,
+    "base_pass_at_1": 85.37,
+    "config_id": "P14",
+    "n_solutions": 164,
+    "n_tasks": 164,
+    "plus_any_pass": 80.49,
+    "plus_pass_at_1": 80.49
+  },
+  "P16": {
+    "base_any_pass": 85.37,
+    "base_pass_at_1": 85.37,
+    "config_id": "P16",
+    "n_solutions": 164,
+    "n_tasks": 164,
+    "plus_any_pass": 80.49,
+    "plus_pass_at_1": 80.49
+  },
+  "P17": {
+    "base_any_pass": 83.54,
+    "base_pass_at_1": 83.54,
+    "config_id": "P17",
+    "n_solutions": 164,
+    "n_tasks": 164,
+    "plus_any_pass": 78.05,
+    "plus_pass_at_1": 78.05
+  },
+  "P18": {
+    "base_any_pass": 87.2,
+    "base_pass_at_1": 87.2,
+    "config_id": "P18",
+    "n_solutions": 164,
+    "n_tasks": 164,
+    "plus_any_pass": 81.71,
+    "plus_pass_at_1": 81.71
+  },
+  "P19": {
+    "base_any_pass": 83.54,
+    "base_pass_at_1": 83.54,
+    "config_id": "P19",
+    "n_solutions": 164,
+    "n_tasks": 164,
+    "plus_any_pass": 78.66,
+    "plus_pass_at_1": 78.66
+  }
+}

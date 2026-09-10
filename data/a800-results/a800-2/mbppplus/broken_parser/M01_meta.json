@@ -1,0 +1,1 @@
+{"config_id": "M01", "model": "Qwen2.5-Coder-7B-Instruct", "precision": "fp16", "decoding": "standard", "benchmark": "mbpp+", "n_tasks": 378, "finished_utc": "2026-09-07T11:10:38Z"}

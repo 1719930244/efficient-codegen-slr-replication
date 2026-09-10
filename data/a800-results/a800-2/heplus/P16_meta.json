@@ -1,0 +1,10 @@
+{
+  "config_id": "P16",
+  "model": "Qwen2.5-Coder-32B-Instruct",
+  "precision": "int8",
+  "decoding": "standard",
+  "sampling": "greedy",
+  "device": "cuda:0",
+  "n_problems": 164,
+  "finished_utc": "2026-09-07T07:08:19Z"
+}

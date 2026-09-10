@@ -1,0 +1,10 @@
+{
+  "config_id": "B02",
+  "model": "Qwen2.5-Coder-7B-Instruct",
+  "precision": "int8",
+  "decoding": "standard",
+  "benchmark": "bigcodebench-instruct-300",
+  "pass_at_1": 0.0,
+  "p50_latency_ms": 61200,
+  "finished_utc": "2026-09-07T23:23:23Z"
+}

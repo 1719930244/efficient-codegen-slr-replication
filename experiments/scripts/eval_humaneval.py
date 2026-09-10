@@ -5,10 +5,12 @@
 
 import gc
 import json
+import sys
 import time
 import os
 import tempfile
 import subprocess
+from collections import Counter
 from pathlib import Path
 from dataclasses import dataclass, field, asdict
 from typing import Optional
@@ -131,6 +133,29 @@ def load_model(model_path: str, precision: str = "fp16", device: str = "cuda:0")
     actual_device: 模型实际所在设备，量化模型为 "auto"
     """
     tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
+    # [FIX #19] DeepSeek-Coder's byte-level BPE tokenizer.json can fall back to a
+    # slow HF path that loses spaces in both encode and decode. Self-heal: if a
+    # roundtrip probe fails and tokenizer.json exists, wrap the raw tokenizers object.
+    try:
+        _probe = "def f(a b):\n  x"
+        _rt = tokenizer.decode(tokenizer.encode(_probe, add_special_tokens=False),
+                               skip_special_tokens=True)
+        if _rt != _probe:
+            import os as _os
+            _tj = _os.path.join(model_path, "tokenizer.json")
+            if _os.path.exists(_tj):
+                from tokenizers import Tokenizer as _RawTok
+                from transformers import PreTrainedTokenizerFast as _PTF
+                _fixed = _PTF(tokenizer_object=_RawTok.from_file(_tj))
+                _rt2 = _fixed.decode(_fixed.encode(_probe, add_special_tokens=False),
+                                     skip_special_tokens=True)
+                if _rt2 == _probe:
+                    _eos = tokenizer.eos_token
+                    tokenizer = _fixed
+                    if _eos is not None:
+                        tokenizer.eos_token = _eos
+    except Exception:
+        pass
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
 
@@ -192,8 +217,13 @@ def generate_completion(
     assistant_model=None,
     assistant_tokenizer=None,
     device: str = "cuda:0",
+    truncate: bool = True,
 ) -> tuple[str, float, float, int]:
-    """生成代码补全，返回 (completion, ms_per_token, total_time_ms, num_tokens)"""
+    """生成代码补全，返回 (completion, ms_per_token, total_time_ms, num_tokens)
+
+    truncate=False 时跳过 HumanEval 风格截断（MBPP+/BCB-instruct 协议依赖 EOS 或
+    chat 输出全文，不得按首个顶层行截断）。
+    """
 
     # [FIX #1] 使用模型实际所在设备
     input_device = next(model.parameters()).device
@@ -212,7 +242,9 @@ def generate_completion(
         # for speculative decoding even when they share vocab; otherwise it raises
         # "main and assistant models have different tokenizers".
         gen_kwargs["tokenizer"] = tokenizer
-        if assistant_tokenizer is not None:
+        if assistant_tokenizer is not None and not getattr(generate_completion, "_omit_ast", False):
+            # [FIX #21] pass it by default; the except-branch below drops it for
+            # tokenizer flavours that transformers 5.x deems identical.
             gen_kwargs["assistant_tokenizer"] = assistant_tokenizer
 
     torch.cuda.synchronize()
@@ -220,7 +252,15 @@ def generate_completion(
 
     start = time.perf_counter()
     with torch.no_grad():
-        outputs = model.generate(**inputs, **gen_kwargs)
+        try:
+            outputs = model.generate(**inputs, **gen_kwargs)
+        except ValueError as _e:
+            if "assistant_tokenizer" in str(_e) and "assistant_tokenizer" in gen_kwargs:
+                gen_kwargs.pop("assistant_tokenizer")
+                generate_completion._omit_ast = True
+                outputs = model.generate(**inputs, **gen_kwargs)
+            else:
+                raise
     torch.cuda.synchronize()
     total_time = time.perf_counter() - start
     e1 = read_energy_mj(device)
@@ -231,7 +271,8 @@ def generate_completion(
     num_tokens = len(new_tokens)
     completion = tokenizer.decode(new_tokens, skip_special_tokens=True)
 
-    completion = truncate_completion(completion)
+    if truncate:
+        completion = truncate_completion(completion)
 
     total_time_ms = total_time * 1000
     ms_per_token = total_time_ms / max(num_tokens, 1)
@@ -253,8 +294,15 @@ def truncate_completion(completion: str) -> str:
 
 # ── 代码执行评测 ──────────────────────────────────────────
 
-def check_correctness(problem: dict, completion: str, timeout: int = 5) -> bool:
-    """执行生成的代码并检查测试用例是否通过"""
+def check_correctness(problem: dict, completion: str, timeout: int = 5) -> tuple[bool, Optional[str]]:
+    """执行生成的代码并检查测试用例是否通过，返回 (passed, fail_reason)
+
+    修复 [口径-低]: 判题解释器从硬编码的 'python3'（系统 /usr/bin）统一为
+    sys.executable（当前 venv），与 eval_mbpp.py / eval_bigcodebench.py 口径一致。
+    修复 [口径-提示]: 返回 (passed, fail_reason) 供结果 JSON 记录任务级
+    details，消除与 MBPP/BCB 结果结构的不对称（否则 analyze_hypotheses.py
+    对 HumanEval 报"任务级配对不可得"）。
+    """
     # [FIX #9] 确保 completion 和 test 之间有空行
     test_code = (
         problem["prompt"]
@@ -269,18 +317,20 @@ def check_correctness(problem: dict, completion: str, timeout: int = 5) -> bool:
 
     try:
         result = subprocess.run(
-            ["python3", tmp_path],
+            [sys.executable, tmp_path],
             capture_output=True,
             timeout=timeout,
             text=True,
         )
-        return result.returncode == 0
+        if result.returncode == 0:
+            return True, None
+        return False, "runtime_error"
     except subprocess.TimeoutExpired:
-        return False
+        return False, "timeout"
     except Exception as e:
         # [FIX #17] 区分超时和其他错误
         print(f"    [WARN] check_correctness infrastructure error: {type(e).__name__}: {e}")
-        return False
+        return False, f"infra_error:{type(e).__name__}"
     finally:
         os.unlink(tmp_path)
 
@@ -313,13 +363,15 @@ def adaptive_sampling(
     assistant_model=None,
     assistant_tokenizer=None,
     device: str = "cuda:0",
-) -> tuple[list[str], list[bool], float, float, int]:
+) -> tuple[list[str], list[bool], list[str], float, float, int, float]:
     """自适应采样：达到置信度阈值即早停
 
-    返回 (completions, passed_list, mean_ms_per_token, total_time_ms, total_tokens)
+    返回 (completions, passed_list, fail_reasons, mean_ms_per_token,
+          total_time_ms, total_tokens, total_energy_mj)
     """
     completions = []
     passed_list = []
+    fail_reasons = []
     total_time_ms = 0
     total_tokens = 0
     total_energy_mj = 0.0
@@ -336,8 +388,9 @@ def adaptive_sampling(
             device=device,
         )
         completions.append(comp)
-        passed = check_correctness(problem, comp)
+        passed, reason = check_correctness(problem, comp)
         passed_list.append(passed)
+        fail_reasons.append(reason if reason else "passed")
         total_time_ms += t_ms
         total_tokens += n_tok
         if e_mj >= 0:
@@ -352,7 +405,7 @@ def adaptive_sampling(
 
     mean_mspt = float(np.mean(mspt_list)) if mspt_list else 0.0
     agg_energy_mj = total_energy_mj if any_energy_measured else -1.0
-    return completions, passed_list, mean_mspt, total_time_ms, total_tokens, agg_energy_mj
+    return completions, passed_list, fail_reasons, mean_mspt, total_time_ms, total_tokens, agg_energy_mj
 
 
 # ── 主评测流程 ──────────────────────────────────────────────
@@ -394,6 +447,7 @@ def run_benchmark(
     print(f"Loaded {len(problems)} HumanEval problems")
 
     results = []
+    details = []
     all_times = []
 
     for i, problem in enumerate(problems):
@@ -408,7 +462,7 @@ def run_benchmark(
                 assistant_tokenizer=assistant_tokenizer,
                 device=device,
             )
-            passed = check_correctness(problem, comp)
+            passed, reason = check_correctness(problem, comp)
 
             gr = GenerationResult(
                 task_id=task_id, prompt=prompt, completion=comp,
@@ -419,9 +473,10 @@ def run_benchmark(
             )
             results.append(gr)
             all_times.append(total_ms)
+            details.append({**asdict(gr), "fail_reason": reason})
 
         elif sampling == "adaptive":
-            comps, passed_list, mean_mspt, total_ms, total_tokens, e_mj = adaptive_sampling(
+            comps, passed_list, fail_reasons, mean_mspt, total_ms, total_tokens, e_mj = adaptive_sampling(
                 model, tokenizer, prompt, problem,
                 n=10, temperature=0.8,
                 assistant_model=assistant_model,
@@ -429,6 +484,11 @@ def run_benchmark(
                 device=device,
             )
             best_idx = next((j for j, p in enumerate(passed_list) if p), 0)
+            if any(passed_list):
+                reason = None
+            else:
+                cnt = Counter(r for r in fail_reasons if r != "passed")
+                reason = "; ".join(f"{k}x{v}" for k, v in sorted(cnt.items())) or "unknown"
 
             gr = GenerationResult(
                 task_id=task_id, prompt=prompt, completion=comps[best_idx],
@@ -439,9 +499,11 @@ def run_benchmark(
             )
             results.append(gr)
             all_times.append(total_ms)
+            details.append({**asdict(gr), "fail_reason": reason})
 
         status = "PASS" if results[-1].passed else "FAIL"
-        print(f"  [{i+1:3d}/{len(problems)}] {task_id}: {status} "
+        extra = f" [{details[-1]['fail_reason']}]" if details[-1]["fail_reason"] else ""
+        print(f"  [{i+1:3d}/{len(problems)}] {task_id}: {status}{extra} "
               f"({results[-1].total_time_ms:.0f}ms, {results[-1].tokens_generated} tok)")
 
     # 汇总
@@ -488,6 +550,7 @@ def run_benchmark(
         mean_energy_j_per_request=mean_energy_j_per_req_val,
         mean_energy_j_per_token=mean_energy_j_per_token_val,
         num_problems=n_problems,
+        details=details,
     )
 
     # 保存结果
@@ -505,6 +568,11 @@ def run_benchmark(
               f"Energy/tok: {benchmark.mean_energy_j_per_token*1000:.2f} mJ")
     else:
         print(f"  Energy: not measured")
+    reason_counts = Counter(
+        d["fail_reason"].split(":")[0] for d in details if d.get("fail_reason")
+    )
+    if reason_counts:
+        print(f"  Fail reasons: {dict(reason_counts)}")
     print(f"  Saved to {out_path}")
 
     # [FIX #10] 正确清理显存，防止 OOM
