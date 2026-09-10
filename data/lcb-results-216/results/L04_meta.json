@@ -1,0 +1,21 @@
+{
+  "config_id": "L04",
+  "model": "Qwen2.5-Coder-7B-Instruct",
+  "precision": "fp16",
+  "decoding": "speculative",
+  "sampling": "greedy",
+  "benchmark": "livecodebench-codegen",
+  "slice": "release_v6 contest_date>=2024-11-01 (N=288)",
+  "n_tasks": 288,
+  "max_new_tokens": 512,
+  "prompt_mode": "official-chat-generic@28fef95",
+  "device": "cuda:1",
+  "gpu_name": "Tesla V100-PCIE-32GB",
+  "torch": "2.6.0+cu124",
+  "transformers": "5.5.4",
+  "n_at_cap": 7,
+  "energy_measured": true,
+  "peak_mem_mb": 16482.8017578125,
+  "wall_s": 7331.1,
+  "finished_utc": "2026-09-10T06:07:51Z"
+}

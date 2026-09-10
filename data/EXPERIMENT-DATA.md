@@ -130,3 +130,70 @@ expose `nvmlDeviceGetTotalEnergyConsumption`.
   summaries in `heplus_summary.json` on the same directory.
 - BigCodeBench instruct check: `a800-results/a800-1/bcb_instruct/B01,B03,B04`
   (B02 partially lost, see above).
+
+## LiveCodeBench contamination-free layer (`lcb-results-216`)
+
+Generated 2026-09-10 on the 2x Tesla V100-SXM2-32GB lab server (driver
+550.54.15, 32 CPU cores), single run per cell, both GPUs idle and dedicated.
+
+**Environment** (`/root/lcb-venv`, python 3.10.12): torch 2.6.0+cu124,
+torchvision 0.21.0+cu124, transformers 5.5.4, tokenizers 0.22.2,
+safetensors 0.7.0, huggingface-hub 1.10.2, accelerate 1.13.0,
+bitsandbytes 0.49.2, numpy 2.2.6, pandas 2.3.3, scipy 1.15.3, tqdm 4.67.3,
+datasets 4.8.4, psutil 7.2.2, nvidia-ml-py, plus the official `livecodebench`
+package installed editable with --no-deps from a clone pinned at commit
+28fef95ea8c9f7a547c8329f2cd3d32b92c1fa24 (2025-07-15). Judge backend
+string in every summary: `official-import@28fef95`.
+
+**Model**: Qwen2.5-Coder-7B-Instruct transferred over the lab LAN from the
+RTX 3090 Ti server; sha256 of all four safetensors shards and config.json
+verified identical to the source (config.json sha256
+c0242402ad6a13b331ea320feea8c7e3776ffb7a4eff0757b9cd667e116d9a28), the same
+checkpoint family copies used on the A800 and the 3090 Ti. Draft model
+Qwen2.5-Coder-0.5B-Instruct likewise sha-verified.
+
+**Dataset**: livecodebench/code_generation_lite release_v6 files via
+hf-mirror (huggingface.co is unreachable from this server). Slice:
+`contest_date >= 2024-11-01`, N=288 (measured span 2024-11-02 to 2025-04-06),
+atcoder 177 / leetcode 111, easy 74 / medium 88 / hard 126, zero id overlap
+with earlier release files, cross-checked against the manifest CSV.
+`data/lcb_tasks.jsonl` (generation side) is in this repo;
+`lcb_eval_samples.jsonl` (judge side, 524 MB because it embeds all public and
+private test cases) is NOT committed and is deterministically rebuilt by
+`data/build_lcb_slice.py` from the official dataset files; its sha256 at
+generation time was
+7f095beae989c8ee3a26fa33b61196e161583c5077395f31a720bb7f6dcae0db.
+
+**Protocol deviations from the suite headline** (all disclosed in the article):
+official two-turn chat prompt with the official system message (the suite's
+other cells use raw prompts); suite-wide 512-token budget (the official LCB
+harness uses larger per-model budgets, so absolute pass@1 is a conservative
+lower bound; cap-hit counts are 7/9/5/7 per cell and capped completions score
+zero exactly as the official extractor scores an unclosed fence); official
+judge over public+private tests (the dataset carries no generated_tests
+field), 6 s per-test timeout, 16-way process parallelism; greedy decoding and
+the bitsandbytes INT8/NF4-INT4 paths identical to the rest of the suite.
+
+**Judge harness note**: the official `check_correctness` spawns a process per
+test, so the outer parallelism uses `ProcessPoolExecutor` (non-daemon
+workers); an `mp.Pool` first attempt failed every task with
+"daemonic processes are not allowed to have children" and was caught by the
+3-problem smoke test before the full run.
+
+**Results** (also in `results/lcb_summary.json` and per-cell detail JSONs):
+L01 FP16 std 17.36 (easy 51.35 / med 10.23 / hard 2.38), p50 8197 ms,
+23.01 tok/s, 1838 J/req; L02 INT8 std 15.97 (50.00/6.82/2.38), p50 34618 ms,
+5.34 tok/s, 2112 J/req; L03 INT4 std 18.75 (56.76/10.23/2.38), p50 13888 ms,
+13.67 tok/s, 2144 J/req; L04 FP16 spec 17.71 (52.70/10.23/2.38), p50 21520 ms,
+8.49 tok/s, 3175 J/req. Latency ratios 4.22/1.69/2.63. Board energy measured
+via NVML (data-center driver exposes the total-energy counter, unlike the
+consumer card). L04 completions are byte-identical to L01 on 270/288 tasks;
+the 18 differences are argmax flips at floating-point near-ties under batched
+verification, a known assisted-decoding numerical artifact, disclosed in the
+article; pass@1 differs by one problem.
+
+**Scripts** in `scripts/`: `run_lcb_gen.py` (generation, resume-safe, imports
+the patched `eval_humaneval.py` core also included), `judge_lcb.py` (official
+judge integration with vendored fallback), `run_lcb_all.sh` (two-GPU launcher
+with GPU-idle guard, retry pass, and judge chain). Logs: `pipeline.log`,
+`judge.log`, and trimmed generation logs.
