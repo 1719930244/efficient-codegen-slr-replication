@@ -35,6 +35,8 @@ data/
   v100-original-results/       # V100 campaign: aggregates, regeneration, April logs, manifests
   a800-results/                # A800 extension campaign: full raw data of both rental servers
   xgpu-3090ti-217/             # RTX 3090 Ti third-architecture reference point + judged outputs
+  lcb-results-216/             # LiveCodeBench contamination-free layer, lab V100 server
+  v100-sept-round-216/         # Sep 2026 replication round: acceptance loop, 32B cells, LCB-on-3090Ti, BCB-instruct-on-V100, 1024-token sensitivity
 experiments/                   # RQ6 empirical experiments
   EXPERIMENT-PLAN.md           # Design doc: factorial composition + Pareto frontier + energy round
   scripts/

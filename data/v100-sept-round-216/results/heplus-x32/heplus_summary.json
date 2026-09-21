@@ -1,0 +1,20 @@
+{
+  "P17": {
+    "base_any_pass": 84.15,
+    "base_pass_at_1": 84.15,
+    "config_id": "P17",
+    "n_solutions": 164,
+    "n_tasks": 164,
+    "plus_any_pass": 78.66,
+    "plus_pass_at_1": 78.66
+  },
+  "P19": {
+    "base_any_pass": 82.93,
+    "base_pass_at_1": 82.93,
+    "config_id": "P19",
+    "n_solutions": 164,
+    "n_tasks": 164,
+    "plus_any_pass": 78.66,
+    "plus_pass_at_1": 78.66
+  }
+}

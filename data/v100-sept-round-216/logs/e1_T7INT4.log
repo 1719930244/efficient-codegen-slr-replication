@@ -1,0 +1,67 @@
+[LOAD] target Qwen2.5-Coder-7B-Instruct int4 + draft Qwen2.5-Coder-0.5B-Instruct on cuda:0
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:00<02:58,  1.89it/s]Loading weights:   1%|          | 2/339 [00:01<03:19,  1.69it/s]Loading weights:   1%|          | 4/339 [00:01<01:26,  3.88it/s]Loading weights:   2%|▏         | 6/339 [00:01<00:56,  5.92it/s]Loading weights:   5%|▍         | 16/339 [00:01<00:14, 21.57it/s]Loading weights:   6%|▌         | 21/339 [00:01<00:12, 25.13it/s]Loading weights:   8%|▊         | 28/339 [00:01<00:09, 34.14it/s]Loading weights:  10%|▉         | 33/339 [00:01<00:08, 34.81it/s]Loading weights:  12%|█▏        | 40/339 [00:02<00:07, 42.45it/s]Loading weights:  14%|█▎        | 46/339 [00:02<00:07, 40.99it/s]Loading weights:  16%|█▌        | 53/339 [00:02<00:06, 42.51it/s]Loading weights:  18%|█▊        | 60/339 [00:02<00:05, 48.68it/s]Loading weights:  19%|█▉        | 66/339 [00:02<00:06, 40.16it/s]Loading weights:  22%|██▏       | 76/339 [00:02<00:05, 51.50it/s]Loading weights:  24%|██▍       | 82/339 [00:02<00:05, 46.52it/s]Loading weights:  26%|██▋       | 89/339 [00:03<00:05, 46.02it/s]Loading weights:  28%|██▊       | 96/339 [00:03<00:04, 50.99it/s]Loading weights:  30%|███       | 102/339 [00:03<00:05, 41.37it/s]Loading weights:  33%|███▎      | 112/339 [00:03<00:04, 53.18it/s]Loading weights:  35%|███▌      | 119/339 [00:03<00:04, 50.11it/s]Loading weights:  37%|███▋      | 125/339 [00:03<00:04, 46.32it/s]Loading weights:  39%|███▉      | 132/339 [00:03<00:04, 50.97it/s]Loading weights:  41%|████      | 138/339 [00:04<00:04, 41.48it/s]Loading weights:  44%|████▎     | 148/339 [00:04<00:03, 52.79it/s]Loading weights:  46%|████▌     | 155/339 [00:04<00:03, 50.04it/s]Loading weights:  47%|████▋     | 161/339 [00:04<00:03, 46.12it/s]Loading weights:  50%|████▉     | 168/339 [00:04<00:03, 50.79it/s]Loading weights:  51%|█████▏    | 174/339 [00:04<00:03, 41.59it/s]Loading weights:  54%|█████▍    | 184/339 [00:04<00:02, 53.13it/s]Loading weights:  56%|█████▋    | 191/339 [00:05<00:02, 50.61it/s]Loading weights:  58%|█████▊    | 197/339 [00:05<00:03, 46.49it/s]Loading weights:  60%|██████    | 204/339 [00:05<00:02, 51.13it/s]Loading weights:  62%|██████▏   | 210/339 [00:05<00:03, 41.48it/s]Loading weights:  65%|██████▍   | 220/339 [00:05<00:02, 52.69it/s]Loading weights:  67%|██████▋   | 227/339 [00:05<00:02, 49.82it/s]Loading weights:  69%|██████▊   | 233/339 [00:06<00:02, 46.42it/s]Loading weights:  71%|███████   | 240/339 [00:06<00:01, 51.29it/s]Loading weights:  73%|███████▎  | 246/339 [00:06<00:02, 42.18it/s]Loading weights:  76%|███████▌  | 256/339 [00:06<00:01, 53.61it/s]Loading weights:  78%|███████▊  | 263/339 [00:06<00:01, 50.90it/s]Loading weights:  79%|███████▉  | 269/339 [00:06<00:01, 47.09it/s]Loading weights:  81%|████████▏ | 276/339 [00:06<00:01, 51.62it/s]Loading weights:  83%|████████▎ | 282/339 [00:07<00:01, 42.51it/s]Loading weights:  86%|████████▌ | 292/339 [00:07<00:00, 53.87it/s]Loading weights:  88%|████████▊ | 299/339 [00:07<00:00, 51.20it/s]Loading weights:  90%|████████▉ | 305/339 [00:07<00:00, 47.29it/s]Loading weights:  92%|█████████▏| 312/339 [00:07<00:00, 52.06it/s]Loading weights:  94%|█████████▍| 318/339 [00:07<00:00, 42.58it/s]Loading weights:  97%|█████████▋| 328/339 [00:07<00:00, 54.58it/s]Loading weights:  99%|█████████▉| 335/339 [00:08<00:00, 50.81it/s]Loading weights: 100%|██████████| 339/339 [00:08<00:00, 41.80it/s]
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<02:15,  2.13it/s]Loading weights:  30%|███       | 88/290 [00:00<00:01, 197.29it/s]Loading weights:  46%|████▌     | 133/290 [00:00<00:00, 251.81it/s]Loading weights:  61%|██████    | 176/290 [00:00<00:00, 254.91it/s]Loading weights:  73%|███████▎  | 212/290 [00:00<00:00, 274.87it/s]Loading weights:  86%|████████▌ | 248/290 [00:01<00:00, 288.22it/s]Loading weights: 100%|██████████| 290/290 [00:01<00:00, 248.86it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+  [1/60] HumanEval/0 rounds=112 acc=0.879 tau=5.37 gen=512
+  [2/60] HumanEval/1 rounds=122 acc=0.784 tau=4.89 gen=512
+  [3/60] HumanEval/2 rounds=58 acc=0.799 tau=4.98 gen=249
+  [4/60] HumanEval/3 rounds=20 acc=0.520 tau=3.55 gen=63
+  [5/60] HumanEval/4 rounds=109 acc=0.924 tau=5.59 gen=512
+  [6/60] HumanEval/5 rounds=25 acc=0.434 tau=3.12 gen=71
+  [7/60] HumanEval/6 rounds=35 acc=0.726 tau=4.63 gen=141
+  [8/60] HumanEval/7 rounds=132 acc=0.700 tau=4.48 gen=512
+  [9/60] HumanEval/8 rounds=31 acc=0.542 tau=3.71 gen=101
+  [10/60] HumanEval/9 rounds=110 acc=0.901 tau=5.49 gen=512
+  [11/60] HumanEval/10 rounds=24 acc=0.526 tau=3.54 gen=76
+  [12/60] HumanEval/11 rounds=117 acc=0.828 tau=5.13 gen=512
+  [13/60] HumanEval/12 rounds=129 acc=0.741 tau=4.67 gen=512
+  [14/60] HumanEval/13 rounds=9 acc=0.800 tau=5.00 gen=39
+  [15/60] HumanEval/14 rounds=143 acc=0.615 tau=4.06 gen=512
+  [16/60] HumanEval/15 rounds=114 acc=0.849 tau=5.25 gen=512
+  [17/60] HumanEval/16 rounds=47 acc=0.892 tau=5.38 gen=215
+  [18/60] HumanEval/17 rounds=112 acc=0.885 tau=5.40 gen=512
+  [19/60] HumanEval/18 rounds=7 acc=0.657 tau=4.29 gen=27
+  [20/60] HumanEval/19 rounds=124 acc=0.769 tau=4.84 gen=512
+  [21/60] HumanEval/20 rounds=42 acc=0.684 tau=4.40 gen=161
+  [22/60] HumanEval/21 rounds=35 acc=0.674 tau=4.37 gen=134
+  [23/60] HumanEval/22 rounds=121 acc=0.798 tau=4.99 gen=512
+  [24/60] HumanEval/23 rounds=136 acc=0.657 tau=4.26 gen=512
+  [25/60] HumanEval/24 rounds=58 acc=0.834 tau=5.17 gen=259
+  [26/60] HumanEval/25 rounds=40 acc=0.655 tau=4.28 gen=149
+  [27/60] HumanEval/26 rounds=142 acc=0.630 tau=4.13 gen=512
+  [28/60] HumanEval/27 rounds=61 acc=0.714 tau=4.56 gen=241
+  [29/60] HumanEval/28 rounds=120 acc=0.801 tau=4.97 gen=512
+  [30/60] HumanEval/29 rounds=112 acc=0.882 tau=5.39 gen=512
+  [31/60] HumanEval/30 rounds=118 acc=0.820 tau=5.09 gen=512
+  [32/60] HumanEval/31 rounds=29 acc=0.887 tau=5.31 gen=131
+  [33/60] HumanEval/32 rounds=123 acc=0.776 tau=4.86 gen=512
+  [34/60] HumanEval/33 rounds=24 acc=0.750 tau=4.75 gen=99
+  [35/60] HumanEval/34 rounds=46 acc=0.800 tau=5.00 gen=196
+  [36/60] HumanEval/35 rounds=114 acc=0.857 tau=5.27 gen=512
+  [37/60] HumanEval/36 rounds=45 acc=0.804 tau=5.00 gen=191
+  [38/60] HumanEval/37 rounds=111 acc=0.904 tau=5.50 gen=512
+  [39/60] HumanEval/38 rounds=67 acc=0.716 tau=4.57 gen=263
+  [40/60] HumanEval/39 rounds=67 acc=0.840 tau=5.15 gen=296
+  [41/60] HumanEval/40 rounds=65 acc=0.854 tau=5.23 gen=288
+  [42/60] HumanEval/41 rounds=45 acc=0.864 tau=5.24 gen=202
+  [43/60] HumanEval/42 rounds=45 acc=0.758 tau=4.76 gen=183
+  [44/60] HumanEval/43 rounds=82 acc=0.726 tau=4.62 gen=329
+  [45/60] HumanEval/44 rounds=63 acc=0.680 tau=4.33 gen=241
+  [46/60] HumanEval/45 rounds=127 acc=0.731 tau=4.64 gen=512
+  [47/60] HumanEval/46 rounds=60 acc=0.742 tau=4.70 gen=245
+  [48/60] HumanEval/47 rounds=111 acc=0.881 tau=5.41 gen=512
+  [49/60] HumanEval/48 rounds=120 acc=0.803 tau=5.00 gen=512
+  [50/60] HumanEval/49 rounds=8 acc=0.650 tau=4.25 gen=30
+  [51/60] HumanEval/50 rounds=119 acc=0.808 tau=5.03 gen=512
+  [52/60] HumanEval/51 rounds=27 acc=0.826 tau=5.04 gen=115
+  [53/60] HumanEval/52 rounds=50 acc=0.752 tau=4.70 gen=205
+  [54/60] HumanEval/53 rounds=114 acc=0.849 tau=5.25 gen=512
+  [55/60] HumanEval/54 rounds=59 acc=0.797 tau=4.98 gen=250
+  [56/60] HumanEval/55 rounds=122 acc=0.787 tau=4.93 gen=512
+  [57/60] HumanEval/56 rounds=50 acc=0.715 tau=4.52 gen=196
+  [58/60] HumanEval/57 rounds=45 acc=0.730 tau=4.60 gen=179
+  [59/60] HumanEval/58 rounds=10 acc=0.720 tau=4.60 gen=42
+  [60/60] HumanEval/59 rounds=61 acc=0.799 tau=4.98 gen=261
+[RESULT] {"config": "T7INT4", "target": "Qwen2.5-Coder-7B-Instruct", "precision": "int4", "draft": "Qwen2.5-Coder-0.5B-Instruct", "k": 5, "n_problems": 60, "acceptance_rate": 0.7815536114652482, "tau_mean_tokens_per_round": 4.786786996032055, "tau_sd": 0.5181020487313954, "total_proposed": 22747, "total_accepted": 17778, "total_rounds": 4574, "wall_s": 1821.5631325244904, "note": "instrumented draft-verify loop replicating HF assisted-decoding greedy acceptance rule; K fixed at args.k", "finished_utc": "2026-09-10T13:32:44Z"}

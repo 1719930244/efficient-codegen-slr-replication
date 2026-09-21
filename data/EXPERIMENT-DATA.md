@@ -17,6 +17,8 @@ quarantined, or dropped, so that every number in the article is traceable.
 | `a800-results/a800-2` | 2x A800-SXM4-40GB (rental server 2) | same campaign, second machine | state at 2026-09-08 06:10 UTC, machine retired 14:30 UTC (see losses below) |
 | `a800-results/logs-a800-1`, `logs-a800-2` | both | | operational logs; files over 10 MB are trimmed to head 3000 + tail 15000 lines and gzip-compressed, trimming is marked inside each file |
 | `xgpu-3090ti-217` | GeForce RTX 3090 Ti 24 GB (lab server, third architecture) | Sep 8 2026, single run per cell | full per-task jsonl + acceptance JSONs + judged artifacts |
+| `lcb-results-216` | 2x Tesla V100-PCIE-32GB (laboratory server) | Sep 10 2026, contamination-free LiveCodeBench layer, single run per cell | full per-task jsonl + official-judge artifacts (dedicated section below) |
+| `v100-sept-round-216` | same laboratory V100 server; one sub-round generated on the RTX 3090 Ti server and pulled to it | Sep 10-14 2026 replication round | full per-task jsonl + acceptance JSONs + judged artifacts (dedicated section below) |
 
 ## Software stacks (recorded as-run)
 
@@ -57,7 +59,11 @@ products, all completed on the machine after that backup, were lost:
    machine; only the first 83 task records (state at 06:10 UTC) survive, in
    `a800-results/a800-2/bcb_instruct/B02.jsonl`. The article therefore reports
    the instruct-protocol check over three of the four central cells and says so
-   explicitly.
+   explicitly. The September 2026 replication round completed the four-cell
+   instruct layer on the laboratory V100 server
+   (`v100-sept-round-216/results/bcb-instruct-v100/`, INT8 cell included), and
+   the article reports both the three-cell A800 check and the four-cell V100
+   replication; the A800 INT8 instruct final value remains lost.
 2. **MBPP+ judged values for M01, M02, M04** and the completed M02 generation.
    This loss has no effect on the article: the MBPP+ layer was dropped on a
    pre-declared gate (see below) before these values were inspected.
@@ -129,7 +135,13 @@ expose `nvmlDeviceGetTotalEnergyConsumption`.
 - Second-family table: `a800-results/a800-1/heplus/F0*.jsonl` and judged
   summaries in `heplus_summary.json` on the same directory.
 - BigCodeBench instruct check: `a800-results/a800-1/bcb_instruct/B01,B03,B04`
-  (B02 partially lost, see above).
+  (B02 partially lost, see above); V100 replication incl. the INT8 cell:
+  `v100-sept-round-216/results/bcb-instruct-v100/B01..B04`.
+- Acceptance table, V100 column: `v100-sept-round-216/results/acceptance-v100/T7*.json`.
+- LiveCodeBench table, RTX 3090 Ti rows: `v100-sept-round-216/results/lcb-3090ti/`;
+  1024-token budget sensitivity replicate: `v100-sept-round-216/results/lcb-cap1024/`.
+- 32B speculative sign-flip replication on V100 (single-run):
+  `v100-sept-round-216/results/heplus-x32/` (P17 standard, P19 speculative).
 
 ## LiveCodeBench contamination-free layer (`lcb-results-216`)
 
@@ -197,3 +209,81 @@ the patched `eval_humaneval.py` core also included), `judge_lcb.py` (official
 judge integration with vendored fallback), `run_lcb_all.sh` (two-GPU launcher
 with GPU-idle guard, retry pass, and judge chain). Logs: `pipeline.log`,
 `judge.log`, and trimmed generation logs.
+
+## September 2026 replication round (`v100-sept-round-216`)
+
+Run 2026-09-10..14 on the laboratory 2x Tesla V100-PCIE-32GB server (driver
+550.54.15), extending the contamination-free layer and closing three
+cross-validation gaps; one sub-round was generated on the RTX 3090 Ti server
+and pulled over the lab LAN. Every cell of this round is single-run, disclosed
+in the article's Threats to Validity scope conditions.
+
+**acceptance-v100** (2026-09-10, `measure_acceptance.py` under `/root/lcb-venv`:
+torch 2.6.0+cu124, transformers 5.5.4, bitsandbytes 0.49.2). The same
+instrumented draft-verify loop as the A800 and 3090 Ti acceptance
+measurements: draft Qwen2.5-Coder-0.5B-Instruct FP16, K=5, fixed 60-problem
+HumanEval slice, greedy. Results (`T7*.json`): FP16 target acceptance 0.8082,
+tau 4.765 +/- 0.662; INT8 0.8030, tau 4.791 +/- 0.658; INT4 0.7816, tau
+4.787 +/- 0.518. Within 0.005 of the A800 values at every precision; the
+article rounds to 0.808/0.803/0.782 with tau between 4.77 and 4.79. The
+acceptance loop was not run at 32B on this machine.
+
+**lcb-cap1024** (2026-09-10, `run_lcb_gen.py` + `judge_lcb.py` under
+`/root/lcb-venv`, judge backend official-import@28fef95). The LiveCodeBench
+FP16-standard cell (L01) regenerated with max_new_tokens=1024 instead of the
+suite-wide 512. n_at_cap=0: no completion reached the larger budget, pass@1
+is unchanged at 17.36 with an identical difficulty split (51.35/10.23/2.38),
+so the 512-token budget does not depress the layer's scores.
+
+**heplus-x32** (2026-09-10, generation under `/root/lcb-venv` on cuda:0;
+EvalPlus judgment with `judge_heplus_x32.py` under `/root/evalplus-venv`,
+evalplus 0.3.1). The two A800 32B cells replicated on V100, single run each:
+P17 Qwen2.5-Coder-32B-Instruct INT4 standard greedy, base pass@1 84.15 and
+HumanEval+ 78.66, p50 32419 ms; P19 INT4 speculative with the 0.5B draft,
+base 82.93 and HumanEval+ 78.66, p50 39112 ms. Speculation therefore remains
+a 1.21x penalty on V100 and does not reproduce the 1.28x A800 gain; the
+article scopes the 32B sign flip to accelerators with A800-class verification
+throughput. Quality agrees with the A800 cells within one task (standard,
+84.15 against 83.54) and the speculative cell differs from its standard
+counterpart by two tasks at base and none under the EvalPlus judge.
+`dl_32b.py`, `verify_32b.py`, and `loadtest_32b.json` record the download,
+sha verification, and single-GPU load feasibility test.
+
+**lcb-3090ti** (generation 2026-09-10 on the RTX 3090 Ti server under its
+pre-existing third-stack environment, torch 2.5.1+cu124, transformers 5.9.0,
+bitsandbytes 0.49.2, as recorded in each `L0*_meta.json`; pulled to the V100
+server and judged there 2026-09-14 with the same official-import@28fef95
+chain). The four central cells of the contamination-free layer, single run
+each: L01 FP16 std 17.71, L02 INT8 std 17.71, L03 INT4 std 18.75, L04 FP16
+spec 17.36; p50 4593/16526/6510/9589 ms; latency ratios 3.60 (INT8), 1.42
+(INT4), 2.09 (spec); cap-hits 8/10/7/6; quality within four problems per cell
+of the V100 layer. Board energy is not measurable because the GeForce driver
+does not expose the NVML total-energy counter. The generation-side workspace
+on the 3090 Ti machine was cleaned before this pull, so the per-task jsonl,
+meta files, judge.log, and summary in this directory are the complete
+surviving record of that sub-round.
+
+**bcb-instruct-v100** (2026-09-14, `run_bcb_instruct_gen_v100.py` under a
+dedicated `/root/bcb-venv`: torch 2.6.0+cu124, transformers 5.5.4, plus the
+BigCodeBench test-execution dependencies tensorflow 2.21.0, opencv, nltk and
+peers; setup log `logs/bcb_venv_setup.log`). Official BigCodeBench instruct
+protocol: chat-template-wrapped instruction, official `check_correctness_instruct`
+run inline per task, first-300-problem slice, same script lineage as the A800
+cells. B01 FP16 std pass@1 33.00, p50 17378 ms; B02 INT8 std 31.67, p50
+82081 ms; B03 INT4 std 33.00, p50 27883 ms; B04 FP16 spec 32.67, p50 40446
+ms. Latency ratios 4.72 (INT8), 1.60 (INT4), 2.33 (spec) against B01.
+Quality agrees with the A800 instruct cells within four problems per cell and
+the INT4 cost against FP16 is zero again. This completes the fourth central
+cell (INT8) whose A800 final value was lost at server-2 retirement; the A800
+instruct column in the article still reports three cells. A first attempt on
+2026-09-10 aborted at interpreter import (system python without torch,
+`logs/e5_B0*.log`) and produced no data; all committed records are from the
+2026-09-14 reruns (`logs/e5_B0*_r2.log`).
+
+**Scripts** in `scripts/`: as-run copies for this round
+(`measure_acceptance.py`, `run_lcb_gen.py`, `judge_lcb.py`, `run_lcb_all.sh`,
+`run_bcb_instruct_gen_v100.py`, `judge_heplus_x32.py`, `dl_32b.py`,
+`verify_32b.py`, `loadtest_32b.py`) plus the shared cores they import
+(`eval_humaneval.py`, `eval_bigcodebench.py`, `judge_heplus.py`). Logs:
+`e1_*` acceptance loop, `e2_*` cap1024, `e3_*` 32B replication, `e5_*`
+instruct round, `chain_*` launchers, `bcb_venv_setup.log`.

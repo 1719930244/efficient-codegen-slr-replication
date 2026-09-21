@@ -1,0 +1,16 @@
+[CHAIN-GPU1] 2026-09-10T12:03:57Z STEP E3_download_32B
+[CHAIN-GPU1] E3 download FAILED rc=1
+[CHAIN-GPU1] 2026-09-10T12:31:46Z STEP E3_verify_32B
+[CHAIN-GPU1] E3 verify FAILED:
+shards=7 bytes=34148087392 index_total_size=None incomplete=2 missing=['model.safetensors.index.json', 'tokenizer.json', 'tokenizer_config.json']
+VERIFY_FAIL
+[CHAIN-GPU1] E3 skipped: download/verify failed
+[CHAIN-GPU1] 2026-09-10T12:31:46Z STEP E5_wait_bcb_venv
+[CHAIN-GPU1] WARN bcb-venv setup not confirmed, trying anyway
+[CHAIN-GPU1] 2026-09-10T14:31:47Z STEP E5_B01
+[CHAIN-GPU1] E5 B01 FAILED rc=1
+[CHAIN-GPU1] 2026-09-10T14:31:47Z STEP E5_B03
+[CHAIN-GPU1] E5 B03 FAILED rc=1
+[CHAIN-GPU1] 2026-09-10T14:31:47Z STEP E5_B04
+[CHAIN-GPU1] E5 B04 FAILED rc=1
+[CHAIN-GPU1] ALL_STEPS_DONE 2026-09-10T14:31:47Z
