@@ -145,8 +145,13 @@ expose `nvmlDeviceGetTotalEnergyConsumption`.
 
 ## LiveCodeBench contamination-free layer (`lcb-results-216`)
 
-Generated 2026-09-10 on the 2x Tesla V100-SXM2-32GB lab server (driver
+Generated 2026-09-10 on the 2x Tesla V100-PCIE-32GB laboratory server (driver
 550.54.15, 32 CPU cores), single run per cell, both GPUs idle and dedicated.
+The SKU follows the torch-recorded `gpu_name` in every `L0*_meta.json`. Note
+that this laboratory server is a different V100 variant from the original
+campaign machine (4x V100-SXM2-32GB): 250 W against 300 W board power
+envelope. An earlier version of this section and of the article's `tab:lcb`
+group header said SXM2; both were corrected on 2026-09-22.
 
 **Environment** (`/root/lcb-venv`, python 3.10.12): torch 2.6.0+cu124,
 torchvision 0.21.0+cu124, transformers 5.5.4, tokenizers 0.22.2,
