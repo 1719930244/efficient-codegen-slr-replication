@@ -18,7 +18,7 @@ quarantined, or dropped, so that every number in the article is traceable.
 | `a800-results/logs-a800-1`, `logs-a800-2` | both | | operational logs; files over 10 MB are trimmed to head 3000 + tail 15000 lines and gzip-compressed, trimming is marked inside each file |
 | `xgpu-3090ti-217` | GeForce RTX 3090 Ti 24 GB (lab server, third architecture) | Sep 8 2026, single run per cell | full per-task jsonl + acceptance JSONs + judged artifacts |
 | `lcb-results-216` | 2x Tesla V100-PCIE-32GB (laboratory server) | Sep 10 2026, contamination-free LiveCodeBench layer, single run per cell | full per-task jsonl + official-judge artifacts (dedicated section below) |
-| `v100-sept-round-216` | same laboratory V100 server; one sub-round generated on the RTX 3090 Ti server and pulled to it | Sep 10-14 2026 replication round | full per-task jsonl + acceptance JSONs + judged artifacts (dedicated section below) |
+| `v100-sept-round-216` | same laboratory V100 server; one sub-round generated on the RTX 3090 Ti server and pulled to it | Sep 10-22 2026 replication round | full per-task jsonl + acceptance JSONs + judged artifacts (dedicated section below) |
 
 ## Software stacks (recorded as-run)
 
@@ -139,7 +139,8 @@ expose `nvmlDeviceGetTotalEnergyConsumption`.
   `v100-sept-round-216/results/bcb-instruct-v100/B01..B04`.
 - Acceptance table, V100 column: `v100-sept-round-216/results/acceptance-v100/T7*.json`.
 - LiveCodeBench table, RTX 3090 Ti rows: `v100-sept-round-216/results/lcb-3090ti/`;
-  1024-token budget sensitivity replicate: `v100-sept-round-216/results/lcb-cap1024/`.
+  1024-token budget sensitivity replicate: `v100-sept-round-216/results/lcb-cap1024/`;
+  three-run energy-variance replicate: `v100-sept-round-216/results/lcb-energy-variance/`.
 - 32B speculative sign-flip replication on V100 (single-run):
   `v100-sept-round-216/results/heplus-x32/` (P17 standard, P19 speculative).
 
@@ -285,10 +286,26 @@ instruct column in the article still reports three cells. A first attempt on
 `logs/e5_B0*.log`) and produced no data; all committed records are from the
 2026-09-14 reruns (`logs/e5_B0*_r2.log`).
 
+**lcb-energy-variance** (2026-09-22, `ev_chain.sh`: three sequential full
+replicates of the FP16 standard LCB cell on cuda:1 with an idle-GPU guard
+before each run, identical protocol and stack to the original layer:
+`/root/lcb-venv`, official chat prompt, 512-token budget, official judge
+official-import@28fef95). Bounds the single-pass protocol variability:
+pass@1 is 17.36 in all three runs with n_at_cap=7 (greedy determinism);
+energy per request 1879.2 / 1896.3 / 1999.2 J (mean 1924.9, SD 65 J, 3.4%);
+p50 latency 8556 / 8742 / 9061 ms (mean 8786, SD 255 ms, 2.9%); wall 2845-
+3012 s. Against the original 2026-09-10 single pass (1838 J, p50 8197 ms)
+the session drift is +2.2 to +8.8% in energy and +4.4 to +10.5% in latency,
+smaller than every cross-configuration gap the layer reports; the server
+also hosted another user's CPU-only workload during the replicates, unlike
+the fully idle original run. The article quotes these bounds in the Section
+9.1 metrics disclosure and the response letter.
+
 **Scripts** in `scripts/`: as-run copies for this round
 (`measure_acceptance.py`, `run_lcb_gen.py`, `judge_lcb.py`, `run_lcb_all.sh`,
 `run_bcb_instruct_gen_v100.py`, `judge_heplus_x32.py`, `dl_32b.py`,
 `verify_32b.py`, `loadtest_32b.py`) plus the shared cores they import
 (`eval_humaneval.py`, `eval_bigcodebench.py`, `judge_heplus.py`). Logs:
 `e1_*` acceptance loop, `e2_*` cap1024, `e3_*` 32B replication, `e5_*`
-instruct round, `chain_*` launchers, `bcb_venv_setup.log`.
+instruct round, `ev_*` energy-variance runs and judges, `chain_*` launchers,
+`ev_chain.sh`, `bcb_venv_setup.log`.
