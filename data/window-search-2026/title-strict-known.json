@@ -1,0 +1,156 @@
+[
+ {
+  "arxiv": "2608.30248v1",
+  "title": "DSEffi-Bench: Demystifying Large Language Models' Capability in Efficient Data Science Code Generation",
+  "abstract": "Current data science (DS) code generation benchmarks equate correctness with quality, overlooking execution time differences that span orders of magnitude between correct solutions. We introduce DSEffi-Bench, the first benchmark specifically targeting execution efficiency in LLM-generated DS code, comprising 1,000 instances across 10+ DS libraries with stress-testing harnesses and human-validated references. Evaluating 16 models across 3 tiers, we find that correctness alone fails to characterize efficiency: GPT-5.4 leads in correctness (Pass, 66.9\\%) but its efficiency score (B$|$P, 71.7\\%) nearly matches GPT-5.4-mini (71.6\\%), which solves 47 fewer tasks; Kimi-K2.5 ranks lowest in correctness among frontier models (40.2\\%) yet achieves the highest efficiency score (73.6\\%) across all 16 models. A human-annotated five-category taxonomy reveals that 79.1\\% of efficiency deficits extend beyond algorithmic complexity to domain-specific root causes, with distinct failure profiles across model tiers and libraries. Two exploratory experiments provide initial evidence that these diagnostics can guide improvement, yielding up to +14.7\\% efficiency gains via taxonomy-guided optimization and approaching Claude-Opus-4.6 Best@3 in efficiency at 13.0$\\times$ lower cost via library-conditioned routing.",
+  "published": "2026-08-31",
+  "categories": [
+   "cs.SE"
+  ]
+ },
+ {
+  "arxiv": "2608.01804v2",
+  "title": "LEAP: Lean Environment-Feedback via Adaptive Pruning for Code RL in GPU Kernel Generation",
+  "abstract": "Post-training large language models (LLMs) via reinforcement learning (RL) has significantly advanced code generation capabilities. To bypass the heavy memory footprint of critic networks, current state-of-the-art frameworks leverage critic-free paradigms like Group Relative Policy Optimization (GRPO) tied to rule-based verification sandboxes. However, applying these frameworks to low-level systems programming, such as CUDA kernel generation-presents severe challenges: binary pass/fail rewards introduce severe signal sparsity, while multi-turn environmental feedback loops suffer from prohibitive compilation latencies and reward dilution across trajectories. In this work, we introduce LEAP (Lean Environment-Feedback via Adaptive Pruning), a scalable and computationally efficient multi-turn RL framework optimized for low-level hardware accelerator alignment. LEAP features Difficulty-Conditioned Pruning (DCP), a dynamic gating mechanism that adaptively cuts off simple and overly catastrophic tasks from multi-turn expansion, focusing resource-heavy compilation and hardware exploration exclusively on high-value, complex tasks. To fully operationalize these paths without manual hyperparameter engineering, we propose a Rank-Based Reward formulation. By deriving scale-free relative advantages from pairwise tournament outcomes within the GRPO rollout group, our method inherently penalizes token inefficiency on simple prompts while maximizing learning gradients on challenging distributions. Empirical evaluations show that LEAP achieves superior first-turn proficiency and robust multi-turn debugging resilience while converging faster than unpruned multi-turn baselines, establishing a practical paradigm for low-level code RL.",
+  "published": "2026-08-03",
+  "categories": [
+   "cs.LG",
+   "cs.AI"
+  ]
+ },
+ {
+  "arxiv": "2605.28409v1",
+  "title": "Efficient Post-training of LLMs for Code Generation With Offline Reinforcement Learning",
+  "abstract": "Post-training using online reinforcement learning (RL) is an important training step for LLMs, including code-generating models. However, online RL for code generation involves LLM inference and verification of the generated output, which can take considerable time and resources. In this paper, we explore the application of offline RL to code-generating models by leveraging existing code datasets. Our experiments demonstrate that offline RL is an effective training strategy for improving LLM performance. We show that offline RL can be especially beneficial for small LLMs and challenging coding problems.",
+  "published": "2026-05-27",
+  "categories": [
+   "cs.AI"
+  ]
+ },
+ {
+  "arxiv": "2605.15238v1",
+  "title": "Hydra: Efficient, Correct Code Generation via Checkpoint-and-Rollback Support",
+  "abstract": "Large language models are increasingly used for code generation, but many generated programs fail to compile, a prerequisite for further correctness checks such as unit tests. Existing solutions for repairing static errors are costly in both latency and token consumption. Post-hoc repair delays error detection until generation completes and commonly regenerates large regions of previously valid code. Constrained semantic decoding checks after each token, incurring per-token overhead while limiting repair to the current token even when the root cause lies earlier. We present Hydra, a system for efficient recovery from static errors during code generation. Hydra allows checking to proceed asynchronously with generation, avoiding checker overhead when the generated code is semantically correct. In addition, it provides checkpoint-and-rollback support for targeted repair, avoiding regeneration and rechecking of valid prefixes. We retrofit the Clang C/C++ compiler to support Hydra with modest modifications. Paired with a token-efficient repair strategy, Hydra reduces latency by up to 71% and token consumption by up to 70% relative to post-hoc repair on C/C++ code generation tasks that encounter static errors.",
+  "published": "2026-05-14",
+  "categories": [
+   "cs.SE",
+   "cs.AI",
+   "cs.PL"
+  ]
+ },
+ {
+  "arxiv": "2605.07248v1",
+  "title": "PaT: Planning-after-Trial for Efficient Test-Time Code Generation",
+  "abstract": "Beyond training-time optimization, scaling test-time computation has emerged as a key paradigm to extend the reasoning capabilities of Large Language Models (LLMs). However, most existing methods adopt a rigid Planning-before-Trial (PbT) policy, which inefficiently allocates test-time compute by incurring planning overhead even on directly solvable problems. We propose Planning-after-Trial (PaT), an adaptive policy for code generation that invokes a planner only upon verification failure. This adaptive policy naturally enables a heterogeneous model configuration: a cost-efficient model handles generation attempts, while a powerful model is reserved for targeted planning interventions. Empirically, across multiple benchmarks and model families, our approach significantly advances the cost-performance Pareto frontier. Notably, our heterogeneous configuration achieves performance comparable to a large homogeneous model while reducing inference cost by approximately 69\\%.",
+  "published": "2026-05-08",
+  "categories": [
+   "cs.CL",
+   "cs.LG"
+  ]
+ },
+ {
+  "arxiv": "2604.23106v1",
+  "title": "No Test Cases, No Problem: Distillation-Driven Code Generation for Scientific Workflows",
+  "abstract": "Existing multi-agent Large Language Model (LLM) frameworks for code generation typically use execution feedback and improve iteratively using Input/Output (I/O) test cases. However, this does not work for scientific workflows, where I/O test cases do not exist, and generating them requires solving the very problem at hand. To address this, we introduce MOSAIC, a training-free multi-agent framework for scientific code generation without I/O supervision. Instead of execution feedback, MOSAIC employs a student-teacher knowledge distillation framework that grounds generation through domain-specific examples and structured problem decomposition. To further mitigate hallucinations across chained subproblems, we introduce a Consolidated Context Window (CCW) for maintaining consistent reasoning across agents. Experiments on the SciCode benchmark show that MOSAIC improves accuracy, executability, and numerical precision over existing approaches while relying on lightweight models.",
+  "published": "2026-04-25",
+  "categories": [
+   "cs.SE",
+   "cs.AI",
+   "cs.MA"
+  ]
+ },
+ {
+  "arxiv": "2604.16625v2",
+  "title": "AdaExplore: Failure-Driven Adaptation and Diversity-Preserving Search for Efficient Kernel Generation",
+  "abstract": "Recent large language model (LLM) agents have shown promise in using execution feedback for test-time adaptation. However, robust self-improvement remains far from solved: most approaches still treat each problem instance independently, without accumulating reusable knowledge. This limitation is particularly pronounced in domain-specific languages such as Triton, which are underrepresented in LLM pretraining data. Their strict constraints and non-linear optimization landscape further make naive generation and local refinement unreliable. We propose AdaExplore, an agent framework that enables self-improvement via accumulated execution feedback for performance-critical kernel code generation through two complementary stages: failure-driven adaptation and diversity-preserving search, jointly improving correctness and optimization performance without additional fine-tuning or external knowledge. In the adaptation stage, the agent synthesizes tasks and converts recurring failures into a reusable memory of validity rules, helping subsequent generations remain within the feasible set. In the search stage, the agent organizes candidate kernels as a tree and alternates between small local refinements and larger structural regeneration, allowing it to explore the optimization landscape beyond local optima. Experiments on kernel runtime optimization benchmarks validate these gains: AdaExplore achieves 3.11x and 1.62x speedups on KernelBench Level-2 and Level-3, respectively, within 100 steps, and continues to improve with additional computation.",
+  "published": "2026-04-17",
+  "categories": [
+   "cs.CL",
+   "cs.AI",
+   "cs.LG"
+  ]
+ },
+ {
+  "arxiv": "2604.15388v1",
+  "title": "Exploring LLM-based Verilog Code Generation with Data-Efficient Fine-Tuning and Testbench Automation",
+  "abstract": "Recent advances in large language models have improved code generation, but their use in hardware description languages is still limited. Moreover, training data and testbenches for these models are often scarce. This paper presents a workflow that uses multi-agent models to generate testbenches for high-quality fine-tuning data. By automating testbench creation, the fine-tuned model for the specification-to-Verilog task achieves performance comparable to state-of-the-art methods on the refined VerilogEval v2 benchmark while using less training data. This study provides a basis for future work on LLM-based HDL generation and automated verification.",
+  "published": "2026-04-16",
+  "categories": [
+   "cs.AR",
+   "cs.AI"
+  ]
+ },
+ {
+  "arxiv": "2604.10235v1",
+  "title": "CodeComp: Structural KV Cache Compression for Agentic Coding",
+  "abstract": "Agentic code tasks such as fault localization and patch generation require processing long codebases under tight memory constraints, where the Key-Value (KV) cache becomes the primary inference bottleneck. Existing compression methods rely exclusively on attention signals to estimate token importance, systematically discarding structurally critical tokens such as call sites, branch conditions, and assignments that are essential for code understanding. We present CodeComp, a training-free KV cache compression framework that incorporates static program analysis into LLM inference via Code Property Graph priors extracted by Joern. Across bug localization and code generation benchmarks, CodeComp consistently outperforms attention-only compression baselines under equal memory budgets, recovering the majority of full-context accuracy under aggressive KV cache compression, while matching the patch generation quality of uncompressed full-context inference and integrating seamlessly into SGLang-based agentic coding pipelines without model modification.",
+  "published": "2026-04-11",
+  "categories": [
+   "cs.CL"
+  ]
+ },
+ {
+  "arxiv": "2604.09442v1",
+  "title": "UIPress: Bringing Optical Token Compression to UI-to-Code Generation",
+  "abstract": "UI-to-Code generation requires vision-language models (VLMs) to produce thousands of tokens of structured HTML/CSS from a single screenshot, making visual token efficiency critical. Existing compression methods either select tokens at inference time using task-agnostic heuristics, or zero out low-attention features without actually shortening the sequence -- neither truly reduces prefill latency or adapts to the non-uniform information density of UI screenshots. Meanwhile, optical (encoder-side learned) compression has shown strong results for document OCR, yet no prior work has adapted this paradigm to UI-to-Code generation. We propose UIPress, a lightweight learned compression module inserted between the frozen ViT encoder and the LLM decoder of Qwen3-VL-8B. UIPress combines depthwise-separable convolutions, element-guided spatial reweighting, and Transformer refinement to compress ${\\sim}$6{,}700 visual tokens to a fixed budget of 256. Together with Low-Rank Adaptation (LoRA) on the decoder to bridge the representation gap, the entire system adds only ${\\sim}$21.7M trainable parameters (0.26\\% of the 8B base model). Under a fair comparison on the same base model against four baselines on Design2Code, UIPress at 256 tokens achieves a CLIP score of 0.8127, outperforming the uncompressed baseline by +7.5\\% and the strongest inference-time method by +4.6\\%, while delivering 9.1$\\times$ time-to-first-token speedup. To the best of our knowledge, UIPress is the first encoder-side learned compression method for the UI-to-Code task.",
+  "published": "2026-04-10",
+  "categories": [
+   "cs.CL"
+  ]
+ },
+ {
+  "arxiv": "2604.04238v1",
+  "title": "Agentic Code Optimization via Compiler-LLM Cooperation",
+  "abstract": "Generating performant executables from high level languages is critical to software performance across a wide range of domains. Modern compilers perform this task by passing code through a series of well-studied optimizations at progressively lower levels of abstraction, but may miss optimization opportunities that require high-level reasoning about a program's purpose. Recent work has proposed using LLMs to fill this gap. While LLMs can achieve large speedups on some programs, they frequently generate code that is incorrect. In this work, we propose a method to balance the correctness of conventional compiler optimizations with the ``creativity'' of LLM-based code generation: compiler-LLM cooperation. Our approach integrates existing compiler optimization passes with LLM-based code generation at multiple levels of abstraction, retaining the best features of both types of code optimization. We realize our approach with a multi-agent system that includes (1) LLM-based optimization agents for each level of abstraction, (2) individual compiler constituents as tools, (3) an LLM-based test generation agent that probes the correctness and performance of generated code, and (4) a guiding LLM that orchestrates the other components. The strategy enables LLM-based optimization of input programs at multiple levels of abstraction and introduces a method for distributing computational budget between levels. Our extensive evaluation shows that compiler-LLM cooperation outperforms both existing compiler optimizations and level-specific LLM-based baselines, producing speedups up to 1.25x.",
+  "published": "2026-04-05",
+  "categories": [
+   "cs.PL"
+  ]
+ },
+ {
+  "arxiv": "2604.01193v2",
+  "title": "Embarrassingly Simple Self-Distillation Improves Code Generation",
+  "abstract": "Can a large language model (LLM) improve at code generation using only its own raw outputs, without a verifier, a teacher model, or reinforcement learning? We answer in the affirmative with simple self-distillation (SSD): sample solutions from the model with certain temperature and truncation configurations, then fine-tune on those samples with standard supervised fine-tuning. SSD improves Qwen3-30B-Instruct from 42.4% to 55.3% pass@1 on LiveCodeBench v6, with gains concentrating on harder problems, and it generalizes across Qwen and Llama models at 4B, 8B, and 30B scale, including both instruct and thinking variants. To understand why such a simple method can work, we trace these gains to a precision-exploration conflict in LLM decoding and show that SSD reshapes token distributions in a context-dependent way, suppressing distractor tails where precision matters while preserving useful diversity where exploration matters. Taken together, SSD offers a complementary post-training direction for improving LLM code generation. Our code is available at https://github.com/apple/ml-ssd",
+  "published": "2026-04-01",
+  "categories": [
+   "cs.CL"
+  ]
+ },
+ {
+  "arxiv": "2604.13725v1",
+  "title": "On the Effectiveness of Context Compression for Repository-Level Tasks: An Empirical Investigation",
+  "abstract": "Repository-level code intelligence tasks require large language models (LLMs) to process long, multi-file contexts. Such inputs introduce three challenges: crucial context can be obscured by noise, truncated due to limited windows, and increased inference latency. Context compression mitigates these risks by condensing inputs. While studied in NLP, its applicability to code tasks remains largely unexplored. We present the first systematic empirical study of context compression for repository-level code intelligence, organizing eight methods into three paradigms: discrete token sequences, continuous latent vectors, and visual tokens. We evaluate them on code completion and generation, measuring performance and efficiency. Results show context compression is effective: at 4x compression, continuous latent vector methods surpass full-context performance by up to 28.3% in BLEU score, indicating they filter noise rather than just truncating. On efficiency, all paradigms reduce inference cost. Both visual and text-based compression achieve up to 50% reduction in end-to-end latency at high ratios, approaching the cost of inference without repository context. These findings establish context compression as a viable approach and provide guidance for paradigm selection.",
+  "published": "2026-04-15",
+  "categories": [
+   "cs.SE"
+  ]
+ },
+ {
+  "arxiv": "2608.14065v2",
+  "title": "Rethinking Automated Program Repair: The Impact of Bug Complexity, Fault Localization, and LLM Cost-efficiency",
+  "abstract": "Background: Software bugs remain a critical challenge in development, necessitating effective Automated Program Repair (APR) techniques. While Large Language Model (LLM)-based APR systems have shown promise, prior studies primarily focus on overall repair effectiveness. The effects of bug complexity, fault localization, reasoning settings, and repair cost-effectiveness remain insufficiently explored. Aims: This study presents a comprehensive empirical analysis of LLM-based APR, focusing on how repair performance is shaped by bug complexity, fault localization, reasoning settings, and costs. Method: We evaluate two APR techniques (ChatRepair and CodeCorrector) using three LLMs (DeepSeek, GPT, and Llama), and examine their performance across diverse levels of bug complexity and localization strategies through a multi-dimensional empirical framework and statistical analysis. Results: Although structurally complex bugs and imprecise fault localization make repair more challenging, LLM-based APR techniques still achieve competitive repair effectiveness. Imprecise fault localization can substantially enlarge the performance gap between APR techniques. Furthermore, higher-cost LLMs and stronger reasoning settings do not consistently yield better cost-efficiency, revealing a nontrivial trade-off between repair effectiveness and computational cost. Conclusions: Over 50% of moderately complex bugs can be repaired by low-cost LLM-based APR techniques. The repair effectiveness gap between APR techniques becomes larger as fault localization becomes less precise. GPT-5 repairs 7 and 39 more complex bugs than DeepSeek-V4-pro and DeepSeek-V3.2, respectively; whereas the total repair cost of DeepSeek-V3.2 shows the best cost-efficiency performance.",
+  "published": "2026-08-14",
+  "categories": [
+   "cs.SE",
+   "cs.AI"
+  ]
+ },
+ {
+  "arxiv": "2606.27205v2",
+  "title": "Smaller Models, Unexpected Costs: Trade-offs in LLM Quantization for Automated Program Repair",
+  "abstract": "Large Language Models (LLMs) are powerful tools and have been increasingly adopted for complex software engineering tasks. As the number of parameters increases, results can often be improved, but this also imposes substantial memory requirements. While quantization effectively reduces the memory footprint, its overall impact is often summarized only by benchmark scores, which mask changes in model behavior and non-functional overheads. In this work, we conduct an empirical evaluation of LLM quantization using Automated Program Repair (APR), a complex task in software engineering. We analyze 13 quantization configurations spanning different bit-widths, methods, and target components (weights and KV-cache) across six representative LLMs, evaluated on two APR benchmarks (HumanEval-Java and Defects4J). Our findings reveal that base and quantized models can provide different sets of repaired problems with little overlap, while retaining a comparable number of repaired problems. Although quantization successfully reduces memory footprints by up to 85%, it increases both inference time and energy consumption, which we attribute to suboptimal hardware utilization. Our Pareto trade-off analysis shows that 48% of the configurations evaluated are strictly dominated by alternatives. Rather than identifying a superior quantization method, our findings highlight that the trade-offs between effectiveness, memory footprint, and energy efficiency are sensitive to the underlying model architecture and the complexity of the task.",
+  "published": "2026-06-25",
+  "categories": [
+   "cs.SE"
+  ]
+ },
+ {
+  "arxiv": "2604.24212v1",
+  "title": "Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis",
+  "abstract": "Autonomous agents for automated program repair represent a promising frontier in software engineering, yet their effectiveness is often hindered by reliance on post-mortem, coarse-grained execution feedback. While integrating traditional interactive debuggers seems a natural solution, their low-level, line-by-line interaction paradigm turns out to be cost-inefficient for LLM-based agents, leading to exhausted budgets and unproductive loops. To mitigate this, we introduce Agent-centric Debugging Interface (ADI), a novel agent-centric debugging interface designed for cost-efficient, end-to-end autonomous interaction. Specifically, Agent-centric Debugging Interface realizes a function-level interaction paradigm, powered by our Frame Lifetime Trace, a comprehensive data structure encapsulating a function's stateful execution trace, and a set of high-level navigational commands. Our extensive evaluation on the SWE-bench benchmark demonstrates the effectiveness and efficiency of ADI. By simply equipping a basic agent with ADI, it successfully resolves 63.8\\% of the tasks on the SWE-bench Verified set, even slightly outperforming the highly optimized and high-investment Claude-Tools agent, at an average cost of USD 1.28 per task with Claude-Sonnet-3.7. Furthermore, we demonstrate ADI's generality by integrating it as a plug-and-play component into existing SOTA agents, delivering consistent gains ranging from 6.2\\% to 18.5\\% on the resolved tasks. These results indicate that Agent-centric Debugging Interface can provide a general and efficient enhancement for existing autonomous agents.",
+  "published": "2026-04-27",
+  "categories": [
+   "cs.SE"
+  ]
+ }
+]

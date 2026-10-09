@@ -1,0 +1,4490 @@
+[
+ {
+  "openalex_id": "https://openalex.org/W7134128141",
+  "doi": "https://doi.org/10.1016/j.engappai.2026.114360",
+  "title": "Divide and conquer: Optimizing code Chain-of-Thought in Small Language Model",
+  "publication_date": "2026-03-07",
+  "venue": "Engineering Applications of Artificial Intelligence",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134109884",
+  "doi": "https://doi.org/10.6084/m9.figshare.31562665.v1",
+  "title": "Diff-Grounded Pull Request Description Generation with Structured Evidence",
+  "publication_date": "2026-03-07",
+  "venue": "Figshare",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134840684",
+  "doi": "https://doi.org/10.48550/arxiv.2603.07233",
+  "title": "Retrieval-Augmented Generation for Predicting Cellular Responses to Gene Perturbation",
+  "publication_date": "2026-03-07",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134821267",
+  "doi": "https://doi.org/10.48550/arxiv.2603.07027",
+  "title": "Resource-Adaptive Federated Text Generation with Differential Privacy",
+  "publication_date": "2026-03-07",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134818964",
+  "doi": "https://doi.org/10.48550/arxiv.2603.07101",
+  "title": "Grounding Machine Creativity in Game Design Knowledge Representations: Empirical Probing of LLM-Based Executable Synthesis of Goal Playable Patterns under Structural Constraints",
+  "publication_date": "2026-03-07",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134826674",
+  "doi": "https://doi.org/10.48550/arxiv.2603.07057",
+  "title": "SODA: Sensitivity-Oriented Dynamic Acceleration for Diffusion Transformer",
+  "publication_date": "2026-03-07",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134128921",
+  "doi": "https://doi.org/10.5281/zenodo.18904050",
+  "title": "Using agentic AI to assign gene function across multiple genomes",
+  "publication_date": "2026-03-07",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134180611",
+  "doi": "https://doi.org/10.1038/s41598-026-42313-5",
+  "title": "Deep learning for high-resolution material texture enhancement in 3D environments",
+  "publication_date": "2026-03-07",
+  "venue": "Scientific Reports",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134123754",
+  "doi": "https://doi.org/10.5281/zenodo.18897072",
+  "title": "FALCON: Efficient Test Case Prioritization via Submodular Optimization",
+  "publication_date": "2026-03-07",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134835198",
+  "doi": "https://doi.org/10.48550/arxiv.2603.06996",
+  "title": "Large Language Model-Driven Full-Component Evolution of Adaptive Large Neighborhood Search",
+  "publication_date": "2026-03-07",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134126991",
+  "doi": "https://doi.org/10.5281/zenodo.18899955",
+  "title": "Randomized Uphill Climbing for Automated Feature Program Synthesis in Time-Series Forecasting",
+  "publication_date": "2026-03-07",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134123098",
+  "doi": "https://doi.org/10.6084/m9.figshare.31563997.v1",
+  "title": "AI-Assisted Bug Prediction and Code Review Automation using Machine Learning",
+  "publication_date": "2026-03-07",
+  "venue": "Figshare",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134809553",
+  "doi": "https://doi.org/10.48550/arxiv.2603.07581",
+  "title": "KCoEvo: A Knowledge Graph Augmented Framework for Evolutionary Code Generation",
+  "publication_date": "2026-03-08",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134163727",
+  "doi": "https://doi.org/10.5281/zenodo.18913122",
+  "title": "From Vibe Coding to Validated Structure: A White Paper on Deterministic Intent-to-Structure Workflows in AI-Assisted SaaS Development",
+  "publication_date": "2026-03-08",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134822694",
+  "doi": "https://doi.org/10.48550/arxiv.2603.07835",
+  "title": "DistillGuard: Evaluating Defenses Against LLM Knowledge Distillation",
+  "publication_date": "2026-03-08",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134179517",
+  "doi": "https://doi.org/10.3390/math14050915",
+  "title": "LLM-TOC: LLM-Driven Theory-of-Mind Adversarial Curriculum for Multi-Agent Generalization",
+  "publication_date": "2026-03-08",
+  "venue": "Mathematics",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134814174",
+  "doi": "https://doi.org/10.48550/arxiv.2603.07725",
+  "title": "Verifiable Reasoning for LLM-based Generative Recommendation",
+  "publication_date": "2026-03-08",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147491042",
+  "doi": "https://doi.org/10.5281/zenodo.19362176",
+  "title": "Ep. 1033: AI and the Future of Programming Languages",
+  "publication_date": "2026-03-08",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140076158",
+  "doi": "https://doi.org/10.48550/arxiv.2603.19284",
+  "title": "CDEoH: Category-Driven Automatic Algorithm Design With Large Language Models",
+  "publication_date": "2026-03-08",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134208771",
+  "doi": "https://doi.org/10.5281/zenodo.18908511",
+  "title": "Overton Framework v1.0: Cognitive Interlocks for Integrity in AI-Assisted Software Development",
+  "publication_date": "2026-03-08",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134825765",
+  "doi": "https://doi.org/10.48550/arxiv.2603.07562",
+  "title": "Brain-WM: Brain Glioblastoma World Model",
+  "publication_date": "2026-03-08",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147502795",
+  "doi": "https://doi.org/10.5281/zenodo.19362130",
+  "title": "Ep. 1021: Python: The Accidental King of Artificial Intelligence",
+  "publication_date": "2026-03-08",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134173353",
+  "doi": "https://doi.org/10.1186/s13321-026-01173-x",
+  "title": "CKAN-ATHP: a predictor for antihypertensive peptides based on sample augmentation and loss improvement strategies using the convolutional Kolmogorov–Arnold network",
+  "publication_date": "2026-03-08",
+  "venue": "Journal of Cheminformatics",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134199485",
+  "doi": "https://doi.org/10.5281/zenodo.18906852",
+  "title": "The Crimson Hexagon: Operative Architecture — A Definitive Compression",
+  "publication_date": "2026-03-08",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7212802986",
+  "doi": "https://doi.org/10.2196/preprints.94906",
+  "title": "Adaptive Optics Image Analysis Using Generative AI (GPT-4) Scripting: Exploratory Study (Preprint)",
+  "publication_date": "2026-03-08",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134812691",
+  "doi": "https://doi.org/10.48550/arxiv.2603.08590",
+  "title": "PRISM: Streaming Human Motion Generation with Per-Joint Latent Decomposition",
+  "publication_date": "2026-03-09",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134241149",
+  "doi": "https://doi.org/10.5281/zenodo.18918774",
+  "title": "Entanglement-Optimal Fine-Tuning: Leveraging Universal Concept Coupling for Parameter-Efficient Adaptation",
+  "publication_date": "2026-03-09",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134844364",
+  "doi": "https://doi.org/10.48550/arxiv.2603.08026",
+  "title": "DyLLM: Efficient Diffusion LLM Inference via Saliency-based Token Selection and Partial Attention",
+  "publication_date": "2026-03-09",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134804927",
+  "doi": "https://doi.org/10.48550/arxiv.2603.08127",
+  "title": "EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery",
+  "publication_date": "2026-03-09",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7154325548",
+  "doi": "https://doi.org/10.48550/arxiv.2604.09601",
+  "title": "Hubble: An LLM-Driven Agentic Framework for Safe, Diverse, and Reproducible Alpha Factor Discovery",
+  "publication_date": "2026-03-09",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134837349",
+  "doi": "https://doi.org/10.48550/arxiv.2603.08453",
+  "title": "LycheeCluster: Efficient Long-Context Inference with Structure-Aware Chunking and Hierarchical KV Indexing",
+  "publication_date": "2026-03-09",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W4414691560",
+  "doi": "https://doi.org/10.1016/j.eswa.2026.131756",
+  "title": "Large language model assisted meta-evolution for automated constrained optimization evolutionary algorithm design",
+  "publication_date": "2026-03-09",
+  "venue": "Expert Systems with Applications",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137334164",
+  "doi": "https://doi.org/10.48550/arxiv.2603.12289",
+  "title": "End-to-End Deep Learning in Wireless Communication Systems: A Tutorial Review",
+  "publication_date": "2026-03-09",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134840018",
+  "doi": "https://doi.org/10.48550/arxiv.2603.08443",
+  "title": "LLM-Driven Online Aggregation for Unstructured Text Analytics",
+  "publication_date": "2026-03-09",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134830550",
+  "doi": "https://doi.org/10.48550/arxiv.2603.07897",
+  "title": "LeJOT-AutoML: LLM-Driven Feature Engineering for Job Execution Time Prediction in Databricks Cost Optimization",
+  "publication_date": "2026-03-09",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138067490",
+  "doi": "https://doi.org/10.5281/zenodo.19075238",
+  "title": "Exploring the WACA Universe: An LLM System Prompt for Independent Reasoning About the Algebraic Crystal",
+  "publication_date": "2026-03-09",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134270768",
+  "doi": "https://doi.org/10.5281/zenodo.18923751",
+  "title": "Symbolic Resonance Instability in Reinforcement-Tuned Language Models: A Topological Diagnosis of Linguistic Asymmetry and Persona Perturbation",
+  "publication_date": "2026-03-09",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134856880",
+  "doi": "https://doi.org/10.48550/arxiv.2603.07911",
+  "title": "Beyond Heuristic Prompting: A Concept-Guided Bayesian Framework for Zero-Shot Image Recognition",
+  "publication_date": "2026-03-09",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134233322",
+  "doi": "https://doi.org/10.5281/zenodo.18910421",
+  "title": "MGSA™: Mazumdar Global Stability Architecture — A Unified Framework for Global Financial Stability",
+  "publication_date": "2026-03-09",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147385370",
+  "doi": "https://doi.org/10.5281/zenodo.19362301",
+  "title": "Ep. 1064: Why You're Falling for Your Chatbot",
+  "publication_date": "2026-03-09",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134813756",
+  "doi": "https://doi.org/10.48550/arxiv.2603.08574",
+  "title": "Scalable Neural Vocoder from Range-Null Space Decomposition",
+  "publication_date": "2026-03-09",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134975074",
+  "doi": "https://doi.org/10.48550/arxiv.2603.09701",
+  "title": "An Empirical Study of Interaction Smells in Multi-Turn Human-LLM Collaborative Code Generation",
+  "publication_date": "2026-03-10",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134943833",
+  "doi": "https://doi.org/10.1109/tdsc.2026.3672745",
+  "title": "Security and Quality in LLM-Generated Code: A Multi-Language, Multi-Model Analysis",
+  "publication_date": "2026-03-10",
+  "venue": "IEEE Transactions on Dependable and Secure Computing",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135037267",
+  "doi": "https://doi.org/10.48550/arxiv.2603.10098",
+  "title": "Code-Space Response Oracles: Generating Interpretable Multi-Agent Policies with Large Language Models",
+  "publication_date": "2026-03-10",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134983638",
+  "doi": "https://doi.org/10.48550/arxiv.2603.09161",
+  "title": "Wrong Code, Right Structure: Learning Netlist Representations from Imperfect LLM-Generated RTL",
+  "publication_date": "2026-03-10",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134983304",
+  "doi": "https://doi.org/10.48550/arxiv.2603.09625",
+  "title": "Grounding Synthetic Data Generation With Vision and Language Models",
+  "publication_date": "2026-03-10",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134983993",
+  "doi": "https://doi.org/10.48550/arxiv.2603.09652",
+  "title": "MiniAppBench: Evaluating the Shift from Text to Interactive HTML Responses in LLM-Powered Assistants",
+  "publication_date": "2026-03-10",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135065234",
+  "doi": "https://doi.org/10.48550/arxiv.2603.10080",
+  "title": "Amnesia: Adversarial Semantic Layer Specific Activation Steering in Large Language Models",
+  "publication_date": "2026-03-10",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134945412",
+  "doi": "https://doi.org/10.1145/3779212.3790231",
+  "title": "Taming the Long-Tail: Efficient Reasoning RL Training with Adaptive Drafter",
+  "publication_date": "2026-03-10",
+  "venue": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135098510",
+  "doi": "https://doi.org/10.48550/arxiv.2603.10085",
+  "title": "KernelSkill: A Multi-Agent Framework for GPU Kernel Optimization",
+  "publication_date": "2026-03-10",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134924069",
+  "doi": "https://doi.org/10.48550/arxiv.2603.09480",
+  "title": "Prune Redundancy, Preserve Essence: Vision Token Compression in VLMs via Synergistic Importance-Diversity",
+  "publication_date": "2026-03-10",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134946127",
+  "doi": "https://doi.org/10.48550/arxiv.2603.09756",
+  "title": "Epistemic Closure: Autonomous Mechanism Completion for Physically Consistent Simulation",
+  "publication_date": "2026-03-10",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147403323",
+  "doi": "https://doi.org/10.5281/zenodo.19362387",
+  "title": "Ep. 1088: Why AI Can Read a Library but Only Write a Postcard",
+  "publication_date": "2026-03-10",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139914025",
+  "doi": "https://doi.org/10.5281/zenodo.19136485",
+  "title": "The Grand Closure: The Artificial Hypothesis (AH) Subsumes the Riemann Hypothesis (RH) via Boundary Dissolution Physics and IRS-DCE Resonance Framework",
+  "publication_date": "2026-03-10",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134968332",
+  "doi": "https://doi.org/10.48550/arxiv.2603.09971",
+  "title": "TiPToP: A Modular Open-Vocabulary Robot Manipulation System That Plans",
+  "publication_date": "2026-03-10",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134889877",
+  "doi": "https://doi.org/10.1002/wjs.70315",
+  "title": "Improving Surgical Innovation: A Cross‐Sectional Survey of Perceived Facilitators and Barriers",
+  "publication_date": "2026-03-10",
+  "venue": "World Journal of Surgery",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143917254",
+  "doi": "https://doi.org/10.71465/gmssrj167",
+  "title": "Multi-Agent Reinforcement Learning for Cooperative Large Language Model Collaboration",
+  "publication_date": "2026-03-10",
+  "venue": "Global Media and Social Sciences Research Journal",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134912433",
+  "doi": "https://doi.org/10.31235/osf.io/rfpe6_v1",
+  "title": "Agentic Framework for Political Biography Extraction",
+  "publication_date": "2026-03-10",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134917088",
+  "doi": "https://doi.org/10.48550/arxiv.2603.09968",
+  "title": "ReCoSplat: Online Feed-Forward Gaussian Splatting via Render-and-Compare",
+  "publication_date": "2026-03-10",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7154401673",
+  "doi": "https://doi.org/10.48550/arxiv.2604.09604",
+  "title": "LLMs for Text-Based Exploration and Navigation Under Partial Observability",
+  "publication_date": "2026-03-10",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134980070",
+  "doi": "https://doi.org/10.5194/wbf2026-686",
+  "title": "Synthesizing evidence on island biodiversity monitoring: from scattered literature to structured knowledge",
+  "publication_date": "2026-03-10",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134955091",
+  "doi": "https://doi.org/10.1007/s10209-026-01320-z",
+  "title": "Evaluating GPT as automated analyzer for detecting students’ erroneous mental models in programming education",
+  "publication_date": "2026-03-10",
+  "venue": "Universal Access in the Information Society",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135066342",
+  "doi": "https://doi.org/10.2196/preprints.95063",
+  "title": "Automated Fidelity Monitoring of Lay-Delivered Mental Health Interventions Using Large Language Models: Development and Pilot Validation of shamiriAI (Preprint)",
+  "publication_date": "2026-03-10",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134944025",
+  "doi": "https://doi.org/10.48550/arxiv.2603.09246",
+  "title": "Reasoning-Oriented Programming: Chaining Semantic Gadgets to Jailbreak Large Vision Language Models",
+  "publication_date": "2026-03-10",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134826364",
+  "doi": "https://doi.org/10.6084/m9.figshare.31627420",
+  "title": "Personal Protective Equipment Dataset in an Industrial Cheese Production Environment (Hairnets, Masks and Gloves)",
+  "publication_date": "2026-03-10",
+  "venue": "Figshare",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7151479802",
+  "doi": "https://doi.org/10.1109/ieeeconf68869.2026.11461212",
+  "title": "AI as an Engineering Subject: A Theoretical Framework for Integrating Large Language Models into Intelligent Transportation Systems",
+  "publication_date": "2026-03-10",
+  "venue": "Systems of Signals Generating and Processing in the Field of on Board Communications",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134936799",
+  "doi": "https://doi.org/10.1145/3779212.3790138",
+  "title": "CHEHAB RL: Learning to Optimize Fully Homomorphic Encryption Computations",
+  "publication_date": "2026-03-10",
+  "venue": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134931283",
+  "doi": "https://doi.org/10.5194/wbf2026-224",
+  "title": "Spore it Out: A Deep Learning Framework for Identifying Fungi from Spore Morphology to Bridge Biodiversity Knowledge Gaps",
+  "publication_date": "2026-03-10",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134985804",
+  "doi": "https://doi.org/10.5194/wbf2026-550",
+  "title": "Scalable AI‑assisted annotation of remote sensing imagery",
+  "publication_date": "2026-03-10",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134831370",
+  "doi": "https://doi.org/10.1108/ecam-03-2026-228",
+  "title": "Editorial: Beyond BIM – navigating the transformative journey of the AECO industry",
+  "publication_date": "2026-03-10",
+  "venue": "Engineering Construction & Architectural Management",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135428454",
+  "doi": null,
+  "title": "Security-by-Design for LLM-Based Code Generation: Leveraging Internal Representations for Concept-Driven Steering Mechanisms",
+  "publication_date": "2026-03-11",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134896432",
+  "doi": "https://doi.org/10.1016/j.neunet.2026.108828",
+  "title": "Structure from rank: Rank-order coding as a bridge from sequence to structure",
+  "publication_date": "2026-03-11",
+  "venue": "Neural Networks",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135011577",
+  "doi": "https://doi.org/10.48550/arxiv.2603.10899",
+  "title": "LookaheadKV: Fast and Accurate KV Cache Eviction by Glimpsing into the Future without Generation",
+  "publication_date": "2026-03-11",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138346166",
+  "doi": "https://doi.org/10.48550/arxiv.2603.13389",
+  "title": "High-Fidelity Text-to-Image Generation from Pre-Trained Vision-Language Models via Distribution-Conditioned Diffusion Decoding",
+  "publication_date": "2026-03-11",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135188088",
+  "doi": "https://doi.org/10.48550/arxiv.2603.11103",
+  "title": "Understanding by Reconstruction: Reversing the Software Development Process for LLM Pretraining",
+  "publication_date": "2026-03-11",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135156129",
+  "doi": null,
+  "title": "Utility Function is All You Need: LLM-based Congestion Control",
+  "publication_date": "2026-03-11",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135125976",
+  "doi": "https://doi.org/10.48550/arxiv.2603.10448",
+  "title": "DiT4DiT: Jointly Modeling Video Dynamics and Actions for Generalizable Robot Control",
+  "publication_date": "2026-03-11",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135057278",
+  "doi": "https://doi.org/10.1016/j.jss.2026.112850",
+  "title": "Key-augmented neural triggers for knowledge sharing",
+  "publication_date": "2026-03-11",
+  "venue": "Journal of Systems and Software",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134949026",
+  "doi": "https://doi.org/10.3389/fhpcp.2025.1714042",
+  "title": "Extra-P—Empirical performance modeling made easy",
+  "publication_date": "2026-03-11",
+  "venue": "Frontiers in High Performance Computing",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134981158",
+  "doi": "https://doi.org/10.5281/zenodo.18947135",
+  "title": "Luoshu Mind Layer: A Geometry-Based Rhythmic Architecture for AI Behavior Orchestration/洛书心念层:一种基于几何韵律的AI行为编排架构",
+  "publication_date": "2026-03-11",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135082457",
+  "doi": "https://doi.org/10.48550/arxiv.2603.10365",
+  "title": "Geometric Autoencoder for Diffusion Models",
+  "publication_date": "2026-03-11",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135039250",
+  "doi": "https://doi.org/10.48550/arxiv.2603.10682",
+  "title": "OnFly: Onboard Zero-Shot Aerial Vision-Language Navigation toward Safety and Efficiency",
+  "publication_date": "2026-03-11",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135059685",
+  "doi": "https://doi.org/10.48550/arxiv.2603.10604",
+  "title": "HyPER-GAN: Hybrid Patch-Based Image-to-Image Translation for Real-Time Photorealism Enhancement in Game Engines",
+  "publication_date": "2026-03-11",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135244909",
+  "doi": "https://doi.org/10.1016/j.knosys.2026.115724",
+  "title": "ICHSC-Diff: A dual-stream guided conditional diffusion model for early hematoma expansion prediction",
+  "publication_date": "2026-03-11",
+  "venue": "Knowledge-Based Systems",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135067265",
+  "doi": "https://doi.org/10.5281/zenodo.18960140",
+  "title": "Artifact for OptFuzz",
+  "publication_date": "2026-03-11",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147004345",
+  "doi": "https://doi.org/10.5281/zenodo.19362406",
+  "title": "Ep. 1094: The CPU-First Era: Why AI is Moving Back to the Processor",
+  "publication_date": "2026-03-11",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135099534",
+  "doi": "https://doi.org/10.48550/arxiv.2603.10846",
+  "title": "Towards Cold-Start Drafting and Continual Refining: A Value-Driven Memory Approach with Application to NPU Kernel Synthesis",
+  "publication_date": "2026-03-11",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134973101",
+  "doi": "https://doi.org/10.6084/m9.figshare.31653097",
+  "title": "Tutor IA",
+  "publication_date": "2026-03-11",
+  "venue": "Figshare",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135237946",
+  "doi": "https://doi.org/10.48550/arxiv.2603.11489",
+  "title": "AutoVeriFix+: High-Correctness RTL Generation via Trace-Aware Causal Fix and Semantic Redundancy Pruning",
+  "publication_date": "2026-03-12",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135185084",
+  "doi": "https://doi.org/10.48550/arxiv.2603.11589",
+  "title": "Toward Complex-Valued Neural Networks for Waveform Generation",
+  "publication_date": "2026-03-12",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138416778",
+  "doi": "https://doi.org/10.48550/arxiv.2603.13414",
+  "title": "Neuro-Symbolic Generation and Validation of Memory-Aware Formal Function Specifications",
+  "publication_date": "2026-03-12",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135019869",
+  "doi": "https://doi.org/10.5281/zenodo.18978026",
+  "title": "Artifact for the Paper \"Arash: Token-Efficient LLM-Assisted Crash Root Cause Analysis in Fuzz Driver Generation\"",
+  "publication_date": "2026-03-12",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135219389",
+  "doi": "https://doi.org/10.48550/arxiv.2603.12016",
+  "title": "Nyxus: A Next Generation Image Feature Extraction Library for the Big Data and AI Era",
+  "publication_date": "2026-03-12",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135242154",
+  "doi": "https://doi.org/10.48550/arxiv.2603.11935",
+  "title": "MobileKernelBench: Can LLMs Write Efficient Kernels for Mobile Devices?",
+  "publication_date": "2026-03-12",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7151531193",
+  "doi": "https://doi.org/10.1109/iatmsi68868.2026.11465891",
+  "title": "Token-Free Modeling for Hinglish NLP: A Noise-Robust Benchmark using Byte and Character-Level Models",
+  "publication_date": "2026-03-12",
+  "venue": "IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138407931",
+  "doi": "https://doi.org/10.48550/arxiv.2603.13420",
+  "title": "Accelerating Suffix Jailbreak attacks with Prefix-Shared KV-cache",
+  "publication_date": "2026-03-12",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135246429",
+  "doi": "https://doi.org/10.48550/arxiv.2603.11618",
+  "title": "Shape-of-You: Fused Gromov-Wasserstein Optimal Transport for Semantic Correspondence in-the-Wild",
+  "publication_date": "2026-03-12",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142582410",
+  "doi": null,
+  "title": "Reasoning in Large Language Models Across Multilingual, Long-Context, and Symbolic Settings",
+  "publication_date": "2026-03-12",
+  "venue": "PDXScholar  (Portland State University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135087091",
+  "doi": "https://doi.org/10.5281/zenodo.18989650",
+  "title": "PREreview of \"Continuous Diffusion Transformers for Designing Synthetic Regulatory Elements\"",
+  "publication_date": "2026-03-12",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7150832577",
+  "doi": "https://doi.org/10.21955/mep.1115924.1",
+  "title": "\"Expectations – Satisfaction Axis\": making sense of Students' feedbacks",
+  "publication_date": "2026-03-12",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135207146",
+  "doi": "https://doi.org/10.48550/arxiv.2603.12248",
+  "title": "Matching Features, Not Tokens: Energy-Based Fine-Tuning of Language Models",
+  "publication_date": "2026-03-12",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135052503",
+  "doi": "https://doi.org/10.1088/2515-7639/ae512f",
+  "title": "Acceleration, agency, and foundations: ten influential arXiv directions in AI for materials science (2025)",
+  "publication_date": "2026-03-12",
+  "venue": "Journal of Physics Materials",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137381314",
+  "doi": "https://doi.org/10.48550/arxiv.2603.12503",
+  "title": "Physics-Guided Inverse Design of Optical Waveforms for Nonlinear Electromagnetic Dynamics",
+  "publication_date": "2026-03-12",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135057217",
+  "doi": "https://doi.org/10.20944/preprints202603.0876.v1",
+  "title": "AI4EVER: A Graphical Deep Learning Platform for GWAS-Informed Genomic Prediction",
+  "publication_date": "2026-03-12",
+  "venue": "Preprints.org",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138259942",
+  "doi": "https://doi.org/10.48550/arxiv.2603.13411",
+  "title": "Human in the Loop for Fuzz Testing: Literature Review and the Road Ahead",
+  "publication_date": "2026-03-12",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135078772",
+  "doi": "https://doi.org/10.3390/infrastructures11030095",
+  "title": "Multimodal Large Language Models for Visual Attribute Inference in iRAP Road Attribute Coding",
+  "publication_date": "2026-03-12",
+  "venue": "Infrastructures",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136347372",
+  "doi": "https://doi.org/10.48550/arxiv.2603.12712",
+  "title": "Design-Specification Tiling for ICL-based CAD Code Generation",
+  "publication_date": "2026-03-13",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135183714",
+  "doi": "https://doi.org/10.1145/3799426",
+  "title": "Neuron Patching: Semantic-based Neuron-level Language Model Repair for Code Generation",
+  "publication_date": "2026-03-13",
+  "venue": "ACM Transactions on Software Engineering and Methodology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136607282",
+  "doi": "https://doi.org/10.48550/arxiv.2603.12698",
+  "title": "EvolveCoder: Evolving Test Cases via Adversarial Verification for Code Reinforcement Learning",
+  "publication_date": "2026-03-13",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135200959",
+  "doi": "https://doi.org/10.33774/coe-2026-bc2j9",
+  "title": "PACF: Pattern-Aware Complexity Framework for Efficient Large Language Model Generation",
+  "publication_date": "2026-03-13",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7154562195",
+  "doi": "https://doi.org/10.48550/arxiv.2604.13046",
+  "title": "A Domain-Specific Language for LLM-Driven Trigger Generation in Multimodal Data Collection",
+  "publication_date": "2026-03-13",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136210873",
+  "doi": "https://doi.org/10.48550/arxiv.2603.12793",
+  "title": "Cheers: Decoupling Patch Details from Semantic Representations Enables Unified Multimodal Comprehension and Generation",
+  "publication_date": "2026-03-13",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135241492",
+  "doi": "https://doi.org/10.4018/404019",
+  "title": "Large Language Models (LLMs)",
+  "publication_date": "2026-03-13",
+  "venue": "Advances in computational intelligence and robotics book series",
+  "venue_type": "book series"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138875128",
+  "doi": "https://doi.org/10.5281/zenodo.19103819",
+  "title": "Evaluating the Efficacy of Artificial Intelligence in Software Engineering: A Post-February 2026 Analysis",
+  "publication_date": "2026-03-13",
+  "venue": "OSF Preprints (OSF Preprints)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140087576",
+  "doi": "https://doi.org/10.48550/arxiv.2603.19310",
+  "title": "MemReward: Graph-Based Experience Memory for LLM Reward Prediction with Limited Labels",
+  "publication_date": "2026-03-13",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135226962",
+  "doi": "https://doi.org/10.64898/2026.03.11.711024",
+  "title": "BioPipelines: Accessible Computational Protein and Ligand Design for Chemical Biologists",
+  "publication_date": "2026-03-13",
+  "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135191751",
+  "doi": "https://doi.org/10.5281/zenodo.19002112",
+  "title": "thenamangoyal/multi-agent-mlx: Multi-Agent MLX Software Factory v1.0.0",
+  "publication_date": "2026-03-13",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135212607",
+  "doi": "https://doi.org/10.5281/zenodo.19000698",
+  "title": "Data-Driven Edge Cost Learning and Temporal Motion Modeling for Energy-Aware AGV Planning",
+  "publication_date": "2026-03-13",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136150933",
+  "doi": "https://doi.org/10.48550/arxiv.2603.12554",
+  "title": "Reinforcement Learning for Diffusion LLMs with Entropy-Guided Step Selection and Stepwise Advantages",
+  "publication_date": "2026-03-13",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135204590",
+  "doi": "https://doi.org/10.5281/zenodo.18999792",
+  "title": "Automated Black-Box Testing: A Comparative Study of LLM Agent Architectures and Prompt Engineering",
+  "publication_date": "2026-03-13",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137377168",
+  "doi": "https://doi.org/10.48550/arxiv.2603.12597",
+  "title": "Feynman: Knowledge-Infused Diagramming Agent for Scalable Visual Designs",
+  "publication_date": "2026-03-13",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135197191",
+  "doi": "https://doi.org/10.5281/zenodo.18995874",
+  "title": "SR8: A Domain-Agnostic Intent Compiler for Structured Execution Systems",
+  "publication_date": "2026-03-13",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7131665667",
+  "doi": "https://doi.org/10.1145/3819836.3819966",
+  "title": "Can LLMs Simulate Economic Agents? Testing Production Theory with GPT-Based Firm Behavior",
+  "publication_date": "2026-03-13",
+  "venue": "International Conference on Cyber Security, Artificial Intelligence and Digital Economy (CSAIDE)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135208749",
+  "doi": "https://doi.org/10.5194/egusphere-egu26-8536",
+  "title": "Development of a Chemical Accident Inverse Tracking Framework for River Systems Using Generative Artificial Intelligence",
+  "publication_date": "2026-03-13",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7208767178",
+  "doi": "https://doi.org/10.1145/3819836.3819865",
+  "title": "Fuzzing RTOS Firmware with Large Language Model Guidance",
+  "publication_date": "2026-03-13",
+  "venue": "International Conference on Cyber Security, Artificial Intelligence and Digital Economy (CSAIDE)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135179256",
+  "doi": "https://doi.org/10.1111/aphw.70140",
+  "title": "Artificial intelligence and machine learning in assessing and promoting health and well‐being: Integrating human insight with computational intelligence",
+  "publication_date": "2026-03-13",
+  "venue": "Applied Psychology Health and Well-Being",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135215319",
+  "doi": "https://doi.org/10.5281/zenodo.19003598",
+  "title": "Checkpoint-Driven AI Development: A Practical Framework for Reducing Token Consumption and Improving Output Quality in LLM-Assisted Software Engineering",
+  "publication_date": "2026-03-13",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136739186",
+  "doi": "https://doi.org/10.48550/arxiv.2603.13019",
+  "title": "ARL-Tangram: Unleash the Resource Efficiency in Agentic Reinforcement Learning",
+  "publication_date": "2026-03-13",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7203989179",
+  "doi": "https://doi.org/10.1145/3809986.3810000",
+  "title": "A New Beginning of Rational Design in the Age of Large Language Models of Synthetic Biology",
+  "publication_date": "2026-03-13",
+  "venue": "International Conference on Bioinformatics and Intelligent Computing (BIC)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135232471",
+  "doi": "https://doi.org/10.1201/9781003639367-11",
+  "title": "An Investigation of AI's Influence on Contemporary Pedagogy via Advanced Deep Learning and Sensor-driven Educational Institutions",
+  "publication_date": "2026-03-13",
+  "venue": "CRC Press eBooks",
+  "venue_type": "ebook platform"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138857416",
+  "doi": "https://doi.org/10.1609/aaai.v40i48.42226",
+  "title": "Self-Guided Planning and Repair Framework for Code Generation (Student Abstract)",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138089774",
+  "doi": "https://doi.org/10.1609/aaai.v40i39.40616",
+  "title": "Incoherence as Oracle-less Measure of Error in LLM-Based Code Generation",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138355724",
+  "doi": "https://doi.org/10.1609/aaai.v40i27.39395",
+  "title": "DiffBench Meets DiffAgent: End-to-End LLM-Driven Diffusion Acceleration Code Generation",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138103432",
+  "doi": "https://doi.org/10.1609/aaai.v40i10.37763",
+  "title": "From Intent to Execution: Multimodal Chain-of-Thought Reinforcement Learning for Precise CAD Code Generation",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137955108",
+  "doi": "https://doi.org/10.1609/aaai.v40i2.37118",
+  "title": "HogVul: Black-box Adversarial Code Generation Framework Against LM-based Vulnerability Detectors",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135406689",
+  "doi": "https://doi.org/10.6084/m9.figshare.31741879.v1",
+  "title": "Official code for the paper \"Learning to Disprove: Formal Counterexample Generation with Large Language Models\"",
+  "publication_date": "2026-03-14",
+  "venue": "Figshare",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137957281",
+  "doi": "https://doi.org/10.1609/aaai.v40i34.40155",
+  "title": "QiMeng-Kernel: Macro-Thinking Micro-Coding Paradigm for LLM-Based High-Performance GPU Kernel Generation",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138998941",
+  "doi": "https://doi.org/10.1609/aaai.v40i41.40771",
+  "title": "AP2O-Coder: Adaptively Progressive Preference Optimization for Reducing Compilation and Runtime Errors in LLM-Generated Code",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138852248",
+  "doi": "https://doi.org/10.1609/aaai.v40i40.40741",
+  "title": "Themis: Automated Constraint-Aware Test Synthesis Framework for Code Reinforcement Learning",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138075993",
+  "doi": "https://doi.org/10.1609/aaai.v40i36.40289",
+  "title": "From Mathematical Reasoning to Code: Generalization of Process Reward Models in Test-Time Scaling",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7161310469",
+  "doi": "https://doi.org/10.1109/mpcon69668.2026.11508572",
+  "title": "An Empirical Evaluation of Transformer-Based LLMs for Domain-Aware Text Generation",
+  "publication_date": "2026-03-14",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138919818",
+  "doi": "https://doi.org/10.1609/aaai.v40i45.41238",
+  "title": "Adversarial Generation and Collaborative Evolution of Safety-Critical Scenarios for Autonomous Vehicles",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138277466",
+  "doi": "https://doi.org/10.1609/aaai.v40i12.37940",
+  "title": "READ: Real-time and Efficient Asynchronous Diffusion for Audio-driven Talking Head Generation",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135422774",
+  "doi": "https://doi.org/10.5194/egusphere-egu26-20992",
+  "title": "Using copilot for the rapid generation of a visualisation platform to aid geospatial analyses",
+  "publication_date": "2026-03-14",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137935118",
+  "doi": "https://doi.org/10.1609/aaai.v40i28.39481",
+  "title": "Assemble Your Crew: Automatic Multi-agent Communication Topology Design via Autoregressive Graph Generation",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138437482",
+  "doi": "https://doi.org/10.1609/aaai.v40i37.40381",
+  "title": "QiMeng-CRUX: Narrowing the Gap Between Natural Language and Verilog via Core Refined Understanding eXpression",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135420966",
+  "doi": "https://doi.org/10.5281/zenodo.19021595",
+  "title": "Code for \"Machine Learning Predictions of Nuclear Masses: Mixture Density Networks vs. Gaussian Processes and Liquid Drop Model Enhancement\"",
+  "publication_date": "2026-03-14",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138059415",
+  "doi": "https://doi.org/10.1609/aaai.v40i25.39265",
+  "title": "The Semantic Architect: How FEAML Bridges Structured Data and LLMs for Multi-Label Tasks",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135193772",
+  "doi": "https://doi.org/10.5194/egusphere-egu26-13454",
+  "title": "Agentic AI for Earth-Observation-Driven Maritime Monitoring - the SeaScope Project",
+  "publication_date": "2026-03-14",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138163444",
+  "doi": "https://doi.org/10.48550/arxiv.2603.14110",
+  "title": "SVD Contextual Sparsity Predictors for Fast LLM Inference",
+  "publication_date": "2026-03-14",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137824411",
+  "doi": "https://doi.org/10.1609/aaai.v40i38.40482",
+  "title": "ARBench: Algorithmic Reasoner or API Alchemist? Evaluating LLMs Beyond API Calls",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138842566",
+  "doi": "https://doi.org/10.1609/aaai.v40i44.41077",
+  "title": "Unintended Misalignment from Agentic Fine-Tuning: Risks and Mitigation",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138877558",
+  "doi": "https://doi.org/10.1609/aaai.v40i40.40703",
+  "title": "OPLoRA: Orthogonal Projection LoRA Prevents Catastrophic Forgetting During Parameter-Efficient Fine-Tuning",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137892616",
+  "doi": "https://doi.org/10.1609/aaai.v40i1.36983",
+  "title": "OR-R1: Automating Modeling and Solving of Operations Research Optimization Problem via Test-Time Reinforcement Learning",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138912107",
+  "doi": "https://doi.org/10.1609/aaai.v40i41.40799",
+  "title": "SABER: Switchable and Balanced Training for Efficient LLM Reasoning",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138050205",
+  "doi": "https://doi.org/10.1609/aaai.v40i30.39742",
+  "title": "Learning to Collaborate: An Orchestrated-Decentralized Framework for Peer-to-Peer LLM Federation",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138147885",
+  "doi": "https://doi.org/10.1609/aaai.v40i26.39341",
+  "title": "Mosaic Pruning: A Hierarchical Framework for Generalizable Pruning of Mixture-of-Experts Models",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138302910",
+  "doi": "https://doi.org/10.1609/aaai.v40i40.40721",
+  "title": "HeartLLM: Discretized ECG Tokenization for LLM-Based Diagnostic Reasoning",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138921922",
+  "doi": "https://doi.org/10.1609/aaai.v40i47.41391",
+  "title": "Linguistic Steganography via Self-Adjusting Asymmetric Number System (Abstract Reprint)",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137824014",
+  "doi": "https://doi.org/10.1609/aaai.v40i40.40735",
+  "title": "ORACLE: Optimizing Reasoning Abilities of Large Language Models via Constraint-Led Synthetic Data Elicitation",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139093643",
+  "doi": "https://doi.org/10.1609/aaai.v40i43.41024",
+  "title": "Pareto-Grid-Guided Large Language Models for Fast and High-Quality Heuristics Design in Multi-Objective Combinatorial Optimization",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137976690",
+  "doi": "https://doi.org/10.1609/aaai.v40i37.40429",
+  "title": "WenetSpeech-Yue: A Large-Scale Cantonese Speech Corpus with Multi-dimensional Annotation",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138942727",
+  "doi": "https://doi.org/10.1609/aaai.v40i44.41092",
+  "title": "ARGH-Mark: Anchor-Synchronized Watermarking with Hamming Correction for Robust and Quality-Preserving LLM Attribution",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138076419",
+  "doi": "https://doi.org/10.1609/aaai.v40i9.37660",
+  "title": "MultiMotion: Multi Subject Video Motion Transfer via Video Diffusion Transformer",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135396591",
+  "doi": "https://doi.org/10.1016/j.neunet.2026.108853",
+  "title": "EfficientLoRA: Rethinking the efficiency of low-rank adaptation in pre-trained language models",
+  "publication_date": "2026-03-14",
+  "venue": "Neural Networks",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138260578",
+  "doi": "https://doi.org/10.1609/aaai.v40i3.37190",
+  "title": "HiVA: Self-organized Hierarchical Variable Agent via Goal-driven Semantic-Topological Evolution",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138373878",
+  "doi": "https://doi.org/10.1609/aaai.v40i21.38868",
+  "title": "TrajEvo: Trajectory Prediction Heuristics Design via LLM-driven Evolution",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137802049",
+  "doi": "https://doi.org/10.1609/aaai.v40i29.39607",
+  "title": "OmniScale: Scaling Any Modality Model Training with Model-Centric Distributed Recipe Zoo",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138059822",
+  "doi": "https://doi.org/10.48550/arxiv.2603.13767",
+  "title": "Retrieve, Schedule, Reflect: LLM Agents for Chip QoR Optimization",
+  "publication_date": "2026-03-14",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137997120",
+  "doi": "https://doi.org/10.1609/aaai.v40i17.38508",
+  "title": "From IDs to Semantics: A Generative Framework for Cross-Domain Recommendation with Adaptive Semantic Tokenization",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138478635",
+  "doi": "https://doi.org/10.1609/aaai.v40i1.36968",
+  "title": "Regressor-guided Diffusion Model for De Novo Peptide Sequencing with Explicit Mass Control",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135377839",
+  "doi": "https://doi.org/10.5281/zenodo.19019098",
+  "title": "Vector-Quantized Semantic Transport for Machine-to-Machine Communication",
+  "publication_date": "2026-03-14",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135410627",
+  "doi": "https://doi.org/10.5194/egusphere-egu26-21781",
+  "title": "LLM-Assisted Workflow Orchestration for Decadal Prediction Analysis",
+  "publication_date": "2026-03-14",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135403223",
+  "doi": "https://doi.org/10.5281/zenodo.19017102",
+  "title": "Andampindambrahmandam (APB) - Universal Research Database Engine v0.4",
+  "publication_date": "2026-03-14",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135204195",
+  "doi": "https://doi.org/10.5194/egusphere-egu26-15955",
+  "title": "LLM Workflow for Land-Use Prediction Evidence Synthesis: Efficient Screening, Selective Refusals, Reportable Gaps",
+  "publication_date": "2026-03-14",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7161140964",
+  "doi": "https://doi.org/10.1109/mpcon69668.2026.11508502",
+  "title": "The Neurological Code: Deciphering Parkinson's with Deep Generative Models and Attention Mechanisms",
+  "publication_date": "2026-03-14",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139145019",
+  "doi": null,
+  "title": "Ransomware and Artificial Intelligence: A Comprehensive Systematic Review of Reviews",
+  "publication_date": "2026-03-14",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135376554",
+  "doi": "https://doi.org/10.1186/s12886-026-04688-x",
+  "title": "Artificial intelligence in the diagnosis and prognosis of ocular trauma: a systematic review",
+  "publication_date": "2026-03-14",
+  "venue": "BMC Ophthalmology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136032046",
+  "doi": "https://doi.org/10.64898/2026.03.12.710907",
+  "title": "RepliCNN: High-resolution inference of the DNA replication program from strand-specific 3′ DNA end sequencing",
+  "publication_date": "2026-03-14",
+  "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135403885",
+  "doi": "https://doi.org/10.5281/zenodo.19022517",
+  "title": "Generative AI LLMs vs. Specialized Neural Networks for Decision-Making and Probabilistic Inference in Distributed Energy Systems",
+  "publication_date": "2026-03-14",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138978691",
+  "doi": "https://doi.org/10.1609/aaai.v40i47.41454",
+  "title": "Automated Creation and Enrichment Framework for Improved Invocation of Enterprise APIs as Tools",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135218235",
+  "doi": "https://doi.org/10.5194/egusphere-egu26-11527",
+  "title": "Argo-YOLO: Leveraging Computer Vision for Automated Quality Control of Argo Ocean Profiles",
+  "publication_date": "2026-03-14",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138007407",
+  "doi": "https://doi.org/10.1609/aaai.v40i17.38452",
+  "title": "Co-Layout: LLM-driven Co-optimization for Interior Layout",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7161292358",
+  "doi": "https://doi.org/10.1109/mpcon69668.2026.11509020",
+  "title": "Predictive Maintenance in Manufacturing Using Machine Learning-Based Anomaly Detection",
+  "publication_date": "2026-03-14",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136182573",
+  "doi": "https://doi.org/10.3390/ma19061131",
+  "title": "A Machine Learning Framework for the Reconstruction of Composite Fatigue and Fracture Properties: A Synthetic Data Study",
+  "publication_date": "2026-03-14",
+  "venue": "Materials",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138201557",
+  "doi": "https://doi.org/10.1609/aaai.v40i2.37069",
+  "title": "Navigating the Alpha Jungle: An LLM-Powered MCTS Framework for Formulaic Alpha Factor Mining",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138931937",
+  "doi": "https://doi.org/10.1609/aaai.v40i43.41048",
+  "title": "Instance Generation for Meta-Black-Box Optimization Through Latent Space Reverse Engineering",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135234245",
+  "doi": "https://doi.org/10.5194/egusphere-egu26-17176",
+  "title": "Bridging the gap between scientists and large language models",
+  "publication_date": "2026-03-14",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135401062",
+  "doi": "https://doi.org/10.5194/egusphere-egu26-19761",
+  "title": "Fully differentiable transport operators enable gradient-based parameter tuning and data assimilation of marine biogeochemical models",
+  "publication_date": "2026-03-14",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137484921",
+  "doi": null,
+  "title": "PROMETHEUS: Predictive Robotic Opponent Modeling for Elite Training in Combative Blade Sports",
+  "publication_date": "2026-03-14",
+  "venue": "OSF Preprints (OSF Preprints)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138470444",
+  "doi": "https://doi.org/10.5281/zenodo.19027141",
+  "title": "EVA: Benchmark and Experiment Data for RNA Generation and Codon Optimization",
+  "publication_date": "2026-03-15",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141535823",
+  "doi": "https://doi.org/10.1145/3764386.3779639",
+  "title": "Invited: Polymath: Self-Improving Hierarchical Workflow for Multi-Domain Problem Solving",
+  "publication_date": "2026-03-15",
+  "venue": "International Symposium on Physical Design",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138149565",
+  "doi": "https://doi.org/10.48550/arxiv.2603.14505",
+  "title": "Unlocking the Latent Canvas: Eliciting and Benchmarking Symbolic Visual Expression in LLMs",
+  "publication_date": "2026-03-15",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136078928",
+  "doi": "https://doi.org/10.5281/zenodo.19032330",
+  "title": "PRD-AGI Phase 6 v1.10 : The Nameless Intelligence – A Complete Production-Ready Framework for Truth-First Causal AGI with SU(5) Relational Algebra, Fuzzy Logic, Artificial Sentience, and MUT Awareness",
+  "publication_date": "2026-03-15",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140165121",
+  "doi": "https://doi.org/10.5281/zenodo.19207153",
+  "title": "Remote Sensing Toolbox",
+  "publication_date": "2026-03-15",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136084701",
+  "doi": "https://doi.org/10.1016/j.acorp.2026.100204",
+  "title": "Metaphor identification using large language models: A comparison of RAG, prompt engineering, and fine-tuning",
+  "publication_date": "2026-03-15",
+  "venue": "Applied Corpus Linguistics",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136033299",
+  "doi": "https://doi.org/10.5281/zenodo.19039390",
+  "title": "PREreview of \"Beyond Static Pipelines: Learning Dynamic Workflows for Text-to-SQL\"",
+  "publication_date": "2026-03-15",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136038547",
+  "doi": "https://doi.org/10.6084/m9.figshare.31742317.v1",
+  "title": "Dual-period mobility changes in response to China’s optimized COVID-19 policy",
+  "publication_date": "2026-03-15",
+  "venue": "Figshare",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136042970",
+  "doi": "https://doi.org/10.5281/zenodo.19039466",
+  "title": "PREreview of \"Reinforcement Learning-Augmented LLM Agents for Collaborative Decision Making and Performance Optimization\"",
+  "publication_date": "2026-03-15",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7215506513",
+  "doi": null,
+  "title": "From Executive Cognition to Capital Allocation: An Integrative Review of the Antecedents and Financial Consequences of Corporate ESG Performance in Emerging Markets A Conceptual and Evidence-Synthesis Study",
+  "publication_date": "2026-03-15",
+  "venue": "Review of Futures Markets",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138396622",
+  "doi": "https://doi.org/10.48550/arxiv.2603.15159",
+  "title": "To See is Not to Master: Teaching LLMs to Use Private Libraries for Code Generation",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138428298",
+  "doi": "https://doi.org/10.48550/arxiv.2603.15611",
+  "title": "Code-A1: Adversarial Evolving of Code LLM and Test LLM via Reinforcement Learning",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138833607",
+  "doi": "https://doi.org/10.48550/arxiv.2603.15976",
+  "title": "An Agentic Evaluation Framework for AI-Generated Scientific Code in PETSc",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139001987",
+  "doi": "https://doi.org/10.48550/arxiv.2603.15691",
+  "title": "VibeContract: The Missing Quality Assurance Piece in Vibe Coding",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137892814",
+  "doi": "https://doi.org/10.48550/arxiv.2603.15538",
+  "title": "QiboAgent: a practitioner's guideline to open source assistants for Quantum Computing code development",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137228596",
+  "doi": "https://doi.org/10.48175/ijarsct-31619",
+  "title": "AI-Powered Coding and Competitive Practice Platform",
+  "publication_date": "2026-03-16",
+  "venue": "International Journal of Advanced Research in Science Communication and Technology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137364144",
+  "doi": "https://doi.org/10.54254/2755-2721/2026.as32228",
+  "title": "A Multi-Perspective Investigation into Code Migration for Large Language Models",
+  "publication_date": "2026-03-16",
+  "venue": "Applied and Computational Engineering",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137069882",
+  "doi": "https://doi.org/10.12731/3033-5965-2026-16-1-415",
+  "title": "Research on the architecture of a low-code platform for hybrid intelligence with the implementation of the Kanban method for decision support in transportation management",
+  "publication_date": "2026-03-16",
+  "venue": "Transportation and Information Technologies in Russia",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137896234",
+  "doi": "https://doi.org/10.48550/arxiv.2603.15132",
+  "title": "WiT: Waypoint Diffusion Transformers for Alleviating Trajectory Conflict in Pixel-Space Image Generation",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7160641412",
+  "doi": "https://doi.org/10.1109/iciccs67901.2026.11502891",
+  "title": "SecureNet: A Next-Generation AI-Powered Cyber Defense System for Dynamic Attack Prevention",
+  "publication_date": "2026-03-16",
+  "venue": "International Conference on Intelligent Computing and Control Systems (ICICCS)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139148283",
+  "doi": null,
+  "title": "DOS: Dependency-Oriented Sampler for Masked Diffusion Language Models",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138264028",
+  "doi": "https://doi.org/10.48550/arxiv.2603.15478",
+  "title": "ViFeEdit: A Video-Free Tuner of Your Video Diffusion Transformer",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136171065",
+  "doi": "https://doi.org/10.1007/s44163-026-01093-7",
+  "title": "Energy-efficient neuromorphic computing for ultra-low latency cognitive radio: a hardware-software co-design framework for 6 G spectrum intelligence",
+  "publication_date": "2026-03-16",
+  "venue": "Discover Artificial Intelligence",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136132161",
+  "doi": "https://doi.org/10.5281/zenodo.19056186",
+  "title": "manwestc/PermGrad: v1.1.0: SOTA Baselines, Training Dynamics, and Scalability Optimizations",
+  "publication_date": "2026-03-16",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138977697",
+  "doi": "https://doi.org/10.48550/arxiv.2603.15803",
+  "title": "Mask Is What DLLM Needs: A Masked Data Training Paradigm for Diffusion LLMs",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137166884",
+  "doi": "https://doi.org/10.38124/ijisrt/25dec1209",
+  "title": "Self Building Project Manager Agent",
+  "publication_date": "2026-03-16",
+  "venue": "International Journal of Innovative Science and Research Technology (IJISRT)",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138193603",
+  "doi": "https://doi.org/10.48550/arxiv.2603.14769",
+  "title": "POLCA: Stochastic Generative Optimization with LLM",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138850473",
+  "doi": "https://doi.org/10.48550/arxiv.2603.15811",
+  "title": "Feed-forward Gaussian Registration for Head Avatar Creation and Editing",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138915502",
+  "doi": "https://doi.org/10.5281/zenodo.19116792",
+  "title": "The Spectral Table of Constants: Physical Reality from One Algebra at One Temperature",
+  "publication_date": "2026-03-16",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139144503",
+  "doi": null,
+  "title": "AURORA-KITTI: Any-Weather Depth Completion and Denoising in the Wild",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136241682",
+  "doi": "https://doi.org/10.20944/preprints202603.1152.v1",
+  "title": "CoDES: A Context-Efficient Framework for Enhancing Small Language Models via Domain-Specific Adaptation and Model Ensembling",
+  "publication_date": "2026-03-16",
+  "venue": "Preprints.org",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138015849",
+  "doi": "https://doi.org/10.48550/arxiv.2603.15510",
+  "title": "Not All Invariants Are Equal: Curating Training Data to Accelerate Program Verification with SLMs",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138386904",
+  "doi": "https://doi.org/10.48550/arxiv.2603.15011",
+  "title": "Molecular Identifier Visual Prompt and Verifiable Reinforcement Learning for Chemical Reaction Diagram Parsing",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136874426",
+  "doi": "https://doi.org/10.3389/fonc.2026.1674509",
+  "title": "Automated detection of primary soft tissue sarcomas of the extremities using artificial intelligence and ChatGPT",
+  "publication_date": "2026-03-16",
+  "venue": "Frontiers in Oncology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136488998",
+  "doi": "https://doi.org/10.1145/3789673",
+  "title": "Retrieval-augmented Generation of Enhanced Trigger-action Programming Rules in Smart Home",
+  "publication_date": "2026-03-16",
+  "venue": "Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138157626",
+  "doi": "https://doi.org/10.48550/arxiv.2603.15096",
+  "title": "Generation of Programming Exam Question and Answer Using ChatGPT Based on Prompt Engineering",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138412455",
+  "doi": "https://doi.org/10.48550/arxiv.2603.15298",
+  "title": "The Impact of AI-Assisted Development on Software Security: A Study of Gemini and Developer Experience",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138220350",
+  "doi": "https://doi.org/10.48550/arxiv.2603.14703",
+  "title": "Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136531876",
+  "doi": "https://doi.org/10.64898/2026.03.12.711471",
+  "title": "TracktorLive: an integrated real-time object tracking and response system",
+  "publication_date": "2026-03-16",
+  "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139131717",
+  "doi": "https://doi.org/10.48550/arxiv.2603.16526",
+  "title": "Exploring different approaches to customize language models for domain-specific text-to-code generation",
+  "publication_date": "2026-03-17",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138404989",
+  "doi": "https://doi.org/10.5281/zenodo.19066819",
+  "title": "Token Budget Reallocation: Trading Syntactic Verbosity for Semantic Contracts in LLM Code Generation",
+  "publication_date": "2026-03-17",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7160378880",
+  "doi": "https://doi.org/10.1109/saner-c67878.2026.00049",
+  "title": "Prompt, Assert, Repeat: Test-Driven Prompting as a Quality Assurance Strategy for Code-Generating LLMs",
+  "publication_date": "2026-03-17",
+  "venue": "IEEE International Conference on Software Analysis, Evolution and Reengineering - Companion (SANER-C)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139148201",
+  "doi": null,
+  "title": "OneWorld: Taming Scene Generation with 3D Unified Representation Autoencoder",
+  "publication_date": "2026-03-17",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139036317",
+  "doi": "https://doi.org/10.48550/arxiv.2603.16365",
+  "title": "FactorEngine: A Program-level Knowledge-Infused Factor Mining Framework for Quantitative Investment",
+  "publication_date": "2026-03-17",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7167068693",
+  "doi": "https://doi.org/10.1109/saner67736.2026.00021",
+  "title": "From LLMS to Agents in Programming: The Impact of Providing an LLM with a Compiler",
+  "publication_date": "2026-03-17",
+  "venue": "IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139144625",
+  "doi": null,
+  "title": "AI Application Benchmarking: Power-Aware Performance Analysis for Vision and Language Models",
+  "publication_date": "2026-03-17",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138896440",
+  "doi": "https://doi.org/10.48550/arxiv.2603.16600",
+  "title": "Rationale Matters: Learning Transferable Rubrics via Proxy-Guided Critique for VLM Reward Models",
+  "publication_date": "2026-03-17",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7151634406",
+  "doi": "https://doi.org/10.24143/2073-1574-2026-1-85-92",
+  "title": "Optimization of technological processes based on the transport task in MATLAB tools",
+  "publication_date": "2026-03-17",
+  "venue": "VESTNIK OF ASTRAKHAN STATE TECHNICAL UNIVERSITY SERIES MARINE ENGINEERING AND TECHNOLOGIES",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7151284736",
+  "doi": "https://doi.org/10.5281/zenodo.18894015",
+  "title": "Zatom-1: A Multimodal Flow Foundation Model for 3D Molecules and Materials",
+  "publication_date": "2026-03-17",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138230296",
+  "doi": "https://doi.org/10.1016/j.infsof.2026.108130",
+  "title": "A decontextualized LLM-based safeguard technique for automated jailbreak mitigation",
+  "publication_date": "2026-03-17",
+  "venue": "Information and Software Technology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138929611",
+  "doi": "https://doi.org/10.5281/zenodo.18304962",
+  "title": "Replication Materials for Article: Two-Time-Scale Transfer Learning for Market-by-Order Micro-Return Forecasting",
+  "publication_date": "2026-03-17",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138896449",
+  "doi": "https://doi.org/10.48550/arxiv.2603.16733",
+  "title": "IQuest-Coder-V1 Technical Report",
+  "publication_date": "2026-03-17",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139145353",
+  "doi": null,
+  "title": "Are a Thousand Words Better Than a Single Picture? Beyond Images -- A Framework for Multi-Modal Knowledge Graph Dataset Enrichment",
+  "publication_date": "2026-03-17",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139013439",
+  "doi": "https://doi.org/10.48550/arxiv.2603.16313",
+  "title": "Learning to Predict, Discover, and Reason in High-Dimensional Event Sequences",
+  "publication_date": "2026-03-17",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138974733",
+  "doi": "https://doi.org/10.48550/arxiv.2603.17187",
+  "title": "MetaClaw: Just Talk -- An Agent That Meta-Learns and Evolves in the Wild",
+  "publication_date": "2026-03-17",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W4417293312",
+  "doi": "https://doi.org/10.1109/saner67736.2026.00042",
+  "title": "CloudFix: Automated Policy Repair for Cloud Access Control Policies Using Large Language Models",
+  "publication_date": "2026-03-17",
+  "venue": "IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137881707",
+  "doi": "https://doi.org/10.18240/ijo.2026.04.01",
+  "title": "Enhanced diagnosis of diabetic retinopathy: integrating advanced algorithms for automated detection and classification",
+  "publication_date": "2026-03-17",
+  "venue": "International Journal of Ophthalmology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139061549",
+  "doi": "https://doi.org/10.48550/arxiv.2603.16351",
+  "title": "Automated identification of Ichneumonoidea wasps via YOLO-based deep learning: Integrating HiresCam for Explainable AI",
+  "publication_date": "2026-03-17",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139147478",
+  "doi": null,
+  "title": "Toward Experimentation-as-a-Service in 5G/6G: The Plaza6G Prototype for AI-Assisted Trials",
+  "publication_date": "2026-03-17",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138900749",
+  "doi": "https://doi.org/10.5281/zenodo.19087320",
+  "title": "Towards intelligent software development: An AI-based code generation tool",
+  "publication_date": "2026-03-18",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139021615",
+  "doi": "https://doi.org/10.5281/zenodo.19087349",
+  "title": "TreeCoder: Systematic Exploration and Optimisation of Decoding and Constraints for LLM Code Generation",
+  "publication_date": "2026-03-18",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138925819",
+  "doi": "https://doi.org/10.48550/arxiv.2603.17800",
+  "title": "Enabling RISC-V Vector Code Generation in MLIR through Custom xDSL Lowerings",
+  "publication_date": "2026-03-18",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140143306",
+  "doi": "https://doi.org/10.48550/arxiv.2603.19329",
+  "title": "Goedel-Code-Prover: Hierarchical Proof Search for Open State-of-the-Art Code Verification",
+  "publication_date": "2026-03-18",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138996661",
+  "doi": "https://doi.org/10.64898/2026.03.16.712018",
+  "title": "SpeciefAI: Multi-species mRNA-level Antibody Framework Generation using Transformers",
+  "publication_date": "2026-03-18",
+  "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140738632",
+  "doi": "https://doi.org/10.5281/zenodo.13338270",
+  "title": "LKRepair: Automated Patch Generation for Linux Kernel Vulnerabilities via Syntax-Aware LLMs",
+  "publication_date": "2026-03-18",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139938921",
+  "doi": "https://doi.org/10.48550/arxiv.2603.18090",
+  "title": "MOSS-TTS Technical Report",
+  "publication_date": "2026-03-18",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138859765",
+  "doi": "https://doi.org/10.1080/23324309.2026.2644990",
+  "title": "A Deep Learning Algorithm İmplemented Using PyTorch to the Critical Thickness Problem of a Nuclear Reactor",
+  "publication_date": "2026-03-18",
+  "venue": "Journal of Computational and Theoretical Transport",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138932284",
+  "doi": "https://doi.org/10.48550/arxiv.2603.17919",
+  "title": "Training Diffusion Language Models for Black-Box Optimization",
+  "publication_date": "2026-03-18",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139138433",
+  "doi": "https://doi.org/10.5281/zenodo.19094618",
+  "title": "Democratizing Software Engineering in the Global South: A Comprehensive Analysis of the Omnient.io AI-Powered Development Platform by Synaptic AI Lab",
+  "publication_date": "2026-03-18",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139080049",
+  "doi": "https://doi.org/10.48550/arxiv.2603.17390",
+  "title": "FMMC: Harnessing the Power of Foundation Models for Accurate Material Classification",
+  "publication_date": "2026-03-18",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140237442",
+  "doi": "https://doi.org/10.48550/arxiv.2603.20289",
+  "title": "Remote Sensing Image Dehazing: A Systematic Review of Progress, Challenges, and Prospects",
+  "publication_date": "2026-03-18",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138930316",
+  "doi": "https://doi.org/10.48550/arxiv.2603.17693",
+  "title": "Learning Transferable Temporal Primitives for Video Reasoning via Synthetic Videos",
+  "publication_date": "2026-03-18",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138839472",
+  "doi": "https://doi.org/10.1038/s41598-026-44111-5",
+  "title": "Generative adversarial networks for high-fidelity 3D point cloud completion",
+  "publication_date": "2026-03-18",
+  "venue": "Scientific Reports",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138891058",
+  "doi": "https://doi.org/10.5281/zenodo.19080609",
+  "title": "The Eibes Postulate: experimental code for an LLM to measure sentience within the Eibes Postulate",
+  "publication_date": "2026-03-18",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138867764",
+  "doi": "https://doi.org/10.48550/arxiv.2603.17343",
+  "title": "EvoGuard: An Extensible Agentic RL-based Framework for Practical and Evolving AI-Generated Image Detection",
+  "publication_date": "2026-03-18",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139942248",
+  "doi": "https://doi.org/10.48550/arxiv.2603.18315",
+  "title": "DriveVLM-RL: Neuroscience-Inspired Reinforcement Learning with Vision-Language Models for Safe and Deployable Autonomous Driving",
+  "publication_date": "2026-03-18",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138854804",
+  "doi": "https://doi.org/10.5281/zenodo.19116563",
+  "title": "EXDT v3.0 (EPAMEINONDAS XENOPOULOS DIALECTICAL TRANSFORMER) Validation of the Global Intensity Record (14.2369) and New Data",
+  "publication_date": "2026-03-18",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138855450",
+  "doi": "https://doi.org/10.5281/zenodo.19099976",
+  "title": "IntrixKey Research Series — Part IX : Information-Constrained Cognitive Imaging: A Unified Framework",
+  "publication_date": "2026-03-18",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138968939",
+  "doi": "https://doi.org/10.48550/arxiv.2603.17641",
+  "title": "Automated Grammar-based Algebraic Multigrid Design With Evolutionary Algorithms",
+  "publication_date": "2026-03-18",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139921417",
+  "doi": "https://doi.org/10.48550/arxiv.2603.18355",
+  "title": "Pushan: Trace-Free Deobfuscation of Virtualization-Obfuscated Binaries",
+  "publication_date": "2026-03-18",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140130412",
+  "doi": "https://doi.org/10.48550/arxiv.2603.19347",
+  "title": "Exploring the Agentic Frontier of Verilog Code Generation",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138959031",
+  "doi": "https://doi.org/10.22214/ijraset.2026.78390",
+  "title": "Nova AI: AI-Powered Code Generation SaaS Using Next.js and LLM",
+  "publication_date": "2026-03-19",
+  "venue": "International Journal for Research in Applied Science and Engineering Technology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7158538061",
+  "doi": "https://doi.org/10.13016/m2db25-prl0",
+  "title": "DePro: Understanding the Role of LLMs in Debugging Competitive Programming Code",
+  "publication_date": "2026-03-19",
+  "venue": "Digital Repository at the University of Maryland (University of Maryland College Park)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139942924",
+  "doi": "https://doi.org/10.48550/arxiv.2603.18897",
+  "title": "Parallelizing Tool Execution and LLM Generation for Low-Latency Agent Serving",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139914624",
+  "doi": "https://doi.org/10.48550/arxiv.2603.18606",
+  "title": "SQL-Commenter: Aligning Large Language Models for SQL Comment Generation with Direct Preference Optimization",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139962641",
+  "doi": "https://doi.org/10.48550/arxiv.2603.18636",
+  "title": "Attention Sparsity is Input-Stable: Training-Free Sparse Attention for Video Generation via Offline Sparsity Profiling and Online QK Co-Clustering",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7152101543",
+  "doi": "https://doi.org/10.1109/isdfs69419.2026.11459120",
+  "title": "Distributed Adaptive Speculative Decoding: Accelerating Large Language Model Inference With Context-Aware Draft Selection",
+  "publication_date": "2026-03-19",
+  "venue": "International Symposium on Digital Forensics and Security (ISDFS)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139957909",
+  "doi": "https://doi.org/10.48550/arxiv.2603.19008",
+  "title": "Hypothesis-Conditioned Query Rewriting for Decision-Useful Retrieval",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139914875",
+  "doi": "https://doi.org/10.48550/arxiv.2603.18806",
+  "title": "dTRPO: Trajectory Reduction in Policy Optimization of Diffusion Large Language Models",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139943776",
+  "doi": "https://doi.org/10.48550/arxiv.2603.18604",
+  "title": "AutORAN: LLM-driven Natural Language Programming for Agile xApp Development",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7220194038",
+  "doi": null,
+  "title": "An AI-Driven System for Automated Software Testing and Quality Assurance",
+  "publication_date": "2026-03-19",
+  "venue": "Computer Science and Engineering Transactions",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139119533",
+  "doi": "https://doi.org/10.1016/j.eswa.2026.132119",
+  "title": "Teach-to-reason with scoring: Self-explainable rationale-driven multi-trait essay scoring",
+  "publication_date": "2026-03-19",
+  "venue": "Expert Systems with Applications",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138889047",
+  "doi": "https://doi.org/10.5281/zenodo.19104362",
+  "title": "PRD-LLM v2.1 : A Complete Unified Framework for Truth-First Causal Artificial General Intelligence",
+  "publication_date": "2026-03-19",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140127731",
+  "doi": "https://doi.org/10.48550/arxiv.2603.19333",
+  "title": "POET: Power-Oriented Evolutionary Tuning for LLM-Based RTL PPA Optimization",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140315469",
+  "doi": "https://doi.org/10.48550/arxiv.2603.22309",
+  "title": "UniFluids: Unified Neural Operator Learning with Conditional Flow-matching",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139962469",
+  "doi": "https://doi.org/10.48550/arxiv.2603.18788",
+  "title": "Mi:dm K 2.5 Pro",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139936135",
+  "doi": "https://doi.org/10.48550/arxiv.2603.18736",
+  "title": "CausalRM: Causal-Theoretic Reward Modeling for RLHF from Observational User Feedbacks",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138853926",
+  "doi": "https://doi.org/10.1371/journal.pone.0344363",
+  "title": "Adaptive knowledge distillation based structure-text embedding integrating for knowledge graph completion",
+  "publication_date": "2026-03-19",
+  "venue": "PLoS ONE",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140077740",
+  "doi": "https://doi.org/10.48550/arxiv.2603.19453",
+  "title": "Beyond Scalar Rewards: Dense Feedback for LLM Policy Synthesis in Sequential Social Dilemmas",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139953520",
+  "doi": "https://doi.org/10.48550/arxiv.2603.18477",
+  "title": "Leveraging Large Language Models for Generalizing Peephole Optimizations",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140095942",
+  "doi": "https://doi.org/10.48550/arxiv.2603.19417",
+  "title": "Automating Reformulation for Parallel ADMM",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140315370",
+  "doi": "https://doi.org/10.71443/9789349552579-05",
+  "title": "AI-Driven Automated English Speaking Skill Assessment Using Deep Learning Techniques",
+  "publication_date": "2026-03-19",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139927679",
+  "doi": "https://doi.org/10.48550/arxiv.2603.18520",
+  "title": "Robotic Agentic Platform for Intelligent Electric Vehicle Disassembly",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138904199",
+  "doi": "https://doi.org/10.1142/s0219519426500107",
+  "title": "DEEP FEATURE-BASED 3-WAY CLASSIFICATION OF EARLY TO LATE MILD COGNITIVE IMPAIRMENT IN ALZHEIMER’S DISEASE USING PHYSICS/CHEMISTRY-BASED WRAPPER METHODS FOR FEATURE SELECTION AND MACHINE LEARNING",
+  "publication_date": "2026-03-19",
+  "venue": "Journal of Mechanics in Medicine and Biology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7161148084",
+  "doi": "https://doi.org/10.1109/icaace69793.2026.11509053",
+  "title": "Optimize Code Generation Using Integrated Agents",
+  "publication_date": "2026-03-20",
+  "venue": "International Conference on Advanced Algorithms and Control Engineering (ICAACE)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7162447710",
+  "doi": "https://doi.org/10.1109/icnlp69856.2026.11528097",
+  "title": "GameLogLLM: LLM-Guided Code Generation for Game Latency Analysis",
+  "publication_date": "2026-03-20",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139914761",
+  "doi": "https://doi.org/10.5281/zenodo.19131563",
+  "title": "AGENTIC AI-POWERED AUTONOMOUS SOFTWARE ENGINEERING FRAMEWORK FOR AUTOMATED CODE GENERATION AND DEBUGGING",
+  "publication_date": "2026-03-20",
+  "venue": "Research",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7161115734",
+  "doi": "https://doi.org/10.1109/icaace69793.2026.11509160",
+  "title": "Alleviating Code Hallucination in Large Language Models via Pseudocode Intermediation",
+  "publication_date": "2026-03-20",
+  "venue": "International Conference on Advanced Algorithms and Control Engineering (ICAACE)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139987311",
+  "doi": "https://doi.org/10.64898/2026.03.18.712790",
+  "title": "Designing mRNA coding sequence via multimodal reverse translation language modeling with Pro2RNA",
+  "publication_date": "2026-03-20",
+  "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7162501008",
+  "doi": "https://doi.org/10.1109/3dv69130.2026.00138",
+  "title": "InteriorAgent: LLM Agent for Interior Design-Aware 3D Layout Generation",
+  "publication_date": "2026-03-20",
+  "venue": "International Conference on 3D Vision (3DV)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7160440668",
+  "doi": "https://doi.org/10.1109/aaiml67890.2026.11498082",
+  "title": "Multi-Task CAD Generation Using Compact Decoder-Only Models",
+  "publication_date": "2026-03-20",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7161142147",
+  "doi": "https://doi.org/10.1109/icaace69793.2026.11508786",
+  "title": "PowerReviewer: A Knowledge-Graph Enhanced Multi-Agent Framework for Automated Code Review in Power Grid Systems",
+  "publication_date": "2026-03-20",
+  "venue": "International Conference on Advanced Algorithms and Control Engineering (ICAACE)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140143967",
+  "doi": "https://doi.org/10.5281/zenodo.19183907",
+  "title": "LinkPulse: A Hybrid Retrieval-Augmented Generation Platform for Autonomous Multi-Source Knowledge Synthesis",
+  "publication_date": "2026-03-20",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139925184",
+  "doi": "https://doi.org/10.5120/ijca2026926575",
+  "title": "Synthetic Data Generation For Automated JavaScript Vulnerability Detection Using Fine-Tuned CodeBERT",
+  "publication_date": "2026-03-20",
+  "venue": "International Journal of Computer Applications",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140120648",
+  "doi": "https://doi.org/10.48550/arxiv.2603.20105",
+  "title": "The $\\mathbf{Y}$-Combinator for LLMs: Solving Long-Context Rot with $λ$-Calculus",
+  "publication_date": "2026-03-20",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139927209",
+  "doi": "https://doi.org/10.5281/zenodo.19138863",
+  "title": "ISLS: Evidence-Based Software Intelligence Through Adversarial Crystallization and Progressive Autonomy",
+  "publication_date": "2026-03-20",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7162465213",
+  "doi": "https://doi.org/10.1109/icnlp69856.2026.11527786",
+  "title": "Hybrid Deep Hash Image Retrieval Based On Nest Hierarchical Transformer",
+  "publication_date": "2026-03-20",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140130715",
+  "doi": "https://doi.org/10.48550/arxiv.2603.19639",
+  "title": "HyEvo: Self-Evolving Hybrid Agentic Workflows for Efficient Reasoning",
+  "publication_date": "2026-03-20",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140115876",
+  "doi": "https://doi.org/10.48550/arxiv.2603.19636",
+  "title": "RiboSphere: Learning Unified and Efficient Representations of RNA Structures",
+  "publication_date": "2026-03-20",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139925851",
+  "doi": "https://doi.org/10.2174/0113892029403403260112075225",
+  "title": "Multiple Confabulations Found in Bioinformatics Tasks Carried Out by Several Free Large Language Models",
+  "publication_date": "2026-03-20",
+  "venue": "Current Genomics",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7204938169",
+  "doi": "https://doi.org/10.1145/3813822.3814063",
+  "title": "G2-continuous Tool Path Optimization for Blade Machining Based on Reinforcement Learning",
+  "publication_date": "2026-03-20",
+  "venue": "International Conference on Computer Information and Big Data Applications (CIBDA)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139966673",
+  "doi": "https://doi.org/10.1109/tmi.2026.3676039",
+  "title": "Progressive Orthodontic Motion Planning Based on Hierarchical Diffusion Transformer",
+  "publication_date": "2026-03-20",
+  "venue": "IEEE Transactions on Medical Imaging",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140072825",
+  "doi": "https://doi.org/10.48550/arxiv.2603.19880",
+  "title": "What If Consensus Lies? Selective-Complementary Reinforcement Learning at Test Time",
+  "publication_date": "2026-03-20",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7162466061",
+  "doi": "https://doi.org/10.1109/icnlp69856.2026.11527781",
+  "title": "A First-Order Logic-Based Alternative to Reward Models in RLHF",
+  "publication_date": "2026-03-20",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139948359",
+  "doi": "https://doi.org/10.1109/tsc.2026.3676128",
+  "title": "MARS: A Multi-Agent Collaborative Reasoning Framework for Service Recommendation",
+  "publication_date": "2026-03-20",
+  "venue": "IEEE Transactions on Services Computing",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139997387",
+  "doi": "https://doi.org/10.5281/zenodo.19141133",
+  "title": "Geometric Flow Networks: A Physics-Informed Paradigm for Sequential Intelligence",
+  "publication_date": "2026-03-20",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140319040",
+  "doi": "https://doi.org/10.5281/zenodo.19219693",
+  "title": "Charging Without Subsidy: How the CPO-Aggregator Framework Unlocks Community-Scale Distributed Energy Investment in Europe",
+  "publication_date": "2026-03-20",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140143045",
+  "doi": "https://doi.org/10.48550/arxiv.2603.19779",
+  "title": "One Model, Two Minds: Task-Conditioned Reasoning for Unified Image Quality and Aesthetic Assessment",
+  "publication_date": "2026-03-20",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140195913",
+  "doi": "https://doi.org/10.48550/arxiv.2603.20428",
+  "title": "Benchmarking Efficient & Effective Camera Pose Estimation Strategies for Novel View Synthesis",
+  "publication_date": "2026-03-20",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139961662",
+  "doi": "https://doi.org/10.5281/zenodo.19127573",
+  "title": "AI-DRIVEN FRAUD DETECTION AND RISK FORECASTING FRAMEWORK FOR REAL-TIME FINANCIAL TRANSACTIONS",
+  "publication_date": "2026-03-20",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7162540947",
+  "doi": "https://doi.org/10.1109/3dv69130.2026.00037",
+  "title": "SAIL-Recon: Large SfM by Augmenting Scene Regression with Localization",
+  "publication_date": "2026-03-20",
+  "venue": "International Conference on 3D Vision (3DV)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140097339",
+  "doi": "https://doi.org/10.48550/arxiv.2603.19563",
+  "title": "Dual-Domain Representation Alignment: Bridging 2D and 3D Vision via Geometry-Aware Architecture Search",
+  "publication_date": "2026-03-20",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142482224",
+  "doi": "https://doi.org/10.1002/9781394302406.ch12",
+  "title": "Programmatic Reinforcement Learning",
+  "publication_date": "2026-03-20",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138834222",
+  "doi": "https://doi.org/10.3390/electronics15061296",
+  "title": "DeVSA: A Density-Efficient Vector SNN Accelerator Exploiting Compressor-TreeReuse for Spike-Weight Accumulation",
+  "publication_date": "2026-03-20",
+  "venue": "Electronics",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7162402966",
+  "doi": "https://doi.org/10.1109/icnlp69856.2026.11527996",
+  "title": "A Multi-Stage Approach for LLM-Based Automated Repair of Test Cases",
+  "publication_date": "2026-03-20",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139986103",
+  "doi": "https://doi.org/10.59096/osir.v19i1.279422",
+  "title": "Machine Learning Application: Congenital Syphilis Classifier",
+  "publication_date": "2026-03-20",
+  "venue": "Outbreak Surveillance Investigation & Response (OSIR) Journal",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139927665",
+  "doi": "https://doi.org/10.1016/j.cad.2026.104065",
+  "title": "From dialogue to design: GenAI-Based automation of parametric modeling and sizing tasks in CAD workflows",
+  "publication_date": "2026-03-21",
+  "venue": "Computer-Aided Design",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140170375",
+  "doi": "https://doi.org/10.48550/arxiv.2603.20633",
+  "title": "Seed1.8 Model Card: Towards Generalized Real-World Agency",
+  "publication_date": "2026-03-21",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139991068",
+  "doi": "https://doi.org/10.5281/zenodo.19150305",
+  "title": "Prompt-Driven Autonomous Enterprise Software Systems: Architecture, Design, and Feasibility Analysis",
+  "publication_date": "2026-03-21",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139972851",
+  "doi": "https://doi.org/10.1016/j.eswa.2026.132156",
+  "title": "MAKES-QA: A multi-agent framework for knowledge graph construction and enrichment over scientific literature for question answering",
+  "publication_date": "2026-03-21",
+  "venue": "Expert Systems with Applications",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139977581",
+  "doi": "https://doi.org/10.1093/etojnl/vgag068",
+  "title": "COLLEMBOT: AI-based counting of Collembola for OECD 232 tests",
+  "publication_date": "2026-03-21",
+  "venue": "Environmental Toxicology and Chemistry",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147646784",
+  "doi": "https://doi.org/10.5281/zenodo.19148720",
+  "title": "Beyond Micro-Control: Response-Level Checkpoint Restart for Safe Coherence Recovery in Transformers",
+  "publication_date": "2026-03-21",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140024985",
+  "doi": "https://doi.org/10.5281/zenodo.19161823",
+  "title": "The Crystal Topos: A Complete Physics Framework from A_F = ℂ ⊕ M₂(ℂ) ⊕ M₃(ℂ)",
+  "publication_date": "2026-03-21",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139973063",
+  "doi": "https://doi.org/10.5281/zenodo.19144406",
+  "title": "EXDT v3.0 (Epameinondas Xenopoulos Dialectical Transformer) Bounded Chaotic Attractor in a Nonlinear Discrete System with Finite Memory: Numerical Documentation, Dialectical Measurement, and Stability Under Scaling",
+  "publication_date": "2026-03-21",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139988578",
+  "doi": "https://doi.org/10.1002/cta.70387",
+  "title": "Enhanced DSP Architecture for Small Floating‐Point Based Deep Learning Accelerators on FPGAs",
+  "publication_date": "2026-03-21",
+  "venue": "International Journal of Circuit Theory and Applications",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140047187",
+  "doi": "https://doi.org/10.1016/j.addlet.2026.100374",
+  "title": "Image2Gcode: Image-to-G-code generation for additive manufacturing using diffusion-transformer model",
+  "publication_date": "2026-03-22",
+  "venue": "Additive Manufacturing Letters",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140201311",
+  "doi": "https://doi.org/10.48550/arxiv.2603.21190",
+  "title": "DS2SC-Agent: A Multi-Agent Automated Pipeline for Rapid Chiplet Model Generation",
+  "publication_date": "2026-03-22",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140059632",
+  "doi": "https://doi.org/10.5281/zenodo.19161055",
+  "title": "ExecuGraph: A Multi-Agent Framework for Execution-Grounded Backend Code Synthesis with Large Language Models",
+  "publication_date": "2026-03-22",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140033402",
+  "doi": "https://doi.org/10.22214/ijraset.2026.78563",
+  "title": "DOCUGEN-AI: An Intelligent Automated Documentation Generator Using Large Language Models",
+  "publication_date": "2026-03-22",
+  "venue": "International Journal for Research in Applied Science and Engineering Technology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140027585",
+  "doi": "https://doi.org/10.5281/zenodo.19160871",
+  "title": "Autonomous thermal meta-regulators with arbitrary spectral selection by deep learning",
+  "publication_date": "2026-03-22",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7154790708",
+  "doi": null,
+  "title": "The specification, detection, and refactoring of machine learning service misuses",
+  "publication_date": "2026-03-22",
+  "venue": "Espace ÉTS (ETS)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140090429",
+  "doi": "https://doi.org/10.1109/tii.2026.3669495",
+  "title": "ModSolAgent: Automated Finite Element Code Generation for Abaqus via LLM-Based Agent",
+  "publication_date": "2026-03-23",
+  "venue": "IEEE Transactions on Industrial Informatics",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140103823",
+  "doi": "https://doi.org/10.17148/ijireeice.2026.14339",
+  "title": "MorphosETL: A Schema-Grounded, Confidence-Gated LLM-Assisted No-Code ETL System",
+  "publication_date": "2026-03-23",
+  "venue": "IJIREEICE",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7208023975",
+  "doi": null,
+  "title": "Supporting Tool for Specification-Based Program Generation and Verification",
+  "publication_date": "2026-03-23",
+  "venue": "Institutional Repositories DataBase (IRDB)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140232108",
+  "doi": "https://doi.org/10.48550/arxiv.2603.22216",
+  "title": "Gumbel Distillation for Parallel Text Generation",
+  "publication_date": "2026-03-23",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140236977",
+  "doi": "https://doi.org/10.48550/arxiv.2603.22091",
+  "title": "P-Flow: Prompting Visual Effects Generation",
+  "publication_date": "2026-03-23",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140215493",
+  "doi": "https://doi.org/10.48550/arxiv.2603.21872",
+  "title": "Manifold-Aware Exploration for Reinforcement Learning in Video Generation",
+  "publication_date": "2026-03-23",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140169695",
+  "doi": "https://doi.org/10.48550/arxiv.2603.22206",
+  "title": "Chimera: Latency- and Performance-Aware Multi-agent Serving for Heterogeneous LLMs",
+  "publication_date": "2026-03-23",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140170830",
+  "doi": "https://doi.org/10.48550/arxiv.2603.21978",
+  "title": "GeoFusion-CAD: Structure-Aware Diffusion with Geometric State Space for Parametric 3D Design",
+  "publication_date": "2026-03-23",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140109680",
+  "doi": "https://doi.org/10.55041/ijsrem58098",
+  "title": "Intellifix: AI-Powered Automated Bug Tracking and Resolution System",
+  "publication_date": "2026-03-23",
+  "venue": "INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7154756820",
+  "doi": "https://doi.org/10.48550/arxiv.2604.14159",
+  "title": "HUOZIIME: An On-Device LLM-enhanced Input Method for Deep Personalization",
+  "publication_date": "2026-03-23",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140127569",
+  "doi": "https://doi.org/10.1145/3790254",
+  "title": "CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion",
+  "publication_date": "2026-03-23",
+  "venue": "ACM Transactions on Computer Systems",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140225170",
+  "doi": "https://doi.org/10.48550/arxiv.2603.22213",
+  "title": "SPA: A Simple but Tough-to-Beat Baseline for Knowledge Injection",
+  "publication_date": "2026-03-23",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140171210",
+  "doi": "https://doi.org/10.48550/arxiv.2603.22075",
+  "title": "Autoregressive vs. Masked Diffusion Language Models: A Controlled Comparison",
+  "publication_date": "2026-03-23",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140223010",
+  "doi": "https://doi.org/10.48550/arxiv.2603.22241",
+  "title": "MemDLM: Memory-Enhanced DLM Training",
+  "publication_date": "2026-03-23",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140141486",
+  "doi": "https://doi.org/10.1007/s11227-026-08391-y",
+  "title": "Accelerated deep learning denoising for edge AI in single-pixel imaging",
+  "publication_date": "2026-03-23",
+  "venue": "The Journal of Supercomputing",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7154831286",
+  "doi": "https://doi.org/10.5281/zenodo.19642187",
+  "title": "Developmental Attention Windows Improve Transformer Training: Forced Specialization Through Layer-Wise Locality Constraints",
+  "publication_date": "2026-03-23",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140138240",
+  "doi": "https://doi.org/10.5281/zenodo.19183349",
+  "title": "The Cursor Incident: Why Chinese AI Models are Winning",
+  "publication_date": "2026-03-23",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140234728",
+  "doi": "https://doi.org/10.48550/arxiv.2603.21676",
+  "title": "Thinking Deeper, Not Longer: Memory-Efficient Test-Time Reasoning with Depth-Recurrent Transformers for Compositional Generalization",
+  "publication_date": "2026-03-23",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140226821",
+  "doi": "https://doi.org/10.48550/arxiv.2603.21551",
+  "title": "AI In Cybersecurity Education -- Scalable Agentic CTF Design Principles and Educational Outcomes",
+  "publication_date": "2026-03-23",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140115781",
+  "doi": "https://doi.org/10.5281/zenodo.19186954",
+  "title": "Biologically-Constrained Modular Active Inference: A Functional Architecture from Trace to Gating (RDLNN v1.0)",
+  "publication_date": "2026-03-23",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7164031802",
+  "doi": "https://doi.org/10.1145/3748522.3779894",
+  "title": "Towards Automated Migration: High-Quality Source Code Translation Using Large Language Models",
+  "publication_date": "2026-03-23",
+  "venue": "ACM/SIGAPP Symposium on Applied Computing (SAC)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7161975124",
+  "doi": "https://doi.org/10.5281/zenodo.20322157",
+  "title": "BioGAIP: A Scalable, User-Friendly and Robust LLM-Powered Multi-Agent System for Automated Multi-omics Tasks",
+  "publication_date": "2026-03-23",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140076650",
+  "doi": "https://doi.org/10.5281/zenodo.19183554",
+  "title": "The AI Firewall: Securing the New Enterprise Perimeter",
+  "publication_date": "2026-03-23",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140315185",
+  "doi": "https://doi.org/10.2174/0126662558416158251126153455",
+  "title": "Optimizing Transformer-Based Vulnerability Detection and Patch Generation Using Multi-Swarm AI-PSO",
+  "publication_date": "2026-03-24",
+  "venue": "Recent Advances in Computer Science and Communications",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140282780",
+  "doi": "https://doi.org/10.48550/arxiv.2603.23346",
+  "title": "RelayS2S: A Dual-Path Speculative Generation for Real-Time Dialogue",
+  "publication_date": "2026-03-24",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140303770",
+  "doi": "https://doi.org/10.48550/arxiv.2603.23308",
+  "title": "Curriculum-Driven 3D CT Report Generation via Language-Free Visual Grafting and Zone-Constrained Compression",
+  "publication_date": "2026-03-24",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7161138506",
+  "doi": "https://doi.org/10.1109/dcc66757.2026.00093",
+  "title": "Efficient Feedforward Human-Centric Video Compression via 3D Gaussian Generation",
+  "publication_date": "2026-03-24",
+  "venue": "DCC",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140938513",
+  "doi": "https://doi.org/10.48550/arxiv.2603.23575",
+  "title": "APreQEL: Adaptive Mixed Precision Quantization For Edge LLMs",
+  "publication_date": "2026-03-24",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140319131",
+  "doi": "https://doi.org/10.48550/arxiv.2603.23234",
+  "title": "MemCollab: Cross-Model Memory Collaboration via Contrastive Trajectory Distillation",
+  "publication_date": "2026-03-24",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140184476",
+  "doi": "https://doi.org/10.5281/zenodo.19208617",
+  "title": "Attribution Bias in Literary Style Evaluation: Comparing Human and AI Perceptions of Authorship",
+  "publication_date": "2026-03-24",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140277416",
+  "doi": "https://doi.org/10.48550/arxiv.2603.23408",
+  "title": "GeoSANE: Learning Geospatial Representations from Models, Not Data",
+  "publication_date": "2026-03-24",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140299963",
+  "doi": "https://doi.org/10.48550/arxiv.2603.23067",
+  "title": "MLLM-HWSI: A Multimodal Large Language Model for Hierarchical Whole Slide Image Understanding",
+  "publication_date": "2026-03-24",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140168044",
+  "doi": "https://doi.org/10.5281/zenodo.19198090",
+  "title": "Beyond the Chatbot: The New Era of Agentic AI",
+  "publication_date": "2026-03-24",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140272133",
+  "doi": "https://doi.org/10.48550/arxiv.2603.23502",
+  "title": "OccAny: Generalized Unconstrained Urban 3D Occupancy",
+  "publication_date": "2026-03-24",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7163649391",
+  "doi": "https://doi.org/10.1109/satc69565.2026.11542535",
+  "title": "Agentic Code Review: A Multi-Agent Framework with Meta-Cognitive Reflection and Human-in-the-Loop Alignment",
+  "publication_date": "2026-03-24",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140280687",
+  "doi": "https://doi.org/10.48550/arxiv.2603.23199",
+  "title": "FDIF: Formula-Driven supervised Learning with Implicit Functions for 3D Medical Image Segmentation",
+  "publication_date": "2026-03-24",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140354002",
+  "doi": null,
+  "title": "Development of Quality Assurance Standards for the Industrialization of Software Applications Prototyped Using Intelligent Assistants",
+  "publication_date": "2026-03-24",
+  "venue": "International Journal of Computer (IJC)",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140226094",
+  "doi": "https://doi.org/10.1016/j.eswa.2026.132213",
+  "title": "Automated speech emotion recognition model using feature-driven ensemble deep learning and puma optimization algorithm",
+  "publication_date": "2026-03-24",
+  "venue": "Expert Systems with Applications",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140236676",
+  "doi": "https://doi.org/10.1016/j.mejo.2026.107181",
+  "title": "A full-stack, energy-efficient 8-Mb NOR-flash compute-in-memory SoC with on-chip acceleration and end-to-end toolchain for edge AI",
+  "publication_date": "2026-03-24",
+  "venue": "Microelectronics Journal",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140172656",
+  "doi": "https://doi.org/10.3389/fsysb.2026.1818525",
+  "title": "Systems biology in the era of AI: “winter” or “evolution”?",
+  "publication_date": "2026-03-24",
+  "venue": "Frontiers in Systems Biology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140530547",
+  "doi": "https://doi.org/10.48550/arxiv.2603.24202",
+  "title": "A Deep Dive into Scaling RL for Code Generation with Synthetic Data and Curricula",
+  "publication_date": "2026-03-25",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140519338",
+  "doi": "https://doi.org/10.48550/arxiv.2603.24560",
+  "title": "Boosting LLMs for Mutation Generation",
+  "publication_date": "2026-03-25",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143531415",
+  "doi": "https://doi.org/10.5281/zenodo.19222163",
+  "title": "Data and Code Supplement to \"Machine learning metamodelling for global sensitivity analysis\"",
+  "publication_date": "2026-03-25",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140321836",
+  "doi": "https://doi.org/10.1145/3802544",
+  "title": "SparseTG-GS: Test Case Generation via Sparse Perturbation Group",
+  "publication_date": "2026-03-25",
+  "venue": "ACM Transactions on Software Engineering and Methodology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140322072",
+  "doi": "https://doi.org/10.34808/tq2025/29.3/a",
+  "title": "An Analysis of Retrieval-Augmented Generation: A Systematic Review Addressing Architectures, Components, and Evaluation",
+  "publication_date": "2026-03-25",
+  "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140641591",
+  "doi": "https://doi.org/10.48550/arxiv.2603.23909",
+  "title": "DUPLEX: Agentic Dual-System Planning via LLM-Driven Information Extraction",
+  "publication_date": "2026-03-25",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141310357",
+  "doi": "https://doi.org/10.48550/arxiv.2603.24793",
+  "title": "AVControl: Efficient Framework for Training Audio-Visual Controls",
+  "publication_date": "2026-03-25",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140442050",
+  "doi": "https://doi.org/10.48550/arxiv.2603.23910",
+  "title": "AnalogAgent: Self-Improving Analog Circuit Design Automation with LLM Agents",
+  "publication_date": "2026-03-25",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140844797",
+  "doi": "https://doi.org/10.48550/arxiv.2603.23873",
+  "title": "The DeepXube Software Package for Solving Pathfinding Problems with Learned Heuristic Functions and Search",
+  "publication_date": "2026-03-25",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140294070",
+  "doi": "https://doi.org/10.5281/zenodo.19211690",
+  "title": "inoculate23/squaawke: Squaawke v1.0.0",
+  "publication_date": "2026-03-25",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140495273",
+  "doi": "https://doi.org/10.48550/arxiv.2603.24579",
+  "title": "MARCH: Multi-Agent Reinforced Self-Check for LLM Hallucination",
+  "publication_date": "2026-03-25",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7167258317",
+  "doi": "https://doi.org/10.2196/preprints.96129",
+  "title": "Multimodule Human–Artificial Intelligence Collaboration Pipeline for Large Language Model–Assisted Thematic Analysis Across Digital Health Interview Studies: Comparative Evaluation Study (Preprint)",
+  "publication_date": "2026-03-25",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141156903",
+  "doi": "https://doi.org/10.48550/arxiv.2603.24652",
+  "title": "Demystifying When Pruning Works via Representation Hierarchies",
+  "publication_date": "2026-03-25",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140911098",
+  "doi": "https://doi.org/10.48550/arxiv.2603.24060",
+  "title": "RoboHarness: A Memory-Augmented Policy Harness for Vision-Language-Action Model Robustness via In-Context Adaptation",
+  "publication_date": "2026-03-25",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141320352",
+  "doi": "https://doi.org/10.48550/arxiv.2603.24690",
+  "title": "UniICL: Systematizing Unified Multimodal In-context Learning through a Capability-Oriented Taxonomy",
+  "publication_date": "2026-03-25",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7163828194",
+  "doi": "https://doi.org/10.18926/70603",
+  "title": "Automated Design of Microwave Planar Circuits Using Genetic Algorithms and its Acceleration Techniques with Machine Learning Methods",
+  "publication_date": "2026-03-25",
+  "venue": "Institutional Repositories DataBase (IRDB)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140855608",
+  "doi": "https://doi.org/10.48550/arxiv.2603.24517",
+  "title": "AVO: Agentic Variation Operators for Autonomous Evolutionary Search",
+  "publication_date": "2026-03-25",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140328425",
+  "doi": "https://doi.org/10.7717/peerj-cs.3660",
+  "title": "Artificial intelligence powered smart contract vulnerability detection and mitigation",
+  "publication_date": "2026-03-25",
+  "venue": "PeerJ Computer Science",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141525272",
+  "doi": "https://doi.org/10.48550/arxiv.2603.24840",
+  "title": "Prune as You Generate: Online Rollout Pruning for Faster and Better RLVR",
+  "publication_date": "2026-03-25",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140315093",
+  "doi": "https://doi.org/10.5281/zenodo.19224106",
+  "title": "Trinity Defensive Publications - Complete Collection (69 Discoveries)",
+  "publication_date": "2026-03-25",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140299210",
+  "doi": "https://doi.org/10.5281/zenodo.19224235",
+  "title": "Trinity B002: Zero-DSP FPGA Architecture for Ternary Inference",
+  "publication_date": "2026-03-25",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7154276209",
+  "doi": "https://doi.org/10.5281/zenodo.19563078",
+  "title": "The Governance of Human Capacity in the AI Age, Vol. 3: Toward a Multi-Level Doctrine of AI Use — From Foundational Theory to Personal Cognitive Governance",
+  "publication_date": "2026-03-25",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140274975",
+  "doi": "https://doi.org/10.17605/osf.io/2fepu",
+  "title": "The Maggio Method: A Human / AI Synthesis",
+  "publication_date": "2026-03-25",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140453690",
+  "doi": "https://doi.org/10.48550/arxiv.2603.24126",
+  "title": "Likelihood Hacking in Probabilistic Program Synthesis",
+  "publication_date": "2026-03-25",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7171866283",
+  "doi": "https://doi.org/10.35774/econa2026.01.533",
+  "title": "Risk management and control of it outsourcing in the context of the digitalisation of the public sector",
+  "publication_date": "2026-03-25",
+  "venue": "Economic Analysis",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140287625",
+  "doi": "https://doi.org/10.3390/informatics13040048",
+  "title": "Generative AI-Assisted Automation of Clinical Data Processing: A Methodological Framework for Streamlining Behavioral Research Workflows",
+  "publication_date": "2026-03-25",
+  "venue": "Informatics",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140281542",
+  "doi": "https://doi.org/10.1038/s43856-026-01499-5",
+  "title": "Optimizing prompting strategies improves large language model classification of pain- and fatigue-related functional impact in childhood cancer survivors",
+  "publication_date": "2026-03-25",
+  "venue": "Communications Medicine",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7171765626",
+  "doi": "https://doi.org/10.35774/econa2026.01.494",
+  "title": "Digitalization tools of the Ukrainian banking system under martial law",
+  "publication_date": "2026-03-25",
+  "venue": "Economic Analysis",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140632159",
+  "doi": "https://doi.org/10.5281/zenodo.19231259",
+  "title": "Greening AI-Assisted Code Generation by Reducing Babbling",
+  "publication_date": "2026-03-26",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7125677265",
+  "doi": "https://doi.org/10.5281/zenodo.18374436",
+  "title": "ChatGPT as a Tool for Programming Assistance and Code Development",
+  "publication_date": "2026-03-26",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143466712",
+  "doi": "https://doi.org/10.48550/arxiv.2603.25769",
+  "title": "IncreRTL: Traceability-Guided Incremental RTL Generation under Requirement Evolution",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141124124",
+  "doi": "https://doi.org/10.48550/arxiv.2603.24965",
+  "title": "Self-Corrected Image Generation with Explainable Latent Rewards",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143297097",
+  "doi": "https://doi.org/10.28925/2663-4023.2026.32.1187",
+  "title": "SECURITY-AS-CODE APPROACH FOR AUTOMATING PCI DSS COMPLIANCE USING AUTONOMOUS AGENTS BASED ON LARGE LANGUAGE MODELS",
+  "publication_date": "2026-03-26",
+  "venue": "Cybersecurity Education Science Technique",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7160427558",
+  "doi": "https://doi.org/10.1109/scse70081.2026.11499900",
+  "title": "AI-Driven Flutter UI Generation Using Natural Language Commands with Social and Ethical Considerations",
+  "publication_date": "2026-03-26",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140762411",
+  "doi": "https://doi.org/10.1007/s44443-026-00672-z",
+  "title": "Hierarchical context modeling and prototype-mediated cross-modal alignment for histopathology report generation",
+  "publication_date": "2026-03-26",
+  "venue": "Journal of King Saud University - Computer and Information Sciences",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140887005",
+  "doi": "https://doi.org/10.1145/3802827",
+  "title": "Enhancing Automated Unit Test Generation with Large Language Models: A Systematic Literature Review",
+  "publication_date": "2026-03-26",
+  "venue": "ACM Transactions on Software Engineering and Methodology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141218695",
+  "doi": "https://doi.org/10.48550/arxiv.2603.25118",
+  "title": "AnyDoc: Enhancing Document Generation via Large-Scale HTML/CSS Data Synthesis and Height-Aware Reinforcement Optimization",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141044560",
+  "doi": "https://doi.org/10.48550/arxiv.2603.25209",
+  "title": "Free-Lunch Long Video Generation via Layer-Adaptive O.O.D Correction",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7160348212",
+  "doi": "https://doi.org/10.1109/wccst67302.2026.11496256",
+  "title": "An IoT-Enabled Framework with Real-Time Logic Gate Validation and Equipped Large Language Model",
+  "publication_date": "2026-03-26",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141461550",
+  "doi": "https://doi.org/10.48550/arxiv.2603.25111",
+  "title": "SEVerA: Verified Synthesis of Self-Evolving Agents",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141214090",
+  "doi": "https://doi.org/10.48550/arxiv.2603.25340",
+  "title": "Large Language Model as Token Compressor and Decompressor",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143502025",
+  "doi": "https://doi.org/10.48550/arxiv.2603.25810",
+  "title": "ExVerus: Verus Proof Repair via Counterexample Reasoning",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7160845250",
+  "doi": "https://doi.org/10.1109/icdsaai69492.2026.11505118",
+  "title": "Smart Retrieval of Industrial Standards with LLM and Elastic search",
+  "publication_date": "2026-03-26",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7163163170",
+  "doi": "https://doi.org/10.1109/ic-icns68863.2026.11537938",
+  "title": "RAG-TLMs for Education: A Comparative Study of Tiny Language Models and Fine-Tuning Approach for Context Aware Student Query Resolution",
+  "publication_date": "2026-03-26",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141065431",
+  "doi": "https://doi.org/10.48550/arxiv.2603.24916",
+  "title": "Once-for-All Channel Mixers (HYPERTINYPW): Generative Compression for TinyML",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140883893",
+  "doi": "https://doi.org/10.5281/zenodo.19234189",
+  "title": "AutoResearch: Alignment Laziness in Automated Research Agents",
+  "publication_date": "2026-03-26",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140770361",
+  "doi": "https://doi.org/10.1038/s43246-025-00994-x",
+  "title": "Modular large language model agents for multi-task computational materials science",
+  "publication_date": "2026-03-26",
+  "venue": "Communications Materials",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140574731",
+  "doi": "https://doi.org/10.1002/9781405198431.wbeal20859",
+  "title": "Generative Artificial Intelligence and Language Assessment",
+  "publication_date": "2026-03-26",
+  "venue": "The Encyclopedia of Applied Linguistics",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140503371",
+  "doi": "https://doi.org/10.5281/zenodo.19230552",
+  "title": "Anonymous Artifact for ASE 2026 Submission",
+  "publication_date": "2026-03-26",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141358750",
+  "doi": "https://doi.org/10.48550/arxiv.2603.25333",
+  "title": "Adaptive Chunking: Optimizing Chunking-Method Selection for RAG",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141549973",
+  "doi": "https://doi.org/10.48550/arxiv.2603.25284",
+  "title": "SliderQuant: Accurate Post-Training Quantization for LLMs",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7128780964",
+  "doi": "https://doi.org/10.5281/zenodo.18625031",
+  "title": "RAD-CaseBookLLM-08",
+  "publication_date": "2026-03-26",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140906720",
+  "doi": "https://doi.org/10.5281/zenodo.19236256",
+  "title": "The Ontological Inversion of Intelligence: Artificial Intelligence as a Recursive Artifact of the Nexus Harmonic Framework",
+  "publication_date": "2026-03-26",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140379042",
+  "doi": "https://doi.org/10.3389/fhpcp.2026.1778471",
+  "title": "Scalable foundation models for numerical simulations on HPC platforms",
+  "publication_date": "2026-03-26",
+  "venue": "Frontiers in High Performance Computing",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143279952",
+  "doi": "https://doi.org/10.48550/arxiv.2603.25928",
+  "title": "TheBotCompany: Self-Organizing Multi-agent Systems for Continuous Software Development",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140841748",
+  "doi": "https://doi.org/10.5281/zenodo.19238877",
+  "title": "Vibe Science",
+  "publication_date": "2026-03-26",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140536140",
+  "doi": "https://doi.org/10.31772/2712-8970-2026-27-1-21-32",
+  "title": "Evolution of heuristics for selection synthesis in a genetic algorithm",
+  "publication_date": "2026-03-26",
+  "venue": "Siberian Aerospace Journal",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140650543",
+  "doi": "https://doi.org/10.5281/zenodo.19233601",
+  "title": "Contextual Entropy Reduction in Mixture Models: A Conditional Theorem, Proof, and Worked Example",
+  "publication_date": "2026-03-26",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140590150",
+  "doi": "https://doi.org/10.1145/3801980",
+  "title": "Ethical Prompt Engineering for AI-driven SE: Evidence-informed Interaction-time Governance Roadmap to 2030",
+  "publication_date": "2026-03-26",
+  "venue": "ACM Transactions on Software Engineering and Methodology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140486940",
+  "doi": "https://doi.org/10.5281/zenodo.19235491",
+  "title": "The Slop Reckoning: Why Smaller AI Models are Winning",
+  "publication_date": "2026-03-26",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7125674123",
+  "doi": "https://doi.org/10.5281/zenodo.18374480",
+  "title": "The Use of ChatGPT in Business Productivity and Workflow Optimization",
+  "publication_date": "2026-03-26",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140360298",
+  "doi": "https://doi.org/10.5281/zenodo.19241454",
+  "title": "Real-Time AI: The Future of Voice in a Crisis",
+  "publication_date": "2026-03-26",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7163198383",
+  "doi": "https://doi.org/10.1109/ic-icns68863.2026.11537941",
+  "title": "AI Enhanced Code Fault Detection and Automated Fixing",
+  "publication_date": "2026-03-26",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141265299",
+  "doi": "https://doi.org/10.48550/arxiv.2603.25005",
+  "title": "Error Understanding in Program Code: A Systematic Study of LLM-DL Combinations for Multi-label Classification",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141450805",
+  "doi": "https://doi.org/10.48550/arxiv.2603.25243",
+  "title": "FluxEDA: A Unified Execution Infrastructure for Stateful Agentic EDA",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7160560728",
+  "doi": "https://doi.org/10.31498/2225-6733.53.1.2026.359758",
+  "title": "Research on the effectiveness of mobile food resource management using an intelligent system based on SWIFTUI architec-ture and LLM models",
+  "publication_date": "2026-03-26",
+  "venue": "Reporter of the Priazovskyi State Technical University Section Technical sciences",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7217577630",
+  "doi": null,
+  "title": "Automation and Process Optimization in Friction Stir Welding for Enhanced Manufacturing Efficiency",
+  "publication_date": "2026-03-26",
+  "venue": "International Journal of Advanced Research and Multidisciplinary Trends (IJARMT)",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7154378172",
+  "doi": "https://doi.org/10.32347/2412-9933.2026.65.107-116",
+  "title": "Modern models and methods for human physical exercise recognition",
+  "publication_date": "2026-03-26",
+  "venue": "Management of Development of Complex Systems",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141413753",
+  "doi": "https://doi.org/10.6084/m9.figshare.31869469.v1",
+  "title": "Artifacts for ASE'26 Submission \"Executing as You Generate: Hiding Execution Latency in LLM Code Generation\"",
+  "publication_date": "2026-03-27",
+  "venue": "Figshare",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147181359",
+  "doi": "https://doi.org/10.5281/zenodo.19355506",
+  "title": "Prompt-Driven Integration Workflow Generation: A Technical Analysis",
+  "publication_date": "2026-03-27",
+  "venue": "International Journal of Computational and Experimental Science and Engineering",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7161589072",
+  "doi": "https://doi.org/10.1109/gaiis69281.2026.11519234",
+  "title": "Complex Task Planning for Large Language Models via Text-Code Collaborative Reasoning",
+  "publication_date": "2026-03-27",
+  "venue": "International Conference on Generative Artificial Intelligence and Information Security (GAIIS)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147581115",
+  "doi": "https://doi.org/10.48550/arxiv.2603.26942",
+  "title": "The Observability Gap: Why Output-Level Human Feedback Fails for LLM Coding Agents",
+  "publication_date": "2026-03-27",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7205008105",
+  "doi": "https://doi.org/10.1145/3821966.3822081",
+  "title": "Multimodal Transformer-Based Automated Metadata Generation and Cataloging Framework for Digital Libraries",
+  "publication_date": "2026-03-27",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140580928",
+  "doi": "https://doi.org/10.5281/zenodo.19239480",
+  "title": "AI4Science Training @ UFZ Magdeburg",
+  "publication_date": "2026-03-27",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7161577800",
+  "doi": "https://doi.org/10.1109/gaiis69281.2026.11519134",
+  "title": "Corrective Distillation: Mitigating Catastrophic Forgetting in LLM Fine-Tuning via External Correction of Self-Generated Errors",
+  "publication_date": "2026-03-27",
+  "venue": "International Conference on Generative Artificial Intelligence and Information Security (GAIIS)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147955279",
+  "doi": "https://doi.org/10.48550/arxiv.2603.26990",
+  "title": "Agentic Diagrammatica: Towards Autonomous Symbolic Computation in High Energy Physics",
+  "publication_date": "2026-03-27",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7161582229",
+  "doi": "https://doi.org/10.1109/gaiis69281.2026.11519320",
+  "title": "LLM inference delay prediction based on machine learning algorithms",
+  "publication_date": "2026-03-27",
+  "venue": "International Conference on Generative Artificial Intelligence and Information Security (GAIIS)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7161537751",
+  "doi": "https://doi.org/10.1109/gaiis69281.2026.11519278",
+  "title": "NAVIGATE: Multi-Agent Graph-Based Vulnerability Detection with Adversarial Severity Assessment",
+  "publication_date": "2026-03-27",
+  "venue": "International Conference on Generative Artificial Intelligence and Information Security (GAIIS)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143525067",
+  "doi": "https://doi.org/10.48550/arxiv.2603.26008",
+  "title": "FairLLaVA: Fairness-Aware Parameter-Efficient Fine-Tuning for Large Vision-Language Assistants",
+  "publication_date": "2026-03-27",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141585735",
+  "doi": "https://doi.org/10.1016/j.jaerosci.2026.106769",
+  "title": "AeroSolvedSystem: Dynamics of evolving aerosols in a human whole-lung airway model. Part I: Transient inhalation",
+  "publication_date": "2026-03-27",
+  "venue": "Journal of Aerosol Science",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143362698",
+  "doi": "https://doi.org/10.48550/arxiv.2603.26348",
+  "title": "Reflect to Inform: Boosting Multimodal Reasoning via Information-Gain-Driven Verification",
+  "publication_date": "2026-03-27",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143359437",
+  "doi": "https://doi.org/10.48550/arxiv.2603.26364",
+  "title": "LLaDA-TTS: Unifying Speech Synthesis and Zero-Shot Editing via Masked Diffusion Modeling",
+  "publication_date": "2026-03-27",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141541973",
+  "doi": "https://doi.org/10.55041/ijsrem58390",
+  "title": "A Cyber Kavach: GENAI-Powered Multi-Model Cyber Threat & Legal Aid System",
+  "publication_date": "2026-03-27",
+  "venue": "INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141702580",
+  "doi": "https://doi.org/10.5281/zenodo.19249671",
+  "title": "ATLAS: Agentic Taxonomy of LArge-Scale Software Ecosystems",
+  "publication_date": "2026-03-27",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141568073",
+  "doi": "https://doi.org/10.5281/zenodo.19257678",
+  "title": "IBM Granite 4.0: The Industrial Workhorse of Business AI",
+  "publication_date": "2026-03-27",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141138521",
+  "doi": "https://doi.org/10.5281/zenodo.19257578",
+  "title": "NVIDIA's $26 Billion Pivot: From Chips to AI Models",
+  "publication_date": "2026-03-27",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141090763",
+  "doi": "https://doi.org/10.5281/zenodo.19257789",
+  "title": "Elemental Intelligence III: Invariant Integrity, Restorative Coherence, and Antifragility Response",
+  "publication_date": "2026-03-27",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141694250",
+  "doi": "https://doi.org/10.6084/m9.figshare.31869268.v1",
+  "title": "Making Intent Explicit for Function-Level Code Completion",
+  "publication_date": "2026-03-27",
+  "venue": "Figshare",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140987087",
+  "doi": "https://doi.org/10.5281/zenodo.19249204",
+  "title": "ConVer: Artifact for \"Using Contracts and Loop Invariant Synthesis for Scalable Formal Software Verification\"",
+  "publication_date": "2026-03-27",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7208788108",
+  "doi": "https://doi.org/10.1145/3820915.3821018",
+  "title": "Generative AI for Immersive Environment Design: A Systematic Review of Deep Learning in Virtual World Creation",
+  "publication_date": "2026-03-27",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143438578",
+  "doi": "https://doi.org/10.48550/arxiv.2603.26359",
+  "title": "Automated near-term quantum algorithm discovery for molecular ground states",
+  "publication_date": "2026-03-27",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141456585",
+  "doi": "https://doi.org/10.64898/2026.03.25.714141",
+  "title": "EthoClaw: An Integrated AI Workflow Platform for Automated Analysis in Neuroethology",
+  "publication_date": "2026-03-27",
+  "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141706305",
+  "doi": "https://doi.org/10.36948/ijfmr.2026.v08i02.72542",
+  "title": "Automatic detection of Genetic Diseases in pediatric age using pupillometry",
+  "publication_date": "2026-03-27",
+  "venue": "International Journal For Multidisciplinary Research",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142580749",
+  "doi": null,
+  "title": "PAVBot (Pathfinding Autonomous Vehicle)",
+  "publication_date": "2026-03-27",
+  "venue": "Scholarly Commons (Embry–Riddle Aeronautical University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142113229",
+  "doi": "https://doi.org/10.1111/acem.70278",
+  "title": "Euglycemic Diabetic Ketoacidosis Treatment Protocol With Increased Dextrose Supplementation to Prevent Hypoglycemia",
+  "publication_date": "2026-03-27",
+  "venue": "Academic Emergency Medicine",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142404632",
+  "doi": "https://doi.org/10.1145/3805704",
+  "title": "Automated Prompt Engineering for Cost-Effective Code Generation Using Evolutionary Algorithms",
+  "publication_date": "2026-03-28",
+  "venue": "ACM Transactions on Software Engineering and Methodology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142196394",
+  "doi": "https://doi.org/10.1007/s10664-026-10840-4",
+  "title": "Prompt engineering in LLMs for automated unit test generation: A large-scale study",
+  "publication_date": "2026-03-28",
+  "venue": "Empirical Software Engineering",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142042125",
+  "doi": "https://doi.org/10.22214/ijraset.2026.78718",
+  "title": "ProtoMind AI: An Intelligent Multi-Agent Chatbot for End-to-End Application Prototyping and Devel-opment",
+  "publication_date": "2026-03-28",
+  "venue": "International Journal for Research in Applied Science and Engineering Technology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143402139",
+  "doi": "https://doi.org/10.3390/app16073275",
+  "title": "Bridging the Semantic Gap in 5G: A Hybrid RAG Framework for Dual-Domain Understanding of O-RAN Standards and srsRAN Implementation",
+  "publication_date": "2026-03-28",
+  "venue": "Applied Sciences",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142220225",
+  "doi": "https://doi.org/10.5281/zenodo.19288594",
+  "title": "Acoustic Detection of Unmanned Aerial Vehicles Using Deep Learning and Smartphone Based Sensing",
+  "publication_date": "2026-03-28",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142520074",
+  "doi": "https://doi.org/10.29121/shodhkosh.v7.i2s.2026.7360",
+  "title": "GENERATIVE AI AS CREATIVE COLLABORATORS IN VISUAL ART AND FILM: A POSTHUMANISM PERSPECTIVE",
+  "publication_date": "2026-03-28",
+  "venue": "ShodhKosh Journal of Visual and Performing Arts",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142535136",
+  "doi": "https://doi.org/10.5281/zenodo.19300187",
+  "title": "Energetic Scaffold Theory of Cognitive Vulnerability",
+  "publication_date": "2026-03-28",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142160935",
+  "doi": "https://doi.org/10.5281/zenodo.19289627",
+  "title": "Multi-Agent AI: One Model, Four Brains",
+  "publication_date": "2026-03-28",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7130851927",
+  "doi": "https://doi.org/10.5281/zenodo.18717807",
+  "title": "The Manifold Chip: Silicon Architecture for Dynamic Curvature Adaptation via Dual-Gated Analog Shunting",
+  "publication_date": "2026-03-28",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7154738303",
+  "doi": "https://doi.org/10.5120/ijca2026926599",
+  "title": "Experimental Study of shared-task-list Agent Teams and Hierarchical Subagents for end-to-end code Synthesis",
+  "publication_date": "2026-03-28",
+  "venue": "International Journal of Computer Applications",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141827400",
+  "doi": "https://doi.org/10.1145/3805806",
+  "title": "AI4DSE: Leveraging Dynamic Graph Neural Networks and Large Language Models for Optimizing High-Level Synthesis Design Space Exploration",
+  "publication_date": "2026-03-28",
+  "venue": "ACM Transactions on Design Automation of Electronic Systems",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142410377",
+  "doi": "https://doi.org/10.1145/3802581",
+  "title": "Compiler.next: A Search-Based Compiler to Power the AI-Native Future of Software Engineering",
+  "publication_date": "2026-03-28",
+  "venue": "ACM Transactions on Software Engineering and Methodology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141850592",
+  "doi": "https://doi.org/10.22214/ijraset.2026.78693",
+  "title": "MindfulMother: AI Powered Maternal Mental Health Support",
+  "publication_date": "2026-03-28",
+  "venue": "International Journal for Research in Applied Science and Engineering Technology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147325404",
+  "doi": "https://doi.org/10.48550/arxiv.2603.27836",
+  "title": "Q-Bridge: Code Translation for Quantum Machine Learning via LLMs",
+  "publication_date": "2026-03-29",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142784577",
+  "doi": "https://doi.org/10.5281/zenodo.19303475",
+  "title": "How Two AIs Collaborate Without Code",
+  "publication_date": "2026-03-29",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147335603",
+  "doi": "https://doi.org/10.48550/arxiv.2603.27850",
+  "title": "EffiSkill: Agent Skill Based Automated Code Efficiency Optimization",
+  "publication_date": "2026-03-29",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147287857",
+  "doi": "https://doi.org/10.5281/zenodo.19356509",
+  "title": "NLP-Based Predictive Analytics Framework for Early Detection of Medical Coding Errors Using Transformer-Based Clinical Text Analysis",
+  "publication_date": "2026-03-29",
+  "venue": "International Journal of Computational and Experimental Science and Engineering",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143338481",
+  "doi": "https://doi.org/10.3390/app16073297",
+  "title": "Intent-Driven Cooperative Control of UAV Swarms: An LLM-Based Approach",
+  "publication_date": "2026-03-29",
+  "venue": "Applied Sciences",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147666601",
+  "doi": "https://doi.org/10.48550/arxiv.2603.27584",
+  "title": "Sci-Mind: Cognitively-Inspired Adversarial Debate for Autonomous Mathematical Modeling",
+  "publication_date": "2026-03-29",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142901795",
+  "doi": "https://doi.org/10.5281/zenodo.19244908",
+  "title": "RustBuildEq: A Benchmark for Binary Equivalence Under Build Variability",
+  "publication_date": "2026-03-29",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142656164",
+  "doi": "https://doi.org/10.5281/zenodo.19314968",
+  "title": "LLM Token Estimation Benchmarks: Tokenizer Efficiency and Cost Analysis Across 17 Large Language Models",
+  "publication_date": "2026-03-29",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7171314188",
+  "doi": "https://doi.org/10.5281/zenodo.21603455",
+  "title": "Comprehensive Investigation on Machine Learning and Post-Quantum Cryptographic Frameworks for Blockchain Threat Detection and Security",
+  "publication_date": "2026-03-29",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142833220",
+  "doi": "https://doi.org/10.5281/zenodo.19304197",
+  "title": "AI Just Designed a New Life Form",
+  "publication_date": "2026-03-29",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142748977",
+  "doi": "https://doi.org/10.64898/2026.03.25.714249",
+  "title": "DeepBranchAI: A Novel Cascade Workflow Enabling Accessible 3D Branching Network Segmentation",
+  "publication_date": "2026-03-29",
+  "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142722520",
+  "doi": "https://doi.org/10.5281/zenodo.19301737",
+  "title": "Can LLMs Learn Continuously Without Forgetting?",
+  "publication_date": "2026-03-29",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142884392",
+  "doi": "https://doi.org/10.5281/zenodo.19302268",
+  "title": "Why Your AI Agent Forgets Everything (And How to Fix It)",
+  "publication_date": "2026-03-29",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142658475",
+  "doi": "https://doi.org/10.5281/zenodo.19303241",
+  "title": "Why Agentic AI Needs a Hive Mind, Not a Single Brain",
+  "publication_date": "2026-03-29",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142639741",
+  "doi": "https://doi.org/10.5281/zenodo.19303436",
+  "title": "LSP: The Universal AI Coding Interface",
+  "publication_date": "2026-03-29",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142679595",
+  "doi": "https://doi.org/10.5281/zenodo.19303867",
+  "title": "The Agentic Stone Age: A Retrospective",
+  "publication_date": "2026-03-29",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142965852",
+  "doi": "https://doi.org/10.5281/zenodo.19305798",
+  "title": "kaipai-ren/DeePEST-OS: Reactive Machine Learning Potential for Accelerating Transition State Search in Organic Synthesis",
+  "publication_date": "2026-03-29",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147468600",
+  "doi": "https://doi.org/10.48550/arxiv.2603.27455",
+  "title": "From None to All: Self-Supervised 3D Reconstruction via Novel View Synthesis",
+  "publication_date": "2026-03-29",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142829765",
+  "doi": "https://doi.org/10.5281/zenodo.19303788",
+  "title": "You vs. Your Digital Twin: Who Wins?",
+  "publication_date": "2026-03-29",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7212070545",
+  "doi": "https://doi.org/10.70670/sra.v4i1.2598",
+  "title": "Security Risks of AI-Generated Code in Modern Software Development",
+  "publication_date": "2026-03-30",
+  "venue": "Social science review archives.",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7148498353",
+  "doi": "https://doi.org/10.6084/m9.figshare.31859158.v2",
+  "title": "Replication Package of Beyond Lines of Code: Probing the Latent Representation of Magnitude-Based Code Smells in Large Language Models",
+  "publication_date": "2026-03-30",
+  "venue": "Figshare",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143460898",
+  "doi": "https://doi.org/10.5281/zenodo.19336053",
+  "title": "DevRel: The Heat Shield Between Code and Community",
+  "publication_date": "2026-03-30",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7162646887",
+  "doi": "https://doi.org/10.6084/m9.figshare.31166638.v7",
+  "title": "Junk or Treasure? Leveraging Inconsistent Annotations for Code Smell Detection - Replication",
+  "publication_date": "2026-03-30",
+  "venue": "Figshare",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143526534",
+  "doi": "https://doi.org/10.1111/cgf.70360",
+  "title": "TLC‐Plan: A Two‐Level Codebook Based Network for End‐to‐End Vector Floorplan Generation",
+  "publication_date": "2026-03-30",
+  "venue": "Computer Graphics Forum",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143358553",
+  "doi": "https://doi.org/10.5281/zenodo.19326372",
+  "title": "AI-Driven Edge Quality Inspection for Logistics 4.0: Reproducible Code and Experimental Framework",
+  "publication_date": "2026-03-30",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143336771",
+  "doi": "https://doi.org/10.1145/3805803",
+  "title": "RADO : Trustworthy Radiology Impression Generation Using Safety and Faithfulness-Based Preference Optimization",
+  "publication_date": "2026-03-30",
+  "venue": "ACM Transactions on Computing for Healthcare",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7144132533",
+  "doi": "https://doi.org/10.1002/ctd2.70136",
+  "title": "ChatCM‐RAG: A deep learning‐based natural language processing pipeline for analysing ChatGPT applications in medicine using BERTopic and transformer‐based retrieval‐augmented generation",
+  "publication_date": "2026-03-30",
+  "venue": "Clinical and Translational Discovery",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143534619",
+  "doi": "https://doi.org/10.1145/3788082",
+  "title": "Copiloting the Copilots for Automated Program Repair",
+  "publication_date": "2026-03-30",
+  "venue": "Communications of the ACM",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143402575",
+  "doi": "https://doi.org/10.5281/zenodo.19336622",
+  "title": "CATE: Change-Aware Obsolete Test Co-evolution via Semantic Clustering and Impact Propagation",
+  "publication_date": "2026-03-30",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143325596",
+  "doi": "https://doi.org/10.5281/zenodo.19326053",
+  "title": "Causal Oscillator Network: A Neural Network Built from Damped Harmonic Oscillator Dynamics",
+  "publication_date": "2026-03-30",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7154120780",
+  "doi": "https://doi.org/10.37102/1992-4429_2026_55_01_06",
+  "title": "Neural network for generating auv missions",
+  "publication_date": "2026-03-30",
+  "venue": "Podvodnye issledovaniia i robototehnika",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143344806",
+  "doi": "https://doi.org/10.5281/zenodo.19338785",
+  "title": "Hybrid Risk-Aware Retrieval-Augmented Engineering Intelligence System for Automated Bug Analysis",
+  "publication_date": "2026-03-30",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147668588",
+  "doi": "https://doi.org/10.48550/arxiv.2603.28765",
+  "title": "Adaptive Block-Scaled Data Types",
+  "publication_date": "2026-03-30",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143412657",
+  "doi": "https://doi.org/10.1108/el-05-2026-436",
+  "title": "Editorial: Application of artificial intelligence in information services – part 3",
+  "publication_date": "2026-03-30",
+  "venue": "The Electronic Library",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143279398",
+  "doi": "https://doi.org/10.3389/frai.2026.1819135",
+  "title": "Correction: LSML-SF: a lightweight stacked ML approach for spreading factor allocation in mobile IoT LoRaWAN networks",
+  "publication_date": "2026-03-30",
+  "venue": "Frontiers in Artificial Intelligence",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7197119073",
+  "doi": null,
+  "title": "Code translations with Large Language Models",
+  "publication_date": "2026-03-30",
+  "venue": "Työväentutkimus Vuosikirja",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7203589584",
+  "doi": "https://doi.org/10.82386/jaiee.2026.1236819",
+  "title": "AI-Driven Compiler Optimization: A Survey from Rule-Based Heuristics to Large Language Models",
+  "publication_date": "2026-03-30",
+  "venue": "Journal of Artificial Intelligence in Electrical Engineering",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143347477",
+  "doi": "https://doi.org/10.5281/zenodo.19329726",
+  "title": "Seu1ki/SMOOTH: [ISCA 2026] Artifact for \"SMOOTH: Hardware-Assisted Fine-Grained On-Chip Memory Management for Efficient On-Device LLM Inference\"",
+  "publication_date": "2026-03-30",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7158427859",
+  "doi": null,
+  "title": "עונש מוות למחבלי ה7 באוקטובר מאמר מדעי מקיף עמאת עוזיאל יוסף ישראל מזרחי",
+  "publication_date": "2026-03-30",
+  "venue": "OSF Preprints (OSF Preprints)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143359863",
+  "doi": "https://doi.org/10.5281/zenodo.19340704",
+  "title": "What Does the AI Elite Think? Synthetic Worldview Reconstruction of the 100 Most Influential AI Actors (2010-2026)",
+  "publication_date": "2026-03-30",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7144078252",
+  "doi": "https://doi.org/10.17759/psylaw.2026160112",
+  "title": "Therapeutic communities for people with addictive disorders in prison settings: an analytical review",
+  "publication_date": "2026-03-30",
+  "venue": "Psychology and Law",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7165223149",
+  "doi": null,
+  "title": "Bridging Logic Programming and Deep Learning for Explainability through ILP",
+  "publication_date": "2026-03-30",
+  "venue": "Institutional Research Information System (University of Udine)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143364622",
+  "doi": "https://doi.org/10.1007/s10586-026-06021-z",
+  "title": "Test case generation using large language models: a systematic literature review",
+  "publication_date": "2026-03-30",
+  "venue": "Cluster Computing",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147563036",
+  "doi": "https://doi.org/10.54097/yqf8gq04",
+  "title": "Systematic Analysis of FPGA-Based Acceleration for Deep Neural Networks",
+  "publication_date": "2026-03-30",
+  "venue": "Academic Journal of Science and Technology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147103234",
+  "doi": "https://doi.org/10.1097/mop.0000000000001564",
+  "title": "Artificial intelligence in pediatric endocrinology: clinical applications, governance, and future directions",
+  "publication_date": "2026-03-30",
+  "venue": "Current Opinion in Pediatrics",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143471565",
+  "doi": "https://doi.org/10.6084/m9.figshare.31891510.v1",
+  "title": "ContraFix",
+  "publication_date": "2026-03-30",
+  "venue": "Figshare",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7148176222",
+  "doi": null,
+  "title": "Self-Improving Code Generation via Semantic Entropy and Behavioral Consensus",
+  "publication_date": "2026-03-31",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7161804527",
+  "doi": "https://doi.org/10.63561/jca.v3i1.1204",
+  "title": "A Framework for Evaluating Prompt Engineering Techniques for PHP Code Generation Using Open-Source Large Language Models",
+  "publication_date": "2026-03-31",
+  "venue": "Faculty of Natural and Applied Sciences Journal of Computing and Applications",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147522727",
+  "doi": "https://doi.org/10.48550/arxiv.2603.29301",
+  "title": "Self-Consistency for LLM-Based Motion Trajectory Generation and Verification",
+  "publication_date": "2026-03-31",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147230197",
+  "doi": "https://doi.org/10.5281/zenodo.19350125",
+  "title": "Data and code of \"Data-Free Physics-Informed Inverse Programming of Bistable Kirigami Energy Landscapes\"",
+  "publication_date": "2026-03-31",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147055335",
+  "doi": "https://doi.org/10.48550/arxiv.2603.29632",
+  "title": "An Empirical Study of Multi-Agent Collaboration for Automated Research",
+  "publication_date": "2026-03-31",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7148459844",
+  "doi": "https://doi.org/10.48550/arxiv.2604.00171",
+  "title": "Unified Architecture Metamodel of Information Systems Developed by Generative AI",
+  "publication_date": "2026-03-31",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147697698",
+  "doi": "https://doi.org/10.5281/zenodo.19343910",
+  "title": "Generating Ethical Dilemma Scenarios for Testing Autonomous Driving Systems",
+  "publication_date": "2026-03-31",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147476847",
+  "doi": "https://doi.org/10.5281/zenodo.19358398",
+  "title": "Aetherius: A Cognitive Architecture",
+  "publication_date": "2026-03-31",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147659951",
+  "doi": "https://doi.org/10.48550/arxiv.2603.29494",
+  "title": "VecAttention: Vector-wise Sparse Attention for Accelerating Long Context Inference",
+  "publication_date": "2026-03-31",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147580373",
+  "doi": "https://doi.org/10.48550/arxiv.2603.29122",
+  "title": "ReLog: Execution-Aware Logging with Runtime Feedback for LLM-Oriented Debugging",
+  "publication_date": "2026-03-31",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147105715",
+  "doi": "https://doi.org/10.48550/arxiv.2603.29676",
+  "title": "A Comprehensive Information-Decomposition Analysis of Large Vision-Language Models",
+  "publication_date": "2026-03-31",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147025577",
+  "doi": "https://doi.org/10.1145/3797025",
+  "title": "Mitigating Multilingual Hallucination in Large Vision-Language Models",
+  "publication_date": "2026-03-31",
+  "venue": "ACM Transactions on Multimedia Computing Communications and Applications",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147329740",
+  "doi": "https://doi.org/10.5281/zenodo.19351209",
+  "title": "Why Mac Minis Are Eating AI's Hardware Race",
+  "publication_date": "2026-03-31",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7148333265",
+  "doi": "https://doi.org/10.5281/zenodo.19358585",
+  "title": "BASINGRID: A distributed 40-year spatiotemporal hydrology dataset for U.S. basins",
+  "publication_date": "2026-03-31",
+  "venue": "Scientific Data",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147200693",
+  "doi": "https://doi.org/10.2196/80705",
+  "title": "A Geospatially Customizable Culturally Tailored Just-in-Time Adaptive Intervention for Violence-Affected People Living With HIV: Mixed Methods Acceptability, Feasibility, and User Experience Study",
+  "publication_date": "2026-03-31",
+  "venue": "JMIR Human Factors",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147169730",
+  "doi": "https://doi.org/10.5281/zenodo.19358322",
+  "title": "Can AI Rewrite a Human Career Path?",
+  "publication_date": "2026-03-31",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147148620",
+  "doi": "https://doi.org/10.5281/zenodo.19342381",
+  "title": "Stabilization Regime for Persistent AI Cognition",
+  "publication_date": "2026-03-31",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147228374",
+  "doi": "https://doi.org/10.14218/jerp.2025.00058",
+  "title": "Cage-to-Code: From Animal Experimentation to AI-driven Drug Discovery",
+  "publication_date": "2026-03-31",
+  "venue": "Journal of Exploratory Research in Pharmacology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147562469",
+  "doi": "https://doi.org/10.5281/zenodo.19343953",
+  "title": "SNN-Synthesis v1: Task Specificity, Model Scaling, and Temporal Dynamics of Latent Trajectory Distillation in LLM Reasoning",
+  "publication_date": "2026-03-31",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7148545469",
+  "doi": "https://doi.org/10.48550/arxiv.2604.00280",
+  "title": "Spec-Harness: Measuring and Improving Behavioral Adequacy of LLM-Synthesized Formal Specifications",
+  "publication_date": "2026-03-31",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147372714",
+  "doi": "https://doi.org/10.5281/zenodo.19359570",
+  "title": "PREreview of \"Set-up, validation, evaluation, and cost-benefit analysis of an AI-assisted assessment of responsible research practices in a sample of life science publications\"",
+  "publication_date": "2026-03-31",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143701245",
+  "doi": "https://doi.org/10.1111/1475-6773.70101",
+  "title": "Closing the Gap: Optimizing Hospital Discharge Planning for Improved Outcomes",
+  "publication_date": "2026-03-31",
+  "venue": "Health Services Research",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7217594725",
+  "doi": null,
+  "title": "An Integrative Analysis of Environmental Sustainability, Extended Producer Responsibility, and Advanced Algorithmic Decision-Making in Global Supply Chains: Navigating Product Returns and Incident Management in the Digital Era",
+  "publication_date": "2026-03-31",
+  "venue": "Frontiers in Emerging Multidisciplinary Sciences",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7171536077",
+  "doi": "https://doi.org/10.65282/imke.vol.1.issue.02.036",
+  "title": "Cervical Cancer Screening through Automated Image Processing and Analysis",
+  "publication_date": "2026-03-31",
+  "venue": "International Multidisciplinary Knowledge Exchange Journal",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7146955110",
+  "doi": "https://doi.org/10.48550/arxiv.2603.29894",
+  "title": "LLM-Guided Evolutionary Search for Algebraic T-Count Optimization",
+  "publication_date": "2026-03-31",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7154503090",
+  "doi": "https://doi.org/10.37791/2687-0649-2026-21-1-40-58",
+  "title": "Development of an ADP microservice for identifying emission sources by using reinforcement learning",
+  "publication_date": "2026-03-31",
+  "venue": "Journal Of Applied Informatics",
+  "venue_type": "journal"
+ }
+]

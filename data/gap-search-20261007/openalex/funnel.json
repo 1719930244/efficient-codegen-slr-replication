@@ -1,0 +1,7 @@
+{
+ "window": "2026-03-07..2026-03-31",
+ "group_a_hits": 5954,
+ "boolean_pass": 561,
+ "nominated_title_strict": 116,
+ "dedup_against": "primary-studies.csv + all data/monthly-updates/*.json (normalized titles)"
+}

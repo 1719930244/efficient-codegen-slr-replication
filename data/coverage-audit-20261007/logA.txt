@@ -1,0 +1,21 @@
+gpt-6-astra 20 done
+gpt-6-astra 40 done
+gpt-6-astra 60 done
+gpt-6-astra 80 done
+gpt-6-astra 100 done
+gpt-6-astra 120 done
+gpt-6-astra 140 done
+gpt-6-astra 160 done
+gpt-6-astra 180 done
+gpt-6-astra 200 done
+gpt-6-astra 220 done
+gpt-6-astra 240 done
+gpt-6-astra 260 done
+attempt 1 failed: The read operation timed out
+gpt-6-astra 280 done
+gpt-6-astra 300 done
+gpt-6-astra 320 done
+gpt-6-astra 340 done
+gpt-6-astra 360 done
+gpt-6-astra 380 done
+gpt-6-astra 400 done

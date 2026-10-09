@@ -1,0 +1,27 @@
+Window 2026-03-07 .. 2026-03-31
+  [code generation] 3049 hits
+  [code completion] 321 hits
+  retry 1/6 after 5s (HTTP Error 429: Too Many Requests)
+  retry 2/6 after 10s (HTTP Error 429: Too Many Requests)
+  retry 3/6 after 15s (HTTP Error 429: Too Many Requests)
+  [code synthesis] 946 hits
+  retry 1/6 after 5s (HTTP Error 429: Too Many Requests)
+  retry 1/6 after 5s (HTTP Error 429: Too Many Requests)
+  retry 2/6 after 10s (HTTP Error 429: Too Many Requests)
+  retry 1/6 after 5s (HTTP Error 429: Too Many Requests)
+  retry 2/6 after 10s (HTTP Error 429: Too Many Requests)
+  retry 3/6 after 15s (HTTP Error 429: Too Many Requests)
+  retry 4/6 after 20s (HTTP Error 429: Too Many Requests)
+  [program synthesis] 1136 hits
+  [code infilling] 12 hits
+  [automated programming] 1033 hits
+Group A merged: 5954
+Known titles for dedup: 145
+Wrote /root/szw/tosem-r1-work/gap-0307-0331/openalex
+{
+ "window": "2026-03-07..2026-03-31",
+ "group_a_hits": 5954,
+ "boolean_pass": 561,
+ "nominated_title_strict": 116,
+ "dedup_against": "primary-studies.csv + all data/monthly-updates/*.json (normalized titles)"
+}

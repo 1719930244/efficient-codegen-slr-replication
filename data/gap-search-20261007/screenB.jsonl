@@ -1,0 +1,118 @@
+{"sid": "G000", "decision": "uncertain", "criterion": "ABSTRACT-MISSING", "reason": "No abstract available to assess eligibility."}
+{"sid": "G001", "decision": "exclude", "criterion": "EC2", "reason": "Focuses on visual generation with Diffusion Transformers, not code generation (IC3 fails)."}
+{"sid": "G002", "decision": "exclude", "criterion": "EC2", "reason": "Addresses test case prioritization, not code completion or NL-to-code (EC2 applies)."}
+{"sid": "G003", "decision": "exclude", "criterion": "IC1", "reason": "Evaluates defenses against distillation; does not propose technique to improve code generation process efficiency."}
+{"sid": "G004", "decision": "exclude", "criterion": "EC4", "reason": "Appears to be a theoretical/speculative document, not empirical research on LLM-based code generation efficiency."}
+{"sid": "G005", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes parameter-efficient fine-tuning (efficiency in training/adaptation) for LLM-based code generation (HumanEval+)."}
+{"sid": "G006", "decision": "include", "criterion": "ALL-MET", "reason": "Presents DyLLM, a training-free inference acceleration method for diffusion LLMs applied to code generation (IC1, IC2, IC3 met)."}
+{"sid": "G007", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes LycheeCluster for efficient long-context LLM inference via KV cache management\u2014improves generation process efficiency."}
+{"sid": "G008", "decision": "uncertain", "criterion": "ABSTRACT-MISSING", "reason": "No abstract available to assess eligibility."}
+{"sid": "G009", "decision": "exclude", "criterion": "EC2", "reason": "Task is job execution time prediction (feature engineering), not code generation (EC2 applies)."}
+{"sid": "G010", "decision": "exclude", "criterion": "EC2", "reason": "Focuses on neural vocoders for speech synthesis, not code generation (EC2 applies)."}
+{"sid": "G011", "decision": "include", "criterion": "ALL-MET", "reason": "Accelerates RL training for reasoning LLMs via adaptive speculative decoding\u2014improves training efficiency of code/reasoning models."}
+{"sid": "G012", "decision": "exclude", "criterion": "IC1", "reason": "Optimizes runtime performance of generated GPU kernels, not the code generation process itself (violates IC1 per exclusion note)."}
+{"sid": "G013", "decision": "exclude", "criterion": "EC2", "reason": "Targets vision-language models for visual token compression, not code generation tasks (EC2 applies)."}
+{"sid": "G014", "decision": "exclude", "criterion": "IC1", "reason": "Optimizes FHE program execution (runtime efficiency of generated code), not the LLM code generation process (IC1 fails)."}
+{"sid": "G015", "decision": "exclude", "criterion": "EC2", "reason": "Applies VLMs to remote sensing annotation, not code generation (EC2 applies)."}
+{"sid": "G016", "decision": "exclude", "criterion": "EC2", "reason": "Focuses on aerial navigation using VLMs, not code generation (EC2 applies)."}
+{"sid": "G017", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes AutoVeriFix+ for efficient Verilog RTL generation via LLMs with semantic pruning\u2014improves generation process efficiency (IC1, IC2, IC3 met)."}
+{"sid": "G018", "decision": "exclude", "criterion": "EC4", "reason": "Artifact description only; no technical abstract describing a novel efficiency-improving technique (EC4 applies)."}
+{"sid": "G019", "decision": "exclude", "criterion": "IC1", "reason": "Evaluates LLM ability to generate efficient mobile kernels (runtime efficiency of output), not efficiency of the generation process itself."}
+{"sid": "G020", "decision": "exclude", "criterion": "EC2", "reason": "Targets jailbreak attacks (security/red-teaming), not code generation."}
+{"sid": "G021", "decision": "exclude", "criterion": "EC2", "reason": "Focuses on general language model fine-tuning, not code generation tasks."}
+{"sid": "G022", "decision": "exclude", "criterion": "EC4", "reason": "Survey/perspective article summarizing multiple papers."}
+{"sid": "G023", "decision": "include", "criterion": "ALL-MET", "reason": "LLM-based NAS generates PyTorch code; improves inference/training efficiency via memory and VRAM management."}
+{"sid": "G024", "decision": "include", "criterion": "ALL-MET", "reason": "PACF reduces LLM generation complexity; evaluated on code generation with high PHK; architecture-agnostic efficiency gain."}
+{"sid": "G025", "decision": "exclude", "criterion": "EC2", "reason": "AGV planning task, not code completion or NL-to-code generation."}
+{"sid": "G026", "decision": "include", "criterion": "ALL-MET", "reason": "LLM generates declarative programs for diagrams from natural language; process efficiency via iterative refinement and reuse."}
+{"sid": "G027", "decision": "exclude", "criterion": "EC2", "reason": "Agentic RL resource management, not code generation task."}
+{"sid": "G028", "decision": "include", "criterion": "ALL-MET", "reason": "LLM generates acceleration code for diffusion models; targets efficiency of code generation process via closed-loop refinement."}
+{"sid": "G029", "decision": "exclude", "criterion": "IC1", "reason": "Improves correctness of generated code (reducing errors), not efficiency of generation process."}
+{"sid": "G030", "decision": "exclude", "criterion": "EC2", "reason": "Talking head generation (multimodal synthesis), not code generation."}
+{"sid": "G031", "decision": "exclude", "criterion": "IC1", "reason": "Prevents catastrophic forgetting in fine-tuning; no focus on computational efficiency of code generation process."}
+{"sid": "G032", "decision": "include", "criterion": "ALL-MET", "reason": "LLM generates solver code from NL descriptions; data-efficient training reduces resource cost of code generation process."}
+{"sid": "G033", "decision": "include", "criterion": "ALL-MET", "reason": "SABER reduces token usage during inference for code generation; enables budgeted, efficient reasoning."}
+{"sid": "G034", "decision": "include", "criterion": "ALL-MET", "reason": "Mosaic Pruning reduces memory overhead of MoE models; improves deployment efficiency; evaluated on code generation tasks."}
+{"sid": "G035", "decision": "exclude", "criterion": "IC1", "reason": "Focuses on quality of synthetic reasoning data, not efficiency of code generation process."}
+{"sid": "G036", "decision": "include", "criterion": "ALL-MET", "reason": "LLM generates heuristics (code) for MOCOP; emphasizes faster runtime of generated heuristics but also improves generation efficiency via guided evolution."}
+{"sid": "G037", "decision": "uncertain", "criterion": "missing abstract", "reason": "No abstract available to assess eligibility."}
+{"sid": "G038", "decision": "include", "criterion": "ALL-MET", "reason": "LLM agent generates EDA tool scripts for chip optimization; improves scheduling efficiency and reduces time-to-solution."}
+{"sid": "G039", "decision": "exclude", "criterion": "EC2", "reason": "Machine-to-machine semantic transport protocol, not code generation."}
+{"sid": "G040", "decision": "exclude", "criterion": "EC2", "reason": "Task is evidence synthesis/screening, not code generation."}
+{"sid": "G041", "decision": "exclude", "criterion": "EC4", "reason": "Paper is a review/survey on AI architecture choices in energy systems."}
+{"sid": "G042", "decision": "exclude", "criterion": "EC2", "reason": "Task is interior layout design, not code generation."}
+{"sid": "G043", "decision": "exclude", "criterion": "EC2", "reason": "Task is black-box optimization instance generation, not code generation."}
+{"sid": "G044", "decision": "exclude", "criterion": "EC4", "reason": "Record is a dataset description, not a research paper on code generation efficiency."}
+{"sid": "G045", "decision": "exclude", "criterion": "EC2", "reason": "Task is mobility analysis during pandemic, unrelated to code generation."}
+{"sid": "G046", "decision": "exclude", "criterion": "EC4", "reason": "Record is a peer review (PREreview), not a primary research paper."}
+{"sid": "G047", "decision": "exclude", "criterion": "IC2", "reason": "Uses spiking neural networks (SNNs), not LLMs or Transformers."}
+{"sid": "G048", "decision": "exclude", "criterion": "EC2", "reason": "Software release for tabular data modeling, not code generation."}
+{"sid": "G049", "decision": "include", "criterion": "ALL-MET", "reason": "LLM-based stochastic optimization framework applied to CUDA kernel/code translation; improves sample/time efficiency of generation process."}
+{"sid": "G050", "decision": "exclude", "criterion": "EC2", "reason": "Focuses on biomedical QA, not code generation tasks."}
+{"sid": "G051", "decision": "include", "criterion": "ALL-MET", "reason": "Uses SLMs fine-tuned on curated data for loop invariant synthesis (a form of code generation); improves speed and correctness of verification process."}
+{"sid": "G052", "decision": "exclude", "criterion": "IC1", "reason": "Optimizes runtime performance of generated software systems, not the code generation process itself."}
+{"sid": "G053", "decision": "exclude", "criterion": "IC2", "reason": "Uses MATLAB with linear/quadratic programming, not LLMs or Transformers."}
+{"sid": "G054", "decision": "uncertain", "criterion": "missing abstract", "reason": "No abstract available to assess eligibility."}
+{"sid": "G055", "decision": "exclude", "criterion": "EC2", "reason": "Task is black-box design optimization (e.g., DNA, robotics), not code generation."}
+{"sid": "G056", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes PASTE system to reduce latency in LLM agent serving via speculative tool execution\u2014improves efficiency of inference/generation process for code-related agents."}
+{"sid": "G057", "decision": "exclude", "criterion": "EC2", "reason": "Task is SQL comment generation, not code completion or NL-to-code."}
+{"sid": "G058", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes DASD for efficient LLM inference via adaptive speculative decoding; explicitly evaluated on code generation and improves generation speed."}
+{"sid": "G059", "decision": "include", "criterion": "ALL-MET", "reason": "Improves training and generation efficiency of diffusion LLMs via trajectory reduction; evaluated on coding tasks and reduces computational cost of policy optimization."}
+{"sid": "G060", "decision": "exclude", "criterion": "IC1", "reason": "Focuses on runtime efficiency of generated RTL code (PPA optimization), not efficiency of the code generation process."}
+{"sid": "G061", "decision": "exclude", "criterion": "EC2", "reason": "Task is knowledge graph completion, not code generation or code completion."}
+{"sid": "G062", "decision": "exclude", "criterion": "IC1", "reason": "Aims to improve correctness and generality of peephole optimization rules; does not address efficiency of the LLM code generation process itself."}
+{"sid": "G063", "decision": "exclude", "criterion": "EC2", "reason": "Task is MIMO beamforming in wireless communications, not code generation from natural language or code completion."}
+{"sid": "G064", "decision": "exclude", "criterion": "IC1", "reason": "Focuses on improving code generation quality via self-evaluation, not on computational/resource efficiency of the generation process."}
+{"sid": "G065", "decision": "exclude", "criterion": "IC1", "reason": "Aims to enable context-efficient analysis via structured prompting and code generation for analytics, but does not improve efficiency of the LLM code generation process (e.g., inference, training, serving)."}
+{"sid": "G066", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes hybrid agentic workflows that reduce LLM inference cost and execution latency by offloading deterministic operations to code nodes\u2014improves efficiency of the generation/reasoning process."}
+{"sid": "G067", "decision": "exclude", "criterion": "EC2", "reason": "Task is RNA structure modeling, not code generation or code completion."}
+{"sid": "G068", "decision": "exclude", "criterion": "EC2", "reason": "Task is tool path optimization for machining, not code generation or code completion."}
+{"sid": "G069", "decision": "exclude", "criterion": "EC2", "reason": "Topic is energy infrastructure investment and regulatory policy, unrelated to code generation."}
+{"sid": "G070", "decision": "exclude", "criterion": "EC2", "reason": "Task is camera pose estimation for novel view synthesis, not code generation."}
+{"sid": "G071", "decision": "exclude", "criterion": "EC2", "reason": "Focuses on SNN accelerator hardware design for spike-based neural networks, not LLM-based code generation."}
+{"sid": "G072", "decision": "exclude", "criterion": "EC2", "reason": "Concerns FPGA DSP architecture for deep learning acceleration, not code generation tasks."}
+{"sid": "G073", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes Gumbel Distillation to improve efficiency of parallel (non-autoregressive) text/code generation, directly addressing inference efficiency of LLM-based generation."}
+{"sid": "G074", "decision": "include", "criterion": "ALL-MET", "reason": "Presents Chimera, a serving system for heterogeneous LLMs that reduces end-to-end latency in multi-agent code generation workflows\u2014addresses efficient deployment/serving."}
+{"sid": "G075", "decision": "exclude", "criterion": "EC2", "reason": "Task is image denoising in single-pixel imaging, not code generation."}
+{"sid": "G076", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes depth-recurrent Transformers that reduce memory usage during test-time reasoning, improving efficiency of the inference process for compositional tasks potentially including code."}
+{"sid": "G077", "decision": "exclude", "criterion": "EC2", "reason": "Focuses on cybersecurity education and CTF competition design, not code generation as a technical task."}
+{"sid": "G078", "decision": "exclude", "criterion": "EC4", "reason": "Abstract is a software release note with installation instructions, not a research paper; lacks scientific content for screening."}
+{"sid": "G079", "decision": "exclude", "criterion": "EC2", "reason": "Primary task is vulnerability detection and patch generation, which falls under defect/vulnerability repair\u2014not code completion or NL-to-code generation per IC3."}
+{"sid": "G080", "decision": "exclude", "criterion": "EC2", "reason": "Task is radiology report generation, not code generation."}
+{"sid": "G081", "decision": "exclude", "criterion": "EC2", "reason": "Task is video compression, not code generation."}
+{"sid": "G082", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes adaptive mixed-precision quantization for edge LLMs, improving inference efficiency; LLM-based; mentions code generation as a task."}
+{"sid": "G083", "decision": "include", "criterion": "ALL-MET", "reason": "Improves inference-time efficiency via cross-model memory collaboration; LLM-based; explicitly includes code generation as a benchmark task."}
+{"sid": "G084", "decision": "uncertain", "criterion": "missing abstract", "reason": "Abstract not available; cannot assess eligibility."}
+{"sid": "G085", "decision": "exclude", "criterion": "EC2", "reason": "Focuses on hardware CIM for general edge AI, not LLM-based code generation."}
+{"sid": "G086", "decision": "exclude", "criterion": "EC2", "reason": "Task is audio-visual control generation, not code completion or NL-to-code."}
+{"sid": "G087", "decision": "exclude", "criterion": "EC2", "reason": "Analyzes pruning effects on language tasks generally; no focus on code generation."}
+{"sid": "G088", "decision": "exclude", "criterion": "EC4", "reason": "Dissertation with thesis-only abstract; excluded per EC4."}
+{"sid": "G089", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes online rollout pruning to accelerate RLVR training for LLMs; improves training efficiency; evaluated on code-related reasoning; LLM-based."}
+{"sid": "G090", "decision": "exclude", "criterion": "EC2", "reason": "Task is classification of symptom narratives, not code generation."}
+{"sid": "G091", "decision": "exclude", "criterion": "EC2", "reason": "Task is HTML/CSS document generation, not code completion or NL-to-code in the SE sense (e.g., general-purpose programming)."}
+{"sid": "G092", "decision": "include", "criterion": "ALL-MET", "reason": "Uses LLM as token compressor/decompressor to reduce context length and latency during inference; improves generation efficiency; LLM-based."}
+{"sid": "G093", "decision": "exclude", "criterion": "EC2", "reason": "Targets TinyML model compression for biosignal/audio sensing, not code generation."}
+{"sid": "G094", "decision": "exclude", "criterion": "EC2", "reason": "Focuses on RAG chunking for retrieval, not code generation."}
+{"sid": "G095", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes SliderQuant for efficient post-training quantization of LLMs; evaluated on code tasks; improves inference efficiency; LLM-based."}
+{"sid": "G096", "decision": "exclude", "criterion": "EC2", "reason": "Concerned with numerical simulation in HPC, not code generation."}
+{"sid": "G097", "decision": "exclude", "criterion": "EC2", "reason": "Discusses business productivity applications of ChatGPT, not code generation efficiency."}
+{"sid": "G098", "decision": "exclude", "criterion": "EC2", "reason": "Focuses on welding process automation, not code generation."}
+{"sid": "G099", "decision": "exclude", "criterion": "EC4", "reason": "Artifact description only; no technical abstract\u2014excluded as short/insufficient abstract."}
+{"sid": "G100", "decision": "exclude", "criterion": "IC1", "reason": "Focuses on preserving general capabilities and safety during fine-tuning, not on improving efficiency of code generation process."}
+{"sid": "G101", "decision": "exclude", "criterion": "EC2", "reason": "Targets symbolic computation in physics via LLM agents, not code completion or NL-to-code generation."}
+{"sid": "G102", "decision": "exclude", "criterion": "EC2", "reason": "Task is visual instruction following in medical imaging, not code generation."}
+{"sid": "G103", "decision": "exclude", "criterion": "EC2", "reason": "Focuses on formal verification using LLM-synthesized contracts, not code generation as primary task."}
+{"sid": "G104", "decision": "exclude", "criterion": "EC2", "reason": "Task is HLS design space exploration for hardware synthesis, not code completion or NL-to-code."}
+{"sid": "G105", "decision": "exclude", "criterion": "IC1", "reason": "Optimizes runtime efficiency of generated code, not the efficiency of the code generation process itself."}
+{"sid": "G106", "decision": "exclude", "criterion": "EC4", "reason": "Describes a dataset/benchmark, not a technique; excluded as non-research paper artifact."}
+{"sid": "G107", "decision": "exclude", "criterion": "EC2", "reason": "Concerns transition state search in organic chemistry, not code generation."}
+{"sid": "G108", "decision": "exclude", "criterion": "EC2", "reason": "Task is radiology impression generation from imaging findings, not code generation."}
+{"sid": "G109", "decision": "exclude", "criterion": "EC4", "reason": "Erratum, not a research paper; excluded per EC4."}
+{"sid": "G110", "decision": "exclude", "criterion": "EC4", "reason": "Explicitly a survey article; excluded per EC4."}
+{"sid": "G111", "decision": "include", "criterion": "ALL-MET", "reason": "Artifact for a paper on efficient on-device LLM inference (IC1), Transformer-based (IC2), applied to code generation context (IC3)."}
+{"sid": "G112", "decision": "exclude", "criterion": "EC2", "reason": "Reviews FPGA acceleration for DNNs generally, not focused on code generation tasks."}
+{"sid": "G113", "decision": "exclude", "criterion": "EC2", "reason": "Concerns physics-informed inverse design of metamaterials, not code generation."}
+{"sid": "G114", "decision": "exclude", "criterion": "EC2", "reason": "Focuses on video understanding/generation, not code generation tasks."}
+{"sid": "G115", "decision": "exclude", "criterion": "EC2", "reason": "Studies reasoning trajectory distillation in LLMs, not applied to code generation."}
+{"sid": "G116", "decision": "exclude", "criterion": "EC2", "reason": "Addresses hospital discharge planning in healthcare operations, unrelated to code generation."}
+{"sid": "G117", "decision": "exclude", "criterion": "EC2", "reason": "Task is quantum circuit T-count optimization, not code completion or NL-to-code generation."}

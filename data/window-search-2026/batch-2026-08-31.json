@@ -1,0 +1,261 @@
+{
+ "window": "2026-04-01..2026-08-31",
+ "cutoff": "2026-08-31",
+ "note": "Two-pass supplementary (post-corpus) coverage refresh. The frozen 122-study corpus and all its statistics are unchanged. Retained studies are discussed in red at their lifecycle anchors and are not merged into any reported statistic. This record is for the replication package; it is not written into the hub clone.",
+ "passes": [
+  {
+   "name": "OpenAlex supplementary",
+   "date": "2026-09-07",
+   "source": "OpenAlex (original Semantic Scholar queries could not be re-run under sustained API rate limiting; filtering pipeline identical to the original protocol, dual reconciled screening)",
+   "window_run": "2026-04-01..2026-09-07",
+   "funnel": {
+    "candidates": 436,
+    "nominated": 25,
+    "unique": 23,
+    "selected": 16
+   }
+  },
+  {
+   "name": "arXiv refresh",
+   "date": "2026-09-29",
+   "source": "arXiv API (OpenAlex daily quota exhausted from this IP; identical three-group schema and identical screening criteria; dedup by normalized title against the frozen corpus, both prior batches, and the dropped lists)",
+   "window_run": "2026-04-01..2026-08-31",
+   "funnel": {
+    "raw": 1095,
+    "boolean": 413,
+    "title_strict": 127,
+    "nominated_new": 111,
+    "already_known": 16,
+    "included_before_cap": 6,
+    "selected": 6
+   }
+  }
+ ],
+ "curation_rule": "cap of five per lifecycle bucket across the combined two-pass set; preference for peer-reviewed venues and preprints with strong reproducibility signals (released code/data)",
+ "retained_total": 19,
+ "per_bucket": {
+  "RQ2 training": 3,
+  "RQ4 deployment": 5,
+  "RQ5 evaluation": 5,
+  "cross-stage": 2,
+  "RQ3 inference": 4
+ },
+ "retained": [
+  {
+   "bib_key": "zhang2026selfdistill",
+   "title": "Embarrassingly Simple Self-Distillation Improves Code Generation",
+   "section": "sections/sec-rq2.tex",
+   "rq": "RQ2 training",
+   "pass": "openalex-2026-09-07",
+   "openalex_id": "https://openalex.org/W7148292620",
+   "date": "2026-04-01"
+  },
+  {
+   "bib_key": "ding2026rankingdistill",
+   "title": "Distilling large language models for code generation via ranking supervision",
+   "section": "sections/sec-rq2.tex",
+   "rq": "RQ2 training",
+   "pass": "openalex-2026-09-07",
+   "openalex_id": "https://openalex.org/W7172015358",
+   "date": "in-window (OpenAlex publication_date within 2026-04-01..2026-08-31; not on arXiv)"
+  },
+  {
+   "bib_key": "wu2026offlinerl",
+   "title": "Efficient Post-training of LLMs for Code Generation With Offline Reinforcement Learning",
+   "section": "sections/sec-rq2.tex",
+   "rq": "RQ2 training",
+   "pass": "openalex-2026-09-07",
+   "openalex_id": "https://openalex.org/W7162655027",
+   "date": "2026-05-27"
+  },
+  {
+   "bib_key": "vallecillosruiz2026quantapr",
+   "title": "Smaller Models, Unexpected Costs: Trade-offs in LLM Quantization for Automated Program Repair",
+   "section": "sections/sec-rq4-deploy.tex",
+   "rq": "RQ4 deployment",
+   "pass": "openalex-2026-09-07",
+   "openalex_id": "https://openalex.org/W7166399941",
+   "date": "2026-06-25"
+  },
+  {
+   "bib_key": "danda2026energypruning",
+   "title": "Energy Profiling of Pruned LLMs During Python Code Generation",
+   "section": "sections/sec-rq4-deploy.tex",
+   "rq": "RQ4 deployment",
+   "pass": "openalex-2026-09-07",
+   "openalex_id": "https://openalex.org/W7165123083",
+   "date": "in-window (OpenAlex publication_date within 2026-04-01..2026-08-31; not on arXiv)"
+  },
+  {
+   "bib_key": "tiwari2026cachewise",
+   "title": "CacheWise: Understanding Workloads and Optimizing KVCache Management for Efficiently Serving LLM Coding Agents",
+   "section": "sections/sec-rq4-deploy.tex",
+   "rq": "RQ4 deployment",
+   "pass": "openalex-2026-09-07",
+   "openalex_id": "https://openalex.org/W7165065435",
+   "date": "2026-06-15"
+  },
+  {
+   "bib_key": "wang2026mars",
+   "title": "MARS: Efficient, Adaptive Co-Scheduling for Heterogeneous Agentic Systems",
+   "section": "sections/sec-rq4-deploy.tex",
+   "rq": "RQ4 deployment",
+   "pass": "openalex-2026-09-07",
+   "openalex_id": "https://openalex.org/W7159891673",
+   "date": "2026-04-14"
+  },
+  {
+   "bib_key": "young2026liveverilogeval",
+   "title": "LiveVerilogEval: Contamination Free and Automatically Scalable Benchmark for Verilog Code Generation",
+   "section": "sections/sec-rq5.tex",
+   "rq": "RQ5 evaluation",
+   "pass": "openalex-2026-09-07",
+   "openalex_id": "https://openalex.org/W7163550959",
+   "date": "in-window (OpenAlex publication_date within 2026-04-01..2026-08-31; not on arXiv)"
+  },
+  {
+   "bib_key": "shibaev2026diverseeval",
+   "title": "Don't Claim Benchmark-Oriented Optimization Improves General Coding Capability -- Diverse Evaluation Is Required",
+   "section": "sections/sec-rq5.tex",
+   "rq": "RQ5 evaluation",
+   "pass": "openalex-2026-09-07",
+   "openalex_id": "https://openalex.org/W7203609725",
+   "date": "2026-06-26"
+  },
+  {
+   "bib_key": "gong2026dseffibench",
+   "title": "DSEffi-Bench: Demystifying Large Language Models' Capability in Efficient Data Science Code Generation",
+   "section": "sections/sec-rq5.tex",
+   "rq": "RQ5 evaluation",
+   "pass": "openalex-2026-09-07",
+   "openalex_id": "https://openalex.org/W7204869549",
+   "date": "2026-08-31"
+  },
+  {
+   "bib_key": "cunha2026localllmenergy",
+   "title": "Not All Local LLMs Are Equal: A Benchmark of Energy and Performance",
+   "section": "sections/sec-rq5.tex",
+   "rq": "RQ5 evaluation",
+   "pass": "openalex-2026-09-07",
+   "openalex_id": "https://openalex.org/W7167465800",
+   "date": "in-window (OpenAlex publication_date within 2026-04-01..2026-08-31; not on arXiv)"
+  },
+  {
+   "bib_key": "zhang2026fastcontext",
+   "title": "FastContext: Training Efficient Repository Explorer for Coding Agents",
+   "section": "sections/sec-rq6.tex",
+   "rq": "cross-stage",
+   "pass": "openalex-2026-09-07",
+   "openalex_id": "https://openalex.org/W7164973369",
+   "date": "2026-06-12"
+  },
+  {
+   "bib_key": "xiang2026agentdebug",
+   "title": "Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis",
+   "section": "sections/sec-discussion.tex",
+   "rq": "cross-stage",
+   "pass": "openalex-2026-09-07",
+   "openalex_id": "https://openalex.org/W7158090237",
+   "date": "2026-04-27"
+  },
+  {
+   "bib_key": "liu2026dyretriever",
+   "title": "Effective and Efficient Context Retrieval via Partial Dependency Graph for Repository-Level Code Generation",
+   "section": "sections/sec-rq3.tex",
+   "rq": "RQ3 inference",
+   "pass": "arxiv-2026-09-29",
+   "arxiv": "2608.01927",
+   "date": "2026-08-03"
+  },
+  {
+   "bib_key": "yang2026loopcoder",
+   "title": "LoopCoder-v2: Only Loop Once for Efficient Test-Time Computation Scaling",
+   "section": "sections/sec-rq3.tex",
+   "rq": "RQ3 inference",
+   "pass": "arxiv-2026-09-29",
+   "arxiv": "2606.18023",
+   "date": "2026-06-16"
+  },
+  {
+   "bib_key": "cheng2026adaedit",
+   "title": "To Diff or Not to Diff? Structure-Aware and Adaptive Output Formats for Efficient LLM-based Code Editing",
+   "section": "sections/sec-rq3.tex",
+   "rq": "RQ3 inference",
+   "pass": "arxiv-2026-09-29",
+   "arxiv": "2604.27296",
+   "date": "2026-04-30"
+  },
+  {
+   "bib_key": "naik2026reacomp",
+   "title": "ReaComp: Compiling LLM Reasoning into Symbolic Solvers for Efficient Program Synthesis",
+   "section": "sections/sec-rq3.tex",
+   "rq": "RQ3 inference",
+   "pass": "arxiv-2026-09-29",
+   "arxiv": "2605.05485",
+   "date": "2026-05-06"
+  },
+  {
+   "bib_key": "banerjee2026quantagent",
+   "title": "Anatomy of a Quantized Agent: VRAM Stability and Forecasting in Code-Synthesis Agentic Workloads",
+   "section": "sections/sec-rq4-deploy.tex",
+   "rq": "RQ4 deployment",
+   "pass": "arxiv-2026-09-29",
+   "arxiv": "2608.15117",
+   "date": "2026-08-15"
+  },
+  {
+   "bib_key": "li2026codegenbench",
+   "title": "CodegenBench: Can LLMs Write Efficient Code Across Architectures?",
+   "section": "sections/sec-rq5.tex",
+   "rq": "RQ5 evaluation",
+   "pass": "arxiv-2026-09-29",
+   "arxiv": "2606.04023",
+   "date": "2026-06-01"
+  }
+ ],
+ "removed_out_of_window": [
+  {
+   "bib_key": "chen2026siliconmind",
+   "title": "SiliconMind-V1: Multi-Agent Distillation and Debug-Reasoning Workflows for Verilog Code Generation",
+   "arxiv": "2603.08719",
+   "first_submission": "2026-02-10",
+   "reason": "arXiv v1 predates the window (before 2026-04-01); OpenAlex publication_date had placed it in-window",
+   "action": "red sentence removed from sections/sec-rq1.tex; bib entry kept unused-safe"
+  },
+  {
+   "bib_key": "lu2026mccom",
+   "title": "Balancing Latency and Accuracy of Code Completion via Local-Cloud Model Cascading",
+   "arxiv": "2603.05974",
+   "first_submission": "2026-03-06",
+   "reason": "arXiv v1 predates the window (before 2026-04-01)",
+   "action": "red sentence removed from sections/sec-rq4-deploy.tex; bib entry kept unused-safe"
+  },
+  {
+   "bib_key": "xu2026pill",
+   "title": "Predict, Don't Iterate: Efficient Adaptive-Length Infilling for Diffusion Language Models",
+   "arxiv": "2609.02108",
+   "first_submission": "2026-09-02",
+   "reason": "after the 2026-08-31 cutoff",
+   "action": "red sentence removed from sections/sec-rq3.tex; bib entry kept unused-safe; deferred to the next monthly batch"
+  }
+ ],
+ "dropped": [
+  {
+   "pass": "openalex-2026-09-07",
+   "titles": [
+    "LEAP: Lean Environment-Feedback via Adaptive Pruning for Code RL in GPU Kernel Generation",
+    "Half the Experts, All the Code: One-Shot Domain Pruning of Mixture-of-Experts LLMs for Coding",
+    "Hydra: Efficient, Correct Code Generation via Checkpoint-and-Rollback Support",
+    "Assessing the Sustainability of LLM Inference through Energy-Accuracy Analysis",
+    "SWE-Edit: Rethinking Code Editing for Efficient SWE-Agent",
+    "SWE-Pruner Pro: The Coder LLM Already Knows What to Prune",
+    "Rethinking Automated Program Repair: The Impact of Bug Complexity, Fault Localization, and LLM Cost-efficiency"
+   ]
+  },
+  {
+   "pass": "arxiv-2026-09-29",
+   "note": "105 of 111 arXiv nominations excluded at screening; per-item decisions and one-line reasons in SCREENING.md",
+   "excluded_count": 105
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+qwen3-max 20 done
+qwen3-max 40 done
+qwen3-max 60 done
+qwen3-max 80 done
+qwen3-max 100 done
+qwen3-max 118 done

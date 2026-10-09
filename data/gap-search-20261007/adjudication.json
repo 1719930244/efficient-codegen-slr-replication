@@ -1,0 +1,192 @@
+{
+ "G000": {
+  "decision": "pending",
+  "criterion": "IC4 needs full text",
+  "reason": "no abstract; OpenAlex keywords: CoT, code generation, SLMs, resource-efficient, edge deployment; same group as corpus S014 (COTTON); likely eligible by precedent"
+ },
+ "G054": {
+  "decision": "exclude",
+  "criterion": "EC4",
+  "reason": "Zenodo software artifact, no paper text"
+ },
+ "G008": {
+  "decision": "exclude",
+  "criterion": "IC3",
+  "reason": "evolutionary algorithm design, not code generation"
+ },
+ "G084": {
+  "decision": "exclude",
+  "criterion": "IC3",
+  "reason": "speech emotion recognition"
+ },
+ "G037": {
+  "decision": "borderline",
+  "criterion": "IC3",
+  "reason": "general LoRA efficiency, no abstract; no code-generation signal in title"
+ },
+ "G005": {
+  "decision": "borderline",
+  "criterion": "IC1",
+  "reason": "LoRA adapter design evaluated on HumanEval+; efficiency not the objective"
+ },
+ "G006": {
+  "decision": "borderline",
+  "criterion": "IC3",
+  "reason": "general diffusion-LLM acceleration; code among benchmarks"
+ },
+ "G024": {
+  "decision": "borderline",
+  "criterion": "IC3",
+  "reason": "general generation framework; code one of six text categories"
+ },
+ "G032": {
+  "decision": "borderline",
+  "criterion": "IC3",
+  "reason": "data-efficient training for OR modeling and solver code"
+ },
+ "G033": {
+  "decision": "borderline",
+  "criterion": "IC3",
+  "reason": "general reasoning-budget training; MBPP among tasks"
+ },
+ "G034": {
+  "decision": "borderline",
+  "criterion": "IC3",
+  "reason": "general MoE pruning; code among tasks"
+ },
+ "G049": {
+  "decision": "borderline",
+  "criterion": "IC3",
+  "reason": "general generative optimization; KernelBench among benchmarks"
+ },
+ "G056": {
+  "decision": "borderline",
+  "criterion": "IC3",
+  "reason": "agent serving; coding among workloads"
+ },
+ "G058": {
+  "decision": "borderline",
+  "criterion": "IC3",
+  "reason": "general speculative decoding; code among tasks"
+ },
+ "G059": {
+  "decision": "borderline",
+  "criterion": "IC3",
+  "reason": "general dLLM policy optimization; coding among tasks"
+ },
+ "G066": {
+  "decision": "borderline",
+  "criterion": "IC3",
+  "reason": "general workflow generation; coding among benchmarks"
+ },
+ "G074": {
+  "decision": "borderline",
+  "criterion": "IC3",
+  "reason": "multi-agent serving; code generation among workflows"
+ },
+ "G083": {
+  "decision": "borderline",
+  "criterion": "IC3",
+  "reason": "cross-model memory; code among benchmarks"
+ },
+ "G095": {
+  "decision": "borderline",
+  "criterion": "IC3",
+  "reason": "general PTQ; code among tasks"
+ },
+ "G007": {
+  "decision": "exclude",
+  "criterion": "IC3",
+  "reason": "general KV-cache method, no code task"
+ },
+ "G011": {
+  "decision": "exclude",
+  "criterion": "IC3",
+  "reason": "general reasoning RL training system, no code task"
+ },
+ "G017": {
+  "decision": "exclude",
+  "criterion": "IC1",
+  "reason": "RTL correctness and circuit area (artifact efficiency)"
+ },
+ "G021": {
+  "decision": "exclude",
+  "criterion": "IC1",
+  "reason": "fine-tuning objective; efficiency only a means"
+ },
+ "G023": {
+  "decision": "exclude",
+  "criterion": "IC3",
+  "reason": "LLM-driven NAS; efficiency of the search, not code generation"
+ },
+ "G026": {
+  "decision": "exclude",
+  "criterion": "IC3",
+  "reason": "diagram dataset generation"
+ },
+ "G028": {
+  "decision": "exclude",
+  "criterion": "IC1",
+  "reason": "generates acceleration code for diffusion models (artifact)"
+ },
+ "G029": {
+  "decision": "exclude",
+  "criterion": "IC1",
+  "reason": "error reduction; less preference data incidental"
+ },
+ "G036": {
+  "decision": "exclude",
+  "criterion": "IC1",
+  "reason": "runtime of generated heuristics (artifact)"
+ },
+ "G038": {
+  "decision": "exclude",
+  "criterion": "IC3",
+  "reason": "EDA tool scheduling"
+ },
+ "G051": {
+  "decision": "exclude",
+  "criterion": "EC2",
+  "reason": "loop-invariant synthesis for verification"
+ },
+ "G064": {
+  "decision": "exclude",
+  "criterion": "IC1",
+  "reason": "quality-oriented self-evaluation agent, no efficiency metric"
+ },
+ "G065": {
+  "decision": "exclude",
+  "criterion": "IC1",
+  "reason": "game-log analytics pipeline"
+ },
+ "G073": {
+  "decision": "exclude",
+  "criterion": "IC3",
+  "reason": "parallel text generation, no code"
+ },
+ "G076": {
+  "decision": "exclude",
+  "criterion": "IC3",
+  "reason": "compositional reasoning, no code"
+ },
+ "G082": {
+  "decision": "exclude",
+  "criterion": "IC3",
+  "reason": "general edge quantization; code only motivation"
+ },
+ "G089": {
+  "decision": "exclude",
+  "criterion": "IC3",
+  "reason": "general RLVR rollout pruning, no code task"
+ },
+ "G092": {
+  "decision": "exclude",
+  "criterion": "IC3",
+  "reason": "context compression on text QA"
+ },
+ "G111": {
+  "decision": "exclude",
+  "criterion": "IC3",
+  "reason": "hardware memory management artifact, no code task"
+ }
+}

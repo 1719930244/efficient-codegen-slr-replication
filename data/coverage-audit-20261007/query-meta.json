@@ -1,0 +1,7 @@
+{
+ "executed": "2026-10-07T00:56:30.528527",
+ "query": "(\"code generation\" OR \"code completion\" OR \"code synthesis\" OR \"program synthesis\" OR \"code infilling\" OR \"automated programming\") AND (efficient OR efficiency OR optimization OR optimize OR optimizing OR acceleration OR accelerate OR accelerating OR lightweight OR compression OR compress OR quantization OR quantized OR pruning OR pruned OR distillation OR distilled OR latency OR throughput OR \"computational cost\" OR energy OR scalability OR scalable) AND (\"large language model\" OR LLM OR \"language model\" OR transformer OR \"pre-trained model\" OR \"foundation model\" OR \"neural network\" OR \"deep learning\")",
+ "filter": "title_and_abstract.search:(\"code generation\" OR \"code completion\" OR \"code synthesis\" OR \"program synthesis\" OR \"code infilling\" OR \"automated programming\") AND (efficient OR efficiency OR optimization OR optimize OR optimizing OR acceleration OR accelerate OR accelerating OR lightweight OR compression OR compress OR quantization OR quantized OR pruning OR pruned OR distillation OR distilled OR latency OR throughput OR \"computational cost\" OR energy OR scalability OR scalable) AND (\"large language model\" OR LLM OR \"language model\" OR transformer OR \"pre-trained model\" OR \"foundation model\" OR \"neural network\" OR \"deep learning\"),from_publication_date:2017-01-01,to_publication_date:2026-03-06",
+ "count": 3891,
+ "downloaded": 3894
+}

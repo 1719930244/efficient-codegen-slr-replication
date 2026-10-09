@@ -1,0 +1,805 @@
+[
+  {
+    "key": "young2026liveverilogeval",
+    "title": "LiveVerilogEval: Contamination Free and Automatically Scalable Benchmark for Verilog Code Generation",
+    "year": 2026,
+    "venue": "DATE 2026",
+    "venue_type": "conference",
+    "arxiv_id": null,
+    "doi": "10.23919/date69613.2026.11539682",
+    "first_version_date": "2026-04-20",
+    "primary_categories": [
+      {
+        "code": "4a",
+        "justification": "Proposes LiveVerilogEval, a dynamic framework that auto-generates contamination-free Verilog benchmark problems by mutating existing RTL designs."
+      }
+    ],
+    "secondary_categories": [],
+    "scope_flag": "",
+    "qa1": {
+      "score": 1,
+      "evidence": "Abstract: 'Our experimental results demonstrate significant performance degradation across state-of-the-art LLMs when evaluated on LiveVerilogEval-enhanced benchmarks compared to traditional static benchmarks.'"
+    },
+    "qa2": {
+      "score": 1,
+      "evidence": "Abstract compares LLM performance on contamination-free mutated variants vs. traditional static benchmarks (static-benchmark baseline)."
+    },
+    "qa3": {
+      "score": 0.5,
+      "evidence": "Abstract-only access; datasets (mutated RTL designs) and SOTA-LLM evaluation described, but hardware/hyperparameters not verifiable from accessible text."
+    },
+    "qa4": {
+      "score": 0,
+      "evidence": "No artifact link located in accessible abstract/metadata (DATE proceedings paper); release not confirmed."
+    },
+    "qa_total": 2.5,
+    "audit": {
+      "correctness": {
+        "value": true,
+        "evidence": "Abstract: 'significant performance degradation across state-of-the-art LLMs' — reports correctness scores of LLMs on the benchmark."
+      },
+      "model_name": {
+        "value": false,
+        "evidence": "Abstract refers only to 'state-of-the-art LLMs'; specific model names not present in accessible text (full text likely names them)."
+      },
+      "hardware": {
+        "value": false,
+        "evidence": "No hardware spec in accessible text."
+      },
+      "latency": {
+        "value": false,
+        "evidence": "No latency/throughput reported (correctness-focused Verilog benchmark)."
+      },
+      "memory": {
+        "value": false,
+        "evidence": "Not reported."
+      },
+      "serving_config": {
+        "value": false,
+        "evidence": "Not reported in accessible text."
+      },
+      "monetary": {
+        "value": false,
+        "evidence": "Not reported."
+      },
+      "energy": {
+        "value": false,
+        "evidence": "Not reported."
+      }
+    },
+    "benchmarks": [
+      "LiveVerilogEval (mutated RTL designs; VerilogEval/RTLLM-derived)"
+    ],
+    "uses_humaneval_or_mbpp": false,
+    "multilingual_or_repo_level": false,
+    "efficiency_metric_families": [],
+    "efficiency_metric_evidence": {},
+    "rationale": "Contamination-free, auto-scalable Verilog benchmark that mutates RTL designs; SOTA LLMs degrade markedly versus static benchmarks",
+    "fulltext": "abstract-only (https://api.openalex.org/works/W7163550959 abstract; DOI 10.23919/date69613.2026.11539682 ACM/IEEE full text not open)",
+    "notes": "DATE 2026 conference paper (published 2026-04-20; not on arXiv). Abstract-only: qa3/qa4 and most audit bits scored conservatively; model names and hardware not in accessible text. Benchmark-design study for correctness (contamination), so no efficiency metrics expected; scope_flag left empty following CSV treatment of pure benchmark-design papers (e.g. MultiPL-E)."
+  },
+  {
+    "key": "shibaev2026diverseeval",
+    "title": "Don't Claim Benchmark-Oriented Optimization Improves General Coding Capability -- Diverse Evaluation Is Required",
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "venue_type": "preprint",
+    "arxiv_id": "2608.13566",
+    "doi": null,
+    "first_version_date": "2026-06-26",
+    "primary_categories": [
+      {
+        "code": "4b",
+        "justification": "Empirical study arguing that scores on a few benchmarks (SWE-bench, LiveCodeBench) do not evidence general coding capability; examines transfer of SWE-bench-oriented checkpoints/fine-tunes."
+      }
+    ],
+    "secondary_categories": [
+      {
+        "code": "4a",
+        "justification": "Constructs a Django-based case-study benchmark suite covering code editing, generation, and completion to expose the gap."
+      }
+    ],
+    "scope_flag": "SCOPE-Borderline",
+    "qa1": {
+      "score": 1,
+      "evidence": "Builds a Django benchmark and evaluates community checkpoints and fine-tuned models with pass@1 (Sec. eval, 'We evaluate with the pass@1 metric at temperature T = 0')."
+    },
+    "qa2": {
+      "score": 1,
+      "evidence": "Compares community SWE-bench-oriented checkpoints and self-fine-tuned models against baselines across SWE-bench, LiveCodeBench, and the Django suite; observes rank reversals."
+    },
+    "qa3": {
+      "score": 0.5,
+      "evidence": "LoRA config disclosed (learning rate 1e-5, last-epoch checkpoint, appendix E) and greedy T=0, Django 4.0.4 suite; hardware specification not disclosed."
+    },
+    "qa4": {
+      "score": 0,
+      "evidence": "No explicit release link for their own Django benchmark/code located; only a cited third-party dashboard repo (logic-star-ai/insights) appears."
+    },
+    "qa_total": 2.5,
+    "audit": {
+      "correctness": {
+        "value": true,
+        "evidence": "'We evaluate with the pass@1 metric at temperature T = 0 (greedy decoding)'."
+      },
+      "model_name": {
+        "value": true,
+        "evidence": "Names e.g. 'Qwen2.5-Coder-32B-Instruct', 'Qwen3-32B', 'Qwen3-Coder-480B-A35B', GPT-5 model card."
+      },
+      "hardware": {
+        "value": false,
+        "evidence": "No hardware specification given."
+      },
+      "latency": {
+        "value": false,
+        "evidence": "Focus is capability/generalization, not efficiency; no latency/throughput reported."
+      },
+      "memory": {
+        "value": false,
+        "evidence": "Not reported."
+      },
+      "serving_config": {
+        "value": false,
+        "evidence": "Only decoding (greedy T=0) and LoRA training config; no serving framework/batch/precision/parallelism disclosed."
+      },
+      "monetary": {
+        "value": false,
+        "evidence": "Not reported."
+      },
+      "energy": {
+        "value": false,
+        "evidence": "Not reported."
+      }
+    },
+    "benchmarks": [
+      "Django case-study suite (editing/generation/completion)",
+      "SWE-bench",
+      "LiveCodeBench"
+    ],
+    "uses_humaneval_or_mbpp": false,
+    "multilingual_or_repo_level": true,
+    "efficiency_metric_families": [],
+    "efficiency_metric_evidence": {},
+    "rationale": "Argues benchmark-oriented optimization measures task-specific performance, not general coding ability; SWE-bench-tuned checkpoints transfer poorly and rankings fail to generalize",
+    "fulltext": "full (https://arxiv.org/pdf/2608.13566)",
+    "notes": "Included in RQ5 as an evaluation-methodology caveat; not about efficiency per se, hence SCOPE-Borderline. QA4=0 because no explicit artifact release for their own suite was found (uncertain). multilingual_or_repo_level=true via SWE-bench (repo-level)."
+  },
+  {
+    "key": "gong2026dseffibench",
+    "title": "DSEffi-Bench: Demystifying Large Language Models' Capability in Efficient Data Science Code Generation",
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "venue_type": "preprint",
+    "arxiv_id": "2608.30248",
+    "doi": null,
+    "first_version_date": "2026-08-31",
+    "primary_categories": [
+      {
+        "code": "4a",
+        "justification": "Proposes DSEffi-Bench, the first execution-efficiency benchmark for LLM-generated data-science code, with a fuzz-style input generator and a human-annotated efficiency taxonomy."
+      }
+    ],
+    "secondary_categories": [
+      {
+        "code": "4b",
+        "justification": "Empirical evaluation of 16 models across 3 tiers, showing correctness leaderboards misrank efficiency."
+      }
+    ],
+    "scope_flag": "SCOPE-GenEffCode",
+    "qa1": {
+      "score": 1,
+      "evidence": "Evaluates 16 models on DSEffi-Bench with Pass and efficiency (B|P) scores; 'Evaluating 16 models across 3 tiers'."
+    },
+    "qa2": {
+      "score": 1,
+      "evidence": "Cross-model comparison (GPT-5.4 vs GPT-5.4-mini vs Kimi-K2.5 etc.) and Lib-Routing vs frontier baseline at 13x lower cost."
+    },
+    "qa3": {
+      "score": 1,
+      "evidence": "Environment disclosed: 'Linux Ubuntu 22.04, 96 CPU cores, 512 GB RAM, 4 * H200 GPUs, Python 3.12'; sampling config 'greedy sample (T=0.0) and three temperature samples (T=0.8)'; benchmark dataset described."
+    },
+    "qa4": {
+      "score": 1,
+      "evidence": "'Code and data are available at https://github.com/Albert-Gong/DSEffi-Bench'."
+    },
+    "qa_total": 4.0,
+    "audit": {
+      "correctness": {
+        "value": true,
+        "evidence": "'GPT-5.4 leads in correctness (Pass, 66.9%)'."
+      },
+      "model_name": {
+        "value": true,
+        "evidence": "Names GPT-5.4, GPT-5.4-mini, Kimi-K2.5, Qwen3.5-397B/A17B, Claude-Opus-4.6, etc."
+      },
+      "hardware": {
+        "value": true,
+        "evidence": "'96 CPU cores, 512 GB RAM, 4 * H200 GPUs'."
+      },
+      "latency": {
+        "value": true,
+        "evidence": "Reports runtime speedups of generated code, e.g. '>=2x speedups on 20.8% ... of originally correct tasks' (execution efficiency of generated code)."
+      },
+      "memory": {
+        "value": false,
+        "evidence": "'Memory: memory, out of memory' appears only as an efficiency taxonomy category, not a measured generation-memory metric."
+      },
+      "serving_config": {
+        "value": false,
+        "evidence": "Only decoding temperatures given; no serving framework/batch/precision/parallelism disclosed (models mostly API-accessed)."
+      },
+      "monetary": {
+        "value": true,
+        "evidence": "'At $0.004/task, Lib-Routing is ...' and 'approaching Claude-Opus-4.6 Best@3 ... at 13.0x lower inference cost'."
+      },
+      "energy": {
+        "value": false,
+        "evidence": "Energy only mentioned as future-work motivation ('costs and energy use in DS workflows'), not measured."
+      }
+    },
+    "benchmarks": [
+      "DSEffi-Bench (data-science code, GitHub-sourced; DSCodeBench-derived)"
+    ],
+    "uses_humaneval_or_mbpp": false,
+    "multilingual_or_repo_level": false,
+    "efficiency_metric_families": [
+      "monetary",
+      "tokens_calls"
+    ],
+    "efficiency_metric_evidence": {
+      "monetary": "$0.004/task, Lib-Routing ... approaching Claude-Opus-4.6 Best@3 in efficiency at 13.0x lower inference cost (13.0x cheaper than Claude-Opus-4.6 Best@3)",
+      "tokens_calls": "open models approaches Claude-Opus-4.6 Best@3 (Best@k = number of sampled generations/LLM calls as the cost axis compared against routing)"
+    },
+    "rationale": "First execution-efficiency benchmark for LLM-generated data-science code; correctness leaderboards misrank efficiency and library-conditioned routing hits near-frontier efficiency at ~13x lower cost",
+    "fulltext": "full (https://arxiv.org/pdf/2608.30248)",
+    "notes": "Measures runtime efficiency of generated data-science code, not the generation process -> SCOPE-GenEffCode (matches the paper's own framing quoted in sec-rq5.tex). 'latency' audit bit reflects generated-code runtime speedups rather than generation latency."
+  },
+  {
+    "key": "cunha2026localllmenergy",
+    "title": "Not All Local LLMs Are Equal: A Benchmark of Energy and Performance",
+    "year": 2026,
+    "venue": "GREENS 2026 (IEEE/ACM 10th International Workshop on Green and Sustainable Software)",
+    "venue_type": "conference",
+    "arxiv_id": null,
+    "doi": "10.1145/3786148.3788630",
+    "first_version_date": "2026-04-12",
+    "primary_categories": [
+      {
+        "code": "4a",
+        "justification": "A benchmark comparing local LLMs on code generation and completion along energy and time efficiency in addition to task performance."
+      }
+    ],
+    "secondary_categories": [
+      {
+        "code": "4b",
+        "justification": "Empirical comparison of general-purpose vs code-oriented models on energy/time/performance for local/edge deployment."
+      }
+    ],
+    "scope_flag": "",
+    "qa1": {
+      "score": 1,
+      "evidence": "Abstract: benchmark evaluating models on code generation and completion for energy and time efficiency (quantitative benchmark)."
+    },
+    "qa2": {
+      "score": 1,
+      "evidence": "Compares general-purpose vs code-oriented LLMs across energy/time/performance (per tex: 'compares general-purpose and code-oriented models')."
+    },
+    "qa3": {
+      "score": 0.5,
+      "evidence": "Abstract-only: models and edge/data-center deployment described; full hardware spec and hyperparameters not verifiable from accessible text."
+    },
+    "qa4": {
+      "score": 0,
+      "evidence": "No artifact link located in accessible abstract/metadata (ACM DL full text 403; not on arXiv)."
+    },
+    "qa_total": 2.5,
+    "audit": {
+      "correctness": {
+        "value": true,
+        "evidence": "Abstract/tex: evaluates 'task performance' on code generation and completion alongside efficiency."
+      },
+      "model_name": {
+        "value": false,
+        "evidence": "Abstract refers to 'general-purpose to code-oriented LLMs' without specific names in accessible text."
+      },
+      "hardware": {
+        "value": false,
+        "evidence": "Abstract mentions running 'in data centers and on edge devices' but gives no concrete hardware spec in accessible text."
+      },
+      "latency": {
+        "value": true,
+        "evidence": "Abstract: measures 'time efficiency' of local LLMs."
+      },
+      "memory": {
+        "value": false,
+        "evidence": "Not evidenced in accessible text."
+      },
+      "serving_config": {
+        "value": false,
+        "evidence": "Not evidenced in accessible text."
+      },
+      "monetary": {
+        "value": false,
+        "evidence": "Not evidenced in accessible text."
+      },
+      "energy": {
+        "value": true,
+        "evidence": "Abstract: core contribution is benchmarking 'energy ... efficiency'; title 'A Benchmark of Energy and Performance'."
+      }
+    },
+    "benchmarks": [
+      "code generation and completion tasks (local-LLM benchmark; specific datasets not confirmed from abstract)"
+    ],
+    "uses_humaneval_or_mbpp": false,
+    "multilingual_or_repo_level": false,
+    "efficiency_metric_families": [
+      "energy",
+      "latency_throughput"
+    ],
+    "efficiency_metric_evidence": {
+      "energy": "title/abstract: 'A Benchmark of Energy and Performance'; benchmarks models on 'energy ... efficiency'",
+      "latency_throughput": "abstract: benchmarks 'time efficiency' of local LLMs on code generation and completion"
+    },
+    "rationale": "Peer-reviewed benchmark of local LLMs measuring energy and time efficiency in addition to task performance on code generation and completion",
+    "fulltext": "abstract-only (https://api.openalex.org/works/W7167465800 abstract; DOI 10.1145/3786148.3788630 ACM DL full text returned 403)",
+    "notes": "GREENS 2026 workshop (IEEE/ACM, pp. 99-106; peer-reviewed conference/workshop -> venue_type conference). In scope: measures efficiency of the generation process (energy/time of running the LLMs). Abstract-only: model_name/hardware/benchmarks scored conservatively; energy and latency confidently true from abstract+title. uses_humaneval_or_mbpp unknown (likely uses standard code benchmarks) -> left false."
+  },
+  {
+    "key": "li2026codegenbench",
+    "title": "CodegenBench: Can LLMs Write Efficient Code Across Architectures?",
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "venue_type": "preprint",
+    "arxiv_id": "2606.04023",
+    "doi": null,
+    "first_version_date": "2026-06-01",
+    "primary_categories": [
+      {
+        "code": "4a",
+        "justification": "Introduces CodegenBench (106 BLAS routines + LeetSunway/LeetKunpeng kernels) to evaluate efficient parallel code generation across x86_64, Sunway, and Kunpeng architectures."
+      }
+    ],
+    "secondary_categories": [
+      {
+        "code": "4b",
+        "justification": "Empirical evaluation of top open- and closed-source LLMs exposing cross-architecture generalization gaps and factors influencing code quality."
+      }
+    ],
+    "scope_flag": "SCOPE-GenEffCode",
+    "qa1": {
+      "score": 1,
+      "evidence": "Extensive empirical evaluation with Pass@1 and Speedup across three architectures; 'we conduct an extensive empirical evaluation of top-tier open-source and closed-source LLMs'."
+    },
+    "qa2": {
+      "score": 1,
+      "evidence": "Baselines: 106 standard BLAS routines and OpenBLAS/sequential-code comparison; multiple models compared ('DeepSeek v3.2 exhibits execution efficiency superior to that of OpenBLAS')."
+    },
+    "qa3": {
+      "score": 1,
+      "evidence": "Hardware architectures detailed (SW26010 many-core, Kunpeng, x86_64), datasets (106 BLAS + 20 kernels per arch), models, and evaluation protocol (Pass@1 within 5 generation attempts) disclosed."
+    },
+    "qa4": {
+      "score": 1,
+      "evidence": "'We open-source our dataset and automated evaluation infrastructure ... https://anonymous.4open.science/r/CodegenBench-EDE1/ and .../CodegenBenchDataset-2551/'."
+    },
+    "qa_total": 4.0,
+    "audit": {
+      "correctness": {
+        "value": true,
+        "evidence": "Pass@1 reported throughout (Fig. 2, tables)."
+      },
+      "model_name": {
+        "value": true,
+        "evidence": "Names DeepSeek V3.2/V4-Flash/V4-Pro, Qwen 3.5/3.6 Plus/Flash, Claude Sonnet 4.6, Claude Opus 4.6/4.7, GLM."
+      },
+      "hardware": {
+        "value": true,
+        "evidence": "'Sunway Supercomputer operates on SW26010 many-core processors'; targets x86_64, Sunway, Kunpeng (Appendix C.2 details)."
+      },
+      "latency": {
+        "value": true,
+        "evidence": "Reports Speedup and execution efficiency of generated code (e.g. 'execution efficiency superior to that of OpenBLAS'; speedup > 1 tables)."
+      },
+      "memory": {
+        "value": false,
+        "evidence": "Memory only discussed as architectural complexity, not a measured generation-memory metric."
+      },
+      "serving_config": {
+        "value": false,
+        "evidence": "No serving framework/batch/precision/parallelism disclosed (models accessed as API endpoints)."
+      },
+      "monetary": {
+        "value": false,
+        "evidence": "Cost discussed only qualitatively ('closed-source models at a highly efficient cost'); no dollar figures."
+      },
+      "energy": {
+        "value": false,
+        "evidence": "Not reported."
+      }
+    },
+    "benchmarks": [
+      "CodegenBench (106 BLAS routines)",
+      "LeetSunway",
+      "LeetKunpeng"
+    ],
+    "uses_humaneval_or_mbpp": false,
+    "multilingual_or_repo_level": false,
+    "efficiency_metric_families": [
+      "tokens_calls"
+    ],
+    "efficiency_metric_evidence": {
+      "tokens_calls": "Fig. 5: 'Average tokens consumed to generate correct code. Claude series use fewer tokens ...' (generation token consumption vs performance)"
+    },
+    "rationale": "Benchmark for efficient parallel HPC code generation across x86_64, Sunway, and Kunpeng; LLMs optimize for x86_64 but degrade sharply on domain-specific architectures",
+    "fulltext": "full (https://arxiv.org/pdf/2606.04023)",
+    "notes": "Measures efficiency (speedup/execution time) of generated HPC code across architectures -> SCOPE-GenEffCode (matches sec-rq5.tex framing). Artifacts released via anonymous.4open.science (double-blind links); QA4=1 as released+linked. 'latency' bit reflects generated-code runtime, not generation latency."
+  },
+  {
+    "key": "liu2026dyretriever",
+    "title": "Effective and Efficient Context Retrieval via Partial Dependency Graph for Repository-Level Code Generation",
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "venue_type": "preprint",
+    "arxiv_id": "2608.01927",
+    "doi": null,
+    "first_version_date": "2026-08-03",
+    "primary_categories": [
+      {
+        "code": "3e",
+        "justification": "DyRetriever selects entry-point functions with an LLM and reasons multi-hop over an on-demand partial dependency graph to select repository context, avoiding a global graph (context selection/pruning)."
+      }
+    ],
+    "secondary_categories": [],
+    "scope_flag": "",
+    "qa1": {
+      "score": 1,
+      "evidence": "Experiments with three LLMs on CoderEval and DevEval reporting Pass@1 and speed."
+    },
+    "qa2": {
+      "score": 1,
+      "evidence": "Compared against RAG/similarity-based and static-graph baselines: 'relative Pass@1 improvements of 25.63% and 59.73% ... 7.4x faster than baselines'."
+    },
+    "qa3": {
+      "score": 1,
+      "evidence": "Hardware ('Qwen3-Coder-30B-Instruct ... via vLLM on 2 Nvidia A100 GPUs'; Xeon CPU), models, datasets (CoderEval, DevEval), and greedy sampling (temperature=0) disclosed."
+    },
+    "qa4": {
+      "score": 1,
+      "evidence": "Zenodo + 'https://github.com/ZJU-CTAG/DyCoder' released."
+    },
+    "qa_total": 4.0,
+    "audit": {
+      "correctness": {
+        "value": true,
+        "evidence": "'relative Pass@1 improvements of 25.63% and 59.73% on CoderEval and DevEval'."
+      },
+      "model_name": {
+        "value": true,
+        "evidence": "'experiments with Qwen3-Coder [Qwen3-Coder-30B-Instruct], DeepSeek-v3.2, and GPT-4o-mini'."
+      },
+      "hardware": {
+        "value": true,
+        "evidence": "'deploy it locally via vLLM on 2 Nvidia A100 GPUs'; Xeon CPU noted."
+      },
+      "latency": {
+        "value": true,
+        "evidence": "'7.4x speedup over ... baselines'; 'generation speed of about 400 tokens/s'; reports time cost."
+      },
+      "memory": {
+        "value": false,
+        "evidence": "No generation-memory metric reported (only cites PagedAttention)."
+      },
+      "serving_config": {
+        "value": true,
+        "evidence": "'via vLLM [22] on 2 Nvidia A100 GPUs' and greedy sampling (temperature=0)."
+      },
+      "monetary": {
+        "value": true,
+        "evidence": "'compute the dollar cost according to the official pricing ... each function costs only $0.0039 on average'."
+      },
+      "energy": {
+        "value": false,
+        "evidence": "Not reported."
+      }
+    },
+    "benchmarks": [
+      "CoderEval",
+      "DevEval"
+    ],
+    "uses_humaneval_or_mbpp": false,
+    "multilingual_or_repo_level": true,
+    "efficiency_metric_families": [
+      "latency_throughput",
+      "monetary"
+    ],
+    "efficiency_metric_evidence": {
+      "latency_throughput": "'7.4x speedup over ... baselines'; 'generation speed of about 400 tokens/s'; reports pipeline time cost",
+      "monetary": "'compute the dollar cost according to the official pricing ... each function costs only $0.0039 on average'"
+    },
+    "rationale": "Repository-level context retrieval via an on-demand partial dependency graph; 7.4x faster than static-graph baselines with large relative Pass@1 gains on CoderEval and DevEval",
+    "fulltext": "full (https://arxiv.org/pdf/2608.01927)",
+    "notes": "Tool named DyCoder/DyRetriever in the paper. Placed under context pruning/selection in sec-rq3.tex -> 3e Context Pruning. CoderEval and DevEval are repository-level -> multilingual_or_repo_level=true."
+  },
+  {
+    "key": "yang2026loopcoder",
+    "title": "LoopCoder-v2: Only Loop Once for Efficient Test-Time Computation Scaling",
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "venue_type": "preprint",
+    "arxiv_id": "2606.18023",
+    "doi": null,
+    "first_version_date": "2026-06-16",
+    "primary_categories": [
+      {
+        "code": "3f",
+        "justification": "Parallel-loop coders use cross-loop position offsets and shared-KV attention so loop count no longer multiplies KV-cache memory/latency, keeping the KV footprint nearly constant across loops."
+      }
+    ],
+    "secondary_categories": [
+      {
+        "code": "3o",
+        "justification": "Frames loop count as a test-time computation-scaling knob with a sharp efficiency optimum (two loops best; three+ regress)."
+      }
+    ],
+    "scope_flag": "",
+    "qa1": {
+      "score": 1,
+      "evidence": "Trains 7B parallel-loop models and evaluates across code reasoning, agentic SWE, and tool-use benchmarks (SWE-bench Verified 43.0->64.4, Multi-SWE 14.0->31.0)."
+    },
+    "qa2": {
+      "score": 1,
+      "evidence": "Compared against non-looped baseline (R=1) and other coders (DeepSeek-Coder-V2-Lite, Qwen2.5-Coder-7B/14B/32B, Qwen3-235B, Kimi-Dev-72B)."
+    },
+    "qa3": {
+      "score": 0.5,
+      "evidence": "Training protocol disclosed (bf16 mixed precision, lr 4e-4 cosine decay, grad clip 1.0, 1M GPU hours) but specific GPU device/model not stated and training data is an internal deduplicated mixture (not public)."
+    },
+    "qa4": {
+      "score": 1,
+      "evidence": "Models released at 'huggingface.co/Multilingual-Multimodal-NLP/LoopCoder-V2'."
+    },
+    "qa_total": 3.5,
+    "audit": {
+      "correctness": {
+        "value": true,
+        "evidence": "'improving SWE-bench Verified from 43.0 to 64.4 points and Multi-SWE from 14.0 to 31.0 points'."
+      },
+      "model_name": {
+        "value": true,
+        "evidence": "Baselines named: DeepSeek-Coder-V2-Lite-Instruct, Qwen2.5-Coder-7B/14B/32B-Instruct, Qwen3-235B-A22B, Kimi-Dev-72B."
+      },
+      "hardware": {
+        "value": false,
+        "evidence": "Only '1M GPU hours' is given; no specific GPU device/spec disclosed."
+      },
+      "latency": {
+        "value": true,
+        "evidence": "'pass through f_theta and multiply wall-clock latency by R'; discusses latency vs loop count."
+      },
+      "memory": {
+        "value": true,
+        "evidence": "'shared-KV attention ... keeps the KV-cache footprint nearly constant across loop counts'; memory cost analysis vs loops."
+      },
+      "serving_config": {
+        "value": true,
+        "evidence": "'All runs use bf16 mixed precision' (precision disclosed)."
+      },
+      "monetary": {
+        "value": false,
+        "evidence": "No monetary/API cost reported."
+      },
+      "energy": {
+        "value": false,
+        "evidence": "Not reported."
+      }
+    },
+    "benchmarks": [
+      "SWE-bench Verified",
+      "Multi-SWE",
+      "HumanEval+",
+      "MultiPL-E",
+      "BigCodeBench",
+      "LiveCodeBench"
+    ],
+    "uses_humaneval_or_mbpp": true,
+    "multilingual_or_repo_level": true,
+    "efficiency_metric_families": [
+      "latency_throughput",
+      "memory",
+      "compute",
+      "model_size"
+    ],
+    "efficiency_metric_evidence": {
+      "latency_throughput": "'pass through f_theta and multiply wall-clock latency by R'; latency analyzed as a function of loop count",
+      "memory": "'shared-KV attention ... keeps the KV-cache footprint nearly constant across loop counts'",
+      "compute": "training 'consumed a total of 1M GPU hours'",
+      "model_size": "'parameter count, optimizer state, and checkpoint footprint remain those of a single L-layer block regardless of R'"
+    },
+    "rationale": "Parallel-loop 7B coders with shared-KV attention make loop count a tunable design choice decoupled from latency/KV memory; two loops optimal (SWE-bench Verified 43.0->64.4), more regress",
+    "fulltext": "full (https://arxiv.org/pdf/2606.18023)",
+    "notes": "Category ambiguous: emphasized under KV cache optimization in sec-rq3.tex (shared-KV, constant KV footprint) -> primary 3f; secondary 3o for the test-time-compute-scaling optimum. uses_humaneval_or_mbpp=true (HE+ in eval table); multilingual_or_repo_level=true (MultiPL-E, SWE-bench)."
+  },
+  {
+    "key": "cheng2026adaedit",
+    "title": "To Diff or Not to Diff? Structure-Aware and Adaptive Output Formats for Efficient LLM-based Code Editing",
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "venue_type": "preprint",
+    "arxiv_id": "2604.27296",
+    "doi": null,
+    "first_version_date": "2026-04-30",
+    "primary_categories": [
+      {
+        "code": "3l",
+        "justification": "AdaEdit trains the model to pick the most token-efficient output representation (structure-aware block/function-level diff vs full code), a code-specific output-format optimization that cuts generated token count."
+      }
+    ],
+    "secondary_categories": [],
+    "scope_flag": "",
+    "qa1": {
+      "score": 1,
+      "evidence": "Pass@1 comparisons across diff formats and models on editing benchmarks (Table 1)."
+    },
+    "qa2": {
+      "score": 1,
+      "evidence": "Compared against conventional diff formats and full-code generation baseline; 'matches the accuracy of full-code generation while reducing both latency and cost by over 30%'."
+    },
+    "qa3": {
+      "score": 1,
+      "evidence": "Hardware (A100), full-parameter SFT with effective batch size 256, inference via vLLM with 20 samples at temperature 0.2 / top-p 0.95; models and datasets disclosed."
+    },
+    "qa4": {
+      "score": 1,
+      "evidence": "'Our source code is available at https://github.com/nju-websoft/AdaEdit'."
+    },
+    "qa_total": 4.0,
+    "audit": {
+      "correctness": {
+        "value": true,
+        "evidence": "Table 1 reports Pass@1 / edit accuracy across formats."
+      },
+      "model_name": {
+        "value": true,
+        "evidence": "'Qwen2.5-Coder series ... 7B and 14B' and 'DeepSeek-Coder-6.7B'."
+      },
+      "hardware": {
+        "value": true,
+        "evidence": "A100 GPUs used for training/inference (Sec. experimental setup)."
+      },
+      "latency": {
+        "value": true,
+        "evidence": "'reducing both latency and cost by over 30% on long-code editing tasks'."
+      },
+      "memory": {
+        "value": false,
+        "evidence": "No generation-memory metric reported."
+      },
+      "serving_config": {
+        "value": true,
+        "evidence": "'effective batch size of 256'; 'For inference, we employ the vLLM library'; '20 samples with a temperature of 0.2 and a top-p value of 0.95'."
+      },
+      "monetary": {
+        "value": false,
+        "evidence": "'cost' is measured as output token count / compute (proxy) and API cost discussed only qualitatively; no dollar figures."
+      },
+      "energy": {
+        "value": false,
+        "evidence": "Not reported."
+      }
+    },
+    "benchmarks": [
+      "CanItEdit",
+      "HumanEvalFix",
+      "Aider-1",
+      "Aider-2",
+      "long-code editing tasks"
+    ],
+    "uses_humaneval_or_mbpp": true,
+    "multilingual_or_repo_level": true,
+    "efficiency_metric_families": [
+      "latency_throughput",
+      "tokens_calls"
+    ],
+    "efficiency_metric_evidence": {
+      "latency_throughput": "'reducing both latency and cost by over 30% on long-code editing tasks'",
+      "tokens_calls": "trains the model to select the most token-efficient output representation (diff vs full code); output token count is the optimized cost"
+    },
+    "rationale": "Adaptively selects between structure-aware diff and full-code output to minimize edit tokens, matching full-code accuracy while cutting latency and cost by over 30%",
+    "fulltext": "full (https://arxiv.org/pdf/2604.27296)",
+    "notes": "Grouped with token-efficient code representations (SimPy/Token Sugar) in sec-rq3.tex -> 3l Code-Specific Optimization. uses_humaneval_or_mbpp=true (HumanEvalFix); multilingual_or_repo_level=true (HumanEvalFix/CanItEdit are multi-language). monetary set false because reported 'cost' is a token/compute proxy, not dollars (uncertain)."
+  },
+  {
+    "key": "naik2026reacomp",
+    "title": "ReaComp: Compiling LLM Reasoning into Symbolic Solvers for Efficient Program Synthesis",
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "venue_type": "preprint",
+    "arxiv_id": "2605.05485",
+    "doi": null,
+    "first_version_date": "2026-05-06",
+    "primary_categories": [
+      {
+        "code": "3k",
+        "justification": "Uses coding agents (Claude Code; Qwen+OpenHands) to compile a few reasoning traces into reusable symbolic solvers over constrained DSLs, so recurring tasks need no model calls at test time."
+      }
+    ],
+    "secondary_categories": [
+      {
+        "code": "3o",
+        "justification": "Amortizes reasoning by compiling reasoning traces into deterministic solvers, driving inference-time invocation/token count toward zero for a task family."
+      }
+    ],
+    "scope_flag": "",
+    "qa1": {
+      "score": 1,
+      "evidence": "Evaluated on PBEBench (Lite/Hard) and SLR-Bench with accuracy and token/cost metrics; '91.3% accuracy on PBEBench-Lite and 84.7% on PBEBench-Hard'."
+    },
+    "qa2": {
+      "score": 1,
+      "evidence": "Baselines: Best-of-K (K=32), Draft-and-Feedback refinement, direct coding-agent (OpenHands 24.9% at $224), LLM search with gpt-oss-120b."
+    },
+    "qa3": {
+      "score": 1,
+      "evidence": "Hardware '2 x NVIDIA A100 80 GB', models (gpt-oss-120b, claude-sonnet-4-6, Qwen3.6-35B-A3B), vLLM serving, K=32 and temperature fixed at 1.0, benchmarks disclosed."
+    },
+    "qa4": {
+      "score": 1,
+      "evidence": "'We release code and data for reproducibility https://github.com/cmu-llab/ReaComp'."
+    },
+    "qa_total": 4.0,
+    "audit": {
+      "correctness": {
+        "value": true,
+        "evidence": "'91.3% accuracy on PBEBench-Lite and 84.7% on PBEBench-Hard'; PBEBench-Hard 68.4->85.8."
+      },
+      "model_name": {
+        "value": true,
+        "evidence": "'gpt-oss-120b', 'Claude Code (CC) using claude-sonnet-4-6', 'Qwen + OpenHands (QO) using Qwen3.6-35B-A3B'."
+      },
+      "hardware": {
+        "value": true,
+        "evidence": "'2 x NVIDIA A100 80 GB'; interactive CLI session with no local GPU for CC."
+      },
+      "latency": {
+        "value": true,
+        "evidence": "'a wall-clock gap of over 500x (Appendix C)'; discusses inference-time compute/latency."
+      },
+      "memory": {
+        "value": false,
+        "evidence": "No memory-consumption metric reported."
+      },
+      "serving_config": {
+        "value": true,
+        "evidence": "'served via vLLM'; 'K = 32 ... temperature is fixed at 1.0'."
+      },
+      "monetary": {
+        "value": true,
+        "evidence": "'total cost ($9.97 vs. $12.20)'; 'solver construction overhead ($2.00 CC, $0.85 QO)'; OpenHands '$224'."
+      },
+      "energy": {
+        "value": false,
+        "evidence": "Not reported."
+      }
+    },
+    "benchmarks": [
+      "PBEBench-Lite",
+      "PBEBench-Hard",
+      "SLR-Bench"
+    ],
+    "uses_humaneval_or_mbpp": false,
+    "multilingual_or_repo_level": false,
+    "efficiency_metric_families": [
+      "tokens_calls",
+      "monetary",
+      "latency_throughput"
+    ],
+    "efficiency_metric_evidence": {
+      "tokens_calls": "'reducing reported token usage by 78%'; 'BoK + All Symbolic lowers total tokens from 68.0M to ...'; solvers need zero LLM calls at test time",
+      "monetary": "'matching peak BoK accuracy while reducing both token usage and total cost ($9.97 vs. $12.20)'; solver construction '$2.00 CC, $0.85 QO'",
+      "latency_throughput": "'a wall-clock gap of over 500x (Appendix C)'"
+    },
+    "rationale": "Compiles a few LLM reasoning traces into reusable symbolic solvers over constrained DSLs that run with zero model calls at test time, cutting token usage ~78% while raising PBEBench-Hard accuracy",
+    "fulltext": "full (https://arxiv.org/pdf/2605.05485)",
+    "notes": "Program-synthesis (PBE) setting. Placed in the multi-agent orchestration paragraph of sec-rq3.tex -> primary 3k; secondary 3o for reasoning-into-solver amortization. In scope (RQ3 inference efficiency: token/call reduction)."
+  }
+]

@@ -1,0 +1,241 @@
+80
+R003|A=exc B=inc|2025|MLLM-Based UI2Code Automation Guided by UI Layout Information
+  Converting user interfaces into code (UI2Code) is a crucial step in website development, which is time-consuming and labor-intensive. The automation of UI2Code is essential to streamline this task, beneficial for improving the development efficiency. There exist deep learning-based methods for the task; however, they heavily rely on a large amount of labeled training data and s
+
+R004|A=unc B=unc|2025|Modular Deep Learning: A Compositional Approach to Structured Generalization and Efficient Learning
+  
+
+R006|A=inc B=exc|2025|VeriRL: Boosting the LLM-based Verilog Code Generation via Reinforcement Learning
+  Recent advancements in code generation have shown remarkable success across software domains, yet hardware description languages (HDLs) such as Verilog remain underexplored due to their concurrency semantics, syntactic rigidity, and simulation complexity. In this work, we address these challenges by introducing a reinforcement learning (RL) framework tailored for Verilog code g
+
+R019|A=unc B=unc|2025|LLMs for Quantitative Investment Research: A Practitioner's Guide
+  
+
+R023|A=inc B=exc|2024|MOSS: Enabling Code-Driven Evolution and Context Management for AI Agents
+  Developing AI agents powered by large language models (LLMs) faces significant challenges in achieving true Turing completeness and adaptive, code-driven evolution. Current approaches often generate code independently of its runtime context, relying heavily on the LLM's memory, which results in inefficiencies and limits adaptability. Manual protocol development in sandbox envir
+
+R029|A=exc B=inc|2025|E2LLM: Encoder Elongated Large Language Models for Long-Context Understanding and Reasoning
+  Processing long contexts is increasingly important for Large Language Models (LLMs) in tasks like multi-turn dialogues, code generation, and document summarization. This paper addresses the challenges of achieving high long-context performance, low computational complexity, and compatibility with pretrained models -- collectively termed the ``impossible triangle''. We introduce
+
+R033|A=unc B=unc|2026|Ask, Then Think: Enhancing LLM Performance with Socratic Reasoning
+  
+
+R045|A=unc B=unc|2025|Optiagent: A Scalable Framework for Enhancing Memory Access Performance Via Optimizing Code Generation with Large Langua
+  
+
+R057|A=unc B=unc|2026|Task-Conditioned Representation Adaptation for Many-Shot In-Context Learning via Continued Pretraining
+  
+
+R059|A=exc B=inc|2025|DDPT: Diffusion-Driven Prompt Tuning for Large Language Model Code Generation
+  Large Language Models (LLMs) have demonstrated remarkable capabilities in code generation. However, the quality of the generated code is heavily dependent on the structure and composition of the prompts used. Crafting high-quality prompts is a challenging task that requires significant knowledge and skills of prompt engineering. To advance the automation support for the prompt 
+
+R065|A=inc B=exc|2023|CodeT5+: Open Code Large Language Models for Code Understanding and Generation
+  Large language models (LLMs) pretrained on vast source code have achieved prominent progress in code intelligence. However, existing code LLMs have two main limitations in terms of architecture and pretraining tasks. First, they often adopt a specific architecture (encoder-only or decoder-only) or rely on a unified encoder-decoder network for different downstream tasks. The for
+
+R067|A=inc B=exc|2025|3D-Grounded Vision-Language Framework for Robotic Task Planning: Automated Prompt Synthesis and Supervised Reasoning
+  Vision-language models (VLMs) have achieved remarkable success in scene understanding and perception tasks, enabling robots to plan and execute actions adaptively in dynamic environments. However, most multimodal large language models lack robust 3D scene localization capabilities, limiting their effectiveness in fine-grained robotic operations. Additionally, challenges such as
+
+R094|A=inc B=exc|2026|Graph-GRPO: Stabilizing Multi-Agent Topology Learning via Group Relative Policy Optimization
+  Optimizing communication topology is fundamental to the efficiency and effectiveness of Large Language Model (LLM)-based Multi-Agent Systems (MAS). While recent approaches utilize reinforcement learning to dynamically construct task-specific graphs, they typically rely on single-sample policy gradients with absolute rewards (e.g., binary correctness). This paradigm suffers from
+
+R099|A=unc B=unc|2025|Iterative program synthesis with code knowledge
+  
+
+R101|A=inc B=exc|2025|A Comparative Empirical Study of Prompting Strategies for Code Generation with Large Language Models
+  Large language models have demonstrated strong capabilities in automated code generation, yet the influence of prompting strategies on generation quality remains insufficiently characterized under controlled experimental conditions. This study presents a systematic comparative evaluation of five prompting strategies — direct instruction, few-shot, zero-shot chain-of-thought, fe
+
+R105|A=exc B=inc|2025|ArchTune: A Predictive Energy Estimation Framework for LLM Inference on Edge Accelerators
+  Transformer-based Large Language Models (LLMs) power applications from virtual assistants and code generation to scientific discovery. As their capabilities grow, they are used for emerging use cases such as offline AI copilots, on-device personalization, and edge inference. This demands efficient deployment of fine-tuned LLMs or compact Small Language Models (SLMs) on resource
+
+R108|A=unc B=unc|2019|“Why Did You Do That?”
+  
+
+R109|A=unc B=unc|2024|Beyond Copy–Pasting—Contextualizing LLMs for Secure Code Generation
+  
+
+R111|A=unc B=unc|2025|FPGA-Based Method for Automated Design of Neural Network Controllers
+  
+
+R114|A=inc B=exc|2025|Code2Video: A Code-centric Paradigm for Educational Video Generation
+  While recent generative models advance pixel-space video synthesis, they remain limited in producing professional educational videos, which demand disciplinary knowledge, precise visual structures, and coherent transitions, limiting their applicability in educational scenarios. Intuitively, such requirements are better addressed through the manipulation of a renderable environm
+
+R119|A=exc B=unc|2026|Bridging the Efficiency Paradox: A Systematic Mapping Study on Verification Paradigms in LLM-Generated RTL
+  
+
+R120|A=unc B=unc|2025|AI in Automotive: How to Combine GenAI with Systems Engineering
+  
+
+R122|A=inc B=exc|2026|LLaMoCo: Instruction Tuning of Large Language Models for Optimization Code Generation
+  Recently, combining the strength of large language models (LLMs) and Evolutionary Computation (EC) has shown promising results for addressing optimization problems. It typically involves either iterative next-step solution seeking or directly prompting LLMs to generate critical optimization codes. However, these methods often suffer from low computational efficiency, high sensi
+
+R127|A=inc B=exc|2024|Hotfixing Large Language Models for Code
+  Large Language Models for Code (LLM4Code) have become an integral part of developers' workflows, assisting with tasks such as code completion and generation. However, these models are found to exhibit undesired behaviors after their release, like generating buggy code, due to their extensive training on vast amounts of source code that contain such buggy code. The training data
+
+R134|A=unc B=unc|2026|Render-in-the-Loop: Vector Graphics Generation via Visual Self-feedback
+  
+
+R135|A=inc B=exc|2026|Graph-GRPO: Stabilizing Multi-Agent Topology Learning via Group Relative Policy Optimization
+  Optimizing communication topology is fundamental to the efficiency and effectiveness of Large Language Model (LLM)-based Multi-Agent Systems (MAS).While recent approaches utilize reinforcement learning to dynamically construct task-specific graphs, they typically rely on single-sample policy gradients with absolute rewards (e.g., binary correctness).This paradigm suffers from s
+
+R139|A=unc B=unc|2022|Tensor slicing and optimization for multicore NPUs
+  
+
+R144|A=unc B=unc|2024|Enhancing Code Generation Performance of Smaller Models by Distilling the Reasoning Ability of LLMs
+  
+
+R151|A=inc B=exc|2025|Generation of Programmatic Rules for Document Forgery Detection Using Large Language Models
+  Document forgery poses a growing threat to legal, economic, and governmental processes, requiring increasingly sophisticated verification mechanisms. One approach involves the use of plausibility checks, rule-based procedures that assess the correctness and internal consistency of data, to detect anomalies or signs of manipulation. Although these verification procedures are ess
+
+R153|A=unc B=exc|2026|A self-correcting multi-agent LLM framework for language-based physics simulation and explanation
+  Physics-based simulations are essential in science and engineering, yet creating them typically requires expert knowledge of numerical solvers and governing equations. Large language models (LLMs) offer new possibilities for natural language-based simulation, but they often fail when prompts are vague, incomplete, or multilingual. We present MCP-SIM ( M emory- C oordinated P hy
+
+R164|A=unc B=unc|2026|CHORUS: Zero-Shot Hierarchical Retrieval and Orchestration for Generating Linear Programming Code
+  
+
+R167|A=unc B=unc|2026|Large Language Model Approaches to Educational Video Generation Using Manim
+  
+
+R168|A=exc B=inc|2025|DeclarUI: Bridging Design and Development with Automated Declarative UI Code Generation
+  Declarative UI frameworks have gained widespread adoption in mobile app development, offering benefits such as improved code readability and easier maintenance. Despite these advantages, the process of translating UI designs into functional code remains challenging and time-consuming. Recent advancements in multimodal large language models (MLLMs) have shown promise in directly
+
+R172|A=inc B=exc|2025|HD-PiSSA: High-Rank Distributed Orthogonal Adaptation
+  Existing parameter-efficient fine-tuning (PEFT) methods for large language models (LLMs), such as LoRA and PiSSA, constrain model updates to low-rank subspaces, limiting their expressiveness and leading to suboptimal performance on complex tasks. To address this, we introduce High-rank Distributed PiSSA (HD-PiSSA), a distributed PEFT approach that initializes orthogonal adapter
+
+R176|A=inc B=exc|2025|Advancing LLM Agents for Code Generation: Observability, Orchestration, Reliable Performance
+  Large Language Model (LLM) agents have gained popularity for constructing complex coding pipelines that incorporate multiple tools, iterative processes, and advanced libraries such as LlamaIndex and LangChain. Recognizing the critical need for observability, we emphasize techniques to monitor and control the process, costs, frequency of model calls, prompt usage, and overall lo
+
+R179|A=exc B=inc|2020|Multi-task learning based pre-trained language model for code completion
+  Code completion is one of the most useful features in the Integrated Development Environments (IDEs), which can accelerate software development by suggesting the next probable token based on the contextual code in real-time. Recent studies have shown that statistical language modeling techniques can improve the performance of code completion tools through learning from large-sc
+
+R181|A=inc B=exc|2024|ConceptSearch: Towards Efficient Program Search Using LLMs for Abstraction and Reasoning Corpus (ARC)
+  The Abstraction and Reasoning Corpus (ARC) poses a significant challenge to artificial intelligence, demanding broad generalization and few-shot learning capabilities that remain elusive for current deep learning methods, including large language models (LLMs). While LLMs excel in program synthesis, their direct application to ARC yields limited success. To address this, we int
+
+R188|A=exc B=inc|2024|SwissNYF: Tool Grounded LLM Agents for Black Box Setting
+  While Large Language Models (LLMs) have demonstrated enhanced capabilities in function-calling, these advancements primarily rely on accessing the functions' responses. This methodology is practical for simpler APIs but faces scalability issues with irreversible APIs that significantly impact the system, such as a database deletion API. Similarly, processes requiring extensive 
+
+R192|A=exc B=inc|2026|Rethinking Automated Program Repair: The Impact of Bug Complexity, Fault Localization, and LLM Cost-Efficiency
+  Background. Software bugs remain a critical challenge in development, necessitating effective Automated Program Repair (APR) techniques. While Large Language Model (LLM)-based APR systems have shown promise, prior studies primarily focus on overall repair effectiveness. The effects of bug complexity, fault localization, reasoning settings, and repair cost-effectiveness remain i
+
+R193|A=exc B=inc|2026|When Cache Poisoning Meets LLM Systems: Semantic Cache Poisoning and Its Countermeasures
+  The emergence of large language models (LLMs) has enabled a wide range of applications, including code generation, chatbots, and AI agents.However, deploying these applications faces substantial challenges in terms of cost and efficiency.One notable optimization to address these challenges is semantic caching, which reuses query-response pairs across users based on semantic sim
+
+R195|A=inc B=exc|2025|An Interactive Agentic HPC Tutor for Lesson Planning, Teaching, and Assessment
+  High-performance computing (HPC) education is at an inflection point, driven by agentic systems and “prompt-engineering” as a form of programming. We describe an interactive tutor built from autonomous LLM-based agents, each with a narrow role: planning lessons, explaining concepts, scaffolding code, and executing runs. Using open-source toolkits and locally hosted models on le
+
+R197|A=unc B=unc|2025|LLM-SYM: Integrating Symbolic Methods and Large Language Models for Automated Theorem Proving
+  
+
+R200|A=unc B=unc|2025|Hardware-Specific Implementation of Neural Network for Handwritten Digit Detection
+  
+
+R208|A=unc B=unc|2025|A Programming-Specific Retrieval-Augmented Generation (RAG) Model Using LangChain
+  
+
+R213|A=unc B=unc|2026|Exploring Dependence, Overreliance, and Addiction Related Behaviors Associated with Large Language Model Use Among Softw
+  
+
+R215|A=unc B=unc|2025|DeepSeek and the Evolution of Generative AI
+  
+
+R221|A=unc B=unc|2026|Cost-Efficient Distributed AI Architectures: Lightweight LLM Agents vs GPT-4o Monoliths in Academic Workflows
+  
+
+R224|A=unc B=unc|2026|DesignCoder: Hierarchy-Aware and Self-Correcting UI Code Generation with Large Language Models
+  
+
+R227|A=unc B=unc|2025|Efficient program optimization through knowledge-enhanced LoRA fine-tuning of large language models
+  
+
+R228|A=inc B=exc|2025|Automatic MILP Model Construction for Multi-Robot Task Allocation and Scheduling Based on Large Language Models
+  With the accelerated development of Industry 4.0, intelligent manufacturing systems increasingly require efficient task allocation and scheduling in multi-robot systems. However, existing methods rely on domain expertise and face challenges in adapting to dynamic production constraints. Additionally, enterprises have high privacy requirements for production scheduling data, whi
+
+R231|A=unc B=exc|2026|Automatic GUI Code Generation via Convolutional Neural Networks from Low-Fidelity Wireframes
+  
+
+R234|A=exc B=inc|2025|Understanding the Performance and Power of LLM Inferencing on Edge Accelerators
+  Large Language Models (LLMs) have demonstrated exceptional benefits to a wide range of domains, for tasks as diverse as code generation and robot navigation. While LLMs are usually served from cloud data centers, mission critical and privacy sensitive applications may require local hosting of open LLM models. Given the large GPU memory footprint needed for LLMs, edge accelerato
+
+R241|A=inc B=exc|2025|LLMind 2.0: Distributed IoT Automation with Natural Language M2M Communication and Lightweight LLM Agents
+  Recent advances in large language models (LLMs) have generated great interest in their applications for IoT automation and device management. However, centralized approaches struggle to scale across heterogeneous, large-scale systems. We present LLMind 2.0, a distributed framework that embeds lightweight LLM-empowered device agents and adopts natural language for machine-to-mac
+
+R247|A=unc B=unc|2025|Prompt2Act: Mapping prompts into sequence of robotic actions with large foundation models
+  
+
+R262|A=unc B=unc|2026|Convergent Correctness in Stochastic Code Generation: A Generate-Verify-Repair Architecture for Deterministic Validation
+  
+
+R269|A=exc B=inc|2026|Efficient Methods for Updating Software Library Knowledge in Code-Generating Large Language Models
+  Large language models used for code generation become outdated as software libraries evolve after their pre-training. This thesis investigates efficient methods for updating code-generation models with new API knowledge without retraining from scratch. A benchmark dataset of 150 pandas API updates released after the model's knowledge cutoff is constructed from real library evol
+
+R276|A=unc B=unc|2025|GPowerT: LLM-Driven Automated Programming for Power-Constrained IoT Applications
+  
+
+R277|A=inc B=exc|2025|Compute Optimal Scaling of Skills: Knowledge vs Reasoning
+  Scaling laws are a critical component of the LLM development pipeline, most famously as a way to forecast training decisions such as 'compute-optimally' trading-off parameter count and dataset size, alongside a more recent growing list of other crucial decisions.In this work, we ask whether compute-optimal scaling behaviour can be skill-dependent.In particular, we examine knowl
+
+R282|A=unc B=unc|2026|Formal design of safety-critical systems with MARS
+  
+
+R285|A=inc B=exc|2025|GeoCode-GPT: A large language model for geospatial code generation
+  • Introduced GeoCode-GPT-7B, the first LLM for geospatial code generation. • Developed and open-sourced GeoCode-PT, GeoCode-SFT, and GeoCode-Eval datasets. • Proposed a pretraining and fine-tuning strategy combining QLoRA and LoRA. • Established an evaluation framework for geospatial code generation. The increasing demand for spatiotemporal data and modeling tasks in geoscience
+
+R286|A=unc B=unc|2024|Automated patch correctness predicting to fix software defect
+  
+
+R315|A=exc B=inc|2025|AnaSizeCoder: Code Generator for Analog Integrated Circuit Sizing Automation via Large Language Model
+  This study proposes a task-driven approach AnaSizeCoder that utilizes the large language model (LLM) Qwen2.5 to automatically generate optimization code for transistor sizing in analog integrated circuits (IC). Traditional optimization techniques often require manual code adjustments when faced with different optimization objectives and constraints, limiting their flexibility a
+
+R320|A=inc B=exc|2025|hdl2v: A Code Translation Dataset for Enhanced LLM Verilog Generation
+  Large language models (LLMs) are playing an increasingly large role in domains such as code generation, including hardware code generation, where Verilog is the key language. However, the amount of publicly available Verilog code pales in comparison to the amount of code available for software languages like Python. In this work, we present hdl2v ("HDL-to-Verilog"), a dataset w
+
+R333|A=inc B=exc|2026|GraphSkill: Documentation-Guided Hierarchical Retrieval-Augmented Coding for Complex Graph Reasoning
+  The growing demand for automated graph algorithm reasoning has attracted increasing attention in the large language model (LLM) community. Recent LLM-based graph reasoning methods typically decouple task descriptions from graph data, generate executable code augmented by retrieval from technical documentation, and refine the code through debugging. However, we identify two key 
+
+R337|A=exc B=inc|2024|E2LLM: Encoder Elongated Large Language Models for Long-Context Understanding and Reasoning
+  Processing long contexts is increasingly important for Large Language Models (LLMs) in tasks like multi-turn dialogues, code generation, and document summarization. This paper addresses the challenges of achieving high long-context performance, low computational complexity, and compatibility with pretrained models -- collectively termed the ``impossible triangle''. We introduce
+
+R339|A=inc B=exc|2024|Strategic Optimization and Challenges of Large Language Models in Object-Oriented Programming
+  In the area of code generation research, the emphasis has transitioned from crafting individual functions to developing class-level method code that integrates contextual information. This shift has brought several benchmarks such as ClassEval and CoderEval, which consider class-level contexts. Nevertheless, the influence of specific contextual factors at the method level remai
+
+R340|A=unc B=unc|2026|Overview of Medical NLP Code Generation with FHIR for Clinical Trial Screening
+  
+
+R342|A=inc B=exc|2025|AUCAD: Automated Construction of Alignment Dataset from Log-Related Issues for Enhancing LLM-based Log Generation
+  Log statements have become an integral part of modern software systems.Prior research efforts have focused on supporting the decisions of placing log statements, such as where/what to log.With the increasing adoption of Large Language Models (LLMs) for coderelated tasks such as code completion or generation, automated approaches for generating log statements have gained much mo
+
+R345|A=unc B=unc|2025|A Study of Prompt Engineering Techniques for Code Generation: Focusing on Data Science Applications
+  
+
+R347|A=exc B=inc|2024|Extend Model Merging from Fine-Tuned to Pre-Trained Large Language Models via Weight Disentanglement
+  Merging Large Language Models (LLMs) aims to amalgamate multiple homologous LLMs into one with all the capabilities. Ideally, any LLMs sharing the same backbone should be mergeable, irrespective of whether they are Fine-Tuned (FT) with minor parameter changes or Pre-Trained (PT) with substantial parameter shifts. However, existing methods often manually assign the model importa
+
+R350|A=unc B=unc|2026|Modern Retrieval-Augmented Generation Methods and Their Application in Engineering
+  
+
+R351|A=unc B=unc|2025|Automating Code Generation for a New Ecosystem: Establishing Baselines with Large Language Model Based Code Generation f
+  
+
+R352|A=inc B=exc|2025|UniGenCoder: Merging Seq2Seq and Seq2Tree Paradigms for Unified Code Generation
+  Deep learning-based code generation has completely transformed the way developers write programs today. Existing approaches to code generation have focused either on the Sequence-to-Sequence paradigm, which generates target code as a sequence of tokens, or the Sequence-to-Tree paradigm, which outputs code as a sequence of actions. While these two paradigms are intuitively compl
+
+R361|A=exc B=inc|2025|Adaptive Semantic Gradient Modulation for Large Language Model Fine-tuning and Adaptation
+  With the widespread application of large language models (LMs) in natural language processing, question answering, code generation, and multimodal tasks, efficiently adapting general models to specific tasks and domains has become a research hotspot. Traditional fine-tuning methods mainly include full fine-tuning, low-rank increment (LoRA), adapter, and prompt tuning. These met
+
+R364|A=inc B=exc|2022|NatGen: generative pre-training by “naturalizing” source code
+  Pre-trained Generative Language models (e.g., PLBART, CodeT5, SPT-Code) for source code yielded strong results on several tasks in the past few years, including code generation and translation. These models have adopted varying pre-training objectives to learn statistics of code construction from very large-scale corpora in a self-supervised fashion; the success of pre-trained 
+
+R372|A=inc B=exc|2025|Propose, Solve, Verify: Self-Play Through Formal Verification
+  Training models through self-play alone (without any human data) has been a longstanding goal in AI, but its effectiveness for training large language models remains unclear, particularly in code generation where rewards based on unit tests are brittle and prone to error propagation. We study self-play in the verified code generation setting, where formal verification provides 
+
+R389|A=exc B=unc|2024|Few-shot code translation via task-adapted prompt learning
+  
+
+R391|A=exc B=unc|2025|FedDualFix: A Federated Multi-Agent Framework for Privacy-Aware and Adaptive Automated Program Repair
+  
+
+R393|A=exc B=inc|2025|ChiseLLM: Unleashing the Power of Reasoning LLMs for Chisel Agile Hardware Development
+  The growing demand for Domain-Specific Architecture (DSA) has driven the development of Agile Hardware Development Methodology (AHDM). Hardware Construction Language (HCL) like Chisel offers high-level abstraction features, making it an ideal language for HCL-Based AHDM. While Large Language Models (LLMs) excel in code generation tasks, they still face challenges with Chisel ge
+
+R396|A=unc B=unc|2026|ChipClaude: A Framework for Natural Language-Based Hardware Design Using LLM Distillation
+  
+

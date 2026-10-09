@@ -1,0 +1,14 @@
+date,phase,source,method,records,stage_outcome,notes
+2026-03-06,main campaign,IEEE Xplore,"Command Search, (""All Metadata"":A) AND (""All Metadata"":B)",7032,,advanced-search interface; query verbatim in docs/search-queries.md
+2026-03-06,main campaign,ACM Digital Library,"[All: A] AND [All: B] over The ACM Guide to Computing Literature",6708,,advanced-search interface
+2026-03-06,main campaign,Scopus,"TITLE-ABS-KEY(A) AND TITLE-ABS-KEY(B)",7529,,advanced-search interface
+2026-03-06,main campaign,Web of Science,"TS=(A) AND TS=(B)",805,,advanced-search interface
+2026-03-06,main campaign,Semantic Scholar,"bulk API, one query per Group A phrase, local Group B filter on title+abstract",1505,,"final protocol count; an earlier partial API run on the same day logged 864 hits in the working progress log (slr-protocol/progress-memory.md), the final execution record is with the first author, both counts are documented here as executed"
+2026-03-06,main campaign,arXiv,"API, all:a per Group A phrase in cs.*, local Group B filter",2197,,
+2026-03-06,main campaign,DBLP,"API, one title query per Group A phrase, local Group B title filter",489,,
+2026-03-06,main campaign,ALL,deduplication,26265,22118 unique,"26,265 raw records; 22,118 unique after deduplication (Figure 2 of the manuscript)"
+2026-09-07,window search (April-August 2026),OpenAlex,"scripts/monthly_update_openalex.py schema, window run 2026-04-01..2026-09-07",436,16 selected,"funnel 436 candidates / 25 nominated / 23 unique / 16 selected; record in data/monthly-updates/2026-09.json"
+2026-09-29,window search (April-August 2026),arXiv,"arxiv_search.py, window 2026-04-01..2026-08-31",1095,6 selected,"funnel 1095 raw / 413 boolean / 127 title-strict / 111 nominated new / 6 selected; full per-record screening log and batch record in data/window-search-2026/"
+2026-10-01,corpus merge,OpenAlex+arXiv,"window rounds merged into the corpus as Phase 4 (single campaign, cut-off 2026-08-31)",19,141-study corpus,"16 OpenAlex + 6 arXiv - 3 overlaps = 19; per-study extraction records in data/corpus-merge-20261001/; merge recomputation script included"
+2026-10-07,gap search (March 2026),OpenAlex,"scripts/monthly_update_openalex.py, window 2026-03-07..2026-03-31",5954,0 eligible + 1 pending,"funnel 5954 Group A / 561 boolean / 116 title-strict"
+2026-10-07,gap search (March 2026),arXiv,"arxiv_search.py, window 2026-03-07..2026-03-31",150,0 eligible + 1 pending,"funnel 150 raw / 54 boolean / 12 title-strict / 12 nominated new; merged union with OpenAlex round: 118 unique candidates, 0 overlap with the 141 corpus, strictly eligible 0, one record pending full-text adjudication (G000, EAAI 2026, DOI 10.1016/j.engappai.2026.114360); artifacts in data/gap-search-20261007/"

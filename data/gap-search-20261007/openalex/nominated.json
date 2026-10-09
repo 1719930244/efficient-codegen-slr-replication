@@ -1,0 +1,930 @@
+[
+ {
+  "openalex_id": "https://openalex.org/W7134128141",
+  "doi": "https://doi.org/10.1016/j.engappai.2026.114360",
+  "title": "Divide and conquer: Optimizing code Chain-of-Thought in Small Language Model",
+  "publication_date": "2026-03-07",
+  "venue": "Engineering Applications of Artificial Intelligence",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134826674",
+  "doi": "https://doi.org/10.48550/arxiv.2603.07057",
+  "title": "SODA: Sensitivity-Oriented Dynamic Acceleration for Diffusion Transformer",
+  "publication_date": "2026-03-07",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134123754",
+  "doi": "https://doi.org/10.5281/zenodo.18897072",
+  "title": "FALCON: Efficient Test Case Prioritization via Submodular Optimization",
+  "publication_date": "2026-03-07",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134822694",
+  "doi": "https://doi.org/10.48550/arxiv.2603.07835",
+  "title": "DistillGuard: Evaluating Defenses Against LLM Knowledge Distillation",
+  "publication_date": "2026-03-08",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134199485",
+  "doi": "https://doi.org/10.5281/zenodo.18906852",
+  "title": "The Crimson Hexagon: Operative Architecture — A Definitive Compression",
+  "publication_date": "2026-03-08",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134241149",
+  "doi": "https://doi.org/10.5281/zenodo.18918774",
+  "title": "Entanglement-Optimal Fine-Tuning: Leveraging Universal Concept Coupling for Parameter-Efficient Adaptation",
+  "publication_date": "2026-03-09",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134844364",
+  "doi": "https://doi.org/10.48550/arxiv.2603.08026",
+  "title": "DyLLM: Efficient Diffusion LLM Inference via Saliency-based Token Selection and Partial Attention",
+  "publication_date": "2026-03-09",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134837349",
+  "doi": "https://doi.org/10.48550/arxiv.2603.08453",
+  "title": "LycheeCluster: Efficient Long-Context Inference with Structure-Aware Chunking and Hierarchical KV Indexing",
+  "publication_date": "2026-03-09",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W4414691560",
+  "doi": "https://doi.org/10.1016/j.eswa.2026.131756",
+  "title": "Large language model assisted meta-evolution for automated constrained optimization evolutionary algorithm design",
+  "publication_date": "2026-03-09",
+  "venue": "Expert Systems with Applications",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134830550",
+  "doi": "https://doi.org/10.48550/arxiv.2603.07897",
+  "title": "LeJOT-AutoML: LLM-Driven Feature Engineering for Job Execution Time Prediction in Databricks Cost Optimization",
+  "publication_date": "2026-03-09",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134813756",
+  "doi": "https://doi.org/10.48550/arxiv.2603.08574",
+  "title": "Scalable Neural Vocoder from Range-Null Space Decomposition",
+  "publication_date": "2026-03-09",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134945412",
+  "doi": "https://doi.org/10.1145/3779212.3790231",
+  "title": "Taming the Long-Tail: Efficient Reasoning RL Training with Adaptive Drafter",
+  "publication_date": "2026-03-10",
+  "venue": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135098510",
+  "doi": "https://doi.org/10.48550/arxiv.2603.10085",
+  "title": "KernelSkill: A Multi-Agent Framework for GPU Kernel Optimization",
+  "publication_date": "2026-03-10",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134924069",
+  "doi": "https://doi.org/10.48550/arxiv.2603.09480",
+  "title": "Prune Redundancy, Preserve Essence: Vision Token Compression in VLMs via Synergistic Importance-Diversity",
+  "publication_date": "2026-03-10",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134936799",
+  "doi": "https://doi.org/10.1145/3779212.3790138",
+  "title": "CHEHAB RL: Learning to Optimize Fully Homomorphic Encryption Computations",
+  "publication_date": "2026-03-10",
+  "venue": "ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7134985804",
+  "doi": "https://doi.org/10.5194/wbf2026-550",
+  "title": "Scalable AI‑assisted annotation of remote sensing imagery",
+  "publication_date": "2026-03-10",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135039250",
+  "doi": "https://doi.org/10.48550/arxiv.2603.10682",
+  "title": "OnFly: Onboard Zero-Shot Aerial Vision-Language Navigation toward Safety and Efficiency",
+  "publication_date": "2026-03-11",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135237946",
+  "doi": "https://doi.org/10.48550/arxiv.2603.11489",
+  "title": "AutoVeriFix+: High-Correctness RTL Generation via Trace-Aware Causal Fix and Semantic Redundancy Pruning",
+  "publication_date": "2026-03-12",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135019869",
+  "doi": "https://doi.org/10.5281/zenodo.18978026",
+  "title": "Artifact for the Paper \"Arash: Token-Efficient LLM-Assisted Crash Root Cause Analysis in Fuzz Driver Generation\"",
+  "publication_date": "2026-03-12",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135242154",
+  "doi": "https://doi.org/10.48550/arxiv.2603.11935",
+  "title": "MobileKernelBench: Can LLMs Write Efficient Kernels for Mobile Devices?",
+  "publication_date": "2026-03-12",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138407931",
+  "doi": "https://doi.org/10.48550/arxiv.2603.13420",
+  "title": "Accelerating Suffix Jailbreak attacks with Prefix-Shared KV-cache",
+  "publication_date": "2026-03-12",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135207146",
+  "doi": "https://doi.org/10.48550/arxiv.2603.12248",
+  "title": "Matching Features, Not Tokens: Energy-Based Fine-Tuning of Language Models",
+  "publication_date": "2026-03-12",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135052503",
+  "doi": "https://doi.org/10.1088/2515-7639/ae512f",
+  "title": "Acceleration, agency, and foundations: ten influential arXiv directions in AI for materials science (2025)",
+  "publication_date": "2026-03-12",
+  "venue": "Journal of Physics Materials",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135200959",
+  "doi": "https://doi.org/10.33774/coe-2026-bc2j9",
+  "title": "PACF: Pattern-Aware Complexity Framework for Efficient Large Language Model Generation",
+  "publication_date": "2026-03-13",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135212607",
+  "doi": "https://doi.org/10.5281/zenodo.19000698",
+  "title": "Data-Driven Edge Cost Learning and Temporal Motion Modeling for Energy-Aware AGV Planning",
+  "publication_date": "2026-03-13",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137377168",
+  "doi": "https://doi.org/10.48550/arxiv.2603.12597",
+  "title": "Feynman: Knowledge-Infused Diagramming Agent for Scalable Visual Designs",
+  "publication_date": "2026-03-13",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136739186",
+  "doi": "https://doi.org/10.48550/arxiv.2603.13019",
+  "title": "ARL-Tangram: Unleash the Resource Efficiency in Agentic Reinforcement Learning",
+  "publication_date": "2026-03-13",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138355724",
+  "doi": "https://doi.org/10.1609/aaai.v40i27.39395",
+  "title": "DiffBench Meets DiffAgent: End-to-End LLM-Driven Diffusion Acceleration Code Generation",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138998941",
+  "doi": "https://doi.org/10.1609/aaai.v40i41.40771",
+  "title": "AP2O-Coder: Adaptively Progressive Preference Optimization for Reducing Compilation and Runtime Errors in LLM-Generated Code",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138277466",
+  "doi": "https://doi.org/10.1609/aaai.v40i12.37940",
+  "title": "READ: Real-time and Efficient Asynchronous Diffusion for Audio-driven Talking Head Generation",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138877558",
+  "doi": "https://doi.org/10.1609/aaai.v40i40.40703",
+  "title": "OPLoRA: Orthogonal Projection LoRA Prevents Catastrophic Forgetting During Parameter-Efficient Fine-Tuning",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137892616",
+  "doi": "https://doi.org/10.1609/aaai.v40i1.36983",
+  "title": "OR-R1: Automating Modeling and Solving of Operations Research Optimization Problem via Test-Time Reinforcement Learning",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138912107",
+  "doi": "https://doi.org/10.1609/aaai.v40i41.40799",
+  "title": "SABER: Switchable and Balanced Training for Efficient LLM Reasoning",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138147885",
+  "doi": "https://doi.org/10.1609/aaai.v40i26.39341",
+  "title": "Mosaic Pruning: A Hierarchical Framework for Generalizable Pruning of Mixture-of-Experts Models",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7137824014",
+  "doi": "https://doi.org/10.1609/aaai.v40i40.40735",
+  "title": "ORACLE: Optimizing Reasoning Abilities of Large Language Models via Constraint-Led Synthetic Data Elicitation",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139093643",
+  "doi": "https://doi.org/10.1609/aaai.v40i43.41024",
+  "title": "Pareto-Grid-Guided Large Language Models for Fast and High-Quality Heuristics Design in Multi-Objective Combinatorial Optimization",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135396591",
+  "doi": "https://doi.org/10.1016/j.neunet.2026.108853",
+  "title": "EfficientLoRA: Rethinking the efficiency of low-rank adaptation in pre-trained language models",
+  "publication_date": "2026-03-14",
+  "venue": "Neural Networks",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138059822",
+  "doi": "https://doi.org/10.48550/arxiv.2603.13767",
+  "title": "Retrieve, Schedule, Reflect: LLM Agents for Chip QoR Optimization",
+  "publication_date": "2026-03-14",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135377839",
+  "doi": "https://doi.org/10.5281/zenodo.19019098",
+  "title": "Vector-Quantized Semantic Transport for Machine-to-Machine Communication",
+  "publication_date": "2026-03-14",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135204195",
+  "doi": "https://doi.org/10.5194/egusphere-egu26-15955",
+  "title": "LLM Workflow for Land-Use Prediction Evidence Synthesis: Efficient Screening, Selective Refusals, Reportable Gaps",
+  "publication_date": "2026-03-14",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7135403885",
+  "doi": "https://doi.org/10.5281/zenodo.19022517",
+  "title": "Generative AI LLMs vs. Specialized Neural Networks for Decision-Making and Probabilistic Inference in Distributed Energy Systems",
+  "publication_date": "2026-03-14",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138007407",
+  "doi": "https://doi.org/10.1609/aaai.v40i17.38452",
+  "title": "Co-Layout: LLM-driven Co-optimization for Interior Layout",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138931937",
+  "doi": "https://doi.org/10.1609/aaai.v40i43.41048",
+  "title": "Instance Generation for Meta-Black-Box Optimization Through Latent Space Reverse Engineering",
+  "publication_date": "2026-03-14",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138470444",
+  "doi": "https://doi.org/10.5281/zenodo.19027141",
+  "title": "EVA: Benchmark and Experiment Data for RNA Generation and Codon Optimization",
+  "publication_date": "2026-03-15",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136038547",
+  "doi": "https://doi.org/10.6084/m9.figshare.31742317.v1",
+  "title": "Dual-period mobility changes in response to China’s optimized COVID-19 policy",
+  "publication_date": "2026-03-15",
+  "venue": "Figshare",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136042970",
+  "doi": "https://doi.org/10.5281/zenodo.19039466",
+  "title": "PREreview of \"Reinforcement Learning-Augmented LLM Agents for Collaborative Decision Making and Performance Optimization\"",
+  "publication_date": "2026-03-15",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136171065",
+  "doi": "https://doi.org/10.1007/s44163-026-01093-7",
+  "title": "Energy-efficient neuromorphic computing for ultra-low latency cognitive radio: a hardware-software co-design framework for 6 G spectrum intelligence",
+  "publication_date": "2026-03-16",
+  "venue": "Discover Artificial Intelligence",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136132161",
+  "doi": "https://doi.org/10.5281/zenodo.19056186",
+  "title": "manwestc/PermGrad: v1.1.0: SOTA Baselines, Training Dynamics, and Scalability Optimizations",
+  "publication_date": "2026-03-16",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138193603",
+  "doi": "https://doi.org/10.48550/arxiv.2603.14769",
+  "title": "POLCA: Stochastic Generative Optimization with LLM",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7136241682",
+  "doi": "https://doi.org/10.20944/preprints202603.1152.v1",
+  "title": "CoDES: A Context-Efficient Framework for Enhancing Small Language Models via Domain-Specific Adaptation and Model Ensembling",
+  "publication_date": "2026-03-16",
+  "venue": "Preprints.org",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138015849",
+  "doi": "https://doi.org/10.48550/arxiv.2603.15510",
+  "title": "Not All Invariants Are Equal: Curating Training Data to Accelerate Program Verification with SLMs",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138220350",
+  "doi": "https://doi.org/10.48550/arxiv.2603.14703",
+  "title": "Beyond Local Code Optimization: Multi-Agent Reasoning for Software System Optimization",
+  "publication_date": "2026-03-16",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7151634406",
+  "doi": "https://doi.org/10.24143/2073-1574-2026-1-85-92",
+  "title": "Optimization of technological processes based on the transport task in MATLAB tools",
+  "publication_date": "2026-03-17",
+  "venue": "VESTNIK OF ASTRAKHAN STATE TECHNICAL UNIVERSITY SERIES MARINE ENGINEERING AND TECHNOLOGIES",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139021615",
+  "doi": "https://doi.org/10.5281/zenodo.19087349",
+  "title": "TreeCoder: Systematic Exploration and Optimisation of Decoding and Constraints for LLM Code Generation",
+  "publication_date": "2026-03-18",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138932284",
+  "doi": "https://doi.org/10.48550/arxiv.2603.17919",
+  "title": "Training Diffusion Language Models for Black-Box Optimization",
+  "publication_date": "2026-03-18",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139942924",
+  "doi": "https://doi.org/10.48550/arxiv.2603.18897",
+  "title": "Parallelizing Tool Execution and LLM Generation for Low-Latency Agent Serving",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139914624",
+  "doi": "https://doi.org/10.48550/arxiv.2603.18606",
+  "title": "SQL-Commenter: Aligning Large Language Models for SQL Comment Generation with Direct Preference Optimization",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7152101543",
+  "doi": "https://doi.org/10.1109/isdfs69419.2026.11459120",
+  "title": "Distributed Adaptive Speculative Decoding: Accelerating Large Language Model Inference With Context-Aware Draft Selection",
+  "publication_date": "2026-03-19",
+  "venue": "International Symposium on Digital Forensics and Security (ISDFS)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139914875",
+  "doi": "https://doi.org/10.48550/arxiv.2603.18806",
+  "title": "dTRPO: Trajectory Reduction in Policy Optimization of Diffusion Large Language Models",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140127731",
+  "doi": "https://doi.org/10.48550/arxiv.2603.19333",
+  "title": "POET: Power-Oriented Evolutionary Tuning for LLM-Based RTL PPA Optimization",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138853926",
+  "doi": "https://doi.org/10.1371/journal.pone.0344363",
+  "title": "Adaptive knowledge distillation based structure-text embedding integrating for knowledge graph completion",
+  "publication_date": "2026-03-19",
+  "venue": "PLoS ONE",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139953520",
+  "doi": "https://doi.org/10.48550/arxiv.2603.18477",
+  "title": "Leveraging Large Language Models for Generalizing Peephole Optimizations",
+  "publication_date": "2026-03-19",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7161148084",
+  "doi": "https://doi.org/10.1109/icaace69793.2026.11509053",
+  "title": "Optimize Code Generation Using Integrated Agents",
+  "publication_date": "2026-03-20",
+  "venue": "International Conference on Advanced Algorithms and Control Engineering (ICAACE)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7162447710",
+  "doi": "https://doi.org/10.1109/icnlp69856.2026.11528097",
+  "title": "GameLogLLM: LLM-Guided Code Generation for Game Latency Analysis",
+  "publication_date": "2026-03-20",
+  "venue": null,
+  "venue_type": null
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140130715",
+  "doi": "https://doi.org/10.48550/arxiv.2603.19639",
+  "title": "HyEvo: Self-Evolving Hybrid Agentic Workflows for Efficient Reasoning",
+  "publication_date": "2026-03-20",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140115876",
+  "doi": "https://doi.org/10.48550/arxiv.2603.19636",
+  "title": "RiboSphere: Learning Unified and Efficient Representations of RNA Structures",
+  "publication_date": "2026-03-20",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7204938169",
+  "doi": "https://doi.org/10.1145/3813822.3814063",
+  "title": "G2-continuous Tool Path Optimization for Blade Machining Based on Reinforcement Learning",
+  "publication_date": "2026-03-20",
+  "venue": "International Conference on Computer Information and Big Data Applications (CIBDA)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140319040",
+  "doi": "https://doi.org/10.5281/zenodo.19219693",
+  "title": "Charging Without Subsidy: How the CPO-Aggregator Framework Unlocks Community-Scale Distributed Energy Investment in Europe",
+  "publication_date": "2026-03-20",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140195913",
+  "doi": "https://doi.org/10.48550/arxiv.2603.20428",
+  "title": "Benchmarking Efficient & Effective Camera Pose Estimation Strategies for Novel View Synthesis",
+  "publication_date": "2026-03-20",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7138834222",
+  "doi": "https://doi.org/10.3390/electronics15061296",
+  "title": "DeVSA: A Density-Efficient Vector SNN Accelerator Exploiting Compressor-TreeReuse for Spike-Weight Accumulation",
+  "publication_date": "2026-03-20",
+  "venue": "Electronics",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7139988578",
+  "doi": "https://doi.org/10.1002/cta.70387",
+  "title": "Enhanced DSP Architecture for Small Floating‐Point Based Deep Learning Accelerators on FPGAs",
+  "publication_date": "2026-03-21",
+  "venue": "International Journal of Circuit Theory and Applications",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140232108",
+  "doi": "https://doi.org/10.48550/arxiv.2603.22216",
+  "title": "Gumbel Distillation for Parallel Text Generation",
+  "publication_date": "2026-03-23",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140169695",
+  "doi": "https://doi.org/10.48550/arxiv.2603.22206",
+  "title": "Chimera: Latency- and Performance-Aware Multi-agent Serving for Heterogeneous LLMs",
+  "publication_date": "2026-03-23",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140141486",
+  "doi": "https://doi.org/10.1007/s11227-026-08391-y",
+  "title": "Accelerated deep learning denoising for edge AI in single-pixel imaging",
+  "publication_date": "2026-03-23",
+  "venue": "The Journal of Supercomputing",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140234728",
+  "doi": "https://doi.org/10.48550/arxiv.2603.21676",
+  "title": "Thinking Deeper, Not Longer: Memory-Efficient Test-Time Reasoning with Depth-Recurrent Transformers for Compositional Generalization",
+  "publication_date": "2026-03-23",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140226821",
+  "doi": "https://doi.org/10.48550/arxiv.2603.21551",
+  "title": "AI In Cybersecurity Education -- Scalable Agentic CTF Design Principles and Educational Outcomes",
+  "publication_date": "2026-03-23",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7161975124",
+  "doi": "https://doi.org/10.5281/zenodo.20322157",
+  "title": "BioGAIP: A Scalable, User-Friendly and Robust LLM-Powered Multi-Agent System for Automated Multi-omics Tasks",
+  "publication_date": "2026-03-23",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140315185",
+  "doi": "https://doi.org/10.2174/0126662558416158251126153455",
+  "title": "Optimizing Transformer-Based Vulnerability Detection and Patch Generation Using Multi-Swarm AI-PSO",
+  "publication_date": "2026-03-24",
+  "venue": "Recent Advances in Computer Science and Communications",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140303770",
+  "doi": "https://doi.org/10.48550/arxiv.2603.23308",
+  "title": "Curriculum-Driven 3D CT Report Generation via Language-Free Visual Grafting and Zone-Constrained Compression",
+  "publication_date": "2026-03-24",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7161138506",
+  "doi": "https://doi.org/10.1109/dcc66757.2026.00093",
+  "title": "Efficient Feedforward Human-Centric Video Compression via 3D Gaussian Generation",
+  "publication_date": "2026-03-24",
+  "venue": "DCC",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140938513",
+  "doi": "https://doi.org/10.48550/arxiv.2603.23575",
+  "title": "APreQEL: Adaptive Mixed Precision Quantization For Edge LLMs",
+  "publication_date": "2026-03-24",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140319131",
+  "doi": "https://doi.org/10.48550/arxiv.2603.23234",
+  "title": "MemCollab: Cross-Model Memory Collaboration via Contrastive Trajectory Distillation",
+  "publication_date": "2026-03-24",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140226094",
+  "doi": "https://doi.org/10.1016/j.eswa.2026.132213",
+  "title": "Automated speech emotion recognition model using feature-driven ensemble deep learning and puma optimization algorithm",
+  "publication_date": "2026-03-24",
+  "venue": "Expert Systems with Applications",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140236676",
+  "doi": "https://doi.org/10.1016/j.mejo.2026.107181",
+  "title": "A full-stack, energy-efficient 8-Mb NOR-flash compute-in-memory SoC with on-chip acceleration and end-to-end toolchain for edge AI",
+  "publication_date": "2026-03-24",
+  "venue": "Microelectronics Journal",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141310357",
+  "doi": "https://doi.org/10.48550/arxiv.2603.24793",
+  "title": "AVControl: Efficient Framework for Training Audio-Visual Controls",
+  "publication_date": "2026-03-25",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141156903",
+  "doi": "https://doi.org/10.48550/arxiv.2603.24652",
+  "title": "Demystifying When Pruning Works via Representation Hierarchies",
+  "publication_date": "2026-03-25",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7163828194",
+  "doi": "https://doi.org/10.18926/70603",
+  "title": "Automated Design of Microwave Planar Circuits Using Genetic Algorithms and its Acceleration Techniques with Machine Learning Methods",
+  "publication_date": "2026-03-25",
+  "venue": "Institutional Repositories DataBase (IRDB)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141525272",
+  "doi": "https://doi.org/10.48550/arxiv.2603.24840",
+  "title": "Prune as You Generate: Online Rollout Pruning for Faster and Better RLVR",
+  "publication_date": "2026-03-25",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140281542",
+  "doi": "https://doi.org/10.1038/s43856-026-01499-5",
+  "title": "Optimizing prompting strategies improves large language model classification of pain- and fatigue-related functional impact in childhood cancer survivors",
+  "publication_date": "2026-03-25",
+  "venue": "Communications Medicine",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141218695",
+  "doi": "https://doi.org/10.48550/arxiv.2603.25118",
+  "title": "AnyDoc: Enhancing Document Generation via Large-Scale HTML/CSS Data Synthesis and Height-Aware Reinforcement Optimization",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141214090",
+  "doi": "https://doi.org/10.48550/arxiv.2603.25340",
+  "title": "Large Language Model as Token Compressor and Decompressor",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141065431",
+  "doi": "https://doi.org/10.48550/arxiv.2603.24916",
+  "title": "Once-for-All Channel Mixers (HYPERTINYPW): Generative Compression for TinyML",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141358750",
+  "doi": "https://doi.org/10.48550/arxiv.2603.25333",
+  "title": "Adaptive Chunking: Optimizing Chunking-Method Selection for RAG",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141549973",
+  "doi": "https://doi.org/10.48550/arxiv.2603.25284",
+  "title": "SliderQuant: Accurate Post-Training Quantization for LLMs",
+  "publication_date": "2026-03-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140379042",
+  "doi": "https://doi.org/10.3389/fhpcp.2026.1778471",
+  "title": "Scalable foundation models for numerical simulations on HPC platforms",
+  "publication_date": "2026-03-26",
+  "venue": "Frontiers in High Performance Computing",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7125674123",
+  "doi": "https://doi.org/10.5281/zenodo.18374480",
+  "title": "The Use of ChatGPT in Business Productivity and Workflow Optimization",
+  "publication_date": "2026-03-26",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7217577630",
+  "doi": null,
+  "title": "Automation and Process Optimization in Friction Stir Welding for Enhanced Manufacturing Efficiency",
+  "publication_date": "2026-03-26",
+  "venue": "International Journal of Advanced Research and Multidisciplinary Trends (IJARMT)",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141413753",
+  "doi": "https://doi.org/10.6084/m9.figshare.31869469.v1",
+  "title": "Artifacts for ASE'26 Submission \"Executing as You Generate: Hiding Execution Latency in LLM Code Generation\"",
+  "publication_date": "2026-03-27",
+  "venue": "Figshare",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7161577800",
+  "doi": "https://doi.org/10.1109/gaiis69281.2026.11519134",
+  "title": "Corrective Distillation: Mitigating Catastrophic Forgetting in LLM Fine-Tuning via External Correction of Self-Generated Errors",
+  "publication_date": "2026-03-27",
+  "venue": "International Conference on Generative Artificial Intelligence and Information Security (GAIIS)",
+  "venue_type": "conference"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147955279",
+  "doi": "https://doi.org/10.48550/arxiv.2603.26990",
+  "title": "Agentic Diagrammatica: Towards Autonomous Symbolic Computation in High Energy Physics",
+  "publication_date": "2026-03-27",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143525067",
+  "doi": "https://doi.org/10.48550/arxiv.2603.26008",
+  "title": "FairLLaVA: Fairness-Aware Parameter-Efficient Fine-Tuning for Large Vision-Language Assistants",
+  "publication_date": "2026-03-27",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7140987087",
+  "doi": "https://doi.org/10.5281/zenodo.19249204",
+  "title": "ConVer: Artifact for \"Using Contracts and Loop Invariant Synthesis for Scalable Formal Software Verification\"",
+  "publication_date": "2026-03-27",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7141827400",
+  "doi": "https://doi.org/10.1145/3805806",
+  "title": "AI4DSE: Leveraging Dynamic Graph Neural Networks and Large Language Models for Optimizing High-Level Synthesis Design Space Exploration",
+  "publication_date": "2026-03-28",
+  "venue": "ACM Transactions on Design Automation of Electronic Systems",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147335603",
+  "doi": "https://doi.org/10.48550/arxiv.2603.27850",
+  "title": "EffiSkill: Agent Skill Based Automated Code Efficiency Optimization",
+  "publication_date": "2026-03-29",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142656164",
+  "doi": "https://doi.org/10.5281/zenodo.19314968",
+  "title": "LLM Token Estimation Benchmarks: Tokenizer Efficiency and Cost Analysis Across 17 Large Language Models",
+  "publication_date": "2026-03-29",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7142965852",
+  "doi": "https://doi.org/10.5281/zenodo.19305798",
+  "title": "kaipai-ren/DeePEST-OS: Reactive Machine Learning Potential for Accelerating Transition State Search in Organic Synthesis",
+  "publication_date": "2026-03-29",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143336771",
+  "doi": "https://doi.org/10.1145/3805803",
+  "title": "RADO : Trustworthy Radiology Impression Generation Using Safety and Faithfulness-Based Preference Optimization",
+  "publication_date": "2026-03-30",
+  "venue": "ACM Transactions on Computing for Healthcare",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143279398",
+  "doi": "https://doi.org/10.3389/frai.2026.1819135",
+  "title": "Correction: LSML-SF: a lightweight stacked ML approach for spreading factor allocation in mobile IoT LoRaWAN networks",
+  "publication_date": "2026-03-30",
+  "venue": "Frontiers in Artificial Intelligence",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7203589584",
+  "doi": "https://doi.org/10.82386/jaiee.2026.1236819",
+  "title": "AI-Driven Compiler Optimization: A Survey from Rule-Based Heuristics to Large Language Models",
+  "publication_date": "2026-03-30",
+  "venue": "Journal of Artificial Intelligence in Electrical Engineering",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143347477",
+  "doi": "https://doi.org/10.5281/zenodo.19329726",
+  "title": "Seu1ki/SMOOTH: [ISCA 2026] Artifact for \"SMOOTH: Hardware-Assisted Fine-Grained On-Chip Memory Management for Efficient On-Device LLM Inference\"",
+  "publication_date": "2026-03-30",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147563036",
+  "doi": "https://doi.org/10.54097/yqf8gq04",
+  "title": "Systematic Analysis of FPGA-Based Acceleration for Deep Neural Networks",
+  "publication_date": "2026-03-30",
+  "venue": "Academic Journal of Science and Technology",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147230197",
+  "doi": "https://doi.org/10.5281/zenodo.19350125",
+  "title": "Data and code of \"Data-Free Physics-Informed Inverse Programming of Bistable Kirigami Energy Landscapes\"",
+  "publication_date": "2026-03-31",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147659951",
+  "doi": "https://doi.org/10.48550/arxiv.2603.29494",
+  "title": "VecAttention: Vector-wise Sparse Attention for Accelerating Long Context Inference",
+  "publication_date": "2026-03-31",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7147562469",
+  "doi": "https://doi.org/10.5281/zenodo.19343953",
+  "title": "SNN-Synthesis v1: Task Specificity, Model Scaling, and Temporal Dynamics of Latent Trajectory Distillation in LLM Reasoning",
+  "publication_date": "2026-03-31",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7143701245",
+  "doi": "https://doi.org/10.1111/1475-6773.70101",
+  "title": "Closing the Gap: Optimizing Hospital Discharge Planning for Improved Outcomes",
+  "publication_date": "2026-03-31",
+  "venue": "Health Services Research",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7146955110",
+  "doi": "https://doi.org/10.48550/arxiv.2603.29894",
+  "title": "LLM-Guided Evolutionary Search for Algebraic T-Count Optimization",
+  "publication_date": "2026-03-31",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ }
+]

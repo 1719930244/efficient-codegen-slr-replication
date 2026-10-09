@@ -1,0 +1,400 @@
+{"sid": "R001", "decision": "exclude", "criterion": "EC4", "reason": "Review of LLM applications in alloy research."}
+{"sid": "R002", "decision": "exclude", "criterion": "IC2", "reason": "Neurosymbolic programming approach does not identify an LLM- or Transformer-based method."}
+{"sid": "R003", "decision": "exclude", "criterion": "IC1", "reason": "Improves UI code accuracy and layout preservation, not model training or generation efficiency."}
+{"sid": "R004", "decision": "uncertain", "criterion": "IC1/IC2/IC3", "reason": "Abstract is missing; eligible methods and tasks cannot be established."}
+{"sid": "R005", "decision": "exclude", "criterion": "IC1", "reason": "Accelerates device design relative to human experts, without improving model-process resource efficiency."}
+{"sid": "R006", "decision": "include", "criterion": "ALL-MET", "reason": "LLM-based Verilog generation uses curated smaller training data and RL instead of large-scale distillation."}
+{"sid": "R007", "decision": "exclude", "criterion": "IC1", "reason": "Evaluates generated code style rather than code-generation process efficiency."}
+{"sid": "R008", "decision": "exclude", "criterion": "EC2", "reason": "Targets code repair and corrective feedback rather than eligible code generation."}
+{"sid": "R009", "decision": "exclude", "criterion": "IC1", "reason": "Presents a verified RTL corpus without a technique for improving code-model process efficiency."}
+{"sid": "R010", "decision": "exclude", "criterion": "IC1", "reason": "Discusses broad generative AI applications without a code-generation efficiency technique."}
+{"sid": "R011", "decision": "exclude", "criterion": "EC2", "reason": "Targets requirements engineering rather than code completion or generation."}
+{"sid": "R012", "decision": "exclude", "criterion": "IC3", "reason": "Proposes programming education reforms rather than a code-generation method."}
+{"sid": "R013", "decision": "exclude", "criterion": "IC1", "reason": "Evaluates coding performance and generated program efficiency, not generation-process resource efficiency."}
+{"sid": "R014", "decision": "exclude", "criterion": "IC1", "reason": "Explicitly targets execution efficiency of generated programs."}
+{"sid": "R015", "decision": "exclude", "criterion": "IC1", "reason": "Improves abstract reasoning through induction and transduction, not code-generation process efficiency."}
+{"sid": "R016", "decision": "exclude", "criterion": "EC4", "reason": "Perspective review of generative AI for healthcare data analysis."}
+{"sid": "R017", "decision": "exclude", "criterion": "IC3", "reason": "Optimizes compiler-based batching and tensor code generation, not LLM code completion or synthesis."}
+{"sid": "R018", "decision": "exclude", "criterion": "IC1", "reason": "Automates scientific replication without improving model training or code-generation resource efficiency."}
+{"sid": "R019", "decision": "uncertain", "criterion": "IC1/IC2/IC3", "reason": "Abstract is missing; the title does not establish eligibility."}
+{"sid": "R020", "decision": "exclude", "criterion": "IC1", "reason": "Automates software development workflows without a model-process efficiency technique."}
+{"sid": "R021", "decision": "exclude", "criterion": "IC1", "reason": "Improves development workflows and predictive accuracy, not code-model training or generation resource efficiency."}
+{"sid": "R022", "decision": "exclude", "criterion": "IC1", "reason": "Studies LLM influence on coding style without proposing or evaluating generation-process efficiency improvements."}
+{"sid": "R023", "decision": "include", "criterion": "ALL-MET", "reason": "LLM code generation uses dynamic context management and abstract interfaces to reduce prompt complexity."}
+{"sid": "R024", "decision": "include", "criterion": "ALL-MET", "reason": "Offloads hyperparameter tuning to reduce LLM queries and computational costs in algorithmic code generation."}
+{"sid": "R025", "decision": "exclude", "criterion": "IC2", "reason": "Uses a deep neural network for quantum circuit synthesis without an identified LLM or Transformer approach."}
+{"sid": "R026", "decision": "exclude", "criterion": "EC4", "reason": "Record is a dissertation abstract, an excluded publication type."}
+{"sid": "R027", "decision": "exclude", "criterion": "IC3", "reason": "Generates inference kernels using architecture and performance models, not LLM-based code completion or synthesis."}
+{"sid": "R028", "decision": "include", "criterion": "ALL-MET", "reason": "Evaluates retrieval-efficiency techniques for LLM coding workflows, explicitly including program synthesis."}
+{"sid": "R029", "decision": "exclude", "criterion": "IC3", "reason": "Code generation is background motivation; the proposed method is evaluated on summarization and question answering."}
+{"sid": "R030", "decision": "exclude", "criterion": "IC1", "reason": "Uses LLMs as research tools without evaluating a technique for code-generation resource efficiency."}
+{"sid": "R031", "decision": "exclude", "criterion": "IC1", "reason": "Targets robustness and solution exploration in agent-generated code, not reduced generation resources."}
+{"sid": "R032", "decision": "exclude", "criterion": "IC2", "reason": "Uses a conventional compiler for a DNN accelerator, not an LLM or Transformer code generator."}
+{"sid": "R033", "decision": "uncertain", "criterion": "IC1/IC3", "reason": "No abstract is available to establish efficiency or code-generation eligibility."}
+{"sid": "R034", "decision": "exclude", "criterion": "IC1", "reason": "Optimizes generated RTL area and delay rather than the resources used by the code-generation process."}
+{"sid": "R035", "decision": "include", "criterion": "ALL-MET", "reason": "Compresses LLMs through application-specific low-rank decomposition, with code generation among evaluated tasks."}
+{"sid": "R036", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes resource-efficient LLM adaptation with lightweight modules and evaluates code generation."}
+{"sid": "R037", "decision": "exclude", "criterion": "IC1", "reason": "Reports faster development than hand coding, not improved resource efficiency of LLM training or generation."}
+{"sid": "R038", "decision": "exclude", "criterion": "IC1", "reason": "Benchmarks kernel correctness and runtime optimization without a technique targeting generation-process efficiency."}
+{"sid": "R039", "decision": "exclude", "criterion": "EC2", "reason": "Targets translation-only code conversion from VB to C#."}
+{"sid": "R040", "decision": "exclude", "criterion": "IC1", "reason": "Targets generation correctness in a low-resource language without an explicit training or inference efficiency technique."}
+{"sid": "R041", "decision": "exclude", "criterion": "IC1", "reason": "Uses LLMs as research assistants without studying code-generation process efficiency."}
+{"sid": "R042", "decision": "exclude", "criterion": "IC1", "reason": "Targets scientific solver correctness; reported runtime and memory gains concern generated solvers, not generation efficiency."}
+{"sid": "R043", "decision": "exclude", "criterion": "EC4", "reason": "Presents a survey of cross-modal hashing techniques, not LLM program generation."}
+{"sid": "R044", "decision": "exclude", "criterion": "IC1", "reason": "Evaluates mathematical problem-solving accuracy through program synthesis, not generation resource efficiency."}
+{"sid": "R045", "decision": "uncertain", "criterion": "IC1", "reason": "Abstract missing; title does not establish whether efficiency concerns generation or generated code."}
+{"sid": "R046", "decision": "exclude", "criterion": "IC3", "reason": "Proposes DSL-based validation of genetic variant classification rules, not code completion or natural-language-to-code generation."}
+{"sid": "R047", "decision": "exclude", "criterion": "EC2", "reason": "Targets repository-level code smell detection rather than code generation."}
+{"sid": "R048", "decision": "exclude", "criterion": "IC2", "reason": "Generates deployment code using predefined template skeletons, with no LLM- or Transformer-based generation approach."}
+{"sid": "R049", "decision": "include", "criterion": "ALL-MET", "reason": "Predicts code-synthesis prompt behavior at 0.4% of benchmark execution time, reducing prompt evaluation cost."}
+{"sid": "R050", "decision": "exclude", "criterion": "IC1", "reason": "Improves workflow automation and developer productivity without addressing model generation resource efficiency."}
+{"sid": "R051", "decision": "exclude", "criterion": "IC3", "reason": "Evaluates task attribution and data selection in other settings; code generation is only background motivation."}
+{"sid": "R052", "decision": "include", "criterion": "ALL-MET", "reason": "Compares LLM code-completion efficiency using latency and correctness\u2013speed trade-offs."}
+{"sid": "R053", "decision": "exclude", "criterion": "IC1", "reason": "Studies architectural causes of code-generation accuracy and robustness, not process efficiency improvements."}
+{"sid": "R054", "decision": "exclude", "criterion": "IC1", "reason": "Targets correctness of symbolic protocol model generation without improving generation resource efficiency."}
+{"sid": "R055", "decision": "exclude", "criterion": "EC2", "reason": "Targets detection of existing computational kernels for hardware acceleration, not code generation."}
+{"sid": "R056", "decision": "exclude", "criterion": "EC4", "reason": "Record is a dissertation abstract, excluded as a thesis-only abstract."}
+{"sid": "R057", "decision": "uncertain", "criterion": "IC3", "reason": "Abstract missing; title does not establish application to code generation."}
+{"sid": "R058", "decision": "include", "criterion": "ALL-MET", "reason": "Studies quantization for code-generation models to address memory, latency, monetary, and carbon costs."}
+{"sid": "R059", "decision": "exclude", "criterion": "IC1", "reason": "Optimizes prompt quality and automates prompt engineering without establishing generation resource savings."}
+{"sid": "R060", "decision": "include", "criterion": "ALL-MET", "reason": "Prunes input tokens to reduce prompt length for LLM-based class-level code generation."}
+{"sid": "R061", "decision": "exclude", "criterion": "IC1", "reason": "Improves benchmark assessment, not resource efficiency of the code generation process."}
+{"sid": "R062", "decision": "exclude", "criterion": "IC1", "reason": "Discusses self-improvement paradigms without a concrete technique targeting code-generation resource efficiency."}
+{"sid": "R063", "decision": "exclude", "criterion": "IC1", "reason": "Targets completion accuracy and developer productivity, not model-process resource efficiency."}
+{"sid": "R064", "decision": "exclude", "criterion": "IC2", "reason": "The proposed generator is CNN-based; Transformers and code LLMs serve only as baselines."}
+{"sid": "R065", "decision": "include", "criterion": "ALL-MET", "reason": "Reuses frozen pretrained LLMs to reduce training costs for models evaluated on code generation and completion."}
+{"sid": "R066", "decision": "exclude", "criterion": "EC2", "reason": "Targets domain and object modeling rather than code completion or natural-language-to-code generation."}
+{"sid": "R067", "decision": "include", "criterion": "ALL-MET", "reason": "Generates robotic control code using language models while avoiding retraining in new environments."}
+{"sid": "R068", "decision": "exclude", "criterion": "IC1", "reason": "Targets deterministic, reliable code generation without a stated resource-efficiency improvement."}
+{"sid": "R069", "decision": "include", "criterion": "ALL-MET", "reason": "Reduces inference token consumption through prompting and fine-tuning, with evaluation including code generation."}
+{"sid": "R070", "decision": "exclude", "criterion": "IC1", "reason": "Uses neural code generation for verifiable image retrieval without improving generation-process efficiency."}
+{"sid": "R071", "decision": "exclude", "criterion": "IC1", "reason": "Memory-log management improves conversational accuracy, but no generation-resource reduction is established."}
+{"sid": "R072", "decision": "exclude", "criterion": "EC2", "reason": "Targets vulnerability repair benchmarking in Android applications rather than eligible code generation."}
+{"sid": "R073", "decision": "exclude", "criterion": "IC1", "reason": "Improves code correctness through demonstrations and latent concepts without targeting resource efficiency."}
+{"sid": "R074", "decision": "exclude", "criterion": "IC1", "reason": "Pruning targets representational stability and increases latency rather than improving process efficiency."}
+{"sid": "R075", "decision": "include", "criterion": "ALL-MET", "reason": "Reduces costly model-selection fine-tuning for pretrained code models, with code generation among the target tasks."}
+{"sid": "R076", "decision": "exclude", "criterion": "IC3", "reason": "Classifies Twitter bot accounts rather than generating or completing code."}
+{"sid": "R077", "decision": "include", "criterion": "ALL-MET", "reason": "Compresses code-generation prompts to reduce token processing costs while preserving generated-code quality."}
+{"sid": "R078", "decision": "exclude", "criterion": "IC1", "reason": "Evaluates GPT-4 for energy-management automation without improving model training or generation efficiency."}
+{"sid": "R079", "decision": "exclude", "criterion": "IC1", "reason": "Profiles inference resource use and recommends hardware choices without demonstrating an efficiency-improving technique."}
+{"sid": "R080", "decision": "exclude", "criterion": "IC1", "reason": "Targets prompt safety and educational guardrails, not resource efficiency of code generation."}
+{"sid": "R081", "decision": "include", "criterion": "ALL-MET", "reason": "Reduces training examples and inference overhead for example selection in LLM-based NL-to-code generation."}
+{"sid": "R082", "decision": "exclude", "criterion": "IC1", "reason": "Automates programming but presents no technique reducing model training or generation resource costs."}
+{"sid": "R083", "decision": "exclude", "criterion": "EC2", "reason": "Targets source-to-assembly translation rather than code completion or natural-language-to-code generation."}
+{"sid": "R084", "decision": "exclude", "criterion": "EC4", "reason": "Thesis-only abstract, despite its relevant evaluation of self-hosted inference costs."}
+{"sid": "R085", "decision": "exclude", "criterion": "IC1", "reason": "Evaluates runtime and energy efficiency of generated programs, not the generation process."}
+{"sid": "R086", "decision": "exclude", "criterion": "IC1", "reason": "Discusses engineering workflow productivity without a technique improving code-generation resource efficiency."}
+{"sid": "R087", "decision": "exclude", "criterion": "IC1", "reason": "Improves articulated-object reconstruction accuracy and generalization, not code-generation process efficiency."}
+{"sid": "R088", "decision": "exclude", "criterion": "IC1", "reason": "Advocates LLM-assisted peer review without improving the resource efficiency of code generation."}
+{"sid": "R089", "decision": "exclude", "criterion": "IC1", "reason": "Proposes an evaluation benchmark, not a technique improving code-generation process efficiency."}
+{"sid": "R090", "decision": "exclude", "criterion": "EC4", "reason": "Thesis-only abstract on structured simplification and game-generation correctness."}
+{"sid": "R091", "decision": "exclude", "criterion": "IC1", "reason": "Targets response diversity and quality without improving training or generation resource efficiency."}
+{"sid": "R092", "decision": "exclude", "criterion": "IC1", "reason": "Automates development workflows rather than reducing resources consumed by the code-generation process."}
+{"sid": "R093", "decision": "exclude", "criterion": "EC4", "reason": "Systematic literature review of parameter-efficient fine-tuning."}
+{"sid": "R094", "decision": "include", "criterion": "ALL-MET", "reason": "Optimizes LLM-agent communication topology for efficiency and stable training, evaluated on code-generation benchmarks."}
+{"sid": "R095", "decision": "exclude", "criterion": "EC2", "reason": "Targets automated program repair rather than code completion or natural-language-to-code generation."}
+{"sid": "R096", "decision": "exclude", "criterion": "EC4", "reason": "Thesis-only abstract on causal interpretation and inspection of deep learning systems."}
+{"sid": "R097", "decision": "exclude", "criterion": "IC2", "reason": "Product announcements provide no LLM- or Transformer-based code-generation approach."}
+{"sid": "R098", "decision": "exclude", "criterion": "IC1", "reason": "Conceptual RAG framework emphasizes accuracy and transparency without a concrete process-resource efficiency technique."}
+{"sid": "R099", "decision": "uncertain", "criterion": "IC1", "reason": "Abstract is missing; the title cannot establish process efficiency or an LLM-based approach."}
+{"sid": "R100", "decision": "exclude", "criterion": "EC2", "reason": "Evaluates the efficient alignment algorithm on summarization; code generation is only a motivating example."}
+{"sid": "R101", "decision": "include", "criterion": "ALL-MET", "reason": "Evaluates LLM prompting strategies for code generation with explicit accuracy-to-cost and latency trade-offs."}
+{"sid": "R102", "decision": "exclude", "criterion": "IC1", "reason": "Improves visualization generation quality without targeting model training or generation resource efficiency."}
+{"sid": "R103", "decision": "exclude", "criterion": "IC3", "reason": "Targets optical-device control through tool execution rather than code generation; code generation serves only as a baseline."}
+{"sid": "R104", "decision": "exclude", "criterion": "IC3", "reason": "Targets image-to-LaTeX transcription rather than code completion or natural-language-to-code generation."}
+{"sid": "R105", "decision": "exclude", "criterion": "IC3", "reason": "Addresses general LLM accelerator design without a code-generation-specific approach or evaluation."}
+{"sid": "R106", "decision": "exclude", "criterion": "IC1", "reason": "Characterizes developer usage of ChatGPT without proposing or evaluating generation-process efficiency improvements."}
+{"sid": "R107", "decision": "exclude", "criterion": "IC1", "reason": "Studies student adoption and perceptions rather than techniques reducing code-generation resource costs."}
+{"sid": "R108", "decision": "uncertain", "criterion": "IC1/IC2/IC3", "reason": "No abstract is available, and the title does not establish eligibility."}
+{"sid": "R109", "decision": "uncertain", "criterion": "IC1", "reason": "No abstract is available to determine whether contextualization improves generation-process efficiency."}
+{"sid": "R110", "decision": "exclude", "criterion": "IC1", "reason": "Proposes LLM-based BIM code generation but does not target training or generation resource efficiency."}
+{"sid": "R111", "decision": "uncertain", "criterion": "IC1/IC2/IC3", "reason": "No abstract is available to establish an eligible LLM-based code-generation efficiency technique."}
+{"sid": "R112", "decision": "exclude", "criterion": "IC1", "reason": "Energy-efficiency improvements concern electric-vehicle scheduling, not the code-generation process."}
+{"sid": "R113", "decision": "exclude", "criterion": "IC1", "reason": "Investigates adversarial bias propagation in distilled models rather than improving code-generation efficiency."}
+{"sid": "R114", "decision": "include", "criterion": "ALL-MET", "reason": "Agent-based Python generation includes scope-guided automatic fixing explicitly intended to improve generation efficiency."}
+{"sid": "R115", "decision": "exclude", "criterion": "IC1", "reason": "Reports accuracy gains and generic efficiency claims without identifying reduced model training or generation resource costs."}
+{"sid": "R116", "decision": "include", "criterion": "ALL-MET", "reason": "Evaluates parameter-efficient fine-tuning to reduce computational costs for LLM generation of code from specifications."}
+{"sid": "R117", "decision": "exclude", "criterion": "IC1", "reason": "Optimizes the runtime of generated HPC programs rather than the resources spent generating code."}
+{"sid": "R118", "decision": "exclude", "criterion": "IC1", "reason": "Targets safe execution of generated programs, not efficiency of model training, inference, or serving."}
+{"sid": "R119", "decision": "exclude", "criterion": "EC4", "reason": "The title explicitly identifies a systematic mapping study, an excluded review type."}
+{"sid": "R120", "decision": "uncertain", "criterion": "IC1/IC2/IC3", "reason": "No abstract is available, and the title does not establish code-generation efficiency eligibility."}
+{"sid": "R121", "decision": "exclude", "criterion": "IC3", "reason": "Optimizes general DNN execution rather than LLM-based code completion or program synthesis."}
+{"sid": "R122", "decision": "include", "criterion": "ALL-MET", "reason": "Uses convergence-enhancing instruction tuning of a small code LLM to synthesize optimization programs from problem descriptions."}
+{"sid": "R123", "decision": "exclude", "criterion": "IC1", "reason": "Improves geospatial question answering and analysis, not the resource efficiency of code generation."}
+{"sid": "R124", "decision": "include", "criterion": "ALL-MET", "reason": "Uses parameter-efficient tuning and local deployment to address latency and costs in quantum code generation."}
+{"sid": "R125", "decision": "exclude", "criterion": "IC1", "reason": "Targets CAD accuracy and reduced manual design effort, not model training or generation efficiency."}
+{"sid": "R126", "decision": "exclude", "criterion": "EC4", "reason": "Explicitly presents a comparative literature review of program synthesis paradigms."}
+{"sid": "R127", "decision": "include", "criterion": "ALL-MET", "reason": "Evaluates efficient LoRA-based model hotfixing as an alternative to costly retraining for code generation."}
+{"sid": "R128", "decision": "exclude", "criterion": "IC1", "reason": "Improves interactive decision accuracy without reducing code-generation resource costs."}
+{"sid": "R129", "decision": "exclude", "criterion": "IC1", "reason": "Benchmarks VHDL generation correctness; mentioning PEFT does not establish a process-efficiency objective."}
+{"sid": "R130", "decision": "exclude", "criterion": "IC1", "reason": "Targets table-reasoning accuracy in small models without proposing a code-generation resource-efficiency improvement."}
+{"sid": "R131", "decision": "exclude", "criterion": "EC4", "reason": "A comprehensive review of single-agent and multi-agent code systems."}
+{"sid": "R132", "decision": "exclude", "criterion": "IC1", "reason": "Evaluates scientific-study replication rather than improving the efficiency of code-generation models."}
+{"sid": "R133", "decision": "include", "criterion": "ALL-MET", "reason": "Rejects low-value completion prompts before generation, saving 23.3% of computational cost."}
+{"sid": "R134", "decision": "uncertain", "criterion": "IC1/IC2/IC3", "reason": "No abstract is available to establish the approach, eligible task, or process-efficiency contribution."}
+{"sid": "R135", "decision": "include", "criterion": "ALL-MET", "reason": "Optimizes communication topology for efficient LLM multi-agent systems and evaluates code-generation benchmarks."}
+{"sid": "R136", "decision": "exclude", "criterion": "EC2", "reason": "Targets PLC test generation and verification assistance rather than eligible code generation."}
+{"sid": "R137", "decision": "exclude", "criterion": "IC1", "reason": "Measures organizational GenAI adoption rather than proposing or evaluating code-generation efficiency techniques."}
+{"sid": "R138", "decision": "exclude", "criterion": "IC1", "reason": "Targets safety, accuracy, and controllability without a concrete code-generation resource-efficiency technique."}
+{"sid": "R139", "decision": "uncertain", "criterion": "IC2/IC3", "reason": "No abstract is available to determine whether NPU optimization concerns eligible LLM code generation."}
+{"sid": "R140", "decision": "exclude", "criterion": "EC2", "reason": "Targets code evaluation and pedagogical feedback for program repair, not code completion or synthesis."}
+{"sid": "R141", "decision": "exclude", "criterion": "IC1", "reason": "Improves engineering design automation, not the resource efficiency of LLM code generation."}
+{"sid": "R142", "decision": "exclude", "criterion": "IC1", "reason": "Compares output quality; lower computational costs are background claims rather than evaluated code-generation efficiency."}
+{"sid": "R143", "decision": "exclude", "criterion": "EC2", "reason": "Targets automated program repair rather than code completion or natural-language-to-code generation."}
+{"sid": "R144", "decision": "uncertain", "criterion": "IC1", "reason": "Title suggests efficient code-model distillation, but no abstract is available to confirm eligibility."}
+{"sid": "R145", "decision": "exclude", "criterion": "EC2", "reason": "Targets automated program repair, despite evaluating token costs."}
+{"sid": "R146", "decision": "exclude", "criterion": "IC2", "reason": "Uses compiler-based TVM code generation without an LLM or Transformer approach."}
+{"sid": "R147", "decision": "exclude", "criterion": "IC1", "reason": "Evaluates generated smart-contract quality and efficiency, not generation-process resource use."}
+{"sid": "R148", "decision": "exclude", "criterion": "EC2", "reason": "Targets fuzzing and vulnerability detection through generated test harnesses."}
+{"sid": "R149", "decision": "exclude", "criterion": "IC1", "reason": "Improves architectural correctness and reliability without improving model-process resource efficiency."}
+{"sid": "R150", "decision": "exclude", "criterion": "IC1", "reason": "Studies application-generation quality and model suitability, not generation-process efficiency."}
+{"sid": "R151", "decision": "include", "criterion": "ALL-MET", "reason": "Evaluates LLM fine-tuning strategies for domain-specific code generation on constrained hardware."}
+{"sid": "R152", "decision": "exclude", "criterion": "IC3", "reason": "Evaluates literature searching for systematic reviews, not code generation."}
+{"sid": "R153", "decision": "uncertain", "criterion": "IC1", "reason": "Reported convergence efficiency could concern generation iterations or numerical simulation; the abstract does not clarify."}
+{"sid": "R154", "decision": "exclude", "criterion": "IC1", "reason": "Combines training sources to improve generated-code quality, without demonstrating data or computational efficiency."}
+{"sid": "R155", "decision": "exclude", "criterion": "IC1", "reason": "Improves optimization formulation and solver-code accuracy and generality, not generation-process efficiency."}
+{"sid": "R156", "decision": "exclude", "criterion": "IC1", "reason": "Prepares tables for question answering, not training data or resources for efficient code generation."}
+{"sid": "R157", "decision": "exclude", "criterion": "EC2", "reason": "Targets API performance-opinion mining rather than code generation."}
+{"sid": "R158", "decision": "exclude", "criterion": "IC2", "reason": "Describes neural query-based synthesis without evidence of an LLM or Transformer approach."}
+{"sid": "R159", "decision": "exclude", "criterion": "IC2", "reason": "Uses a simulation code-generation framework, not an LLM or Transformer code generator."}
+{"sid": "R160", "decision": "exclude", "criterion": "IC1", "reason": "Proposes broad software-lifecycle optimization without a technique for efficient LLM code generation."}
+{"sid": "R161", "decision": "exclude", "criterion": "IC1", "reason": "Optimizes generated GPU program performance, not the resources used by LLM code generation."}
+{"sid": "R162", "decision": "exclude", "criterion": "IC1", "reason": "Discusses development productivity and accessibility without a technique for model-process efficiency."}
+{"sid": "R163", "decision": "exclude", "criterion": "IC1", "reason": "Improves agent safety and refusal behavior rather than code-generation resource efficiency."}
+{"sid": "R164", "decision": "uncertain", "criterion": "IC1", "reason": "No abstract is available to assess code-generation process efficiency."}
+{"sid": "R165", "decision": "exclude", "criterion": "IC3", "reason": "Targets programming exercise creation rather than code completion or natural-language-to-code generation."}
+{"sid": "R166", "decision": "include", "criterion": "ALL-MET", "reason": "LLM repository-level completion uses graph-based retrieval with reported time and space savings."}
+{"sid": "R167", "decision": "uncertain", "criterion": "IC1", "reason": "No abstract is available to assess efficiency or the role of code generation."}
+{"sid": "R168", "decision": "exclude", "criterion": "IC1", "reason": "Improves UI code quality and developer productivity without model-process resource savings."}
+{"sid": "R169", "decision": "exclude", "criterion": "IC3", "reason": "Discusses semiconductor design trends without proposing or evaluating an eligible code-generation approach."}
+{"sid": "R170", "decision": "exclude", "criterion": "IC3", "reason": "Generates combinatorial optimization solutions directly, explicitly bypassing code generation."}
+{"sid": "R171", "decision": "include", "criterion": "ALL-MET", "reason": "Anchor attention reduces code-generation KV cache memory by at least 70% while retaining performance."}
+{"sid": "R172", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes distributed parameter-efficient LLM fine-tuning evaluated on code generation among other tasks."}
+{"sid": "R173", "decision": "exclude", "criterion": "IC1", "reason": "Optimizes multi-agent task performance without identifying generation-resource efficiency improvements."}
+{"sid": "R174", "decision": "exclude", "criterion": "IC1", "reason": "Improves domain-guided agent planning and task performance, not code-generation resource efficiency."}
+{"sid": "R175", "decision": "exclude", "criterion": "EC2", "reason": "Targets specification inference and automated program repair rather than eligible code generation."}
+{"sid": "R176", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes code-generation agent workflows controlling costs, model calls, and prompts to improve efficiency."}
+{"sid": "R177", "decision": "exclude", "criterion": "IC1", "reason": "Benchmarks execution efficiency of generated code rather than the generation process."}
+{"sid": "R178", "decision": "exclude", "criterion": "EC2", "reason": "Targets translation-only from Fortran to C++."}
+{"sid": "R179", "decision": "exclude", "criterion": "IC1", "reason": "Improves Transformer code-completion prediction quality without addressing process resource efficiency."}
+{"sid": "R180", "decision": "exclude", "criterion": "EC4", "reason": "Thesis abstract presenting an architecture specification rather than an eligible research paper."}
+{"sid": "R181", "decision": "include", "criterion": "ALL-MET", "reason": "LLM-guided program synthesis reduces search iterations by up to 30% using concept-based scoring."}
+{"sid": "R182", "decision": "exclude", "criterion": "IC1", "reason": "Targets code correctness and debugging reliability without establishing generation-resource efficiency improvements."}
+{"sid": "R183", "decision": "exclude", "criterion": "IC1", "reason": "Evaluates clinical classification accuracy rather than efficiency of the code generation process."}
+{"sid": "R184", "decision": "exclude", "criterion": "EC2", "reason": "Targets requirements classification and sustainability mapping, not code generation."}
+{"sid": "R185", "decision": "exclude", "criterion": "IC1", "reason": "Studies replication and effectiveness, collecting supplementary costs without evaluating a resource-efficiency improvement."}
+{"sid": "R186", "decision": "exclude", "criterion": "IC2", "reason": "Uses neurosymbolic synthesis and gradient-trained neural functions, not an LLM or Transformer approach."}
+{"sid": "R187", "decision": "exclude", "criterion": "IC1", "reason": "Broadly compares models and resource requirements without identifying an efficiency technique for code generation."}
+{"sid": "R188", "decision": "exclude", "criterion": "IC1", "reason": "Uses program synthesis for reliable tool planning, not to improve code generation resource efficiency."}
+{"sid": "R189", "decision": "exclude", "criterion": "EC4", "reason": "The record is a dissertation abstract."}
+{"sid": "R190", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes ensemble decoding with explicit efficient batch inference and evaluates code generation."}
+{"sid": "R191", "decision": "exclude", "criterion": "IC1", "reason": "Reduces benchmark evaluation effort, not resources spent on code generation or model preparation and serving."}
+{"sid": "R192", "decision": "exclude", "criterion": "EC2", "reason": "Targets automated program repair rather than code completion or natural-language-to-code generation."}
+{"sid": "R193", "decision": "exclude", "criterion": "IC1", "reason": "Investigates cache poisoning and defenses, not an improvement to code generation efficiency."}
+{"sid": "R194", "decision": "exclude", "criterion": "IC1", "reason": "Improves ethical safety of generated code rather than generation-process efficiency."}
+{"sid": "R195", "decision": "include", "criterion": "ALL-MET", "reason": "Uses per-agent history summarization to constrain context in an LLM-based code-generating tutor."}
+{"sid": "R196", "decision": "exclude", "criterion": "EC2", "reason": "Targets Fortran-to-Kokkos translation and generated-program optimization."}
+{"sid": "R197", "decision": "uncertain", "criterion": "IC3", "reason": "No abstract is available to establish an eligible code generation task or efficiency technique."}
+{"sid": "R198", "decision": "exclude", "criterion": "IC1", "reason": "Analyzes sampling diversity and stability without proposing or evaluating generation-efficiency improvements."}
+{"sid": "R199", "decision": "include", "criterion": "ALL-MET", "reason": "Precomputes verified LLM-generated scripts to reduce runtime response time and token costs."}
+{"sid": "R200", "decision": "uncertain", "criterion": "IC3", "reason": "No abstract is available to verify whether an eligible LLM-based code generation approach is involved."}
+{"sid": "R201", "decision": "include", "criterion": "ALL-MET", "reason": "JSON-structured prompting explicitly improves LLM code-generation speed."}
+{"sid": "R202", "decision": "exclude", "criterion": "IC1", "reason": "Optimizes visual-program reasoning accuracy without demonstrating code-generation process efficiency."}
+{"sid": "R203", "decision": "exclude", "criterion": "IC2", "reason": "Uses formal synthesis of abstract semantics, not LLMs or Transformer-based models."}
+{"sid": "R204", "decision": "exclude", "criterion": "IC1", "reason": "Accelerates software development through automation, not the model's code-generation process."}
+{"sid": "R205", "decision": "exclude", "criterion": "IC1", "reason": "Introduces a code-generation evaluation benchmark, not an efficiency-improving technique."}
+{"sid": "R206", "decision": "exclude", "criterion": "IC3", "reason": "Generates deployment artifacts for edge inference, not LLM-based code completion or natural-language-to-code."}
+{"sid": "R207", "decision": "exclude", "criterion": "EC4", "reason": "Provides a conceptual overview of self-improving LLM approaches rather than an evaluated efficiency technique."}
+{"sid": "R208", "decision": "uncertain", "criterion": "IC1", "reason": "No abstract is available to assess code-generation efficiency."}
+{"sid": "R209", "decision": "exclude", "criterion": "IC1", "reason": "Evaluates engineering-design quality and workflow completion; reporting runtime alone does not establish an efficiency technique."}
+{"sid": "R210", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes parameter- and compute-efficient fine-tuning evaluated on code generation."}
+{"sid": "R211", "decision": "exclude", "criterion": "EC4", "reason": "Explicitly presents a comprehensive review of AI-augmented DevOps research."}
+{"sid": "R212", "decision": "include", "criterion": "ALL-MET", "reason": "Uses a single language-model decoding pass for efficient code-completion ranking without beam search."}
+{"sid": "R213", "decision": "uncertain", "criterion": "IC1", "reason": "No abstract is available to assess eligibility beyond the behavioral-study title."}
+{"sid": "R214", "decision": "exclude", "criterion": "IC2", "reason": "Describes neural and formal synthesis without evidence of an LLM or Transformer-based approach."}
+{"sid": "R215", "decision": "uncertain", "criterion": "IC1", "reason": "No abstract is available to assess the technique or its application to code generation."}
+{"sid": "R216", "decision": "exclude", "criterion": "EC4", "reason": "Presents an overview of LLM architectures and frameworks with illustrative applications."}
+{"sid": "R217", "decision": "exclude", "criterion": "EC2", "reason": "Targets repository-level automated program repair rather than eligible code-generation tasks."}
+{"sid": "R218", "decision": "exclude", "criterion": "EC4", "reason": "The record is a thesis-only abstract."}
+{"sid": "R219", "decision": "exclude", "criterion": "EC2", "reason": "Targets educational debugging assistance and program repair."}
+{"sid": "R220", "decision": "exclude", "criterion": "IC1", "reason": "Improves agent state persistence and context robustness, without targeting code-generation process efficiency."}
+{"sid": "R221", "decision": "uncertain", "criterion": "IC3", "reason": "No abstract is available to establish whether the efficient architectures target code generation."}
+{"sid": "R222", "decision": "include", "criterion": "ALL-MET", "reason": "Evaluates quantization and reduced replay requirements for efficient continual learning, including code generation."}
+{"sid": "R223", "decision": "exclude", "criterion": "IC1", "reason": "Proposes a dataset-value taxonomy, not a technique for efficient LLM code generation."}
+{"sid": "R224", "decision": "uncertain", "criterion": "IC1", "reason": "No abstract is available to determine whether the UI code-generation method improves process efficiency."}
+{"sid": "R225", "decision": "exclude", "criterion": "EC4", "reason": "Explicitly presents a systematic review."}
+{"sid": "R226", "decision": "exclude", "criterion": "IC1", "reason": "Discusses developer productivity and automation without a technique reducing code-generation model resources."}
+{"sid": "R227", "decision": "uncertain", "criterion": "IC1", "reason": "No abstract is available to distinguish efficient fine-tuning from optimization of generated programs."}
+{"sid": "R228", "decision": "include", "criterion": "ALL-MET", "reason": "Uses local distilled and fine-tuned LLMs for natural-language-to-MILP code generation with claimed computational efficiency."}
+{"sid": "R229", "decision": "include", "criterion": "ALL-MET", "reason": "Evaluates specialized smaller models for dialogue-management code generation with 100-fold lower latency."}
+{"sid": "R230", "decision": "exclude", "criterion": "EC2", "reason": "Targets detection of machine-generated code rather than code generation."}
+{"sid": "R231", "decision": "uncertain", "criterion": "IC2", "reason": "No abstract is available; the title names CNNs but does not establish an LLM or Transformer component."}
+{"sid": "R232", "decision": "exclude", "criterion": "IC1", "reason": "Studies fine-tuning effectiveness and alignment quality without proposing or evaluating resource savings."}
+{"sid": "R233", "decision": "exclude", "criterion": "IC3", "reason": "Generates stylized QR codes, not program code."}
+{"sid": "R234", "decision": "exclude", "criterion": "IC3", "reason": "Evaluates generic LLM inference on edge hardware; code generation is only mentioned as an application."}
+{"sid": "R235", "decision": "exclude", "criterion": "IC1", "reason": "Improves generation and self-refinement accuracy without establishing reduced training or generation resource costs."}
+{"sid": "R236", "decision": "exclude", "criterion": "IC1", "reason": "Introduces a large instruction dataset to improve coding performance, without a process-efficiency technique."}
+{"sid": "R237", "decision": "include", "criterion": "ALL-MET", "reason": "Reduces training-time capability-evaluation costs, including code-generation benchmarks, by over 35-fold."}
+{"sid": "R238", "decision": "exclude", "criterion": "IC1", "reason": "Optimizes compiled CNN execution and memory transfers rather than the LLM code-generation process."}
+{"sid": "R239", "decision": "exclude", "criterion": "EC2", "reason": "Targets automated test-data and test-script generation."}
+{"sid": "R240", "decision": "exclude", "criterion": "IC3", "reason": "Improves image-model robustness and training efficiency, not code completion or natural-language-to-code generation."}
+{"sid": "R241", "decision": "include", "criterion": "ALL-MET", "reason": "Lightweight distributed LLM agents generate device-specific code locally, improving scalability and responsiveness."}
+{"sid": "R242", "decision": "exclude", "criterion": "EC4", "reason": "A survey of prompt-engineering techniques rather than an eligible primary study."}
+{"sid": "R243", "decision": "exclude", "criterion": "EC2", "reason": "Targets code linting and violation detection rather than code generation."}
+{"sid": "R244", "decision": "exclude", "criterion": "EC4", "reason": "A systematic survey of code generation for low-resource and domain-specific languages."}
+{"sid": "R245", "decision": "exclude", "criterion": "IC1", "reason": "Introduces a Swift code-quality benchmark without improving code-generation process efficiency."}
+{"sid": "R246", "decision": "exclude", "criterion": "EC4", "reason": "Only a short overview abstract discussing coding LLM limitations."}
+{"sid": "R247", "decision": "uncertain", "criterion": "IC1/IC3", "reason": "No abstract is available to establish code generation or its process-efficiency contribution."}
+{"sid": "R248", "decision": "include", "criterion": "ALL-MET", "reason": "Online LLM adaptation eliminates task-specific external training-data preparation and is evaluated on program induction."}
+{"sid": "R249", "decision": "exclude", "criterion": "EC4", "reason": "A dissertation represented by a thesis-only abstract."}
+{"sid": "R250", "decision": "exclude", "criterion": "EC2", "reason": "Studies adversarial attacks and defenses for vulnerability detection, not code generation."}
+{"sid": "R251", "decision": "exclude", "criterion": "IC1", "reason": "Evaluates generated-code quality and complexity rather than generation-process resource efficiency."}
+{"sid": "R252", "decision": "exclude", "criterion": "IC1", "reason": "Automates data analysis with code-generating agents but does not improve model-process efficiency."}
+{"sid": "R253", "decision": "exclude", "criterion": "EC4", "reason": "A dissertation represented by a short thesis-summary abstract."}
+{"sid": "R254", "decision": "exclude", "criterion": "EC4", "reason": "Explicitly a review of RAG-based enterprise development agents."}
+{"sid": "R255", "decision": "exclude", "criterion": "IC1", "reason": "Improves and diagnoses solution correctness without targeting generation-process efficiency."}
+{"sid": "R256", "decision": "exclude", "criterion": "IC1", "reason": "Improves robotic task-planning success, not the resource efficiency of code generation."}
+{"sid": "R257", "decision": "include", "criterion": "ALL-MET", "reason": "Adaptive speculative decoding reduces LLM inference latency and is evaluated on code generation."}
+{"sid": "R258", "decision": "exclude", "criterion": "EC2", "reason": "Targets fault localization and program repair rather than eligible code-generation tasks."}
+{"sid": "R259", "decision": "exclude", "criterion": "IC1", "reason": "Efficiency gains concern laboratory workflows, not resources used by the code-generation process."}
+{"sid": "R260", "decision": "exclude", "criterion": "IC1", "reason": "Fine-tunes an LLM for clinical-trial code generation without a process-efficiency technique."}
+{"sid": "R261", "decision": "exclude", "criterion": "IC2", "reason": "Describes biologically inspired cognitive networks, not an LLM- or Transformer-based approach."}
+{"sid": "R262", "decision": "uncertain", "criterion": "IC1", "reason": "No abstract is available to establish whether generation-process efficiency is addressed."}
+{"sid": "R263", "decision": "exclude", "criterion": "EC4", "reason": "The record is a dissertation abstract."}
+{"sid": "R264", "decision": "exclude", "criterion": "IC1", "reason": "Shared parameters and distillation support paradigm integration, without an identified generation-process efficiency improvement."}
+{"sid": "R265", "decision": "exclude", "criterion": "IC2", "reason": "Describes biologically inspired cognitive networks, not an LLM- or Transformer-based approach."}
+{"sid": "R266", "decision": "exclude", "criterion": "IC2", "reason": "Accelerates 3D CNNs rather than LLM- or Transformer-based code-generation models."}
+{"sid": "R267", "decision": "exclude", "criterion": "EC2", "reason": "Targets SoC security verification, including vulnerability detection and verification-property generation."}
+{"sid": "R268", "decision": "exclude", "criterion": "IC1", "reason": "Analyzes behavioral injection threats to coding agents, not code-generation process efficiency."}
+{"sid": "R269", "decision": "exclude", "criterion": "EC4", "reason": "The record is a thesis abstract."}
+{"sid": "R270", "decision": "exclude", "criterion": "IC3", "reason": "Generates natural-language instructions for NLP tasks rather than code."}
+{"sid": "R271", "decision": "exclude", "criterion": "IC1", "reason": "Evaluates solution correctness and generated-program runtime, not generation-process efficiency."}
+{"sid": "R272", "decision": "exclude", "criterion": "IC1", "reason": "Improves coding capabilities through world modeling and reasoning without targeting process efficiency."}
+{"sid": "R273", "decision": "exclude", "criterion": "EC4", "reason": "Explicitly presents a review of generative AI applications in DevOps."}
+{"sid": "R274", "decision": "exclude", "criterion": "EC4", "reason": "The record is a dissertation abstract."}
+{"sid": "R275", "decision": "exclude", "criterion": "EC4", "reason": "The record is a thesis abstract."}
+{"sid": "R276", "decision": "uncertain", "criterion": "IC1", "reason": "No abstract is available to distinguish generation-process efficiency from generated-program power efficiency."}
+{"sid": "R277", "decision": "include", "criterion": "ALL-MET", "reason": "Evaluates skill-dependent compute-optimal LLM training and model sizing, explicitly including code generation."}
+{"sid": "R278", "decision": "exclude", "criterion": "IC3", "reason": "Benchmarks coding-related question answering rather than code completion or natural-language-to-code generation."}
+{"sid": "R279", "decision": "exclude", "criterion": "IC1", "reason": "Improves generated-code robustness with added inference overhead, not generation-process efficiency."}
+{"sid": "R280", "decision": "exclude", "criterion": "EC2", "reason": "Targets automated program repair through predicate synthesis rather than eligible code-generation tasks."}
+{"sid": "R281", "decision": "exclude", "criterion": "IC2", "reason": "Uses CNN partitioning and conventional code generation, not LLM- or Transformer-based code synthesis."}
+{"sid": "R282", "decision": "uncertain", "criterion": "IC1/IC2/IC3", "reason": "No abstract is available to establish an efficiency technique for LLM-based code generation."}
+{"sid": "R283", "decision": "exclude", "criterion": "IC1", "reason": "Targets vulnerability avoidance in generated code, not reduced code-generation resource consumption."}
+{"sid": "R284", "decision": "exclude", "criterion": "EC2", "reason": "Targets fault localization and automated program repair rather than eligible code generation."}
+{"sid": "R285", "decision": "include", "criterion": "ALL-MET", "reason": "Uses a QLoRA/LoRA training strategy for a geospatial code-generation LLM, plausibly improving training efficiency."}
+{"sid": "R286", "decision": "uncertain", "criterion": "EC2", "reason": "Title suggests excluded patch-correctness prediction, but no abstract is available to confirm scope."}
+{"sid": "R287", "decision": "include", "criterion": "ALL-MET", "reason": "Self-distills diffusion LLMs for fewer decoding steps and evaluates code-generation benchmarks."}
+{"sid": "R288", "decision": "include", "criterion": "ALL-MET", "reason": "Distills UAV code-generation capabilities into smaller models with improved inference and deployment efficiency."}
+{"sid": "R289", "decision": "exclude", "criterion": "IC1", "reason": "Reported speedups concern execution of generated parallel programs, not the generation process."}
+{"sid": "R290", "decision": "exclude", "criterion": "IC1", "reason": "Targets efficient autonomous-agent adaptation and execution, without establishing improved code-generation process efficiency."}
+{"sid": "R291", "decision": "exclude", "criterion": "IC2", "reason": "Uses a hierarchical sequential neural model without an LLM or Transformer approach."}
+{"sid": "R292", "decision": "include", "criterion": "ALL-MET", "reason": "Merges specialized LLMs to reduce storage and inference memory while evaluating code generation."}
+{"sid": "R293", "decision": "exclude", "criterion": "IC1", "reason": "Improves evolutionary program-search stability and quality without establishing generation-resource efficiency gains."}
+{"sid": "R294", "decision": "exclude", "criterion": "IC1", "reason": "Targets UAV control accuracy and robustness; avoiding fine-tuning alone does not establish an efficiency technique."}
+{"sid": "R295", "decision": "exclude", "criterion": "IC3", "reason": "Optimizes general agent interactions and procedural memory rather than code completion or code generation."}
+{"sid": "R296", "decision": "exclude", "criterion": "IC1", "reason": "Benchmarks the execution efficiency of generated programs, not code-generation process efficiency."}
+{"sid": "R297", "decision": "include", "criterion": "ALL-MET", "reason": "Semantic knowledge caching reduces LLM-agent overhead and improves throughput on coding workloads."}
+{"sid": "R298", "decision": "exclude", "criterion": "EC4", "reason": "Explicitly a survey of quantum computing and LLM integration."}
+{"sid": "R299", "decision": "exclude", "criterion": "EC4", "reason": "A systematic literature review of conversational agents for visual analytics."}
+{"sid": "R300", "decision": "exclude", "criterion": "IC3", "reason": "Targets efficient neural-network hardware, not LLM-based code completion or natural-language-to-code generation."}
+{"sid": "R301", "decision": "include", "criterion": "ALL-MET", "reason": "Learns parallel decoding strategies that improve diffusion LLM generation efficiency on code generation tasks."}
+{"sid": "R302", "decision": "exclude", "criterion": "IC1", "reason": "Prompting strategies improve generated-code security, not generation resource efficiency."}
+{"sid": "R303", "decision": "exclude", "criterion": "IC1", "reason": "Optimizes the runtime performance of generated GPU kernels rather than the code generation process."}
+{"sid": "R304", "decision": "exclude", "criterion": "EC2", "reason": "Targets fuzz testing and vulnerability discovery in deep-learning libraries."}
+{"sid": "R305", "decision": "exclude", "criterion": "IC1", "reason": "Reported efficiency gains concern compliance reasoning, not resources used to generate SMT code."}
+{"sid": "R306", "decision": "exclude", "criterion": "EC4", "reason": "A survey of automated program repair and LLM-based code generation."}
+{"sid": "R307", "decision": "exclude", "criterion": "IC1", "reason": "Improves code quality; resource metrics are documented without a claimed generation-efficiency improvement."}
+{"sid": "R308", "decision": "exclude", "criterion": "IC1", "reason": "Automates multimodal pipeline construction and user configuration, not code-model resource efficiency."}
+{"sid": "R309", "decision": "exclude", "criterion": "IC1", "reason": "Targets execution efficiency of Python programs rather than efficiency of generating code."}
+{"sid": "R310", "decision": "exclude", "criterion": "IC1", "reason": "Improves SVRF generation accuracy and developer productivity without establishing generation resource savings."}
+{"sid": "R311", "decision": "exclude", "criterion": "IC1", "reason": "Discusses general software-development automation without a code-generation resource-efficiency technique."}
+{"sid": "R312", "decision": "exclude", "criterion": "EC2", "reason": "Targets automated program repair and context-aware patch generation."}
+{"sid": "R313", "decision": "exclude", "criterion": "IC1", "reason": "Targets executable robotic-control programs and autonomy, not generation efficiency; avoiding fine-tuning is incidental."}
+{"sid": "R314", "decision": "exclude", "criterion": "EC2", "reason": "Targets neural automated program repair."}
+{"sid": "R315", "decision": "exclude", "criterion": "IC1", "reason": "Uses LoRA to improve domain-specific code accuracy, but does not target or evaluate model resource savings."}
+{"sid": "R316", "decision": "exclude", "criterion": "IC1", "reason": "Improves reproducibility and accuracy of data-analysis workflows rather than code generation efficiency."}
+{"sid": "R317", "decision": "exclude", "criterion": "IC1", "reason": "Iterative retrospective refinement improves completion correctness without addressing generation resource efficiency."}
+{"sid": "R318", "decision": "exclude", "criterion": "IC1", "reason": "Online feedback improves ST code correctness, with no stated reduction in training or generation resources."}
+{"sid": "R319", "decision": "exclude", "criterion": "IC1", "reason": "Improves synthetic training-data quality and complexity without demonstrating more resource-efficient data preparation or training."}
+{"sid": "R320", "decision": "include", "criterion": "ALL-MET", "reason": "Reuses other HDLs to prepare Verilog training data without larger-model distillation, plausibly reducing data-preparation costs."}
+{"sid": "R321", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes efficient low-rank LLM fine-tuning and evaluates it on code generation benchmarks."}
+{"sid": "R322", "decision": "exclude", "criterion": "IC1", "reason": "Automates clinical analysis but does not improve model-side code generation efficiency."}
+{"sid": "R323", "decision": "exclude", "criterion": "EC4", "reason": "Systematic review of ChatGPT applications in healthcare."}
+{"sid": "R324", "decision": "exclude", "criterion": "EC2", "reason": "Targets code repair rather than code completion or natural-language-to-code generation."}
+{"sid": "R325", "decision": "exclude", "criterion": "IC1", "reason": "Assistant functionality includes code generation but no technique improves its resource efficiency."}
+{"sid": "R326", "decision": "exclude", "criterion": "IC1", "reason": "Reported efficiency gains concern compliance reasoning, not the code generation process."}
+{"sid": "R327", "decision": "exclude", "criterion": "IC1", "reason": "Improves generated program performance without establishing reduced code generation resource costs."}
+{"sid": "R328", "decision": "exclude", "criterion": "IC1", "reason": "Targets dynamic model discovery quality, not efficient LLM training or code generation."}
+{"sid": "R329", "decision": "exclude", "criterion": "EC4", "reason": "Comprehensive survey of neural methods for programming."}
+{"sid": "R330", "decision": "exclude", "criterion": "IC1", "reason": "Proposes a robot programming framework without addressing code generation process efficiency."}
+{"sid": "R331", "decision": "exclude", "criterion": "IC1", "reason": "Optimizes prompt risk and output reliability rather than generation resource efficiency."}
+{"sid": "R332", "decision": "exclude", "criterion": "EC4", "reason": "Thesis-only abstract describing machine-learning kernel optimization."}
+{"sid": "R333", "decision": "include", "criterion": "ALL-MET", "reason": "LLM retrieval-augmented code generation achieves lower inference cost through hierarchical retrieval and pruning."}
+{"sid": "R334", "decision": "exclude", "criterion": "IC2", "reason": "Uses symbolic abstraction learning and constraint solving, not LLMs or Transformers."}
+{"sid": "R335", "decision": "exclude", "criterion": "IC1", "reason": "Improves Bangla-to-code accuracy without demonstrating resource-efficient training or generation."}
+{"sid": "R336", "decision": "exclude", "criterion": "IC3", "reason": "Studies MoE backup infrastructure; code generation is only a background capability."}
+{"sid": "R337", "decision": "exclude", "criterion": "IC3", "reason": "Evaluates context compression on summarization and question answering, not code generation."}
+{"sid": "R338", "decision": "exclude", "criterion": "IC1", "reason": "RAG optimizations improve DSL generation quality and unseen-API generalization, not resource efficiency."}
+{"sid": "R339", "decision": "include", "criterion": "ALL-MET", "reason": "Evaluates prompt-token cost-effectiveness and model selection for efficient method-level LLM code generation."}
+{"sid": "R340", "decision": "uncertain", "criterion": "IC1", "reason": "Abstract is missing, so code generation process efficiency cannot be assessed."}
+{"sid": "R341", "decision": "exclude", "criterion": "IC1", "reason": "Benchmarks developer productivity and tool usability, not model-side code generation resource efficiency."}
+{"sid": "R342", "decision": "include", "criterion": "ALL-MET", "reason": "Automates costly alignment-data preparation for LLM-based generation of log statements."}
+{"sid": "R343", "decision": "exclude", "criterion": "EC2", "reason": "Targets automated program repair rather than code completion or natural-language-to-code generation."}
+{"sid": "R344", "decision": "exclude", "criterion": "IC3", "reason": "Targets answering and generating exam questions, not code generation."}
+{"sid": "R345", "decision": "uncertain", "criterion": "IC1", "reason": "No abstract is available to establish whether prompt engineering improves generation efficiency."}
+{"sid": "R346", "decision": "include", "criterion": "ALL-MET", "reason": "Replaces costly semantic evaluation with structured verification during LLM training, including code generation tasks."}
+{"sid": "R347", "decision": "exclude", "criterion": "IC1", "reason": "Model merging targets combining capabilities; no code generation resource-efficiency objective is established."}
+{"sid": "R348", "decision": "exclude", "criterion": "IC3", "reason": "Targets GUI world-state prediction through renderable code, not code completion or natural-language-to-code generation."}
+{"sid": "R349", "decision": "exclude", "criterion": "IC1", "reason": "Improves SVG generation quality and semantic alignment without targeting generation-process efficiency."}
+{"sid": "R350", "decision": "uncertain", "criterion": "IC1/IC3", "reason": "No abstract is available to establish an efficiency technique or an eligible code generation task."}
+{"sid": "R351", "decision": "uncertain", "criterion": "IC1", "reason": "No abstract is available to determine whether the code generation baselines address process efficiency."}
+{"sid": "R352", "decision": "include", "criterion": "ALL-MET", "reason": "Unifies text-to-code generation paradigms through shared parameters, minimal overhead, and knowledge distillation."}
+{"sid": "R353", "decision": "exclude", "criterion": "IC1", "reason": "Addresses developer productivity and Agile workflows, not resources consumed by code generation models."}
+{"sid": "R354", "decision": "exclude", "criterion": "IC1", "reason": "Reflection and escape mechanisms target HDL generation success, with no process-efficiency objective established."}
+{"sid": "R355", "decision": "exclude", "criterion": "EC2", "reason": "Targets automated chaos engineering and resilience testing; code generation is an incidental component."}
+{"sid": "R356", "decision": "include", "criterion": "ALL-MET", "reason": "Evaluates model size and optimization for CPU code generation using latency, memory, and energy metrics."}
+{"sid": "R357", "decision": "include", "criterion": "ALL-MET", "reason": "Optimizes LLM multi-agent routing to reduce inference cost, with evaluation including code generation."}
+{"sid": "R358", "decision": "exclude", "criterion": "EC4", "reason": "Describes a working-group overview of code-generation LLMs and educational opportunities, not an eligible technical study."}
+{"sid": "R359", "decision": "exclude", "criterion": "EC2", "reason": "Compresses an LLM-based code evaluator rather than a code generation model or process."}
+{"sid": "R360", "decision": "include", "criterion": "ALL-MET", "reason": "Uses on-device small language models to generate UI automation code with lower latency and token consumption."}
+{"sid": "R361", "decision": "exclude", "criterion": "IC3", "reason": "Proposes general LLM fine-tuning without a specific code-generation application or evaluation."}
+{"sid": "R362", "decision": "exclude", "criterion": "EC4", "reason": "A comparative review of chatbot systems."}
+{"sid": "R363", "decision": "exclude", "criterion": "IC1", "reason": "Improves DevOps workflow productivity, not the resource efficiency of model training or generation."}
+{"sid": "R364", "decision": "include", "criterion": "ALL-MET", "reason": "Self-supervised code-model pre-training supports generation with limited labeled data and few-shot learning."}
+{"sid": "R365", "decision": "exclude", "criterion": "IC2", "reason": "Uses RNN-guided deductive synthesis rather than LLMs or Transformers."}
+{"sid": "R366", "decision": "include", "criterion": "ALL-MET", "reason": "Evaluates budget-constrained local/cloud model collaboration on code-generation benchmarks."}
+{"sid": "R367", "decision": "exclude", "criterion": "EC2", "reason": "Targets UML software modeling rather than code generation."}
+{"sid": "R368", "decision": "exclude", "criterion": "IC1", "reason": "Optimizes the accuracy and size of generated neural architectures, not the code-generation process."}
+{"sid": "R369", "decision": "exclude", "criterion": "EC4", "reason": "A review of neural networks and compiler technologies."}
+{"sid": "R370", "decision": "exclude", "criterion": "IC1", "reason": "Reports code-generation quality and programmer productivity without a model-process efficiency technique."}
+{"sid": "R371", "decision": "exclude", "criterion": "IC1", "reason": "Introduces a multilingual capability benchmark without improving code-generation resource efficiency."}
+{"sid": "R372", "decision": "include", "criterion": "ALL-MET", "reason": "Uses formally verified self-play to train code-generation LLMs without human training data."}
+{"sid": "R373", "decision": "exclude", "criterion": "IC1", "reason": "Improves reasoning supervision and generation correctness without an explicit resource-efficiency contribution."}
+{"sid": "R374", "decision": "include", "criterion": "ALL-MET", "reason": "Efficiently organizes large-scale LLM training data and evaluates improvements in code completion."}
+{"sid": "R375", "decision": "exclude", "criterion": "EC2", "reason": "Targets source-code representation and classification rather than code generation."}
+{"sid": "R376", "decision": "exclude", "criterion": "IC3", "reason": "Accelerates image-processing DNN inference; code generation refers only to compiler implementation."}
+{"sid": "R377", "decision": "exclude", "criterion": "IC1", "reason": "Evaluates generated-code quality and efficiency, not the resources spent generating it."}
+{"sid": "R378", "decision": "exclude", "criterion": "IC1", "reason": "Benchmarks computer-science capabilities without a code-generation process efficiency technique."}
+{"sid": "R379", "decision": "exclude", "criterion": "IC1", "reason": "Studies software-engineering productivity benefits rather than model training or generation efficiency."}
+{"sid": "R380", "decision": "exclude", "criterion": "IC3", "reason": "Evaluates general agentic workflows and deployment without identifying code generation as a target task."}
+{"sid": "R381", "decision": "exclude", "criterion": "IC1", "reason": "Discusses developer productivity, reliability, and governance without improving model training or generation efficiency."}
+{"sid": "R382", "decision": "exclude", "criterion": "EC4", "reason": "Thesis abstract rather than an eligible research paper."}
+{"sid": "R383", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes code-language-model fine-tuning techniques that explicitly improve sample efficiency."}
+{"sid": "R384", "decision": "exclude", "criterion": "IC1", "reason": "Introduces an evaluation platform and interaction metrics, not a technique improving code-generation process efficiency."}
+{"sid": "R385", "decision": "exclude", "criterion": "IC1", "reason": "Improves project-level generation correctness without an explicit model-resource efficiency technique or evaluation."}
+{"sid": "R386", "decision": "exclude", "criterion": "IC2", "reason": "Uses convolutional neural networks, computer vision, and model-driven architecture rather than LLMs or Transformers."}
+{"sid": "R387", "decision": "exclude", "criterion": "EC2", "reason": "Benchmarks automated program repair rather than code completion or natural-language-to-code generation."}
+{"sid": "R388", "decision": "exclude", "criterion": "IC1", "reason": "Discusses HPC programming-environment priorities without proposing or evaluating efficient LLM code generation."}
+{"sid": "R389", "decision": "exclude", "criterion": "EC2", "reason": "The title explicitly targets code translation, an excluded task."}
+{"sid": "R390", "decision": "exclude", "criterion": "IC1", "reason": "Filters training data to improve generated-code quality, not training or generation resource efficiency."}
+{"sid": "R391", "decision": "exclude", "criterion": "EC2", "reason": "The title explicitly targets automated program repair, an excluded task."}
+{"sid": "R392", "decision": "include", "criterion": "ALL-MET", "reason": "Uses LoRA and QLoRA for natural-language-to-Verilog generation under constrained single-GPU compute budgets."}
+{"sid": "R393", "decision": "exclude", "criterion": "IC1", "reason": "Targets Chisel correctness and design variability; the cost-effective claim lacks a stated process-efficiency technique or evaluation."}
+{"sid": "R394", "decision": "include", "criterion": "ALL-MET", "reason": "Evaluates reasoning-length control methods addressing computational cost, including on code-generation tasks."}
+{"sid": "R395", "decision": "exclude", "criterion": "EC2", "reason": "Targets fix localization and automated program repair rather than eligible code generation."}
+{"sid": "R396", "decision": "uncertain", "criterion": "IC1", "reason": "The title suggests efficient LLM-based hardware generation through distillation, but no abstract is available to confirm eligibility."}
+{"sid": "R397", "decision": "include", "criterion": "ALL-MET", "reason": "Proposes a parameter-efficient LLM fine-tuning method and evaluates it on code generation among other tasks."}
+{"sid": "R398", "decision": "exclude", "criterion": "EC4", "reason": "Thesis abstract rather than an eligible research paper."}
+{"sid": "R399", "decision": "exclude", "criterion": "IC2", "reason": "Accelerates convolutional neural networks using custom hardware, not LLMs or Transformers."}
+{"sid": "R400", "decision": "exclude", "criterion": "EC2", "reason": "Targets GUI visual inspection and Android test validation rather than code generation."}

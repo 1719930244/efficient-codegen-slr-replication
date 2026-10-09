@@ -1,0 +1,13 @@
+code generation 0 129
+code completion 0 2
+code synthesis 0 4
+program synthesis 0 9
+code infilling 0 0
+automated programming 0 9
+{
+ "raw": 150,
+ "boolean": 54,
+ "title_strict": 12,
+ "nominated_new": 12,
+ "already_known": 0
+}

@@ -1,126 +1,88 @@
 # Replication Package: Towards Efficient LLM-Based Code Generation
 
-Replication package for the systematic literature review: *"Towards Efficient LLM-Based Code Generation: A Systematic Review"* (submitted to ACM TOSEM).
+Replication package for the systematic literature review: *"Towards Efficient LLM-Based Code Generation: A Systematic Review"* (ACM TOSEM, manuscript TOSEM-2026-0589, revision submitted October 2026). Package version **v2.0** (2026-10-09), see [CHANGELOG.md](CHANGELOG.md).
 
 ## Overview
 
-This review systematically analyzes **122 primary studies** on efficiency techniques for LLM-based code generation, organized across **six research questions** spanning the full lifecycle from data preparation through deployment, plus a cross-cutting empirical study on technique composition.
+This review systematically analyzes **141 primary studies** on efficiency techniques for LLM-based code generation, organized across **six research questions** spanning the full lifecycle from data preparation through deployment and evaluation, plus a cross-cutting controlled experiment on technique composition. The corpus comes from a single search campaign with a literature cut-off of **2026-08-31**: 89 full-text includes and 36 snowballing/targeted additions (net of 3 duplicates) give 122 studies, and the Phase-4 OpenAlex/arXiv window search for April to August 2026 contributes 19 more (16 OpenAlex plus 6 arXiv minus 3 overlaps).
 
 | RQ | Scope | Studies |
 |----|-------|---------|
-| RQ1 | Data Preparation (selection, quality, synthesis) | 25 |
-| RQ2 | Model Training (pre-training, PEFT, distillation, RL, curriculum) | 24 |
-| RQ3 | Inference Optimization (decoding, input/output compression, serving, routing, post-training compression, code-specific) | 59 |
-| RQ4 | Deployment (deployment-stage optimization) | 24 |
-| RQ5 | Evaluation (benchmarks, metrics, reporting compliance) | 21 |
-| RQ6 | Technique Composition and Interaction Effects (empirical experiments) | — |
+| RQ1 | Data Preparation (selection, quality, synthesis; distillation and code-specific work counted here) | 29 |
+| RQ2 | Model Training (pre-training, PEFT, curriculum, RL) | 26 |
+| RQ3 | Inference Optimization (decoding, compression, sampling, orchestration) | 63 |
+| RQ4 | Deployment (quantization, pruning, routing, system-level serving) | 28 |
+| RQ5 | Evaluation (benchmarks, metrics, reporting compliance) | 27 |
+| RQ6 | Technique Composition and Interaction Effects (controlled experiments) | — |
 
-> Note: 31 studies span multiple RQs (per-RQ counts sum to more than 122). RQ6 is answered by controlled experiments rather than primary-study classification (see `experiments/`).
+> Note: 32 studies span multiple RQs, so per-RQ counts sum to more than 141. The canonical stage marginals are computed by the mapping documented in `scripts/plot_upset.py` (codes 2c and 3l attach to the data stage; 3g/3h/3i/3m to deployment; 4a/4b to evaluation), which reproduces 29/26/63/28/27 exactly. The legacy `RQ` column of earlier package releases was an incomplete annotation and has been regenerated from this mapping; `classification-scheme.csv`'s RQ column keeps the taxonomy's chapter home for each category. RQ6 is answered by controlled experiments rather than primary-study classification (see `experiments/`).
 
 ## Repository Structure
 
 ```
 data/
-  primary-studies.csv          # All 122 primary studies with metadata and classification
-  classification-scheme.csv    # Taxonomy: 24 categories mapped to study keys
-  statistics.json              # Summary statistics (year, venue, RQ, category distributions)
-  reporting-compliance.json    # Per-study reporting compliance (8-item audit, N=122)
+  primary-studies.csv          # All 141 primary studies: metadata, canonical RQ column, Quality Tier
+  classification-scheme.csv    # Taxonomy: 24 categories, study counts and keys regenerated for 141
+  statistics.json              # Summary statistics (year, RQ, category distributions, N=141)
+  reporting-compliance.json    # Per-study QA scores (QA1-QA4, all 141 studies)
+  search-log.csv               # Structured log of every search executed (main campaign, window, gap)
+  venues/
+    venue-tier-141.csv         # Per-study venue type and CCF/CORE quality tier (all 141)
+    appendix-b-venue-tier.csv  # 122-era tier table kept for provenance
   by-rq/
-    rq1-studies.csv            # RQ1: Data Preparation studies
-    rq2-studies.csv            # RQ2: Model Training studies
-    rq3-studies.csv            # RQ3: Inference Optimization studies
-    rq4-studies.csv            # RQ4: Deployment studies
-    rq5-studies.csv            # RQ5: Evaluation studies
+    rq1-studies.csv ... rq5-studies.csv   # Per-RQ subsets (29/26/63/28/27, full column schema)
+  corpus-merge-20261001/       # The 19 window-search studies: per-study extraction records
+                               # (categories, QA, 8-item audit), the 122-era inputs, and
+                               # recompute.py which regenerates primary-studies-141 byte-identically
+  window-search-2026/          # Phase-4 arXiv pass (2026-09-29): funnel, per-record screening
+                               # log SCREENING.md, batch record, as-run search script
+  monthly-updates/             # 2026-05 and 2026-09 batch records, arXiv round artifacts,
+                               # UPDATE-LOG.md (living-update ledger)
+  gap-search-20261007/         # March 7-31 2026 gap search: funnels, nominations, dual
+                               # screening, adjudication (0 eligible, 1 pending full text)
+  coverage-audit-20261007/     # Independent OpenAlex recall audit: 400-record sample, both
+                               # screeners' decisions, adjudication, estimates (recall 0.78,
+                               # 95% CI 0.54-0.91), as-run scripts
   EXPERIMENT-DATA.md           # Provenance map for all raw experiment data (read this first)
   v100-original-results/       # V100 campaign: aggregates, regeneration, April logs, manifests
   a800-results/                # A800 extension campaign: full raw data of both rental servers
   xgpu-3090ti-217/             # RTX 3090 Ti third-architecture reference point + judged outputs
   lcb-results-216/             # LiveCodeBench contamination-free layer, lab V100 server
-  v100-sept-round-216/         # Sep 2026 replication round: acceptance loop, 32B cells, LCB-on-3090Ti, BCB-instruct-on-V100, 1024-token sensitivity
-experiments/                   # RQ6 empirical experiments
-  EXPERIMENT-PLAN.md           # Design doc: factorial composition + Pareto frontier + energy round
-  scripts/
-    download_models.py
-    eval_humaneval.py          # HumanEval evaluation core (NVML energy measurement included)
-    run_composition.py         # Experiment 1: 12 configs (3 precision x 2 decoding x 2 sampling)
-    run_pareto.py              # Experiment 2: 15 configs (5 model scales x 3 precisions)
-    run_energy_round.py        # Experiment 3: single-pass energy measurement for 27 configs
-    launch-pareto-parallel.sh  # GPU watcher: auto-schedule pareto run2/run3
-    launch-energy-round.sh     # GPU watcher: auto-schedule energy round on freed GPU
-    plot_results.py            # Figure generation (Pareto 4-subplot)
+  v100-sept-round-216/         # Sep 2026 replication round: acceptance loop, 32B cells,
+                               # LCB-on-3090Ti, BCB-instruct-on-V100, 1024-token sensitivity
+docs/
+  search-queries.md            # Full search protocol: term groups, per-database queries verbatim
+  UPDATE-PROCESS.md            # Monthly companion-website update SOP
+  REQUIREMENTS.md              # Companion website design notes (historical)
+experiments/                   # RQ6 empirical experiments: design doc, as-run scripts, env lock
 scripts/
-  generate-data.py             # Script to regenerate data tables from source files
+  plot_upset.py                # Regenerates the RQ-intersection figure from primary-studies.csv
+  sensitivity_findings.py      # Section 3.8 peer-reviewed-subset counts (reproduces Tables 3-4)
+  plot_pareto_a800_cleanmem.py # Regenerates the A800 Pareto figure with clean memory readings
+  monthly_update_openalex.py   # Standard monthly living-update search (OpenAlex)
+  monthly_update_search.py     # May 2026 batch search (Semantic Scholar bulk, historical)
+  monthly_update_classify.py   # Monthly batch regex bucketing (historical)
+  generate-data.py             # DEPRECATED: regenerated the v1 data files from screening
+                               # intermediates that were not archived; statistics.json and
+                               # classification-scheme.csv are now regenerated directly from
+                               # primary-studies.csv
+figures/                       # Reference renders produced by the plotting scripts
 TAXONOMY.md                    # Full classification taxonomy with descriptions
 ```
 
 ## Classification Taxonomy
 
-The taxonomy follows the LLM lifecycle with fine-grained categories organized across RQ1-RQ5. A single primary study may map to multiple categories.
+The taxonomy follows the LLM lifecycle with 24 fine-grained categories. Canonical stage assignment (used for all reported marginals): RQ1 = 1a, 1b, 2c, 3l; RQ2 = 2a, 2b, 2d, 2f; RQ3 = 3a, 3b, 3c, 3d, 3e, 3f, 3j, 3k, 3n, 3o; RQ4 = 3g, 3h, 3i, 3m; RQ5 = 4a, 4b. Distillation (2c) and code-specific optimization (3l) attach to the data stage for counting and are discussed in the chapters of the stages their methods target. See `TAXONOMY.md` for descriptions and `data/classification-scheme.csv` for study-to-category assignments.
 
-### RQ1: Data Preparation (25 studies)
-| Code | Category |
-|------|----------|
-| 1a | Data Selection |
-| 1b | Data Quality Assessment & Synthesis |
+## Reporting Compliance Audit (N=141)
 
-### RQ2: Model Training (24 studies)
-| Code | Category |
-|------|----------|
-| 2a | Efficient Pre-training |
-| 2b | Parameter-Efficient Fine-Tuning (PEFT) |
-| 2c | Knowledge Distillation |
-| 2d | Curriculum Learning |
-| 2f | RL-based Training |
+All 141 primary studies were audited against an 8-item reporting checklist (Table 5 of the manuscript). Aggregate coverage: functional correctness 95%, model name/version 96%, hardware 68%, latency/throughput 47%, memory 21%, serving configuration 40%, monetary cost 21%, energy/carbon 8%. Reporting depth: 25% of studies report no efficiency metric, 33% exactly one, 43% two or more; only 16% report both latency and memory.
 
-### RQ3: Inference Optimization (59 studies)
-| Code | Category |
-|------|----------|
-| 3a | Speculative Decoding |
-| 3b | Early Exit |
-| 3c | Non-Autoregressive Generation |
-| 3d | Prompt Compression |
-| 3e | Context Pruning |
-| 3f | KV Cache Optimization |
-| 3g | Post-Training Quantization |
-| 3h | Model Pruning |
-| 3j | Adaptive Sampling |
-| 3l | Code-Specific Optimization |
-| 3m | System-Level Serving |
-| 3n | Prompt Engineering |
-| 3o | Chain-of-Thought Optimization |
+Provenance note, recorded as fact: the per-study 8-item audit sheets of the original 122 studies were not archived; their aggregate counts were back-calculated from the published percentages during the revision audit (`data/corpus-merge-20261001/recompute.py` documents the procedure and its ambiguity bounds). The 19 merged studies carry full per-study audit records (`audit-A.json`, `audit-B.json`). Per-study QA scores (QA1-QA4) for all 141 studies are in `data/reporting-compliance.json`.
 
-### RQ4: Deployment (24 studies)
-| Code | Category |
-|------|----------|
-| 3i | Model Routing |
-| 3k | Multi-Agent Orchestration |
+## Quality Tiers
 
-> Deployment-stage optimizations (routing and multi-agent orchestration) were separated from RQ3 to reflect their operational rather than model-internal nature.
-
-### RQ5: Evaluation (21 studies)
-| Code | Category |
-|------|----------|
-| 4a | Benchmark Design |
-| 4b | Empirical Study |
-
-See `TAXONOMY.md` for full descriptions and `data/classification-scheme.csv` for study-to-category assignments.
-
-## Reporting Compliance Audit (N=122)
-
-All 122 primary studies were audited against an 8-item reporting checklist. Aggregate coverage:
-
-| Item | Coverage |
-|------|----------|
-| Functional Correctness | 96% |
-| Model Info | 97% |
-| Hardware | 69% |
-| Latency / Throughput | 48% |
-| Memory | 19% |
-| Serving Config | 39% |
-| Monetary Cost | 20% |
-| Energy / Carbon | 7% |
-
-Depth breakdown: 26% of studies report no efficiency metric, 34% report exactly one, and 40% report two or more. See `data/reporting-compliance.json` for per-study scores.
+`data/venues/venue-tier-141.csv` lists the venue type and quality tier of every study: CCF 2022 catalogue first (A/B/C), then CORE A* for venues outside the CCF catalogue (ICLR only in this corpus), workshops and unlisted venues as unranked, preprints as n/a. Distribution of the 55 peer-reviewed studies: 27 CCF-A, 10 CCF-B, 6 CCF-C, 1 CORE-A*, 11 unranked. The same column is in `primary-studies.csv`.
 
 ## RQ6: Empirical Composition and Pareto Experiments
 
@@ -130,41 +92,39 @@ Three controlled experiments evaluate efficiency techniques in combination, some
 2. **Pareto Frontier** (15 configurations): 5 model scales (0.5B/1.5B/3B/7B/14B) x 3 precisions (FP16/INT8/INT4) under greedy decoding to map the efficiency-quality trade-off space.
 3. **Energy Round** (27 configurations, single pass): NVML `nvmlDeviceGetTotalEnergyConsumption`-based energy measurement for every configuration, validated on V100 driver 570+.
 
-Hardware: 4x NVIDIA Tesla V100-SXM2-32GB, PyTorch 2.5.1 + CUDA 12.4. All scripts and the design document are in `experiments/`.
+Original campaign hardware: 4x NVIDIA Tesla V100-SXM2-32GB, PyTorch 2.5.1 + CUDA 12.4. All scripts and the design document are in `experiments/`.
 
-The extended suite (2026) adds: five-run A800 replication of the composition and Pareto cells at six scales including 32B; EvalPlus re-judgment (HumanEval+) of every central cell on V100, A800, and a consumer RTX 3090 Ti third-architecture reference point; MBPP (five runs) and BigCodeBench (four runs, plus an instruct-protocol check); pre-registered hypothesis tests; a second model family (DeepSeek-Coder-6.7B-Instruct) at the four central cells; and instrumented draft-acceptance measurements on two architectures. Raw data, per-platform software stacks, quarantined defective outputs, the dropped MBPP+ layer, and the files lost when the second A800 rental expired are documented in `data/EXPERIMENT-DATA.md`.
+The extended suite (2026) adds: five-run A800 replication of the composition and Pareto cells at six scales including 32B; EvalPlus re-judgment (HumanEval+) of every central cell on V100, A800, and a consumer RTX 3090 Ti third-architecture reference point; MBPP (five runs) and BigCodeBench (four runs, plus an instruct-protocol check on the lab V100-PCIE server); a contamination-free LiveCodeBench slice (288 post-release problems); pre-registered hypothesis tests H1-H5; a second model family (DeepSeek-Coder-6.7B-Instruct) at the four central cells; and instrumented draft-acceptance measurements on three architectures. Raw data, per-platform software stacks, quarantined defective outputs, the dropped MBPP+ layer, and the files lost when the second A800 rental expired are documented in `data/EXPERIMENT-DATA.md`.
 
 ## Data Description
 
-### primary-studies.csv
+### primary-studies.csv (141 rows)
 
 | Column | Description |
 |--------|-------------|
-| ID | Sequential identifier (S001-S122) |
+| ID | Sequential identifier (S001-S141; S123-S141 are the 19 merged window-search studies) |
 | Key | Citation key used in the paper |
 | Title | Full paper title |
-| Year | Publication year (2020-2026) |
-| Venue | Publication venue |
-| RQ | Research question assignment (may be multiple, separated by `;`) |
-| Primary Categories | Fine-grained classification codes (separated by `;`) |
+| Year | Year of first public version (2020-2026) |
+| Venue | Publication venue ("arXiv preprint" for preprints) |
+| Venue Type | conference / journal / preprint |
+| Quality Tier | CCF A / CCF B / CCF C / CORE A* / unranked / n/a (preprints) |
+| Source | database (88), snowball-backward (10), snowball-forward (8), search-update (19, the merged Phase-4 window studies), blank (16, legacy rows whose provenance label was not recorded in v1) |
+| RQ | Canonical stage assignment from the plot_upset mapping, multiple values separated by "; " |
+| Primary Categories | Fine-grained classification codes (separated by "; ") |
 | Secondary Categories | Additional classification codes, if any |
 | Scope Flags | Scope annotations, if any |
 | Brief Rationale | Classification rationale |
 
 ### Study Characteristics
 
-- **Year distribution**: 2020 (1), 2022 (1), 2023 (15), 2024 (35), 2025 (54), 2026 (19)
-- **Sources**: Database search + snowballing + supplementary search
+- **Year distribution**: 2020 (1), 2022 (1), 2023 (14), 2024 (35), 2025 (52), 2026 (38)
+- **Venue types**: 42 conference, 13 journal, 86 preprint (61% preprints; 55 peer-reviewed)
+- **Quality tiers** (peer-reviewed subset): 27 CCF-A, 10 CCF-B, 6 CCF-C, 1 CORE-A*, 11 unranked
 
 ## Search Strategy
 
-Seven digital libraries were searched using a structured query combining three concept groups:
-
-- **Group A** (Code Generation): code generation, code completion, program synthesis, ...
-- **Group B** (Efficiency): efficiency, optimization, latency, throughput, ...
-- **Group C** (LLM/Transformer): large language model, transformer, neural network, ...
-
-Query: `(Group A) AND (Group B) AND (Group C)`, year >= 2017
+Seven digital libraries were searched on **2026-03-06** with a two-group database query: Group A (6 code-generation phrases) AND Group B (13 efficiency terms). Group C (8 LLM-scope terms) and the 2017-onward year window are eligibility filters applied at Stage-1 screening (inclusion criterion IC2), not part of the database query. Full queries verbatim: [`docs/search-queries.md`](docs/search-queries.md); structured log: [`data/search-log.csv`](data/search-log.csv).
 
 | Database | Records |
 |----------|---------|
@@ -178,33 +138,40 @@ Query: `(Group A) AND (Group B) AND (Group C)`, year >= 2017
 | **Total (before dedup)** | **26,265** |
 | **After deduplication** | **22,118** |
 
+Execution note: the Semantic Scholar bulk endpoint was queried twice on 2026-03-06; the working progress log records 864 hits from an earlier partial run, and 1,505 is the final protocol count reported above. The final execution record is with the first author; both counts are documented here and in `data/search-log.csv`.
+
+Phase 4 (window search, publication window 2026-04-01 to 2026-08-31, run 2026-09): OpenAlex 436 candidates to 16 selected (`data/monthly-updates/2026-09.json`), arXiv 1,095 raw to 111 nominations to 6 selected (`data/window-search-2026/`), merged with 3 overlaps removed into 19 studies (`data/corpus-merge-20261001/`). A gap search covering 2026-03-07 to 2026-03-31 (run 2026-10-07) yielded 118 unique candidates, zero strictly eligible studies, and one record pending full-text adjudication (`data/gap-search-20261007/`). An independent OpenAlex coverage audit estimates campaign recall at 0.78 (95% CI 0.54-0.91) with three eligible records found in a 400-record sample (`data/coverage-audit-20261007/`).
+
 ## PRISMA Flow
 
 ```
-26,265 raw records (7 databases)
+26,265 raw records (7 databases, searched 2026-03-06)
     |
-    v  Deduplication
+    v  Deduplication (4,147 removed)
 22,118 unique records
     |
-    v  Title & Abstract screening
- 3,810 candidates (18,308 excluded)
+    v  Title & abstract screening (18,308 excluded)
+ 3,810 candidates
     |
-    v  Full-text retrieval + screening
-    89 included (1,611 excluded after full-text review)
+    v  Full-text retrieval: 1,700 of 3,810 (2,110 not retrieved)
+    v  Full-text screening, five authors (1,611 excluded)
+    89 included
     |
-    +-- Snowballing: +18 (2,645 candidates, 2,627 excluded)
-    +-- Supplementary search: +18
+    +-- Snowballing: 2,645 candidates -> 18 included (2,627 excluded)
+    +-- Targeted search: +18
     |
-    v  Quality assessment (4 criteria x 2 reviewers)
-  125 candidates
+    v  Quality assessment, duplicate removal (-3)
+  122 studies (frozen v1 corpus)
     |
-    v  Duplicate removal (-3)
-  122 primary studies
+    +-- Phase 4, OpenAlex and arXiv window (April-August 2026):
+    |     OpenAlex 436 -> 16; arXiv 111 -> 6; overlaps -3; +19
+    v
+  141 primary studies (cut-off 2026-08-31)
 ```
 
 ## Quality Assessment
 
-Each study was assessed on four criteria by two independent reviewers:
+Each study was assessed on four criteria; scores are per-study in `data/reporting-compliance.json`:
 
 | Criterion | Description |
 |-----------|-------------|
@@ -214,6 +181,17 @@ Each study was assessed on four criteria by two independent reviewers:
 | QA4 | Does the study provide reproducibility artifacts? |
 
 Scores: 1.0 (fully met), 0.5 (partially met), 0.0 (not met). Maximum total: 4.0.
+
+## Living Updates and the Companion Website
+
+The companion website (https://1719930244.github.io/efficient-codegen-slr-replication/) is updated on a monthly cadence: newly published studies are logged in `data/monthly-updates/` and rendered on the site without re-opening the review or changing the corpus. Process: [`docs/UPDATE-PROCESS.md`](docs/UPDATE-PROCESS.md); ledger: `data/monthly-updates/UPDATE-LOG.md`. The May and September 2026 tracker batches predate the corpus merge; the September batch's selected studies (plus the arXiv pass, minus overlaps) are the 19 studies merged into the 141 corpus.
+
+## Known Gaps (recorded honestly)
+
+1. **Stage-1 classifier artifacts** (code, threshold, term weights, ranked list of the 22,118 unique records): exist with the first author and will be added to this package; the response letter carries the corresponding placeholder until then.
+2. **Full-text screening decisions** (the 1,700 retrieved records with INCLUDE/EXCLUDE and criterion codes): the original assessment worksheets were on the screening working directory that was not archived off the retired rental servers; reconstruction from the ranked candidate list is planned together with item 1.
+3. **Gap-search record G000** (EAAI 2026, DOI 10.1016/j.engappai.2026.114360): full text requires institutional access; its IC4 adjudication is pending.
+4. Per-study 8-item audit sheets of the original 122 studies: not archived; see the provenance note under Reporting Compliance Audit.
 
 ## License
 

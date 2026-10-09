@@ -1,0 +1,123 @@
+ID,Key,Venue,Type,Tier
+S001,arxiv_2004_13651,MSR,Conference,CCF B
+S002,2204_09877,arXiv,Preprint,n/a
+S003,2303_05378,arXiv,Preprint,n/a
+S004,2303_07457,AAAI,Conference,CCF A
+S005,2305_11860,EMNLP,Conference,CCF B
+S006,2308_10462,TOSEM,Journal,CCF A
+S007,2309_14021,arXiv,Preprint,n/a
+S008,2310_18628,arXiv,Preprint,n/a
+S009,2312_02418,arXiv,Preprint,n/a
+S010,2312_08583,arXiv,Preprint,n/a
+S011,2312_11511,arXiv,Preprint,n/a
+S012,2312_13010,arXiv,Preprint,n/a
+S013,arxiv_2304_05216,ISSTA,Conference,CCF A
+S014,arxiv_2312_05562,TSE,Journal,CCF A
+S015,doi_10_1109_ASE56229_2023_00125,ASE,Conference,CCF A
+S016,doi_10_1109_TSE_2023_3267446,TSE,Journal,CCF A
+S017,2401_00788,arXiv,Preprint,n/a
+S018,2401_09964,ICSE,Conference,CCF A
+S019,2402_01035,ICML,Conference,CCF A
+S020,2402_14323,arXiv,Preprint,n/a
+S021,2403_10059,ICML,Conference,CCF A
+S022,2404_16333,ISSTA,Conference,CCF A
+S023,2405_15189,NeurIPS,Conference,CCF A
+S024,2405_15208,COLING,Conference,CCF B
+S025,2405_15842,IJCNN,Conference,CCF C
+S026,2406_10263,arXiv,Preprint,n/a
+S027,2406_18294,AAAI,Conference,CCF A
+S028,2407_00434,arXiv,Preprint,n/a
+S029,2407_03157,ICLR,Conference,CORE A*
+S030,2407_05040,arXiv,Preprint,n/a
+S031,2407_20042,ISSTA,Conference,CCF A
+S032,2408_03680,PACMSE (FSE),Journal,CCF A
+S033,2408_11198,arXiv,Preprint,n/a
+S034,2409_16416,arXiv,Preprint,n/a
+S035,2410_08391,arXiv,Preprint,n/a
+S036,2410_10209,ICML,Conference,CCF A
+S037,2410_14766,COLA,Journal,unranked
+S038,2410_18194,arXiv,Preprint,n/a
+S039,2410_22480,arXiv,Preprint,n/a
+S040,2410_22793,arXiv,Preprint,n/a
+S041,2411_05010,arXiv,Preprint,n/a
+S042,2411_06680,TSE,Journal,CCF A
+S043,2411_11055,ACL,Conference,CCF A
+S044,2412_15441,JSS,Journal,CCF B
+S045,2412_16589,WSDM,Conference,CCF B
+S046,arxiv_2403_00046,TOSEM,Journal,CCF A
+S047,arxiv_2404_02183,arXiv,Preprint,n/a
+S048,arxiv_2408_06450,arXiv,Preprint,n/a
+S049,arxiv_2410_00558,EMNLP,Conference,CCF B
+S050,doi_10_48550_arXiv_2402_07844,arXiv,Preprint,n/a
+S051,ss_Zhang2024llm,JAIGS,Journal,unranked
+S052,2501_01054,ACL,Conference,CCF A
+S053,2501_05248,LLM4Code@ICSE,Conference,unranked
+S054,2501_05899,GREENS@ICSE,Conference,unranked
+S055,2501_11006,CCGrid,Conference,CCF C
+S056,2501_18653,arXiv,Preprint,n/a
+S057,2501_18657,arXiv,Preprint,n/a
+S058,2502_17139,ASE,Conference,CCF A
+S059,2502_18489,arXiv,Preprint,n/a
+S060,2503_07103,arXiv,Preprint,n/a
+S061,2503_17793,arXiv,Preprint,n/a
+S062,2503_19876,arXiv,Preprint,n/a
+S063,2504_03723,arXiv,Preprint,n/a
+S064,2504_12687,IJCNN,Conference,CCF C
+S065,2504_14560,arXiv,Preprint,n/a
+S066,2505_01572,ACL,Conference,CCF A
+S067,2505_14174,arXiv,Preprint,n/a
+S068,2505_20182,EMNLP,Conference,CCF B
+S069,2506_01604,ICMI,Conference,CCF C
+S070,2506_03006,arXiv,Preprint,n/a
+S071,2506_09092,arXiv,Preprint,n/a
+S072,2506_10525,Internetware,Conference,CCF C
+S073,2506_12355,ACL,Conference,CCF A
+S074,2506_18796,ASE,Conference,CCF A
+S075,2507_23194,arXiv,Preprint,n/a
+S076,2508_03258,arXiv,Preprint,n/a
+S077,2508_05970,arXiv,Preprint,n/a
+S078,2508_20124,arXiv,Preprint,n/a
+S079,2509_09947,FLLM,Conference,unranked
+S080,2509_12159,arXiv,Preprint,n/a
+S081,2509_14093,arXiv,Preprint,n/a
+S082,2509_17489,arXiv,Preprint,n/a
+S083,2509_25243,arXiv,Preprint,n/a
+S084,2510_00446,ASE,Conference,CCF A
+S085,2510_16996,arXiv,Preprint,n/a
+S086,2510_18165,arXiv,Preprint,n/a
+S087,2510_19644,arXiv,Preprint,n/a
+S088,2511_01884,arXiv,Preprint,n/a
+S089,2511_23321,APSEC,Conference,CCF C
+S090,2512_08266,ASE,Conference,CCF A
+S091,2512_23367,arXiv,Preprint,n/a
+S092,He2025codepromptzip,arXiv,Preprint,n/a
+S093,Zhao2025codeswift,arXiv,Preprint,n/a
+S094,arxiv_2505_02133,arXiv,Preprint,n/a
+S095,arxiv_2505_14200,arXiv,Preprint,n/a
+S096,arxiv_2506_22776,arXiv,Preprint,n/a
+S097,arxiv_2507_02378,arXiv,Preprint,n/a
+S098,arxiv_2508_08332,FLLM,Conference,unranked
+S099,arxiv_2512_24570,arXiv,Preprint,n/a
+S100,doi_10_1109_TCAD_2024_3483089,TCAD,Journal,CCF A
+S101,doi_10_3390_sym17081325,Symmetry,Journal,unranked
+S102,ieee_Morte2025efficient,WCNPS,Conference,unranked
+S103,ieee_Rohilla2025graphmoe,INCET,Conference,unranked
+S104,2508_13666,arXiv,Preprint,n/a
+S105,2512_14048,arXiv,Preprint,n/a
+S106,2601_09703,arXiv,Preprint,n/a
+S107,2601_20223,arXiv,Preprint,n/a
+S108,2601_21469,arXiv,Preprint,n/a
+S109,2601_22132,arXiv,Preprint,n/a
+S110,2601_23254,arXiv,Preprint,n/a
+S111,2602_02597,arXiv,Preprint,n/a
+S112,2602_05712,arXiv,Preprint,n/a
+S113,2602_07670,arXiv,Preprint,n/a
+S114,2602_12049,arXiv,Preprint,n/a
+S115,2602_12305,arXiv,Preprint,n/a
+S116,2602_15843,arXiv,Preprint,n/a
+S117,2602_17100,arXiv,Preprint,n/a
+S118,2602_17169,arXiv,Preprint,n/a
+S119,2602_17684,arXiv,Preprint,n/a
+S120,2602_21800,arXiv,Preprint,n/a
+S121,2602_24286,arXiv,Preprint,n/a
+S122,2603_04646,arXiv,Preprint,n/a
