@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Towards Efficient LLM-Based Code Generation: A Systematic Review</title>
-  <meta name="description" content="Companion website for the systematic review on efficient LLM-based code generation. 122 primary studies, continuously maintained.">
+  <meta name="description" content="Companion website for the systematic review on efficient LLM-based code generation. 141 primary studies, continuously maintained.">
   <style>
     :root {
       --primary: #1a3a5c;
@@ -231,8 +231,8 @@
   <div class="authors">Zongwen Shen, Jionghan Wu, Yidan Xu, Xuejin Liu, Xiang Chen, Jidong Ge, Chuanyi Li, Liguo Huang, and Bin Luo</div>
   <div class="venue">Manuscript under review, 2026</div>
   <div class="stats">
-    <div class="stat"><span class="num">122</span><span class="label">Primary Studies</span></div>
-    <div class="stat"><span class="num">26,265</span><span class="label">Records Screened</span></div>
+    <div class="stat"><span class="num">141</span><span class="label">Primary Studies</span></div>
+    <div class="stat"><span class="num">26,800+</span><span class="label">Candidate Records</span></div>
     <div class="stat"><span class="num">7</span><span class="label">Databases</span></div>
     <div class="stat"><span class="num">24</span><span class="label">Categories</span></div>
   </div>
@@ -249,14 +249,14 @@
     <div class="living-banner">
       <div class="icon">&#x1F4E1;</div>
       <div>
-        <strong>Living Resource</strong> &mdash; This companion website and the associated repository are <strong>continuously maintained</strong>. We update the paper list with newly published studies on efficient LLM-based code generation on a monthly cadence, maintained since September 2026. Last content update: <strong>September 2026</strong> &mdash; see the <a href="#updates">Updates</a> section below for the running log.
+        <strong>Living Resource</strong> &mdash; This companion website and the associated repository are <strong>continuously maintained</strong>. We update the paper list with newly published studies on efficient LLM-based code generation on a monthly cadence, maintained since September 2026. Last content update: <strong>October 2026</strong> &mdash; see the <a href="#updates">Updates</a> section below for the running log.
       </div>
     </div>
     <p>
-      Large Language Models (LLMs) have become indispensable tools for code generation, yet their computational costs&mdash;spanning data preparation, model training, inference, and evaluation&mdash;remain a critical barrier to practical adoption. This systematic review analyzes <strong>122 primary studies</strong> to provide a comprehensive map of efficiency techniques across the full lifecycle of LLM-based code generation.
+      Large Language Models (LLMs) have become indispensable tools for code generation, yet their computational costs&mdash;spanning data preparation, model training, inference, and evaluation&mdash;remain a critical barrier to practical adoption. This systematic review analyzes <strong>141 primary studies</strong> to provide a comprehensive map of efficiency techniques across the full lifecycle of LLM-based code generation.
     </p>
     <p>
-      Our review spans six research questions aligned with the model lifecycle: data preparation (RQ1, 25 studies), model training (RQ2, 24 studies), inference optimization (RQ3, 59 studies), deployment (RQ4, 24 studies), evaluation (RQ5, 21 studies), and technique composition measured in a controlled experiment suite (RQ6, see <a href="#experiments">Experiments</a>). Studies can address several questions, so the counts overlap. We identify 24 fine-grained technique categories and distill 8 key findings that reveal both progress and critical gaps in the field.
+      Our review spans six research questions aligned with the model lifecycle: data preparation (RQ1, 29 studies), model training (RQ2, 26 studies), inference optimization (RQ3, 63 studies), deployment (RQ4, 28 studies), evaluation (RQ5, 27 studies), and technique composition measured in a controlled experiment suite (RQ6, see <a href="#experiments">Experiments</a>). Studies can address several questions, so the counts overlap. We identify 24 fine-grained technique categories and distill 8 key findings that reveal both progress and critical gaps in the field.
     </p>
   </div>
 </section>
@@ -265,7 +265,7 @@
 <section id="taxonomy">
   <div class="container">
     <h2>Classification Taxonomy</h2>
-    <p>Our taxonomy follows the <strong>LLM lifecycle</strong>, organizing 122 primary studies into 24 categories. Click any category to browse its papers with direct links.</p>
+    <p>Our taxonomy follows the <strong>LLM lifecycle</strong>, organizing 141 primary studies into 24 categories. Click any category to browse its papers with direct links.</p>
     <div class="search-box">
       <input type="text" id="paperSearch" placeholder="Search papers by title, venue, year, or keyword..." oninput="filterPapers()">
     </div>
@@ -278,7 +278,49 @@
 <section id="updates">
   <div class="container">
     <h2>Living Updates</h2>
-    <p>The <strong>122-study core corpus</strong> reflects the manuscript&rsquo;s frozen scope at submission. This section logs newly published primary studies tracked after that cut-off, applying the same three-group term schema used in the review. Studies appear here without re-opening the systematic review. Batches run on a monthly cadence and are listed newest first; two batches have been logged so far, covering 31 unique studies.</p>
+    <p>The <strong>141-study corpus</strong> reflects a single search campaign with a literature cut-off of 2026-08-31. This section logs newly published primary studies tracked after that cut-off, applying the same term schema used in the review, without re-opening the systematic review. The May and September 2026 batches below were logged post-submission under the earlier frozen-corpus design; the September batch&rsquo;s OpenAlex selections, together with a parallel arXiv pass and minus three overlaps, were subsequently screened into the revised corpus as its 19 window-search studies, as noted on the September card. Monthly batches continue for studies published after the cut-off and are listed newest first; three batches have been logged so far, covering 47 unique studies.</p>
+
+    <div class="update-batch">
+      <h3>October 2026 &mdash; 16 new studies</h3>
+      <p class="batch-meta">Window: 2026-09-01 to 2026-10-09 &middot; Source: OpenAlex via the package script <code>scripts/monthly_update_openalex.py</code>, three-group schema identical to the original protocol &middot; Funnel: 10,615 Group&nbsp;A hits &rarr; 736 Boolean pass &rarr; 160 title-strict nominations &rarr; 16 selected. This is the first batch of the monthly cadence and the first to track studies published after the 2026-08-31 corpus cut-off; the 141-study corpus is unchanged. Repository-only deposits were excluded as grey literature, and output-artifact runtime-efficiency techniques were excluded per the window-round rule, with boundary benchmarks and measurement studies retained.</p>
+      <div class="update-rq">
+        <h4>RQ1 Data Preparation (1)</h4>
+        <ul>
+          <li><a href="https://openalex.org/W7214056409" target="_blank">OpenAlex</a> &mdash; Quality over Quantity: Diversity-Aware Data Selection for Efficient Verilog Code Generation</li>
+        </ul>
+      </div>
+      <div class="update-rq">
+        <h4>RQ2 Model Training (2)</h4>
+        <ul>
+          <li><a href="https://openalex.org/W7211894364" target="_blank">OpenAlex</a> &mdash; Distilled Continuous Diffusion Language Models Can Write Code in Few Steps---or One</li>
+          <li><a href="https://openalex.org/W4416784159" target="_blank">OpenAlex</a> &mdash; Don’t Use a Cannon to Kill a Fly: Lightweight Model Editing for LLMs to Correct Deprecated API Recommendations</li>
+        </ul>
+      </div>
+      <div class="update-rq">
+        <h4>RQ3 Inference Optimization (6)</h4>
+        <ul>
+          <li><a href="https://openalex.org/W7212303907" target="_blank">OpenAlex</a> &mdash; RouteRepair: Instance-Level Failure Diagnosis and Targeted Repair in LLM-Based Automated Heuristic Design for Routing Optimization</li>
+          <li><a href="https://openalex.org/W7213355055" target="_blank">OpenAlex</a> &mdash; KGMACG: Knowledge-Guided Multi-Agent Orchestration for Scalable Application-Level Code Generation</li>
+          <li><a href="https://openalex.org/W7214042457" target="_blank">OpenAlex</a> &mdash; OptiSkill: A Hierarchical and Evolving SkillBank for LLM-Based Optimization Modeling</li>
+          <li><a href="https://openalex.org/W7214116973" target="_blank">OpenAlex</a> &mdash; When Should Dependency Updates Invoke Repair Agents? A Lightweight Routing Study</li>
+          <li><a href="https://openalex.org/W7214785694" target="_blank">OpenAlex</a> &mdash; JevVibe: Efficient Classification-Guided Secure Code Generation</li>
+          <li><a href="https://openalex.org/W7215030046" target="_blank">OpenAlex</a> &mdash; SEER: Self-Enhancing Chain-of-Thought Compression for Reasoning Models</li>
+        </ul>
+      </div>
+      <div class="update-rq">
+        <h4>RQ5 Evaluation and Measurement (7)</h4>
+        <ul>
+          <li><a href="https://openalex.org/W7212893619" target="_blank">OpenAlex</a> &mdash; AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization</li>
+          <li><a href="https://openalex.org/W7213495287" target="_blank">OpenAlex</a> &mdash; An Empirical Evaluation of Cost-Efficient Large Language Models on Algorithmic Programming Tasks</li>
+          <li><a href="https://openalex.org/W7213511362" target="_blank">OpenAlex</a> &mdash; AI-DRIVEN MODEL FOR ECONOMIC EFFICIENCY IN SOFTWARE DEVELOPMENT TASKS</li>
+          <li><a href="https://openalex.org/W7214926925" target="_blank">OpenAlex</a> &mdash; Is manual software optimization a thing of the past?</li>
+          <li><a href="https://openalex.org/W7215129963" target="_blank">OpenAlex</a> &mdash; Right Answers, Costly Models: The Efficiency Gap in LLM-based Optimization Modeling</li>
+          <li><a href="https://openalex.org/W7220428400" target="_blank">OpenAlex</a> &mdash; Improving the Energy-Efficiency of the Code Generated by LLMs through Effective Prompting</li>
+          <li><a href="https://openalex.org/W7215058388" target="_blank">OpenAlex</a> &mdash; Cracking Query Bottlenecks: Towards Efficiency-Oriented Text-to-SQL Generation</li>
+        </ul>
+      </div>
+      <p class="batch-meta">Structured record: <a href="https://github.com/1719930244/efficient-codegen-slr-replication/blob/master/data/monthly-updates/2026-10.json" target="_blank">data/monthly-updates/2026-10.json</a></p>
+    </div>
 
     <div class="update-batch">
       <h3>September 2026 &mdash; 16 new studies</h3>
@@ -336,6 +378,7 @@
         </ul>
       </div>
 
+      <p class="batch-meta">Merge note: these 16 selections, together with 6 studies from a parallel arXiv pass and minus 3 overlaps, were screened into the revised 141-study corpus as its Phase-4 window studies (publication window 2026-04-01 to 2026-08-31); per-study extraction records are in <a href="https://github.com/1719930244/efficient-codegen-slr-replication/tree/master/data/corpus-merge-20261001" target="_blank">data/corpus-merge-20261001/</a>.</p>
       <p class="batch-meta">Structured record: <a href="https://github.com/1719930244/efficient-codegen-slr-replication/blob/master/data/monthly-updates/2026-09.json" target="_blank">data/monthly-updates/2026-09.json</a></p>
     </div>
 
@@ -383,13 +426,13 @@
     <p>Our systematic analysis distills 8 key findings across the LLM code generation lifecycle. Findings 1 to 7 synthesize the 122-study corpus; Finding 8 reports the controlled experiment suite described in the <a href="#experiments">Experiments</a> section:</p>
     <div style="display:grid; gap:.8rem; margin-top:1rem;">
       <div class="finding-card"><h4>Finding 1: Quality Dominates Quantity</h4><p>Three complementary data-level strategies improve training efficiency with a common insight: quality dominates quantity. Training on fewer than 10% of carefully selected examples can match full-corpus performance; combining quality filtering with data selection yields larger gains than either alone; and curriculum ordering from simple to complex accelerates convergence by up to 30%. The optimal selection criterion and complexity metric vary by task, underscoring the need for strategies tailored to the target setting.</p></div>
-      <div class="finding-card"><h4>Finding 2: Minimal Parameter Updates Suffice</h4><p>Training-level efficiency spans two complementary strategies with compounding benefits. Pre-training cost can be reduced by up to 40% through tokenizer optimization, dynamic packing, and sparse architectures. Parameter-efficient fine-tuning with LoRA and QLoRA matches full fine-tuning accuracy while updating fewer than 1% of parameters and reducing memory by up to 70%. Combining PEFT with data selection yields multiplicative gains across both data volume and parameter count.</p></div>
-      <div class="finding-card"><h4>Finding 3: What to Distill Matters More Than How</h4><p>Knowledge distillation enables 7B-parameter students to approximate teachers over 10&times; larger. The critical design choice is what to distill: targeting the student&rsquo;s weaknesses, transferring reasoning chains, or compressing multi-agent behaviors each yields distinct advantages over uniform distillation. RL for code LLMs serves two objectives, generation efficiency and generated code efficiency, but existing work predominantly targets the latter, leaving RL for generation process efficiency as a promising direction.</p></div>
-      <div class="finding-card"><h4>Finding 4: Adaptive Resource Allocation Outperforms Uniform</h4><p>Inference techniques that adapt computation to task difficulty consistently outperform uniform strategies. Speculative decoding achieves 2&times; speedup, early exit reduces latency by up to 50%, and confidence gating in multi-agent systems cuts cost by 45%. The common principle is matching resource expenditure to actual need rather than applying fixed computation to every request.</p></div>
+      <div class="finding-card"><h4>Finding 2: Minimal Parameter Updates Suffice</h4><p>Training-level efficiency spans two complementary strategies with compounding benefits. Pre-training cost can be reduced by up to 40% through tokenizer optimization, dynamic packing, and sparse architectures. Parameter-efficient fine-tuning with LoRA and QLoRA matches full fine-tuning accuracy while updating fewer than 1% of parameters and sharply reducing the memory footprint of fine-tuning. Combining PEFT with data selection yields compounding gains across both data volume and parameter count.</p></div>
+      <div class="finding-card"><h4>Finding 3: What to Distill Matters More Than How</h4><p>Knowledge distillation enables 7B-parameter students to approximate teachers over 10&times; larger, with diminishing returns as the teacher-to-student ratio grows. The critical design choice is what to distill: targeting the student&rsquo;s weaknesses, transferring reasoning chains, or compressing multi-agent behaviors each yields distinct advantages over uniform distillation. RL for code LLMs serves two objectives, generation efficiency and generated code efficiency, but existing work predominantly targets the latter, leaving RL for generation process efficiency as a promising direction.</p></div>
+      <div class="finding-card"><h4>Finding 4: Adaptive Resource Allocation Outperforms Uniform</h4><p>Inference techniques that adapt computation to task difficulty consistently outperform uniform strategies. Speculative decoding achieves 2&times; speedup, early exit reduces latency by up to 50%, and confidence gating in multi-agent systems cuts cost by 45%. The common principle is matching resource expenditure to actual need rather than applying fixed computation to every request. The 2&times; speculative-decoding figure reflects the platforms of the cited studies: our controlled measurements at the 7B scale on V100, A800, and consumer Ampere hardware all show a net latency penalty, and the gain emerges only at 32B on the A800 (Finding 8).</p></div>
       <div class="finding-card"><h4>Finding 5: Code Structure Enables Unique Optimizations</h4><p>Compression that leverages code structure consistently outperforms generic methods, achieving up to 4&times; prompt compression with less than 2% accuracy loss. Irrelevant context actively harms generation quality, making well-targeted pruning a rare technique that improves both efficiency and accuracy simultaneously. Syntax-aware representations reduce token counts by up to 30%, demonstrating that the structural regularity of code creates optimization opportunities unavailable in natural language.</p></div>
-      <div class="finding-card"><h4>Finding 6: Deployment Compounds with Inference but Rarely Evaluated Together</h4><p>Deployment-level techniques yield substantial standalone gains: quantization reduces memory by up to 70% with degradation that varies across languages, and model routing achieves over 30% cost reduction by directing queries to appropriately sized models. These deployment optimizations can compound with per-request inference techniques, but few studies evaluate such compositions, representing a significant gap between research and production deployment.</p></div>
-      <div class="finding-card"><h4>Finding 7: Efficiency Evaluation Lags Behind Optimization</h4><p>Efficiency evaluation lacks standardization: latency is reported by 54% of studies, memory by 19%, energy by only 8%. Generation process efficiency as a first-class metric remains absent from existing benchmarks. Three priorities emerge: standardized reporting protocols, benchmarks that jointly measure correctness and generation cost, and unified cost models for comparison across techniques.</p></div>
-      <div class="finding-card"><h4>Finding 8: Cross-Stage Compositions Are Sub-Multiplicative and Hardware-Conditioned</h4><p>Composing quantization, speculative decoding, and adaptive sampling on the Qwen2.5-Coder family yields a smaller combined effect than the product of the individual effects, and the mechanism is the penalty structure of each technique rather than a collapse of the draft-verify loop. Quantization lowers the 7B draft acceptance rate only from 0.810 to 0.781, and acceptance reproduces within 0.011 on a third architecture. Hardware governs the magnitude and the direction of gains: the INT8 latency penalty spans 4.38&times; to 5.58&times; across three GPU architectures while the INT4 penalty of roughly 1.5&times; replicates everywhere, and speculative decoding is net negative at 7B and 14B but turns into a 22% latency and 27% energy gain at 32B under INT4 on the A800. Aggressive quantization acts as virtual downscaling, placing 7B-INT4 between 7B-FP16 and 3B-FP16 on the Pareto frontier. Efficiency gains are therefore properties of a technique-scale-architecture-workload tuple and must be measured on the deployment platform.</p></div>
+      <div class="finding-card"><h4>Finding 6: Deployment Compounds with Inference but Rarely Evaluated Together</h4><p>Deployment-level techniques yield substantial standalone gains: quantization reduces memory by up to 70% for weights alone, and more when the KV cache is quantized too, with degradation that varies across languages, and model routing achieves over 30% cost reduction by directing queries to appropriately sized models. These deployment optimizations can compound with per-request inference techniques, but few studies evaluate such compositions, representing a significant gap between research and production deployment.</p></div>
+      <div class="finding-card"><h4>Finding 7: Efficiency Evaluation Lags Behind Optimization</h4><p>Efficiency evaluation lacks standardization: 25% of studies report no efficiency metric at all, 33% report exactly one, and only 43% report two or more; latency is reported by 47% of studies, memory by 21%, energy by only 8%. Reporting is fragmented by lifecycle stage: data-level studies report latency in 17% and memory in 10% of cases, while inference-level studies report latency in 57% but memory in only 13%. Each technique category predominantly reports only the metric it directly optimizes, so techniques cannot be compared across categories on a common metric set.</p></div>
+      <div class="finding-card"><h4>Finding 8: Cross-Stage Compositions Are Sub-Multiplicative and Hardware-Conditioned</h4><p>Composing quantization, speculative decoding, and adaptive sampling on the Qwen2.5-Coder family yields a smaller combined effect than the product of the individual effects, and the mechanism is the penalty structure of each technique rather than a collapse of the draft-verify loop. Quantization lowers the 7B draft acceptance rate only from 0.810 to 0.781, and acceptance reproduces within 0.012 on a third architecture. Hardware governs the magnitude and the direction of gains: the INT8 latency penalty spans 4.38&times; to 5.58&times; across three GPU architectures while the INT4 penalty of roughly 1.5&times; replicates everywhere, and speculative decoding is net negative at 7B and 14B but turns into a 22% latency and 27% energy gain at 32B under INT4 on the A800. Aggressive quantization acts as virtual downscaling, placing 7B-INT4 between 7B-FP16 and 3B-FP16 on the Pareto frontier. Efficiency gains are therefore properties of a technique-scale-architecture-workload tuple and must be measured on the deployment platform.</p></div>
     </div>
   </div>
 </section>
@@ -465,9 +508,9 @@
   <div>
     <a href="https://github.com/1719930244/efficient-codegen-slr-replication" target="_blank">GitHub</a> &nbsp;&middot;&nbsp;
     <a href="#cite">Cite</a> &nbsp;&middot;&nbsp;
-    License: MIT
+    License: CC BY 4.0
   </div>
-  <div class="updated">Last updated: September 2026</div>
+  <div class="updated">Last updated: October 2026</div>
 </footer>
 
 <script>
@@ -594,7 +637,26 @@ const STUDIES = [
   {id:"S119",key:"2602_17684",title:"CodeScaler: Scaling Code LLM Training and Test-Time Inference via Execution-Free Reward Models",year:2026,venue:"arXiv",type:"preprint",cats:["2f","3j"],rationale:"Execution-free reward model for RL training + test-time inference scaling"},
   {id:"S120",key:"2602_21800",title:"An Evaluation of Context Length Extrapolation in Long Code via Positional Embeddings and Efficient Attention",year:2026,venue:"arXiv",type:"preprint",cats:["4b"],rationale:"Evaluation of positional embeddings and efficient attention for long-code completion"},
   {id:"S121",key:"2602_24286",title:"CUDA Agent: Large-Scale Agentic RL for High-Performance CUDA Kernel Generation",year:2026,venue:"arXiv",type:"preprint",cats:["2f"],rationale:"Agentic RL for generating high-performance CUDA kernels"},
-  {id:"S122",key:"2603_04646",title:"HDLFORGE: A Two-Stage Multi-Agent Framework for Efficient Verilog Code Generation with Adaptive Model Escalation",year:2026,venue:"arXiv",type:"preprint",cats:["3i"],rationale:"Two-stage model escalation for Verilog generation with latency tradeoff"}
+  {id:"S122",key:"2603_04646",title:"HDLFORGE: A Two-Stage Multi-Agent Framework for Efficient Verilog Code Generation with Adaptive Model Escalation",year:2026,venue:"arXiv",type:"preprint",cats:["3i"],rationale:"Two-stage model escalation for Verilog generation with latency tradeoff"},
+  {id:"S123",key:"banerjee2026quantagent",title:"Anatomy of a Quantized Agent: VRAM Stability and Forecasting in Code-Synthesis Agentic Workloads",year:2026,venue:"arXiv",type:"preprint",cats:["4b", "3g"],rationale:"Measurement study of a 4-bit CUDA-kernel-synthesis agent (1,920 trajectories) showing near-constant peak VRAM, a closed-form model matching learned predictors, and compile success bounded by model capacity not memory"},
+  {id:"S124",key:"cheng2026adaedit",title:"To Diff or Not to Diff? Structure-Aware and Adaptive Output Formats for Efficient LLM-based Code Editing",year:2026,venue:"arXiv",type:"preprint",cats:["3l"],rationale:"Adaptively selects between structure-aware diff and full-code output to minimize edit tokens, matching full-code accuracy while cutting latency and cost by over 30%"},
+  {id:"S125",key:"cunha2026localllmenergy",title:"Not All Local LLMs Are Equal: A Benchmark of Energy and Performance",year:2026,venue:"GREENS 2026 (IEEE/ACM 10th International Workshop on Green and Sustainable Software)",type:"conference",cats:["4a", "4b"],rationale:"Peer-reviewed benchmark of local LLMs measuring energy and time efficiency in addition to task performance on code generation and completion"},
+  {id:"S126",key:"danda2026energypruning",title:"Energy Profiling of Pruned LLMs During Python Code Generation",year:2026,venue:"IGSC 2026",type:"conference",cats:["3h", "4b"],rationale:"Profiles GPU/CPU/DRAM energy of width-pruned Llama models on HumanEval, finding pruning saves energy only up to a threshold and heavy pruning exceeds the unpruned baseline"},
+  {id:"S127",key:"ding2026rankingdistill",title:"Distilling large language models for code generation via ranking supervision",year:2026,venue:"Neural Networks",type:"journal",cats:["2c"],rationale:"Distills code-generation students on ListNet ranking supervision over teacher top tokens rather than full-vocabulary KL, cutting GPU memory while beating SFT/FKL/RKL"},
+  {id:"S128",key:"gong2026dseffibench",title:"DSEffi-Bench: Demystifying Large Language Models' Capability in Efficient Data Science Code Generation",year:2026,venue:"arXiv",type:"preprint",cats:["4a", "4b"],rationale:"First execution-efficiency benchmark for LLM-generated data-science code; correctness leaderboards misrank efficiency and library-conditioned routing hits near-frontier efficiency at ~13x lower cost"},
+  {id:"S129",key:"li2026codegenbench",title:"CodegenBench: Can LLMs Write Efficient Code Across Architectures?",year:2026,venue:"arXiv",type:"preprint",cats:["4a", "4b"],rationale:"Benchmark for efficient parallel HPC code generation across x86_64, Sunway, and Kunpeng; LLMs optimize for x86_64 but degrade sharply on domain-specific architectures"},
+  {id:"S130",key:"liu2026dyretriever",title:"Effective and Efficient Context Retrieval via Partial Dependency Graph for Repository-Level Code Generation",year:2026,venue:"arXiv",type:"preprint",cats:["3e"],rationale:"Repository-level context retrieval via an on-demand partial dependency graph; 7.4x faster than static-graph baselines with large relative Pass@1 gains on CoderEval and DevEval"},
+  {id:"S131",key:"naik2026reacomp",title:"ReaComp: Compiling LLM Reasoning into Symbolic Solvers for Efficient Program Synthesis",year:2026,venue:"arXiv",type:"preprint",cats:["3k", "3o"],rationale:"Compiles a few LLM reasoning traces into reusable symbolic solvers over constrained DSLs that run with zero model calls at test time, cutting token usage ~78% while raising PBEBench-Hard accuracy"},
+  {id:"S132",key:"shibaev2026diverseeval",title:"Don't Claim Benchmark-Oriented Optimization Improves General Coding Capability -- Diverse Evaluation Is Required",year:2026,venue:"arXiv",type:"preprint",cats:["4b", "4a"],rationale:"Argues benchmark-oriented optimization measures task-specific performance, not general coding ability; SWE-bench-tuned checkpoints transfer poorly and rankings fail to generalize"},
+  {id:"S133",key:"tiwari2026cachewise",title:"CacheWise: Understanding Workloads and Optimizing KVCache Management for Efficiently Serving LLM Coding Agents",year:2026,venue:"arXiv",type:"preprint",cats:["3m", "3f"],rationale:"Analyzes real coding-agent traces showing large reused prefixes, then adds prefix-aware scheduling and reuse-aware KVCache eviction in vLLM, cutting evictions up to 2.6x and session time up to 3.5x"},
+  {id:"S134",key:"vallecillosruiz2026quantapr",title:"Smaller Models, Unexpected Costs: Trade-offs in LLM Quantization for Automated Program Repair",year:2026,venue:"ICSME 2026",type:"conference",cats:["3g", "4b"],rationale:"Empirically examines 13 weight/KV-cache quantization configs for APR on six LLMs, finding up to 85% memory savings but higher inference time/energy and 48% of configs Pareto-dominated"},
+  {id:"S135",key:"wang2026mars",title:"MARS: Efficient, Adaptive Co-Scheduling for Heterogeneous Agentic Systems",year:2026,venue:"arXiv",type:"preprint",cats:["3m", "3f"],rationale:"Co-schedules heterogeneous agentic GPU-CPU workloads on vLLM, decoupling admission from execution and retaining KV cache only when warm resumption pays off; up to 5.94x lower latency and OpenHands backend"},
+  {id:"S136",key:"wu2026offlinerl",title:"Efficient Post-training of LLMs for Code Generation With Offline Reinforcement Learning",year:2026,venue:"arXiv",type:"preprint",cats:["2f"],rationale:"Post-trains code LLMs with offline RL over existing code corpora, avoiding online rollout/verification cost; largest pass@1/pass@10 gains on small models and hard problems"},
+  {id:"S137",key:"xiang2026agentdebug",title:"Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis",year:2026,venue:"PACMSE (FSE 2026)",type:"journal",cats:["3l", "3k"],rationale:"Agent-centric debugging interface exposing function-level Frame Lifetime Traces instead of line stepping; resolves 63.8% of SWE-bench-Verified at $1.28/task and adds 6.2-18.5 points when plugged into SOTA agents"},
+  {id:"S138",key:"yang2026loopcoder",title:"LoopCoder-v2: Only Loop Once for Efficient Test-Time Computation Scaling",year:2026,venue:"arXiv",type:"preprint",cats:["3f", "3o"],rationale:"Parallel-loop 7B coders with shared-KV attention make loop count a tunable design choice decoupled from latency/KV memory; two loops optimal (SWE-bench Verified 43.0->64.4), more regress"},
+  {id:"S139",key:"young2026liveverilogeval",title:"LiveVerilogEval: Contamination Free and Automatically Scalable Benchmark for Verilog Code Generation",year:2026,venue:"DATE 2026",type:"conference",cats:["4a"],rationale:"Contamination-free, auto-scalable Verilog benchmark that mutates RTL designs; SOTA LLMs degrade markedly versus static benchmarks"},
+  {id:"S140",key:"zhang2026fastcontext",title:"FastContext: Training Efficient Repository Explorer for Coding Agents",year:2026,venue:"arXiv",type:"preprint",cats:["2f", "3k", "3e"],rationale:"Trains 4B-30B repository-exploration subagents (SFT+GRPO with task-grounded rewards) that plug into Mini-SWE-Agent, cutting agent token consumption up to 60% while raising resolution up to 5.5 points"},
+  {id:"S141",key:"zhang2026selfdistill",title:"Embarrassingly Simple Self-Distillation Improves Code Generation",year:2026,venue:"arXiv",type:"preprint",cats:["2c"],rationale:"Teacher-free simple self-distillation (SFT on model's own samples) raises pass@1 on LiveCodeBench v6, generalizing across Qwen/Llama/GPT-OSS 4B-30B"}
 ];
 
 const CATEGORIES = {
@@ -755,7 +817,7 @@ function filterPapers() {
 }
 
 function updateStats(msg) {
-  document.getElementById('searchStats').textContent = msg || `Showing all 122 primary studies across 24 categories. Click a category to expand.`;
+  document.getElementById('searchStats').textContent = msg || `Showing all 141 primary studies across 24 categories. Click a category to expand.`;
 }
 
 document.addEventListener('DOMContentLoaded', renderTaxonomy);
