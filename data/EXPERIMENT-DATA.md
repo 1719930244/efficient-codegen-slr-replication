@@ -15,7 +15,7 @@ quarantined, or dropped, so that every number in the article is traceable.
 | `v100-original-results/provenance` | same machine | Apr 2026 | dependency manifests, run scripts, repo README, all as-found |
 | `a800-results/a800-1` | 2x A800-SXM4-40GB (rental server 1) | Aug-Sep 2026 main extension campaign | final state at 2026-09-08 08:47 UTC, machine retired 08:55 UTC |
 | `a800-results/a800-2` | 2x A800-SXM4-40GB (rental server 2) | same campaign, second machine | state at 2026-09-08 06:10 UTC, machine retired 14:30 UTC (see losses below) |
-| `a800-results/logs-a800-1`, `logs-a800-2` | both | | operational logs; files over 10 MB are trimmed to head 3000 + tail 15000 lines and gzip-compressed, trimming is marked inside each file |
+| `a800-results/logs-a800-1` | rental server 1 | | operational logs of machine 1; files over 10 MB are trimmed to head 3000 + tail 15000 lines and gzip-compressed, trimming is marked inside each file. Machine 2 operational logs were not archived before retirement and are not in the package |
 | `xgpu-3090ti-217` | GeForce RTX 3090 Ti 24 GB (lab server, third architecture) | Sep 8 2026, single run per cell | full per-task jsonl + acceptance JSONs + judged artifacts |
 | `lcb-results-216` | 2x Tesla V100-PCIE-32GB (laboratory server) | Sep 10 2026, contamination-free LiveCodeBench layer, single run per cell | full per-task jsonl + official-judge artifacts (dedicated section below) |
 | `v100-sept-round-216` | same laboratory V100 server; one sub-round generated on the RTX 3090 Ti server and pulled to it | Sep 10-22 2026 replication round | full per-task jsonl + acceptance JSONs + judged artifacts (dedicated section below) |
@@ -309,3 +309,28 @@ the fully idle original run. The article quotes these bounds in the Section
 `e1_*` acceptance loop, `e2_*` cap1024, `e3_*` 32B replication, `e5_*`
 instruct round, `ev_*` energy-variance runs and judges, `chain_*` launchers,
 `ev_chain.sh`, `bcb_venv_setup.log`.
+
+## Per-problem judged-record inventory (recount of 2026-10-09)
+
+Counting rules, stated for auditability: a record is one judged problem in one released cell. Structured artifacts count non-empty `details` arrays in result JSONs, `per_task` maps in `*.evalplus-detail.json` and `*.lcb-detail.json`, and judged jsonl rows carrying a `pass` field. Log artifacts count `[N/M] TaskID: PASS|FAIL` lines. Generation-side jsonl without judgment fields, meta and summary files, acceptance aggregates, quarantine directories, and byte-identical cross-machine copies are excluded. The judged-sample column additionally expands each adaptive EvalPlus sampled completion into its own record.
+
+| Layer | Location | Per-problem | Judged samples |
+|---|---|---:|---:|
+| A800 MBPP cross-benchmark, 5 runs x 4 cells | `a800-results/a800-1/mbpp` | 19,480 | 19,480 |
+| A800 BigCodeBench, 4 runs x 4 cells | `a800-results/a800-1/bigcodebench` | 18,240 | 18,240 |
+| A800 composition run 5 | `a800-results/a800-1/composition/run5` | 1,968 | 1,968 |
+| A800 composition runs 1-4, surviving trimmed-log fragments (C01, C02, C12 lines only) | `a800-results/logs-a800-1` | 1,316 | 1,316 |
+| A800 HumanEval+ regeneration, 36 configurations | `a800-1/heplus`, `a800-2/heplus` | 5,904 | 10,637 |
+| A800 BigCodeBench instruct (B02 is the 83-problem retirement fragment) | `a800-1/bcb_instruct`, `a800-2/bcb_instruct` | 983 | 983 |
+| LiveCodeBench slice, 4 cells x 288 | `lcb-results-216` | 1,152 | 1,152 |
+| V100 September round excluding the variance replicate (LCB-on-3090Ti 1,152, cap-1024 288, HE+-32B 328, BCB-instruct 1,200) | `v100-sept-round-216` | 2,968 | 2,968 |
+| V100 LCB energy-variance replicate, 3 x 288 (added 2026-09-22) | `v100-sept-round-216/results/lcb-energy-variance` | 864 | 864 |
+| V100 original-campaign log lines (composition runs 1-3 with fix and C10/C12 segments, plus the energy round) | `v100-original-results/logs-original-campaign` | 12,956 | 12,956 |
+| RTX 3090 Ti reference point, 6 x 164 | `xgpu-3090ti-217/judged` | 984 | 984 |
+| **Total, current package** | | **66,815** | **71,548** |
+
+Coverage qualifications, recorded as fact:
+
+- The A800 Pareto (87 runs), Pareto-32B (8 runs), energy rounds (27 cells), and the bulk of composition runs 1-4 retain no per-problem records: their result JSONs carry empty `details`, machine 2 logs were not archived, and the machine 1 composition logs were trimmed to C01/C02/C12 fragments. These cells are run-level aggregates, as the manuscript's Threats to Validity states.
+- The V100 original-campaign composition logs cover 29 of 36 cells (run 1 lacks C01, runs 2-3 lack C10-C12); the V100 energy-round logs are complete.
+- Historical note: the figure 70,684 that earlier revision drafts carried equals the judged-sample convention applied to the package state of 2026-09-21, before the energy-variance replicate added 864 records. The manuscript and letter no longer quote a single total; this inventory is the reference.
