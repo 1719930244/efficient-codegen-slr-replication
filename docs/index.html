@@ -278,11 +278,11 @@
 <section id="updates">
   <div class="container">
     <h2>Living Updates</h2>
-    <p>The <strong>141-study corpus</strong> reflects a single search campaign with a literature cut-off of 2026-08-31. This section logs newly published primary studies tracked after that cut-off, applying the same term schema used in the review, without re-opening the systematic review. The May and September 2026 batches below were logged post-submission under the earlier frozen-corpus design; the September batch&rsquo;s OpenAlex selections, together with a parallel arXiv pass and minus three overlaps, were subsequently screened into the revised corpus as its 19 window-search studies, as noted on the September card. Monthly batches continue for studies published after the cut-off and are listed newest first; three batches have been logged so far, covering 47 unique studies.</p>
+    <p>The <strong>141-study corpus</strong> reflects a single search campaign with a literature cut-off of 2026-08-31. This section logs newly published primary studies tracked after that cut-off, applying the same term schema used in the review, without re-opening the systematic review. The May and September 2026 batches below were logged post-submission under the earlier frozen-corpus design; the September batch&rsquo;s OpenAlex selections, together with a parallel arXiv pass and minus three overlaps, were subsequently screened into the revised corpus as its 19 window-search studies, as noted on the September card. Monthly batches continue for studies published after the cut-off and are listed newest first; three batches have been logged so far, covering 51 unique studies.</p>
 
     <div class="update-batch">
-      <h3>October 2026 &mdash; 16 new studies</h3>
-      <p class="batch-meta">Window: 2026-09-01 to 2026-10-09 &middot; Source: OpenAlex via the package script <code>scripts/monthly_update_openalex.py</code>, three-group schema identical to the original protocol &middot; Funnel: 10,615 Group&nbsp;A hits &rarr; 736 Boolean pass &rarr; 160 title-strict nominations &rarr; 16 selected. This is the first batch of the monthly cadence and the first to track studies published after the 2026-08-31 corpus cut-off; the 141-study corpus is unchanged. Repository-only deposits were excluded as grey literature, and output-artifact runtime-efficiency techniques were excluded per the window-round rule, with boundary benchmarks and measurement studies retained.</p>
+      <h3>October 2026 &mdash; 20 new studies</h3>
+      <p class="batch-meta">Windows: 2026-09-01 to 2026-10-09 and 2026-10-10 to 2026-10-25, two passes of the monthly cadence &middot; Source: OpenAlex via the package script <code>scripts/monthly_update_openalex.py</code>, three-group schema identical to the original protocol &middot; Funnel: 13,861 Group&nbsp;A hits &rarr; 987 Boolean pass &rarr; 218 title-strict nominations &rarr; 20 selected. This is the first batch of the monthly cadence and the first to track studies published after the 2026-08-31 corpus cut-off; the 141-study corpus is unchanged. The late pass contributed 3,246 hits &rarr; 251 Boolean pass &rarr; 58 nominations &rarr; 4 selected. One of those four, Self-Decomposing Diffusion for Code Generation, was recovered manually from the Boolean pass because its efficiency signal sits in the abstract rather than the title. Repository-only deposits were excluded as grey literature, and output-artifact runtime-efficiency techniques were excluded per the window-round rule, with boundary benchmarks and measurement studies retained.</p>
       <div class="update-rq">
         <h4>RQ1 Data Preparation (1)</h4>
         <ul>
@@ -297,7 +297,7 @@
         </ul>
       </div>
       <div class="update-rq">
-        <h4>RQ3 Inference Optimization (6)</h4>
+        <h4>RQ3 Inference Optimization (9)</h4>
         <ul>
           <li><a href="https://openalex.org/W7212303907" target="_blank">OpenAlex</a> &mdash; RouteRepair: Instance-Level Failure Diagnosis and Targeted Repair in LLM-Based Automated Heuristic Design for Routing Optimization</li>
           <li><a href="https://openalex.org/W7213355055" target="_blank">OpenAlex</a> &mdash; KGMACG: Knowledge-Guided Multi-Agent Orchestration for Scalable Application-Level Code Generation</li>
@@ -305,6 +305,15 @@
           <li><a href="https://openalex.org/W7214116973" target="_blank">OpenAlex</a> &mdash; When Should Dependency Updates Invoke Repair Agents? A Lightweight Routing Study</li>
           <li><a href="https://openalex.org/W7214785694" target="_blank">OpenAlex</a> &mdash; JevVibe: Efficient Classification-Guided Secure Code Generation</li>
           <li><a href="https://openalex.org/W7215030046" target="_blank">OpenAlex</a> &mdash; SEER: Self-Enhancing Chain-of-Thought Compression for Reasoning Models</li>
+          <li><a href="https://openalex.org/W7221747747" target="_blank">OpenAlex</a> &mdash; Diff Diffusion: Predicting Edit Paths with Diffusion Models for Efficient Code Editing</li>
+          <li><a href="https://openalex.org/W7222234395" target="_blank">OpenAlex</a> &mdash; HERO: Harnessing Evidence for Test-time Refinement and Prompt Optimization in Program Generation</li>
+          <li><a href="https://openalex.org/W7223112641" target="_blank">OpenAlex</a> &mdash; Self-Decomposing Diffusion for Code Generation</li>
+        </ul>
+      </div>
+      <div class="update-rq">
+        <h4>RQ4 Deployment (1)</h4>
+        <ul>
+          <li><a href="https://openalex.org/W7221835407" target="_blank">OpenAlex</a> &mdash; Smells Like Prompt Spirit: Evaluating Energy Efficiency and Performance of Local LLM Inference on CPU vs GPU</li>
         </ul>
       </div>
       <div class="update-rq">

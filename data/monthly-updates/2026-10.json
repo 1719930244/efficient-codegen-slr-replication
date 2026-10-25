@@ -1,11 +1,11 @@
 {
- "window": "2026-09-01..2026-10-09",
+ "window": "2026-09-01..2026-10-25",
  "source": "OpenAlex (scripts/monthly_update_openalex.py; three-group schema identical to the original protocol)",
  "funnel": {
-  "candidates": 10615,
-  "boolean": 736,
-  "nominated": 160,
-  "selected": 16
+  "candidates": 13861,
+  "boolean": 987,
+  "nominated": 218,
+  "selected": 20
  },
  "studies": [
   {
@@ -119,6 +119,42 @@
    "rq": "RQ2",
    "publication_date": "2026-10-01",
    "venue": "Proceedings of the ACM on software engineering."
+  },
+  {
+   "openalex_id": "https://openalex.org/W7221747747",
+   "doi": "https://doi.org/10.48550/arxiv.2610.17831",
+   "title": "Diff Diffusion: Predicting Edit Paths with Diffusion Models for Efficient Code Editing",
+   "publication_date": "2026-10-13",
+   "venue": "arXiv (Cornell University)",
+   "venue_type": "repository",
+   "rq": "RQ3"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7222234395",
+   "doi": "https://doi.org/10.48550/arxiv.2610.19184",
+   "title": "HERO: Harnessing Evidence for Test-time Refinement and Prompt Optimization in Program Generation",
+   "publication_date": "2026-10-13",
+   "venue": "arXiv (Cornell University)",
+   "venue_type": "repository",
+   "rq": "RQ3"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7221835407",
+   "doi": "https://doi.org/10.21203/rs.3.rs-10374549/v1",
+   "title": "Smells Like Prompt Spirit: Evaluating Energy Efficiency and Performance of Local LLM Inference on CPU vs GPU",
+   "publication_date": "2026-10-14",
+   "venue": "Research Square",
+   "venue_type": "repository",
+   "rq": "RQ4"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7223112641",
+   "doi": "https://doi.org/10.48550/arxiv.2610.08788",
+   "title": "Self-Decomposing Diffusion for Code Generation",
+   "publication_date": "2026-10-20",
+   "venue": "arXiv (Cornell University)",
+   "venue_type": "repository",
+   "rq": "RQ3"
   }
  ],
  "dropped": [
@@ -265,7 +301,62 @@
   "PREreview of \"RSI-Router: Evolving Subtask-Level LLM Routing and Skills for Cost-Efficient Agents\"",
   "PREreview of \"Orchestrating Intelligence: Confidence-Aware Routing for Efficient Multi-Agent Collaboration across Multi-Scale Models\"",
   "Efficient FPGA Acceleration of Deep Neural Networks for Image Processing Using an OpenCL-Based High-Level Synthesis Framework",
-  "Automated Phenotyping of Rice Seedlings Under Saline Conditions Using EfficientNetB5 Deep Learning Model"
+  "Automated Phenotyping of Rice Seedlings Under Saline Conditions Using EfficientNetB5 Deep Learning Model",
+  "Supplementary data and code for \"Post-Generation Verification Dominates Retrieval Optimization: A 2⁴ Factorial Ablation of RAG Pipeline Features\"",
+  "SAGE: Pushing 2-Bit Vector-Quantized LLMs toward Real-World Usability",
+  "TIDE: Trajectory-Informed Skill Distillation for Efficient Text-to-Video Prompt Optimization",
+  "Accelerating Cross-Model LLM Inference via Attention Map Reuse",
+  "Beyond Adjacent Layers: Graph-Guided Layer Fusion for Compressing Large Language Models",
+  "WUSPruner: Second-Moment-Optimal Transforms for Structured Pruning",
+  "Distilling Transitional Patterns to Multimodal Large Language Models for Session-based Recommendation",
+  "Quantifying and mitigating explanation drift under INT8 quantization in plant disease image classification",
+  "How the Classical Baseline Shapes Machine-Learning Speed Claims in Topology Optimization",
+  "More Interactions Make Communications More Efficient: A Directed Information Bottleneck Approach to Task-Oriented Communication",
+  "Efficient Implementation of Machine Learning Algorithms on Reconfigurable Architectures Using High-Level Synthesis",
+  "Processing and figure-generation code for per-operation GPU energy estimation",
+  "Semantic Communications and Edge Intelligence in 6G Wireless Networks: Task-Oriented Joint Source-Channel Coding and Latency Bounds",
+  "Accuracy and Computational Cost of Standard and Sequential Time-Window Physics-Informed Neural Networks for Transient Heat Conduction with a Moving Gaussian Heat Source",
+  "Recasting DiT for Extreme Image Compression with Hierarchical Visual Priors",
+  "GAINER: Gain-Aware Allocation of Transformer Depth for Efficient Cross-Encoder Re-Ranking",
+  "Enerzyme: An Efficient Reactive Neural Network Potential Training Framework for Enzyme Cluster Models with Application to Methyltransferases",
+  "EgoTokens: Egocentric 3D human reconstruction and language-guided shape editing via quantized position tokens in vision-language models",
+  "SUSHILA: Scalable Upstream Synthesis for Hybrid Inference in Large-model Acceleration",
+  "CFLLM: Datasets for Clean Function Generation and Reliability-Aware Self-Distillation",
+  "Efficient and Scalable Provenance Tracking for LLM-Generated Code Snippets",
+  "PN-Mix: Pair-Norm Guided Mixed-Precision Key Cache Quantization for Efficient Long-Output LLM Inference",
+  "Adaptive Switching Between Self-Distillation and Mutual Distillation Across Parallel Worlds of Large Language Models",
+  "Do As I Do, Not As I Say: On-Policy Distillation Inherits the Teacher in Vision-Language Models",
+  "Learning from Interaction Experience via Localized Context Distillation",
+  "GlobeBench: Evaluating Text-Based World Model Capabilities for Scalable Environment Simulations",
+  "Automated optimization modeling and auditing via dual-team multi-LLM-agent cooperative framework",
+  "Efficient and Effective Test Generation and Type Inference for Python Applications",
+  "ScoutRoute: Efficient Mixture-of-Experts Routing Using Internal Language Model Signals",
+  "Easy to Say, Hard to Recover: Evaluating Structured Knowledge Preservation in Lightweight Language Models for Multilingual RDF–Text Cycles",
+  "ECHO: Efficient Causal Self-Recursion Beyond Auxiliary Multi-Token Prediction",
+  "SA-HEACS: Server-Assisted Hybrid Execution and AI-Optimized Cloud Shielding Against Automated Reverse Engineering",
+  "A Multi-Agent AI System for Automating Tokamak-Plasma Simulation for Nuclear Fusion Energy.",
+  "Reconstruction-Optimized Expert Pruning for Mixture-of-Experts Language Models",
+  "Learning Who Talks to Whom: Role-Aware Communication Topology Scheduling for Efficient LLM Multi-Agent Collaboration",
+  "\"Large Language Models (LLMs) Dataset: Speed, Latency, Context Window, and Cost \"",
+  "A novel cloud-enabled enterprise information systems framework for accelerating digital transformation strategies",
+  "DStill: Trajectory Consistency Distillation for Accelerated One-Step Drafting in Block Diffusion Speculative Decoding",
+  "Enhancing Bug-Exposing Test Generation via Step-Level Credit Assignment and Self-Distillation from Valuable Failures",
+  "DiffResearch: Accelerating Deep Research with Diffusion Language Models",
+  "SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery",
+  "Cattle Breed Identification Using Deep Learning: A Comparative Study of ResNet50, EfficientNet-B0 and Vision Transformer",
+  "Edge-Cloud Continuum: Split Neural Inference and Adaptive Quantization for Industrial IoT",
+  "Meta-Autoregressive Modeling: A Higher-Order Framework for Generating, Adapting, and Optimizing Autoregressive Models",
+  "Design and Tuning of Multi-Agent Systems Using Bayesian Evolutionary Optimization",
+  "SatCraft: Agentic Optimization of Scheduling Policies for Satellite-Cellular Edge Services",
+  "Accelerated Execution of Bayesian Neural Networks using a Single Probabilistic Forward Pass and Code Generation",
+  "ResGVC: Residual Coding for High-fidelity Generative Video Compression",
+  "ProQuant: Preserving Expert Quality over Quantity in Ultra-Low-Bit Quantization of Mixture-of-Experts Models",
+  "A synergistic deep learning and game theory framework for enhanced optimization of linkage design",
+  "Constraint Reasoning and Large Language Models Join Forces: Providing Contrastive Explanations for Real-World Optimisation-Based Applications",
+  "Replication package for: Green Code or Costly Code? Evaluating the Energy Costs of Iterative LLM-Based Code Optimizations",
+  "Watermark transfer through distillation: code, corpora and per-passage scores for a SynthID-Text replication study",
+  "Optimizing Medical Research with LLMs & RAGs (AI): Targeted Strategies and Prompts for Copilot, ChatGPT, and Gemini Notebook",
+  "Wasted Words, Wasted Watts: Babbling and the Avoidable Energy Cost in LLM Code Generation"
  ],
- "note": "First batch of the monthly cadence. Living tracker for studies published after the 2026-08-31 corpus cut-off; the frozen 141-study corpus is unchanged. Repository-only (Zenodo and similar) records were excluded as grey-literature deposits unless a published paper version was located; output-artifact runtime-efficiency techniques were excluded per the window-round screening rule, boundary benchmarks and measurement studies retained."
+ "note": "First batch of the monthly cadence, extended by a supplementary late-October pass. The 2026-09-01..2026-10-09 pass gave 10,615/736/160/16; the 2026-10-10..2026-10-25 pass gave 3,246/251/58/4 and is merged here. Living tracker for studies published after the 2026-08-31 corpus cut-off; the frozen 141-study corpus is unchanged. One study (Self-Decomposing Diffusion for Code Generation) was recovered manually from the Boolean pass because its efficiency signal sits in the abstract rather than the title. Repository-only deposits remain excluded as grey literature: Wasted Words, Wasted Watts (Zenodo computational notebook), Green Code or Costly Code (Zenodo replication package), and the CFLLM datasets. Output-artifact runtime-efficiency techniques were excluded per the window-round screening rule; boundary benchmarks and measurement studies were retained."
 }

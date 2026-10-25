@@ -22,6 +22,11 @@ Usage:
   python scripts/monthly_update_openalex.py --start 2026-09-08 --end 2026-10-01 \
       --outdir data/monthly-update-2026-10
 
+Set OPENALEX_API_KEY to enable cursor paging; without a key the script
+falls back to numbered pages, which OpenAlex serves keyless up to 10,000
+records per query (enough for a monthly window). A free key takes a minute
+at https://openalex.org/settings/api and raises the daily budget.
+
 Outputs (in --outdir):
   candidates-raw.json     every Group A hit in the window (merged, deduplicated)
   candidates-boolean.json after the local B AND C filter
@@ -35,6 +40,7 @@ genuinely new studies only.
 
 import argparse
 import json
+import os
 import re
 import sys
 import time
@@ -90,17 +96,30 @@ def abstract_from_index(inv):
     return " ".join(pos[i] for i in sorted(pos))
 
 
-def fetch_page(search, start, end, cursor):
+def fetch_page(search, start, end, cursor=None, page=None):
+    """Fetch one results page.
+
+    OpenAlex has required a free API key for cursor paging since late 2026.
+    When OPENALEX_API_KEY is set we use cursor paging (no 10k cap); otherwise
+    we fall back to numbered pages, which work keyless up to 10,000 records
+    per query, enough for a short monthly window.
+    """
     params = {
         "filter": (
             f"title_and_abstract.search:{search},"
             f"from_publication_date:{start},to_publication_date:{end}"
         ),
         "per-page": str(PER_PAGE),
-        "cursor": cursor,
         "mailto": MAILTO,
         "select": "id,doi,title,display_name,publication_date,primary_location,abstract_inverted_index",
     }
+    if page is not None:
+        params["page"] = str(page)
+    else:
+        params["cursor"] = cursor or "*"
+    api_key = os.environ.get("OPENALEX_API_KEY")
+    if api_key:
+        params["api_key"] = api_key
     url = API + "?" + urllib.parse.urlencode(params)
     for attempt in range(MAX_RETRIES):
         try:
@@ -120,18 +139,35 @@ def fetch_page(search, start, end, cursor):
 
 def search_group_a(start, end):
     merged = {}
+    use_cursor = bool(os.environ.get("OPENALEX_API_KEY"))
     for phrase in GROUP_A:
-        cursor = "*"
         hits = 0
-        while cursor:
-            page = fetch_page(phrase, start, end, cursor)
-            for w in page.get("results", []):
-                wid = w.get("id")
-                if wid and wid not in merged:
-                    merged[wid] = w
-            hits += len(page.get("results", []))
-            cursor = (page.get("meta", {}) or {}).get("next_cursor")
-            time.sleep(0.2)
+        if use_cursor:
+            cursor = "*"
+            while cursor:
+                page = fetch_page(phrase, start, end, cursor=cursor)
+                for w in page.get("results", []):
+                    wid = w.get("id")
+                    if wid and wid not in merged:
+                        merged[wid] = w
+                hits += len(page.get("results", []))
+                cursor = (page.get("meta", {}) or {}).get("next_cursor")
+                time.sleep(0.2)
+        else:
+            page_no = 1
+            while True:
+                page = fetch_page(phrase, start, end, page=page_no)
+                results = page.get("results", [])
+                for w in results:
+                    wid = w.get("id")
+                    if wid and wid not in merged:
+                        merged[wid] = w
+                hits += len(results)
+                total = (page.get("meta", {}) or {}).get("count", 0)
+                if not results or page_no * PER_PAGE >= min(total, 10000):
+                    break
+                page_no += 1
+                time.sleep(0.2)
         print(f"  [{phrase}] {hits} hits", file=sys.stderr)
     return list(merged.values())
 
