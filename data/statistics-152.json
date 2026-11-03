@@ -1,0 +1,49 @@
+{
+ "total_studies": 152,
+ "rq_distribution": {
+  "RQ1": 30,
+  "RQ2": 27,
+  "RQ3": 69,
+  "RQ4": 29,
+  "RQ5": 29
+ },
+ "venue_types": {
+  "conference": 42,
+  "journal": 16,
+  "preprint": 94
+ },
+ "year_distribution": {
+  "2020": 1,
+  "2022": 1,
+  "2023": 14,
+  "2024": 35,
+  "2025": 52,
+  "2026": 49
+ },
+ "category_distribution": {
+  "1a-DataSelection": 10,
+  "1b-DataQuality": 4,
+  "2a-EfficientPretrain": 3,
+  "2b-PEFT": 11,
+  "2c-Distillation": 8,
+  "2d-CurriculumLearning": 2,
+  "2f-RLTraining": 12,
+  "3a-SpeculativeDecoding": 3,
+  "3b-EarlyExit": 5,
+  "3c-NAR": 6,
+  "3d-PromptCompression": 7,
+  "3e-ContextPruning": 9,
+  "3f-KVCache": 4,
+  "3g-PTQ": 8,
+  "3h-ModelPruning": 3,
+  "3i-Routing": 11,
+  "3j-Sampling": 8,
+  "3k-MultiAgent": 14,
+  "3l-CodeSpecific": 11,
+  "3m-SystemOpt": 8,
+  "3n-PromptEng": 10,
+  "3o-CoTOpt": 5,
+  "4a-Benchmark": 7,
+  "4b-EmpiricalStudy": 22
+ }
+}

@@ -93,7 +93,7 @@ locally on the title.
 the manuscript). No date restriction was applied at query time; the 2017
 onward window was enforced at Stage-1 screening.
 
-## Window search, April to August 2026 (Phase 4 of the campaign)
+## Window searches, April to October 2026 (Phase 4 of the campaign)
 
 The same two-group query schema was reused on two openly indexable sources
 for the publication window 2026-04-01 to 2026-08-31. IEEE Xplore, ACM DL,
@@ -108,10 +108,18 @@ by the annual full sweep.
   Full per-record screening log: `data/window-search-2026/SCREENING.md`;
   batch record: `data/window-search-2026/batch-2026-08-31.json`.
 - **Merge (2026-10-01)**: 16 + 6 with 3 overlaps removed = 19 studies merged
-  into the corpus under the single-campaign cut-off of 2026-08-31, giving the
-  141-study corpus. Per-study extraction records (categories, QA scores,
-  8-item reporting audit) and the merge recomputation script:
-  `data/corpus-merge-20261001/`.
+  into the corpus under the then-current single-campaign cut-off of
+  2026-08-31, bringing it to 141 studies. Per-study extraction records
+  (categories, QA scores, 8-item reporting audit) and the merge recomputation
+  script: `data/corpus-merge-20261001/`.
+- **September to October extension (October 2026)**: the same schema was rerun
+  for 2026-09-01 to 2026-10-31: 13,861 Group A hits, 987 Boolean pass, 218
+  title-strict nominations, 20 selected, plus 1,424 hits, 106 Boolean pass, 21
+  title-strict nominations, and 0 selected in the final six days of the
+  window. Screening kept 11 of the 20 selections and dropped 9 with reasons
+  recorded in `data/monthly-update-2026-10c/screening-decision.json`, bringing
+  the corpus to 152 studies under the 2026-10-31 cut-off. Records:
+  `data/monthly-updates/2026-10.json` and `data/monthly-update-2026-10c/`.
 
 ## Gap search, 7 to 31 March 2026
 

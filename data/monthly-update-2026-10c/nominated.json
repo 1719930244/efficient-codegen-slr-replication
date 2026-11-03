@@ -1,0 +1,170 @@
+[
+ {
+  "openalex_id": "https://openalex.org/W7224137989",
+  "doi": null,
+  "title": "Learning When to Commit: Schedule Distillation for Fast Diffusion Language Models",
+  "publication_date": "2026-10-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7223656474",
+  "doi": "https://doi.org/10.5281/zenodo.23656207",
+  "title": "QDAS Brain™: A Closed-Loop Sparse Associative Memory, Token Compression, and Autonomous Agent Arbitration Gateway — Empirical Benchmark at N = 10,000 Memories and Independent Multi-Model Systems",
+  "publication_date": "2026-10-26",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7224002252",
+  "doi": "https://doi.org/10.5281/zenodo.23685642",
+  "title": "Experimental Data and Python Code for Spatial Weight-Update Analysis, Regime Mapping, and Finite-Time Trajectory Sensitivity of Adam Optimization on CIFAR-10",
+  "publication_date": "2026-10-26",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7223959357",
+  "doi": "https://doi.org/10.48550/arxiv.2610.34679",
+  "title": "AT-AT: Automatic Tool Optimization from Agent Traces",
+  "publication_date": "2026-10-26",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7224145944",
+  "doi": null,
+  "title": "Advancing sustainable medical waste-to-energy conversion : process design, modeling, optimization and policy-making",
+  "publication_date": "2026-10-26",
+  "venue": "PolyU Institutional Research Archive (Hong Kong Polytechnic University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7223884181",
+  "doi": "https://doi.org/10.5281/zenodo.23682671",
+  "title": "Parameter-Efficient Adaptation of Fetal Ultrasound Foundation Models for Low-Resource Clinical Settings: A Cross-Backbone Benchmark with Calibration and Cross-Population Evaluation — Code and Results",
+  "publication_date": "2026-10-27",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7224079951",
+  "doi": "https://doi.org/10.48550/arxiv.2610.36901",
+  "title": "HiLo-RD: Cross-Budget Self-Distillation for Masked Diffusion Language Models",
+  "publication_date": "2026-10-27",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7223978881",
+  "doi": "https://doi.org/10.5281/zenodo.23680374",
+  "title": "Quantization Does Not Undo Abliteration: A Measurement Study of Refusal in Compressed Language Models (artifact)",
+  "publication_date": "2026-10-27",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7224887435",
+  "doi": "https://doi.org/10.48550/arxiv.2610.37921",
+  "title": "FAD-KV: Adaptive Dictionary KV Caching for Efficient Reasoning Decoding",
+  "publication_date": "2026-10-27",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7223995247",
+  "doi": "https://doi.org/10.13016/a3zx-bpcq",
+  "title": "Markov Random Fields for Spatial Sampling, Learning and Compression: Classical and Quantum",
+  "publication_date": "2026-10-27",
+  "venue": "Digital Repository at the University of Maryland (University of Maryland College Park)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7223835911",
+  "doi": "https://doi.org/10.1007/s10791-026-10771-0",
+  "title": "A systematic survey of scalable cross modal retrieval for inclusive multilingual information access in Indian languages",
+  "publication_date": "2026-10-27",
+  "venue": "Discover Computing",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7223866404",
+  "doi": "https://doi.org/10.5281/zenodo.23701150",
+  "title": "No Winning Ticket: a Frozen Single-Token Codebook is Redundant, not a Lottery Ticket — and the pruning advantage appears only under under-provisioning",
+  "publication_date": "2026-10-27",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7223866484",
+  "doi": "https://doi.org/10.13016/dyug-nkft",
+  "title": "AUTONOMOUS EXPERIMENTATIONS FOR MATERIALS OPTIMIZATION",
+  "publication_date": "2026-10-27",
+  "venue": "Digital Repository at the University of Maryland (University of Maryland College Park)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7220205035",
+  "doi": "https://doi.org/10.31893/multirev.2027230",
+  "title": "Artificial intelligence in the software development life cycle: A systematic review of operational efficiency evidence (2023–2026)",
+  "publication_date": "2026-10-28",
+  "venue": "Multidisciplinary Reviews",
+  "venue_type": "journal"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7224096291",
+  "doi": "https://doi.org/10.5281/zenodo.23734880",
+  "title": "Hardware-Algorithmic Co-Design as an Intellectual Property Laundering Accelerator: Why Google's Provision of Custom Silicon (TPU/SparseCore/TorchTPU) and Quantum Co-Processors (Willow) to OpenAI Constitutes Structural Contractual Betrayal Against The New York Times, and the QFS-zkVM Deterministic Hardware Interlock Solution",
+  "publication_date": "2026-10-28",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7224951900",
+  "doi": "https://doi.org/10.48550/arxiv.2610.38182",
+  "title": "HyperIntent: Tracking Intent Shifts for Efficient Reasoning on Dynamic Textual Graphs",
+  "publication_date": "2026-10-28",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7224945334",
+  "doi": "https://doi.org/10.48550/arxiv.2610.38939",
+  "title": "Optimization-based lane-changing trajectory planning in mixed traffic with embedded input convex neural networks",
+  "publication_date": "2026-10-28",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7224832622",
+  "doi": "https://doi.org/10.48550/arxiv.2610.39557",
+  "title": "LatentWeave: Test-Time Latent Optimization for Multimodal Reasoning",
+  "publication_date": "2026-10-29",
+  "venue": "arXiv (Cornell University)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7224774748",
+  "doi": "https://doi.org/10.5281/zenodo.23311639",
+  "title": "Code and datasets for agent-driven closed-loop discovery of dual-band spectrally adaptive meta-emitters for energy-saving thermoregulation",
+  "publication_date": "2026-10-30",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7224908417",
+  "doi": "https://doi.org/10.5281/zenodo.23811220",
+  "title": "Prompt-Injection Defences on a Small Local Agent: What Works, What It Costs, and How Optimistic Development Numbers Are",
+  "publication_date": "2026-10-30",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "venue_type": "repository"
+ },
+ {
+  "openalex_id": "https://openalex.org/W7224781095",
+  "doi": "https://doi.org/10.20944/preprints202610.2293.v2",
+  "title": "From Harness Optimization to Recursive Self-Improvement: A Survey of Language Model Agents",
+  "publication_date": "2026-10-30",
+  "venue": "Preprints.org",
+  "venue_type": "repository"
+ }
+]

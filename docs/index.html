@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Towards Efficient LLM-Based Code Generation: A Systematic Review</title>
-  <meta name="description" content="Companion website for the systematic review on efficient LLM-based code generation. 141 primary studies, continuously maintained.">
+  <meta name="description" content="Companion website for the systematic review on efficient LLM-based code generation. 152 primary studies, continuously maintained.">
   <style>
     :root {
       --primary: #1a3a5c;
@@ -231,7 +231,7 @@
   <div class="authors">Zongwen Shen, Jionghan Wu, Yidan Xu, Xuejin Liu, Xiang Chen, Jidong Ge, Chuanyi Li, Liguo Huang, and Bin Luo</div>
   <div class="venue">Manuscript under review, 2026</div>
   <div class="stats">
-    <div class="stat"><span class="num">141</span><span class="label">Primary Studies</span></div>
+    <div class="stat"><span class="num">152</span><span class="label">Primary Studies</span></div>
     <div class="stat"><span class="num">26,800+</span><span class="label">Candidate Records</span></div>
     <div class="stat"><span class="num">7</span><span class="label">Databases</span></div>
     <div class="stat"><span class="num">24</span><span class="label">Categories</span></div>
@@ -249,14 +249,14 @@
     <div class="living-banner">
       <div class="icon">&#x1F4E1;</div>
       <div>
-        <strong>Living Resource</strong> &mdash; This companion website and the associated repository are <strong>continuously maintained</strong>. We update the paper list with newly published studies on efficient LLM-based code generation on a monthly cadence, maintained since September 2026. Last content update: <strong>October 2026</strong> &mdash; see the <a href="#updates">Updates</a> section below for the running log.
+        <strong>Living Resource</strong> &mdash; This companion website and the associated repository are <strong>continuously maintained</strong>. We update the paper list with newly published studies on efficient LLM-based code generation on a monthly cadence, maintained since September 2026. Last content update: <strong>November 2026</strong> &mdash; see the <a href="#updates">Updates</a> section below for the running log.
       </div>
     </div>
     <p>
-      Large Language Models (LLMs) have become indispensable tools for code generation, yet their computational costs&mdash;spanning data preparation, model training, inference, and evaluation&mdash;remain a critical barrier to practical adoption. This systematic review analyzes <strong>141 primary studies</strong> to provide a comprehensive map of efficiency techniques across the full lifecycle of LLM-based code generation.
+      Large Language Models (LLMs) have become indispensable tools for code generation, yet their computational costs&mdash;spanning data preparation, model training, inference, and evaluation&mdash;remain a critical barrier to practical adoption. This systematic review analyzes <strong>152 primary studies</strong> to provide a comprehensive map of efficiency techniques across the full lifecycle of LLM-based code generation.
     </p>
     <p>
-      Our review spans six research questions aligned with the model lifecycle: data preparation (RQ1, 29 studies), model training (RQ2, 26 studies), inference optimization (RQ3, 63 studies), deployment (RQ4, 28 studies), evaluation (RQ5, 27 studies), and technique composition measured in a controlled experiment suite (RQ6, see <a href="#experiments">Experiments</a>). Studies can address several questions, so the counts overlap. We identify 24 fine-grained technique categories and distill 8 key findings that reveal both progress and critical gaps in the field.
+      Our review spans six research questions aligned with the model lifecycle: data preparation (RQ1, 30 studies), model training (RQ2, 27 studies), inference optimization (RQ3, 69 studies), deployment (RQ4, 29 studies), evaluation (RQ5, 29 studies), and technique composition measured in a controlled experiment suite (RQ6, see <a href="#experiments">Experiments</a>). Studies can address several questions, so the counts overlap. We identify 24 fine-grained technique categories and distill 8 key findings that reveal both progress and critical gaps in the field.
     </p>
   </div>
 </section>
@@ -265,7 +265,7 @@
 <section id="taxonomy">
   <div class="container">
     <h2>Classification Taxonomy</h2>
-    <p>Our taxonomy follows the <strong>LLM lifecycle</strong>, organizing 141 primary studies into 24 categories. Click any category to browse its papers with direct links.</p>
+    <p>Our taxonomy follows the <strong>LLM lifecycle</strong>, organizing 152 primary studies into 24 categories. Click any category to browse its papers with direct links.</p>
     <div class="search-box">
       <input type="text" id="paperSearch" placeholder="Search papers by title, venue, year, or keyword..." oninput="filterPapers()">
     </div>
@@ -278,11 +278,11 @@
 <section id="updates">
   <div class="container">
     <h2>Living Updates</h2>
-    <p>The <strong>141-study corpus</strong> reflects a single search campaign with a literature cut-off of 2026-08-31. This section logs newly published primary studies tracked after that cut-off, applying the same term schema used in the review, without re-opening the systematic review. The May and September 2026 batches below were logged post-submission under the earlier frozen-corpus design; the September batch&rsquo;s OpenAlex selections, together with a parallel arXiv pass and minus three overlaps, were subsequently screened into the revised corpus as its 19 window-search studies, as noted on the September card. Monthly batches continue for studies published after the cut-off and are listed newest first; three batches have been logged so far, covering 51 unique studies.</p>
+    <p>The <strong>152-study corpus</strong> reflects a single search campaign with a literature cut-off of 2026-10-31. This section logs newly published primary studies tracked by the monthly cadence, applying the same term schema used in the review. The May and September 2026 batches below were logged post-submission under the earlier frozen-corpus design; the September batch&rsquo;s OpenAlex selections, together with a parallel arXiv pass and minus three overlaps, were subsequently screened into the revised corpus as its 19 window-search studies, as noted on the September card. The October batch&rsquo;s 20 selections were screened next: 11 entered the corpus as its September&ndash;October window studies and 9 were dropped with reasons recorded in the screening decision. Monthly batches continue for studies published after the cut-off and are listed newest first; three batches have been logged so far, covering 51 unique studies.</p>
 
     <div class="update-batch">
-      <h3>October 2026 &mdash; 20 new studies</h3>
-      <p class="batch-meta">Windows: 2026-09-01 to 2026-10-09 and 2026-10-10 to 2026-10-25, two passes of the monthly cadence &middot; Source: OpenAlex via the package script <code>scripts/monthly_update_openalex.py</code>, three-group schema identical to the original protocol &middot; Funnel: 13,861 Group&nbsp;A hits &rarr; 987 Boolean pass &rarr; 218 title-strict nominations &rarr; 20 selected. This is the first batch of the monthly cadence and the first to track studies published after the 2026-08-31 corpus cut-off; the 141-study corpus is unchanged. The late pass contributed 3,246 hits &rarr; 251 Boolean pass &rarr; 58 nominations &rarr; 4 selected. One of those four, Self-Decomposing Diffusion for Code Generation, was recovered manually from the Boolean pass because its efficiency signal sits in the abstract rather than the title. Repository-only deposits were excluded as grey literature, and output-artifact runtime-efficiency techniques were excluded per the window-round rule, with boundary benchmarks and measurement studies retained.</p>
+      <h3>October 2026 &mdash; 20 selected, 11 added to the corpus</h3>
+      <p class="batch-meta">Windows: 2026-09-01 to 2026-10-09, 2026-10-10 to 2026-10-25, and 2026-10-26 to 2026-10-31, three passes of the monthly cadence &middot; Source: OpenAlex via the package script <code>scripts/monthly_update_openalex.py</code>, three-group schema identical to the original protocol &middot; Funnel: 13,861 Group&nbsp;A hits &rarr; 987 Boolean pass &rarr; 218 title-strict nominations &rarr; 20 selected. This is the first batch of the monthly cadence and the first to track studies published after the 2026-08-31 cut-off of the previous 141-study edition. The late pass contributed 3,246 hits &rarr; 251 Boolean pass &rarr; 58 nominations &rarr; 4 selected, and the final six days contributed 1,424 hits &rarr; 106 Boolean pass &rarr; 21 nominations &rarr; 0 selected. One of those four, Self-Decomposing Diffusion for Code Generation, was recovered manually from the Boolean pass because its efficiency signal sits in the abstract rather than the title. Repository-only deposits were excluded as grey literature, and output-artifact runtime-efficiency techniques were excluded per the window-round rule, with boundary benchmarks and measurement studies retained. Screening kept 11 of the 20 selections, which entered the 152-study corpus as its September&ndash;October window studies; the other nine are marked below and their rejection reasons are recorded in <a href="https://github.com/1719930244/efficient-codegen-slr-replication/blob/master/data/monthly-update-2026-10c/screening-decision.json" target="_blank">data/monthly-update-2026-10c/screening-decision.json</a>.</p>
       <div class="update-rq">
         <h4>RQ1 Data Preparation (1)</h4>
         <ul>
@@ -299,12 +299,12 @@
       <div class="update-rq">
         <h4>RQ3 Inference Optimization (9)</h4>
         <ul>
-          <li><a href="https://openalex.org/W7212303907" target="_blank">OpenAlex</a> &mdash; RouteRepair: Instance-Level Failure Diagnosis and Targeted Repair in LLM-Based Automated Heuristic Design for Routing Optimization</li>
+          <li><a href="https://openalex.org/W7212303907" target="_blank">OpenAlex</a> &mdash; RouteRepair: Instance-Level Failure Diagnosis and Targeted Repair in LLM-Based Automated Heuristic Design for Routing Optimization <em>(dropped in screening)</em></li>
           <li><a href="https://openalex.org/W7213355055" target="_blank">OpenAlex</a> &mdash; KGMACG: Knowledge-Guided Multi-Agent Orchestration for Scalable Application-Level Code Generation</li>
-          <li><a href="https://openalex.org/W7214042457" target="_blank">OpenAlex</a> &mdash; OptiSkill: A Hierarchical and Evolving SkillBank for LLM-Based Optimization Modeling</li>
-          <li><a href="https://openalex.org/W7214116973" target="_blank">OpenAlex</a> &mdash; When Should Dependency Updates Invoke Repair Agents? A Lightweight Routing Study</li>
-          <li><a href="https://openalex.org/W7214785694" target="_blank">OpenAlex</a> &mdash; JevVibe: Efficient Classification-Guided Secure Code Generation</li>
-          <li><a href="https://openalex.org/W7215030046" target="_blank">OpenAlex</a> &mdash; SEER: Self-Enhancing Chain-of-Thought Compression for Reasoning Models</li>
+          <li><a href="https://openalex.org/W7214042457" target="_blank">OpenAlex</a> &mdash; OptiSkill: A Hierarchical and Evolving SkillBank for LLM-Based Optimization Modeling <em>(dropped in screening)</em></li>
+          <li><a href="https://openalex.org/W7214116973" target="_blank">OpenAlex</a> &mdash; When Should Dependency Updates Invoke Repair Agents? A Lightweight Routing Study <em>(dropped in screening)</em></li>
+          <li><a href="https://openalex.org/W7214785694" target="_blank">OpenAlex</a> &mdash; JevVibe: Efficient Classification-Guided Secure Code Generation <em>(dropped in screening)</em></li>
+          <li><a href="https://openalex.org/W7215030046" target="_blank">OpenAlex</a> &mdash; SEER: Self-Enhancing Chain-of-Thought Compression for Reasoning Models <em>(dropped in screening)</em></li>
           <li><a href="https://openalex.org/W7221747747" target="_blank">OpenAlex</a> &mdash; Diff Diffusion: Predicting Edit Paths with Diffusion Models for Efficient Code Editing</li>
           <li><a href="https://openalex.org/W7222234395" target="_blank">OpenAlex</a> &mdash; HERO: Harnessing Evidence for Test-time Refinement and Prompt Optimization in Program Generation</li>
           <li><a href="https://openalex.org/W7223112641" target="_blank">OpenAlex</a> &mdash; Self-Decomposing Diffusion for Code Generation</li>
@@ -319,11 +319,11 @@
       <div class="update-rq">
         <h4>RQ5 Evaluation and Measurement (7)</h4>
         <ul>
-          <li><a href="https://openalex.org/W7212893619" target="_blank">OpenAlex</a> &mdash; AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization</li>
+          <li><a href="https://openalex.org/W7212893619" target="_blank">OpenAlex</a> &mdash; AMDKernelVault: Large-Scale Datasets and Agentic Training for AMD GPU Kernel Optimization <em>(dropped in screening)</em></li>
           <li><a href="https://openalex.org/W7213495287" target="_blank">OpenAlex</a> &mdash; An Empirical Evaluation of Cost-Efficient Large Language Models on Algorithmic Programming Tasks</li>
-          <li><a href="https://openalex.org/W7213511362" target="_blank">OpenAlex</a> &mdash; AI-DRIVEN MODEL FOR ECONOMIC EFFICIENCY IN SOFTWARE DEVELOPMENT TASKS</li>
-          <li><a href="https://openalex.org/W7214926925" target="_blank">OpenAlex</a> &mdash; Is manual software optimization a thing of the past?</li>
-          <li><a href="https://openalex.org/W7215129963" target="_blank">OpenAlex</a> &mdash; Right Answers, Costly Models: The Efficiency Gap in LLM-based Optimization Modeling</li>
+          <li><a href="https://openalex.org/W7213511362" target="_blank">OpenAlex</a> &mdash; AI-DRIVEN MODEL FOR ECONOMIC EFFICIENCY IN SOFTWARE DEVELOPMENT TASKS <em>(dropped in screening)</em></li>
+          <li><a href="https://openalex.org/W7214926925" target="_blank">OpenAlex</a> &mdash; Is manual software optimization a thing of the past? <em>(dropped in screening)</em></li>
+          <li><a href="https://openalex.org/W7215129963" target="_blank">OpenAlex</a> &mdash; Right Answers, Costly Models: The Efficiency Gap in LLM-based Optimization Modeling <em>(dropped in screening)</em></li>
           <li><a href="https://openalex.org/W7220428400" target="_blank">OpenAlex</a> &mdash; Improving the Energy-Efficiency of the Code Generated by LLMs through Effective Prompting</li>
           <li><a href="https://openalex.org/W7215058388" target="_blank">OpenAlex</a> &mdash; Cracking Query Bottlenecks: Towards Efficiency-Oriented Text-to-SQL Generation</li>
         </ul>
@@ -387,7 +387,7 @@
         </ul>
       </div>
 
-      <p class="batch-meta">Merge note: these 16 selections, together with 6 studies from a parallel arXiv pass and minus 3 overlaps, were screened into the revised 141-study corpus as its Phase-4 window studies (publication window 2026-04-01 to 2026-08-31); per-study extraction records are in <a href="https://github.com/1719930244/efficient-codegen-slr-replication/tree/master/data/corpus-merge-20261001" target="_blank">data/corpus-merge-20261001/</a>.</p>
+      <p class="batch-meta">Merge note: these 16 selections, together with 6 studies from a parallel arXiv pass and minus 3 overlaps, were screened into the revised 152-study corpus as its Phase-4 window studies (publication window 2026-04-01 to 2026-08-31); per-study extraction records are in <a href="https://github.com/1719930244/efficient-codegen-slr-replication/tree/master/data/corpus-merge-20261001" target="_blank">data/corpus-merge-20261001/</a>.</p>
       <p class="batch-meta">Structured record: <a href="https://github.com/1719930244/efficient-codegen-slr-replication/blob/master/data/monthly-updates/2026-09.json" target="_blank">data/monthly-updates/2026-09.json</a></p>
     </div>
 
@@ -432,7 +432,7 @@
 <section id="findings">
   <div class="container">
     <h2>Key Findings</h2>
-    <p>Our systematic analysis distills 8 key findings across the LLM code generation lifecycle. Findings 1 to 7 synthesize the 141-study corpus; Finding 8 reports the controlled experiment suite described in the <a href="#experiments">Experiments</a> section:</p>
+    <p>Our systematic analysis distills 8 key findings across the LLM code generation lifecycle. Findings 1 to 7 synthesize the 152-study corpus; Finding 8 reports the controlled experiment suite described in the <a href="#experiments">Experiments</a> section:</p>
     <div style="display:grid; gap:.8rem; margin-top:1rem;">
       <div class="finding-card"><h4>Finding 1: Quality Dominates Quantity</h4><p>Three complementary data-level strategies improve training efficiency with a common insight: quality dominates quantity. Training on fewer than 10% of carefully selected examples can match full-corpus performance; combining quality filtering with data selection yields larger gains than either alone; and curriculum ordering from simple to complex accelerates convergence by up to 30%. The optimal selection criterion and complexity metric vary by task, underscoring the need for strategies tailored to the target setting.</p></div>
       <div class="finding-card"><h4>Finding 2: Minimal Parameter Updates Suffice</h4><p>Training-level efficiency spans two complementary strategies with compounding benefits. Pre-training cost can be reduced by up to 40% through tokenizer optimization, dynamic packing, and sparse architectures. Parameter-efficient fine-tuning with LoRA and QLoRA matches full fine-tuning accuracy while updating fewer than 1% of parameters and sharply reducing the memory footprint of fine-tuning. Combining PEFT with data selection yields compounding gains across both data volume and parameter count.</p></div>
@@ -519,7 +519,7 @@
     <a href="#cite">Cite</a> &nbsp;&middot;&nbsp;
     License: CC BY 4.0
   </div>
-  <div class="updated">Last updated: October 2026</div>
+  <div class="updated">Last updated: November 2026</div>
 </footer>
 
 <script>
@@ -665,34 +665,45 @@ const STUDIES = [
   {id:"S138",key:"yang2026loopcoder",title:"LoopCoder-v2: Only Loop Once for Efficient Test-Time Computation Scaling",year:2026,venue:"arXiv",type:"preprint",cats:["3f", "3o"],rationale:"Parallel-loop 7B coders with shared-KV attention make loop count a tunable design choice decoupled from latency/KV memory; two loops optimal (SWE-bench Verified 43.0->64.4), more regress"},
   {id:"S139",key:"young2026liveverilogeval",title:"LiveVerilogEval: Contamination Free and Automatically Scalable Benchmark for Verilog Code Generation",year:2026,venue:"DATE 2026",type:"conference",cats:["4a"],rationale:"Contamination-free, auto-scalable Verilog benchmark that mutates RTL designs; SOTA LLMs degrade markedly versus static benchmarks"},
   {id:"S140",key:"zhang2026fastcontext",title:"FastContext: Training Efficient Repository Explorer for Coding Agents",year:2026,venue:"arXiv",type:"preprint",cats:["2f", "3k", "3e"],rationale:"Trains 4B-30B repository-exploration subagents (SFT+GRPO with task-grounded rewards) that plug into Mini-SWE-Agent, cutting agent token consumption up to 60% while raising resolution up to 5.5 points"},
-  {id:"S141",key:"zhang2026selfdistill",title:"Embarrassingly Simple Self-Distillation Improves Code Generation",year:2026,venue:"arXiv",type:"preprint",cats:["2c"],rationale:"Teacher-free simple self-distillation (SFT on model's own samples) raises pass@1 on LiveCodeBench v6, generalizing across Qwen/Llama/GPT-OSS 4B-30B"}
+  {id:"S141",key:"zhang2026selfdistill",title:"Embarrassingly Simple Self-Distillation Improves Code Generation",year:2026,venue:"arXiv",type:"preprint",cats:["2c"],rationale:"Teacher-free simple self-distillation (SFT on model's own samples) raises pass@1 on LiveCodeBench v6, generalizing across Qwen/Llama/GPT-OSS 4B-30B"},
+  {id:"S142",key:"openalex_W7211894364",title:"Distilled Continuous Diffusion Language Models Can Write Code in Few Steps or One",year:2026,venue:"arXiv",type:"preprint",cats:["3c"],rationale:"Distills continuous diffusion language models to few-step or single-step code generation"},
+  {id:"S143",key:"openalex_W7213355055",title:"KGMACG: Knowledge-Guided Multi-Agent Orchestration for Scalable Application-Level Code Generation",year:2026,venue:"TOSEM",type:"journal",cats:["3k"],rationale:"Knowledge-guided multi-agent orchestration for scalable application-level code generation"},
+  {id:"S144",key:"openalex_W7213495287",title:"An Empirical Evaluation of Cost-Efficient Large Language Models on Algorithmic Programming",year:2026,venue:"arXiv",type:"preprint",cats:["4b"],rationale:"Empirical evaluation of cost-efficient LLMs on algorithmic programming tasks"},
+  {id:"S145",key:"openalex_W7214056409",title:"Quality over Quantity: Diversity-Aware Data Selection for Efficient Verilog Code Generation",year:2026,venue:"arXiv",type:"preprint",cats:["1a"],rationale:"Diversity-aware data selection for efficient Verilog code generation"},
+  {id:"S146",key:"openalex_W7220428400",title:"Improving the Energy-Efficiency of the Code Generated by LLMs through Effective Prompting",year:2026,venue:"arXiv",type:"preprint",cats:["3n"],rationale:"Prompting strategies for improving the energy efficiency of generated code"},
+  {id:"S147",key:"openalex_W7215058388",title:"Cracking Query Bottlenecks: Towards Efficiency-Oriented Text-to-SQL Generation",year:2026,venue:"PACMSE",type:"journal",cats:["3m"],rationale:"Efficiency-oriented text-to-SQL generation that removes query bottlenecks"},
+  {id:"S148",key:"openalex_W4416784159",title:"Don't Use a Cannon to Kill a Fly: Lightweight Model Editing for LLMs to Correct Deprecated API Usage",year:2026,venue:"PACMSE",type:"journal",cats:["2b"],rationale:"Lightweight model editing to correct deprecated API recommendations"},
+  {id:"S149",key:"openalex_W7221747747",title:"Diff Diffusion: Predicting Edit Paths with Diffusion Models for Efficient Code Editing",year:2026,venue:"arXiv",type:"preprint",cats:["3c"],rationale:"Diffusion-based edit-path prediction for efficient code editing"},
+  {id:"S150",key:"openalex_W7222234395",title:"HERO: Harnessing Evidence for Test-time Refinement and Prompt Optimization in Program Generation",year:2026,venue:"arXiv",type:"preprint",cats:["3n"],rationale:"Test-time refinement and prompt optimization backed by harnessed evidence for program generation"},
+  {id:"S151",key:"openalex_W7221835407",title:"Smells Like Prompt Spirit: Evaluating Energy Efficiency and Performance of Local LLM Inference",year:2026,venue:"Research Square",type:"preprint",cats:["4b"],rationale:"Benchmark of energy and performance for local LLM inference on CPU versus GPU"},
+  {id:"S152",key:"openalex_W7223112641",title:"Self-Decomposing Diffusion for Code Generation",year:2026,venue:"arXiv",type:"preprint",cats:["3c"],rationale:"Self-decomposing diffusion for code generation"}
 ];
 
 const CATEGORIES = {
-  "1a":{name:"Data Selection",count:9,desc:"Selecting high-quality subsets from large code corpora to reduce training cost while maintaining model quality."},
+  "1a":{name:"Data Selection",count:10,desc:"Selecting high-quality subsets from large code corpora to reduce training cost while maintaining model quality."},
   "1b":{name:"Data Quality Assessment & Synthesis",count:4,desc:"Evaluating training data quality and generating synthetic data when natural corpora are insufficient."},
   "2a":{name:"Efficient Pre-training",count:3,desc:"Architectural and scheduling optimizations that reduce pre-training cost, including code-aware tokenizers and MoE routing."},
-  "2b":{name:"Parameter-Efficient Fine-Tuning (PEFT)",count:10,desc:"Updating only a small fraction of model parameters during fine-tuning: LoRA, QLoRA, prefix tuning, adapters."},
-  "2c":{name:"Knowledge Distillation",count:6,desc:"Transferring capabilities from large teacher models to smaller student models for lightweight deployment."},
+  "2b":{name:"Parameter-Efficient Fine-Tuning (PEFT)",count:11,desc:"Updating only a small fraction of model parameters during fine-tuning: LoRA, QLoRA, prefix tuning, adapters."},
+  "2c":{name:"Knowledge Distillation",count:8,desc:"Transferring capabilities from large teacher models to smaller student models for lightweight deployment."},
   "2d":{name:"Curriculum Learning",count:2,desc:"Organizing training data from simple to complex examples to improve convergence speed."},
-  "2f":{name:"RL-based Training",count:10,desc:"Reinforcement learning techniques for generation process efficiency or improving runtime performance of generated code."},
+  "2f":{name:"RL-based Training",count:12,desc:"Reinforcement learning techniques for generation process efficiency or improving runtime performance of generated code."},
   "3a":{name:"Speculative Decoding",count:3,desc:"Using a small draft model to generate candidate tokens verified by the target model for lossless speedup."},
   "3b":{name:"Early Exit",count:5,desc:"Terminating computation at intermediate layers when confidence is sufficient, reducing per-token compute."},
-  "3c":{name:"Non-Autoregressive Generation",count:3,desc:"Generating multiple tokens in parallel rather than one at a time, trading some accuracy for significant latency reduction."},
+  "3c":{name:"Non-Autoregressive Generation",count:6,desc:"Generating multiple tokens in parallel rather than one at a time, trading some accuracy for significant latency reduction."},
   "3d":{name:"Prompt Compression",count:7,desc:"Reducing input token counts while preserving information needed for accurate generation."},
   "3e":{name:"Context Pruning",count:9,desc:"Selecting relevant context from repositories for code completion, including hierarchical pruning and dependency-based filtering."},
-  "3f":{name:"KV Cache Optimization",count:3,desc:"Optimizing key-value cache during autoregressive generation: incremental reuse, anchor attention, predictive population."},
-  "3g":{name:"Post-Training Quantization",count:7,desc:"Reducing numerical precision of model weights (e.g., 16-bit to 4-bit) to decrease memory and improve throughput."},
-  "3h":{name:"Model Pruning",count:2,desc:"Removing redundant parameters or structures from trained models via unstructured pruning or low-rank decomposition."},
+  "3f":{name:"KV Cache Optimization",count:4,desc:"Optimizing key-value cache during autoregressive generation: incremental reuse, anchor attention, predictive population."},
+  "3g":{name:"Post-Training Quantization",count:8,desc:"Reducing numerical precision of model weights (e.g., 16-bit to 4-bit) to decrease memory and improve throughput."},
+  "3h":{name:"Model Pruning",count:3,desc:"Removing redundant parameters or structures from trained models via unstructured pruning or low-rank decomposition."},
   "3i":{name:"Model Routing",count:11,desc:"Directing queries to appropriately-sized models based on task complexity: cascading, shepherding, control models."},
-  "3j":{name:"Adaptive Sampling",count:9,desc:"Optimizing test-time compute allocation across generated candidates with confidence-based early stopping."},
-  "3k":{name:"Multi-Agent Orchestration",count:11,desc:"Optimizing multi-agent code generation pipelines via topology evolution, confidence gating, and agent collaboration."},
-  "3l":{name:"Code-Specific Optimization",count:9,desc:"Leveraging code syntax, structure, and formatting conventions for domain-specific efficiency gains."},
-  "3m":{name:"System-Level Serving",count:5,desc:"Deployment infrastructure optimization: SLA-aware batch sizing, context-aware eviction, runtime engine comparison."},
-  "3n":{name:"Prompt Engineering",count:8,desc:"Optimizing prompt design for efficiency: evolutionary optimization, difficulty-based strategy selection."},
+  "3j":{name:"Adaptive Sampling",count:8,desc:"Optimizing test-time compute allocation across generated candidates with confidence-based early stopping."},
+  "3k":{name:"Multi-Agent Orchestration",count:14,desc:"Optimizing multi-agent code generation pipelines via topology evolution, confidence gating, and agent collaboration."},
+  "3l":{name:"Code-Specific Optimization",count:11,desc:"Leveraging code syntax, structure, and formatting conventions for domain-specific efficiency gains."},
+  "3m":{name:"System-Level Serving",count:8,desc:"Deployment infrastructure optimization: SLA-aware batch sizing, context-aware eviction, runtime engine comparison."},
+  "3n":{name:"Prompt Engineering",count:10,desc:"Optimizing prompt design for efficiency: evolutionary optimization, difficulty-based strategy selection."},
   "3o":{name:"Chain-of-Thought Optimization",count:5,desc:"Reducing the token cost of reasoning chains while maintaining their benefits via adaptive compression."},
-  "4a":{name:"Benchmark Design",count:3,desc:"Design and development of benchmarks that include efficiency dimensions for LLM code generation."},
-  "4b":{name:"Empirical Study",count:18,desc:"Systematic empirical evaluations comparing techniques, establishing baselines, or analyzing evaluation practices."}
+  "4a":{name:"Benchmark Design",count:7,desc:"Design and development of benchmarks that include efficiency dimensions for LLM code generation."},
+  "4b":{name:"Empirical Study",count:22,desc:"Systematic empirical evaluations comparing techniques, establishing baselines, or analyzing evaluation practices."}
 };
 
 const RQS = [
@@ -719,6 +730,9 @@ function paperUrl(key) {
   if (key.startsWith('arxiv_')) {
     const id = key.slice(6).replace('_','.');
     return 'https://arxiv.org/abs/' + id;
+  }
+  if (key.startsWith('openalex_')) {
+    return 'https://openalex.org/' + key.slice(9);
   }
   if (key.startsWith('doi_')) {
     const parts = key.split('_');
@@ -826,7 +840,7 @@ function filterPapers() {
 }
 
 function updateStats(msg) {
-  document.getElementById('searchStats').textContent = msg || `Showing all 141 primary studies across 24 categories. Click a category to expand.`;
+  document.getElementById('searchStats').textContent = msg || `Showing all 152 primary studies across 24 categories. Click a category to expand.`;
 }
 
 document.addEventListener('DOMContentLoaded', renderTaxonomy);
