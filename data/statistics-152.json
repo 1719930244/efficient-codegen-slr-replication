@@ -45,5 +45,17 @@
   "3o-CoTOpt": 5,
   "4a-Benchmark": 7,
   "4b-EmpiricalStudy": 22
+ },
+ "quality_tier_distribution": {
+  "CCF A": 30,
+  "CCF B": 10,
+  "CCF C": 6,
+  "CORE A*": 1,
+  "unranked": 11,
+  "n/a": 94
+ },
+ "quality_assessment": {
+  "n_studies": 141,
+  "note": "The 11 studies added in the September-October 2026 window were screened for eligibility but did not enter the quality-assessment batch; per-study QA scores are in data/reporting-compliance.json."
  }
 }

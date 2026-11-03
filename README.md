@@ -1,36 +1,36 @@
 # Replication Package: Towards Efficient LLM-Based Code Generation
 
-Replication package for the systematic literature review: *"Towards Efficient LLM-Based Code Generation: A Systematic Review"* (ACM TOSEM, manuscript TOSEM-2026-0589, revision submitted October 2026). Package version **v2.0** (2026-10-09), see [CHANGELOG.md](CHANGELOG.md).
+Replication package for the systematic literature review: *"Towards Efficient LLM-Based Code Generation: A Systematic Review"* (ACM TOSEM, manuscript TOSEM-2026-0589, revision submitted October 2026). Package version **v2.1** (2026-11-03), see [CHANGELOG.md](CHANGELOG.md).
 
 ## Overview
 
-This review systematically analyzes **141 primary studies** on efficiency techniques for LLM-based code generation, organized across **six research questions** spanning the full lifecycle from data preparation through deployment and evaluation, plus a cross-cutting controlled experiment on technique composition. The corpus comes from a single search campaign with a literature cut-off of **2026-08-31**: 89 full-text includes and 36 snowballing/targeted additions (net of 3 duplicates) give 122 studies, and the Phase-4 OpenAlex/arXiv window search for April to August 2026 contributes 19 more (16 OpenAlex plus 6 arXiv minus 3 overlaps).
+This review systematically analyzes **152 primary studies** on efficiency techniques for LLM-based code generation, organized across **six research questions** spanning the full lifecycle from data preparation through deployment and evaluation, plus a cross-cutting controlled experiment on technique composition. The corpus comes from a single search campaign with a literature cut-off of **2026-10-31**: 89 full-text includes and 36 snowballing/targeted additions (net of 3 duplicates) give 122 studies, the Phase-4 OpenAlex/arXiv window search for April to August 2026 contributes 19 more (16 OpenAlex plus 6 arXiv minus 3 overlaps), and the September-October 2026 batches add 11 more.
 
 | RQ | Scope | Studies |
 |----|-------|---------|
-| RQ1 | Data Preparation (selection, quality, synthesis; distillation and code-specific work counted here) | 29 |
-| RQ2 | Model Training (pre-training, PEFT, curriculum, RL) | 26 |
-| RQ3 | Inference Optimization (decoding, compression, sampling, orchestration) | 63 |
-| RQ4 | Deployment (quantization, pruning, routing, system-level serving) | 28 |
-| RQ5 | Evaluation (benchmarks, metrics, reporting compliance) | 27 |
+| RQ1 | Data Preparation (selection, quality, synthesis; distillation and code-specific work counted here) | 30 |
+| RQ2 | Model Training (pre-training, PEFT, curriculum, RL) | 27 |
+| RQ3 | Inference Optimization (decoding, compression, sampling, orchestration) | 69 |
+| RQ4 | Deployment (quantization, pruning, routing, system-level serving) | 29 |
+| RQ5 | Evaluation (benchmarks, metrics, reporting compliance) | 29 |
 | RQ6 | Technique Composition and Interaction Effects (controlled experiments) | — |
 
-> Note: 32 studies span multiple RQs, so per-RQ counts sum to more than 141. The canonical stage marginals are computed by the mapping documented in `scripts/plot_upset.py` (codes 2c and 3l attach to the data stage; 3g/3h/3i/3m to deployment; 4a/4b to evaluation), which reproduces 29/26/63/28/27 exactly. The legacy `RQ` column of earlier package releases was an incomplete annotation and has been regenerated from this mapping; `classification-scheme.csv`'s RQ column keeps the taxonomy's chapter home for each category. RQ6 is answered by controlled experiments rather than primary-study classification (see `experiments/`).
+> Note: 32 studies span multiple RQs, so per-RQ counts sum to more than 152. The canonical stage marginals are computed by the mapping documented in `scripts/plot_upset.py` (codes 2c and 3l attach to the data stage; 3g/3h/3i/3m to deployment; 4a/4b to evaluation), which reproduces 30/27/69/29/29 exactly. The legacy `RQ` column of earlier package releases was an incomplete annotation and has been regenerated from this mapping; `classification-scheme.csv`'s RQ column keeps the taxonomy's chapter home for each category. RQ6 is answered by controlled experiments rather than primary-study classification (see `experiments/`).
 
 ## Repository Structure
 
 ```
 data/
-  primary-studies.csv          # All 141 primary studies: metadata, canonical RQ column, Quality Tier
-  classification-scheme.csv    # Taxonomy: 24 categories, study counts and keys regenerated for 141
-  statistics.json              # Summary statistics (year, RQ, category distributions, N=141)
-  reporting-compliance.json    # Per-study QA scores (QA1-QA4, all 141 studies)
+  primary-studies.csv          # All 152 primary studies: metadata, canonical RQ column, Quality Tier
+  classification-scheme.csv    # Taxonomy: 24 categories, study counts and keys regenerated for 152
+  statistics-152.json          # Summary statistics (year, RQ, category, quality-tier distributions, N=152); statistics.json is the 141-era file
+  reporting-compliance.json    # Per-study QA scores (QA1-QA4) for the 141 quality-audited studies; the 11 October additions were screened for eligibility only
   search-log.csv               # Structured log of every search executed (main campaign, window, gap)
   venues/
-    venue-tier-141.csv         # Per-study venue type and CCF/CORE quality tier (all 141)
+    venue-tier-152.csv         # Per-study venue type and CCF/CORE quality tier (all 152); venue-tier-141.csv kept for the 141-era release
     appendix-b-venue-tier.csv  # 122-era tier table kept for provenance
   by-rq/
-    rq1-studies.csv ... rq5-studies.csv   # Per-RQ subsets (29/26/63/28/27, full column schema)
+    rq1-studies.csv ... rq5-studies.csv   # Per-RQ subsets (30/27/69/29/29, full column schema)
   corpus-merge-20261001/       # The 19 window-search studies: per-study extraction records
                                # (categories, QA, 8-item audit), the 122-era inputs, and
                                # recompute.py which regenerates primary-studies-141 byte-identically
@@ -74,15 +74,15 @@ TAXONOMY.md                    # Full classification taxonomy with descriptions
 
 The taxonomy follows the LLM lifecycle with 24 fine-grained categories. Canonical stage assignment (used for all reported marginals): RQ1 = 1a, 1b, 2c, 3l; RQ2 = 2a, 2b, 2d, 2f; RQ3 = 3a, 3b, 3c, 3d, 3e, 3f, 3j, 3k, 3n, 3o; RQ4 = 3g, 3h, 3i, 3m; RQ5 = 4a, 4b. Distillation (2c) and code-specific optimization (3l) attach to the data stage for counting and are discussed in the chapters of the stages their methods target. See `TAXONOMY.md` for descriptions and `data/classification-scheme.csv` for study-to-category assignments.
 
-## Reporting Compliance Audit (N=141)
+## Reporting Compliance Audit (N=141 quality-audited)
 
-All 141 primary studies were audited against an 8-item reporting checklist (Table 5 of the manuscript). Aggregate coverage: functional correctness 95%, model name/version 96%, hardware 68%, latency/throughput 47%, memory 21%, serving configuration 40%, monetary cost 21%, energy/carbon 8%. Reporting depth: 25% of studies report no efficiency metric, 33% exactly one, 43% two or more; only 16% report both latency and memory.
+The 141 quality-audited primary studies were audited against an 8-item reporting checklist (Table 5 of the manuscript). Aggregate coverage: functional correctness 95%, model name/version 96%, hardware 68%, latency/throughput 47%, memory 21%, serving configuration 40%, monetary cost 21%, energy/carbon 8%. Reporting depth: 25% of studies report no efficiency metric, 33% exactly one, 43% two or more; only 16% report both latency and memory.
 
-Provenance note, recorded as fact: the per-study 8-item audit sheets of the original 122 studies were not archived; their aggregate counts were back-calculated from the published percentages during the revision audit (`data/corpus-merge-20261001/recompute.py` documents the procedure and its ambiguity bounds). The 19 merged studies carry full per-study audit records (`audit-A.json`, `audit-B.json`). Per-study QA scores (QA1-QA4) for all 141 studies are in `data/reporting-compliance.json`.
+Provenance note, recorded as fact: the per-study 8-item audit sheets of the original 122 studies were not archived; their aggregate counts were back-calculated from the published percentages during the revision audit (`data/corpus-merge-20261001/recompute.py` documents the procedure and its ambiguity bounds). The 19 merged studies carry full per-study audit records (`audit-A.json`, `audit-B.json`). Per-study QA scores (QA1-QA4) for the 141 audited studies are in `data/reporting-compliance.json`. The 11 studies added in the September-October window were screened for eligibility but were not re-scored for quality; this is stated in the manuscript's quality-assessment section and in Threats to Validity.
 
 ## Quality Tiers
 
-`data/venues/venue-tier-141.csv` lists the venue type and quality tier of every study: CCF 2022 catalogue first (A/B/C), then CORE A* for venues outside the CCF catalogue (ICLR only in this corpus), workshops and unlisted venues as unranked, preprints as n/a. Distribution of the 55 peer-reviewed studies: 27 CCF-A, 10 CCF-B, 6 CCF-C, 1 CORE-A*, 11 unranked. The same column is in `primary-studies.csv`.
+`data/venues/venue-tier-152.csv` lists the venue type and quality tier of every study: CCF 2022 catalogue first (A/B/C), then CORE A* for venues outside the CCF catalogue (ICLR only in this corpus), workshops and unlisted venues as unranked, preprints as n/a. Distribution of the 58 peer-reviewed studies: 30 CCF-A, 10 CCF-B, 6 CCF-C, 1 CORE-A*, 11 unranked; the 94 preprints are n/a. The same column is in `primary-studies.csv`.
 
 ## RQ6: Empirical Composition and Pareto Experiments
 
@@ -166,7 +166,7 @@ Phase 4 (window search, publication window 2026-04-01 to 2026-08-31, run 2026-09
     +-- Phase 4, OpenAlex and arXiv window (April-August 2026):
     |     OpenAlex 436 -> 16; arXiv 111 -> 6; overlaps -3; +19
     v
-  141 primary studies (cut-off 2026-08-31)
+  141 quality-audited studies (cut-off 2026-08-31)\n    |\n    +-- September-October 2026 batches: +11\n    v\n  152 primary studies (cut-off 2026-10-31)
 ```
 
 ## Quality Assessment

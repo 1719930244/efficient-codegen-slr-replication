@@ -1,5 +1,16 @@
 # Changelog
 
+## v2.1 (2026-11-03) — 152-study corpus, cut-off 2026-10-31
+
+Synchronizes the package with the November 2026 manuscript revision.
+
+- Corpus: `data/primary-studies.csv` 141 -> 152 rows. The September-October 2026 monthly batches add 11 studies (20 selected, 9 dropped with reasons in `data/monthly-update-2026-10c/screening-decision.json`).
+- Canonical stage marginals updated to 30/27/69/29/29; 32 studies remain multi-stage.
+- `Quality Tier` column added for all 152 studies; `data/venues/venue-tier-152.csv` supersedes the 141-era file. Distribution of the 58 peer-reviewed studies: 30 CCF-A, 10 CCF-B, 6 CCF-C, 1 CORE-A*, 11 unranked; the 94 preprints are n/a.
+- `data/statistics-152.json` regenerated (152, five-RQ marginals, venue/year/category/quality-tier distributions).
+- `data/reporting-compliance.json` remains the 141-study quality-audited set. The 11 October additions were screened for eligibility but did not enter the quality/reporting audit; the manuscript states this scope.
+- Companion website already carries the 152-study corpus and the October batch.
+
 ## v2.0 (2026-10-09) — revision release, 141-study corpus
 
 Synchronizes the package with the revised manuscript (TOSEM-2026-0589 R1).
