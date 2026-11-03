@@ -188,7 +188,7 @@ The companion website (https://1719930244.github.io/efficient-codegen-slr-replic
 
 ## Known Gaps (recorded honestly)
 
-1. **Stage-1 classifier artifacts** (code, threshold, term weights, ranked list of the 22,118 unique records): exist with the first author and will be added to this package; the response letter carries the corresponding placeholder until then.
+1. **Stage-1 classifier artifacts** (code, threshold, term weights, ranked list of the 22,118 unique records): exist with the first author and are available on request; they are not yet mirrored in this package. The response letter states this availability.
 2. **Full-text screening decisions** (the 1,700 retrieved records with INCLUDE/EXCLUDE and criterion codes): the original assessment worksheets were on the screening working directory that was not archived off the retired rental servers; reconstruction from the ranked candidate list is planned together with item 1.
 3. **Gap-search record G000** (EAAI 2026, DOI 10.1016/j.engappai.2026.114360): full text requires institutional access; its IC4 adjudication is pending.
 4. Per-study 8-item audit sheets of the original 122 studies: not archived; see the provenance note under Reporting Compliance Audit.
