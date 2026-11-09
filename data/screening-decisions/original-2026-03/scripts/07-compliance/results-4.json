@@ -1,0 +1,222 @@
+[
+  {
+    "key": "2407_00434",
+    "fc": true,
+    "model": true,
+    "hw": true,
+    "lat": false,
+    "mem": false,
+    "serve": false,
+    "cost": false,
+    "energy": false
+  },
+  {
+    "key": "2407_03157",
+    "fc": true,
+    "model": true,
+    "hw": true,
+    "lat": true,
+    "mem": false,
+    "serve": true,
+    "cost": false,
+    "energy": false
+  },
+  {
+    "key": "2407_05040",
+    "fc": true,
+    "model": true,
+    "hw": true,
+    "lat": false,
+    "mem": false,
+    "serve": true,
+    "cost": false,
+    "energy": false
+  },
+  {
+    "key": "2407_20042",
+    "fc": true,
+    "model": true,
+    "hw": true,
+    "lat": true,
+    "mem": false,
+    "serve": false,
+    "cost": false,
+    "energy": false
+  },
+  {
+    "key": "2408_03680",
+    "fc": true,
+    "model": true,
+    "hw": true,
+    "lat": false,
+    "mem": false,
+    "serve": true,
+    "cost": false,
+    "energy": false
+  },
+  {
+    "key": "2408_11198",
+    "fc": true,
+    "model": true,
+    "hw": false,
+    "lat": false,
+    "mem": false,
+    "serve": false,
+    "cost": true,
+    "energy": false
+  },
+  {
+    "key": "2409_16416",
+    "fc": true,
+    "model": true,
+    "hw": true,
+    "lat": false,
+    "mem": false,
+    "serve": false,
+    "cost": false,
+    "energy": false
+  },
+  {
+    "key": "2410_08391",
+    "fc": true,
+    "model": true,
+    "hw": true,
+    "lat": true,
+    "mem": false,
+    "serve": true,
+    "cost": false,
+    "energy": false
+  },
+  {
+    "key": "2410_10209",
+    "fc": true,
+    "model": true,
+    "hw": true,
+    "lat": true,
+    "mem": true,
+    "serve": true,
+    "cost": false,
+    "energy": false
+  },
+  {
+    "key": "2410_14766",
+    "fc": true,
+    "model": true,
+    "hw": true,
+    "lat": true,
+    "mem": true,
+    "serve": true,
+    "cost": false,
+    "energy": false
+  },
+  {
+    "key": "2410_18194",
+    "fc": true,
+    "model": true,
+    "hw": false,
+    "lat": false,
+    "mem": false,
+    "serve": false,
+    "cost": false,
+    "energy": false
+  },
+  {
+    "key": "2410_22480",
+    "fc": true,
+    "model": true,
+    "hw": false,
+    "lat": false,
+    "mem": false,
+    "serve": false,
+    "cost": false,
+    "energy": false
+  },
+  {
+    "key": "2410_22793",
+    "fc": true,
+    "model": true,
+    "hw": false,
+    "lat": false,
+    "mem": false,
+    "serve": false,
+    "cost": false,
+    "energy": false
+  },
+  {
+    "key": "2411_05010",
+    "fc": true,
+    "model": true,
+    "hw": false,
+    "lat": false,
+    "mem": false,
+    "serve": false,
+    "cost": false,
+    "energy": false
+  },
+  {
+    "key": "2411_06680",
+    "fc": true,
+    "model": true,
+    "hw": true,
+    "lat": true,
+    "mem": true,
+    "serve": false,
+    "cost": false,
+    "energy": false
+  },
+  {
+    "key": "2411_11055",
+    "fc": true,
+    "model": true,
+    "hw": true,
+    "lat": true,
+    "mem": false,
+    "serve": true,
+    "cost": false,
+    "energy": false
+  },
+  {
+    "key": "2412_15441",
+    "fc": true,
+    "model": true,
+    "hw": true,
+    "lat": true,
+    "mem": true,
+    "serve": true,
+    "cost": false,
+    "energy": true
+  },
+  {
+    "key": "2412_16589",
+    "fc": true,
+    "model": true,
+    "hw": true,
+    "lat": true,
+    "mem": false,
+    "serve": true,
+    "cost": false,
+    "energy": false
+  },
+  {
+    "key": "arxiv_2403_00046",
+    "fc": true,
+    "model": true,
+    "hw": true,
+    "lat": false,
+    "mem": false,
+    "serve": false,
+    "cost": false,
+    "energy": false
+  },
+  {
+    "key": "arxiv_2404_02183",
+    "fc": true,
+    "model": true,
+    "hw": false,
+    "lat": false,
+    "mem": false,
+    "serve": false,
+    "cost": false,
+    "energy": false
+  }
+]

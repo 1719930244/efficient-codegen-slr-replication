@@ -1,0 +1,122 @@
+[
+  {
+    "key": "2407_00434",
+    "title": "Brevity is the soul of wit: Pruning long files for code generation",
+    "rq": "RQ1",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2407_00434.pdf"
+  },
+  {
+    "key": "2407_03157",
+    "title": "Let the Code LLM Edit Itself When You Edit the Code",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2407_03157.pdf"
+  },
+  {
+    "key": "2407_05040",
+    "title": "Code Less, Align More: Efficient LLM Fine-tuning for Code Generation with Data Pruning",
+    "rq": "RQ1; RQ2",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2407_05040.pdf"
+  },
+  {
+    "key": "2407_20042",
+    "title": "When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2407_20042.pdf"
+  },
+  {
+    "key": "2408_03680",
+    "title": "Smaller but Better: Self-Paced Knowledge Distillation for Lightweight yet Effective LCMs",
+    "rq": "RQ2",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2408_03680.pdf"
+  },
+  {
+    "key": "2408_11198",
+    "title": "Automated Prompt Engineering for Cost-Effective Code Generation Using Evolutionary Algorithm",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2408_11198.pdf"
+  },
+  {
+    "key": "2409_16416",
+    "title": "Selection of Prompt Engineering Techniques for Code Generation through Predicting Code Complexity",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2409_16416.pdf"
+  },
+  {
+    "key": "2410_08391",
+    "title": "KV Prediction for Improved Time to First Token",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2410_08391.pdf"
+  },
+  {
+    "key": "2410_10209",
+    "title": "EffiCoder: Enhancing Code Generation in Large Language Models through Efficiency-Aware Fine-tuning",
+    "rq": "RQ2",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2410_10209.pdf"
+  },
+  {
+    "key": "2410_14766",
+    "title": "Evaluating Quantized Large Language Models for Code Generation on Low-Resource Language Benchmarks",
+    "rq": "RQ3; RQ4",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2410_14766.pdf"
+  },
+  {
+    "key": "2410_18194",
+    "title": "ZIP-FIT: Embedding-Free Data Selection via Compression-Based Alignment",
+    "rq": "RQ1",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2410_18194.pdf"
+  },
+  {
+    "key": "2410_22480",
+    "title": "Scaling LLM Inference with Optimized Sample Compute Allocation",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2410_22480.pdf"
+  },
+  {
+    "key": "2410_22793",
+    "title": "Less is More: DocString Compression in Code Generation",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2410_22793.pdf"
+  },
+  {
+    "key": "2411_05010",
+    "title": "Scattered Forest Search: Smarter Code Space Exploration with LLMs",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2411_05010.pdf"
+  },
+  {
+    "key": "2411_06680",
+    "title": "Anchor Attention, Small Cache: Code Generation with Large Language Models",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2411_06680.pdf"
+  },
+  {
+    "key": "2411_11055",
+    "title": "FastDraft: How to Train Your Draft",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2411_11055.pdf"
+  },
+  {
+    "key": "2412_15441",
+    "title": "Insights into resource utilization of code small language models serving with runtime engines and execution providers",
+    "rq": "RQ3; RQ4",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2412_15441.pdf"
+  },
+  {
+    "key": "2412_16589",
+    "title": "Improving FIM Code Completions via Context \\& Curriculum Based Learning",
+    "rq": "RQ2",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2412_16589.pdf"
+  },
+  {
+    "key": "arxiv_2403_00046",
+    "title": "Exploring Data-Efficient Adaptation of Large Language Models for Code Generation",
+    "rq": "RQ1",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2403_00046.pdf"
+  },
+  {
+    "key": "arxiv_2404_02183",
+    "title": "Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2404_02183.pdf"
+  }
+]

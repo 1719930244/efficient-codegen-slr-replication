@@ -1,0 +1,122 @@
+[
+  {
+    "key": "He2025codepromptzip",
+    "title": "CODEPROMPTZIP: Code-specific Prompt Compression for Retrieval-Augmented Generation in Coding Tasks with LMs",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/He2025codepromptzip.pdf"
+  },
+  {
+    "key": "Zhao2025codeswift",
+    "title": "CodeSwift: Accelerating LLM Inference for Efficient Code Generation",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/Zhao2025codeswift.pdf"
+  },
+  {
+    "key": "arxiv_2505_02133",
+    "title": "Enhancing LLM Code Generation: A Systematic Evaluation of Multi-Agent Collaboration and Runtime Debugging for Improved Accuracy, Reliability, and Latency",
+    "rq": "RQ3; RQ4",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2505_02133.pdf"
+  },
+  {
+    "key": "arxiv_2505_14200",
+    "title": "Capturing the Effects of Quantization on Trojans in Code LLMs",
+    "rq": "RQ3; RQ4",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2505_14200.pdf"
+  },
+  {
+    "key": "arxiv_2506_22776",
+    "title": "Smaller = Weaker? Benchmarking Robustness of Quantized LLMs in Code Generation",
+    "rq": "RQ3; RQ4",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2506_22776.pdf"
+  },
+  {
+    "key": "arxiv_2507_02378",
+    "title": "Efficient Code LLM Training via Distribution-Consistent and Diversity-Aware Data Selection",
+    "rq": "RQ1",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2507_02378.pdf"
+  },
+  {
+    "key": "arxiv_2508_08332",
+    "title": "Energy-Aware Code Generation with LLMs: Benchmarking Small vs. Large Language Models for Sustainable AI Programming",
+    "rq": "RQ4",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2508_08332.pdf"
+  },
+  {
+    "key": "arxiv_2512_24570",
+    "title": "On the Effectiveness of Training Data Optimization for LLM-based Code Generation: An Empirical Study",
+    "rq": "RQ1",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2512_24570.pdf"
+  },
+  {
+    "key": "doi_10_48550_arXiv_2501_11006",
+    "title": "GREEN-CODE: Optimizing Energy Efficiency in Large Language Models for Code Generation",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2501_11006.pdf"
+  },
+  {
+    "key": "2401_00788",
+    "title": "Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models",
+    "rq": "RQ2; RQ4",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2401_00788.pdf"
+  },
+  {
+    "key": "2401_09964",
+    "title": "When Neural Code Completion Models Size up the Situation: Attaining Cheaper and Faster Completion through Dynamic Model Inference",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2401_09964.pdf"
+  },
+  {
+    "key": "2402_01035",
+    "title": "Getting the most out of your tokenizer for pre-training and domain adaptation",
+    "rq": "RQ2",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2402_01035.pdf"
+  },
+  {
+    "key": "2402_14323",
+    "title": "REPOFUSE: Repository-Level Code Completion with Fused Dual Context",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2402_14323.pdf"
+  },
+  {
+    "key": "2403_10059",
+    "title": "Repoformer: Selective Retrieval for Repository-Level Code Completion",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2403_10059.pdf"
+  },
+  {
+    "key": "2404_16333",
+    "title": "AI Coders Are Among Us: Rethinking Programming Language Grammar Towards Efficient Code Generation",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2404_16333.pdf"
+  },
+  {
+    "key": "2405_15189",
+    "title": "EffiLearner: Enhancing Efficiency of Generated Code via Self-Optimization",
+    "rq": "RQ2",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2405_15189.pdf"
+  },
+  {
+    "key": "2405_15208",
+    "title": "Decoding at the Speed of Thought: Harnessing Parallel Decoding of Lexical Units for LLMs",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2405_15208.pdf"
+  },
+  {
+    "key": "2405_15842",
+    "title": "Model Cascading for Code: A Cascaded Black-Box Multi-Model Framework for Cost-Efficient Code Completion with Self-Testing",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2405_15842.pdf"
+  },
+  {
+    "key": "2406_10263",
+    "title": "A Lightweight Framework for Adaptive Retrieval In Code Completion With Critique Model",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2406_10263.pdf"
+  },
+  {
+    "key": "2406_18294",
+    "title": "Hierarchical Context Pruning: Optimizing Real-World Code Completion with Repository-Level Pretrained Code LLMs",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2406_18294.pdf"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "key": "arxiv_2408_06450",
+    "title": "Evaluating Language Models for Efficient Code Generation",
+    "rq": "RQ4",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2408_06450.pdf"
+  },
+  {
+    "key": "arxiv_2410_00558",
+    "title": "AMR-Evol: Adaptive Modular Response Evolution Elicits Better Knowledge Distillation for Large Language Models in Code Generation",
+    "rq": "RQ2",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2410_00558.pdf"
+  },
+  {
+    "key": "doi_10_48550_arXiv_2402_07844",
+    "title": "Mercury: An Efficiency Benchmark for LLM Code Synthesis",
+    "rq": "RQ4",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2402_07844.pdf"
+  },
+  {
+    "key": "ss_Zhang2024llm",
+    "title": "LLM-Cloud Complete: Leveraging Cloud Computing for Efficient Large Language Model-based Code Completion",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/ss_Zhang2024llm.pdf"
+  },
+  {
+    "key": "2303_05378",
+    "title": "Greener yet Powerful: Taming Large Code Generation Models with Quantization",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2303_05378.pdf"
+  },
+  {
+    "key": "2303_07457",
+    "title": "AMOM: Adaptive Masking over Masking for Conditional Masked Language Model",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2303_07457.pdf"
+  },
+  {
+    "key": "2305_11860",
+    "title": "Let's Sample Step by Step: Adaptive-Consistency for Efficient Reasoning and Coding with LLMs",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2305_11860.pdf"
+  },
+  {
+    "key": "2308_10462",
+    "title": "Exploring Parameter-Efficient Fine-Tuning Techniques for Code Generation with Large Language Models",
+    "rq": "RQ2; RQ4",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2308_10462.pdf"
+  },
+  {
+    "key": "2309_14021",
+    "title": "LORD: Low Rank Decomposition Of Monolingual Code LLMs For One-Shot Compression",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2309_14021.pdf"
+  },
+  {
+    "key": "2310_18628",
+    "title": "Personalised Distillation: Empowering Open-Sourced LLMs with Adaptive Learning for Code Generation",
+    "rq": "RQ2",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2310_18628.pdf"
+  },
+  {
+    "key": "2312_02418",
+    "title": "Decoding Data Quality via Synthetic Corruptions: Embedding-guided Pruning of Code Data",
+    "rq": "RQ1",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2312_02418.pdf"
+  },
+  {
+    "key": "2312_08583",
+    "title": "ZeroQuant(4+2): Redefining LLMs Quantization with a New FP6-Centric Strategy for Diverse Generative Tasks",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2312_08583.pdf"
+  },
+  {
+    "key": "2312_11511",
+    "title": "ComplexityNet: Increasing LLM Inference Efficiency by Learning Task Complexity",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2312_11511.pdf"
+  },
+  {
+    "key": "2312_13010",
+    "title": "AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2312_13010.pdf"
+  },
+  {
+    "key": "Chen2023personalized",
+    "title": "Personalized Distillation: Empowering Open-Sourced LLMs with Adaptive Learning for Code Generation",
+    "rq": "RQ2",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/Chen2023personalized.pdf"
+  },
+  {
+    "key": "arxiv_2312_05562",
+    "title": "Chain-of-Thought in Neural Code Generation: From and for Lightweight Language Models",
+    "rq": "RQ2; RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2312_05562.pdf"
+  },
+  {
+    "key": "2204_09877",
+    "title": "Non-autoregressive Model for Full-line Code Completion",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2204_09877.pdf"
+  },
+  {
+    "key": "arxiv_2004_13651",
+    "title": "Fast and Memory-Efficient Neural Code Completion",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2004_13651.pdf"
+  },
+  {
+    "key": "ieee_Morte2025efficient",
+    "title": "Efficient LLM Tuning: A Multi-Objective Approach for Code Generation",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/ieee_Morte2025efficient.pdf"
+  },
+  {
+    "key": "ieee_Rohilla2025graphmoe",
+    "title": "Graph-MoE: A Graph-Based LLM Framework for Scalable and Efficient Code Completion in Integrated Development Environment",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/ieee_Rohilla2025graphmoe.pdf"
+  }
+]

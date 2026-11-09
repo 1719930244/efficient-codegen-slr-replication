@@ -1,0 +1,22 @@
+[
+  {"key": "arxiv_2408_06450", "fc": true, "model": true, "hw": true, "lat": true, "mem": false, "serve": false, "cost": false, "energy": false},
+  {"key": "arxiv_2410_00558", "fc": true, "model": true, "hw": false, "lat": false, "mem": false, "serve": false, "cost": false, "energy": false},
+  {"key": "doi_10_48550_arXiv_2402_07844", "fc": true, "model": true, "hw": true, "lat": false, "mem": false, "serve": true, "cost": false, "energy": false},
+  {"key": "ss_Zhang2024llm", "fc": true, "model": false, "hw": false, "lat": true, "mem": false, "serve": true, "cost": true, "energy": false},
+  {"key": "2303_05378", "fc": true, "model": true, "hw": true, "lat": true, "mem": true, "serve": true, "cost": true, "energy": true},
+  {"key": "2303_07457", "fc": true, "model": true, "hw": false, "lat": true, "mem": false, "serve": false, "cost": false, "energy": false},
+  {"key": "2305_11860", "fc": true, "model": true, "hw": true, "lat": true, "mem": false, "serve": false, "cost": false, "energy": false},
+  {"key": "2308_10462", "fc": true, "model": true, "hw": true, "lat": false, "mem": true, "serve": true, "cost": false, "energy": false},
+  {"key": "2309_14021", "fc": true, "model": true, "hw": true, "lat": true, "mem": true, "serve": true, "cost": false, "energy": false},
+  {"key": "2310_18628", "fc": true, "model": true, "hw": true, "lat": false, "mem": false, "serve": true, "cost": true, "energy": false},
+  {"key": "2312_02418", "fc": true, "model": true, "hw": true, "lat": false, "mem": false, "serve": true, "cost": false, "energy": false},
+  {"key": "2312_08583", "fc": true, "model": true, "hw": true, "lat": true, "mem": true, "serve": true, "cost": false, "energy": false},
+  {"key": "2312_11511", "fc": true, "model": true, "hw": false, "lat": false, "mem": false, "serve": false, "cost": true, "energy": false},
+  {"key": "2312_13010", "fc": true, "model": true, "hw": false, "lat": false, "mem": false, "serve": false, "cost": false, "energy": false},
+  {"key": "Chen2023personalized", "fc": true, "model": true, "hw": true, "lat": false, "mem": false, "serve": true, "cost": true, "energy": false},
+  {"key": "arxiv_2312_05562", "fc": true, "model": true, "hw": true, "lat": false, "mem": true, "serve": true, "cost": false, "energy": false},
+  {"key": "2204_09877", "fc": true, "model": true, "hw": true, "lat": true, "mem": false, "serve": false, "cost": false, "energy": false},
+  {"key": "arxiv_2004_13651", "fc": true, "model": true, "hw": true, "lat": true, "mem": true, "serve": false, "cost": false, "energy": false},
+  {"key": "ieee_Morte2025efficient", "fc": true, "model": true, "hw": false, "lat": false, "mem": false, "serve": false, "cost": false, "energy": false},
+  {"key": "ieee_Rohilla2025graphmoe", "fc": true, "model": true, "hw": true, "lat": true, "mem": false, "serve": true, "cost": true, "energy": true}
+]

@@ -1,0 +1,426 @@
+key,title,pages,decision,reason,ic1_codegen,ic1_eff,ic1_pass,ic2_score,ic2_pass,ic3_score,ic3_pass,ic4_score,ic4_pass,ec1_flag,ec2_score,ec2_flag,ec3_flag,ec4_flag,ec4_survey,ec4_short
+2312_15698,RepairLLaMA: Efficient Representations and Fine-Tuned Adapters for Program Repair,17,Exclude,EC2:other_se_task,2,8,True,12,True,2,True,3,True,False,4,True,False,False,False,False
+2312_15224,LLM-Powered Hierarchical Language Agent for Real-time Human-AI Coordination,35,Include,strong_match,2,10,True,6,True,1,False,4,True,False,1,False,False,False,False,False
+2312_13115,A Novel Approach for Rapid Development Based on ChatGPT and Prompt Engineering,19,Uncertain,weak_match,3,2,False,8,True,4,True,0,False,False,2,False,False,False,False,False
+2312_13010,AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation,24,Uncertain,weak_match,4,2,False,16,True,4,True,0,False,False,1,False,False,False,False,False
+2312_12813,Selecting Source Code Generation Tools Based on Bandit Algorithms,3,Exclude,EC4:short,2,1,False,4,True,1,False,0,False,True,2,False,False,True,False,True
+2312_11701,Opportunities and Challenges of Applying Large Language Models in Building Energy Efficiency and Decarbonization Studies: An Exploratory Overview,20,Include,all_IC_passed,2,6,True,11,True,2,True,2,True,False,0,False,False,False,False,False
+2312_10620,Human AI Collaboration in Software Engineering: Lessons Learned from a Hands On Workshop,8,Exclude,EC2:other_se_task,3,3,True,7,True,1,False,0,False,False,5,True,False,False,False,False
+2312_08976,Dynamic Retrieval-Augmented Generation,10,Include,strong_match,2,4,True,10,True,1,False,2,True,False,0,False,False,False,False,False
+2312_08617,RTLCoder: Outperforming GPT-3.5 in Design RTL Generation with Our Open-Source Dataset and Lightweight Solution,5,Include,strong_match,2,7,True,11,True,3,True,1,False,False,2,False,False,False,False,False
+2312_08583,ZeroQuant(4+2): Redefining LLMs Quantization with a New FP6-Centric Strategy for Diverse Generative Tasks,17,Include,all_IC_passed,2,9,True,12,True,2,True,4,True,False,0,False,False,False,False,False
+2312_08365,An Invitation to Deep Reinforcement Learning,39,Uncertain,weak_match,2,2,False,4,True,1,False,0,False,False,0,False,False,False,False,False
+2312_11511,ComplexityNet: Increasing LLM Inference Efficiency by Learning Task Complexity,9,Uncertain,partial_IC_match,2,4,True,8,True,3,True,0,False,False,0,False,False,False,False,False
+2312_05772,A\textasciicircum{,16,Uncertain,weak_match,4,2,False,11,True,1,False,0,False,False,0,False,False,False,False,False
+2312_05677,Batched Low-Rank Adaptation of Foundation Models,16,Include,strong_match,2,9,True,13,True,1,False,6,True,False,0,False,False,False,False,False
+2312_05639,JITSPMM: Just-in-Time Instruction Generation for Accelerated Sparse Matrix-Matrix Multiplication,12,Exclude,IC2:not_llm_based,2,7,True,1,False,1,False,2,True,False,0,False,False,False,False,False
+2312_05562,Chain-of-Thought in Neural Code Generation: From and For Lightweight Language Models,21,Include,strong_match,2,7,True,17,True,5,True,1,False,False,2,False,False,False,False,False
+2312_05356,Neuron Patching: Semantic-based Neuron-level Language Model Repair for Code Generation,13,Exclude,EC2:other_se_task,3,2,False,6,True,1,False,0,False,False,4,True,False,False,False,False
+2312_04730,DeceptPrompt: Exploiting LLM-driven Code Generation via Adversarial Natural Language Instructions,17,Uncertain,partial_IC_match,5,5,True,14,True,2,True,0,False,False,2,False,False,False,False,False
+2312_02418,Decoding Data Quality via Synthetic Corruptions: Embedding-guided Pruning of Code Data,12,Include,all_IC_passed,3,8,True,12,True,6,True,3,True,False,1,False,False,False,False,False
+2312_02249,Recursive Visual Programming,29,Exclude,EC1:efficiency_not_core,3,0,False,5,True,1,False,0,False,True,0,False,False,False,False,False
+2312_01921,A Machine Learning Approach Towards SKILL Code Autocompletion,22,Include,strong_match,2,3,True,5,True,1,False,1,False,False,1,False,False,False,False,False
+2312_01639,On the Effectiveness of Large Language Models in Domain-Specific Code Generation,14,Include,strong_match,5,4,True,13,True,7,True,1,False,False,3,False,False,False,False,False
+2312_01022,"Advanced Large Language Model (LLM)-Driven Verilog Development: Enhancing Power, Performance, and Area Optimization in Code Synthesis",8,Uncertain,partial_IC_match,3,3,True,7,True,2,True,0,False,False,0,False,False,False,False,False
+2312_00700,WeGeFT: Weight-Generative Fine-Tuning for Multi-Faceted Efficient Adaptation of Large Models,23,Include,strong_match,2,8,True,6,True,1,False,3,True,False,0,False,False,False,False,False
+2312_00273,Mark My Words: Analyzing and Evaluating Language Model Watermarks,22,Include,all_IC_passed,2,4,True,9,True,2,True,2,True,False,0,False,False,False,False,False
+2311_18440,Autonomous Agents in Software Development: A Vision Paper,5,Uncertain,partial_IC_match,6,3,True,10,True,3,True,0,False,False,6,False,False,False,False,False
+2311_15786,YUAN 2.0: A Large Language Model with Localized Filtering-based Attention,31,Include,all_IC_passed,2,5,True,14,True,3,True,2,True,False,1,False,False,False,False,False
+2311_15500,Function-constrained Program Synthesis,17,Exclude,EC1:efficiency_not_core,6,1,False,12,True,7,True,0,False,True,0,False,False,False,False,False
+2311_13628,Prompt Risk Control: A Rigorous Framework for Responsible Deployment of Large Language Models,34,Uncertain,partial_IC_match,2,3,True,8,True,1,False,0,False,False,0,False,False,False,False,False
+2311_08909,DLAS: An Exploration and Assessment of the Deep Learning Acceleration Stack,24,Include,strong_match,3,15,True,3,True,1,False,6,True,False,0,False,False,False,False,False
+2311_08588,CodeScope: An Execution-based Multilingual Multitask Multidimensional Benchmark for Evaluating LLMs on Code Understanding and Generation,48,Include,strong_match,4,4,True,9,True,6,True,1,False,False,6,False,False,False,False,False
+2311_07957,Language Models are Better Bug Detector Through Code-Pair Classification,5,Exclude,EC2:other_se_task,4,3,True,12,True,1,False,0,False,False,4,True,False,False,False,False
+2311_07948,Finding Inductive Loop Invariants using Large Language Models,18,Exclude,IC3:not_codegen_task,0,3,False,7,True,0,False,0,False,False,0,False,False,False,False,False
+2311_07635,Past as a Guide: Leveraging Retrospective Learning for Python Code Completion,8,Uncertain,partial_IC_match,5,3,True,11,True,6,True,0,False,False,1,False,False,False,False,False
+2311_07215,Coffee: Boost Your Code LLMs by Fixing Bugs with Feedback,24,Include,strong_match,3,3,True,12,True,5,True,1,False,False,2,False,False,False,False,False
+2311_07599,Testing LLMs on Code Generation with Varying Levels of Prompt Specificity,6,Exclude,EC2:other_se_task,4,4,True,11,True,1,False,0,False,False,3,True,False,False,False,False
+2311_06067,Attributes Grouping and Mining Hashing for Fine-Grained Image Retrieval,9,Exclude,IC3:not_codegen_task,0,7,False,3,True,0,False,0,False,False,0,False,False,False,False,False
+2311_16153,Identifying and Mitigating Vulnerabilities in LLM-Integrated Applications,39,Exclude,EC1:efficiency_not_core,3,1,False,7,True,3,True,0,False,True,0,False,False,False,False,False
+2311_02640,Assessing the Promise and Pitfalls of ChatGPT for Automated Code Generation,17,Exclude,EC2:other_se_task,5,2,False,10,True,3,True,0,False,False,3,True,False,False,False,False
+2311_00177,Students' Perspective on AI Code Completion: Benefits and Challenges,6,Include,strong_match,4,5,True,10,True,2,True,1,False,False,0,False,False,False,False,False
+2310_19791,LILO: Learning Interpretable Libraries by Compressing and Documenting Code,48,Include,strong_match,4,4,True,9,True,3,True,1,False,False,0,False,False,False,False,False
+2310_19651,Dynamics of Instruction Fine-Tuning for Chinese Large Language Models,22,Include,strong_match,2,3,True,10,True,1,False,1,False,False,0,False,False,False,False,False
+2310_18628,Personalised Distillation: Empowering Open-Sourced LLMs with Adaptive Learning for Code Generation,13,Uncertain,partial_IC_match,3,5,True,9,True,6,True,0,False,False,2,False,False,False,False,False
+2310_17228,TST$\textasciicircum{,6,Include,all_IC_passed,5,6,True,9,True,3,True,2,True,False,0,False,False,False,False,False
+2310_16620,SpikingJelly: An open-source machine learning infrastructure platform for spike-based intelligence,116,Uncertain,partial_IC_match,2,5,True,2,True,1,False,0,False,False,0,False,False,False,False,False
+2310_15991,WhiteFox: White-Box Compiler Fuzzing Empowered by Large Language Models,27,Uncertain,partial_IC_match,3,3,True,10,True,1,False,0,False,False,2,False,False,False,False,False
+2310_15539,SteloCoder: a Decoder-Only LLM for Multi-Language to Python Code Translation,16,Uncertain,partial_IC_match,5,9,True,14,True,4,True,0,False,False,2,False,False,False,False,False
+2310_13976,Advancing Requirements Engineering through Generative AI: Assessing the Role of LLMs,18,Exclude,EC1:efficiency_not_core,2,1,False,8,True,2,True,0,False,True,0,False,False,False,False,False
+2310_13896,GPTutor: an open-source AI pair programming tool alternative to Copilot,6,Exclude,EC1:efficiency_not_core,2,1,False,9,True,1,False,0,False,True,1,False,False,False,False,False
+2310_11248,CrossCodeEval: A Diverse and Multilingual Benchmark for Cross-File Code Completion,23,Exclude,EC1:efficiency_not_core,4,1,False,8,True,5,True,0,False,True,1,False,False,False,False,False
+2310_10080,Let's reward step by step: Step-Level reward model as the Navigators for Reasoning,18,Uncertain,partial_IC_match,3,5,True,7,True,3,True,0,False,False,1,False,False,False,False,False
+2310_09748,Large Language Model-Aware In-Context Learning for Code Generation,12,Exclude,EC2:other_se_task,2,3,True,8,True,4,True,0,False,False,3,True,False,False,False,False
+2310_08157,MCRepair: Multi-Chunk Program Repair via Patch Optimization with Buggy Block,3,Exclude,EC4:short,0,3,False,5,True,0,False,0,False,False,3,True,False,True,False,True
+2310_06825,Mistral 7B,9,Include,all_IC_passed,2,11,True,8,True,3,True,7,True,False,1,False,False,False,False,False
+2310_06266,CodeFuse-13B: A Pretrained Multi-lingual Code Large Language Model,12,Include,all_IC_passed,5,9,True,16,True,4,True,5,True,False,3,False,False,False,False,False
+2310_06046,LLM for SoC Security: A Paradigm Shift,42,Uncertain,partial_IC_match,3,3,True,14,True,2,True,0,False,False,1,False,False,False,False,False
+2310_05292,How to Teach Programming in the AI Era? Using LLMs as a Teachable Agent for Debugging,14,Uncertain,weak_match,1,2,False,6,True,1,False,0,False,False,1,False,False,False,False,False
+2310_03262,Predicting Emergent Abilities with Infinite Resolution Evaluation,21,Include,all_IC_passed,3,8,True,10,True,3,True,2,True,False,0,False,False,False,False,False
+2310_03173,$\textbackslash{,21,Uncertain,partial_IC_match,4,4,True,6,True,5,True,0,False,False,2,False,False,False,False,False
+2310_02368,Reinforcement Learning from Automatic Feedback for High-Quality Unit Test Generation,11,Uncertain,partial_IC_match,4,4,True,8,True,2,True,0,False,False,3,False,False,False,False,False
+2310_02304,Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation,46,Include,strong_match,3,4,True,3,True,1,False,1,False,False,0,False,False,False,False,False
+2310_01602,CAT-LM: Training Language Models on Aligned Code And Tests,12,Include,all_IC_passed,5,5,True,12,True,3,True,2,True,False,1,False,False,False,False,False
+2310_00574,YFlows: Systematic Dataflow Exploration and Code Generation for Efficient Neural Network Inference using SIMD Architectures on CPUs,14,Exclude,IC2:not_llm_based,2,9,True,1,False,1,False,5,True,False,0,False,False,False,False,False
+2309_17272,Enhancing Large Language Models in Coding Through Multi-Perspective Self-Consistency,22,Exclude,EC1:efficiency_not_core,2,1,False,12,True,6,True,0,False,True,2,False,False,False,False,False
+2309_15606,From Misuse to Mastery: Enhancing Code Generation with Knowledge-Driven AI Chaining,12,Exclude,EC1:efficiency_not_core,4,1,False,7,True,1,False,0,False,True,1,False,False,False,False,False
+2309_14021,LORD: Low Rank Decomposition Of Monolingual Code LLMs For One-Shot Compression,14,Include,all_IC_passed,2,15,True,11,True,3,True,3,True,False,0,False,False,False,False,False
+2309_09826,Efficient Avoidance of Vulnerabilities in Auto-completed Smart Contract Code Using Vulnerability-constrained Decoding,11,Include,all_IC_passed,6,4,True,11,True,3,True,2,True,False,1,False,False,False,False,False
+2309_09506,LayoutNUWA: Revealing the Hidden Layout Expertise of Large Language Models,17,Uncertain,partial_IC_match,3,3,True,11,True,2,True,0,False,False,0,False,False,False,False,False
+2309_09495,PwR: Exploring the Role of Representations in Conversational Programming,23,Exclude,EC1:efficiency_not_core,4,1,False,8,True,3,True,0,False,True,0,False,False,False,False,False
+2309_07103,Comparing Llama-2 and GPT-3 LLMs for HPC kernels generation,13,Uncertain,weak_match,5,2,False,12,True,2,True,0,False,False,0,False,False,False,False,False
+2309_01825,LoopTune: Optimizing Tensor Computations with Reinforcement Learning,12,Exclude,IC2:not_llm_based,3,5,True,1,False,1,False,3,True,False,0,False,False,False,False,False
+2308_15645,AskIt: Unified Programming Interface for Programming with Large Language Models,14,Include,strong_match,4,3,True,7,True,1,False,1,False,False,1,False,False,False,False,False
+2308_15452,When Do Program-of-Thoughts Work for Reasoning?,10,Uncertain,weak_match,2,1,False,9,True,1,False,1,False,True,0,False,False,False,False,False
+2308_14508,"LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding",19,Uncertain,weak_match,3,2,False,7,True,2,True,0,False,False,0,False,False,False,False,False
+2308_11396,Towards an Understanding of Large Language Models in Software Engineering Tasks,48,Include,all_IC_passed,3,3,True,12,True,2,True,2,True,False,5,False,False,False,False,False
+2308_10462,Exploring Parameter-Efficient Fine-Tuning Techniques for Code Generation with Large Language Models,27,Include,all_IC_passed,4,12,True,10,True,4,True,4,True,False,4,False,False,False,False,False
+2308_09313,Domain Adaptive Code Completion via Language Models and Decoupled Domain Databases,13,Include,strong_match,1,6,False,8,True,1,False,1,False,False,0,False,False,False,False,False
+2308_04724,Understanding Auto-Scheduling Optimizations for Model Deployment via Visualizations,2,Exclude,EC4:short,2,5,True,5,True,1,False,2,True,False,0,False,False,True,False,True
+2308_02955,An Empirical Study of AI-based Smart Contract Creation,15,Include,strong_match,5,3,True,9,True,5,True,1,False,False,4,False,False,False,False,False
+2307_15370,Private-Library-Oriented Code Generation with Large Language Models,19,Include,all_IC_passed,4,5,True,13,True,5,True,2,True,False,1,False,False,False,False,False
+2307_14936,PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback,15,Include,all_IC_passed,5,5,True,15,True,5,True,3,True,False,2,False,False,False,False,False
+2307_12856,"A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis",28,Uncertain,weak_match,4,2,False,10,True,2,True,0,False,False,0,False,False,False,False,False
+2307_08260,Extending the Frontier of ChatGPT: Code Generation and Debugging,8,Exclude,EC2:other_se_task,3,4,True,10,True,1,False,1,False,False,3,True,False,False,False,False
+2307_08220,FRANC: A Lightweight Framework for High-Quality Code Generation,12,Include,strong_match,5,3,True,15,True,4,True,1,False,False,6,False,False,False,False,False
+2307_06857,Lightweight reranking for language model generations,18,Include,all_IC_passed,3,4,True,9,True,5,True,2,True,False,2,False,False,False,False,False
+2307_04892,Entity Identifier: A Natural Text Parsing-based Framework For Entity Relation Extraction,9,Exclude,EC1:efficiency_not_core,4,1,False,2,True,2,True,0,False,True,1,False,False,False,False,False
+2307_03738,QIGen: Generating Efficient Kernels for Quantized Inference on Large Language Models,6,Include,strong_match,2,9,True,10,True,1,False,6,True,False,0,False,False,False,False,False
+2307_02779,Large Language Models Empowered Autonomous Edge AI for Connected Intelligence,7,Include,all_IC_passed,4,7,True,8,True,2,True,2,True,False,0,False,False,False,False,False
+2306_15551,MyCrunchGPT: A chatGPT assisted framework for scientific machine learning,22,Uncertain,partial_IC_match,2,3,True,8,True,2,True,0,False,False,0,False,False,False,False,False
+2306_14898,InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback,29,Uncertain,partial_IC_match,7,4,True,7,True,7,True,0,False,False,1,False,False,False,False,False
+2306_14893,LongCoder: A Long-Range Pre-trained Language Model for Code Completion,10,Include,strong_match,4,5,True,11,True,2,True,1,False,False,0,False,False,False,False,False
+2306_10194,Artificial Intelligence for Technical Debt Management in Software Development,5,Exclude,EC2:other_se_task,2,2,False,1,False,1,False,0,False,False,3,True,False,False,False,False
+2306_04605,Empowering Business Transformation: The Positive Impact and Ethical Considerations of Generative AI in Software Product Management -- A Systematic Literature Review,24,Exclude,EC4:survey,3,4,True,10,True,2,True,0,False,False,1,False,False,True,True,False
+2306_03203,A Static Evaluation of Code Completion by Large Language Models,14,Include,all_IC_passed,4,4,True,8,True,7,True,2,True,False,1,False,False,False,False,False
+2306_01102,LLMatic: Neural Architecture Search via Large Language Models and Quality Diversity Optimization,9,Include,strong_match,3,6,True,10,True,1,False,3,True,False,0,False,False,False,False,False
+2305_15809,ChatGPT for PLC/DCS Control Logic Generation,8,Uncertain,partial_IC_match,4,5,True,7,True,1,False,0,False,False,1,False,False,False,False,False
+2305_15642,Learning-Based Automatic Synthesis of Software Code and Configuration,16,Exclude,IC2:not_llm_based,1,2,False,1,False,1,False,0,False,False,0,False,False,False,False,False
+2305_13917,Generating Data for Symbolic Language with Large Language Models,26,Include,strong_match,2,4,True,7,True,2,True,1,False,False,0,False,False,False,False,False
+2305_12520,SLaDe: A Portable Small Language Model Decompiler for Optimized Assembly,14,Include,strong_match,3,6,True,4,True,1,False,4,True,False,0,False,False,False,False,False
+2305_11860,Let's Sample Step by Step: Adaptive-Consistency for Efficient Reasoning and Coding with LLMs,22,Uncertain,partial_IC_match,2,3,True,10,True,3,True,0,False,False,1,False,False,False,False,False
+2305_11619,Towards Code Generation from BDD Test Case Specifications: A Vision,6,Uncertain,weak_match,6,2,False,9,True,4,True,0,False,False,2,False,False,False,False,False
+2305_11202,LLM-based Frameworks for Power Engineering from Routine to Novel Tasks,13,Include,strong_match,2,4,True,6,True,1,False,1,False,False,0,False,False,False,False,False
+2305_10611,ACRoBat: Optimizing Auto-batching of Dynamic Deep Learning at Compile Time,17,Include,strong_match,3,7,True,2,True,1,False,2,True,False,0,False,False,False,False,False
+2305_10314,LeTI: Learning to Generate from Textual Interactions,17,Include,all_IC_passed,3,5,True,6,True,5,True,2,True,False,1,False,False,False,False,False
+2305_08360,Improving ChatGPT Prompt for Code Generation,12,Uncertain,partial_IC_match,6,3,True,12,True,3,True,0,False,False,2,False,False,False,False,False
+2305_07922,CodeT5+: Open Code Large Language Models for Code Understanding and Generation,26,Include,strong_match,5,6,True,9,True,6,True,1,False,False,3,False,False,False,False,False
+2305_04087,Self-Edit: Fault-Aware Code Editor for Code Generation,17,Include,all_IC_passed,3,5,True,11,True,5,True,3,True,False,2,False,False,False,False,False
+2305_02309,CodeGen2: Lessons for Training LLMs on Programming and Natural Languages,12,Include,strong_match,4,5,True,12,True,6,True,1,False,False,1,False,False,False,False,False
+2304_12512,Semantic Compression With Large Language Models,20,Include,strong_match,2,5,True,5,True,1,False,1,False,False,1,False,False,False,False,False
+2304_10778,"Evaluating the Code Quality of AI-Assisted Code Generation Tools: An Empirical Study on GitHub Copilot, Amazon CodeWhisperer, and ChatGPT",45,Exclude,EC1:efficiency_not_core,6,0,False,10,True,4,True,0,False,True,1,False,False,False,False,False
+2304_07590,Self-collaboration Code Generation via ChatGPT,38,Exclude,EC1:efficiency_not_core,3,1,False,5,True,2,True,0,False,True,2,False,False,False,False,False
+2304_07056,Perceptual Quality Assessment of Face Video Compression: A Benchmark and An Effective Method,14,Exclude,IC2:not_llm_based,0,6,False,1,False,0,False,0,False,False,0,False,False,False,False,False
+2304_05128,Teaching Large Language Models to Self-Debug,78,Exclude,EC1:efficiency_not_core,4,1,False,10,True,3,True,0,False,True,3,False,False,False,False,False
+2304_03013,Tensor Slicing and Optimization for Multicore NPUs,15,Include,strong_match,3,8,True,2,True,1,False,4,True,False,0,False,False,False,False,False
+2303_17568,CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Benchmarking on HumanEval-X,30,Uncertain,partial_IC_match,5,3,True,12,True,6,True,0,False,False,2,False,False,False,False,False
+2304_03287,Synthesis of Mathematical programs from Natural Language Specifications,18,Uncertain,partial_IC_match,4,5,True,8,True,3,True,0,False,False,0,False,False,False,False,False
+2303_16459,"GNNBuilder: An Automated Framework for Generic Graph Neural Network Accelerator Generation, Simulation, and Optimization",10,Exclude,IC2:not_llm_based,2,7,True,1,False,1,False,2,True,False,0,False,False,False,False,False
+2303_16749,Improving Code Generation by Training with Natural Language Feedback,20,Include,all_IC_passed,4,4,True,7,True,5,True,2,True,False,2,False,False,False,False,False
+2303_15308,Learned Query Superoptimization,6,Include,strong_match,1,6,False,6,True,1,False,1,False,False,0,False,False,False,False,False
+2303_10845,PanGu-Σ: Towards Trillion Parameter Language Model with Sparse Heterogeneous Computing,37,Include,strong_match,2,9,True,8,True,1,False,4,True,False,0,False,False,False,False,False
+2303_07457,AMOM: Adaptive Masking over Masking for Conditional Masked Language Model,9,Include,strong_match,2,5,True,5,True,1,False,2,True,False,0,False,False,False,False,False
+2303_05510,Planning with Large Language Models for Code Generation,28,Uncertain,partial_IC_match,5,3,True,7,True,3,True,0,False,False,3,False,False,False,False,False
+2303_05378,Greener yet Powerful: Taming Large Code Generation Models with Quantization,12,Include,all_IC_passed,6,10,True,12,True,7,True,6,True,False,2,False,False,False,False,False
+2303_05061,A Syntax-Guided Multi-Task Learning Approach for Turducken-Style Code Generation,34,Exclude,EC1:efficiency_not_core,4,1,False,7,True,1,False,0,False,True,1,False,False,False,False,False
+2302_14838,EvoPrompting: Language Models for Code-Level Neural Architecture Search,31,Include,strong_match,2,6,True,6,True,1,False,2,True,False,0,False,False,False,False,False
+2302_05698,Compositional Exemplars for In-context Learning,16,Include,strong_match,2,4,True,8,True,1,False,1,False,False,0,False,False,False,False,False
+2302_05319,Large Language Models for Code: Security Hardening and Adversarial Testing,20,Include,strong_match,4,5,True,14,True,3,True,1,False,False,2,False,False,False,False,False
+2302_05020,Impact of Code Language Models on Automated Program Repair,13,Include,all_IC_passed,5,6,True,10,True,3,True,2,True,False,7,False,False,False,False,False
+2302_04215,A Vector Quantized Approach for Text to Speech Synthesis on Real-World Spontaneous Speech,9,Uncertain,partial_IC_match,2,5,True,9,True,1,False,0,False,False,0,False,False,False,False,False
+2302_03763,PyRates -- A Code-Generation Tool for Dynamical Systems Modeling,18,Exclude,IC2:not_llm_based,3,1,False,0,False,1,False,0,False,True,0,False,False,False,False,False
+2302_01857,KNOD: Domain Knowledge Distilled Tree Decoder for Automated Program Repair,13,Exclude,EC2:other_se_task,0,3,False,3,True,0,False,0,False,False,3,True,False,False,False,False
+2301_13816,Execution-based Code Generation using Deep Reinforcement Learning,26,Uncertain,partial_IC_match,4,3,True,7,True,3,True,0,False,False,3,False,False,False,False,False
+2301_06284,Hector: An Efficient Programming and Compilation Framework for Implementing Relational Graph Neural Networks in GPU Architectures,17,Exclude,IC2:not_llm_based,3,9,True,1,False,1,False,5,True,False,0,False,False,False,False,False
+2301_05108,Serenity: Library Based Python Code Analysis for Code Completion and Automated Machine Learning,14,Exclude,EC1:efficiency_not_core,3,1,False,3,True,2,True,0,False,True,0,False,False,False,False,False
+2301_01333,oneDNN Graph Compiler: A Hybrid Approach for High-Performance Deep Learning Compilation,11,Include,strong_match,3,7,True,2,True,1,False,1,False,False,0,False,False,False,False,False
+2212_10692,Generation-Augmented Query Expansion For Code Retrieval,14,Uncertain,partial_IC_match,4,3,True,8,True,1,False,0,False,False,1,False,False,False,False,False
+2212_06094,Prompting Is Programming: A Query Language for Large Language Models,26,Include,strong_match,3,8,True,6,True,2,True,1,False,False,0,False,False,False,False,False
+2212_05901,Parameter-Efficient Finetuning of Transformers for Source Code,11,Include,all_IC_passed,5,12,True,7,True,3,True,4,True,False,4,False,False,False,False,False
+2212_03034,Integration of a systolic array based hardware accelerator into a DNN operator auto-tuning framework,6,Exclude,IC2:not_llm_based,3,7,True,1,False,1,False,2,True,False,0,False,False,False,False,False
+2212_02626,A Generic Methodology for the Modular Verification of Security Protocol Implementations (extended version),22,Exclude,IC2:not_llm_based,2,2,False,0,False,1,False,0,False,False,0,False,False,False,False,False
+2211_16740,Explicit Knowledge Transfer for Weakly-Supervised Code Generation,10,Include,strong_match,4,4,True,10,True,4,True,1,False,False,1,False,False,False,False,False
+2211_12104,Energy Consumption of Automated Program Repair,2,Exclude,EC4:short,0,2,False,5,True,0,False,1,False,False,4,True,False,True,False,True
+2211_11711,CLAWSAT: Towards Both Robust and Accurate Code Models,12,Uncertain,weak_match,5,2,False,8,True,2,True,0,False,False,2,False,False,False,False,False
+2211_04673,Syntax-Aware On-the-Fly Code Completion,17,Include,strong_match,4,4,True,11,True,2,True,1,False,False,0,False,False,False,False,False
+2211_01910,Large Language Models Are Human-Level Prompt Engineers,43,Include,strong_match,1,5,False,8,True,1,False,2,True,False,0,False,False,False,False,False
+2211_00471,Exploring Effects of Computational Parameter Changes to Image Recognition Systems,9,Include,strong_match,2,5,True,3,True,1,False,1,False,False,0,False,False,False,False,False
+2210_10492,"Efficient, probabilistic analysis of combinatorial neural codes",13,Exclude,IC2:not_llm_based,0,2,False,1,False,0,False,0,False,False,0,False,False,False,False,False
+2210_09880,"Graphs, Constraints, and Search for the Abstraction and Reasoning Corpus",9,Exclude,IC2:not_llm_based,1,4,False,0,False,1,False,1,False,False,0,False,False,False,False,False
+2209_05948,Don't Complete It! Preventing Unhelpful Code Completion for Productive and Sustainable Neural Code Completion Systems,22,Include,strong_match,1,4,False,8,True,1,False,1,False,False,0,False,False,False,False,False
+2209_01975,Selective Annotation Makes Language Models Better Few-Shot Learners,21,Include,strong_match,2,2,False,7,True,1,False,1,False,False,0,False,False,False,False,False
+2208_13928,Exploring and Evaluating Personalized Models for Code Generation,9,Include,all_IC_passed,5,9,True,4,True,2,True,6,True,False,2,False,False,False,False,False
+2208_08289,CCTEST: Testing and Repairing Code Completion Systems,13,Uncertain,weak_match,5,2,False,12,True,4,True,0,False,False,1,False,False,False,False,False
+2208_05950,Interactive Code Generation via Test-Driven User-Intent Formalization,12,Uncertain,weak_match,7,2,False,9,True,8,True,0,False,False,2,False,False,False,False,False
+2207_12113,AutoDiCE: Fully Automated Distributed CNN Inference at the Edge,11,Include,strong_match,2,15,True,2,True,1,False,5,True,False,0,False,False,False,False,False
+2207_04285,A Closer Look into Transformer-Based Code Intelligence Through Code Transformation: Challenges and Opportunities,14,Exclude,EC2:other_se_task,1,2,False,4,True,1,False,0,False,False,3,True,False,False,False,False
+2206_15331,GitHub Copilot AI pair programmer: Asset or Liability?,27,Include,strong_match,6,3,True,9,True,4,True,1,False,False,2,False,False,False,False,False
+2206_00052,CodeAttack: Code-Based Adversarial Attacks for Pre-trained Programming Language Models,13,Exclude,EC2:other_se_task,2,3,True,4,True,1,False,0,False,False,3,True,False,False,False,False
+2205_13585,Learning in Feedback-driven Recurrent Spiking Neural Networks using full-FORCE Training,10,Exclude,IC2:not_llm_based,0,3,False,1,False,0,False,1,False,False,0,False,False,False,False,False
+2205_09246,Transformer-based Program Synthesis for Low-Data Environments,11,Uncertain,weak_match,1,2,False,4,True,1,False,0,False,False,0,False,False,False,False,False
+2205_07857,Neural Program Synthesis with Query,24,Uncertain,weak_match,1,3,False,2,True,1,False,0,False,False,0,False,False,False,False,False
+2205_00618,LoopStack: a Lightweight Tensor Algebra Compiler Stack,15,Exclude,IC2:not_llm_based,4,5,True,1,False,1,False,1,False,False,0,False,False,False,False,False
+2205_00167,Self-Programming Artificial Intelligence Using Code-Generating Language Models,11,Uncertain,partial_IC_match,4,3,True,5,True,1,False,0,False,False,0,False,False,False,False,False
+2204_09877,Non-autoregressive Model for Full-line Code Completion,7,Include,all_IC_passed,4,8,True,6,True,2,True,4,True,False,0,False,False,False,False,False
+2204_08676,Auto-Icon+: An Automated End-to-End Code Generation Tool for Icon Designs in UI Development,25,Exclude,IC2:not_llm_based,2,3,True,1,False,2,True,0,False,False,0,False,False,False,False,False
+2204_02311,PaLM: Scaling Language Modeling with Pathways,87,Include,strong_match,2,9,True,8,True,1,False,3,True,False,0,False,False,False,False,False
+2203_13671,Flexible development and evaluation of machine-learning-supported optimal control and estimation methods via HILO-MPC,26,Exclude,IC2:not_llm_based,0,4,False,1,False,0,False,1,False,False,0,False,False,False,False,False
+2203_03850,UniXcoder: Unified Cross-Modal Pre-training for Code Representation,14,Uncertain,partial_IC_match,3,4,True,7,True,2,True,0,False,False,2,False,False,False,False,False
+2202_07612,CodeGen-Test: An Automatic Code Generation Model Integrating Program Test Information,12,Uncertain,weak_match,3,2,False,5,True,1,False,0,False,False,2,False,False,False,False,False
+2203_07814,Competition-Level Code Generation with AlphaCode,74,Exclude,EC1:efficiency_not_core,5,1,False,5,True,4,True,0,False,True,2,False,False,False,False,False
+2202_02095,Fixed-Point Code Synthesis For Neural Networks,20,Exclude,IC2:not_llm_based,1,2,False,0,False,1,False,0,False,False,0,False,False,False,False,False
+2201_06212,VELTAIR: Towards High-Performance Multi-tenant Deep Learning Services via Adaptive Compilation and Scheduling,15,Exclude,IC2:not_llm_based,2,8,True,1,False,1,False,3,True,False,0,False,False,False,False,False
+2201_05587,Transfer-Tuning: Reusing Auto-Schedules for Efficient Tensor Program Code Generation,12,Exclude,IC2:not_llm_based,2,7,True,0,False,1,False,2,True,False,0,False,False,False,False,False
+2112_13099,Fine-Tuning Data Structures for Analytical Query Processing,16,Exclude,IC2:not_llm_based,2,2,False,1,False,1,False,0,False,False,0,False,False,False,False,False
+2112_02969,Jigsaw: Large Language Models meet Program Synthesis,12,Uncertain,weak_match,5,2,False,7,True,2,True,0,False,False,1,False,False,False,False,False
+2112_00791,Controlling Conditional Language Models without Catastrophic Forgetting,30,Exclude,EC1:efficiency_not_core,3,1,False,6,True,2,True,0,False,True,0,False,False,False,False,False
+2111_08275,Deep Distilling: automated code generation using explainable deep learning,23,Uncertain,partial_IC_match,4,4,True,3,True,2,True,0,False,False,0,False,False,False,False,False
+2111_07739,Beep: Fine-grained Fix Localization by Learning to Predict Buggy Code Elements,25,Exclude,EC2:other_se_task,1,1,False,2,True,1,False,0,False,True,5,True,False,False,False,False
+2110_10548,Synthesizing Optimal Parallelism Placement and Reduction Strategies on Hierarchical Systems for Deep Learning,18,Include,strong_match,1,8,False,2,True,1,False,3,True,False,0,False,False,False,False,False
+2110_03349,Real-time Nonlinear MPC Strategy with Full Vehicle Validation for Autonomous Driving,6,Uncertain,weak_match,2,2,False,2,True,1,False,0,False,False,1,False,False,False,False,False
+2108_13342,DNNFusion: Accelerating Deep Neural Networks Execution with Advanced Operator Fusion,17,Include,strong_match,2,10,True,2,True,1,False,5,True,False,0,False,False,False,False,False
+2108_11308,What do pre-trained code models know about code?,5,Exclude,EC1:efficiency_not_core,3,1,False,8,True,2,True,0,False,True,5,False,False,False,False,False
+2108_11033,"GRIM: A General, Real-Time Deep Learning Inference Framework for Mobile Devices based on Fine-Grained Structured Weight Sparsity",16,Include,strong_match,2,11,True,4,True,1,False,4,True,False,0,False,False,False,False,False
+2108_13191,High Performance GPU Code Generation for Matrix-Matrix Multiplication using MLIR: Some Early Results,16,Include,strong_match,3,7,True,2,True,1,False,2,True,False,1,False,False,False,False,False
+2108_07129,Autoencoders as Tools for Program Synthesis,11,Exclude,EC2:other_se_task,2,2,False,4,True,2,True,0,False,False,5,True,False,False,False,False
+2106_08253,A Syntax-Guided Edit Decoder for Neural Program Repair,13,Exclude,EC2:other_se_task,2,1,False,5,True,1,False,0,False,True,3,True,False,False,False,False
+2106_04985,Energy-Based Models for Code Generation under Compilability Constraints,18,Include,strong_match,4,3,True,5,True,3,True,1,False,False,1,False,False,False,False,False
+2105_14796,Improving Tree-Structured Decoder Training for Code Generation via Mutual Learning,8,Exclude,IC2:not_llm_based,2,3,True,1,False,1,False,0,False,False,0,False,False,False,False,False
+2105_03931,Automated Decision-based Adversarial Attacks,16,Exclude,IC2:not_llm_based,1,6,False,1,False,1,False,1,False,False,0,False,False,False,False,False
+2105_03215,Bring Your Own Codegen to Deep Learning Compiler,14,Include,strong_match,4,6,True,2,True,1,False,2,True,False,0,False,False,False,False,False
+2104_08111,NeuroRAN: Rethinking Virtualization for AI-native Radio Access Networks in 6G,6,Exclude,IC2:not_llm_based,2,8,True,1,False,2,True,5,True,False,0,False,False,False,False,False
+2104_05573,AI Powered Compiler Techniques for DL Code Optimization,12,Include,strong_match,3,4,True,3,True,1,False,2,True,False,0,False,False,False,False,False
+2103_05704,Automatic code generation from sketches of mobile applications in end-user development using Deep Learning,18,Uncertain,partial_IC_match,3,4,True,4,True,2,True,0,False,False,0,False,False,False,False,False
+2102_11137,Program Synthesis Guided Reinforcement Learning for Partially Observed Environments,22,Exclude,IC2:not_llm_based,1,2,False,0,False,1,False,0,False,False,0,False,False,False,False,False
+2101_07948,SparseDNN: Fast Sparse Deep Learning Inference on CPUs,10,Uncertain,weak_match,1,12,False,4,True,0,False,7,True,False,0,False,False,False,False,False
+2101_07138,Teach me how to Label: Labeling Functions from Natural Language with Text-to-text Transformers,6,Uncertain,partial_IC_match,5,3,True,5,True,2,True,0,False,False,0,False,False,False,False,False
+2101_05615,FBGEMM: Enabling High-Performance Low-Precision Deep Learning Inference,5,Exclude,IC2:not_llm_based,2,6,True,1,False,1,False,0,False,False,0,False,False,False,False,False
+2011_12913,"torchdistill: A Modular, Configuration-Driven Framework for Knowledge Distillation",20,Exclude,IC3:not_codegen_task,0,12,False,2,True,0,False,2,True,False,0,False,False,False,False,False
+2011_06391,FusedMM: A Unified SDDMM-SpMM Kernel for Graph Embedding and Graph Neural Networks,11,Exclude,IC2:not_llm_based,2,6,True,0,False,1,False,0,False,False,0,False,False,False,False,False
+2010_07923,Detecting Automatically Managed Accounts in Online Social Networks: Graph Embedding Approach,11,Exclude,IC2:not_llm_based,0,4,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+2010_02311,Goal-directed Generation of Discrete Structures with Conditional Generative Models,22,Exclude,IC2:not_llm_based,1,5,False,1,False,1,False,1,False,False,0,False,False,False,False,False
+2009_10924,FusionStitching: Boosting Memory Intensive Computations for Deep Learning Workloads,14,Exclude,IC2:not_llm_based,3,8,True,1,False,1,False,4,True,False,0,False,False,False,False,False
+2009_08603,Towards Full-line Code Completion with Neural Language Models,7,Include,all_IC_passed,4,5,True,5,True,2,True,2,True,False,0,False,False,False,False,False
+2009_08366,GraphCodeBERT: Pre-training Code Representations with Data Flow,18,Exclude,EC1:efficiency_not_core,3,1,False,8,True,2,True,0,False,True,5,False,False,False,False,False
+2008_11849,SparseRT: Accelerating Unstructured Sparsity on GPUs for Deep Learning Inference,12,Include,strong_match,2,10,True,3,True,1,False,7,True,False,1,False,False,False,False,False
+2008_01040,A Learned Performance Model for Tensor Processing Units,15,Include,strong_match,2,7,True,2,True,1,False,2,True,False,0,False,False,False,False,False
+2007_09835,RT3D: Achieving Real-Time Execution of 3D Convolutional Neural Networks on Mobile Devices,9,Include,strong_match,2,11,True,3,True,1,False,4,True,False,0,False,False,False,False,False
+2005_08025,IntelliCode Compose: Code Generation Using Transformer,11,Include,all_IC_passed,6,8,True,8,True,4,True,3,True,False,4,False,False,False,False,False
+2005_04137,"Corrigendum and Supplement to ""Improve Language Modelling for Code Completion through Learning General Token Repetition of Source Code (with Optimized Memory)""",10,Exclude,IC2:not_llm_based,1,1,False,1,False,1,False,0,False,True,0,False,False,False,False,False
+2005_02161,LambdaNet: Probabilistic Type Inference using Graph Neural Networks,11,Include,strong_match,1,3,False,3,True,1,False,1,False,False,0,False,False,False,False,False
+2004_13651,Fast and Memory-Efficient Neural Code Completion,12,Include,strong_match,1,11,False,5,True,1,False,3,True,False,0,False,False,False,False,False
+2004_05249,Sequence Model Design for Code Completion in the Modern IDE,9,Exclude,IC2:not_llm_based,2,9,True,1,False,2,True,5,True,False,1,False,False,False,False,False
+2004_03378,Error-Corrected Margin-Based Deep Cross-Modal Hashing for Facial Image Retrieval,14,Exclude,IC2:not_llm_based,1,4,False,1,False,0,False,0,False,False,0,False,False,False,False,False
+2002_01336,Twitter Bot Detection Using Bidirectional Long Short-term Memory Neural Networks and Word Embeddings,9,Exclude,IC3:not_codegen_task,0,3,False,3,True,0,False,1,False,False,0,False,False,False,False,False
+2001_07710,An Image Enhancing Pattern-based Sparsity for Real-time Inference on Mobile Devices,17,Exclude,IC2:not_llm_based,2,5,True,1,False,1,False,0,False,False,0,False,False,False,False,False
+2001_05572,A C Code Generator for Fast Inference and Simple Deployment of Convolutional Neural Networks on Resource Constrained Systems,7,Include,strong_match,4,9,True,2,True,1,False,5,True,False,0,False,False,False,False,False
+2001_00138,PatDNN: Achieving Real-Time DNN Execution on Mobile Devices with Pattern-based Weight Pruning,16,Include,strong_match,3,13,True,3,True,1,False,5,True,False,0,False,False,False,False,False
+1912_13430,Towards Neural-Guided Program Synthesis for Linear Temporal Logic Specifications,13,Exclude,IC2:not_llm_based,1,4,False,1,False,1,False,0,False,False,0,False,False,False,False,False
+1912_03978,InfoCNF: An Efficient Conditional Continuous Normalizing Flow with Adaptive Solvers,17,Exclude,IC2:not_llm_based,1,5,False,0,False,0,False,1,False,False,0,False,False,False,False,False
+1912_00742,Pythia: AI-assisted Code Completion System,13,Include,all_IC_passed,2,7,True,3,True,2,True,2,True,False,0,False,False,False,False,False
+1910_06500,DeepVS: An Efficient and Generic Approach for Source Code Modeling Usage,11,Exclude,EC1:efficiency_not_core,2,1,False,4,True,2,True,0,False,True,0,False,False,False,False,False
+1910_00057,Synthesizing Action Sequences for Modifying Model Decisions,20,Exclude,IC2:not_llm_based,1,1,False,0,False,1,False,0,False,True,0,False,False,False,False,False
+1908_11078,Document Hashing with Mixture-Prior Generative Models,10,Exclude,IC2:not_llm_based,0,5,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+1904_07404,swTVM: Towards Optimized Tensor Code Generation for Deep Learning on Sunway Many-Core Processor,13,Exclude,IC2:not_llm_based,3,7,True,1,False,1,False,5,True,False,0,False,False,False,False,False
+1902_04149,Learning to Authenticate with Deep Multibiometric Hashing and Neural Network Decoding,7,Uncertain,weak_match,1,5,False,3,True,0,False,0,False,False,0,False,False,False,False,False
+1902_01370,Insertion-based Decoding with automatically Inferred Generation Order,15,Include,strong_match,3,3,True,4,True,1,False,1,False,False,0,False,False,False,False,False
+1811_05213,FusionStitching: Deep Fusion and Code Generation for Tensorflow Computations on GPUs,11,Exclude,IC2:not_llm_based,2,10,True,1,False,1,False,4,True,False,0,False,False,False,False,False
+1809_04682,Automatic Program Synthesis of Long Programs with a Learned Garbage Collector,12,Exclude,IC2:not_llm_based,1,4,False,0,False,1,False,0,False,False,0,False,False,False,False,False
+1807_04188,A Hardware-Software Blueprint for Flexible Deep Learning Specialization,7,Exclude,IC2:not_llm_based,0,12,False,1,False,0,False,4,True,False,0,False,False,False,False,False
+1807_00403,Towards Mixed Optimization for Reinforcement Learning with Program Synthesis,5,Uncertain,weak_match,1,3,False,2,True,1,False,0,False,False,2,False,False,False,False,False
+1805_04276,Leveraging Grammar and Reinforcement Learning for Neural Program Synthesis,15,Include,strong_match,1,5,False,3,True,1,False,2,True,False,2,False,False,False,False,False
+1805_00907,Glow: Graph Lowering Compiler Techniques for Neural Networks,12,Exclude,IC2:not_llm_based,2,8,True,1,False,1,False,2,True,False,0,False,False,False,False,False
+1802_04335,Neural Program Search: Solving Programming Tasks from Description and Examples,11,Include,all_IC_passed,4,6,True,4,True,3,True,3,True,False,0,False,False,False,False,False
+1712_00676,Will humans even write code in 2040 and what would that mean for extreme heterogeneity in computing?,3,Exclude,EC4:short,2,3,True,0,False,1,False,0,False,False,0,False,False,True,False,True
+1711_07163,Dynamic Neural Program Embedding for Program Repair,12,Exclude,EC2:other_se_task,1,1,False,2,True,1,False,0,False,True,4,True,False,False,False,False
+1711_03016,DLVM: A modern compiler infrastructure for deep learning systems,10,Include,strong_match,2,4,True,2,True,1,False,2,True,False,1,False,False,False,False,False
+1708_04666,Taylor-Duffy Method for Singular Tetrahedron-Product Integrals: Efficient Evaluation of Galerkin Integrals for VIE Solvers,8,Exclude,IC2:not_llm_based,2,3,True,0,False,1,False,0,False,False,0,False,False,False,False,False
+1701_07901,Deep Region Hashing for Efficient Large-scale Instance Search from Images,10,Uncertain,partial_IC_match,2,6,True,2,True,1,False,0,False,False,0,False,False,False,False,False
+He2025codepromptzip,CODEPROMPTZIP: Code-specific Prompt Compression for Retrieval-Augmented Generation in Coding Tasks with LMs,14,Include,strong_match,1,8,False,7,True,1,False,1,False,False,1,False,False,False,False,False
+Zhao2025codeswift,CodeSwift: Accelerating LLM Inference for Efficient Code Generation,13,Include,all_IC_passed,3,14,True,10,True,4,True,5,True,False,0,False,False,False,False,False
+Jin2025enhancing,Enhancing Code Generation for Large Language Models Using Fine-Grained Distillation,12,Uncertain,partial_IC_match,3,4,True,10,True,4,True,0,False,False,1,False,False,False,False,False
+Fejgin2025framestacked,Frame-Stacked Local Transformers For Efficient Multi-Codebook Speech Generation,5,Uncertain,weak_match,1,8,False,8,True,0,False,4,True,False,0,False,False,False,False,False
+Ji2025genswarm,GenSwarm: Scalable Multi-Robot Code-Policy Generation and Deployment via Language Models,36,Uncertain,weak_match,2,2,False,4,True,1,False,0,False,False,0,False,False,False,False,False
+Wei2025invbench,InvBench: Can LLMs Accelerate Program Verification with Invariant Synthesis?,15,Include,strong_match,2,6,True,9,True,1,False,4,True,False,0,False,False,False,False,False
+Giagnorio2025quantizing,Quantizing Large Language Models for Code Generation: A Differentiated Replication,12,Include,all_IC_passed,4,16,True,12,True,5,True,8,True,False,2,False,False,False,False,False
+Tong2025scalablea,Scalable Code Generation for RTL Simulation of Deep Learning Accelerators With MLIR,14,Include,strong_match,2,5,True,2,True,1,False,1,False,False,0,False,False,False,False,False
+2025uicoden,UI2CodeN: A Visual Language Model for Test-Time Scalable Interactive UI-to-Code Generation,24,Uncertain,partial_IC_match,2,4,True,8,True,1,False,0,False,False,0,False,False,False,False,False
+Purnawansyah2024memory,Memory Efficient with Parameter Efficient Fine-Tuning for Code Generation Using Quantization,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+Jiang2024seed,SEED: Customize Large Language Models with Sample-Efficient Adaptation for Code Generation,24,Uncertain,weak_match,2,2,False,7,True,3,True,0,False,False,1,False,False,False,False,False
+Guo2024socodec,SoCodec: A Semantic-Ordered Multi-Stream Speech Codec For Efficient Language Model Based Text-to-Speech Synthesis,8,Exclude,IC3:not_codegen_task,0,5,False,7,True,0,False,0,False,False,0,False,False,False,False,False
+Jiang2024aixcoderb,aiXcoder-7B: A Lightweight and Effective Large Language Model for Code Completion,12,Include,strong_match,6,6,True,15,True,7,True,1,False,False,2,False,False,False,False,False
+Mastropaolo2023robustness,On the Robustness of Code Generation Techniques: An Empirical Study on GitHub Copilot,12,Uncertain,weak_match,4,0,False,5,True,2,True,1,False,True,3,False,False,False,False,False
+Chen2023personalized,Personalized Distillation: Empowering Open-Sourced LLMs with Adaptive Learning for Code Generation,13,Uncertain,partial_IC_match,3,5,True,9,True,6,True,0,False,False,2,False,False,False,False,False
+BondTaylor2022unleashing,Unleashing Transformers: Parallel Token Prediction with Discrete Absorbing Diffusion for Fast High-Resolution Image Generation from Vector-Quantized Codes,19,Exclude,IC3:not_codegen_task,0,5,False,4,True,0,False,1,False,False,0,False,False,False,False,False
+ss_Chen2024llm,LLM-Enhanced Bayesian Optimization for Efficient Analog Layout Constraint Generation,5,Uncertain,partial_IC_match,2,6,True,8,True,1,False,0,False,False,0,False,False,False,False,False
+ss_Ersoy2024benchmarking,Benchmarking Llama 3 70B for Code Generation: A Comprehensive Evaluation,7,Include,strong_match,3,11,True,9,True,4,True,1,False,False,2,False,False,False,False,False
+ss_Thangamani2023lifting,Lifting Code Generation of Cardiac Physiology Simulation to Novel Compiler Technology,14,Exclude,IC2:not_llm_based,2,4,True,1,False,1,False,1,False,False,0,False,False,False,False,False
+ss_Zhang2024llm,LLM-Cloud Complete: Leveraging Cloud Computing for Efficient Large Language Model-based Code Completion,32,Include,all_IC_passed,3,12,True,11,True,2,True,5,True,False,0,False,False,False,False,False
+ss_Hung2024tangoflux,TangoFlux: Super Fast and Faithful Text to Audio Generation with Flow Matching and Clap-Ranked Preference Optimization,24,Exclude,IC3:not_codegen_task,0,4,False,7,True,0,False,1,False,False,0,False,False,False,False,False
+ss_Chen2023seed,"SEED: Simple, Efficient, and Effective Data Management via Large Language Models",20,Uncertain,partial_IC_match,3,6,True,5,True,1,False,0,False,False,0,False,False,False,False,False
+ss_Aliakbarian2022flag,FLAG: Flow-based 3D Avatar Generation from Sparse Observations,10,Exclude,IC3:not_codegen_task,0,3,False,3,True,0,False,0,False,False,0,False,False,False,False,False
+ss_Yan2021fastseq,FastSeq: Make Sequence Generation Faster,9,Exclude,IC3:not_codegen_task,0,10,False,4,True,0,False,7,True,False,0,False,False,False,False,False
+ss_Julian2025finite,Finite Scalar Quantization Enables Redundant and Transmission-Robust Neural Audio Compression at Low Bit-rates,5,Exclude,IC3:not_codegen_task,0,10,False,9,True,0,False,5,True,False,0,False,False,False,False,False
+ss_Fang2025lightmem,LightMem: Lightweight and Efficient Memory-Augmented Generation,24,Exclude,IC3:not_codegen_task,0,7,False,7,True,0,False,3,True,False,0,False,False,False,False,False
+ss_Takhtardeshir2025dualf,DUALF-C: Disentangled Light Field Compression with Entropy-Aware Bitstream Generation,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Huang2023lightweight,A lightweight deep neural network model and its applications based on channel pruning and group vector quantization,14,Exclude,IC3:not_codegen_task,0,11,False,3,True,0,False,1,False,False,0,False,False,False,False,False
+ss_Li2025commvq,CommVQ: Commutative Vector Quantization for KV Cache Compression,15,Exclude,IC3:not_codegen_task,0,12,False,8,True,0,False,4,True,False,0,False,False,False,False,False
+ss_Wu2025hardware,Hardware-Efficient Lightweight Feature Map Compression for Convolutional Neural Networks,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Dhondge2025slim,Slim-Donut: A Lightweight and Scalable Transformer for Accelerated Table of Contents Generation,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Liu2024towards,Towards Lightweight Speaker Verification via Adaptive Neural Network Quantization,14,Exclude,IC3:not_codegen_task,0,8,False,3,True,0,False,2,True,False,0,False,False,False,False,False
+ss_Chatarasi2026eliminating,Eliminating Redundancy: Ultra-compact Code Generation for Programmable Dataflow Accelerators,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Martone2024raw,Raw Data Compression Exploiting Model-Based Approaches and Artificial Intelligence For Present And Next-Generation SAR Systems,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Syabani2025implementation,Implementation of System Code Generation Based on Large Language Model Fine-tune with QLoRA,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Bach2025hierarchical,Hierarchical Patch Compression for ColPali: Efficient Multi-Vector Document Retrieval with Dynamic Pruning and Quantization,9,Exclude,IC3:not_codegen_task,0,13,False,9,True,0,False,5,True,False,0,False,False,False,False,False
+ss_Cohen2021lightweight,Lightweight Compression of Intermediate Neural Network Features for Collaborative Intelligence,13,Exclude,IC2:not_llm_based,0,7,False,1,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Cohen2020lightweight,Lightweight Compression Of Neural Network Feature Tensors For Collaborative Intelligence,6,Exclude,IC3:not_codegen_task,0,7,False,2,True,0,False,0,False,False,0,False,False,False,False,False
+ss_Kumar2023high,High-Fidelity Audio Compression with Improved RVQGAN,14,Exclude,IC3:not_codegen_task,0,7,False,3,True,0,False,0,False,False,0,False,False,False,False,False
+ss_Saxena2025kvlinc,KVLinC : KV Cache Quantization with Hadamard Rotation and Linear Correction,14,Exclude,IC3:not_codegen_task,0,12,False,9,True,0,False,4,True,False,0,False,False,False,False,False
+ss_Gong2025ace,ACE-Step: A Step Towards Music Generation Foundation Model,37,Exclude,IC3:not_codegen_task,0,12,False,8,True,0,False,3,True,False,0,False,False,False,False,False
+ss_Choi2025compactprompt,CompactPrompt: A Unified Pipeline for Prompt Data Compression in LLM Workflows,14,Exclude,IC3:not_codegen_task,0,9,False,11,True,0,False,3,True,False,0,False,False,False,False,False
+ss_Dong2025can,Can Compressed LLMs Truly Act? An Empirical Evaluation of Agentic Capabilities in LLM Compression,34,Include,strong_match,1,12,False,7,True,1,False,3,True,False,0,False,False,False,False,False
+ss_Liang2025digital,Digital Semantic Communications with Variable Product Quantization for Image Transmission,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Kang2024gear,GEAR: An Efficient KV Cache Compression Recipe for Near-Lossless Generative Inference of LLM,28,Exclude,IC3:not_codegen_task,0,13,False,6,True,0,False,6,True,False,0,False,False,False,False,False
+ss_Xue2024unifying,Unifying Generation and Compression: Ultra-low bitrate Image Coding Via Multi-stage Transformer,9,Exclude,IC3:not_codegen_task,0,5,False,7,True,0,False,1,False,False,0,False,False,False,False,False
+ss_Song2024variable,Variable Code Size Autoencoder (VCSA) Meets CSI Compression in Model Generalization,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Zhang2025quant,Quant-dLLM: Post-Training Extreme Low-Bit Quantization for Diffusion Large Language Models,12,Exclude,IC3:not_codegen_task,0,12,False,9,True,0,False,4,True,False,0,False,False,False,False,False
+ss_Ramkumar2025tinyfacedl,TinyFaceDL Lightweight Transformer CNN Hybrid Model for Face Recognition on Low Power IoT and Edge Devices,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Ramachandran2025thinkv,ThinKV: Thought-Adaptive KV Cache Compression for Efficient Reasoning Models,31,Include,all_IC_passed,2,8,True,4,True,2,True,4,True,False,0,False,False,False,False,False
+ss_Qu2025holozip,HoloZip: High Hologram Compression via Latent-of-Latent Coding,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Ge2023model,Model Tells You What to Discard: Adaptive KV Cache Compression for LLMs,14,Exclude,IC3:not_codegen_task,0,10,False,9,True,0,False,6,True,False,0,False,False,False,False,False
+ss_Gao2025norm,Norm-Q: Effective Compression Method for Hidden Markov Models in Neuro-Symbolic Applications,7,Exclude,IC3:not_codegen_task,0,9,False,4,True,0,False,2,True,False,0,False,False,False,False,False
+ss_Jiang2025packkv,PackKV: Reducing KV Cache Memory Footprint through LLM-Aware Lossy Compression,12,Exclude,IC3:not_codegen_task,0,13,False,9,True,0,False,7,True,False,0,False,False,False,False,False
+ss_Shi2022rate,Rate-Distortion Optimized Post-Training Quantization for Learned Image Compression,16,Exclude,IC3:not_codegen_task,0,8,False,5,True,0,False,0,False,False,0,False,False,False,False,False
+ss_Zhang2025learning,Learning Grouped Lattice Vector Quantizers for Low-Bit LLM Compression,20,Exclude,IC3:not_codegen_task,0,9,False,10,True,0,False,5,True,False,0,False,False,False,False,False
+ss_Liang2025research,Research on Text Summarization Generation Method for Electricity Customer Service Based on Large Model,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Niu2024ndvq,NDVQ: Robust Neural Audio Codec With Normal Distribution-Based Vector Quantization,6,Exclude,IC3:not_codegen_task,0,8,False,5,True,0,False,2,True,False,0,False,False,False,False,False
+ss_Wu2018lightweight,A Lightweight Deep Compressive Model for Large-Scale Spike Compression,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Bang2025sbvr,SBVR: Summation of BitVector Representation for Efficient LLM Quantization,9,Include,strong_match,2,12,True,7,True,1,False,4,True,False,0,False,False,False,False,False
+ss_Nugraha2025lightweight,Lightweight Deep Learning Architectures for Classifying Textual Elements in Movie Posters,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Ramachandran2024clamp,CLAMP-ViT: Contrastive Data-Free Learning for Adaptive Post-Training Quantization of ViTs,21,Exclude,IC3:not_codegen_task,0,7,False,3,True,0,False,2,True,False,0,False,False,False,False,False
+ss_Liu2024enhanced,Enhanced Distribution Alignment for Post-Training Quantization of Diffusion Models,13,Exclude,IC3:not_codegen_task,0,14,False,3,True,0,False,4,True,False,0,False,False,False,False,False
+ss_Shang2023causal,Causal-DFQ: Causality Guided Data-free Network Quantization,11,Exclude,IC3:not_codegen_task,0,8,False,3,True,0,False,0,False,False,0,False,False,False,False,False
+ss_Kundu2025lvlm,LVLM-Compress-Bench: Benchmarking the Broader Impact of Large Vision-Language Model Compression,17,Exclude,IC3:not_codegen_task,0,9,False,11,True,0,False,3,True,False,0,False,False,False,False,False
+ss_Zheng2025distribution,Distribution Network Fault Data Compression and Efficient Transmission Technology Based on Deep Learning,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Han2025quantize,"Quantize More, Lose Less: Autoregressive Generation from Residually Quantized Speech Representations",11,Uncertain,weak_match,1,11,False,5,True,0,False,3,True,False,0,False,False,False,False,False
+ss_Defossez2022high,High Fidelity Neural Audio Compression,19,Exclude,IC3:not_codegen_task,0,8,False,2,True,0,False,2,True,False,0,False,False,False,False,False
+ss_ElNouby2022image,Image Compression with Product Quantized Masked Image Modeling,19,Exclude,IC3:not_codegen_task,0,6,False,4,True,0,False,1,False,False,0,False,False,False,False,False
+ss_Elata2024zero,Zero-Shot Image Compression with Diffusion-Based Posterior Sampling,16,Exclude,IC2:not_llm_based,0,8,False,1,False,0,False,3,True,False,0,False,False,False,False,False
+ss_Singh2022video,Video-Analytics Task-Aware Quad-Tree Partitioning and Quantization for HEVC,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Sahitya2025quantum,Quantum–Tinyml Neural Compression for Real-Time Medical Imaging,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Siuzdak2024snac,SNAC: Multi-Scale Neural Audio Codec,8,Exclude,IC3:not_codegen_task,0,9,False,4,True,0,False,2,True,False,0,False,False,False,False,False
+ss_Staniszewski2025kv,KV Cache Transform Coding for Compact Storage in LLM Inference,45,Include,all_IC_passed,2,12,True,9,True,2,True,5,True,False,0,False,False,False,False,False
+ss_Li2026arcaligner,ArcAligner: Adaptive Recursive Aligner for Compressed Context Embeddings in RAG,15,Exclude,IC3:not_codegen_task,0,11,False,7,True,0,False,3,True,False,0,False,False,False,False,False
+ss_Wei2024q,Q-SNNs: Quantized Spiking Neural Networks,10,Exclude,IC2:not_llm_based,0,12,False,1,False,0,False,3,True,False,0,False,False,False,False,False
+ss_Tang2025darwinlm,DarwinLM: Evolutionary Structured Pruning of Large Language Models,14,Exclude,IC3:not_codegen_task,0,13,False,9,True,0,False,2,True,False,0,False,False,False,False,False
+ss_Wang2025tadicodec,TaDiCodec: Text-aware Diffusion Speech Tokenizer for Speech Language Modeling,23,Exclude,IC3:not_codegen_task,0,8,False,8,True,0,False,3,True,False,0,False,False,False,False,False
+ss_Yang2025attentionpredictor_2,AttentionPredictor: Temporal Pattern Matters for Efficient LLM Inference,26,Exclude,IC3:not_codegen_task,0,12,False,9,True,0,False,5,True,False,0,False,False,False,False,False
+ss_Zhuang2025wetok,WeTok: Powerful Discrete Tokenization for High-Fidelity Visual Reconstruction,32,Exclude,IC3:not_codegen_task,0,7,False,3,True,0,False,3,True,False,0,False,False,False,False,False
+ss_Zhang2025ternaryclip,TernaryCLIP: Efficiently Compressing Vision-Language Models with Ternary Weights and Distilled Knowledge,28,Exclude,IC3:not_codegen_task,0,16,False,6,True,0,False,6,True,False,0,False,False,False,False,False
+ss_Flink2025fedloraswitch,FedLoRASwitch: Efficient Federated Learning via LoRA Expert Hotswapping and Routing,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Mondal2025archtune,ArchTune: A Predictive Energy Estimation Framework for LLM Inference on Edge Accelerators,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Lee2023ecrf,ECRF: Entropy-Constrained Neural Radiance Fields Compression with Frequency Domain Optimization,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Ghorbel2023convnext,ConvNeXt-ChARM: ConvNeXt-based Transform for Efficient Neural Image Compression,6,Exclude,IC3:not_codegen_task,0,10,False,5,True,0,False,7,True,False,0,False,False,False,False,False
+ss_Wu2021mirroralign,MirrorAlign: A Super Lightweight Unsupervised Word Alignment Model via Cross-Lingual Contrastive Learning,9,Exclude,IC3:not_codegen_task,0,7,False,3,True,0,False,2,True,False,0,False,False,False,False,False
+ss_Zhang2021you,You Only Compress Once: Towards Effective and Elastic BERT Compression via Exploit-Explore Stochastic Nature Gradient,12,Exclude,IC3:not_codegen_task,0,12,False,6,True,0,False,4,True,False,0,False,False,False,False,False
+ss_Susladkar2024motionaura,MotionAura: Generating High-Quality and Motion Consistent Videos using Discrete Diffusion,34,Exclude,IC3:not_codegen_task,0,11,False,4,True,0,False,2,True,False,0,False,False,False,False,False
+ss_Khiabani2025optimizing,Optimizing Small Language Models for In-Vehicle Function-Calling,12,Exclude,IC3:not_codegen_task,0,14,False,7,True,0,False,4,True,False,0,False,False,False,False,False
+ss_Doutsi2020end,An end-to-end spike-based image compression architecture,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Kumar2025over,Over‑the‑Air Federated Transformer Learning for Dynamic 6G Network Slicing and Real-Time Edge Intelligence,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Sun2025improvement,Improvement and Implementation of a Light Speech Recognition Model for Exam Registration,5,Exclude,IC3:not_codegen_task,0,12,False,9,True,0,False,5,True,False,0,False,False,False,False,False
+ss_Kan2025modeling,Modeling of natural language processing technology in front-end intelligent interaction,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Wu2018deep,Deep compressive autoencoder for action potential compression in large-scale neural recording,19,Exclude,IC3:not_codegen_task,0,8,False,3,True,0,False,2,True,False,0,False,False,False,False,False
+ss_Sun2023iqnet,IQNet: Image Quality Assessment Guided Just Noticeable Difference Prefiltering for Versatile Video Coding,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Jaiswal2023compressing,Compressing LLMs: The Truth is Rarely Pure and Never Simple,21,Exclude,IC3:not_codegen_task,0,5,False,8,True,0,False,4,True,False,0,False,False,False,False,False
+ss_Maurer2022zippypoint,"ZippyPoint: Fast Interest Point Detection, Description, and Matching through Mixed Precision Discretization",13,Exclude,IC2:not_llm_based,0,10,False,0,False,0,False,3,True,False,0,False,False,False,False,False
+ss_Prasad2025reconfigurable,Reconfigurable FPGA-Based Framework for Power-Efficient Signal Processing in AI-Assisted IoT Gateways,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Kim2023computer,"Computer Vision – ECCV 2024: 18th European Conference, Milan, Italy, September 29–October 4, 2024, Proceedings, Part LIV",581,Exclude,IC2:not_llm_based,0,0,False,0,False,0,False,0,False,True,0,False,False,False,False,False
+ss_Chen2023generating,Generating subsurface earth models using discrete representation learning and deep autoregressive network,20,Exclude,IC2:not_llm_based,0,5,False,1,False,0,False,2,True,False,0,False,False,False,False,False
+ss_Cipolletta2022energy,Energy-Quality Scalable Monocular Depth Estimation on Low-Power CPUs,14,Exclude,IC3:not_codegen_task,0,9,False,2,True,0,False,3,True,False,0,False,False,False,False,False
+ss_Yang2025sparse,Sparse VideoGen2: Accelerate Video Generation with Sparse Attention via Semantic-Aware Permutation,20,Exclude,IC3:not_codegen_task,0,10,False,7,True,0,False,2,True,False,0,False,False,False,False,False
+ss_Holmes2024deepspeed,DeepSpeed-FastGen: High-throughput Text Generation for LLMs via MII and DeepSpeed-Inference,14,Exclude,IC3:not_codegen_task,0,8,False,7,True,0,False,4,True,False,0,False,False,False,False,False
+ss_Sun2024shadowkv,ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference,21,Exclude,IC3:not_codegen_task,0,12,False,6,True,0,False,5,True,False,0,False,False,False,False,False
+ss_Aggarwal2025evolutionary,Evolutionary Caching to Accelerate Your Off-the-Shelf Diffusion Model,39,Exclude,IC3:not_codegen_task,0,14,False,5,True,0,False,7,True,False,0,False,False,False,False,False
+ss_Zhang2025swiftspec,SwiftSpec: Ultra-Low Latency LLM Decoding by Scaling Asynchronous Speculative Decoding,19,Exclude,IC3:not_codegen_task,0,13,False,6,True,0,False,8,True,False,0,False,False,False,False,False
+ss_Monsefi2025fs,FS-DFM: Fast and Accurate Long Text Generation with Few-Step Diffusion Language Models,27,Exclude,IC3:not_codegen_task,0,8,False,3,True,0,False,4,True,False,0,False,False,False,False,False
+ss_Walton2025specmer,SpecMER: Fast Protein Generation with K-mer Guided Speculative Decoding,33,Exclude,IC3:not_codegen_task,0,12,False,2,True,0,False,3,True,False,0,False,False,False,False,False
+ss_Peccia2025llm,LLM-aided Test Generation for Custom Neural Network Hardware Accelerators,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Zeng2017fast,Fast generation of high throughput customized deep learning accelerators on FPGAs,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Kavvousanos2022low,A Low-Latency Syndrome-based Deep Learning Decoder Architecture and its FPGA Implementation,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Saidulu2025optimized,Optimized Vlsi-Based Neural Processing Units for Edge Ai in Latency-Critical Multimedia Applications,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Zeng2024instructsing,Instructsing: High-Fidelity Singing Voice Generation Via Instructing Yourself,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Ning2025edgeprompt,EdgePrompt: A Distributed Key-Value Inference Framework for LLMs in 6G Networks,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Geng2024semantic,Semantic-Guided Pruning Approach for Large Language Model-based Class-Level Code Generation,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Ju2025learning,Learning From Each Other: Exploring A Novel Mutual Learning Paradigm for Enhancing Code Generation Performance,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Ni2023lever,LEVER: Learning to Verify Language-to-Code Generation with Execution,23,Include,all_IC_passed,2,4,True,10,True,2,True,2,True,False,1,False,False,False,False,False
+ss_Sghaier2024improving,Improving the Learning of Code Review Successive Tasks with Cross-Task Knowledge Distillation,21,Uncertain,weak_match,1,5,False,7,True,0,False,1,False,False,2,False,False,False,False,False
+ss_Tseng2024leave,Leave No Knowledge Behind During Knowledge Distillation: Towards Practical and Effective Knowledge Distillation For Code-Switching ASR Using Realistic Data,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Peng2023dphubert,DPHuBERT: Joint Distillation and Pruning of Self-Supervised Speech Models,5,Exclude,IC3:not_codegen_task,0,14,False,6,True,0,False,5,True,False,0,False,False,False,False,False
+ss_Campos2023oberta,"oBERTa: Improving Sparse Transfer Learning via improved initialization, distillation, and pruning regimes",20,Exclude,IC3:not_codegen_task,0,14,False,5,True,0,False,6,True,False,0,False,False,False,False,False
+ss_Wang2023prolificdreamer,ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation,36,Exclude,IC3:not_codegen_task,0,4,False,2,True,0,False,0,False,False,0,False,False,False,False,False
+ss_Italiani2025enhancing,Enhancing legal question answering with data generation and knowledge distillation from large language models,26,Exclude,IC3:not_codegen_task,0,3,False,6,True,0,False,1,False,False,0,False,False,False,False,False
+ss_Dan2024pdd,PDD: Pruning Neural Networks During Knowledge Distillation,11,Exclude,IC3:not_codegen_task,0,14,False,2,True,0,False,3,True,False,0,False,False,False,False,False
+ss_Liang2023luciddreamer,LucidDreamer: Towards High-Fidelity Text-to-3D Generation via Interval Score Matching,13,Exclude,IC3:not_codegen_task,0,6,False,2,True,0,False,2,True,False,0,False,False,False,False,False
+ss_Zhang2024toward,Toward Democratized Generative AI in Next-Generation Mobile Edge Networks,9,Uncertain,weak_match,1,22,False,12,True,0,False,8,True,False,1,False,False,False,False,False
+ss_Liu2025optimization,Optimization-Oriented Deep Learning Algorithm for Automatic Digital Media Animation Generation with Enhanced Communication Efficiency,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Singh2025advanced,Advanced Design and Fabrication Techniques for Nanoscale Semiconductor Devices in Next-Generation Electronics,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Rouf2024can,Can Low-Rank Knowledge Distillation in LLMs be Useful for Microelectronic Reasoning?,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Wang2025adaptive,Adaptive Depth-Wise Pruning for Efficient Environmental Sound Classification,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Ma2023llm,LLM-Pruner: On the Structural Pruning of Large Language Models,20,Exclude,IC3:not_codegen_task,0,11,False,7,True,0,False,2,True,False,0,False,False,False,False,False
+ss_Nguyen2025end,End-to-end fully-binarized network design: from Generic Learned Thermometer to Block Pruning,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Shi2025slide,Slide-CLIP: A Simple and Effective Pruning Method for CLIP,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Zhong2025repofusion,RepoFusion-in-Decoder: Efficient Cross-File Code Completion via Lightweight Encoder Fusion,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_BaniSalameh2025ai,AI-Powered Code Completion with LSTM Networks,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Maharjan2025intelligent,Intelligent Code Completion by a Unified Multi-task Learning with a Large Language Model,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Urs2025secure,Secure Code Completion Models Tuned for Compliance-Heavy Domains,2,Exclude,EC4:short,3,5,True,10,True,2,True,0,False,False,0,False,False,True,False,True
+ss_Liu2020multi,Multi-task Learning based Pre-trained Language Model for Code Completion,13,Uncertain,weak_match,3,2,False,8,True,2,True,0,False,False,4,False,False,False,False,False
+ss_Liu2019self,A Self-Attentional Neural Architecture for Code Completion with Multi-Task learning,11,Include,strong_match,1,4,False,5,True,1,False,2,True,False,1,False,False,False,False,False
+ss_Li2017code,Code Completion with Neural Attention and Pointer Networks,7,Uncertain,partial_IC_match,3,4,True,4,True,2,True,0,False,False,0,False,False,False,False,False
+ss_Sun2022learning,Learning to Prevent Profitless Neural Code Completion,22,Include,strong_match,1,4,False,8,True,1,False,1,False,False,0,False,False,False,False,False
+ss_Hirner2022fcdsn,FCDSN-DC: An Accurate and Lightweight Convolutional Neural Network for Stereo Estimation with Depth Completion,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Yin2023pv,PV-YOLO: Lightweight YOLO for Photovoltaic Panel Fault Detection,11,Exclude,IC3:not_codegen_task,0,6,False,4,True,0,False,0,False,False,0,False,False,False,False,False
+ss_Yan2023pointssc,PointSSC: A Cooperative Vehicle-Infrastructure Point Cloud Benchmark for Semantic Scene Completion,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Potje2024xfeat,XFeat: Accelerated Features for Lightweight Image Matching,14,Exclude,IC3:not_codegen_task,0,13,False,3,True,0,False,4,True,False,0,False,False,False,False,False
+ss_Pulling2024geometry,Geometry-Informed Distance Candidate Selection for Adaptive Lightweight Omnidirectional Stereo Vision with Fisheye Images,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Li2022pp,PP-OCRv3: More Attempts for the Improvement of Ultra Lightweight OCR System,9,Exclude,IC3:not_codegen_task,0,10,False,3,True,0,False,3,True,False,0,False,False,False,False,False
+ss_Tang2023ultra,Ultra-Lightweight CNN Based Fast Intra Prediction for VVC Screen Content Coding,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Wu2025bidirectional,Bidirectional Relational Fusion with Meta-Learning for Inductive Knowledge Graph Completion,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Shin2023good,"The Good, the Bad, and the Missing: Neural Code Generation for Machine Learning Tasks",20,Uncertain,weak_match,4,2,False,2,True,3,True,0,False,False,2,False,False,False,False,False
+ss_Kong2021fastflownet,FastFlowNet: A Lightweight Network for Fast Optical Flow Estimation,7,Exclude,IC3:not_codegen_task,0,11,False,3,True,0,False,5,True,False,0,False,False,False,False,False
+ss_Yang2025aasd,AASD: Accelerate Inference by Aligning Speculative Decoding in Multimodal Large Language Models,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Xia2024selt,SeLT: Sonar Echo Image Recognition for Small Targets Using Lightweight Swin Transformer,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_He2023efficient,Efficient Lightweight Attention Based Learned Image Compression,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Kalyon2021two,A Two Phase Smart Code Editor,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Hricik2020using,Using RAPIDS AI to Accelerate Graph Data Science Workflows,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Unknown2025measuring,Measuring AI-Driven Developer Productivity in Agile Software Development Random Forest Regression Analysis of Performance Metrics and Tool Integration,11,Include,strong_match,3,4,True,3,True,2,True,1,False,False,2,False,False,False,False,False
+ss_Niharika2022custom,Custom Precision Method of Floating-Point Operations of FFT Processing for Optimized Area and Delay Performance,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Shahshahani2020framework,"A Framework for Modeling, Optimizing, and Implementing DNNs on FPGA Using HLS",0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Li2023efficient,Efficient Region-Aware Neural Radiance Fields for High-Fidelity Talking Portrait Synthesis,15,Exclude,IC3:not_codegen_task,0,10,False,4,True,0,False,2,True,False,0,False,False,False,False,False
+ss_Bhattacharyya2024llm,LLM vs HLS for RTL Code Generation: Friend or Foe?,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Liao2024invited,(Invited Paper) Are Llms Any Good for High-Level Synthesis?,8,Uncertain,partial_IC_match,4,4,True,8,True,2,True,0,False,False,1,False,False,False,False,False
+ss_Abuaish2022geometry,Geometry of Radial Basis Neural Networks for Safety Biased Approximation of Unsafe Regions,8,Exclude,IC2:not_llm_based,0,2,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Shahsavani2022efficient,Efficient Compilation and Mapping of Fixed Function Combinational Logic onto Digital Signal Processors Targeting Neural Network Inference and Utilizing High-level Synthesis,25,Exclude,IC2:not_llm_based,1,9,False,0,False,0,False,3,True,False,0,False,False,False,False,False
+ss_Ye2021scalehls,ScaleHLS: A New Scalable High-Level Synthesis Framework on Multi-Level Intermediate Representation,15,Exclude,IC2:not_llm_based,0,6,False,1,False,0,False,2,True,False,0,False,False,False,False,False
+ss_Xiao2023gahls,GAHLS: an optimized graph analytics based high level synthesis framework,20,Exclude,IC2:not_llm_based,0,8,False,1,False,0,False,3,True,False,0,False,False,False,False,False
+ss_Yousefzadeh2022seneca,SENeCA: Scalable Energy-efficient Neuromorphic Computer Architecture,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ss_Gorkavyy2023automated,Automated method based on a neural network model for searching energy-efficient complex movement trajectories of industrial robot in a differentiated technological process,8,Exclude,IC2:not_llm_based,0,3,False,0,False,0,False,1,False,False,0,False,False,False,False,False
+ieee_Yang2026large,Large Language Model Powered Automated Modeling and Optimization of Active Distribution Network Dispatch Problems,14,Uncertain,partial_IC_match,2,4,True,8,True,1,False,0,False,False,1,False,False,False,False,False
+ieee_Sobania2025comparison,A Comparison of Large Language Models and Genetic Programming for Program Synthesis,15,Uncertain,weak_match,4,1,False,10,True,3,True,1,False,True,2,False,False,False,False,False
+ieee_Yang2025apicoder,APICoder: A Multi-Role Large Language Model Framework for API Service Call Code Generation,3,Exclude,EC4:short,3,6,True,12,True,4,True,0,False,False,1,False,False,True,False,True
+ieee_P2025advancements,Advancements in AI-Powered Code Generation: A Comparative Analysis of Modern LLMs,9,Include,all_IC_passed,9,5,True,17,True,10,True,2,True,False,4,False,False,False,False,False
+ieee_Jern2025agentq,Agent-Q: Fine-Tuning Large Language Models for Quantum Circuit Generation and Optimization,12,Include,strong_match,2,2,False,11,True,1,False,1,False,False,0,False,False,False,False,False
+ieee_Indhuja2025automated,Automated Code Generation: A CNN-Based Alternative to Large Language Models Using Multi-Head Mixed Convolution and Depthwise Separable Neural Networks,7,Include,strong_match,3,8,True,11,True,1,False,3,True,False,2,False,False,False,False,False
+ieee_Black2025balancing,Balancing Security and Correctness in Code Generation: An Empirical Study on Commercial Large Language Models,12,Include,strong_match,6,3,True,8,True,4,True,1,False,False,4,False,False,False,False,False
+ieee_Liu2025enhancing,Enhancing MATLAB Code Generation with Large Language Models,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ieee_Duan2025enhancing,"Enhancing Obfuscation Attack Detection via LLM: Data Augmentation, Fine-tuning, and Quantization",0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ieee_Palla2025evaluating,Evaluating Generative AI Models for Code Generation Tasks Using Embedding-Based Semantic Similarity,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ieee_Wang2025exploration,Exploration of Code Analysis Driven Unit Test Generation Method Based on Llm,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ieee_Nikolakopoulos2025exploring,Exploring the Potential of Offline LLMs in Data Science: A Study on Code Generation for Data Analysis,0,Uncertain,text_extraction_failed,0,0,False,0,False,0,False,0,False,False,0,False,False,False,False,False
+ieee_Min2025improving,Improving LLM-Based Verilog Code Generation with Data Augmentation and RL,7,Uncertain,partial_IC_match,2,6,True,10,True,2,True,0,False,False,0,False,False,False,False,False
+ieee_Yu2025llmverilog,"LLM4Verilog: Building Large-Scale, High-Quality Data Infrastructure for Verilog Code Generation via Community Efforts",9,Uncertain,partial_IC_match,2,5,True,12,True,3,True,0,False,False,0,False,False,False,False,False
+ieee_Weinthal2025leveraging,"Leveraging AI Development Tools to Accelerate Learning, UI Implementation, and Educational Support in Mobile and Web Application Development",6,Include,strong_match,4,3,True,3,True,2,True,1,False,False,2,False,False,False,False,False
+ieee_Siavash2025modeldriven,Model-Driven Quantum Code Generation Using Large Language Models and Retrieval-Augmented Generation,7,Uncertain,partial_IC_match,4,3,True,9,True,2,True,0,False,False,0,False,False,False,False,False
+ieee_Slama2024comparative,Comparative Analysis of Loop-Free Function Evaluation Using ChatGPT and Copilot with C Bounded Model Checking,8,Include,strong_match,7,6,True,6,True,4,True,1,False,False,3,False,False,False,False,False
+ieee_Zhu2024towards,Towards Efficient Compound Large Language Model System Serving in the Wild,2,Exclude,EC4:short,2,2,False,7,True,2,True,0,False,False,0,False,False,True,False,True
+ieee_Lin2023deploying,Deploying Pre-Quantized Deep Learning Models on Heterogeneous Platforms with Operator Flow Recognition and Quantization Parameter Optimization,3,Exclude,EC4:short,2,8,True,3,True,1,False,2,True,False,0,False,False,True,False,True
+ieee_Derumigny2022palmed,PALMED: Throughput Characterization for Superscalar Architectures,12,Exclude,IC2:not_llm_based,2,5,True,1,False,1,False,2,True,False,0,False,False,False,False,False

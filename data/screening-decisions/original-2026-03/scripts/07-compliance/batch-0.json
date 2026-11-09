@@ -1,0 +1,122 @@
+[
+  {
+    "key": "2601_09703",
+    "title": "ShortCoder: Knowledge-Augmented Syntax Optimization for Token-Efficient Code Generation",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2601_09703.pdf"
+  },
+  {
+    "key": "2601_20223",
+    "title": "Control Models for In-IDE Code Completion",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2601_20223.pdf"
+  },
+  {
+    "key": "2601_21469",
+    "title": "Adaptive Confidence Gating in Multi-Agent Collaboration for Efficient and Optimized Code Generation",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2601_21469.pdf"
+  },
+  {
+    "key": "2601_22132",
+    "title": "Pay for Hints, Not Answers: LLM Shepherding for Cost-Efficient Inference",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2601_22132.pdf"
+  },
+  {
+    "key": "2601_23254",
+    "title": "GrepRAG: An Empirical Study and Optimization of Grep-Like Retrieval for Code Completion",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2601_23254.pdf"
+  },
+  {
+    "key": "2602_02597",
+    "title": "ContextEvolve: Multi-Agent Context Compression for Systems Code Optimization",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2602_02597.pdf"
+  },
+  {
+    "key": "2602_05712",
+    "title": "Towards Green AI: Decoding the Energy of LLM Inference in Software Development",
+    "rq": "RQ3; RQ4",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2602_05712.pdf"
+  },
+  {
+    "key": "2602_07670",
+    "title": "Surprisal-Guided Selection: Compute-Optimal Test-Time Strategies for Execution-Grounded Code Generation",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2602_07670.pdf"
+  },
+  {
+    "key": "2602_12049",
+    "title": "Improving HPC Code Generation Capability of LLMs via Online Reinforcement Learning with Real-Machine Benchmark Rewards",
+    "rq": "RQ2",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2602_12049.pdf"
+  },
+  {
+    "key": "2602_12305",
+    "title": "OptiML: An End-to-End Framework for Program Synthesis and CUDA Kernel Optimization",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2602_12305.pdf"
+  },
+  {
+    "key": "2602_15843",
+    "title": "The Perplexity Paradox: Why Code Compresses Better Than Math in LLM Prompts",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2602_15843.pdf"
+  },
+  {
+    "key": "2602_17100",
+    "title": "AgentConductor: Topology Evolution for Multi-Agent Competition-Level Code Generation",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2602_17100.pdf"
+  },
+  {
+    "key": "2602_17169",
+    "title": "SimulatorCoder: DNN Accelerator Simulator Code Generation and Optimization via Large Language Models",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2602_17169.pdf"
+  },
+  {
+    "key": "2602_17684",
+    "title": "CodeScaler: Scaling Code LLM Training and Test-Time Inference via Execution-Free Reward Models",
+    "rq": "RQ2; RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2602_17684.pdf"
+  },
+  {
+    "key": "2602_21800",
+    "title": "An Evaluation of Context Length Extrapolation in Long Code via Positional Embeddings and Efficient Attention",
+    "rq": "RQ4",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2602_21800.pdf"
+  },
+  {
+    "key": "2602_24286",
+    "title": "CUDA Agent: Large-Scale Agentic RL for High-Performance CUDA Kernel Generation",
+    "rq": "RQ2",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2602_24286.pdf"
+  },
+  {
+    "key": "2603_04646",
+    "title": "HDLFORGE: A Two-Stage Multi-Agent Framework for Efficient Verilog Code Generation with Adaptive Model Escalation",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2603_04646.pdf"
+  },
+  {
+    "key": "2501_01054",
+    "title": "Dynamic Scaling of Unit Tests for Code Reward Modeling",
+    "rq": "RQ2",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2501_01054.pdf"
+  },
+  {
+    "key": "2501_05248",
+    "title": "Deriving Coding-Specific Sub-Models from LLMs using Resource-Efficient Pruning",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2501_05248.pdf"
+  },
+  {
+    "key": "2501_05899",
+    "title": "Prompt engineering and its implications on the energy consumption of Large Language Models",
+    "rq": "RQ3; RQ4",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2501_05899.pdf"
+  }
+]

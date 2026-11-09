@@ -1,0 +1,426 @@
+key,title,pages,decision,reason,ic1_codegen,ic1_eff,ic1_pass,ic2_score,ic2_pass,ic3_score,ic3_pass,ic4_score,ic4_pass,ec1_flag,ec2_score,ec2_flag,ec3_flag,ec4_flag,ec4_survey,ec4_short
+2502_08903,3D-Grounded Vision-Language Framework for Robotic Task Planning: Automated Prompt Synthesis and Supervised Reasoning,18,Uncertain,partial_IC_match,2,4,True,9,True,1,False,0,False,False,0,False,False,False,False,False
+2506_10984,"Application Modernization with LLMs: Addressing Core Challenges in Reliability, Security, and Quality",16,Uncertain,partial_IC_match,3,4,True,5,True,1,False,0,False,False,1,False,False,False,False,False
+2502_08756,"From PowerPoint UI Sketches to Web-Based Applications: Pattern-Driven Code Generation for GIS Dashboard Development Using Knowledge-Augmented LLMs, Context-Aware Visual Prompting, and the React Framework",28,Uncertain,partial_IC_match,4,3,True,15,True,4,True,0,False,False,5,False,False,False,False,False
+2502_07154,Rethinking Fine-Tuning when Scaling Test-Time Compute: Limiting Confidence Improves Mathematical Reasoning,27,Include,all_IC_passed,2,8,True,9,True,2,True,2,True,False,1,False,False,False,False,False
+2502_07128,Cardiverse: Harnessing LLMs for Novel Card Game Prototyping,37,Include,all_IC_passed,4,6,True,5,True,2,True,2,True,False,0,False,False,False,False,False
+2502_03617,Resource-Efficient \& Effective Code Summarization,12,Exclude,EC2:other_se_task,6,17,True,16,True,2,True,4,True,False,7,True,False,False,False,False
+2502_18476,AI's Impact on Traditional Software Development,10,Uncertain,partial_IC_match,2,3,True,4,True,1,False,0,False,False,2,False,False,False,False,False
+2502_02928,Large Language Model Guided Self-Debugging Code Generation,18,Uncertain,partial_IC_match,4,3,True,8,True,6,True,0,False,False,3,False,False,False,False,False
+2502_15732,Data Wrangling Task Automation Using Code-Generating Language Models,3,Exclude,EC4:short,4,2,False,7,True,1,False,0,False,False,0,False,False,True,False,True
+2502_02827,COFFE: A Code Efficiency Benchmark for Code Generation,24,Exclude,EC1:efficiency_not_core,3,1,False,6,True,8,True,0,False,True,1,False,False,False,False,False
+2502_02818,TranSQL+: Serving Large Language Models with SQL on Low-Resource Hardware,15,Include,strong_match,2,12,True,13,True,1,False,4,True,False,0,False,False,False,False,False
+2502_04357,Reusing Embeddings: Reproducible Reward Model Research in Large Language Model Alignment without GPUs,13,Include,strong_match,2,10,True,7,True,1,False,6,True,False,1,False,False,False,False,False
+2502_04350,CodeSteer: Symbolic-Augmented Language Models via Code/Text Guidance,28,Uncertain,partial_IC_match,3,4,True,9,True,2,True,0,False,False,0,False,False,False,False,False
+2502_02412,"AI-Powered, But Power-Hungry? Energy Efficiency of LLM-Generated Code",12,Include,all_IC_passed,4,4,True,7,True,5,True,4,True,False,1,False,False,False,False,False
+2502_02194,Understanding User Mental Models in AI-Driven Code Completion Tools: Insights from an Elicitation Study,45,Exclude,IC2:not_llm_based,5,6,True,1,False,3,True,1,False,False,0,False,False,False,False,False
+2502_01941,Can LLMs Maintain Fundamental Abilities under KV Cache Compression?,25,Include,all_IC_passed,2,6,True,7,True,3,True,3,True,False,1,False,False,False,False,False
+2502_01860,SWE-Arena: An Interactive Platform for Evaluating Foundation Models in Software Engineering,4,Exclude,EC2:other_se_task,2,2,False,7,True,3,True,0,False,False,3,True,False,False,False,False
+2502_01806,Toward Neurosymbolic Program Comprehension,5,Uncertain,partial_IC_match,3,3,True,13,True,2,True,0,False,False,7,False,False,False,False,False
+2502_01235,"LoRA-One: One-Step Full Gradient Could Suffice for Fine-Tuning Large Language Models, Provably and Efficiently",62,Include,strong_match,2,6,True,7,True,2,True,1,False,False,0,False,False,False,False,False
+2502_00330,From Few to Many: Self-Improving Many-Shot Reasoners Through Iterative Optimization and Generation,34,Include,strong_match,2,6,True,7,True,1,False,1,False,False,0,False,False,False,False,False
+2501_19297,Analysis of LLMs vs Human Experts in Requirements Engineering,8,Uncertain,partial_IC_match,2,3,True,8,True,1,False,0,False,False,1,False,False,False,False,False
+2502_00085,Efficient Beam Search for Large Language Models Using Trie-Based Decoding,13,Include,all_IC_passed,2,12,True,8,True,2,True,5,True,False,0,False,False,False,False,False
+2501_19012,Importing Phantoms: Measuring LLM Package Hallucination Vulnerabilities,23,Include,all_IC_passed,4,4,True,9,True,3,True,2,True,False,0,False,False,False,False,False
+2501_18883,Predictive Prompt Analysis,5,Include,strong_match,3,5,True,8,True,3,True,1,False,False,0,False,False,False,False,False
+2502_18467,ChatGPT vs. DeepSeek: A Comparative Study on AI-Based Code Generation,5,Include,strong_match,5,3,True,14,True,5,True,1,False,False,1,False,False,False,False,False
+2501_18657,Enhancing Large Language Model Efficiencyvia Symbolic Compression: A Formal Approach Towards Interpretability,11,Include,strong_match,3,8,True,7,True,1,False,2,True,False,0,False,False,False,False,False
+2501_18653,"Cogito, ergo sum: A Neurobiologically-Inspired Cognition-Memory-Growth System for Code Generation",19,Uncertain,partial_IC_match,4,3,True,5,True,9,True,0,False,False,1,False,False,False,False,False
+2502_18465,Empirical Research on Utilizing LLM-based Agents for Automated Bug Fixing via LangGraph,12,Uncertain,weak_match,2,2,False,5,True,1,False,0,False,False,2,False,False,False,False,False
+2501_16692,Optimizing Code Runtime Performance through Context-Aware Retrieval-Augmented Generation,6,Include,all_IC_passed,3,6,True,10,True,2,True,2,True,False,4,False,False,False,False,False
+2501_16044,MultiMend: Multilingual Program Repair with Context Augmentation and Multi-Hunk Patch Generation,29,Exclude,EC2:other_se_task,0,4,False,5,True,0,False,0,False,False,5,True,False,False,False,False
+2501_15544,Advancing Generative Artificial Intelligence and Large Language Models for Demand Side Management with Internet of Electric Vehicles,15,Include,strong_match,2,5,True,6,True,1,False,2,True,False,0,False,False,False,False,False
+2501_13742,An Empirical Study of Retrieval-Augmented Code Generation: Challenges and Opportunities,29,Include,strong_match,5,6,True,11,True,3,True,1,False,False,4,False,False,False,False,False
+2501_13731,Pseudocode-Injection Magic: Enabling LLMs to Tackle Graph Computational Tasks,24,Include,strong_match,4,5,True,8,True,1,False,2,True,False,2,False,False,False,False,False
+2501_12934,Correctness Assessment of Code Generated by Large Language Models Using Internal Representations,20,Include,strong_match,4,5,True,11,True,3,True,1,False,False,1,False,False,False,False,False
+2502_00028,VRank: Enhancing Verilog Code Generation from Large Language Models via Self-Consistency,7,Uncertain,partial_IC_match,2,3,True,12,True,3,True,0,False,False,1,False,False,False,False,False
+2501_12420,"Consolidating TinyML Lifecycle with Large Language Models: Reality, Illusion, or Opportunity?",10,Include,all_IC_passed,5,13,True,10,True,2,True,3,True,False,0,False,False,False,False,False
+2501_11006,GREEN-CODE: Learning to Optimize Energy Efficiency in LLM-based Code Generation,11,Include,all_IC_passed,3,13,True,11,True,2,True,7,True,False,1,False,False,False,False,False
+2501_09316,SOP-Agent: Empower General Purpose AI Agent with Domain-Specific SOPs,35,Uncertain,partial_IC_match,2,3,True,5,True,4,True,0,False,False,0,False,False,False,False,False
+2501_09201,Towards Semantics Lifting for Scientific Computing: A Case Study on FFT,4,Uncertain,weak_match,2,2,False,6,True,1,False,0,False,False,0,False,False,False,False,False
+2501_08406,OptiChat: Bridging Optimization Models and Practitioners with Large Language Models,34,Include,strong_match,2,3,True,7,True,1,False,2,True,False,0,False,False,False,False,False
+2501_07892,Leveraging Metamemory Mechanisms for Enhanced Data-Free Code Generation in LLMs,11,Uncertain,weak_match,4,2,False,9,True,3,True,0,False,False,1,False,False,False,False,False
+2501_07849,The Invisible Hand: Unveiling Provider Bias in Large Language Models for Code Generation,27,Uncertain,weak_match,3,2,False,10,True,1,False,0,False,False,1,False,False,False,False,False
+2501_07339,Evaluating Pre-Trained Models for Multi-Language Vulnerability Patching,20,Exclude,EC2:other_se_task,2,3,True,11,True,1,False,1,False,False,4,True,False,False,False,False
+2501_05899,Prompt engineering and its implications on the energy consumption of Large Language Models,8,Include,all_IC_passed,3,6,True,9,True,2,True,3,True,False,0,False,False,False,False,False
+2501_05408,Tempo: Compiled Dynamic Deep Learning with Symbolic Dependence Graphs,17,Exclude,IC3:not_codegen_task,0,8,False,7,True,0,False,5,True,False,0,False,False,False,False,False
+2501_05396,FairCoder: Evaluating Social Bias of LLMs in Code Generation,26,Uncertain,weak_match,5,2,False,10,True,2,True,0,False,False,2,False,False,False,False,False
+2501_05248,Deriving Coding-Specific Sub-Models from LLMs using Resource-Efficient Pruning,8,Include,all_IC_passed,2,12,True,11,True,4,True,4,True,False,1,False,False,False,False,False
+2501_05487,The Future of AI: Exploring the Potential of Large Concept Models,18,Uncertain,partial_IC_match,2,5,True,7,True,1,False,0,False,False,0,False,False,False,False,False
+2501_04268,Robotic Programmer: Video Instructed Policy Code Generation for Robotic Manipulation,15,Include,strong_match,4,4,True,13,True,1,False,1,False,False,0,False,False,False,False,False
+2501_03892,LEAP: LLM-powered End-to-end Automatic Library for Processing Social Science Queries on Unstructured Data,12,Include,strong_match,2,4,True,6,True,1,False,1,False,False,0,False,False,False,False,False
+2501_03783,How to Select Pre-Trained Code Models for Reuse? A Learning Perspective,12,Include,strong_match,2,4,True,11,True,1,False,2,True,False,2,False,False,False,False,False
+2501_04062,ChronoLLM: A Framework for Customizing Large Language Model for Digital Twins generalization based on PyChrono,34,Include,strong_match,2,9,True,10,True,1,False,3,True,False,0,False,False,False,False,False
+2501_03166,Semantic Captioning: Benchmark Dataset and Graph-Aware Few-Shot In-Context Learning for SQL2Text,17,Uncertain,weak_match,3,2,False,8,True,1,False,0,False,False,1,False,False,False,False,False
+2501_03288,CodeVision: Detecting LLM-Generated Code Using 2D Token Probability Maps and Vision Models,8,Include,strong_match,3,10,True,16,True,1,False,6,True,False,2,False,False,False,False,False
+2501_05470,RTLSquad: Multi-Agent Based Interpretable RTL Design,8,Include,strong_match,3,4,True,7,True,3,True,1,False,False,0,False,False,False,False,False
+2501_02338,Evaluation of the Code Generation Capabilities of ChatGPT 4: A Comparative Analysis in 19 Programming Languages,65,Exclude,IC3:not_codegen_task,0,1,False,4,True,1,False,0,False,True,0,False,False,False,False,False
+2501_02199,Can ChatGPT implement finite element models for geotechnical engineering applications?,23,Include,strong_match,3,3,True,9,True,2,True,1,False,False,0,False,False,False,False,False
+2501_02138,Effective LLM-Driven Code Generation with Pythoness,5,Uncertain,weak_match,6,2,False,6,True,4,True,0,False,False,1,False,False,False,False,False
+2501_01277,"Language Models for Code Optimization: Survey, Challenges and Future Directions",34,Exclude,EC4:survey,2,5,True,9,True,1,False,1,False,False,1,False,False,True,True,False
+2501_01054,Dynamic Scaling of Unit Tests for Code Reward Modeling,19,Include,all_IC_passed,2,6,True,8,True,5,True,2,True,False,2,False,False,False,False,False
+2501_00750,Beyond Text: Implementing Multimodal Large Language Model-Powered Multi-Agent Systems Using a No-Code Platform,22,Include,strong_match,2,2,False,12,True,1,False,1,False,False,0,False,False,False,False,False
+2501_00642,Enabling New HDLs with Agents,15,Uncertain,partial_IC_match,4,3,True,9,True,1,False,0,False,False,0,False,False,False,False,False
+2412_21051,Toward Intelligent and Secure Cloud: Large Language Model Empowered Proactive Defense,7,Include,strong_match,2,8,True,9,True,1,False,2,True,False,2,False,False,False,False,False
+2412_20367,Enhancing Code LLMs with Reinforcement Learning in Code Generation: A Survey,14,Exclude,EC4:survey,4,4,True,13,True,3,True,0,False,False,2,False,False,True,True,False
+2412_19630,ATiM: Autotuning Tensor Programs for Processing-in-DRAM,17,Include,strong_match,3,6,True,6,True,1,False,2,True,False,0,False,False,False,False,False
+2412_19595,SocRATES: Towards Automated Scenario-based Testing of Social Navigation Algorithms,7,Exclude,IC3:not_codegen_task,0,1,False,6,True,0,False,1,False,True,0,False,False,False,False,False
+2502_17441,Renaissance of Literate Programming in the Era of LLMs: Enhancing LLM-Based Code Generation in Large-Scale Projects,36,Uncertain,weak_match,2,2,False,6,True,1,False,0,False,False,2,False,False,False,False,False
+2412_18835,AUCAD: Automated Construction of Alignment Dataset from Log-Related Issues for Enhancing LLM-based Log Generation,13,Uncertain,partial_IC_match,3,3,True,12,True,2,True,0,False,False,2,False,False,False,False,False
+2412_18573,Top General Performance = Top Domain Performance? DomainCodeBench: A Multi-domain Code Generation Benchmark,13,Uncertain,partial_IC_match,2,3,True,10,True,6,True,0,False,False,0,False,False,False,False,False
+2412_18299,M-Ped: Multi-Prompt Ensemble Decoding for Large Language Models,18,Include,strong_match,4,4,True,7,True,4,True,1,False,False,1,False,False,False,False,False
+2412_18116,AutoDroid-V2: Boosting SLM-based GUI Agents via Code Generation,13,Include,strong_match,3,8,True,10,True,2,True,1,False,False,0,False,False,False,False,False
+2412_16589,Improving FIM Code Completions via Context \& Curriculum Based Learning,10,Include,all_IC_passed,5,7,True,14,True,7,True,2,True,False,2,False,False,False,False,False
+2412_15441,Insights into resource utilization of code small language models serving with runtime engines and execution providers,25,Include,all_IC_passed,4,12,True,12,True,4,True,6,True,False,0,False,False,False,False,False
+2412_15118,Reasoning Through Execution: Unifying Process and Outcome Rewards for Code Generation,23,Include,all_IC_passed,2,7,True,9,True,4,True,2,True,False,2,False,False,False,False,False
+2412_15305,Tree-of-Code: A Tree-Structured Exploring Framework for End-to-End Code Generation and Execution in Complex Task Handling,16,Uncertain,partial_IC_match,4,5,True,10,True,1,False,0,False,False,0,False,False,False,False,False
+2501_10388,Beyond the Sum: Unlocking AI Agents Potential Through Market Forces,22,Uncertain,partial_IC_match,3,3,True,5,True,1,False,0,False,False,1,False,False,False,False,False
+2412_14234,Syzygy: Dual Code-Test C to (safe) Rust Translation using LLMs and Dynamic Analysis,34,Uncertain,weak_match,3,2,False,4,True,2,True,0,False,False,2,False,False,False,False,False
+2412_15283,Channel Merging: Preserving Specialization for Merged Experts,11,Include,all_IC_passed,2,8,True,8,True,3,True,4,True,False,0,False,False,False,False,False
+2412_10953,Optimizing AI-Assisted Code Generation,32,Uncertain,partial_IC_match,3,3,True,16,True,2,True,0,False,False,1,False,False,False,False,False
+2412_15240,ChainStream: An LLM-based Framework for Unified Synthetic Sensing,18,Uncertain,partial_IC_match,3,3,True,6,True,2,True,0,False,False,0,False,False,False,False,False
+2412_12163,Towards LLM-based optimization compilers. Can LLMs learn how to apply a single peephole optimization? Reasoning is all LLMs need!,13,Include,strong_match,2,7,True,10,True,1,False,3,True,False,1,False,False,False,False,False
+2412_08069,DialogAgent: An Auto-engagement Agent for Code Question Answering Data Production,11,Uncertain,partial_IC_match,5,3,True,13,True,4,True,0,False,False,2,False,False,False,False,False
+2412_08063,ContextModule: Improving Code Completion via Repository-level Contextual Information,11,Include,strong_match,6,3,True,8,True,3,True,1,False,False,1,False,False,False,False,False
+2412_10422,AutoPrep: Natural Language Question-Aware Data Preparation with a Multi-Agent Framework,14,Uncertain,weak_match,4,2,False,5,True,2,True,0,False,False,0,False,False,False,False,False
+2501_14735,ARCEAK: An Automated Rule Checking Framework Enhanced with Architectural Knowledge,12,Include,strong_match,4,2,False,10,True,2,True,1,False,False,0,False,False,False,False,False
+2412_07322,ConceptSearch: Towards Efficient Program Search Using LLMs for Abstraction and Reasoning Corpus (ARC),8,Uncertain,weak_match,1,3,False,11,True,1,False,0,False,False,0,False,False,False,False,False
+2412_06619,Copyright-Protected Language Generation via Adaptive Model Fusion,47,Include,strong_match,2,5,True,9,True,5,True,1,False,False,1,False,False,False,False,False
+2412_05587,GEE-OPs: An Operator Knowledge Base for Geospatial Code Generation on the Google Earth Engine Platform Powered by Large Language Models,23,Uncertain,weak_match,4,2,False,8,True,2,True,0,False,False,1,False,False,False,False,False
+2412_05159,Enhancing Cross-Language Code Translation via Task-Specific Embedding Alignment in Retrieval-Augmented Generation,12,Uncertain,partial_IC_match,3,4,True,9,True,1,False,0,False,False,1,False,False,False,False,False
+2412_04747,Code generation and runtime techniques for enabling data-efficient deep learning training on GPUs,165,Include,strong_match,2,6,True,5,True,1,False,5,True,False,0,False,False,False,False,False
+2412_04626,BigDocs: An Open Dataset for Training Multimodal Models on Document and Code Tasks,57,Uncertain,weak_match,2,2,False,9,True,1,False,0,False,False,0,False,False,False,False,False
+2412_04272,PoTable: Towards Systematic Thinking via Plan-then-Execute Stage Reasoning on Tables,12,Uncertain,weak_match,3,2,False,11,True,1,False,0,False,False,0,False,False,False,False,False
+2412_02906,Does Few-Shot Learning Help LLM Performance in Code Synthesis?,13,Uncertain,partial_IC_match,4,3,True,14,True,4,True,0,False,False,2,False,False,False,False,False
+2412_01072,When Fine-Tuning LLMs Meets Data Privacy: An Empirical Study of Federated Learning in LLM-Based Program Repair,40,Exclude,EC2:other_se_task,0,8,False,11,True,0,False,1,False,False,9,True,False,False,False,False
+2411_19463,Understanding the Design Decisions of Retrieval-Augmented Generation Systems,25,Include,all_IC_passed,4,4,True,9,True,4,True,2,True,False,1,False,False,False,False,False
+2412_05311,DRC-Coder: Automated DRC Checker Code Generation Using LLM Autonomous Agent,9,Uncertain,partial_IC_match,3,3,True,6,True,1,False,0,False,False,0,False,False,False,False,False
+2411_18731,The Performance of the LSTM-based Code Generated by Large Language Models (LLMs) in Forecasting Time Series Data,14,Include,strong_match,5,5,True,13,True,6,True,1,False,False,2,False,False,False,False,False
+2411_15587,ConAIR:Consistency-Augmented Iterative Interaction Framework to Enhance the Reliability of Code Generation,20,Uncertain,weak_match,3,2,False,8,True,3,True,0,False,False,0,False,False,False,False,False
+2411_15501,Instruct or Interact? Exploring and Eliciting LLMs' Capability in Code Snippet Adaptation Through Prompt Engineering,12,Exclude,EC2:other_se_task,2,2,False,9,True,3,True,0,False,False,5,True,False,False,False,False
+2411_14303,BugSpotter: Automated Generation of Code Debugging Exercises,7,Exclude,EC1:efficiency_not_core,4,1,False,6,True,1,False,0,False,True,2,False,False,False,False,False
+2411_13163,Unlocking Historical Clinical Trial Data with ALIGN: A Compositional Large Language Model System for Medical Coding,28,Uncertain,weak_match,3,2,False,6,True,1,False,0,False,False,0,False,False,False,False,False
+2411_13611,DSTC: Direct Preference Learning with Only Self-Generated Tests and Code to Improve Code LMs,20,Include,strong_match,3,4,True,12,True,5,True,1,False,False,0,False,False,False,False,False
+2411_11532,CKGFuzzer: LLM-Based Fuzz Driver Generation Enhanced By Code Knowledge Graph,12,Exclude,EC2:other_se_task,2,3,True,6,True,1,False,0,False,False,7,True,False,False,False,False
+2411_11055,FastDraft: How to Train Your Draft,18,Include,strong_match,1,11,False,8,True,2,True,5,True,False,0,False,False,False,False,False
+2411_10861,See-Saw Generative Mechanism for Scalable Recursive Code Generation with Generative AI,18,Uncertain,partial_IC_match,3,3,True,6,True,1,False,0,False,False,0,False,False,False,False,False
+2411_11908,LLM4DS: Evaluating Large Language Models for Data Science Code Generation,11,Uncertain,partial_IC_match,3,3,True,12,True,2,True,0,False,False,0,False,False,False,False,False
+2411_10753,Chain-of-Programming (CoP) : Empowering Large Language Models for Geospatial Code Generation,29,Uncertain,partial_IC_match,2,3,True,13,True,1,False,0,False,False,1,False,False,False,False,False
+2411_10656,Precision or Peril: Evaluating Code Quality from Quantized Large Language Models,24,Include,all_IC_passed,5,8,True,8,True,4,True,4,True,False,4,False,False,False,False,False
+2411_10599,Generating Energy-efficient code with LLMs,8,Include,all_IC_passed,4,6,True,10,True,3,True,4,True,False,1,False,False,False,False,False
+2411_10541,Does Prompt Formatting Have Any Impact on LLM Performance?,16,Include,strong_match,3,5,True,9,True,2,True,1,False,False,1,False,False,False,False,False
+2411_10145,An Effective Framework to Help Large Language Models Handle Numeric-involved Long-context Tasks,6,Uncertain,weak_match,1,4,False,7,True,0,False,1,False,False,0,False,False,False,False,False
+2411_09688,Squeezed Attention: Accelerating Long Context Length LLM Inference,22,Include,strong_match,2,12,True,5,True,1,False,4,True,False,0,False,False,False,False,False
+2411_08706,Searching Latent Program Spaces,58,Uncertain,weak_match,1,5,False,9,True,1,False,0,False,False,0,False,False,False,False,False
+2411_08932,PyGen: A Collaborative Human-AI Approach to Python Package Creation,33,Include,strong_match,3,6,True,7,True,1,False,2,True,False,2,False,False,False,False,False
+2411_08027,LLMPhy: Complex Physical Reasoning Using Large Language Models and World Models,67,Uncertain,weak_match,5,2,False,6,True,2,True,0,False,False,0,False,False,False,False,False
+2411_07586,A Comprehensive Survey of AI-Driven Advancements and Techniques in Automated Program Repair and Code Generation,19,Exclude,EC4:survey,5,1,False,7,True,2,True,0,False,True,4,False,False,True,True,False
+2411_06774,The First Prompt Counts the Most! An Evaluation of Large Language Models on Iterative Example-Based Code Generation,24,Uncertain,partial_IC_match,4,3,True,7,True,3,True,0,False,False,2,False,False,False,False,False
+2411_06767,PDC \& DM-SFT: A Road for LLM SQL Bug-Fix Enhancing,15,Include,strong_match,2,6,True,14,True,1,False,2,True,False,1,False,False,False,False,False
+2411_06722,"Synthesize, Partition, then Adapt: Eliciting Diverse Samples from Foundation Models",27,Uncertain,partial_IC_match,2,5,True,10,True,4,True,0,False,False,0,False,False,False,False,False
+2411_06680,"Anchor Attention, Small Cache: Code Generation with Large Language Models",14,Uncertain,partial_IC_match,3,6,True,11,True,4,True,0,False,False,0,False,False,False,False,False
+2411_06638,Model Editing for LLMs4Code: How Far are We?,13,Include,strong_match,2,5,True,10,True,1,False,1,False,False,2,False,False,False,False,False
+2411_05199,CodeLutra: Boosting LLM Code Generation via Preference-Guided Refinement,20,Uncertain,partial_IC_match,2,3,True,10,True,2,True,0,False,False,2,False,False,False,False,False
+2411_04905,OpenCoder: The Open Cookbook for Top-Tier Code Large Language Models,35,Uncertain,partial_IC_match,2,3,True,11,True,3,True,0,False,False,0,False,False,False,False,False
+2411_04372,Benchmarking Large Language Models with Integer Sequence Generation Tasks,14,Uncertain,partial_IC_match,3,3,True,7,True,4,True,0,False,False,1,False,False,False,False,False
+2411_04329,CodeTree: Agent-guided Tree Search for Code Generation with Large Language Models,16,Include,all_IC_passed,3,5,True,8,True,7,True,2,True,False,2,False,False,False,False,False
+2411_04156,Crystal: Illuminating LLM Abilities on Language and Code,22,Include,all_IC_passed,4,6,True,13,True,6,True,2,True,False,0,False,False,False,False,False
+2411_03471,MetRex: A Benchmark for Verilog Code Metric Reasoning Using LLMs,7,Include,all_IC_passed,2,11,True,8,True,2,True,5,True,False,0,False,False,False,False,False
+2411_03356,Enhancing Table Representations with LLM-powered Synthetic Data Generation,13,Include,strong_match,2,3,True,9,True,1,False,1,False,False,0,False,False,False,False,False
+2411_02320,An Empirical Study on the Code Refactoring Capability of Large Language Models,25,Exclude,EC2:other_se_task,3,2,False,9,True,3,True,0,False,False,4,True,False,False,False,False
+2411_01142,NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference,13,Include,strong_match,2,10,True,7,True,1,False,6,True,False,0,False,False,False,False,False
+2411_00414,On the Opportunities of Large Language Models for Programming Process Data,14,Exclude,EC1:efficiency_not_core,1,0,False,8,True,1,False,0,False,True,0,False,False,False,False,False
+2410_24198,SelfCodeAlign: Self-Alignment for Code Generation,88,Uncertain,partial_IC_match,5,3,True,15,True,8,True,0,False,False,3,False,False,False,False,False
+2410_23894,Metamorphic Malware Evolution: The Potential and Peril of Large Language Models,8,Include,strong_match,6,3,True,14,True,7,True,1,False,False,5,False,False,False,False,False
+2410_22916,Explainable Behavior Cloning: Teaching Large Language Model Agents through Learning by Demonstration,20,Exclude,EC1:efficiency_not_core,5,1,False,6,True,3,True,0,False,True,0,False,False,False,False,False
+2410_22793,Less is More: DocString Compression in Code Generation,31,Include,all_IC_passed,4,8,True,12,True,6,True,3,True,False,1,False,False,False,False,False
+2410_22480,Scaling LLM Inference with Optimized Sample Compute Allocation,15,Include,all_IC_passed,2,5,True,10,True,3,True,3,True,False,1,False,False,False,False,False
+2410_22293,Fine-Tuning LLMs for Code Mutation: A New Era of Cyber Threats,9,Uncertain,partial_IC_match,7,4,True,17,True,7,True,0,False,False,2,False,False,False,False,False
+2410_22159,Training LLMs for Generating IEC 61131-3 Structured Text with Online Feedback,7,Include,strong_match,2,6,True,10,True,2,True,1,False,False,2,False,False,False,False,False
+2410_22375,Rethinking Code Refinement: Learning to Judge Code Efficiency,12,Include,strong_match,3,3,True,10,True,1,False,1,False,False,0,False,False,False,False,False
+2410_21591,Can Large Language Models Replace Data Scientists in Biomedical Research?,28,Uncertain,partial_IC_match,5,4,True,6,True,4,True,0,False,False,1,False,False,False,False,False
+2410_21035,Beyond Autoregression: Fast LLMs via Self-Distillation Through Time,39,Include,strong_match,2,7,True,8,True,1,False,2,True,False,0,False,False,False,False,False
+2410_20975,Geo-FuB: A Method for Constructing an Operator-Function Knowledge Base for Geospatial Code Generation Tasks Using Large Language Models,44,Uncertain,weak_match,3,2,False,9,True,1,False,0,False,False,0,False,False,False,False,False
+2410_21349,FALCON: Feedback-driven Adaptive Long/short-term memory reinforced Coding Optimization system,6,Include,strong_match,4,5,True,14,True,6,True,1,False,False,1,False,False,False,False,False
+2410_19245,MaCTG: Multi-Agent Collaborative Thought Graph for Automatic Programming,12,Exclude,EC2:other_se_task,2,4,True,13,True,1,False,1,False,False,5,True,False,False,False,False
+2410_19096,Watermarking Large Language Models and the Generated Content: Opportunities and Challenges,8,Include,strong_match,2,10,True,12,True,1,False,1,False,False,0,False,False,False,False,False
+2410_18194,ZIP-FIT: Embedding-Free Data Selection via Compression-Based Alignment,23,Include,strong_match,2,7,True,7,True,3,True,1,False,False,0,False,False,False,False,False
+2410_17765,Faster Language Models with Better Multi-Token Prediction Using Tensor Decomposition,10,Include,strong_match,2,11,True,7,True,1,False,4,True,False,0,False,False,False,False,False
+2410_17621,Process Supervision-Guided Policy Optimization for Code Generation,15,Uncertain,partial_IC_match,4,4,True,9,True,5,True,0,False,False,2,False,False,False,False,False
+2411_05010,Scattered Forest Search: Smarter Code Space Exploration with LLMs,37,Include,all_IC_passed,3,5,True,5,True,8,True,2,True,False,1,False,False,False,False,False
+2410_15756,Automated Proof Generation for Rust Code via Self-Evolution,28,Exclude,EC1:efficiency_not_core,2,1,False,7,True,2,True,0,False,True,2,False,False,False,False,False
+2410_15285,Contextual Augmented Multi-Model Programming (CAMP): A Hybrid Local-Cloud Copilot Framework,11,Include,strong_match,4,5,True,12,True,3,True,1,False,False,2,False,False,False,False,False
+2410_14627,CELI: Controller-Embedded Language Model Interactions,26,Uncertain,weak_match,3,2,False,4,True,3,True,0,False,False,2,False,False,False,False,False
+2410_14766,Evaluating Quantized Large Language Models for Code Generation on Low-Resource Language Benchmarks,20,Include,all_IC_passed,5,6,True,20,True,6,True,2,True,False,2,False,False,False,False,False
+2410_14209,Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents,12,Uncertain,partial_IC_match,3,3,True,11,True,2,True,0,False,False,1,False,False,False,False,False
+2410_13213,LLMOPT: Learning to Define and Solve General Optimization Problems from Scratch,27,Uncertain,weak_match,3,2,False,7,True,1,False,0,False,False,0,False,False,False,False,False
+2410_13187,aiXcoder-7B: A Lightweight and Effective Large Language Model for Code Processing,12,Include,strong_match,6,6,True,15,True,7,True,1,False,False,2,False,False,False,False,False
+2410_13007,Codellm-Devkit: A Framework for Contextualizing Code LLMs with Program Analysis Insights,11,Uncertain,partial_IC_match,4,3,True,6,True,3,True,0,False,False,7,False,False,False,False,False
+2410_12236,Enhancing LLM Agents for Code Generation with Possibility and Pass-rate Prioritized Experience Replay,9,Uncertain,partial_IC_match,4,4,True,13,True,5,True,0,False,False,3,False,False,False,False,False
+2410_11900,FLARE: Faithful Logic-Aided Reasoning and Exploration,19,Include,strong_match,3,2,False,8,True,1,False,1,False,False,0,False,False,False,False,False
+2410_10209,EffiCoder: Enhancing Code Generation in Large Language Models through Efficiency-Aware Fine-tuning,19,Include,all_IC_passed,3,6,True,18,True,7,True,2,True,False,4,False,False,False,False,False
+2410_09854,A Model Is Not Built By A Single Prompt: LLM-Based Domain Modeling With Question Decomposition,12,Exclude,EC2:other_se_task,2,4,True,9,True,1,False,1,False,False,3,True,False,False,False,False
+2410_09738,Can Large Language Models Generate Geospatial Code?,49,Uncertain,weak_match,4,2,False,9,True,2,True,0,False,False,1,False,False,False,False,False
+2410_09675,COrAL: Order-Agnostic Language Modeling for Efficient Iterative Refinement,23,Include,strong_match,2,9,True,7,True,1,False,4,True,False,0,False,False,False,False,False
+2410_09662,Evaluating the Effectiveness and Efficiency of Demonstration Retrievers in RAG for Coding Tasks,11,Include,all_IC_passed,6,5,True,8,True,4,True,3,True,False,4,False,False,False,False,False
+2410_09187,Automated Rewards via LLM-Generated Progress Functions,26,Uncertain,partial_IC_match,4,4,True,6,True,2,True,0,False,False,0,False,False,False,False,False
+2410_09034,PEAR: A Robust and Flexible Automation Framework for Ptychography Enabled by Multiple Large Language Model Agents,18,Include,strong_match,2,4,True,8,True,1,False,1,False,False,0,False,False,False,False,False
+2410_09012,Software Engineering and Foundation Models: Insights from Industry Blogs Using a Jury of Foundation Models,12,Uncertain,partial_IC_match,5,4,True,9,True,3,True,0,False,False,10,False,False,False,False,False
+2410_08911,Test-driven Software Experimentation with LASSO: an LLM Prompt Benchmarking Example,6,Exclude,EC2:other_se_task,2,2,False,8,True,2,True,0,False,False,3,True,False,False,False,False
+2410_21285,FastFixer: An Efficient and Effective Approach for Repairing Programming Assignments,12,Exclude,EC2:other_se_task,1,12,False,9,True,0,False,2,True,False,4,True,False,False,False,False
+2410_08391,KV Prediction for Improved Time to First Token,20,Include,strong_match,1,16,False,6,True,2,True,6,True,False,0,False,False,False,False,False
+2410_08105,What Makes Large Language Models Reason in (Multi-Turn) Code Generation?,38,Exclude,EC1:efficiency_not_core,2,1,False,7,True,5,True,0,False,True,2,False,False,False,False,False
+2410_18251,Context-Augmented Code Generation Using Programming Knowledge Graphs,21,Include,strong_match,5,5,True,9,True,7,True,1,False,False,1,False,False,False,False,False
+2410_07295,IterGen: Iterative Semantic-aware Structured LLM Generation with Backtracking,27,Uncertain,weak_match,2,2,False,6,True,1,False,0,False,False,0,False,False,False,False,False
+2410_06949,Towards Exception Safety Code Generation with Intermediate Representation Agents Framework,36,Uncertain,weak_match,2,2,False,6,True,1,False,0,False,False,2,False,False,False,False,False
+2410_05797,CodeCipher: Learning to Obfuscate Source Code Against LLMs,17,Uncertain,weak_match,3,2,False,9,True,5,True,0,False,False,2,False,False,False,False,False
+2410_05605,CodeDPO: Aligning Code Models with Self Generated and Verified Source Code,18,Uncertain,weak_match,4,2,False,12,True,4,True,0,False,False,1,False,False,False,False,False
+2410_16309,In-the-loop Hyper-Parameter Optimization for LLM-Based Automated Design of Heuristics,19,Uncertain,partial_IC_match,2,4,True,6,True,1,False,0,False,False,1,False,False,False,False,False
+2410_05340,Generating CAD Code with Vision-Language Models for 3D Designs,27,Uncertain,weak_match,4,2,False,9,True,2,True,0,False,False,1,False,False,False,False,False
+2410_03981,A Survey on LLM-based Code Generation for Low-Resource and Domain-Specific Programming Languages,64,Exclude,EC4:survey,6,2,False,11,True,5,True,0,False,False,2,False,False,True,True,False
+2410_03960,SwiftKV: Fast Prefill-Optimized Inference with Knowledge-Preserving Model Transformation,19,Include,strong_match,1,15,False,10,True,1,False,7,True,False,0,False,False,False,False,False
+2410_03837,Learning Code Preference via Synthetic Evolution,29,Include,strong_match,3,3,True,9,True,6,True,1,False,False,2,False,False,False,False,False
+2410_03524,Steering Large Language Models between Code Execution and Textual Reasoning,32,Include,strong_match,4,5,True,6,True,1,False,1,False,False,1,False,False,False,False,False
+2410_03234,Showing LLM-Generated Code Selectively Based on Confidence of LLMs,21,Exclude,EC2:other_se_task,2,1,False,9,True,3,True,0,False,True,3,True,False,False,False,False
+2410_03210,Tadashi: Enabling AI-Based Automated Code Generation With Guaranteed Correctness,12,Include,all_IC_passed,3,5,True,5,True,2,True,2,True,False,1,False,False,False,False,False
+2410_03131,AIME: AI System Optimization via Multiple LLM Evaluators,21,Uncertain,partial_IC_match,2,3,True,8,True,2,True,0,False,False,2,False,False,False,False,False
+2410_02958,AutoML-Agent: A Multi-Agent LLM Framework for Full-Pipeline AutoML,48,Include,strong_match,3,8,True,7,True,1,False,3,True,False,0,False,False,False,False,False
+2410_02743,MA-RLHF: Reinforcement Learning from Human Feedback with Macro Actions,34,Include,all_IC_passed,3,7,True,7,True,4,True,2,True,False,0,False,False,False,False,False
+2410_01748,Not All LLM Reasoners Are Created Equal,22,Include,strong_match,3,4,True,10,True,2,True,1,False,False,0,False,False,False,False,False
+2410_13874,COOL: Efficient and Reliable Chain-Oriented Objective Logic with Neural Networks Feedback Control for Program Synthesis,31,Uncertain,weak_match,1,3,False,8,True,1,False,0,False,False,0,False,False,False,False,False
+2410_00558,AMR-Evol: Adaptive Modular Response Evolution Elicits Better Knowledge Distillation for Large Language Models in Code Generation,24,Uncertain,weak_match,2,2,False,17,True,4,True,0,False,False,2,False,False,False,False,False
+2409_20550,"LLM Hallucinations in Practical Code Generation: Phenomena, Mechanism, and Mitigation",13,Uncertain,partial_IC_match,5,3,True,13,True,4,True,0,False,False,2,False,False,False,False,False
+2409_19922,"Benchmarking ChatGPT, Codeium, and GitHub Copilot: A Comparative Study of AI-Driven Programming and Debugging Assistants",6,Include,strong_match,4,3,True,7,True,2,True,1,False,False,2,False,False,False,False,False
+2409_18893,HM3: Hierarchical Multi-Objective Model Merging for Pretrained Models,17,Uncertain,partial_IC_match,2,4,True,5,True,3,True,0,False,False,1,False,False,False,False,False
+2409_19027,Code Generation and Algorithmic Problem Solving Using Llama 3.1 405B,19,Uncertain,weak_match,5,2,False,10,True,2,True,0,False,False,1,False,False,False,False,False
+2409_16416,Selection of Prompt Engineering Techniques for Code Generation through Predicting Code Complexity,21,Uncertain,weak_match,2,2,False,7,True,4,True,0,False,False,2,False,False,False,False,False
+2409_16120,MOSS: Enabling Code-Driven Evolution and Context Management for AI Agents,27,Uncertain,partial_IC_match,4,3,True,4,True,1,False,0,False,False,0,False,False,False,False,False
+2409_15895,Preference-Guided Refactored Tuning for Retrieval Augmented Code Generation,13,Uncertain,partial_IC_match,3,7,True,10,True,1,False,0,False,False,1,False,False,False,False,False
+2409_15228,A Comprehensive Framework for Evaluating API-oriented Code Generation in Large Language Models,23,Uncertain,weak_match,4,2,False,7,True,2,True,0,False,False,2,False,False,False,False,False
+2409_12699,PromSec: Prompt Optimization for Secure Generation of Functional Source Code with Large Language Models (LLMs),15,Uncertain,partial_IC_match,4,3,True,12,True,3,True,0,False,False,2,False,False,False,False,False
+2409_11667,Bridging Design and Development with Automated Declarative UI Code Generation,13,Uncertain,weak_match,5,2,False,5,True,3,True,0,False,False,0,False,False,False,False,False
+2409_08692,B4: Towards Optimal Assessment of Plausible Code Solutions with Plausible Tests,13,Uncertain,weak_match,3,2,False,5,True,2,True,0,False,False,2,False,False,False,False,False
+2409_08212,Adaptive Language-Guided Abstraction from Contrastive Explanations,14,Uncertain,weak_match,1,3,False,2,True,1,False,0,False,False,0,False,False,False,False,False
+2409_07368,Demo: SGCode: A Flexible Prompt-Optimizing System for Secure Generation of Code,3,Exclude,EC4:short,4,5,True,7,True,1,False,2,True,False,0,False,False,True,False,True
+2409_12171,Semantic Interoperability on Blockchain by Generating Smart Contracts Based on Knowledge Graphs,44,Exclude,EC1:efficiency_not_core,2,1,False,3,True,1,False,0,False,True,0,False,False,False,False,False
+2409_06957,Policy Filtration for RLHF to Mitigate Noise in Reward Models,24,Uncertain,partial_IC_match,2,4,True,12,True,4,True,0,False,False,1,False,False,False,False,False
+2409_06679,E2LLM: Encoder Elongated Large Language Models for Long-Context Understanding and Reasoning,36,Include,strong_match,2,6,True,10,True,1,False,3,True,False,0,False,False,False,False,False
+2409_06450,Multimodal Large Language Model Driven Scenario Testing for Autonomous Vehicles,11,Exclude,IC3:not_codegen_task,0,3,False,7,True,0,False,0,False,False,0,False,False,False,False,False
+2409_05001,A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement,13,Uncertain,partial_IC_match,3,4,True,10,True,5,True,0,False,False,1,False,False,False,False,False
+2409_02326,Arctic-SnowCoder: Demystifying High-Quality Data in Code Pretraining,15,Uncertain,weak_match,3,2,False,11,True,7,True,0,False,False,1,False,False,False,False,False
+2409_11411,AIvril: AI-Driven RTL Generation With Verification In-The-Loop,7,Uncertain,partial_IC_match,3,4,True,12,True,3,True,0,False,False,0,False,False,False,False,False
+2409_01075,Vortex: Efficient Sample-Free Dynamic Tensor Program Optimization via Hardware-aware Strategy Space Hierarchization,15,Include,strong_match,2,7,True,6,True,1,False,3,True,False,0,False,False,False,False,False
+2409_00997,DataSculpt: Crafting Data Landscapes for Long-Context LLMs through Multi-Objective Partitioning,14,Include,strong_match,1,4,False,12,True,1,False,1,False,False,0,False,False,False,False,False
+2409_00921,Statically Contextualizing Large Language Models with Typed Holes,31,Include,strong_match,5,2,False,9,True,7,True,1,False,False,2,False,False,False,False,False
+2408_16673,Preserving Diversity in Supervised Fine-Tuning of Large Language Models,28,Uncertain,partial_IC_match,2,3,True,8,True,1,False,0,False,False,0,False,False,False,False,False
+2408_16498,A Survey on Evaluating Large Language Models in Code Generation Tasks,26,Exclude,EC4:survey,3,4,True,8,True,5,True,2,True,False,4,False,False,True,True,False
+2408_15866,Retrieval-Augmented Instruction Tuning for Automated Process Engineering Calculations : A Tool-Chaining Problem-Solving Framework with Attributable Reflection,16,Uncertain,weak_match,4,2,False,9,True,1,False,0,False,False,0,False,False,False,False,False
+2408_15512,Toward Automated Simulation Research Workflow through LLM Prompt Engineering Design,13,Uncertain,partial_IC_match,3,3,True,9,True,2,True,0,False,False,2,False,False,False,False,False
+2408_14834,Strategic Optimization and Challenges of Large Language Models in Object-Oriented Programming,10,Uncertain,partial_IC_match,5,6,True,10,True,5,True,0,False,False,2,False,False,False,False,False
+2409_02938,CortexCompile: Harnessing Cortical-Inspired Architectures for Enhanced Multi-Agent NLP Code Synthesis,17,Include,all_IC_passed,5,5,True,7,True,3,True,2,True,False,0,False,False,False,False,False
+2408_12948,E-code: Mastering Efficient Code Generation through Pretrained Models and Expert Encoder Group,23,Include,all_IC_passed,5,4,True,9,True,3,True,2,True,False,4,False,False,False,False,False
+2408_12125,AutoTest: Evolutionary Code Solution Selection with Test Cases,3,Exclude,EC4:short,7,3,True,7,True,6,True,0,False,False,3,False,False,True,False,True
+2408_12056,Enhancing Automated Program Repair with Solution Design,13,Exclude,EC2:other_se_task,4,4,True,11,True,3,True,1,False,False,5,True,False,False,False,False
+2408_11338,"Automatic Dataset Construction (ADC): Sample Collection, Data Curation, and Beyond",20,Uncertain,partial_IC_match,2,3,True,7,True,1,False,0,False,False,0,False,False,False,False,False
+2408_11296,RePair: Automated Program Repair with Process-based Feedback,15,Exclude,EC2:other_se_task,3,8,True,10,True,3,True,3,True,False,3,True,False,False,False,False
+2408_11198,Automated Prompt Engineering for Cost-Effective Code Generation Using Evolutionary Algorithm,18,Uncertain,partial_IC_match,2,3,True,5,True,5,True,0,False,False,2,False,False,False,False,False
+2408_10577,Optimizing Large Language Model Hyperparameters for Code Generation,10,Uncertain,partial_IC_match,3,3,True,7,True,1,False,0,False,False,2,False,False,False,False,False
+2408_10554,Ethics of Software Programming with Generative AI: Is Programming without Generative AI always radical?,19,Include,strong_match,3,3,True,7,True,1,False,1,False,False,2,False,False,False,False,False
+2408_10495,How Well Do Large Language Models Serve as End-to-End Secure Code Agents for Python?,10,Exclude,EC1:efficiency_not_core,4,1,False,9,True,3,True,0,False,True,2,False,False,False,False,False
+2408_09568,MergeRepair: An Exploratory Study on Merging Task-Specific Adapters in Code LLMs for Automated Program Repair,40,Exclude,EC2:other_se_task,3,7,True,10,True,3,True,1,False,False,3,True,False,False,False,False
+2408_09078,An Exploratory Study on Fine-Tuning Large Language Models for Secure Code Generation,37,Exclude,EC2:other_se_task,2,4,True,15,True,4,True,0,False,False,4,True,False,False,False,False
+2408_08927,VerilogCoder: Autonomous Verilog Coding Agents with Graph-based Planning and Abstract Syntax Tree (AST)-based Waveform Tracing Tool,8,Include,all_IC_passed,3,4,True,9,True,4,True,2,True,False,0,False,False,False,False,False
+2408_08335,Plan with Code: Comparing approaches for robust NL to DSL generation,9,Uncertain,weak_match,4,2,False,10,True,2,True,0,False,False,0,False,False,False,False,False
+2408_07846,A System for Automated Unit Test Generation Using Large Language Models and Assessment of Generated Test Suites,11,Uncertain,partial_IC_match,3,3,True,7,True,1,False,0,False,False,2,False,False,False,False,False
+2408_08333,CodeMirage: Hallucinations in Code Generated by Large Language Models,10,Uncertain,partial_IC_match,5,3,True,12,True,5,True,0,False,False,1,False,False,False,False,False
+2408_06810,HLSPilot: LLM-based High-Level Synthesis,9,Include,strong_match,3,6,True,9,True,1,False,2,True,False,1,False,False,False,False,False
+2408_06450,Evaluating Language Models for Efficient Code Generation,18,Include,all_IC_passed,2,6,True,10,True,5,True,3,True,False,1,False,False,False,False,False
+2408_05727,Hotfixing Large Language Models for Code,22,Include,all_IC_passed,4,7,True,10,True,2,True,2,True,False,2,False,False,False,False,False
+2408_05715,Top Pass: Improve Code Generation by Pass@k-Maximized Code Ranking,17,Exclude,EC2:other_se_task,2,2,False,10,True,7,True,0,False,False,3,True,False,False,False,False
+2408_05026,Retrieval-augmented code completion for local projects using large language models,30,Include,all_IC_passed,5,6,True,12,True,4,True,2,True,False,1,False,False,False,False,False
+2408_04811,h4rm3l: A language for Composable Jailbreak Attack Synthesis,34,Uncertain,weak_match,1,4,False,7,True,1,False,0,False,False,0,False,False,False,False,False
+2408_03680,Smaller but Better: Self-Paced Knowledge Distillation for Lightweight yet Effective LCMs,25,Uncertain,partial_IC_match,4,3,True,16,True,5,True,0,False,False,2,False,False,False,False,False
+2408_03092,Extend Model Merging from Fine-Tuned to Pre-Trained Large Language Models via Weight Disentanglement,17,Uncertain,partial_IC_match,2,4,True,8,True,3,True,0,False,False,0,False,False,False,False,False
+2408_02509,Black-Box Adversarial Attacks on LLM-Based Code Completion,20,Include,all_IC_passed,6,4,True,9,True,6,True,2,True,False,2,False,False,False,False,False
+2408_02402,Enhancing AI-based Generation of Software Exploits with Contextual Information,13,Uncertain,partial_IC_match,5,4,True,6,True,1,False,0,False,False,2,False,False,False,False,False
+2408_02232,SpecRover: Code Intent Extraction via LLMs,12,Uncertain,weak_match,4,2,False,8,True,5,True,0,False,False,8,False,False,False,False,False
+2408_02211,SceneMotifCoder: Example-driven Visual Program Learning for Generating 3D Object Arrangements,29,Include,strong_match,3,2,False,7,True,2,True,1,False,False,0,False,False,False,False,False
+2408_01651,Music2P: A Multi-Modal AI-Driven Tool for Simplifying Album Cover Design,5,Include,strong_match,2,5,True,8,True,1,False,1,False,False,1,False,False,False,False,False
+2408_00665,AutoM3L: An Automated Multimodal Machine Learning Framework with Large Language Models,18,Include,strong_match,2,7,True,6,True,1,False,1,False,False,0,False,False,False,False,False
+2407_21579,A Performance Study of LLM-Generated Code on Leetcode,11,Exclude,EC2:other_se_task,5,5,True,14,True,6,True,2,True,False,3,True,False,False,False,False
+2407_21227,TaskEval: Assessing Difficulty of Code Generation Tasks for Large Language Models,36,Exclude,EC1:efficiency_not_core,4,1,False,10,True,5,True,0,False,True,0,False,False,False,False,False
+2408_00019,WebApp1K: A Practical Code-Generation Benchmark for Web App Development,9,Include,strong_match,2,2,False,11,True,4,True,2,True,False,2,False,False,False,False,False
+2407_21077,Genetic Instruct: Scaling up Synthetic Generation of Coding Instructions for Large Language Models,14,Include,all_IC_passed,3,7,True,9,True,6,True,4,True,False,1,False,False,False,False,False
+2407_20042,When to Stop? Towards Efficient Code Generation in LLMs with Excess Token Prevention,13,Include,all_IC_passed,3,8,True,14,True,5,True,4,True,False,2,False,False,False,False,False
+2407_18723,LLASP: Fine-tuning Large Language Models for Answer Set Programming,11,Include,all_IC_passed,5,5,True,13,True,3,True,2,True,False,1,False,False,False,False,False
+2407_18242,LoRA-Pro: Are Low-Rank Adapters Properly Optimized?,22,Uncertain,partial_IC_match,2,8,True,8,True,1,False,0,False,False,0,False,False,False,False,False
+2407_16847,SPLAT: A framework for optimised GPU code-generation for SParse reguLar ATtention,31,Include,strong_match,3,9,True,4,True,1,False,5,True,False,0,False,False,False,False,False
+2407_15568,Empowering Agile-Based Generative Software Development through Human-AI Teamwork,45,Uncertain,partial_IC_match,2,3,True,6,True,1,False,0,False,False,2,False,False,False,False,False
+2407_14044,ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?,15,Include,all_IC_passed,2,4,True,12,True,2,True,2,True,False,1,False,False,False,False,False
+2407_11470,Beyond Correctness: Benchmarking Multi-dimensional Code Generation for Large Language Models,20,Exclude,EC2:other_se_task,4,3,True,13,True,6,True,1,False,False,3,True,False,False,False,False
+2407_10817,Foundational Autoraters: Taming Large Language Models for Better Automatic Evaluation,31,Uncertain,weak_match,2,2,False,10,True,3,True,0,False,False,0,False,False,False,False,False
+2407_10424,CodeV: Empowering LLMs with HDL Generation through Multi-Level Summarization,13,Exclude,EC1:efficiency_not_core,3,1,False,9,True,3,True,0,False,True,2,False,False,False,False,False
+2407_10106,DistillSeq: A Framework for Safety Alignment Testing in Large Language Models using Knowledge Distillation,12,Include,strong_match,2,8,True,8,True,1,False,1,False,False,1,False,False,False,False,False
+2407_09453,"Weight Block Sparsity: Training, Compilation, and AI Engine Accelerators",12,Include,strong_match,3,14,True,3,True,1,False,8,True,False,0,False,False,False,False,False
+2407_09164,ShadowCode: Towards (Automatic) External Prompt Injection Attack against Code LLMs,16,Include,strong_match,6,3,True,10,True,3,True,1,False,False,2,False,False,False,False,False
+2407_09111,Inference Optimization of Foundation Models on AI Accelerators,11,Include,all_IC_passed,3,18,True,13,True,3,True,5,True,False,0,False,False,False,False,False
+2407_07064,Prompting Techniques for Secure Code Generation: A Systematic Investigation,51,Include,strong_match,6,3,True,9,True,8,True,1,False,False,4,False,False,False,False,False
+2407_06889,A Neurosymbolic Approach to Adaptive Feature Extraction in SLAM,8,Uncertain,weak_match,1,3,False,2,True,1,False,0,False,False,0,False,False,False,False,False
+2407_06826,VRDSynth: Synthesizing Programs for Multilingual Visually Rich Document Information Extraction,13,Include,strong_match,1,5,False,5,True,1,False,1,False,False,0,False,False,False,False,False
+2407_06245,ORAN-Bench-13K: An Open Source Benchmark for Assessing LLMs in Open Radio Access Networks,6,Include,strong_match,2,7,True,9,True,1,False,3,True,False,0,False,False,False,False,False
+2407_05437,Enhancing Computer Programming Education with LLMs: A Study on Effective Prompt Engineering for Python Code Generation,18,Uncertain,partial_IC_match,6,3,True,8,True,6,True,0,False,False,2,False,False,False,False,False
+2407_05040,"Code Less, Align More: Efficient LLM Fine-tuning for Code Generation with Data Pruning",14,Include,all_IC_passed,2,9,True,13,True,6,True,3,True,False,1,False,False,False,False,False
+2407_03889,Automated C/C++ Program Repair for High-Level Synthesis via Large Language Models,9,Exclude,EC2:other_se_task,3,4,True,6,True,1,False,1,False,False,3,True,False,False,False,False
+2407_03469,Scaling Data-Driven Building Energy Modelling using Large Language Models,9,Include,strong_match,3,4,True,8,True,1,False,1,False,False,0,False,False,False,False,False
+2407_03157,Let the Code LLM Edit Itself When You Edit the Code,17,Include,all_IC_passed,3,14,True,10,True,2,True,3,True,False,0,False,False,False,False,False
+2407_02813,Data Overfitting for On-Device Super-Resolution with Dynamic Algorithm and Compiler Co-Design,19,Exclude,IC2:not_llm_based,2,8,True,0,False,1,False,5,True,False,0,False,False,False,False,False
+2407_02742,A Comparative Study of DSL Code Generation: Fine-Tuning vs. Optimized Retrieval Augmentation,8,Uncertain,partial_IC_match,4,3,True,15,True,2,True,0,False,False,0,False,False,False,False,False
+2407_02056,Integrate the Essence and Eliminate the Dross: Fine-Grained Self-Consistency for Free-Form Language Generation,13,Uncertain,weak_match,2,2,False,4,True,2,True,0,False,False,1,False,False,False,False,False
+2407_00434,Brevity is the soul of wit: Pruning long files for code generation,15,Uncertain,partial_IC_match,2,6,True,7,True,3,True,0,False,False,0,False,False,False,False,False
+2407_11019,Efficacy of Various Large Language Models in Generating Smart Contracts,22,Uncertain,weak_match,7,2,False,11,True,5,True,0,False,False,3,False,False,False,False,False
+2406_20060,Applying RLAIF for Code Generation with API-usage in Lightweight LLMs,7,Uncertain,partial_IC_match,6,3,True,10,True,5,True,0,False,False,2,False,False,False,False,False
+2407_12022,ITERTL: An Iterative Framework for Fine-tuning LLMs for RTL Code Generation,5,Uncertain,partial_IC_match,2,4,True,12,True,3,True,0,False,False,1,False,False,False,False,False
+2406_19185,Contrastive Policy Gradient: Aligning LLMs on sequence-level scores in a supervised-friendly fashion,18,Uncertain,partial_IC_match,2,4,True,7,True,1,False,0,False,False,1,False,False,False,False,False
+2406_18294,Hierarchical Context Pruning: Optimizing Real-World Code Completion with Repository-Level Pretrained Code LLMs,19,Include,strong_match,4,4,True,9,True,7,True,1,False,False,1,False,False,False,False,False
+2406_17092,BEEAR: Embedding-based Adversarial Removal of Safety Backdoors in Instruction-tuned Language Models,24,Uncertain,weak_match,2,2,False,7,True,1,False,0,False,False,0,False,False,False,False,False
+2406_16739,Agent-Driven Automatic Software Improvement,6,Uncertain,partial_IC_match,4,5,True,8,True,2,True,0,False,False,4,False,False,False,False,False
+2406_15877,BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions,55,Exclude,EC1:efficiency_not_core,4,1,False,6,True,5,True,0,False,True,2,False,False,False,False,False
+2406_15652,GenSQL: A Probabilistic Programming System for Querying Generative Models of Database Tables,54,Exclude,IC2:not_llm_based,1,2,False,0,False,1,False,2,True,False,0,False,False,False,False,False
+2406_14867,Investigating the Transferability of Code Repair for Low-Resource Programming Languages,23,Uncertain,partial_IC_match,4,4,True,10,True,5,True,0,False,False,1,False,False,False,False,False
+2406_14318,The Fire Thief Is Also the Keeper: Balancing Usability and Privacy in Prompts,16,Uncertain,partial_IC_match,2,6,True,9,True,1,False,0,False,False,0,False,False,False,False,False
+2406_12375,GW-MoE: Resolving Uncertainty in MoE Router with Global Workspace Theory,12,Include,all_IC_passed,2,7,True,7,True,3,True,2,True,False,0,False,False,False,False,False
+2406_12326,Towards Better Code Understanding in Decoder-Only Models with Contrastive Learning,9,Uncertain,partial_IC_match,3,4,True,14,True,2,True,0,False,False,2,False,False,False,False,False
+2406_12146,Should AI Optimize Your Code? A Comparative Study of Classical Optimizing Compilers Versus Current Large Language Models,12,Include,strong_match,3,3,True,7,True,2,True,1,False,False,0,False,False,False,False,False
+2406_11715,Measuring memorization in RLHF for code completion,30,Include,strong_match,3,4,True,7,True,2,True,1,False,False,1,False,False,False,False,False
+2406_11935,A Problem-Oriented Perspective and Anchor Verification for Code Optimization,33,Include,all_IC_passed,3,3,True,10,True,6,True,2,True,False,2,False,False,False,False,False
+2406_11409,CodeGemma: Open Code Models Based on Gemma,11,Include,all_IC_passed,6,3,True,10,True,6,True,2,True,False,1,False,False,False,False,False
+2406_11326,GitHub Copilot: the perfect Code compLeeter?,10,Include,strong_match,4,2,False,3,True,2,True,1,False,False,0,False,False,False,False,False
+2406_11912,AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology,26,Uncertain,weak_match,4,2,False,9,True,6,True,0,False,False,2,False,False,False,False,False
+2406_10803,HiddenTables \& PyQTax: A Cooperative Game and Dataset For TableQA to Ensure Scale and Data Privacy Across a Myriad of Taxonomies,17,Exclude,EC1:efficiency_not_core,3,1,False,8,True,1,False,0,False,True,0,False,False,False,False,False
+2406_10018,STALL+: Boosting LLM-based Repository-level Code Completion with Static Analysis,12,Exclude,EC1:efficiency_not_core,5,1,False,12,True,4,True,0,False,True,2,False,False,False,False,False
+2406_09834,LLMs Meet Library Evolution: Evaluating Deprecated API Usage in LLM-based Code Completion,13,Include,strong_match,5,6,True,14,True,3,True,1,False,False,4,False,False,False,False,False
+2406_09662,Learning Language Structures through Grounding,200,Exclude,IC2:not_llm_based,0,1,False,0,False,0,False,0,False,True,0,False,False,False,False,False
+2406_09041,ME-Switch: A Memory-Efficient Expert Switching Framework for Large Language Models,17,Include,strong_match,2,14,True,12,True,1,False,7,True,False,0,False,False,False,False,False
+2406_08731,Towards Understanding the Characteristics of Code Generation Errors Made by Large Language Models,13,Exclude,EC2:other_se_task,3,4,True,10,True,3,True,1,False,False,4,True,False,False,False,False
+2406_07003,GraphCoder: Enhancing Repository-Level Code Completion via Code Context Graph-based Retrieval and Language Model,12,Include,strong_match,3,4,True,13,True,2,True,1,False,False,0,False,False,False,False,False
+2406_10263,A Lightweight Framework for Adaptive Retrieval In Code Completion With Critique Model,20,Include,strong_match,3,5,True,4,True,1,False,2,True,False,0,False,False,False,False,False
+2406_06864,Validating LLM-Generated Programs with Metamorphic Prompt Testing,9,Uncertain,partial_IC_match,4,3,True,7,True,3,True,0,False,False,1,False,False,False,False,False
+2406_06647,How Efficient is LLM-Generated Code? A Rigorous \& High-Standard Benchmark,29,Include,all_IC_passed,4,5,True,6,True,5,True,3,True,False,1,False,False,False,False,False
+2406_05881,LGR2: Language Guided Reward Relabeling for Accelerating Hierarchical Reinforcement Learning,19,Uncertain,partial_IC_match,2,7,True,8,True,1,False,0,False,False,0,False,False,False,False,False
+2406_05678,SinkLoRA: Enhanced Efficiency and Chat Capabilities for Long-Context Large Language Models,22,Include,strong_match,2,10,True,10,True,1,False,2,True,False,0,False,False,False,False,False
+2406_05639,Exploring Parameter-Efficient Fine-Tuning of Large Language Model on Automated Program Repair,13,Include,all_IC_passed,5,6,True,14,True,5,True,2,True,False,5,False,False,False,False,False
+2406_05381,Experimenting with Multi-Agent Software Development: Towards a Unified Platform,11,Exclude,EC2:other_se_task,3,4,True,9,True,1,False,1,False,False,5,True,False,False,False,False
+2406_04379,VHDL-Eval: A Framework for Evaluating Large Language Models in VHDL Code Generation,6,Include,all_IC_passed,5,7,True,11,True,7,True,2,True,False,2,False,False,False,False,False
+2406_03003,Verified Code Transpilation with LLMs,19,Uncertain,partial_IC_match,5,3,True,6,True,2,True,0,False,False,1,False,False,False,False,False
+2406_00992,Hybrid Automated Program Repair by Combining Large Language Models and Program Analysis,12,Exclude,EC2:other_se_task,1,2,False,9,True,1,False,0,False,False,7,True,False,False,False,False
+2406_00602,From Effectiveness to Efficiency: Uncovering Linguistic Bias in Large Language Model-based Code Generation,13,Include,all_IC_passed,3,5,True,11,True,3,True,2,True,False,2,False,False,False,False,False
+2405_19782,Dataflow-Guided Retrieval Augmentation for Repository-Level Code Completion,21,Uncertain,weak_match,3,1,False,9,True,2,True,1,False,True,3,False,False,False,False,False
+2405_19464,"Leveraging Generative AI for Urban Digital Twins: A Scoping Review on the Autonomous Generation of Urban Data, Scenarios, Designs, and 3D City Models for Smart City Advancement",59,Exclude,IC3:not_codegen_task,0,3,False,4,True,0,False,1,False,False,0,False,False,False,False,False
+2405_18718,Efficient Model-agnostic Alignment via Bayesian Persuasion,18,Uncertain,partial_IC_match,2,5,True,6,True,3,True,0,False,False,0,False,False,False,False,False
+2405_18400,Superposed Decoding: Multiple Generations from a Single Autoregressive Inference Pass,23,Include,all_IC_passed,3,9,True,7,True,2,True,3,True,False,1,False,False,False,False,False
+2405_18137,Exploiting LLM Quantization,17,Include,all_IC_passed,3,7,True,9,True,5,True,3,True,False,1,False,False,False,False,False
+2405_17681,Synthesizing JSON Schema Transformers,7,Exclude,IC2:not_llm_based,4,1,False,1,False,2,True,0,False,True,1,False,False,False,False,False
+2405_17057,ReflectionCoder: Learning from Reflection Sequence for Enhanced One-off Code Generation,22,Uncertain,partial_IC_match,3,4,True,20,True,7,True,0,False,False,2,False,False,False,False,False
+2405_16337,"Learning to Reason via Program Generation, Emulation, and Search",24,Include,strong_match,6,7,True,7,True,3,True,1,False,False,1,False,False,False,False,False
+2405_15877,Basis Selection: Low-Rank Decomposition of Pretrained Large Language Models for Target Applications,21,Include,all_IC_passed,2,10,True,7,True,4,True,5,True,False,0,False,False,False,False,False
+2405_15729,Optimizing Large Language Models for OpenAPI Code Completion,12,Uncertain,partial_IC_match,7,6,True,18,True,6,True,0,False,False,1,False,False,False,False,False
+2405_15842,Model Cascading for Code: A Cascaded Black-Box Multi-Model Framework for Cost-Efficient Code Completion with Self-Testing,12,Include,all_IC_passed,3,11,True,12,True,7,True,2,True,False,1,False,False,False,False,False
+2405_15383,Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search,40,Uncertain,partial_IC_match,5,3,True,4,True,3,True,0,False,False,2,False,False,False,False,False
+2405_15282,Prompt Tuning Strikes Back: Customizing Foundation Models with Low-Rank Prompt Adaptation,14,Include,strong_match,3,10,True,9,True,4,True,1,False,False,1,False,False,False,False,False
+2405_15208,Decoding at the Speed of Thought: Harnessing Parallel Decoding of Lexical Units for LLMs,12,Include,all_IC_passed,2,11,True,10,True,3,True,4,True,False,1,False,False,False,False,False
+2405_15189,EffiLearner: Enhancing Efficiency of Generated Code via Self-Optimization,40,Include,strong_match,4,3,True,18,True,6,True,1,False,False,5,False,False,False,False,False
+2405_14918,AnalogCoder: Analog Circuit Design via Training-Free Code Generation,28,Uncertain,weak_match,3,2,False,9,True,1,False,0,False,False,0,False,False,False,False,False
+2405_14753,A Transformer-Based Approach for Smart Invocation of Automatic Code Completion,14,Include,strong_match,3,9,True,11,True,3,True,1,False,False,0,False,False,False,False,False
+2405_14388,Evaluation of the Programming Skills of Large Language Models,12,Uncertain,weak_match,4,2,False,9,True,3,True,0,False,False,2,False,False,False,False,False
+2405_14377,CoMERA: Computing- and Memory-Efficient Training via Rank-Adaptive Tensor Optimization,19,Exclude,IC3:not_codegen_task,0,15,False,10,True,0,False,7,True,False,0,False,False,False,False,False
+2405_13751,GameVLM: A Decision-making Framework for Robotic Task Planning Based on Visual Language Models and Zero-sum Games,6,Uncertain,weak_match,3,2,False,5,True,1,False,0,False,False,0,False,False,False,False,False
+2405_10243,DocuMint: Docstring Generation for Python using Small Language Models,12,Include,all_IC_passed,6,9,True,14,True,8,True,6,True,False,2,False,False,False,False,False
+2405_06906,Finding structure in logographic writing with library learning,9,Exclude,IC2:not_llm_based,1,2,False,0,False,1,False,1,False,False,0,False,False,False,False,False
+2405_04975,Prototype2Code: End-to-end Front-end Code Generation from UI Design Prototypes,11,Include,strong_match,4,3,True,9,True,1,False,1,False,False,0,False,False,False,False,False
+2405_04600,Contextual API Completion for Unseen Repositories Using LLMs,13,Uncertain,partial_IC_match,4,3,True,8,True,5,True,0,False,False,1,False,False,False,False,False
+2405_04520,NaturalCodeBench: Examining Coding Performance Mismatch on HumanEval and Natural User Prompts,23,Uncertain,weak_match,4,2,False,8,True,7,True,0,False,False,2,False,False,False,False,False
+2405_04324,Granite Code Models: A Family of Open Foundation Models for Code Intelligence,28,Include,strong_match,6,4,True,12,True,6,True,1,False,False,3,False,False,False,False,False
+2405_03616,A Controlled Experiment on the Energy Efficiency of the Source Code Generated by Code Llama,11,Include,strong_match,4,3,True,7,True,1,False,3,True,False,2,False,False,False,False,False
+2405_03594,Enabling High-Sparsity Foundational Llama Models with Efficient Pretraining and Deployment,13,Include,strong_match,2,14,True,7,True,1,False,5,True,False,0,False,False,False,False,False
+2405_03727,Large Language Models Synergize with Automated Machine Learning,49,Include,strong_match,3,4,True,6,True,3,True,1,False,False,1,False,False,False,False,False
+2404_19368,Exploring Multi-Lingual Bias of Large Code Models in Code Generation,12,Include,strong_match,4,4,True,11,True,4,True,1,False,False,1,False,False,False,False,False
+2404_18400,LLM-SR: Scientific Equation Discovery via Programming with Large Language Models,32,Uncertain,partial_IC_match,2,5,True,8,True,1,False,0,False,False,0,False,False,False,False,False
+2404_18353,How secure is AI-generated Code: A Large-Scale Comparison of Large Language Models,47,Uncertain,weak_match,5,2,False,13,True,7,True,0,False,False,3,False,False,False,False,False
+2404_18249,Tenspiler: A Verified Lifting-Based Compiler for Tensor Operations (Extended Version),34,Uncertain,partial_IC_match,4,3,True,2,True,2,True,0,False,False,1,False,False,False,False,False
+2405_01585,Tabular Embedding Model (TEM): Finetuning Embedding Models For Tabular RAG Applications,11,Include,strong_match,2,5,True,7,True,1,False,1,False,False,0,False,False,False,False,False
+2404_16333,AI Coders Are Among Us: Rethinking Programming Language Grammar Towards Efficient Code Generation,13,Include,strong_match,3,6,True,10,True,3,True,1,False,False,2,False,False,False,False,False
+2404_15833,OpTC -- A Toolchain for Deployment of Neural Networks on AURIX TC3xx Microcontrollers,17,Include,strong_match,2,12,True,2,True,1,False,5,True,False,0,False,False,False,False,False
+2404_15236,Revisiting Unnaturalness for Automated Program Repair in the Era of Large Language Models,12,Include,strong_match,4,3,True,12,True,2,True,1,False,False,4,False,False,False,False,False
+2404_13652,BANSAI: Towards Bridging the AI Adoption Gap in Industrial Robotics with Neurosymbolic Programming,6,Uncertain,weak_match,1,5,False,5,True,1,False,0,False,False,0,False,False,False,False,False
+2404_12833,How Far Can We Go with Practical Function-Level Program Repair?,12,Exclude,EC2:other_se_task,2,3,True,13,True,1,False,0,False,False,6,True,False,False,False,False
+2404_10875,SA-DS: A Dataset for Large Language Model-Driven AI Accelerator Design Generation,4,Include,strong_match,2,7,True,11,True,1,False,1,False,False,1,False,False,False,False,False
+2404_10830,Fewer Truncations Improve Language Modeling,19,Include,strong_match,1,7,False,8,True,1,False,3,True,False,0,False,False,False,False,False
+2404_10719,Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study,16,Include,strong_match,2,6,True,9,True,3,True,1,False,False,1,False,False,False,False,False
+2404_08947,Zero-Shot Code Representation Learning via Prompt Tuning,29,Exclude,EC2:other_se_task,2,4,True,6,True,1,False,0,False,False,3,True,False,False,False,False
+2404_08850,Assessing Economic Viability: A Comparative Analysis of Total Cost of Ownership for Domain-Adapted Large Language Models versus State-of-the-art Counterparts in Chip Design Coding Assistance,6,Include,all_IC_passed,4,7,True,10,True,3,True,2,True,False,0,False,False,False,False,False
+2404_08806,CreativEval: Evaluating Creativity of LLM-Based Hardware Code Generation,5,Include,strong_match,3,7,True,13,True,3,True,1,False,False,1,False,False,False,False,False
+2404_07548,DeVAIC: A Tool for Security Assessment of AI-generated Code,43,Uncertain,partial_IC_match,2,4,True,10,True,1,False,0,False,False,1,False,False,False,False,False
+2404_08008,Sample-Efficient Human Evaluation of Large Language Models via Maximum Discrepancy Competition,35,Uncertain,partial_IC_match,2,3,True,10,True,3,True,0,False,False,0,False,False,False,False,False
+2404_06041,On Evaluating the Efficiency of Source Code Generated by LLMs,5,Include,all_IC_passed,5,5,True,13,True,6,True,2,True,False,2,False,False,False,False,False
+2404_08001,Xiwu: A Basis Flexible and Learnable LLM for High Energy Physics,15,Uncertain,weak_match,2,2,False,14,True,1,False,0,False,False,0,False,False,False,False,False
+2404_02078,Advancing LLM Reasoning Generalists with Preference Trees,18,Uncertain,weak_match,2,2,False,11,True,4,True,0,False,False,0,False,False,False,False,False
+2404_02183,Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization,11,Uncertain,weak_match,3,2,False,8,True,3,True,0,False,False,2,False,False,False,False,False
+2404_01226,Stable Code Technical Report,14,Include,all_IC_passed,2,6,True,10,True,2,True,4,True,False,0,False,False,False,False,False
+2404_00971,Beyond Functional Correctness: Exploring Hallucinations in LLM-Generated Code,21,Include,strong_match,5,4,True,14,True,8,True,1,False,False,2,False,False,False,False,False
+2404_00102,"Deeper, Sharper, Faster: Application of Efficient Transformer to Galaxy Image Restoration",18,Uncertain,partial_IC_match,2,4,True,8,True,1,False,0,False,False,0,False,False,False,False,False
+2403_18746,CYCLE: Learning to Self-Refine the Code Generation,27,Include,all_IC_passed,5,6,True,7,True,5,True,2,True,False,1,False,False,False,False,False
+2403_17411,PCToolkit: A Unified Plug-and-Play Prompt Compression Toolkit of Large Language Models,10,Include,strong_match,3,3,True,7,True,2,True,1,False,False,0,False,False,False,False,False
+2403_16689,SYNAPSE: SYmbolic Neural-Aided Preference Synthesis Engine,15,Uncertain,weak_match,1,2,False,8,True,1,False,0,False,False,0,False,False,False,False,False
+2403_13271,Enhancing Code Generation Performance of Smaller Models by Distilling the Reasoning Ability of LLMs,18,Include,strong_match,3,8,True,12,True,5,True,1,False,False,2,False,False,False,False,False
+2403_12671,Enhancing Security of AI-Based Code Synthesis with GitHub Copilot via Cheap and Efficient Prompt-Engineering,7,Uncertain,partial_IC_match,3,4,True,7,True,1,False,0,False,False,1,False,False,False,False,False
+2403_10059,Repoformer: Selective Retrieval for Repository-Level Code Completion,21,Include,all_IC_passed,4,10,True,7,True,3,True,3,True,False,1,False,False,False,False,False
+2403_04327,ProMoAI: Process Modeling with Generative AI,5,Uncertain,partial_IC_match,2,4,True,9,True,1,False,0,False,False,0,False,False,False,False,False
+2403_03344,Learn to Code Sustainably: An Empirical Study on LLM-based Green Code Generation,11,Include,all_IC_passed,5,6,True,4,True,2,True,6,True,False,1,False,False,False,False,False
+2403_01131,LLaMoCo: Instruction Tuning of Large Language Models for Optimization Code Generation,21,Include,strong_match,4,6,True,15,True,4,True,1,False,False,0,False,False,False,False,False
+2403_00894,Comparing large language models and human programmers for generating programming code,13,Include,strong_match,4,3,True,9,True,4,True,1,False,False,1,False,False,False,False,False
+2403_00046,Exploring Data-Efficient Adaptation of Large Language Models for Code Generation,24,Uncertain,weak_match,2,2,False,7,True,3,True,0,False,False,1,False,False,False,False,False
+2402_18679,Data Interpreter: An LLM Agent For Data Science,29,Uncertain,partial_IC_match,2,3,True,5,True,1,False,0,False,False,0,False,False,False,False,False
+2402_18150,Unsupervised Information Refinement Training of Large Language Models for Retrieval-Augmented Generation,13,Include,strong_match,2,4,True,10,True,1,False,1,False,False,0,False,False,False,False,False
+2402_17988,Constrained Decoding for Fill-in-the-Middle Code Language Models via Efficient Left and Right Quotienting of Context-Sensitive Grammars,12,Exclude,EC1:efficiency_not_core,6,1,False,11,True,4,True,0,False,True,0,False,False,False,False,False
+2402_16906,Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step-by-step,20,Exclude,EC2:other_se_task,3,2,False,8,True,5,True,0,False,False,3,True,False,False,False,False
+2402_14688,Q-Probe: A Lightweight Approach to Reward Maximization for Language Models,14,Include,all_IC_passed,3,11,True,8,True,5,True,2,True,False,2,False,False,False,False,False
+2402_14323,REPOFUSE: Repository-Level Code Completion with Fused Dual Context,21,Include,strong_match,2,6,True,7,True,1,False,3,True,False,0,False,False,False,False,False
+2402_14261,Copilot Evaluation Harness: Evaluating LLM-Guided Software Programming,14,Uncertain,partial_IC_match,4,3,True,12,True,3,True,0,False,False,7,False,False,False,False,False
+2402_14872,Semantic Mirror Jailbreak: Genetic Algorithm Based Jailbreak Prompts Against Open-source LLMs,16,Uncertain,partial_IC_match,2,3,True,10,True,1,False,0,False,False,0,False,False,False,False,False
+2402_12782,Advancing GenAI Assisted Programming--A Comparative Study on Prompt Efficiency and Code Quality Between GPT-4 and GLM-4,18,Uncertain,weak_match,4,2,False,7,True,1,False,0,False,False,1,False,False,False,False,False
+2402_11635,Tool-Augmented LLMs as a Universal Interface for IDEs,3,Exclude,EC4:short,2,2,False,8,True,1,False,0,False,False,0,False,False,True,False,True
+2402_11453,MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization,14,Uncertain,weak_match,2,2,False,11,True,2,True,0,False,False,1,False,False,False,False,False
+2402_09497,Instruction Tuning for Secure Code Generation,20,Include,all_IC_passed,3,6,True,9,True,5,True,2,True,False,0,False,False,False,False,False
+2402_09126,MPIrigen: MPI Code Generation through Domain-Specific Language Models,6,Uncertain,partial_IC_match,3,4,True,10,True,2,True,0,False,False,0,False,False,False,False,False
+2402_07844,Mercury: A Code Efficiency Benchmark for Code Large Language Models,19,Uncertain,partial_IC_match,4,7,True,7,True,6,True,0,False,False,1,False,False,False,False,False
+2402_07647,GRILLBot In Practice: Lessons and Tradeoffs Deploying Large Language Models for Adaptable Conversational Task Assistants,11,Include,strong_match,3,6,True,8,True,1,False,2,True,False,1,False,False,False,False,False
+2402_06598,CigaR: Cost-efficient Program Repair with LLMs,12,Exclude,EC2:other_se_task,2,5,True,6,True,1,False,1,False,False,4,True,False,False,False,False
+2402_06700,Entropy-Regularized Token-Level Policy Optimization for Language Agent Reinforcement,17,Uncertain,partial_IC_match,2,4,True,8,True,1,False,0,False,False,0,False,False,False,False,False
+2402_05110,Opening the AI black box: program synthesis via mechanistic interpretability,24,Uncertain,weak_match,1,7,False,5,True,1,False,0,False,False,1,False,False,False,False,False
+2402_03735,Investigating the Utility of ChatGPT in the Issue Tracking System: An Exploratory Study,5,Exclude,EC2:other_se_task,3,3,True,3,True,2,True,0,False,False,4,True,False,False,False,False
+2402_03703,Hierarchical Large Language Models in Cloud Edge End Architecture for Heterogeneous Robot Cluster Control,5,Uncertain,weak_match,3,2,False,6,True,2,True,0,False,False,0,False,False,False,False,False
+2402_03289,Make Every Move Count: LLM-based High-Quality RTL Code Generation Using MCTS,7,Include,strong_match,3,5,True,11,True,1,False,1,False,False,0,False,False,False,False,False
+2403_09675,Open-Universe Indoor Scene Generation using LLM Program Synthesis and Uncurated Object Databases,19,Exclude,EC1:efficiency_not_core,2,1,False,8,True,1,False,0,False,True,0,False,False,False,False,False
+2402_02057,Break the Sequential Dependency of LLM Inference Using Lookahead Decoding,16,Include,all_IC_passed,3,10,True,6,True,4,True,8,True,False,0,False,False,False,False,False
+2402_02037,EffiBench: Benchmarking the Efficiency of Automatically Generated Code,42,Exclude,EC2:other_se_task,3,5,True,17,True,6,True,3,True,False,4,True,False,False,False,False
+2402_01391,StepCoder: Improve Code Generation with Reinforcement Learning from Compiler Feedback,13,Uncertain,partial_IC_match,5,5,True,10,True,8,True,0,False,False,1,False,False,False,False,False
+2402_01035,Getting the most out of your tokenizer for pre-training and domain adaptation,21,Include,all_IC_passed,2,9,True,14,True,5,True,6,True,False,1,False,False,False,False,False
+2401_17181,Transfer Learning for Text Diffusion Models,9,Include,strong_match,1,9,False,8,True,3,True,6,True,False,1,False,False,False,False,False
+2401_16637,IRCoCo: Immediate Rewards-Guided Deep Reinforcement Learning for Code Completion,22,Uncertain,weak_match,4,2,False,7,True,2,True,0,False,False,3,False,False,False,False,False
+2401_15077,EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty,13,Include,all_IC_passed,2,12,True,8,True,2,True,6,True,False,0,False,False,False,False,False
+2401_13803,Synergizing Human Expertise and AI Efficiency with Language Model for Microscopy Operation and Automated Experiment Design,16,Uncertain,weak_match,2,2,False,7,True,1,False,0,False,False,0,False,False,False,False,False
+2401_12424,DALex: Lexicase-like Selection via Diverse Aggregation,21,Exclude,IC2:not_llm_based,1,4,False,1,False,1,False,1,False,False,0,False,False,False,False,False
+2401_10652,AutoChunk: Automated Activation Chunk for Memory-Efficient Long Sequence Inference,11,Include,strong_match,2,5,True,2,True,1,False,1,False,False,0,False,False,False,False,False
+2401_10364,"Using LLM such as ChatGPT for Designing and Implementing a RISC Processor: Execution,Challenges and Limitations",8,Uncertain,partial_IC_match,3,3,True,9,True,1,False,0,False,False,2,False,False,False,False,False
+2401_10314,LangProp: A code optimization framework using Large Language Models applied to driving,29,Exclude,EC2:other_se_task,4,3,True,9,True,1,False,0,False,False,4,True,False,False,False,False
+2401_10034,Evolutionary Computation in the Era of Large Language Model: Survey and Roadmap,21,Exclude,EC4:survey,2,7,True,8,True,1,False,0,False,False,0,False,False,True,True,False
+2401_09964,When Neural Code Completion Models Size up the Situation: Attaining Cheaper and Faster Completion through Dynamic Model Inference,12,Include,all_IC_passed,4,8,True,12,True,3,True,3,True,False,0,False,False,False,False,False
+2401_08500,Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering,10,Uncertain,partial_IC_match,3,3,True,7,True,5,True,0,False,False,0,False,False,False,False,False
+2401_07339,CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges,16,Uncertain,weak_match,3,2,False,12,True,2,True,0,False,False,1,False,False,False,False,False
+2401_07128,EHRAgent: Code Empowers Large Language Models for Few-shot Complex Tabular Reasoning on Electronic Health Records,25,Uncertain,partial_IC_match,3,3,True,6,True,1,False,0,False,False,0,False,False,False,False,False
+2401_08683,Zero-Shot RTL Code Generation with Attention Sink Augmented Large Language Models,8,Include,strong_match,3,6,True,12,True,1,False,1,False,False,1,False,False,False,False,False
+2401_06665,PolyTOPS: Reconfigurable and Flexible Polyhedral Scheduler,14,Exclude,IC2:not_llm_based,2,3,True,1,False,1,False,1,False,False,0,False,False,False,False,False
+2401_06461,Between Lines of Code: Unraveling the Distinct Patterns of Machine and Human Programmers,13,Uncertain,weak_match,4,2,False,10,True,4,True,0,False,False,0,False,False,False,False,False
+2401_05965,HAP: SPMD DNN Training on Heterogeneous GPU Clusters with Automated Program Synthesis,18,Include,strong_match,1,8,False,5,True,1,False,6,True,False,0,False,False,False,False,False
+2401_02412,LLM Augmented LLMs: Expanding Capabilities through Composition,17,Include,all_IC_passed,3,5,True,9,True,2,True,2,True,False,0,False,False,False,False,False
+2401_00788,Astraios: Parameter-Efficient Instruction Tuning Code Large Language Models,25,Include,all_IC_passed,5,9,True,10,True,6,True,2,True,False,2,False,False,False,False,False

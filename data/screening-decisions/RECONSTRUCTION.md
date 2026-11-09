@@ -1,48 +1,38 @@
-# Reconstruction status of the missing screening artifacts
+# Screening records: recovered files and remaining gaps
 
-The package publishes every screening decision that can be reproduced from the archived files. Two artifact families are not mirrored:
-
-1. **Stage-1 classifier artifacts**: the executed code, threshold, per-group weights, and the ranked list of 22,118 unique records.
-2. **1,700 full-text decisions**: the per-paper INCLUDE/EXCLUDE records with criterion codes, or the original worksheets.
+The Stage-1 auto-screening table, the classifier and full-text screening scripts, and the 1,700-paper first-pass worksheet were recovered on 2026-11-09 from the 11.7 GB backup `04_efficient-codegen-survey.zip` on server 216. They are mirrored in `original-2026-03/`.
 
 ## What is public
 
-- `final-corpus-152.csv`: final included studies with source, venue, quality tier, RQ, categories, and rationale.
-- `window-2026-arxiv.csv`: 111 window-search candidates with decisions and reasons.
-- `monthly-2026-10.csv`: 20 October selections, 11 included and 9 excluded with reasons.
-- `coverage-audit-2026-10.csv`: 400-record coverage audit with both screeners and adjudication.
-- `gap-2026-03.csv`: 38 March gap-search adjudications.
+- `original-2026-03/screening-ta-auto.csv`: 22,119 rows, Stage-1 automatic labels (1,380 Likely-Include, 1,779 Uncertain, 18,960 Likely-Exclude; 22,114 unique keys).
+- `original-2026-03/screening-ft.csv` and `screening-ft-results.xlsx`: 1,700 rows, first-pass full-text decisions (760 Include, 586 Uncertain, 354 Exclude).
+- `original-2026-03/screening-llm-merged.csv` and `screening-llm-results.xlsx`: 1,700 rows, LLM-assisted full-text pass (104 INCLUDE, 1,534 EXCLUDE, 62 NO_TEXT).
+- `original-2026-03/entries-summary.csv`: 22,119 deduplicated records with title, author, year, DOI, arXiv ID, source, and type.
+- `original-2026-03/likely-include.bib`: BibTeX for the likely-include set.
+- `original-2026-03/fine-grained-classification.csv`: 125-row classification from the 122-era corpus.
+- `original-2026-03/05-prisma/prisma-counts.json`: early PRISMA draft (4,179 raw, 369 duplicates, 3,810 after dedup).
+- `original-2026-03/scripts/03-screening/`: the recovered `screening-ta-auto.py`, `screening-ft.py`, `screening-ft-llm.py`, and helper scripts.
+- `final-corpus-152.csv`: the final included corpus.
+- `window-2026-arxiv.csv`, `monthly-2026-10.csv`, `coverage-audit-2026-10.csv`, `gap-2026-03.csv`: the post-screening batches.
+- `stage1-classifier/classify.py`: a clean reconstruction of the published rule set, kept as a readable companion to the recovered script.
 
-## What is not public
+## What remains different from the final manuscript
 
-- `stage1-classifier/classify.py` is a reconstruction of the published rule, not the executed code. The executed threshold and weights are unavailable.
-- The 22,118-record input and the 1,700-paper full-text worksheets are unavailable in this package and in the authors' local backups. They are not reconstructed or invented here.
+- The recovered auto-screening table is the March 2026 working export. It has 22,119 rows and 22,114 unique keys; the manuscript's final PRISMA uses 22,118 deduplicated records. The difference is an export artifact.
+- The recovered table labels 3,159 records as Likely-Include or Uncertain. The final pipeline retained 3,810 candidates after later manual overrides and export merging. The recovered table is the closest surviving source, not a byte-level reproduction of the final 3,810-row list.
+- The 1,700-paper worksheet is the first-pass and LLM-assisted working record. The final 89/122/141/152-study corpus went through later manual review, snowballing, targeted search, and the April-October 2026 window updates. The 760 Include rows are not the final included set.
+- `fine-grained-classification.csv` has 125 rows and belongs to the 122-era corpus; the final 152-study classification is in `final-corpus-152.csv`.
+- `prisma-counts.json` is an early draft (4,179 raw, 3,810 after dedup), not the final 26,265/22,118/3,810 PRISMA in the manuscript.
 
-## How to close the gap
+## Provenance
 
-If the original classifier configuration and the 1,700-record input list are recovered, place them here and run:
+- Source archive: `/home/v3090ti/szw_alibaba_backup/04_efficient-codegen-survey.zip` (11.7 GB) on 216.
+- Internal path: `home/szw/school/efficient-codegen-survey/data/`.
+- Recovered: 2026-11-09, read-only extraction to `/tmp/tosem-artifacts/` on 216, then copied to this package.
+- The archive remains on 216; nothing was deleted or modified there.
 
-```bash
-python stage1-classifier/classify.py --input <records> --output ranked.csv \
-  --threshold <executed> --weights <A>,<B>,<C>
-```
+## How to use the recovered records
 
-If the full-text worksheets are recovered, use the columns in `fulltext-decision-template.csv` and merge them into `final-corpus-152.csv` by `id`/`key`.
+The recovered scripts expect the office-machine data layout (`data/deduplicated.bib`, `data/03-screening/`, and so on). The extracted package mirrors the relevant subdirectories. To rerun the Stage-1 classifier, point `DATA_DIR` in `screening-ta-auto.py` at the package directory containing `deduplicated.bib` and run it. To rerun the full-text pass, use `screening-ft.py`; it expects the first-pass worksheet and the paper metadata in the same layout.
 
-## Where the originals were
-
-The project's own documents record the original locations:
-
-- `data/coverage-audit-20261007/REPORT.md` states that the Stage-1 records (22,118), the 3,810 ranked list, the classifier code, and the 1,700 full-text decisions were kept at `/home/szw/overleaf/efficient-codegen-survey/data/` on the A800 rental server, which has been retired.
-- `data/ITX-handoff-20261007.md` adds that the originals may also be on the office machine at `/home/szw/school/efficient-codegen-survey/` or in the ITX screening working directory. It also notes that `data/screening-ta-auto.csv` is an early 3,367-record version, not the final 22,118-record list.
-- The protocol documents name the target files: `screening-ta.csv`, `screening-ft.csv`, `entries-summary.csv`, `likely-include.bib`, and `prisma-counts.json`.
-
-## Servers checked on 2026-11-09
-
-- 215: all readable home directories checked; no Stage-1 or full-text decision files.
-- 217: readable home directories checked; no Stage-1 or full-text decision files.
-- 216: reachable only as `liyuning`; `/home/v3090ti` is not readable, so `/home/v3090ti/szw_alibaba_backup/04_efficient-codegen-survey` could not be checked.
-- A800-1 / A800-2: hostnames no longer resolve; retired.
-- sg: reachable; `/root/szw/efficient-codegen-survey`, `/home/szw/tosem-survey-hub`, and `/root/szw/tosem-r1-work` checked; the classifier and 1,700-paper worksheets are not there.
-
-The evidence documents are archived with the submission package under `evidence/`.
+The clean reconstruction in `stage1-classifier/classify.py` is a simplified, dependency-free implementation of the same rule set for readers who want to inspect the logic without the original working directory.

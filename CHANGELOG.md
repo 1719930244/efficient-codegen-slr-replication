@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.3 (2026-11-09) — recovered original screening records
+
+- Recovered `04_efficient-codegen-survey.zip` from `/home/v3090ti/szw_alibaba_backup/` on server 216. Added `data/screening-decisions/original-2026-03/` with the 22,119-row Stage-1 auto-screening table, the 1,700-row first-pass full-text worksheet, the LLM-assisted pass, the recovered classifier and screening scripts, the likely-include BibTeX, and the early PRISMA draft.
+- The recovered Stage-1 classifier is rule-based, not a weighted threshold. The clean reconstruction remains in `stage1-classifier/`; the original code is in `original-2026-03/scripts/03-screening/`.
+- Counts and caveats are documented in `original-2026-03/README.md`. The March records are working data; the final 152-study decisions remain in `final-corpus-152.csv`.
+
 ## v2.2.1 (2026-11-09) — Stage-1 reconstruction kit
 
 - Added `data/screening-decisions/stage1-classifier/` with a transparent reconstruction of the published Stage-1 scoring rule (`classify.py`). The executed threshold, per-group weights, and 22,118-record input are not stored; they must be supplied explicitly.

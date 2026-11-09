@@ -1,0 +1,37 @@
+{
+  "search": {
+    "strategy": "Group A (code generation) AND Group B (efficiency) AND Group C (LLM/Transformer), year >= 2017",
+    "databases": {
+      "arXiv": 1504,
+      "Scopus": 847,
+      "IEEE Xplore": 838,
+      "Semantic Scholar": 485,
+      "ACM DL": 304,
+      "WoS": 139,
+      "DBLP": 62
+    },
+    "total_raw": 4179
+  },
+  "deduplication": {
+    "duplicates_removed": 369,
+    "after_dedup": 3810
+  },
+  "ta_screening": {
+    "candidates": 3810,
+    "passed": "TBD",
+    "excluded": "TBD"
+  },
+  "fulltext_screening": {
+    "assessed": "TBD",
+    "excluded": "TBD"
+  },
+  "snowballing": {
+    "added": "TBD"
+  },
+  "quality_assessment": {
+    "excluded": "TBD"
+  },
+  "included": {
+    "final_studies": "TBD"
+  }
+}

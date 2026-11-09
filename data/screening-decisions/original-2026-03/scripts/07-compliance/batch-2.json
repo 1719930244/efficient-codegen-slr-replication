@@ -1,0 +1,122 @@
+[
+  {
+    "key": "2507_23194",
+    "title": "Geak: Introducing Triton Kernel AI Agent \\& Evaluation Benchmarks",
+    "rq": "RQ4",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2507_23194.pdf"
+  },
+  {
+    "key": "2508_03258",
+    "title": "SmartLLMs Scheduler: A Framework for Cost-Effective LLMs Utilization",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2508_03258.pdf"
+  },
+  {
+    "key": "2508_05970",
+    "title": "Impact-driven Context Filtering For Cross-file Code Completion",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2508_05970.pdf"
+  },
+  {
+    "key": "2508_13666",
+    "title": "The Hidden Cost of Readability: How Code Formatting Silently Consumes Your LLM Budget",
+    "rq": "RQ3; RQ4",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2508_13666.pdf"
+  },
+  {
+    "key": "2508_20124",
+    "title": "Towards Better Correctness and Efficiency in Code Generation",
+    "rq": "RQ2",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2508_20124.pdf"
+  },
+  {
+    "key": "2509_09947",
+    "title": "Toward Green Code: Prompting Small Language Models for Energy-Efficient Code Generation",
+    "rq": "RQ3; RQ4",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2509_09947.pdf"
+  },
+  {
+    "key": "2509_12159",
+    "title": "EfficientUICoder: Efficient MLLM-based UI Code Generation via Input and Output Token Compression",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2509_12159.pdf"
+  },
+  {
+    "key": "2509_14093",
+    "title": "Reasoning Efficiently Through Adaptive Chain-of-Thought Compression: A Self-Optimizing Framework",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2509_14093.pdf"
+  },
+  {
+    "key": "2509_17489",
+    "title": "MapCoder-Lite: Distilling Multi-Agent Coding into a Single Small LLM",
+    "rq": "RQ2",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2509_17489.pdf"
+  },
+  {
+    "key": "2509_25243",
+    "title": "Reinforcement Learning-Guided Chain-of-Draft for Token-Efficient Code Generation",
+    "rq": "RQ2; RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2509_25243.pdf"
+  },
+  {
+    "key": "2510_00446",
+    "title": "LongCodeZip: Compress Long Context for Code Language Models",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2510_00446.pdf"
+  },
+  {
+    "key": "2510_16996",
+    "title": "STARK: Strategic Team of Agents for Refining Kernels",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2510_16996.pdf"
+  },
+  {
+    "key": "2510_18165",
+    "title": "Saber: An Efficient Sampling with Adaptive Acceleration and Backtracking Enhanced Remasking for Diffusion Language Model",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2510_18165.pdf"
+  },
+  {
+    "key": "2510_19644",
+    "title": "LLavaCode: Compressed Code Representations for Retrieval-Augmented Code Generation",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2510_19644.pdf"
+  },
+  {
+    "key": "2511_01884",
+    "title": "CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2511_01884.pdf"
+  },
+  {
+    "key": "2511_23321",
+    "title": "Chart2Code-MoLA: Efficient Multi-Modal Code Generation via Adaptive Expert Routing",
+    "rq": "RQ2; RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2511_23321.pdf"
+  },
+  {
+    "key": "2512_08266",
+    "title": "Token Sugar: Making Source Code Sweeter for LLMs through Token-Efficient Shorthand",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2512_08266.pdf"
+  },
+  {
+    "key": "2512_14048",
+    "title": "Intention Chain-of-Thought Prompting with Dynamic Routing for Code Generation",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2512_14048.pdf"
+  },
+  {
+    "key": "2512_23367",
+    "title": "Post-Training Quantization of OpenPangu Models for Efficient Deployment on Atlas A2",
+    "rq": "RQ3",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/2512_23367.pdf"
+  },
+  {
+    "key": "Giagnorio2025quantizing",
+    "title": "Quantizing Large Language Models for Code Generation: A Differentiated Replication",
+    "rq": "RQ3; RQ4",
+    "pdf": "/home/szw/overleaf/efficient-codegen-survey/data/pdfs/Giagnorio2025quantizing.pdf"
+  }
+]

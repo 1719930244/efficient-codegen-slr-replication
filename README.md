@@ -89,10 +89,11 @@ Provenance note, recorded as fact: the per-study 8-item audit sheets of the orig
 - `monthly-2026-10.csv`: 20 OpenAlex selections for 2026-09-01..2026-10-31, 11 included and 9 excluded with reasons.
 - `coverage-audit-2026-10.csv`: the 400-record coverage-audit sample with both automated screeners, criteria, reasons, and adjudication.
 - `gap-2026-03.csv`: March 2026 gap-search adjudication records.
-- `stage1-classifier/`: reconstruction of the published Stage-1 scoring rule, with `classify.py`; the executed threshold and weights must be supplied explicitly.
+- `original-2026-03/`: recovered March 2026 working records, including the 22,119-row Stage-1 auto-screening table, the 1,700-row first-pass full-text worksheet, the LLM-assisted pass, the recovered classifier and screening scripts, and the early PRISMA draft.
+- `stage1-classifier/`: a clean reconstruction of the published Stage-1 scoring rule; the recovered original is in `original-2026-03/scripts/03-screening/`.
 - `RECONSTRUCTION.md`: what is public, what is missing, and how to close the gap.
 
-The executed Stage-1 classifier artifacts and the per-paper decisions for the 1,700 full texts are not mirrored in this repository; they remain available from the authors. See `data/screening-decisions/README.md` and `data/screening-decisions/RECONSTRUCTION.md`.
+The recovered March 2026 records are working data, not the final October 2026 152-study corpus. The final decisions are in `final-corpus-152.csv`. See `data/screening-decisions/original-2026-03/README.md` for provenance and caveats.
 
 ## Quality Tiers
 
@@ -202,8 +203,8 @@ The companion website (https://1719930244.github.io/efficient-codegen-slr-replic
 
 ## Known Gaps (recorded honestly)
 
-1. **Stage-1 classifier artifacts** (code, threshold, term weights, ranked list of the 22,118 unique records): exist with the first author and are available on request; they are not yet mirrored in this package. The public decisions in `data/screening-decisions/` cover the final corpus and every post-screening batch.
-2. **Full-text screening decisions** (the 1,700 retrieved records with INCLUDE/EXCLUDE and criterion codes): the original assessment worksheets were on the screening working directory that was not archived off the retired rental servers; they remain available from the authors. The public decisions in `data/screening-decisions/` cover the final 152 included studies and the post-screening batches.
+1. **Stage-1 classifier artifacts**: recovered and mirrored in `data/screening-decisions/original-2026-03/`. The original `screening-ta-auto.py` is rule-based, not a weighted threshold; the recovered auto-screening table has 22,119 rows. The final 3,810-row ranked list is not byte-identical to this March 2026 export; see `original-2026-03/README.md`.
+2. **Full-text screening decisions**: recovered and mirrored in `data/screening-decisions/original-2026-03/`. The 1,700-row first-pass worksheet has 760 Include, 586 Uncertain, and 354 Exclude; the LLM-assisted pass has 104 INCLUDE, 1,534 EXCLUDE, and 62 NO_TEXT. These are working records, not the final 89 included studies; see `original-2026-03/README.md`.
 3. **Gap-search record G000** (EAAI 2026, DOI 10.1016/j.engappai.2026.114360): full text requires institutional access; its IC4 adjudication is pending.
 4. Per-study 8-item audit sheets of the original 122 studies: not archived; see the provenance note under Reporting Compliance Audit.
 
