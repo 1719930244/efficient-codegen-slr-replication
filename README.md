@@ -89,8 +89,10 @@ Provenance note, recorded as fact: the per-study 8-item audit sheets of the orig
 - `monthly-2026-10.csv`: 20 OpenAlex selections for 2026-09-01..2026-10-31, 11 included and 9 excluded with reasons.
 - `coverage-audit-2026-10.csv`: the 400-record coverage-audit sample with both automated screeners, criteria, reasons, and adjudication.
 - `gap-2026-03.csv`: March 2026 gap-search adjudication records.
+- `stage1-classifier/`: reconstruction of the published Stage-1 scoring rule, with `classify.py`; the executed threshold and weights must be supplied explicitly.
+- `RECONSTRUCTION.md`: what is public, what is missing, and how to close the gap.
 
-The Stage-1 classifier artifacts and the per-paper decisions for the 1,700 full texts are not mirrored in this repository; they remain available from the authors. See `data/screening-decisions/README.md`.
+The executed Stage-1 classifier artifacts and the per-paper decisions for the 1,700 full texts are not mirrored in this repository; they remain available from the authors. See `data/screening-decisions/README.md` and `data/screening-decisions/RECONSTRUCTION.md`.
 
 ## Quality Tiers
 

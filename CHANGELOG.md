@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.2.1 (2026-11-09) — Stage-1 reconstruction kit
+
+- Added `data/screening-decisions/stage1-classifier/` with a transparent reconstruction of the published Stage-1 scoring rule (`classify.py`). The executed threshold, per-group weights, and 22,118-record input are not stored; they must be supplied explicitly.
+- Added `data/screening-decisions/fulltext-decision-template.csv` for the 1,700 full-text decisions, and `RECONSTRUCTION.md` documenting what is public and what is not.
+- No decisions or classifier values were invented.
+
 ## v2.2 (2026-11-09) — public screening decisions, 152-study QA
 
 - Added `data/screening-decisions/`: final 152-study corpus decisions, 111-row window arXiv screening log, 20-row October monthly batch (11 included, 9 excluded), 400-record coverage-audit decisions, and March 2026 gap-search adjudications.
