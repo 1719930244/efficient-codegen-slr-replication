@@ -55,7 +55,14 @@
   "n/a": 94
  },
  "quality_assessment": {
-  "n_studies": 141,
-  "note": "The 11 studies added in the September-October 2026 window were screened for eligibility but did not enter the quality-assessment batch; per-study QA scores are in data/reporting-compliance.json."
+  "n_studies": 152,
+  "mean": 3.2039473684210527,
+  "distribution": {
+   "4.0": 23,
+   "3.5": 47,
+   "3.0": 51,
+   "2.5": 31
+  },
+  "note": "All 152 studies were scored with the same QA rubric. The 144 candidates of the initial batch were independently dual-scored for kappa; the 11 October studies were scored once with the same rubric. The 8-item reporting audit covers the 141 studies available at audit time."
  }
 }

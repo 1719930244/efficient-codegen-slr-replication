@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.2 (2026-11-09) — public screening decisions, 152-study QA
+
+- Added `data/screening-decisions/`: final 152-study corpus decisions, 111-row window arXiv screening log, 20-row October monthly batch (11 included, 9 excluded), 400-record coverage-audit decisions, and March 2026 gap-search adjudications.
+- Merged the 11 October QA scores from `data/monthly-updates/2026-10-qa.json` into `data/reporting-compliance.json` (152 studies). Distribution: 23 at 4.0, 47 at 3.5, 51 at 3.0, 31 at 2.5; mean 3.20. The initial 144 candidates remain the dual-scored kappa batch.
+- `data/statistics-152.json` now records the 152-study QA distribution.
+- README updated: QA coverage is 152, the 8-item reporting audit remains 141; known gaps narrow to the Stage-1 classifier artifacts and the 1,700 full-text decision worksheets, both available from the authors.
+
 ## v2.1 (2026-11-03) — 152-study corpus, cut-off 2026-10-31
 
 Synchronizes the package with the November 2026 manuscript revision.

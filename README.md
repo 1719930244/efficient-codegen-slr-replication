@@ -24,7 +24,7 @@ data/
   primary-studies.csv          # All 152 primary studies: metadata, canonical RQ column, Quality Tier
   classification-scheme.csv    # Taxonomy: 24 categories, study counts and keys regenerated for 152
   statistics-152.json          # Summary statistics (year, RQ, category, quality-tier distributions, N=152); statistics.json is the 141-era file
-  reporting-compliance.json    # Per-study QA scores (QA1-QA4) for the 141 quality-audited studies; the 11 October additions were screened for eligibility only
+  reporting-compliance.json    # Per-study QA scores (QA1-QA4) for all 152 studies; the initial 144 candidates were dual-scored for kappa, the 11 October studies were scored once with the same rubric
   search-log.csv               # Structured log of every search executed (main campaign, window, gap)
   venues/
     venue-tier-152.csv         # Per-study venue type and CCF/CORE quality tier (all 152); venue-tier-141.csv kept for the 141-era release
@@ -74,11 +74,23 @@ TAXONOMY.md                    # Full classification taxonomy with descriptions
 
 The taxonomy follows the LLM lifecycle with 24 fine-grained categories. Canonical stage assignment (used for all reported marginals): RQ1 = 1a, 1b, 2c, 3l; RQ2 = 2a, 2b, 2d, 2f; RQ3 = 3a, 3b, 3c, 3d, 3e, 3f, 3j, 3k, 3n, 3o; RQ4 = 3g, 3h, 3i, 3m; RQ5 = 4a, 4b. Distillation (2c) and code-specific optimization (3l) attach to the data stage for counting and are discussed in the chapters of the stages their methods target. See `TAXONOMY.md` for descriptions and `data/classification-scheme.csv` for study-to-category assignments.
 
-## Reporting Compliance Audit (N=141 quality-audited)
+## Reporting Compliance Audit (N=141) and QA Coverage (N=152)
 
-The 141 quality-audited primary studies were audited against an 8-item reporting checklist (Table 5 of the manuscript). Aggregate coverage: functional correctness 95%, model name/version 96%, hardware 68%, latency/throughput 47%, memory 21%, serving configuration 40%, monetary cost 21%, energy/carbon 8%. Reporting depth: 25% of studies report no efficiency metric, 33% exactly one, 43% two or more; only 16% report both latency and memory.
+The 141 studies in the reporting audit were audited against an 8-item reporting checklist (Table 5 of the manuscript). Aggregate coverage: functional correctness 95%, model name/version 96%, hardware 68%, latency/throughput 47%, memory 21%, serving configuration 40%, monetary cost 21%, energy/carbon 8%. Reporting depth: 25% of studies report no efficiency metric, 33% exactly one, 43% two or more; only 16% report both latency and memory.
 
-Provenance note, recorded as fact: the per-study 8-item audit sheets of the original 122 studies were not archived; their aggregate counts were back-calculated from the published percentages during the revision audit (`data/corpus-merge-20261001/recompute.py` documents the procedure and its ambiguity bounds). The 19 merged studies carry full per-study audit records (`audit-A.json`, `audit-B.json`). Per-study QA scores (QA1-QA4) for the 141 audited studies are in `data/reporting-compliance.json`. The 11 studies added in the September-October window were screened for eligibility but were not re-scored for quality; this is stated in the manuscript's quality-assessment section and in Threats to Validity.
+Provenance note, recorded as fact: the per-study 8-item audit sheets of the original 122 studies were not archived; their aggregate counts were back-calculated from the published percentages during the revision audit (`data/corpus-merge-20261001/recompute.py` documents the procedure and its ambiguity bounds). The 19 merged studies carry full per-study audit records (`audit-A.json`, `audit-B.json`). Per-study QA scores (QA1-QA4) for all 152 studies are in `data/reporting-compliance.json`. The initial 144 candidates were independently dual-scored for the kappa; the 11 October studies were scored once with the same rubric. The 8-item reporting audit covers the 141 studies available at audit time, and the manuscript states this scope.
+
+## Screening Decisions
+
+`data/screening-decisions/` publishes the decision records that can be released without exposing unarchived working files:
+
+- `final-corpus-152.csv`: all 152 included studies with source, venue type, quality tier, RQ, categories, and rationale.
+- `window-2026-arxiv.csv`: 111 arXiv candidates for 2026-04-01..2026-08-31 with INCLUDE/EXCLUDE and reasons.
+- `monthly-2026-10.csv`: 20 OpenAlex selections for 2026-09-01..2026-10-31, 11 included and 9 excluded with reasons.
+- `coverage-audit-2026-10.csv`: the 400-record coverage-audit sample with both automated screeners, criteria, reasons, and adjudication.
+- `gap-2026-03.csv`: March 2026 gap-search adjudication records.
+
+The Stage-1 classifier artifacts and the per-paper decisions for the 1,700 full texts are not mirrored in this repository; they remain available from the authors. See `data/screening-decisions/README.md`.
 
 ## Quality Tiers
 
@@ -98,11 +110,11 @@ The extended suite (2026) adds: five-run A800 replication of the composition and
 
 ## Data Description
 
-### primary-studies.csv (141 rows)
+### primary-studies.csv (152 rows)
 
 | Column | Description |
 |--------|-------------|
-| ID | Sequential identifier (S001-S141; S123-S141 are the 19 merged window-search studies) |
+| ID | Sequential identifier (S001-S152; S123-S141 are the 19 merged window-search studies, S142-S152 are the 11 October additions) |
 | Key | Citation key used in the paper |
 | Title | Full paper title |
 | Year | Year of first public version (2020-2026) |
@@ -166,7 +178,7 @@ Phase 4 (window search, publication window 2026-04-01 to 2026-08-31, run 2026-09
     +-- Phase 4, OpenAlex and arXiv window (April-August 2026):
     |     OpenAlex 436 -> 16; arXiv 111 -> 6; overlaps -3; +19
     v
-  141 quality-audited studies (cut-off 2026-08-31)\n    |\n    +-- September-October 2026 batches: +11\n    v\n  152 primary studies (cut-off 2026-10-31)
+  141 studies in the reporting audit (cut-off 2026-08-31)\n    |\n    +-- September-October 2026 batches: +11\n    v\n  152 primary studies (cut-off 2026-10-31)
 ```
 
 ## Quality Assessment
@@ -184,12 +196,12 @@ Scores: 1.0 (fully met), 0.5 (partially met), 0.0 (not met). Maximum total: 4.0.
 
 ## Living Updates and the Companion Website
 
-The companion website (https://1719930244.github.io/efficient-codegen-slr-replication/) is updated on a monthly cadence: newly published studies are logged in `data/monthly-updates/` and rendered on the site without re-opening the review or changing the corpus. Process: [`docs/UPDATE-PROCESS.md`](docs/UPDATE-PROCESS.md); ledger: `data/monthly-updates/UPDATE-LOG.md`. The May and September 2026 tracker batches predate the corpus merge; the September batch's selected studies (plus the arXiv pass, minus overlaps) are the 19 studies merged into the 141 corpus.
+The companion website (https://1719930244.github.io/efficient-codegen-slr-replication/) is updated on a monthly cadence: newly published studies are logged in `data/monthly-updates/` and rendered on the site without re-opening the review or changing the corpus. Process: [`docs/UPDATE-PROCESS.md`](docs/UPDATE-PROCESS.md); ledger: `data/monthly-updates/UPDATE-LOG.md`. The May and September 2026 tracker batches predate the corpus merge; the September batch's selected studies (plus the arXiv pass, minus overlaps) are the 19 studies merged into the 141-study window, and the October batch adds the final 11 studies.
 
 ## Known Gaps (recorded honestly)
 
-1. **Stage-1 classifier artifacts** (code, threshold, term weights, ranked list of the 22,118 unique records): exist with the first author and are available on request; they are not yet mirrored in this package. The response letter states this availability.
-2. **Full-text screening decisions** (the 1,700 retrieved records with INCLUDE/EXCLUDE and criterion codes): the original assessment worksheets were on the screening working directory that was not archived off the retired rental servers; reconstruction from the ranked candidate list is planned together with item 1.
+1. **Stage-1 classifier artifacts** (code, threshold, term weights, ranked list of the 22,118 unique records): exist with the first author and are available on request; they are not yet mirrored in this package. The public decisions in `data/screening-decisions/` cover the final corpus and every post-screening batch.
+2. **Full-text screening decisions** (the 1,700 retrieved records with INCLUDE/EXCLUDE and criterion codes): the original assessment worksheets were on the screening working directory that was not archived off the retired rental servers; they remain available from the authors. The public decisions in `data/screening-decisions/` cover the final 152 included studies and the post-screening batches.
 3. **Gap-search record G000** (EAAI 2026, DOI 10.1016/j.engappai.2026.114360): full text requires institutional access; its IC4 adjudication is pending.
 4. Per-study 8-item audit sheets of the original 122 studies: not archived; see the provenance note under Reporting Compliance Audit.
 

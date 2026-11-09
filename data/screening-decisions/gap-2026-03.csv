@@ -1,0 +1,39 @@
+record_id,decision,criterion,reason
+G000,pending,IC4 needs full text,"no abstract; OpenAlex keywords: CoT, code generation, SLMs, resource-efficient, edge deployment; same group as corpus S014 (COTTON); likely eligible by precedent"
+G054,exclude,EC4,"Zenodo software artifact, no paper text"
+G008,exclude,IC3,"evolutionary algorithm design, not code generation"
+G084,exclude,IC3,speech emotion recognition
+G037,borderline,IC3,"general LoRA efficiency, no abstract; no code-generation signal in title"
+G005,borderline,IC1,LoRA adapter design evaluated on HumanEval+; efficiency not the objective
+G006,borderline,IC3,general diffusion-LLM acceleration; code among benchmarks
+G024,borderline,IC3,general generation framework; code one of six text categories
+G032,borderline,IC3,data-efficient training for OR modeling and solver code
+G033,borderline,IC3,general reasoning-budget training; MBPP among tasks
+G034,borderline,IC3,general MoE pruning; code among tasks
+G049,borderline,IC3,general generative optimization; KernelBench among benchmarks
+G056,borderline,IC3,agent serving; coding among workloads
+G058,borderline,IC3,general speculative decoding; code among tasks
+G059,borderline,IC3,general dLLM policy optimization; coding among tasks
+G066,borderline,IC3,general workflow generation; coding among benchmarks
+G074,borderline,IC3,multi-agent serving; code generation among workflows
+G083,borderline,IC3,cross-model memory; code among benchmarks
+G095,borderline,IC3,general PTQ; code among tasks
+G007,exclude,IC3,"general KV-cache method, no code task"
+G011,exclude,IC3,"general reasoning RL training system, no code task"
+G017,exclude,IC1,RTL correctness and circuit area (artifact efficiency)
+G021,exclude,IC1,fine-tuning objective; efficiency only a means
+G023,exclude,IC3,"LLM-driven NAS; efficiency of the search, not code generation"
+G026,exclude,IC3,diagram dataset generation
+G028,exclude,IC1,generates acceleration code for diffusion models (artifact)
+G029,exclude,IC1,error reduction; less preference data incidental
+G036,exclude,IC1,runtime of generated heuristics (artifact)
+G038,exclude,IC3,EDA tool scheduling
+G051,exclude,EC2,loop-invariant synthesis for verification
+G064,exclude,IC1,"quality-oriented self-evaluation agent, no efficiency metric"
+G065,exclude,IC1,game-log analytics pipeline
+G073,exclude,IC3,"parallel text generation, no code"
+G076,exclude,IC3,"compositional reasoning, no code"
+G082,exclude,IC3,general edge quantization; code only motivation
+G089,exclude,IC3,"general RLVR rollout pruning, no code task"
+G092,exclude,IC3,context compression on text QA
+G111,exclude,IC3,"hardware memory management artifact, no code task"
