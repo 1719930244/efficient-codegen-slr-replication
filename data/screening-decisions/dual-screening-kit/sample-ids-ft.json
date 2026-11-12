@@ -1,0 +1,852 @@
+[
+ {
+  "key": "2312_08583",
+  "stratum": "Include",
+  "pages": "17"
+ },
+ {
+  "key": "2602_04998",
+  "stratum": "Include",
+  "pages": "35"
+ },
+ {
+  "key": "2410_00558",
+  "stratum": "Uncertain",
+  "pages": "24"
+ },
+ {
+  "key": "ss_Song2024variable",
+  "stratum": "Uncertain",
+  "pages": "0"
+ },
+ {
+  "key": "2512_05341",
+  "stratum": "Include",
+  "pages": "8"
+ },
+ {
+  "key": "2512_18131",
+  "stratum": "Include",
+  "pages": "13"
+ },
+ {
+  "key": "2502_18658",
+  "stratum": "Uncertain",
+  "pages": "21"
+ },
+ {
+  "key": "Zhao2025codeswift",
+  "stratum": "Include",
+  "pages": "13"
+ },
+ {
+  "key": "2509_17589",
+  "stratum": "Include",
+  "pages": "25"
+ },
+ {
+  "key": "2403_10059",
+  "stratum": "Include",
+  "pages": "21"
+ },
+ {
+  "key": "ss_Sun2025improvement",
+  "stratum": "Exclude",
+  "pages": "5"
+ },
+ {
+  "key": "2410_09854",
+  "stratum": "Exclude",
+  "pages": "12"
+ },
+ {
+  "key": "2408_08333",
+  "stratum": "Uncertain",
+  "pages": "10"
+ },
+ {
+  "key": "2505_14174",
+  "stratum": "Include",
+  "pages": "14"
+ },
+ {
+  "key": "2507_08619",
+  "stratum": "Uncertain",
+  "pages": "34"
+ },
+ {
+  "key": "2412_19595",
+  "stratum": "Exclude",
+  "pages": "7"
+ },
+ {
+  "key": "2402_11453",
+  "stratum": "Uncertain",
+  "pages": "14"
+ },
+ {
+  "key": "2602_20144",
+  "stratum": "Include",
+  "pages": "15"
+ },
+ {
+  "key": "ss_ElNouby2022image",
+  "stratum": "Exclude",
+  "pages": "19"
+ },
+ {
+  "key": "1908_11078",
+  "stratum": "Exclude",
+  "pages": "10"
+ },
+ {
+  "key": "2601_01569",
+  "stratum": "Include",
+  "pages": "31"
+ },
+ {
+  "key": "ss_Sun2024shadowkv",
+  "stratum": "Exclude",
+  "pages": "21"
+ },
+ {
+  "key": "2501_03166",
+  "stratum": "Uncertain",
+  "pages": "17"
+ },
+ {
+  "key": "2506_17865",
+  "stratum": "Exclude",
+  "pages": "9"
+ },
+ {
+  "key": "2312_11701",
+  "stratum": "Include",
+  "pages": "20"
+ },
+ {
+  "key": "Jin2025enhancing",
+  "stratum": "Uncertain",
+  "pages": "12"
+ },
+ {
+  "key": "2602_04919",
+  "stratum": "Include",
+  "pages": "13"
+ },
+ {
+  "key": "2502_11140",
+  "stratum": "Uncertain",
+  "pages": "15"
+ },
+ {
+  "key": "2601_21469",
+  "stratum": "Include",
+  "pages": "9"
+ },
+ {
+  "key": "ss_Liang2025digital",
+  "stratum": "Uncertain",
+  "pages": "0"
+ },
+ {
+  "key": "2602_10880",
+  "stratum": "Uncertain",
+  "pages": "18"
+ },
+ {
+  "key": "2212_10692",
+  "stratum": "Uncertain",
+  "pages": "14"
+ },
+ {
+  "key": "2503_11624",
+  "stratum": "Exclude",
+  "pages": "18"
+ },
+ {
+  "key": "2410_24198",
+  "stratum": "Uncertain",
+  "pages": "88"
+ },
+ {
+  "key": "ss_Sun2023iqnet",
+  "stratum": "Uncertain",
+  "pages": "0"
+ },
+ {
+  "key": "2511_03137",
+  "stratum": "Uncertain",
+  "pages": "14"
+ },
+ {
+  "key": "2512_08379",
+  "stratum": "Uncertain",
+  "pages": "15"
+ },
+ {
+  "key": "2601_07084",
+  "stratum": "Include",
+  "pages": "17"
+ },
+ {
+  "key": "2502_10802",
+  "stratum": "Exclude",
+  "pages": "15"
+ },
+ {
+  "key": "2508_06414",
+  "stratum": "Uncertain",
+  "pages": "13"
+ },
+ {
+  "key": "2501_09201",
+  "stratum": "Uncertain",
+  "pages": "4"
+ },
+ {
+  "key": "2509_07941",
+  "stratum": "Uncertain",
+  "pages": "20"
+ },
+ {
+  "key": "2312_13115",
+  "stratum": "Uncertain",
+  "pages": "19"
+ },
+ {
+  "key": "2510_11498",
+  "stratum": "Include",
+  "pages": "14"
+ },
+ {
+  "key": "2512_02337",
+  "stratum": "Include",
+  "pages": "12"
+ },
+ {
+  "key": "2504_11919",
+  "stratum": "Uncertain",
+  "pages": "9"
+ },
+ {
+  "key": "2308_02955",
+  "stratum": "Include",
+  "pages": "15"
+ },
+ {
+  "key": "2601_09822",
+  "stratum": "Exclude",
+  "pages": "12"
+ },
+ {
+  "key": "2410_21285",
+  "stratum": "Exclude",
+  "pages": "12"
+ },
+ {
+  "key": "2504_02052",
+  "stratum": "Include",
+  "pages": "12"
+ },
+ {
+  "key": "ss_Kim2023computer",
+  "stratum": "Exclude",
+  "pages": "581"
+ },
+ {
+  "key": "ss_Bhattacharyya2024llm",
+  "stratum": "Uncertain",
+  "pages": "0"
+ },
+ {
+  "key": "2410_22375",
+  "stratum": "Include",
+  "pages": "12"
+ },
+ {
+  "key": "2411_03471",
+  "stratum": "Include",
+  "pages": "7"
+ },
+ {
+  "key": "2401_06665",
+  "stratum": "Exclude",
+  "pages": "14"
+ },
+ {
+  "key": "2404_10719",
+  "stratum": "Include",
+  "pages": "16"
+ },
+ {
+  "key": "ss_Aggarwal2025evolutionary",
+  "stratum": "Exclude",
+  "pages": "39"
+ },
+ {
+  "key": "ss_Zhang2024llm",
+  "stratum": "Include",
+  "pages": "32"
+ },
+ {
+  "key": "2602_00746",
+  "stratum": "Include",
+  "pages": "21"
+ },
+ {
+  "key": "2407_21077",
+  "stratum": "Include",
+  "pages": "14"
+ },
+ {
+  "key": "2406_03003",
+  "stratum": "Uncertain",
+  "pages": "19"
+ },
+ {
+  "key": "2412_08063",
+  "stratum": "Include",
+  "pages": "11"
+ },
+ {
+  "key": "ss_Ye2021scalehls",
+  "stratum": "Exclude",
+  "pages": "15"
+ },
+ {
+  "key": "2603_03233",
+  "stratum": "Uncertain",
+  "pages": "38"
+ },
+ {
+  "key": "2502_19361",
+  "stratum": "Exclude",
+  "pages": "27"
+ },
+ {
+  "key": "ss_Kang2024gear",
+  "stratum": "Exclude",
+  "pages": "28"
+ },
+ {
+  "key": "ss_Susladkar2024motionaura",
+  "stratum": "Exclude",
+  "pages": "34"
+ },
+ {
+  "key": "2508_02343",
+  "stratum": "Include",
+  "pages": "12"
+ },
+ {
+  "key": "2304_10778",
+  "stratum": "Exclude",
+  "pages": "45"
+ },
+ {
+  "key": "ss_Siuzdak2024snac",
+  "stratum": "Exclude",
+  "pages": "8"
+ },
+ {
+  "key": "2506_08173",
+  "stratum": "Uncertain",
+  "pages": "5"
+ },
+ {
+  "key": "2201_05587",
+  "stratum": "Exclude",
+  "pages": "12"
+ },
+ {
+  "key": "2602_11000",
+  "stratum": "Include",
+  "pages": "25"
+ },
+ {
+  "key": "2410_13874",
+  "stratum": "Uncertain",
+  "pages": "31"
+ },
+ {
+  "key": "1912_03978",
+  "stratum": "Exclude",
+  "pages": "17"
+ },
+ {
+  "key": "ss_Wang2025adaptive",
+  "stratum": "Uncertain",
+  "pages": "0"
+ },
+ {
+  "key": "2502_08756",
+  "stratum": "Uncertain",
+  "pages": "28"
+ },
+ {
+  "key": "2511_15665",
+  "stratum": "Exclude",
+  "pages": "2"
+ },
+ {
+  "key": "2603_04646",
+  "stratum": "Include",
+  "pages": "7"
+ },
+ {
+  "key": "2506_16500",
+  "stratum": "Include",
+  "pages": "16"
+ },
+ {
+  "key": "2501_12934",
+  "stratum": "Include",
+  "pages": "20"
+ },
+ {
+  "key": "2508_09883",
+  "stratum": "Uncertain",
+  "pages": "9"
+ },
+ {
+  "key": "2505_13073",
+  "stratum": "Exclude",
+  "pages": "14"
+ },
+ {
+  "key": "2508_03661",
+  "stratum": "Uncertain",
+  "pages": "76"
+ },
+ {
+  "key": "2508_10074",
+  "stratum": "Include",
+  "pages": "10"
+ },
+ {
+  "key": "2408_12056",
+  "stratum": "Exclude",
+  "pages": "13"
+ },
+ {
+  "key": "2312_00273",
+  "stratum": "Include",
+  "pages": "22"
+ },
+ {
+  "key": "2410_05340",
+  "stratum": "Uncertain",
+  "pages": "27"
+ },
+ {
+  "key": "2512_05439",
+  "stratum": "Uncertain",
+  "pages": "31"
+ },
+ {
+  "key": "2601_23254",
+  "stratum": "Include",
+  "pages": "22"
+ },
+ {
+  "key": "2601_12744",
+  "stratum": "Include",
+  "pages": "7"
+ },
+ {
+  "key": "2512_23742",
+  "stratum": "Include",
+  "pages": "7"
+ },
+ {
+  "key": "2407_21579",
+  "stratum": "Exclude",
+  "pages": "11"
+ },
+ {
+  "key": "2502_18467",
+  "stratum": "Include",
+  "pages": "5"
+ },
+ {
+  "key": "2404_02078",
+  "stratum": "Uncertain",
+  "pages": "18"
+ },
+ {
+  "key": "2509_26062",
+  "stratum": "Include",
+  "pages": "27"
+ },
+ {
+  "key": "2510_06014",
+  "stratum": "Include",
+  "pages": "19"
+ },
+ {
+  "key": "2407_09111",
+  "stratum": "Include",
+  "pages": "11"
+ },
+ {
+  "key": "2412_21051",
+  "stratum": "Include",
+  "pages": "7"
+ },
+ {
+  "key": "2506_07596",
+  "stratum": "Uncertain",
+  "pages": "26"
+ },
+ {
+  "key": "2405_17057",
+  "stratum": "Uncertain",
+  "pages": "22"
+ },
+ {
+  "key": "2512_15000",
+  "stratum": "Uncertain",
+  "pages": "6"
+ },
+ {
+  "key": "2409_06957",
+  "stratum": "Uncertain",
+  "pages": "24"
+ },
+ {
+  "key": "2505_10607",
+  "stratum": "Include",
+  "pages": "29"
+ },
+ {
+  "key": "2403_12671",
+  "stratum": "Uncertain",
+  "pages": "7"
+ },
+ {
+  "key": "2405_04600",
+  "stratum": "Uncertain",
+  "pages": "13"
+ },
+ {
+  "key": "2309_17272",
+  "stratum": "Exclude",
+  "pages": "22"
+ },
+ {
+  "key": "2511_21104",
+  "stratum": "Include",
+  "pages": "23"
+ },
+ {
+  "key": "2510_18165",
+  "stratum": "Include",
+  "pages": "17"
+ },
+ {
+  "key": "2509_17393",
+  "stratum": "Uncertain",
+  "pages": "27"
+ },
+ {
+  "key": "2410_23894",
+  "stratum": "Include",
+  "pages": "8"
+ },
+ {
+  "key": "2510_06627",
+  "stratum": "Uncertain",
+  "pages": "16"
+ },
+ {
+  "key": "2602_23407",
+  "stratum": "Uncertain",
+  "pages": "18"
+ },
+ {
+  "key": "2509_12649",
+  "stratum": "Include",
+  "pages": "25"
+ },
+ {
+  "key": "2210_10492",
+  "stratum": "Exclude",
+  "pages": "13"
+ },
+ {
+  "key": "2510_24021",
+  "stratum": "Include",
+  "pages": "16"
+ },
+ {
+  "key": "2601_06126",
+  "stratum": "Include",
+  "pages": "20"
+ },
+ {
+  "key": "2209_01975",
+  "stratum": "Include",
+  "pages": "21"
+ },
+ {
+  "key": "2504_07448",
+  "stratum": "Include",
+  "pages": "26"
+ },
+ {
+  "key": "2504_17674",
+  "stratum": "Include",
+  "pages": "16"
+ },
+ {
+  "key": "2602_01705",
+  "stratum": "Include",
+  "pages": "32"
+ },
+ {
+  "key": "2506_09554",
+  "stratum": "Include",
+  "pages": "18"
+ },
+ {
+  "key": "ieee_Indhuja2025automated",
+  "stratum": "Include",
+  "pages": "7"
+ },
+ {
+  "key": "2305_11860",
+  "stratum": "Uncertain",
+  "pages": "22"
+ },
+ {
+  "key": "2510_23272",
+  "stratum": "Exclude",
+  "pages": "30"
+ },
+ {
+  "key": "2512_13438",
+  "stratum": "Include",
+  "pages": "22"
+ },
+ {
+  "key": "2408_00665",
+  "stratum": "Include",
+  "pages": "18"
+ },
+ {
+  "key": "2507_17728",
+  "stratum": "Include",
+  "pages": "8"
+ },
+ {
+  "key": "2408_10554",
+  "stratum": "Include",
+  "pages": "19"
+ },
+ {
+  "key": "2508_13201",
+  "stratum": "Uncertain",
+  "pages": "92"
+ },
+ {
+  "key": "2401_10652",
+  "stratum": "Include",
+  "pages": "11"
+ },
+ {
+  "key": "2410_18194",
+  "stratum": "Include",
+  "pages": "23"
+ },
+ {
+  "key": "2601_05633",
+  "stratum": "Uncertain",
+  "pages": "20"
+ },
+ {
+  "key": "2507_12507",
+  "stratum": "Include",
+  "pages": "14"
+ },
+ {
+  "key": "2505_02146",
+  "stratum": "Include",
+  "pages": "16"
+ },
+ {
+  "key": "2406_12375",
+  "stratum": "Include",
+  "pages": "12"
+ },
+ {
+  "key": "ieee_Zhu2024towards",
+  "stratum": "Exclude",
+  "pages": "2"
+ },
+ {
+  "key": "2602_13723",
+  "stratum": "Exclude",
+  "pages": "28"
+ },
+ {
+  "key": "2510_09932",
+  "stratum": "Include",
+  "pages": "45"
+ },
+ {
+  "key": "2503_16913",
+  "stratum": "Uncertain",
+  "pages": "13"
+ },
+ {
+  "key": "2601_07160",
+  "stratum": "Include",
+  "pages": "33"
+ },
+ {
+  "key": "2407_09164",
+  "stratum": "Include",
+  "pages": "16"
+ },
+ {
+  "key": "2307_12856",
+  "stratum": "Uncertain",
+  "pages": "28"
+ },
+ {
+  "key": "2507_03616",
+  "stratum": "Uncertain",
+  "pages": "13"
+ },
+ {
+  "key": "2108_13191",
+  "stratum": "Include",
+  "pages": "16"
+ },
+ {
+  "key": "2505_23254",
+  "stratum": "Include",
+  "pages": "16"
+ },
+ {
+  "key": "2512_06442",
+  "stratum": "Exclude",
+  "pages": "32"
+ },
+ {
+  "key": "2408_05026",
+  "stratum": "Include",
+  "pages": "30"
+ },
+ {
+  "key": "ss_Qu2025holozip",
+  "stratum": "Uncertain",
+  "pages": "0"
+ },
+ {
+  "key": "2601_00509",
+  "stratum": "Include",
+  "pages": "5"
+ },
+ {
+  "key": "2406_12326",
+  "stratum": "Uncertain",
+  "pages": "9"
+ },
+ {
+  "key": "2308_04724",
+  "stratum": "Exclude",
+  "pages": "2"
+ },
+ {
+  "key": "2505_10446",
+  "stratum": "Exclude",
+  "pages": "27"
+ },
+ {
+  "key": "2602_01187",
+  "stratum": "Include",
+  "pages": "21"
+ },
+ {
+  "key": "2312_15224",
+  "stratum": "Include",
+  "pages": "35"
+ },
+ {
+  "key": "2506_03524",
+  "stratum": "Uncertain",
+  "pages": "46"
+ },
+ {
+  "key": "2408_01651",
+  "stratum": "Include",
+  "pages": "5"
+ },
+ {
+  "key": "2603_02637",
+  "stratum": "Include",
+  "pages": "24"
+ },
+ {
+  "key": "2512_00672",
+  "stratum": "Uncertain",
+  "pages": "44"
+ },
+ {
+  "key": "2511_20613",
+  "stratum": "Uncertain",
+  "pages": "10"
+ },
+ {
+  "key": "2509_25848",
+  "stratum": "Exclude",
+  "pages": "29"
+ },
+ {
+  "key": "ss_Liu2019self",
+  "stratum": "Include",
+  "pages": "11"
+ },
+ {
+  "key": "ieee_Weinthal2025leveraging",
+  "stratum": "Include",
+  "pages": "6"
+ },
+ {
+  "key": "ss_He2023efficient",
+  "stratum": "Uncertain",
+  "pages": "0"
+ },
+ {
+  "key": "2410_13213",
+  "stratum": "Uncertain",
+  "pages": "27"
+ },
+ {
+  "key": "2601_17604",
+  "stratum": "Uncertain",
+  "pages": "31"
+ },
+ {
+  "key": "2501_00642",
+  "stratum": "Uncertain",
+  "pages": "15"
+ },
+ {
+  "key": "2509_21164",
+  "stratum": "Include",
+  "pages": "22"
+ },
+ {
+  "key": "2503_08174",
+  "stratum": "Uncertain",
+  "pages": "7"
+ },
+ {
+  "key": "2512_15076",
+  "stratum": "Uncertain",
+  "pages": "20"
+ }
+]

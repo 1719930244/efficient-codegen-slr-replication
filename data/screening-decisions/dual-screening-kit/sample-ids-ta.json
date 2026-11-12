@@ -1,0 +1,1002 @@
+[
+ {
+  "key": "ieee_Le2016empirical",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Alizadeh2025language",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "2509_20534",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "2310_13976",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "2023slabcity",
+  "stratum": "Uncertain",
+  "has_abstract": false
+ },
+ {
+  "key": "Han2024beyond",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_85029583718",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2208_00497",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_Duan2023leftover",
+  "stratum": "Uncertain",
+  "has_abstract": false
+ },
+ {
+  "key": "ss_Flink2025fedloraswitch",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_ChagoyaGarzon2011semiautomation",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Anderson2019optimization",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "2504_07433",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "2510_21407",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_Mizrahi2024unlocking",
+  "stratum": "Uncertain",
+  "has_abstract": false
+ },
+ {
+  "key": "2603_02637",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "2509_17589",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "2508_04072",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "2103_04747",
+  "stratum": "Likely-Exclude",
+  "has_abstract": true
+ },
+ {
+  "key": "Zhang2006finding",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2405_10272",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "Wei2025privacy",
+  "stratum": "Uncertain",
+  "has_abstract": false
+ },
+ {
+  "key": "ss_Zhang2021adaptive",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "2503_05852",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "wos_Kulathunga2025resilient",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2501_13731",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "Buyrukoglu2016increasing",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_84874748635",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2409_12171",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "ss_Liu2020multi",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "2305_10611",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "Purini2013finding",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ss_2009video",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Li2004exact",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ss_Yin2023pv",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_Zhang2011university",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_105020390011",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_AbiKaram2023inrarch",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2601_05106",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "2501_18653",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_Nammouchi2024towards",
+  "stratum": "Uncertain",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_84885231024",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Kourai2015zerocopy",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_84871203710",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_77954667601",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Kalita2022program",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2510_23272",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "ss_Venkat2019swirl",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "scopus_85185823884",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_Yuan2003framework",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2512_20724",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_Kim2015platformspecific",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_105003208988",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Steuwer2016matrix",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2503_16771",
+  "stratum": "Likely-Exclude",
+  "has_abstract": true
+ },
+ {
+  "key": "Takaki2025higher",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_85174595059",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Otomo2025automatic",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2502_02711",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "Abid2018efficient",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2312_00700",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "wos_Lin2017multidimensional",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2505_13772",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "2504_09643",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "2504_16536",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "2312_02249",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "scopus_105020405003",
+  "stratum": "Uncertain",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Tanaka2025integrating",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_85059519620",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ss_Gong2014optimal",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Bavishi2021gauss",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2512_05439",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "scopus_85171560545",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Roshan2025roleaware",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "2401_10364",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "ss_Wu2021mirroralign",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "Baca2008evaluating",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Maxiaguine2005dvs",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_MonteMor2011applying",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "wos_Chen2023opara",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ss_Kang2024gear",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "2508_13920",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "scopus_0024050497",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Liu2025functionlevel",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Seeker2024revealing",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_85164782552",
+  "stratum": "Uncertain",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Ibnat2025trusting",
+  "stratum": "Likely-Exclude",
+  "has_abstract": true
+ },
+ {
+  "key": "Salas2012rocebush",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Liskowski2020program",
+  "stratum": "Uncertain",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Yan2021research",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Laplante2012programming",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Komodakis2011mrf",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Wang2024dancecamanimator",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_105001589815",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2502_11404",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_Stubbs2008systematics",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_33746078868",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Bastos2023can",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Feng2023investigating",
+  "stratum": "Likely-Include",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_85213347359",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "ss_Li2021revisiting",
+  "stratum": "Likely-Exclude",
+  "has_abstract": true
+ },
+ {
+  "key": "2407_09453",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "2112_12653",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_Dorninger2014automated",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_84994519228",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Ghabi2012code",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_unknown2011tutorialb",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2511_22891",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "2411_05010",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "scopus_85194710180",
+  "stratum": "Likely-Include",
+  "has_abstract": false
+ },
+ {
+  "key": "2504_14557",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_Palkowski2017optimizing",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Mller2020eliminating",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Hwu1988exploiting",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Muggleton1994bayesian",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2312_11511",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "Blundo2002lightweight",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Mannion2005system",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ss_Zhu2026flash",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "scopus_105027385519",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "2512_13323",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "Clausen2000java",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2106_12496",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "Zhang2024lightweight",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Li2024poster",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2302_03763",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "Atkinson2022semisymbolic",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Li2019hash",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2408_06810",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "Zhang2025boundaryconditioned",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Limpanukorn2025fuzzing",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Haller2016lacasa",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2602_23407",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_Darte2002generalized",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_78649864892",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Li2005semantic",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_85044750852",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ss_Osrio2025evaluation",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "2601_22230",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_Collin2008improving",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Fang2022cross",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_McFarlin2015bungee",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ss_Brody2020neural",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "ss_Sun2023iqnet",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "ss_Vijayaraghavan2017minimized",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_Zhao2019hardwareintheloop",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_85103207167",
+  "stratum": "Uncertain",
+  "has_abstract": false
+ },
+ {
+  "key": "Li2021filter",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_Aloui2022new",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2508_02358",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_Kohler2002improving",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_0030410170",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Gu2010efficient",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Altiero2025securing",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "2601_07348",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "ss_Xu2025accelerate",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "Lelewer1987data",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ss_Brody2020structural",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_Pan2019adaptive",
+  "stratum": "Uncertain",
+  "has_abstract": false
+ },
+ {
+  "key": "2506_00570",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "2308_11900",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "Mohammadzadeh2021efficient",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ss_Brito2020signal",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "2404_07548",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "Kerneis2014qemucpc",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Alur2015keynote",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "1806_02932",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "Zhang2021boosting",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2510_10618",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "Bentley2006implicit",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Gemeinhardt2023modeldriven",
+  "stratum": "Uncertain",
+  "has_abstract": false
+ },
+ {
+  "key": "2509_20426",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "2512_18934",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "2509_08315",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "Giagnorio2025quantizing",
+  "stratum": "Likely-Include",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Paradis2025how",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "Yang2017exceptionization",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_85096334533",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ss_Kraemer2007efficient",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Li2025conversion",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ieee_Lano2025comparing",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2512_23742",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "2601_13401",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "2509_01455",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_Chebolu2016tuning",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "ss_Miura1978access",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2204_08676",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "2101_00961",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "ieee_Zhai2024llm",
+  "stratum": "Uncertain",
+  "has_abstract": false
+ },
+ {
+  "key": "2602_13280",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "2510_08369",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "DeRemer1982efficient",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2408_02232",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "Zhao2024foes",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2507_15615",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "ss_Sioutas2019schedule",
+  "stratum": "Uncertain",
+  "has_abstract": true
+ },
+ {
+  "key": "ss_Sun2022learning",
+  "stratum": "Likely-Include",
+  "has_abstract": false
+ },
+ {
+  "key": "scopus_84885009574",
+  "stratum": "Likely-Exclude",
+  "has_abstract": false
+ },
+ {
+  "key": "2512_16272",
+  "stratum": "Likely-Include",
+  "has_abstract": true
+ },
+ {
+  "key": "ss_Baldassarre2023variable",
+  "stratum": "Likely-Exclude",
+  "has_abstract": true
+ }
+]

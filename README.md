@@ -91,6 +91,7 @@ Provenance note, recorded as fact: the per-study 8-item audit sheets of the orig
 - `coverage-audit-2026-10.csv`: the 400-record coverage-audit sample with both automated screeners, criteria, reasons, and adjudication.
 - `gap-2026-03.csv`: March 2026 gap-search adjudication records.
 - `original-2026-03/`: recovered March 2026 working records, including the 22,119-row Stage-1 auto-screening table, the 1,700-row scripted first pass and LLM re-screening of the full texts, the recovered classifier and screening scripts, and the early PRISMA draft.
+- `dual-screening-kit/`: blank 200-record title-and-abstract and 170-paper full-text dual-screening sheets, with the sampling frame and a kappa script. The sheets are instruments, not filled reliability tables.
 - `stage1-classifier/`: a clean reconstruction of the published Stage-1 scoring rule; the recovered original is in `original-2026-03/scripts/03-screening/`.
 - `RECONSTRUCTION.md`: what is public, what is missing, and how to close the gap.
 

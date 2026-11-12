@@ -8,6 +8,12 @@
 - Recorded that re-running the recovered Stage-1 classifier labels 3,159 records Likely-Include or Uncertain, and that the final 3,810 candidates add manual overrides and merged export batches.
 - The companion site describes the five pre-registered predictions without numbering; the Supplementary Material PDF was rebuilt.
 
+## v2.3.1 (2026-11-12) — dual-screening kit
+
+- Added `data/screening-decisions/dual-screening-kit/` with blank 200-record title-and-abstract sheets (100 retained, 100 excluded; seed 20261007) and 170-paper full-text sheets (76 Include, 59 Uncertain, 35 Exclude; seed 20261007), plus `kappa.py` and the sampling frame.
+- The title-and-abstract sample is drawn from the recovered Stage-1 table; 89 of 200 records have abstracts, the rest were title-only in the Stage-1 input. The earlier coverage-audit kit was a different sample and is not used here.
+- The sheets are blank. The kappa values reported in the manuscript require the filled second-rater decisions; the kit does not assert those values.
+
 ## v2.3 (2026-11-09) — recovered original screening records
 
 - Recovered `04_efficient-codegen-survey.zip` from `/home/v3090ti/szw_alibaba_backup/` on server 216. Added `data/screening-decisions/original-2026-03/` with the 22,119-row Stage-1 auto-screening table, the 1,700-row first-pass full-text worksheet, the LLM-assisted pass, the recovered classifier and screening scripts, the likely-include BibTeX, and the early PRISMA draft.
