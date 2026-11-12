@@ -23,7 +23,7 @@ PROGRESS_FILE = BASE / "classification-progress.json"
 
 # LLM API config (same as screening)
 API_URL = "https://code.mmkg.cloud/v1/chat/completions"
-API_KEY = "sk-cLhYKAqQN0MThSIe66pMb4RYsVGlKWDYeMHWCiOAPmCyhhrL"
+API_KEY = os.environ.get("LLM_API_KEY", "")  # key removed from the public package; set LLM_API_KEY to re-run
 MODEL = "gpt-5-mini"
 
 # ── Fine-grained taxonomy ──────────────────────────────────────────────────

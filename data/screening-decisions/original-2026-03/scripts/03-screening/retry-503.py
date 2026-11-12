@@ -27,7 +27,7 @@ PROGRESS_FILE = os.path.join(DATA_DIR, "screening-ft-llm-retry-progress.json")
 LOG_FILE = os.path.join(DATA_DIR, "screening-ft-llm-log.jsonl")
 
 API_BASE = "https://code.mmkg.cloud"
-API_KEY = "sk-f3c5dda1d52aa946dc923d5ab6adf3f13f0fb2b2efcf0e90cbae037ffae72814"
+API_KEY = os.environ.get("LLM_API_KEY", "")  # key removed from the public package; set LLM_API_KEY to re-run
 MODEL = "gpt-5.2-codex"
 
 SYSTEM_PROMPT = """You are a systematic literature review screener. You evaluate academic papers against inclusion/exclusion criteria for a survey on "Efficiency in LLM-based Code Generation".
