@@ -1,6 +1,6 @@
 # Replication Package: Towards Efficient LLM-Based Code Generation
 
-Replication package for the systematic literature review: *"Towards Efficient LLM-Based Code Generation: A Systematic Review"* (ACM TOSEM, manuscript TOSEM-2026-0589, revision submitted October 2026). Package version **v2.1** (2026-11-03), see [CHANGELOG.md](CHANGELOG.md).
+Replication package for the systematic literature review: *"Towards Efficient LLM-Based Code Generation: A Systematic Review"* (ACM TOSEM, manuscript TOSEM-2026-0589, revision submitted October 2026). Package version **v2.4** (2026-11-12), see [CHANGELOG.md](CHANGELOG.md).
 
 ## Overview
 
@@ -58,6 +58,7 @@ experiments/                   # RQ6 empirical experiments: design doc, as-run s
 scripts/
   plot_upset.py                # Regenerates the RQ-intersection figure from primary-studies.csv
   sensitivity_findings.py      # Section 3.8 peer-reviewed-subset counts (reproduces Tables 3-4)
+  placeholder_failures.py      # Section 9.1 placeholder answers under the raw completion prompt
   plot_pareto_a800_cleanmem.py # Regenerates the A800 Pareto figure with clean memory readings
   monthly_update_openalex.py   # Standard monthly living-update search (OpenAlex)
   monthly_update_search.py     # May 2026 batch search (Semantic Scholar bulk, historical)
@@ -89,7 +90,7 @@ Provenance note, recorded as fact: the per-study 8-item audit sheets of the orig
 - `monthly-2026-10.csv`: 20 OpenAlex selections for 2026-09-01..2026-10-31, 11 included and 9 excluded with reasons.
 - `coverage-audit-2026-10.csv`: the 400-record coverage-audit sample with both automated screeners, criteria, reasons, and adjudication.
 - `gap-2026-03.csv`: March 2026 gap-search adjudication records.
-- `original-2026-03/`: recovered March 2026 working records, including the 22,119-row Stage-1 auto-screening table, the 1,700-row first-pass full-text worksheet, the LLM-assisted pass, the recovered classifier and screening scripts, and the early PRISMA draft.
+- `original-2026-03/`: recovered March 2026 working records, including the 22,119-row Stage-1 auto-screening table, the 1,700-row scripted first pass and LLM re-screening of the full texts, the recovered classifier and screening scripts, and the early PRISMA draft.
 - `stage1-classifier/`: a clean reconstruction of the published Stage-1 scoring rule; the recovered original is in `original-2026-03/scripts/03-screening/`.
 - `RECONSTRUCTION.md`: what is public, what is missing, and how to close the gap.
 
@@ -169,7 +170,8 @@ Phase 4 (window search, publication window 2026-04-01 to 2026-08-31, run 2026-09
  3,810 candidates
     |
     v  Full-text retrieval: 1,700 of 3,810 (2,110 not retrieved)
-    v  Full-text screening, five authors (1,611 excluded)
+    v  Full-text screening: scripted first pass, LLM re-screening,
+    v  author check of every re-screening include (1,611 excluded)
     89 included
     |
     +-- Snowballing: 2,645 candidates -> 18 included (2,627 excluded)
@@ -181,7 +183,11 @@ Phase 4 (window search, publication window 2026-04-01 to 2026-08-31, run 2026-09
     +-- Phase 4, OpenAlex and arXiv window (April-August 2026):
     |     OpenAlex 436 -> 16; arXiv 111 -> 6; overlaps -3; +19
     v
-  141 studies in the reporting audit (cut-off 2026-08-31)\n    |\n    +-- September-October 2026 batches: +11\n    v\n  152 primary studies (cut-off 2026-10-31)
+  141 studies in the reporting audit (cut-off 2026-08-31)
+    |
+    +-- September-October 2026 batches: +11
+    v
+  152 primary studies (cut-off 2026-10-31)
 ```
 
 ## Quality Assessment
@@ -203,8 +209,8 @@ The companion website (https://1719930244.github.io/efficient-codegen-slr-replic
 
 ## Known Gaps (recorded honestly)
 
-1. **Stage-1 classifier artifacts**: recovered and mirrored in `data/screening-decisions/original-2026-03/`. The original `screening-ta-auto.py` is rule-based, not a weighted threshold; the recovered auto-screening table has 22,119 rows. The final 3,810-row ranked list is not byte-identical to this March 2026 export; see `original-2026-03/README.md`.
-2. **Full-text screening decisions**: recovered and mirrored in `data/screening-decisions/original-2026-03/`. The 1,700-row first-pass worksheet has 760 Include, 586 Uncertain, and 354 Exclude; the LLM-assisted pass has 104 INCLUDE, 1,534 EXCLUDE, and 62 NO_TEXT. These are working records, not the final 89 included studies; see `original-2026-03/README.md`.
+1. **Stage-1 classifier artifacts**: recovered and mirrored in `data/screening-decisions/original-2026-03/`. The original `screening-ta-auto.py` is rule-based, not a weighted threshold; the recovered auto-screening table has 22,119 rows. Re-running it on that table labels 3,159 records Likely-Include or Uncertain; the final list of 3,810 candidates adds records retained by manual overrides and by the merge of export batches. See `RECONSTRUCTION.md`.
+2. **Full-text screening decisions**: recovered and mirrored in `data/screening-decisions/original-2026-03/`. The scripted first pass labels 760 Include, 586 Uncertain, and 354 Exclude; the LLM re-screening labels 104 INCLUDE, 1,534 EXCLUDE, and 62 NO_TEXT. The authors checked every paper that the re-screening included, which gave the 89 full-text inclusions; see `original-2026-03/README.md`. Reliability was measured by dual-author validation on stratified samples of Stage 1 and Stage 3 (manuscript Section 3.3).
 3. **Gap-search record G000** (EAAI 2026, DOI 10.1016/j.engappai.2026.114360): full text requires institutional access; its IC4 adjudication is pending.
 4. Per-study 8-item audit sheets of the original 122 studies: not archived; see the provenance note under Reporting Compliance Audit.
 

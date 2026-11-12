@@ -141,6 +141,9 @@ expose `nvmlDeviceGetTotalEnergyConsumption`.
 - LiveCodeBench table, RTX 3090 Ti rows: `v100-sept-round-216/results/lcb-3090ti/`;
   1024-token budget sensitivity replicate: `v100-sept-round-216/results/lcb-cap1024/`;
   three-run energy-variance replicate: `v100-sept-round-216/results/lcb-energy-variance/`.
+- Placeholder answers under the raw completion prompt (manuscript Section 9.1):
+  `scripts/placeholder_failures.py` over `a800-results/a800-*/heplus/` per-task
+  records; 27 of 164 tasks at 1.5B FP16, 2 at 3B, 5 at 7B.
 - 32B speculative sign-flip replication on V100 (single-run):
   `v100-sept-round-216/results/heplus-x32/` (P17 standard, P19 speculative).
 

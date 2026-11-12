@@ -1,5 +1,13 @@
 # Changelog
 
+## v2.4 (2026-11-12) — wording aligned with the revised manuscript
+
+- Removed hard-coded API keys from the recovered screening scripts; set `LLM_API_KEY` to re-run them.
+- Added `scripts/placeholder_failures.py`, which counts placeholder answers under the raw completion prompt in the A800 HumanEval+ per-task records (manuscript Section 9.1).
+- Aligned the Stage-3 description with the manuscript: scripted first pass, LLM re-screening of all 1,700 full texts, author check of every re-screening include, dual-author validation on stratified samples.
+- Recorded that re-running the recovered Stage-1 classifier labels 3,159 records Likely-Include or Uncertain, and that the final 3,810 candidates add manual overrides and merged export batches.
+- The companion site describes the five pre-registered predictions without numbering; the Supplementary Material PDF was rebuilt.
+
 ## v2.3 (2026-11-09) — recovered original screening records
 
 - Recovered `04_efficient-codegen-survey.zip` from `/home/v3090ti/szw_alibaba_backup/` on server 216. Added `data/screening-decisions/original-2026-03/` with the 22,119-row Stage-1 auto-screening table, the 1,700-row first-pass full-text worksheet, the LLM-assisted pass, the recovered classifier and screening scripts, the likely-include BibTeX, and the early PRISMA draft.
