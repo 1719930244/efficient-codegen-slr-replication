@@ -265,7 +265,7 @@
 <section id="taxonomy">
   <div class="container">
     <h2>Classification Taxonomy</h2>
-    <p>Our taxonomy follows the <strong>LLM lifecycle</strong>, organizing 117 primary studies into 24 categories. Click any category to browse its papers with direct links.</p>
+    <p>Our taxonomy follows the <strong>LLM lifecycle</strong>, organizing 117 primary studies into 15 groups over 24 fine-grained categories. Click any category to browse its papers with direct links.</p>
     <div class="search-box">
       <input type="text" id="paperSearch" placeholder="Search papers by title, venue, year, or keyword..." oninput="filterPapers()">
     </div>
@@ -805,7 +805,7 @@ function filterPapers() {
 }
 
 function updateStats(msg) {
-  document.getElementById('searchStats').textContent = msg || `Showing all 152 primary studies across 24 categories. Click a category to expand.`;
+  document.getElementById('searchStats').textContent = msg || `Showing all 117 primary studies across 15 groups. Click a category to expand.`;
 }
 
 document.addEventListener('DOMContentLoaded', renderTaxonomy);

@@ -22,7 +22,7 @@ Note: 28 studies span multiple RQs, so per-RQ counts sum to more than 117. The c
 ```
 data/
   primary-studies.csv          # All 117 primary studies: metadata, canonical RQ column, Quality Tier
-  classification-scheme.csv    # Taxonomy: 24 categories, study counts and keys regenerated for 117
+  classification-scheme.csv    # Taxonomy: 15 groups over 24 fine-grained categories, study counts and keys regenerated for 117
   statistics-117.json          # Summary statistics (year, RQ, category, quality-tier distributions, N=117); statistics-152.json keeps the pre-confirmation set
   reporting-compliance.json    # Per-study QA scores (QA1-QA4) for all 117 studies
   search-log.csv               # Structured log of every search executed (main campaign, window, gap)
