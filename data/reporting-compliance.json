@@ -139,13 +139,6 @@
   "qa4_reproducibility_artifacts": 0.5,
   "qa_total": 3.5
  },
- "2405_15189": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 1,
-  "qa_total": 4
- },
  "2405_15208": {
   "qa1_empirical_evaluation": 1,
   "qa2_baseline_comparison": 1,
@@ -230,13 +223,6 @@
   "qa4_reproducibility_artifacts": 0.5,
   "qa_total": 3
  },
- "2410_10209": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 1,
-  "qa_total": 4
- },
  "2410_14766": {
   "qa1_empirical_evaluation": 1,
   "qa2_baseline_comparison": 1,
@@ -300,20 +286,6 @@
   "qa4_reproducibility_artifacts": 0.5,
   "qa_total": 3.5
  },
- "arxiv_2408_06450": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3
- },
- "doi_10_48550_arXiv_2402_07844": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 1,
-  "qa_total": 3.5
- },
  "ss_Zhang2024llm": {
   "qa1_empirical_evaluation": 1,
   "qa2_baseline_comparison": 1,
@@ -369,13 +341,6 @@
   "qa3_experimental_config": 1,
   "qa4_reproducibility_artifacts": 1,
   "qa_total": 4
- },
- "2502_18489": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 1,
-  "qa_total": 3.5
  },
  "2503_07103": {
   "qa1_empirical_evaluation": 1,
@@ -447,20 +412,6 @@
   "qa4_reproducibility_artifacts": 0.5,
   "qa_total": 3.5
  },
- "2506_03006": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 1,
-  "qa_total": 4
- },
- "2506_09092": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0,
-  "qa_total": 2.5
- },
  "2506_10525": {
   "qa1_empirical_evaluation": 0.5,
   "qa2_baseline_comparison": 1,
@@ -468,25 +419,11 @@
   "qa4_reproducibility_artifacts": 0.5,
   "qa_total": 3
  },
- "2506_12355": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0,
-  "qa_total": 2.5
- },
  "2506_18796": {
   "qa1_empirical_evaluation": 1,
   "qa2_baseline_comparison": 1,
   "qa3_experimental_config": 1,
   "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3.5
- },
- "2507_23194": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 1,
   "qa_total": 3.5
  },
  "2508_03258": {
@@ -502,20 +439,6 @@
   "qa3_experimental_config": 0.5,
   "qa4_reproducibility_artifacts": 0.5,
   "qa_total": 2.5
- },
- "2508_20124": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0,
-  "qa_total": 2.5
- },
- "2509_09947": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3.5
  },
  "2509_12159": {
   "qa1_empirical_evaluation": 1,
@@ -551,13 +474,6 @@
   "qa3_experimental_config": 1,
   "qa4_reproducibility_artifacts": 1,
   "qa_total": 4
- },
- "2510_16996": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3.5
  },
  "2510_18165": {
   "qa1_empirical_evaluation": 1,
@@ -621,13 +537,6 @@
   "qa3_experimental_config": 0.5,
   "qa4_reproducibility_artifacts": 0.5,
   "qa_total": 3
- },
- "arxiv_2508_08332": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3.5
  },
  "doi_10_1109_TCAD_2024_3483089": {
   "qa1_empirical_evaluation": 1,
@@ -727,20 +636,6 @@
   "qa4_reproducibility_artifacts": 0.5,
   "qa_total": 3
  },
- "2602_12049": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 0,
-  "qa_total": 3
- },
- "2602_12305": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 0,
-  "qa_total": 3
- },
  "2602_15843": {
   "qa1_empirical_evaluation": 1,
   "qa2_baseline_comparison": 1,
@@ -761,13 +656,6 @@
   "qa3_experimental_config": 0.5,
   "qa4_reproducibility_artifacts": 0.5,
   "qa_total": 3
- },
- "2602_24286": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 1,
-  "qa_total": 4
  },
  "2603_04646": {
   "qa1_empirical_evaluation": 0.5,
@@ -918,44 +806,6 @@
    "energy": "no"
   },
   "evidence": "Abstract (OpenAlex record has no abstract; read from official arXiv page 2609.22765): experiments on three LLMs and three benchmarks, Pass@1 +18.49-29.43% over full-dataset training and +1.36-7.95% over the best baseline; models and benchmarks are unnamed, hardware/hyperparameters absent, no artifact statement; the 80% training-time cut is training cost, not inference latency."
- },
- "openalex_W7220428400": {
-  "title": "Improving the Energy-Efficiency of the Code Generated by LLMs through Effective Prompting",
-  "qa1_empirical_evaluation": 1.0,
-  "qa2_baseline_comparison": 1.0,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0.0,
-  "qa_total": 2.5,
-  "reporting": {
-   "correctness": "no",
-   "model_name": "yes",
-   "hardware": "no",
-   "latency": "no",
-   "memory": "no",
-   "serving_config": "no",
-   "monetary_cost": "no",
-   "energy": "yes"
-  },
-  "evidence": "Abstract: 21 prompting strategies narrowed to 8, evaluated on 10 named LLMs in Python and C++ with energy cuts of up to 25%/17% relative to a baseline prompt; no correctness metric, dataset names, hardware or hyperparameters; execution-platform details absent; no artifact link."
- },
- "openalex_W7215058388": {
-  "title": "Cracking Query Bottlenecks: Towards Efficiency-Oriented Text-to-SQL Generation",
-  "qa1_empirical_evaluation": 1.0,
-  "qa2_baseline_comparison": 1.0,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0.0,
-  "qa_total": 2.5,
-  "reporting": {
-   "correctness": "yes",
-   "model_name": "yes",
-   "hardware": "no",
-   "latency": "no",
-   "memory": "no",
-   "serving_config": "no",
-   "monetary_cost": "no",
-   "energy": "no"
-  },
-  "evidence": "Abstract: EESQLBench pairs each question with expert-optimized SQL as an efficiency baseline; six named LLMs scored with CR and AR@k under correctness plus cost-based efficiency metrics; the benchmark is introduced but no release is stated, and hardware/generation settings are absent; efficiency is query execution cost, not model latency."
  },
  "openalex_W4416784159": {
   "title": "Don’t Use a Cannon to Kill a Fly: Lightweight Model Editing for LLMs to Correct Deprecated API Recommendations",

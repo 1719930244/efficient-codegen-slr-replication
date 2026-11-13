@@ -1,13 +1,13 @@
 # Changelog
 
-## v2.5 (2026-11-13) — confirmation pass and 135-study corpus
+## v2.5 (2026-11-13) — confirmation pass and 117-study corpus
 
-- A final confirmation pass re-read all 152 candidates against IC1-IC4 and EC1-EC5. Seventeen failed: one on IC2, fifteen on IC4 or EC1 because they report no quantitative efficiency metric or do not target efficiency, and one duplicate version (S125) on EC5. The final corpus is 135 studies.
-- Added `data/screening-decisions/confirmation-exclusions-17.csv` with the failed criterion, the source evidence, and an English and Chinese reason for every excluded record.
-- Added `data/screening-decisions/final-corpus-135.csv`, `data/primary-studies-135.csv`, `data/statistics-135.json`, and `data/venues/venue-tier-135.csv`. Refiltered `data/by-rq/` to 25/27/64/27/20.
+- A final confirmation pass re-read all 152 candidates against IC1-IC4 and EC1-EC5. Thirty-five failed: one on IC2, fifteen on IC4 or EC1 because they report no quantitative efficiency metric or do not target efficiency, one duplicate version (S125) on EC5, and eighteen because they address the runtime efficiency of generated code rather than the generation process. The final corpus is 117 studies.
+- Added `data/screening-decisions/confirmation-exclusions-35.csv` with the failed criterion, the source evidence, and an English and Chinese reason for every excluded record.
+- Added `data/screening-decisions/final-corpus-117.csv`, `data/primary-studies-117.csv`, `data/statistics-117.json`, and `data/venues/venue-tier-117.csv`. Refiltered `data/by-rq/` to 24/20/59/26/15.
 - Recomputed the peer-reviewed subset, 52 studies, and the finding-level sensitivity table. Findings 1, 4, and 5 are preprint-leaning; the other four are stable.
-- Rebuilt the RQ-membership figure and the reporting audit. The audit now covers 126 studies, excluding the nine October studies.
-- Companion website and README updated to 135 studies.
+- Rebuilt the RQ-membership figure and the reporting audit. The audit now covers 110 studies, excluding the nine October studies.
+- Companion website and README updated to 117 studies.
 
 ## v2.4 (2026-11-12) — wording aligned with the revised manuscript
 
