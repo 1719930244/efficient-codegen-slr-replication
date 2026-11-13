@@ -790,13 +790,6 @@
   "qa4_reproducibility_artifacts": 1,
   "qa_total": 4
  },
- "cunha2026localllmenergy": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0,
-  "qa_total": 2.5
- },
  "danda2026energypruning": {
   "qa1_empirical_evaluation": 1,
   "qa2_baseline_comparison": 1,

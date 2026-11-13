@@ -1,13 +1,13 @@
 # Changelog
 
-## v2.5 (2026-11-13) — confirmation pass and 136-study corpus
+## v2.5 (2026-11-13) — confirmation pass and 135-study corpus
 
-- A final confirmation pass re-read all 152 candidates against IC1-IC4 and EC1-EC5. Sixteen failed: one on IC2, and fifteen on IC4 or EC1 because they report no quantitative efficiency metric or do not target efficiency. The final corpus is 136 studies.
-- Added `data/screening-decisions/confirmation-exclusions-16.csv` with the failed criterion, the source evidence, and an English and Chinese reason for every excluded record.
-- Added `data/screening-decisions/final-corpus-136.csv`, `data/primary-studies-136.csv`, `data/statistics-136.json`, and `data/venues/venue-tier-136.csv`. Refiltered `data/by-rq/` to 25/27/64/27/21.
+- A final confirmation pass re-read all 152 candidates against IC1-IC4 and EC1-EC5. Seventeen failed: one on IC2, fifteen on IC4 or EC1 because they report no quantitative efficiency metric or do not target efficiency, and one duplicate version (S125) on EC5. The final corpus is 135 studies.
+- Added `data/screening-decisions/confirmation-exclusions-17.csv` with the failed criterion, the source evidence, and an English and Chinese reason for every excluded record.
+- Added `data/screening-decisions/final-corpus-135.csv`, `data/primary-studies-135.csv`, `data/statistics-135.json`, and `data/venues/venue-tier-135.csv`. Refiltered `data/by-rq/` to 25/27/64/27/20.
 - Recomputed the peer-reviewed subset, 52 studies, and the finding-level sensitivity table. Findings 1, 4, and 5 are preprint-leaning; the other four are stable.
-- Rebuilt the RQ-membership figure and the reporting audit. The audit now covers 127 studies, excluding the nine October studies.
-- Companion website and README updated to 136 studies.
+- Rebuilt the RQ-membership figure and the reporting audit. The audit now covers 126 studies, excluding the nine October studies.
+- Companion website and README updated to 135 studies.
 
 ## v2.4 (2026-11-12) — wording aligned with the revised manuscript
 

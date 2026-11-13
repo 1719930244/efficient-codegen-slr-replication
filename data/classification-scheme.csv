@@ -21,5 +21,5 @@
 3m,System-Level Serving,RQ3,8,2412_15441; ss_Zhang2024llm; 2503_19876; 2506_18796; 2508_03258; tiwari2026cachewise; wang2026mars; openalex_W7215058388
 3n,Prompt Engineering,RQ3,9,2408_11198; 2409_16416; 2501_05899; 2502_18489; 2505_14174; 2506_01604; 2509_09947; openalex_W7220428400; openalex_W7222234395
 3o,Chain-of-Thought Optimization,RQ3,7,arxiv_2312_05562; 2504_14560; 2509_14093; 2509_25243; 2512_14048; naik2026reacomp; yang2026loopcoder
-4a,Benchmark Design,RQ4,5,doi_10_48550_arXiv_2402_07844; 2507_23194; cunha2026localllmenergy; gong2026dseffibench; li2026codegenbench
-4b,Empirical Study,RQ4,21,2308_10462; arxiv_2304_05216; doi_10_1109_ASE56229_2023_00125; 2401_00788; 2410_14766; 2412_15441; arxiv_2408_06450; 2501_05899; 2503_07103; 2506_01604; 2509_09947; arxiv_2508_08332; 2508_13666; 2602_05712; banerjee2026quantagent; cunha2026localllmenergy; danda2026energypruning; gong2026dseffibench; li2026codegenbench; vallecillosruiz2026quantapr; openalex_W7221835407
+4a,Benchmark Design,RQ4,4,doi_10_48550_arXiv_2402_07844; 2507_23194; gong2026dseffibench; li2026codegenbench
+4b,Empirical Study,RQ4,20,2308_10462; arxiv_2304_05216; doi_10_1109_ASE56229_2023_00125; 2401_00788; 2410_14766; 2412_15441; arxiv_2408_06450; 2501_05899; 2503_07103; 2506_01604; 2509_09947; arxiv_2508_08332; 2508_13666; 2602_05712; banerjee2026quantagent; danda2026energypruning; gong2026dseffibench; li2026codegenbench; vallecillosruiz2026quantapr; openalex_W7221835407
