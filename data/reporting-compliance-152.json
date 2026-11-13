@@ -1,0 +1,1198 @@
+{
+ "2204_09877": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2303_05378": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2303_07457": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2305_11860": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2308_10462": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2309_14021": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2310_18628": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2312_02418": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2312_08583": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2312_11511": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2312_13010": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 3.5
+ },
+ "2401_00788": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 3.5
+ },
+ "2401_09964": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2402_01035": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2402_14323": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 3.5
+ },
+ "2403_10059": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "2404_16333": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2405_15189": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "2405_15208": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2405_15842": {
+  "qa1_empirical_evaluation": 0.5,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2406_10263": {
+  "qa1_empirical_evaluation": 0.5,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 2.5
+ },
+ "2406_18294": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2407_00434": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2407_03157": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2407_05040": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2407_20042": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2408_03680": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2408_11198": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2409_16416": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2410_08391": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2410_10209": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "2410_14766": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2410_18194": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2410_22480": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2410_22793": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2411_05010": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2411_06680": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2411_11055": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2412_15441": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 0.5,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2412_16589": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2501_01054": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2501_05248": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2501_05899": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2501_11006": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2501_18653": {
+  "qa1_empirical_evaluation": 0.5,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 2.5
+ },
+ "2501_18657": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2502_17139": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "2502_18489": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 3.5
+ },
+ "2503_07103": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 0.5,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 2.5
+ },
+ "2503_17793": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2503_19876": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2504_03723": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 3.5
+ },
+ "2504_12687": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2504_14560": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2505_01572": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2505_14174": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2505_20182": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 0.5,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2506_01604": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2506_03006": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "2506_09092": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0,
+  "qa_total": 2.5
+ },
+ "2506_10525": {
+  "qa1_empirical_evaluation": 0.5,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2506_12355": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0,
+  "qa_total": 2.5
+ },
+ "2506_18796": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2507_23194": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 3.5
+ },
+ "2508_03258": {
+  "qa1_empirical_evaluation": 0.5,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 2.5
+ },
+ "2508_05970": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 0.5,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 2.5
+ },
+ "2508_13666": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 0.5,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 2.5
+ },
+ "2508_20124": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0,
+  "qa_total": 2.5
+ },
+ "2509_09947": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2509_12159": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2509_14093": {
+  "qa1_empirical_evaluation": 0.5,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 2.5
+ },
+ "2509_17489": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 3.5
+ },
+ "2509_25243": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2510_00446": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "2510_16996": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2510_18165": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 3.5
+ },
+ "2510_19644": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2511_01884": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 3.5
+ },
+ "2511_23321": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "2512_08266": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "2512_14048": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2512_23367": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2601_09703": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 3.5
+ },
+ "2601_20223": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2601_21469": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2601_22132": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2601_23254": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 0.5,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 2.5
+ },
+ "2602_02597": {
+  "qa1_empirical_evaluation": 0.5,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 2.5
+ },
+ "2602_05712": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2602_07670": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2602_12049": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0,
+  "qa_total": 3
+ },
+ "2602_12305": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0,
+  "qa_total": 3
+ },
+ "2602_15843": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2602_17100": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2602_17169": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 3.5
+ },
+ "2602_17684": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2602_21800": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "2602_24286": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "2603_04646": {
+  "qa1_empirical_evaluation": 0.5,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 2.5
+ },
+ "He2025codepromptzip": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 3.5
+ },
+ "Zhao2025codeswift": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "arxiv_2004_13651": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0,
+  "qa_total": 3
+ },
+ "arxiv_2304_05216": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 0.5,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "arxiv_2312_05562": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "arxiv_2403_00046": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "arxiv_2404_02183": {
+  "qa1_empirical_evaluation": 0.5,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 2.5
+ },
+ "arxiv_2408_06450": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "arxiv_2410_00558": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "arxiv_2505_02133": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "arxiv_2505_14200": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "arxiv_2506_22776": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "arxiv_2507_02378": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "arxiv_2508_08332": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "arxiv_2512_24570": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 0.5,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 2.5
+ },
+ "doi_10_1109_ASE56229_2023_00125": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 0.5,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "doi_10_1109_TCAD_2024_3483089": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "doi_10_1109_TSE_2023_3267446": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "doi_10_3390_sym17081325": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "doi_10_48550_arXiv_2402_07844": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 3.5
+ },
+ "ieee_Morte2025efficient": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0,
+  "qa_total": 2.5
+ },
+ "ieee_Rohilla2025graphmoe": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "ss_Zhang2024llm": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "banerjee2026quantagent": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "cheng2026adaedit": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "cunha2026localllmenergy": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0,
+  "qa_total": 2.5
+ },
+ "danda2026energypruning": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0,
+  "qa_total": 2.5
+ },
+ "ding2026rankingdistill": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0,
+  "qa_total": 2.5
+ },
+ "gong2026dseffibench": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "li2026codegenbench": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "liu2026dyretriever": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "naik2026reacomp": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "shibaev2026diverseeval": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0,
+  "qa_total": 2.5
+ },
+ "tiwari2026cachewise": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "vallecillosruiz2026quantapr": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "wang2026mars": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "wu2026offlinerl": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0,
+  "qa_total": 3
+ },
+ "xiang2026agentdebug": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "yang2026loopcoder": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 3.5
+ },
+ "young2026liveverilogeval": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0,
+  "qa_total": 2.5
+ },
+ "zhang2026fastcontext": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 3.5
+ },
+ "zhang2026selfdistill": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "openalex_W7211894364": {
+  "title": "Distilled Continuous Diffusion Language Models Can Write Code in Few Steps---or One",
+  "qa1_empirical_evaluation": 1.0,
+  "qa2_baseline_comparison": 1.0,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1.0,
+  "qa_total": 3.5,
+  "reporting": {
+   "correctness": "yes",
+   "model_name": "yes",
+   "hardware": "no",
+   "latency": "no",
+   "memory": "no",
+   "serving_config": "partial",
+   "monetary_cost": "no",
+   "energy": "no"
+  },
+  "evidence": "Abstract: pass@1 7.07 and pass@10 31.78/40.49 on HumanEval and MBPP+ vs. teacher and discrete-diffusion LMs; 0.7B model and denoising-step counts disclosed but no hardware or hyperparameters; training/inference code and checkpoints released (github.com/pengzhangzhi/plaidq)."
+ },
+ "openalex_W7213355055": {
+  "title": "KGMACG: Knowledge-Guided Multi-Agent Orchestration for Scalable Application-Level Code Generation",
+  "qa1_empirical_evaluation": 1.0,
+  "qa2_baseline_comparison": 1.0,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.0,
+  "qa_total": 2.5,
+  "reporting": {
+   "correctness": "partial",
+   "model_name": "yes",
+   "hardware": "no",
+   "latency": "no",
+   "memory": "no",
+   "serving_config": "no",
+   "monetary_cost": "no",
+   "energy": "no"
+  },
+  "evidence": "Abstract: three industrial case studies (E-Commerce, Campus Security, Stock Trading) against six named multi-agent baselines with DeepSeek R1 and gpt-5-codex-medium; no numeric results (only the >=95% coverage stopping rule), no hardware or hyperparameters, no artifact link."
+ },
+ "openalex_W7213495287": {
+  "title": "An Empirical Evaluation of Cost-Efficient Large Language Models on Algorithmic Programming Tasks",
+  "qa1_empirical_evaluation": 1.0,
+  "qa2_baseline_comparison": 1.0,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.0,
+  "qa_total": 2.5,
+  "reporting": {
+   "correctness": "yes",
+   "model_name": "yes",
+   "hardware": "no",
+   "latency": "no",
+   "memory": "no",
+   "serving_config": "no",
+   "monetary_cost": "no",
+   "energy": "no"
+  },
+  "evidence": "Abstract: 992 problems under eight model/tool/prompt configurations, 7,936 executed requests, 12.9% correct; three models named and the Spring Boot/DTO protocol given, but problem source, hardware and generation hyperparameters are not; timing appears only as a stated limitation and no artifact is linked."
+ },
+ "openalex_W7214056409": {
+  "title": "Quality over quantity: Diversity-aware data selection for efficient verilog code generation",
+  "qa1_empirical_evaluation": 1.0,
+  "qa2_baseline_comparison": 1.0,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.0,
+  "qa_total": 2.5,
+  "reporting": {
+   "correctness": "yes",
+   "model_name": "no",
+   "hardware": "no",
+   "latency": "no",
+   "memory": "no",
+   "serving_config": "no",
+   "monetary_cost": "no",
+   "energy": "no"
+  },
+  "evidence": "Abstract (OpenAlex record has no abstract; read from official arXiv page 2609.22765): experiments on three LLMs and three benchmarks, Pass@1 +18.49-29.43% over full-dataset training and +1.36-7.95% over the best baseline; models and benchmarks are unnamed, hardware/hyperparameters absent, no artifact statement; the 80% training-time cut is training cost, not inference latency."
+ },
+ "openalex_W7220428400": {
+  "title": "Improving the Energy-Efficiency of the Code Generated by LLMs through Effective Prompting",
+  "qa1_empirical_evaluation": 1.0,
+  "qa2_baseline_comparison": 1.0,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.0,
+  "qa_total": 2.5,
+  "reporting": {
+   "correctness": "no",
+   "model_name": "yes",
+   "hardware": "no",
+   "latency": "no",
+   "memory": "no",
+   "serving_config": "no",
+   "monetary_cost": "no",
+   "energy": "yes"
+  },
+  "evidence": "Abstract: 21 prompting strategies narrowed to 8, evaluated on 10 named LLMs in Python and C++ with energy cuts of up to 25%/17% relative to a baseline prompt; no correctness metric, dataset names, hardware or hyperparameters; execution-platform details absent; no artifact link."
+ },
+ "openalex_W7215058388": {
+  "title": "Cracking Query Bottlenecks: Towards Efficiency-Oriented Text-to-SQL Generation",
+  "qa1_empirical_evaluation": 1.0,
+  "qa2_baseline_comparison": 1.0,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.0,
+  "qa_total": 2.5,
+  "reporting": {
+   "correctness": "yes",
+   "model_name": "yes",
+   "hardware": "no",
+   "latency": "no",
+   "memory": "no",
+   "serving_config": "no",
+   "monetary_cost": "no",
+   "energy": "no"
+  },
+  "evidence": "Abstract: EESQLBench pairs each question with expert-optimized SQL as an efficiency baseline; six named LLMs scored with CR and AR@k under correctness plus cost-based efficiency metrics; the benchmark is introduced but no release is stated, and hardware/generation settings are absent; efficiency is query execution cost, not model latency."
+ },
+ "openalex_W4416784159": {
+  "title": "Don’t Use a Cannon to Kill a Fly: Lightweight Model Editing for LLMs to Correct Deprecated API Recommendations",
+  "qa1_empirical_evaluation": 1.0,
+  "qa2_baseline_comparison": 1.0,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.0,
+  "qa_total": 2.5,
+  "reporting": {
+   "correctness": "yes",
+   "model_name": "yes",
+   "hardware": "no",
+   "latency": "no",
+   "memory": "no",
+   "serving_config": "no",
+   "monetary_cost": "no",
+   "energy": "no"
+  },
+  "evidence": "Abstract: 10 editing techniques applied to three named LLMs on EDAPIBench (70+ APIs, 8 libraries, 3,000+ instances), with AdaLoRA-L vs AdaLoRA and correctness/specificity outcomes; benchmark composition is described but release is not stated, and hardware/editing hyperparameters are absent."
+ },
+ "openalex_W7221747747": {
+  "title": "Diff Diffusion: Predicting Edit Paths with Diffusion Models for Efficient Code Editing",
+  "qa1_empirical_evaluation": 1.0,
+  "qa2_baseline_comparison": 1.0,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.0,
+  "qa_total": 2.5,
+  "reporting": {
+   "correctness": "partial",
+   "model_name": "yes",
+   "hardware": "no",
+   "latency": "yes",
+   "memory": "no",
+   "serving_config": "no",
+   "monetary_cost": "no",
+   "energy": "no"
+  },
+  "evidence": "Abstract: public edit-completion benchmarks, edit-prediction evaluations and online validation, matching or leading autoregressive baselines with 2.78x faster inference and 39.0% P50 latency cut; accuracy is stated only qualitatively, benchmarks and hardware are unnamed, and no artifact is linked."
+ },
+ "openalex_W7222234395": {
+  "title": "HERO: Harnessing Evidence for Test-time Refinement and Prompt Optimization in Program Generation",
+  "qa1_empirical_evaluation": 1.0,
+  "qa2_baseline_comparison": 1.0,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.0,
+  "qa_total": 2.5,
+  "reporting": {
+   "correctness": "yes",
+   "model_name": "no",
+   "hardware": "no",
+   "latency": "no",
+   "memory": "no",
+   "serving_config": "no",
+   "monetary_cost": "no",
+   "energy": "no"
+  },
+  "evidence": "Abstract: four SQL, Cypher and Python benchmarks, pass@1 +7.6 over the initial-prompt baseline and +2.0 from test-time refinement, plus execution-efficiency gains; benchmarks, LLMs, hardware and hyperparameters are all unnamed; no artifact link."
+ },
+ "openalex_W7221835407": {
+  "title": "Smells Like Prompt Spirit: Evaluating Energy Efficiency and Performance of Local LLM Inference on CPU vs GPU",
+  "qa1_empirical_evaluation": 1.0,
+  "qa2_baseline_comparison": 1.0,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.0,
+  "qa_total": 2.5,
+  "reporting": {
+   "correctness": "yes",
+   "model_name": "no",
+   "hardware": "partial",
+   "latency": "yes",
+   "memory": "no",
+   "serving_config": "no",
+   "monetary_cost": "no",
+   "energy": "yes"
+  },
+  "evidence": "Abstract: five local LLMs on HumanEval-X and MBPP+, 0-shot vs 3-shot, CPU vs a dedicated GPU cluster, with 99.8% runtime and up to 89.4% energy reductions and functional-correctness measurements; model names and GPU model absent, prompting variants given but no serving stack; no artifact link."
+ },
+ "openalex_W7223112641": {
+  "title": "Self-Decomposing Diffusion for Code Generation",
+  "qa1_empirical_evaluation": 1.0,
+  "qa2_baseline_comparison": 1.0,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.0,
+  "qa_total": 2.5,
+  "reporting": {
+   "correctness": "yes",
+   "model_name": "partial",
+   "hardware": "no",
+   "latency": "yes",
+   "memory": "no",
+   "serving_config": "no",
+   "monetary_cost": "no",
+   "energy": "no"
+  },
+  "evidence": "Abstract: five benchmarks and two 7B diffusion backbones, pass@1 up to +31.1 points and 7.5-13.7x faster decoding vs the base models, +23.5 points over a fine-tuning baseline with lower latency; backbone names, benchmark names and hardware are absent; no artifact link."
+ }
+}

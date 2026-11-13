@@ -76,6 +76,27 @@
   "qa4_reproducibility_artifacts": 1,
   "qa_total": 3.5
  },
+ "arxiv_2304_05216": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 0.5,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "arxiv_2312_05562": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "doi_10_1109_ASE56229_2023_00125": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 0.5,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
  "2401_00788": {
   "qa1_empirical_evaluation": 1,
   "qa2_baseline_comparison": 1,
@@ -279,6 +300,27 @@
   "qa4_reproducibility_artifacts": 0.5,
   "qa_total": 3.5
  },
+ "arxiv_2408_06450": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "doi_10_48550_arXiv_2402_07844": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 3.5
+ },
+ "ss_Zhang2024llm": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
  "2501_01054": {
   "qa1_empirical_evaluation": 1,
   "qa2_baseline_comparison": 1,
@@ -461,13 +503,6 @@
   "qa4_reproducibility_artifacts": 0.5,
   "qa_total": 2.5
  },
- "2508_13666": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 0.5,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 2.5
- },
  "2508_20124": {
   "qa1_empirical_evaluation": 1,
   "qa2_baseline_comparison": 1,
@@ -559,14 +594,77 @@
   "qa4_reproducibility_artifacts": 1,
   "qa_total": 4
  },
- "2512_14048": {
+ "2512_23367": {
   "qa1_empirical_evaluation": 1,
   "qa2_baseline_comparison": 1,
   "qa3_experimental_config": 0.5,
   "qa4_reproducibility_artifacts": 0.5,
   "qa_total": 3
  },
- "2512_23367": {
+ "He2025codepromptzip": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 3.5
+ },
+ "Zhao2025codeswift": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "arxiv_2507_02378": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3
+ },
+ "arxiv_2508_08332": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "doi_10_1109_TCAD_2024_3483089": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "doi_10_3390_sym17081325": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 3.5
+ },
+ "ieee_Morte2025efficient": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0,
+  "qa_total": 2.5
+ },
+ "ieee_Rohilla2025graphmoe": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 1,
+  "qa3_experimental_config": 1,
+  "qa4_reproducibility_artifacts": 1,
+  "qa_total": 4
+ },
+ "2508_13666": {
+  "qa1_empirical_evaluation": 1,
+  "qa2_baseline_comparison": 0.5,
+  "qa3_experimental_config": 0.5,
+  "qa4_reproducibility_artifacts": 0.5,
+  "qa_total": 2.5
+ },
+ "2512_14048": {
   "qa1_empirical_evaluation": 1,
   "qa2_baseline_comparison": 1,
   "qa3_experimental_config": 0.5,
@@ -657,21 +755,7 @@
   "qa4_reproducibility_artifacts": 0.5,
   "qa_total": 3
  },
- "2602_17169": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 1,
-  "qa_total": 3.5
- },
  "2602_17684": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3
- },
- "2602_21800": {
   "qa1_empirical_evaluation": 1,
   "qa2_baseline_comparison": 1,
   "qa3_experimental_config": 0.5,
@@ -691,167 +775,6 @@
   "qa3_experimental_config": 0.5,
   "qa4_reproducibility_artifacts": 0.5,
   "qa_total": 2.5
- },
- "He2025codepromptzip": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 1,
-  "qa_total": 3.5
- },
- "Zhao2025codeswift": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3
- },
- "arxiv_2004_13651": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 0,
-  "qa_total": 3
- },
- "arxiv_2304_05216": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 0.5,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3
- },
- "arxiv_2312_05562": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3.5
- },
- "arxiv_2403_00046": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3.5
- },
- "arxiv_2404_02183": {
-  "qa1_empirical_evaluation": 0.5,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 2.5
- },
- "arxiv_2408_06450": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3
- },
- "arxiv_2410_00558": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 1,
-  "qa_total": 4
- },
- "arxiv_2505_02133": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3
- },
- "arxiv_2505_14200": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3
- },
- "arxiv_2506_22776": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3
- },
- "arxiv_2507_02378": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3
- },
- "arxiv_2508_08332": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3.5
- },
- "arxiv_2512_24570": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 0.5,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 2.5
- },
- "doi_10_1109_ASE56229_2023_00125": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 0.5,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3
- },
- "doi_10_1109_TCAD_2024_3483089": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 1,
-  "qa_total": 4
- },
- "doi_10_1109_TSE_2023_3267446": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 1,
-  "qa_total": 4
- },
- "doi_10_3390_sym17081325": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3.5
- },
- "doi_10_48550_arXiv_2402_07844": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 1,
-  "qa_total": 3.5
- },
- "ieee_Morte2025efficient": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0,
-  "qa_total": 2.5
- },
- "ieee_Rohilla2025graphmoe": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 1,
-  "qa_total": 4
- },
- "ss_Zhang2024llm": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 0.5,
-  "qa_total": 3.5
  },
  "banerjee2026quantagent": {
   "qa1_empirical_evaluation": 1,
@@ -916,13 +839,6 @@
   "qa4_reproducibility_artifacts": 1,
   "qa_total": 4
  },
- "shibaev2026diverseeval": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0,
-  "qa_total": 2.5
- },
  "tiwari2026cachewise": {
   "qa1_empirical_evaluation": 1,
   "qa2_baseline_comparison": 1,
@@ -965,26 +881,12 @@
   "qa4_reproducibility_artifacts": 1,
   "qa_total": 3.5
  },
- "young2026liveverilogeval": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0,
-  "qa_total": 2.5
- },
  "zhang2026fastcontext": {
   "qa1_empirical_evaluation": 1,
   "qa2_baseline_comparison": 1,
   "qa3_experimental_config": 0.5,
   "qa4_reproducibility_artifacts": 1,
   "qa_total": 3.5
- },
- "zhang2026selfdistill": {
-  "qa1_empirical_evaluation": 1,
-  "qa2_baseline_comparison": 1,
-  "qa3_experimental_config": 1,
-  "qa4_reproducibility_artifacts": 1,
-  "qa_total": 4
  },
  "openalex_W7211894364": {
   "title": "Distilled Continuous Diffusion Language Models Can Write Code in Few Steps---or One",
@@ -1004,44 +906,6 @@
    "energy": "no"
   },
   "evidence": "Abstract: pass@1 7.07 and pass@10 31.78/40.49 on HumanEval and MBPP+ vs. teacher and discrete-diffusion LMs; 0.7B model and denoising-step counts disclosed but no hardware or hyperparameters; training/inference code and checkpoints released (github.com/pengzhangzhi/plaidq)."
- },
- "openalex_W7213355055": {
-  "title": "KGMACG: Knowledge-Guided Multi-Agent Orchestration for Scalable Application-Level Code Generation",
-  "qa1_empirical_evaluation": 1.0,
-  "qa2_baseline_comparison": 1.0,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0.0,
-  "qa_total": 2.5,
-  "reporting": {
-   "correctness": "partial",
-   "model_name": "yes",
-   "hardware": "no",
-   "latency": "no",
-   "memory": "no",
-   "serving_config": "no",
-   "monetary_cost": "no",
-   "energy": "no"
-  },
-  "evidence": "Abstract: three industrial case studies (E-Commerce, Campus Security, Stock Trading) against six named multi-agent baselines with DeepSeek R1 and gpt-5-codex-medium; no numeric results (only the >=95% coverage stopping rule), no hardware or hyperparameters, no artifact link."
- },
- "openalex_W7213495287": {
-  "title": "An Empirical Evaluation of Cost-Efficient Large Language Models on Algorithmic Programming Tasks",
-  "qa1_empirical_evaluation": 1.0,
-  "qa2_baseline_comparison": 1.0,
-  "qa3_experimental_config": 0.5,
-  "qa4_reproducibility_artifacts": 0.0,
-  "qa_total": 2.5,
-  "reporting": {
-   "correctness": "yes",
-   "model_name": "yes",
-   "hardware": "no",
-   "latency": "no",
-   "memory": "no",
-   "serving_config": "no",
-   "monetary_cost": "no",
-   "energy": "no"
-  },
-  "evidence": "Abstract: 992 problems under eight model/tool/prompt configurations, 7,936 executed requests, 12.9% correct; three models named and the Spring Boot/DTO protocol given, but problem source, hardware and generation hyperparameters are not; timing appears only as a stated limitation and no artifact is linked."
  },
  "openalex_W7214056409": {
   "title": "Quality over quantity: Diversity-aware data selection for efficient verilog code generation",

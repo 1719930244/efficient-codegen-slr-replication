@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Towards Efficient LLM-Based Code Generation: A Systematic Review</title>
-  <meta name="description" content="Companion website for the systematic review on efficient LLM-based code generation. 152 primary studies, continuously maintained.">
+  <meta name="description" content="Companion website for the systematic review on efficient LLM-based code generation. 136 primary studies, continuously maintained.">
   <style>
     :root {
       --primary: #1a3a5c;
@@ -231,7 +231,7 @@
   <div class="authors">Zongwen Shen, Jionghan Wu, Yidan Xu, Xuejin Liu, Xiang Chen, Jidong Ge, Chuanyi Li, Liguo Huang, and Bin Luo</div>
   <div class="venue">Manuscript under review, 2026</div>
   <div class="stats">
-    <div class="stat"><span class="num">152</span><span class="label">Primary Studies</span></div>
+    <div class="stat"><span class="num">136</span><span class="label">Primary Studies</span></div>
     <div class="stat"><span class="num">26,800+</span><span class="label">Candidate Records</span></div>
     <div class="stat"><span class="num">7</span><span class="label">Databases</span></div>
     <div class="stat"><span class="num">24</span><span class="label">Categories</span></div>
@@ -253,10 +253,10 @@
       </div>
     </div>
     <p>
-      Large Language Models (LLMs) have become indispensable tools for code generation, yet their computational costs&mdash;spanning data preparation, model training, inference, and evaluation&mdash;remain a critical barrier to practical adoption. This systematic review analyzes <strong>152 primary studies</strong> to provide a comprehensive map of efficiency techniques across the full lifecycle of LLM-based code generation.
+      Large Language Models (LLMs) have become indispensable tools for code generation, yet their computational costs&mdash;spanning data preparation, model training, inference, and evaluation&mdash;remain a critical barrier to practical adoption. This systematic review analyzes <strong>136 primary studies</strong> to provide a comprehensive map of efficiency techniques across the full lifecycle of LLM-based code generation.
     </p>
     <p>
-      Our review spans six research questions aligned with the model lifecycle: data preparation (RQ1, 30 studies), model training (RQ2, 27 studies), inference optimization (RQ3, 69 studies), deployment (RQ4, 29 studies), evaluation (RQ5, 29 studies), and technique composition measured in a controlled experiment suite (RQ6, see <a href="#experiments">Experiments</a>). Studies can address several questions, so the counts overlap. We identify 24 fine-grained technique categories and distill 8 key findings that reveal both progress and critical gaps in the field.
+      Our review spans six research questions aligned with the model lifecycle: data preparation (RQ1, 25 studies), model training (RQ2, 27 studies), inference optimization (RQ3, 64 studies), deployment (RQ4, 27 studies), evaluation (RQ5, 21 studies), and technique composition measured in a controlled experiment suite (RQ6, see <a href="#experiments">Experiments</a>). Studies can address several questions, so the counts overlap. We identify 24 fine-grained technique categories and distill 8 key findings that reveal both progress and critical gaps in the field.
     </p>
   </div>
 </section>
@@ -265,7 +265,7 @@
 <section id="taxonomy">
   <div class="container">
     <h2>Classification Taxonomy</h2>
-    <p>Our taxonomy follows the <strong>LLM lifecycle</strong>, organizing 152 primary studies into 24 categories. Click any category to browse its papers with direct links.</p>
+    <p>Our taxonomy follows the <strong>LLM lifecycle</strong>, organizing 136 primary studies into 24 categories. Click any category to browse its papers with direct links.</p>
     <div class="search-box">
       <input type="text" id="paperSearch" placeholder="Search papers by title, venue, year, or keyword..." oninput="filterPapers()">
     </div>
@@ -278,11 +278,11 @@
 <section id="updates">
   <div class="container">
     <h2>Living Updates</h2>
-    <p>The <strong>152-study corpus</strong> reflects a single search campaign with a literature cut-off of 2026-10-31. This section logs newly published primary studies tracked by the monthly cadence, applying the same term schema used in the review. The May and September 2026 batches below were logged post-submission under the earlier frozen-corpus design; the September batch&rsquo;s OpenAlex selections, together with a parallel arXiv pass and minus three overlaps, were subsequently screened into the revised corpus as its 19 window-search studies, as noted on the September card. The October batch&rsquo;s 20 selections were screened next: 11 entered the corpus as its September&ndash;October window studies and 9 were dropped with reasons recorded in the screening decision. Monthly batches continue for studies published after the cut-off and are listed newest first; three batches have been logged so far, covering 51 unique studies.</p>
+    <p>The <strong>136-study corpus</strong> reflects a single search campaign with a literature cut-off of 2026-10-31. This section logs newly published primary studies tracked by the monthly cadence, applying the same term schema used in the review. The May and September 2026 batches below were logged post-submission under the earlier frozen-corpus design; the September batch&rsquo;s OpenAlex selections, together with a parallel arXiv pass and minus three overlaps, were subsequently screened into the revised corpus as its 19 window-search candidates, as noted on the September card. The October batch&rsquo;s 20 selections were screened next: 11 entered the corpus as its September&ndash;October window studies and 9 were dropped with reasons recorded in the screening decision. Monthly batches continue for studies published after the cut-off and are listed newest first; three batches have been logged so far, covering 51 unique studies. After the 152 candidates were assembled, a confirmation pass re-read every candidate against the inclusion and exclusion criteria and removed 16 that failed IC2 or IC4/EC1, which leaves the 136-study corpus.</p>
 
     <div class="update-batch">
       <h3>October 2026 &mdash; 20 selected, 11 added to the corpus</h3>
-      <p class="batch-meta">Windows: 2026-09-01 to 2026-10-09, 2026-10-10 to 2026-10-25, and 2026-10-26 to 2026-10-31, three passes of the monthly cadence &middot; Source: OpenAlex via the package script <code>scripts/monthly_update_openalex.py</code>, three-group schema identical to the original protocol &middot; Funnel: 13,861 Group&nbsp;A hits &rarr; 987 Boolean pass &rarr; 218 title-strict nominations &rarr; 20 selected. This is the first batch of the monthly cadence and the first to track studies published after the 2026-08-31 cut-off of the previous 141-study edition. The late pass contributed 3,246 hits &rarr; 251 Boolean pass &rarr; 58 nominations &rarr; 4 selected, and the final six days contributed 1,424 hits &rarr; 106 Boolean pass &rarr; 21 nominations &rarr; 0 selected. One of those four, Self-Decomposing Diffusion for Code Generation, was recovered manually from the Boolean pass because its efficiency signal sits in the abstract rather than the title. Repository-only deposits were excluded as grey literature, and output-artifact runtime-efficiency techniques were excluded per the window-round rule, with boundary benchmarks and measurement studies retained. Screening kept 11 of the 20 selections, which entered the 152-study corpus as its September&ndash;October window studies; the other nine are marked below and their rejection reasons are recorded in <a href="https://github.com/1719930244/efficient-codegen-slr-replication/blob/master/data/monthly-update-2026-10c/screening-decision.json" target="_blank">data/monthly-update-2026-10c/screening-decision.json</a>.</p>
+      <p class="batch-meta">Windows: 2026-09-01 to 2026-10-09, 2026-10-10 to 2026-10-25, and 2026-10-26 to 2026-10-31, three passes of the monthly cadence &middot; Source: OpenAlex via the package script <code>scripts/monthly_update_openalex.py</code>, three-group schema identical to the original protocol &middot; Funnel: 13,861 Group&nbsp;A hits &rarr; 987 Boolean pass &rarr; 218 title-strict nominations &rarr; 20 selected. This is the first batch of the monthly cadence and the first to track studies published after the 2026-08-31 cut-off of the previous 141-study edition. The late pass contributed 3,246 hits &rarr; 251 Boolean pass &rarr; 58 nominations &rarr; 4 selected, and the final six days contributed 1,424 hits &rarr; 106 Boolean pass &rarr; 21 nominations &rarr; 0 selected. One of those four, Self-Decomposing Diffusion for Code Generation, was recovered manually from the Boolean pass because its efficiency signal sits in the abstract rather than the title. Repository-only deposits were excluded as grey literature, and output-artifact runtime-efficiency techniques were excluded per the window-round rule, with boundary benchmarks and measurement studies retained. Screening kept 11 of the 20 selections, which entered the 152-candidate set as its September&ndash;October window studies; the other nine are marked below and their rejection reasons are recorded in <a href="https://github.com/1719930244/efficient-codegen-slr-replication/blob/master/data/monthly-update-2026-10c/screening-decision.json" target="_blank">data/monthly-update-2026-10c/screening-decision.json</a>.</p>
       <div class="update-rq">
         <h4>RQ1 Data Preparation (1)</h4>
         <ul>
@@ -387,7 +387,7 @@
         </ul>
       </div>
 
-      <p class="batch-meta">Merge note: these 16 selections, together with 6 studies from a parallel arXiv pass and minus 3 overlaps, were screened into the revised 152-study corpus as its Phase-4 window studies (publication window 2026-04-01 to 2026-08-31); per-study extraction records are in <a href="https://github.com/1719930244/efficient-codegen-slr-replication/tree/master/data/corpus-merge-20261001" target="_blank">data/corpus-merge-20261001/</a>.</p>
+      <p class="batch-meta">Merge note: these 16 selections, together with 6 studies from a parallel arXiv pass and minus 3 overlaps, were screened into the revised 152-candidate set as its Phase-4 window studies (publication window 2026-04-01 to 2026-08-31); per-study extraction records are in <a href="https://github.com/1719930244/efficient-codegen-slr-replication/tree/master/data/corpus-merge-20261001" target="_blank">data/corpus-merge-20261001/</a>.</p>
       <p class="batch-meta">Structured record: <a href="https://github.com/1719930244/efficient-codegen-slr-replication/blob/master/data/monthly-updates/2026-09.json" target="_blank">data/monthly-updates/2026-09.json</a></p>
     </div>
 
@@ -432,7 +432,7 @@
 <section id="findings">
   <div class="container">
     <h2>Key Findings</h2>
-    <p>Our systematic analysis distills 8 key findings across the LLM code generation lifecycle. Findings 1 to 7 synthesize the 152-study corpus; Finding 8 reports the controlled experiment suite described in the <a href="#experiments">Experiments</a> section:</p>
+    <p>Our systematic analysis distills 8 key findings across the LLM code generation lifecycle. Findings 1 to 7 synthesize the 136-study corpus; Finding 8 reports the controlled experiment suite described in the <a href="#experiments">Experiments</a> section:</p>
     <div style="display:grid; gap:.8rem; margin-top:1rem;">
       <div class="finding-card"><h4>Finding 1: Quality Dominates Quantity</h4><p>Three complementary data-level strategies improve training efficiency with a common insight: quality dominates quantity. Training on fewer than 10% of carefully selected examples can match full-corpus performance; combining quality filtering with data selection yields larger gains than either alone; and curriculum ordering from simple to complex accelerates convergence by up to 30%. The optimal selection criterion and complexity metric vary by task, underscoring the need for strategies tailored to the target setting.</p></div>
       <div class="finding-card"><h4>Finding 2: Minimal Parameter Updates Suffice</h4><p>Training-level efficiency spans two complementary strategies with compounding benefits. Pre-training cost can be reduced by up to 40% through tokenizer optimization, dynamic packing, and sparse architectures. Parameter-efficient fine-tuning with LoRA and QLoRA matches full fine-tuning accuracy while updating fewer than 1% of parameters and sharply reducing the memory footprint of fine-tuning. Combining PEFT with data selection yields compounding gains across both data volume and parameter count.</p></div>
