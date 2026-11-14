@@ -1,7 +1,7 @@
 # Reporting audit (8 items)
 
 Per-study coding of how each primary study reports its experimental setup and
-efficiency. This folder holds the audit behind Table 5, Table 8, and Figure 6
+efficiency. This folder holds the audit behind Table 3, Table 4, and Figure 6
 of the manuscript.
 
 ## Files

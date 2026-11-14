@@ -12,7 +12,7 @@ This directory publishes the screening decisions that can be released without ex
 
 ## What is not in this directory
 
-The Stage-1 classifier code and configuration, the ranked list of 22,118 unique records, and the per-paper INCLUDE/EXCLUDE decisions for the 1,700 full texts are not mirrored here. The classifier artifacts and the 1,700-paper decision worksheets were kept outside the package; they are available from the authors. The package does publish every decision needed to reconstruct the final 152-study corpus from the released search log and the files above.
+The Stage-1 classifier code and configuration, the ranked list of 22,118 unique records, and the per-paper INCLUDE/EXCLUDE decisions for the 1,700 full texts of the main pass are not mirrored here. The classifier artifacts and the 1,700-paper decision worksheets were kept outside the package; they are available from the authors. The package does publish every decision needed to reconstruct the final 152-study corpus from the released search log and the files above.
 
 ## Counts
 

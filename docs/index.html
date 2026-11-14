@@ -232,7 +232,7 @@
   <div class="venue">Manuscript under review, 2026</div>
   <div class="stats">
     <div class="stat"><span class="num">117</span><span class="label">Primary Studies</span></div>
-    <div class="stat"><span class="num">26,800+</span><span class="label">Candidate Records</span></div>
+    <div class="stat"><span class="num">43,521</span><span class="label">Records Retrieved</span></div>
     <div class="stat"><span class="num">7</span><span class="label">Databases</span></div>
     <div class="stat"><span class="num">24</span><span class="label">Categories</span></div>
   </div>
@@ -456,7 +456,7 @@
       <div class="finding-card"><h4>Platforms and measurement</h4><p>Three GPU architectures: an archived V100 campaign with three runs, five-run A800 measurements, and a single-run RTX 3090 Ti reference point. Energy comes from the NVML cumulative counter with an explicit synchronize, at batch size one on a single stream, covering the GPU board only. The suite reports energy, not carbon, since grid intensity is region-dependent.</p></div>
       <div class="finding-card"><h4>Benchmarks</h4><p>HumanEval, HumanEval+, MBPP, BigCodeBench under the official instruct protocol, and a contamination-free LiveCodeBench slice of 288 post-release problems under the official chat prompt and judge.</p></div>
       <div class="finding-card"><h4>Robustness layers</h4><p>A second model family (DeepSeek-Coder-6.7B-Instruct at 7B), an instrumented draft-acceptance loop run on all three architectures, and a 1024-token budget sensitivity replicate that leaves the LiveCodeBench FP16 result unchanged.</p></div>
-      <div class="finding-card"><h4>Pre-registered tests</h4><p>Five predictions were registered before the A800 campaign and are reported as registered, with Holm-Bonferroni adjustment. At 7B, switching the decoding strategy costs less latency than one quantization step. No interaction appears between INT4 and adaptive sampling. The speedup of the full stack cannot be obtained by multiplying isolated speedups. Speculation dominates the frontier only at 32B under INT4, and the registered small-scale quantization dominance is absent. Energy-optimal and latency-optimal configurations disagree at half of the evaluated scales.</p></div>
+      
       <div class="finding-card"><h4>Data directories</h4><p><code>data/a800-results</code> (five-run A800 campaign) &middot; <code>data/v100-original-results</code> (archived V100 runs 1 to 3) &middot; <code>data/v100-sept-round-216</code> (September 2026 V100 replication round) &middot; <code>data/lcb-results-216</code> (LiveCodeBench slice) &middot; <code>data/xgpu-3090ti-217</code> (third-architecture reference point).</p></div>
     </div>
   </div>

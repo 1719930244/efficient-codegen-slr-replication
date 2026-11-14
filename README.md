@@ -77,7 +77,7 @@ The taxonomy follows the LLM lifecycle with 24 fine-grained categories. Canonica
 
 ## Reporting Compliance Audit (N=117) and QA Coverage (N=117)
 
-All 117 studies were audited against an 8-item reporting checklist (Table 5 of the manuscript). Aggregate coverage: functional correctness 88%, model name/version 91%, hardware 66%, latency/throughput 50%, memory 16%, serving configuration 68%, monetary cost 16%, energy/carbon 7%. Twenty studies report no efficiency metric, and only twelve report latency and memory together.
+All 117 studies were audited against an 8-item reporting checklist (Table 3 of the manuscript). Aggregate coverage: functional correctness 88%, model name/version 91%, hardware 66%, latency/throughput 50%, memory 16%, serving configuration 68%, monetary cost 16%, energy/carbon 7%. Twenty studies report no efficiency metric, and only twelve report latency and memory together.
 
 Per-study codings are in `data/reporting-audit/reporting-audit-117.csv`, with the 136-study coding sheet that preceded the confirmation pass in `reporting-audit-136.csv`. `scripts/aggregate_reporting_audit.py` regenerates the overall rates, the breadth counts, and the per-stage table from the 117-study file. Full texts were read for 110 studies; the other seven were coded from their abstracts and metadata. Per-study QA scores (QA1-QA4) for all 117 studies are in `data/reporting-compliance.json`.
 
@@ -111,7 +111,7 @@ Three controlled experiments evaluate efficiency techniques in combination, some
 
 Original campaign hardware: 4x NVIDIA Tesla V100-SXM2-32GB, PyTorch 2.5.1 + CUDA 12.4. All scripts and the design document are in `experiments/`.
 
-The extended suite (2026) adds: five-run A800 replication of the composition and Pareto cells at six scales including 32B; EvalPlus re-judgment (HumanEval+) of every central cell on V100, A800, and a consumer RTX 3090 Ti third-architecture reference point; MBPP (five runs) and BigCodeBench (four runs, plus an instruct-protocol check on the lab V100-PCIE server); a contamination-free LiveCodeBench slice (288 post-release problems); pre-registered hypothesis tests H1-H5; a second model family (DeepSeek-Coder-6.7B-Instruct) at the four central cells; and instrumented draft-acceptance measurements on three architectures. Raw data, per-platform software stacks, quarantined defective outputs, the dropped MBPP+ layer, and the files lost when the second A800 rental expired are documented in `data/EXPERIMENT-DATA.md`.
+The extended suite (2026) adds: five-run A800 replication of the composition and Pareto cells at six scales including 32B; EvalPlus re-judgment (HumanEval+) of every central cell on V100, A800, and a consumer RTX 3090 Ti third-architecture reference point; MBPP (five runs) and BigCodeBench (four runs, plus an instruct-protocol check on the lab V100-PCIE server); a contamination-free LiveCodeBench slice (288 post-release problems); pre-registered predictions; a second model family (DeepSeek-Coder-6.7B-Instruct) at the four central cells; and instrumented draft-acceptance measurements on three architectures. Raw data, per-platform software stacks, quarantined defective outputs, the dropped MBPP+ layer, and the server-side files are documented in `data/EXPERIMENT-DATA.md`.
 
 ## Data Description
 

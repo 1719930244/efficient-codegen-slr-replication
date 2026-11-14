@@ -1,8 +1,8 @@
 """Regenerate the reporting-audit rates of the manuscript.
 
 Reads data/reporting-audit/reporting-audit-117.csv and prints the overall
-rates (Table 5), the reporting-breadth counts, the co-reporting counts, and
-the per-stage rates (Table 8), all over the 117 studies of the final corpus.
+rates (Table 3), the reporting-breadth counts, the co-reporting counts, and
+the per-stage rates (Table 4), all over the 117 studies of the final corpus.
 
 Stages follow the canonical category mapping used for the RQ marginals:
 1* and 2c and 3l map to RQ1, 2a/2b/2d/2f to RQ2, 3a/3b/3c/3d/3e/3f/3j/3k/3n/3o
