@@ -12,11 +12,11 @@ This directory publishes the screening decisions that can be released without ex
 
 ## What is not in this directory
 
-The Stage-1 classifier code and configuration, the ranked list of 22,118 unique records, and the per-paper INCLUDE/EXCLUDE decisions for the 1,700 full texts of the main pass are not mirrored here. The classifier artifacts and the 1,700-paper decision worksheets were kept outside the package; they are available from the authors. The package does publish every decision needed to reconstruct the final 152-study corpus from the released search log and the files above.
+The Stage-1 classifier code and configuration, the ranked list of 22,118 unique records, and the per-paper INCLUDE/EXCLUDE decisions for the 1,700 full texts of the main pass are not mirrored here. The classifier artifacts and the 1,700-paper decision worksheets were kept outside the package; they are available from the authors. The package does publish every decision needed to reconstruct the final 116-study corpus from the released search log and the files above.
 
 ## Counts
 
-- Final corpus: 152 included studies.
+- Final corpus: 116 included studies.
 - Window search: 111 candidates, 19 included after screening.
 - Monthly October batch: 20 selected, 11 included, 9 excluded.
 - Coverage audit: 400 sampled records, two screeners, adjudication recorded.
