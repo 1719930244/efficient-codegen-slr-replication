@@ -9,7 +9,7 @@ of the manuscript.
 | File | Rows | Use |
 |------|------|-----|
 | `reporting-audit-136.csv` | 136 | All studies coded in the audit, including the 19 that left the corpus at the confirmation pass. |
-| `reporting-audit-117.csv` | 117 | The final corpus. **This is the file the manuscript's rates use.** |
+| `reporting-audit-116.csv` | 116 | The final corpus. **This is the file the manuscript's rates use.** |
 
 ## Coding rules
 
@@ -32,21 +32,21 @@ with a number, `BothLatencyMemory` and `BothLatencyCost` mark co-reporting, and
 
 ## Denominators
 
-Full texts were read for 110 of the 117 studies. The other seven were coded
+Full texts were read for 110 of the 116 studies. The other seven were coded
 from their abstracts and metadata and carry `FullTextRead=NO`. The manuscript
-reports all rates over the 117 studies, that is, over the whole corpus, so its
+reports all rates over the 116 studies, that is, over the whole corpus, so its
 rates and the corpus-level tables use one denominator.
 
-## Rates over the 117 studies
+## Rates over the 116 studies
 
 | Item | Studies | Rate |
 |------|---------|------|
-| Correctness | 103 | 88% |
-| Model name / version | 107 | 91% |
+| Correctness | 103 | 89% |
+| Model name / version | 107 | 92% |
 | Hardware | 77 | 66% |
 | Latency / throughput | 58 | 50% |
 | Memory | 19 | 16% |
-| Serving configuration | 80 | 68% |
+| Serving configuration | 80 | 69% |
 | Monetary cost | 19 | 16% |
 | Energy | 8 | 7% |
 
@@ -74,4 +74,4 @@ the 152-study confirmation pass. The per-batch inputs are not redistributed
 because they contain local file paths; the coded outputs are complete and are
 what the aggregate figures are computed from. Aggregate helper:
 `scripts/aggregate_reporting_audit.py` regenerates every rate above from
-`reporting-audit-117.csv`.
+`reporting-audit-116.csv`.

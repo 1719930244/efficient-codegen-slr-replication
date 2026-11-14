@@ -1,5 +1,13 @@
 # Changelog
 
+## v3.0 (2026-11-14)
+
+- Corpus is 116 studies. S093 and S058 are the same paper; the ASE version remains and the arXiv version is merged under EC5.
+- RQ marginals 23/20/59/26/15; 45 peer-reviewed (33 conference, 12 journal), 71 preprints (61%).
+- Reporting audit recomputed over all 116: 89/92/66/50/16/69/16/7, 19 studies with no efficiency metric.
+- The pre-116 corpus files stay on the maintainer's disk and are no longer tracked.
+- Human review of the three screening samples is in `data/human-review-20261114/`.
+
 ## v2.5 (2026-11-13) — confirmation pass and 117-study corpus
 
 - A final confirmation pass re-read all 152 candidates against IC1-IC4 and EC1-EC5. Thirty-five failed: one on IC2, fifteen on IC4 or EC1 because they report no quantitative efficiency metric or do not target efficiency, one duplicate version (S125) on EC5, and eighteen because they address the runtime efficiency of generated code rather than the generation process. The final corpus is 117 studies.

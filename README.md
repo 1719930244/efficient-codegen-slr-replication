@@ -15,14 +15,14 @@ This review systematically analyzes **116 primary studies** on efficiency techni
 | RQ5 | Evaluation (benchmarks, metrics, reporting compliance) | 15 |
 | RQ6 | Technique Composition and Interaction Effects (controlled experiments) | — |
 
-Note: 27 studies span multiple RQs, so per-RQ counts sum to more than 117. The canonical stage marginals are computed by the mapping documented in `scripts/plot_upset.py` (codes 2c and 3l attach to the data stage; 3g/3h/3i/3m to deployment; 4a/4b to evaluation), which reproduces 23/20/59/26/15 exactly. The legacy `RQ` column of earlier package releases was an incomplete annotation and has been regenerated from this mapping; `classification-scheme.csv`'s RQ column keeps the taxonomy's chapter home for each category. RQ6 is answered by controlled experiments rather than primary-study classification (see `experiments/`).
+Note: 27 studies span multiple RQs, so per-RQ counts sum to more than 116. The canonical stage marginals are computed by the mapping documented in `scripts/plot_upset.py` (codes 2c and 3l attach to the data stage; 3g/3h/3i/3m to deployment; 4a/4b to evaluation), which reproduces 23/20/59/26/15 exactly. The legacy `RQ` column of earlier package releases was an incomplete annotation and has been regenerated from this mapping; `classification-scheme.csv`'s RQ column keeps the taxonomy's chapter home for each category. RQ6 is answered by controlled experiments rather than primary-study classification (see `experiments/`).
 
 ## Repository Structure
 
 ```
 data/
   primary-studies.csv          # All 116 primary studies: metadata, canonical RQ column, Quality Tier
-  classification-scheme.csv    # Taxonomy: 15 groups over 24 fine-grained categories, study counts and keys regenerated for 117
+  classification-scheme.csv    # Taxonomy: 15 groups over 24 fine-grained categories, study counts and keys regenerated for 116
   statistics-116.json          # Summary statistics (year, RQ, category, quality-tier distributions, N=116)
   reporting-compliance.json    # Per-study QA scores (QA1-QA4) for all 116 studies
   search-log.csv               # Structured log of every search executed (main campaign, window, gap)
@@ -74,7 +74,7 @@ TAXONOMY.md                    # Full classification taxonomy with descriptions
 
 The taxonomy follows the LLM lifecycle with 24 fine-grained categories. Canonical stage assignment (used for all reported marginals): RQ1 = 1a, 1b, 2c, 3l; RQ2 = 2a, 2b, 2d, 2f; RQ3 = 3a, 3b, 3c, 3d, 3e, 3f, 3j, 3k, 3n, 3o; RQ4 = 3g, 3h, 3i, 3m; RQ5 = 4a, 4b. Distillation (2c) and code-specific optimization (3l) attach to the data stage for counting and are discussed in the chapters of the stages their methods target. See `TAXONOMY.md` for descriptions and `data/classification-scheme.csv` for study-to-category assignments.
 
-## Reporting Compliance Audit (N=117) and QA Coverage (N=117)
+## Reporting Compliance Audit (N=116) and QA Coverage (N=116)
 
 All 116 studies were audited against an 8-item reporting checklist (Table 3 of the manuscript). Aggregate coverage: functional correctness 89%, model name/version 92%, hardware 66%, latency/throughput 50%, memory 16%, serving configuration 69%, monetary cost 16%, energy/carbon 7%. Nineteen studies report no efficiency metric, and only twelve report latency and memory together.
 
@@ -84,7 +84,7 @@ Per-study codings are in `data/reporting-audit/reporting-audit-116.csv`. `script
 
 `data/screening-decisions/` publishes the decision records that can be released without exposing unarchived working files:
 
-- `final-corpus-117.csv`: all 117 included studies with source, venue type, quality tier, RQ, categories, and rationale. `final-corpus-152.csv` keeps the pre-confirmation set.
+- `final-corpus-116.csv`: all 116 included studies with source, venue type, quality tier, RQ, categories, and rationale. `final-corpus-152.csv` keeps the pre-confirmation set.
 - `window-2026-arxiv.csv`: 111 arXiv candidates for 2026-04-01..2026-08-31 with INCLUDE/EXCLUDE and reasons.
 - `monthly-2026-10.csv`: 20 OpenAlex selections for 2026-09-01..2026-10-31, 11 included and 9 excluded with reasons.
 - `coverage-audit-2026-10.csv`: the 400-record coverage-audit sample with both automated screeners, criteria, reasons, and adjudication.
@@ -94,11 +94,11 @@ Per-study codings are in `data/reporting-audit/reporting-audit-116.csv`. `script
 - `stage1-classifier/`: a clean reconstruction of the published Stage-1 scoring rule; the recovered original is in `original-2026-03/scripts/03-screening/`.
 - `RECONSTRUCTION.md`: what is public, what is missing, and how to close the gap.
 
-The recovered March 2026 records are working data, not the final October 2026 117-study corpus. The final decisions are in `final-corpus-117.csv`. See `data/screening-decisions/original-2026-03/README.md` for provenance and caveats.
+The recovered March 2026 records are working data, not the final October 2026 116-study corpus. The final decisions are in `final-corpus-116.csv`. See `data/screening-decisions/original-2026-03/README.md` for provenance and caveats.
 
 ## Quality Tiers
 
-`data/venues/venue-tier-117.csv` lists the venue type and quality tier of every study: CCF 2022 catalogue first (A/B/C), then CORE A* for venues outside the CCF catalogue (ICLR only in this corpus), workshops and unlisted venues as unranked, preprints as n/a. Distribution of the 45 peer-reviewed studies: 23 CCF-A, 7 CCF-B, 6 CCF-C, 1 CORE-A*, 8 unranked; the 72 preprints are n/a. The same column is in `primary-studies.csv`.
+`data/venues/venue-tier-116.csv` lists the venue type and quality tier of every study: CCF 2022 catalogue first (A/B/C), then CORE A* for venues outside the CCF catalogue (ICLR only in this corpus), workshops and unlisted venues as unranked, preprints as n/a. Distribution of the 45 peer-reviewed studies: 23 CCF-A, 7 CCF-B, 6 CCF-C, 1 CORE-A*, 8 unranked; the 71 preprints are n/a. The same column is in `primary-studies.csv`.
 
 ## RQ6: Empirical Composition and Pareto Experiments
 
@@ -114,7 +114,7 @@ The extended suite (2026) adds: five-run A800 replication of the composition and
 
 ## Data Description
 
-### primary-studies.csv (117 rows)
+### primary-studies.csv (116 rows)
 
 | Column | Description |
 |--------|-------------|
