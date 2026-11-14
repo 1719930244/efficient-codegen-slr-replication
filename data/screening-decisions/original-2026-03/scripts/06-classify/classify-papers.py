@@ -276,7 +276,7 @@ def main():
 
     # Load screening reasons
     screening_reasons = {}
-    screening_csv = BASE / "03-screening" / "screening-llm-merged.csv"
+    screening_csv = BASE / "03-screening" / "screening-rescreen-merged.csv"
     with open(screening_csv, "r", encoding="utf-8") as f:
         for r in csv.DictReader(f):
             if r.get("decision") == "INCLUDE":

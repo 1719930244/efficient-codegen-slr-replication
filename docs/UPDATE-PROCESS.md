@@ -10,7 +10,7 @@ deferred to the annual full sweep (institutional credentials).
 
 - Executed by the ITX machine's Windows scheduled task
   `SLR-website-monthly-update` (day 1 of each month, 10:07 local, headless
-  `claude -p` run; script and logs in `C:\Users\daoge\slr-monthly-update\`).
+  an automated extraction run; script and logs in `C:\Users\daoge\slr-monthly-update\`).
 - Any machine session may run a batch manually by following this SOP, but
   **first check `data/monthly-updates/` for an existing batch of the current
   month** to avoid duplicates. One batch per month, whoever lands it first.

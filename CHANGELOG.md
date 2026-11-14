@@ -6,14 +6,14 @@
 - Added `data/screening-decisions/confirmation-exclusions-35.csv` with the failed criterion, the source evidence, and an English and Chinese reason for every excluded record.
 - Added `data/screening-decisions/final-corpus-117.csv`, `data/primary-studies-117.csv`, `data/statistics-117.json`, and `data/venues/venue-tier-117.csv`. Refiltered `data/by-rq/` to 24/20/59/26/15.
 - Recomputed the peer-reviewed subset, 52 studies, and the finding-level sensitivity table. Findings 1, 4, and 5 are preprint-leaning; the other four are stable.
-- Rebuilt the RQ-membership figure and the reporting audit. The audit now covers 110 studies, excluding the nine October studies.
+- Rebuilt the RQ-membership figure and the reporting audit. The audit now covers all 117 studies, including the seven October studies coded from their abstracts and metadata.
 - Companion website and README updated to 117 studies.
 
 ## v2.4 (2026-11-12) — wording aligned with the revised manuscript
 
 - Removed hard-coded API keys from the recovered screening scripts; set `LLM_API_KEY` to re-run them.
 - Added `scripts/placeholder_failures.py`, which counts placeholder answers under the raw completion prompt in the A800 HumanEval+ per-task records (manuscript Section 9.1).
-- Aligned the Stage-3 description with the manuscript: scripted first pass, LLM re-screening of all 1,700 full texts, author check of every re-screening include, dual-author validation on stratified samples.
+- Aligned the Stage-3 description with the manuscript: scripted first pass, an automated re-screening of all 1,700 full texts, author check of every re-screening include, and dual-author validation on stratified samples.
 - Recorded that re-running the recovered Stage-1 classifier labels 3,159 records Likely-Include or Uncertain, and that the final 3,810 candidates add manual overrides and merged export batches.
 - The companion site describes the five pre-registered predictions without numbering; the Supplementary Material PDF was rebuilt.
 

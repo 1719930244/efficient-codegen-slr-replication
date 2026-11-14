@@ -6,7 +6,7 @@ The Stage-1 auto-screening table, the classifier and full-text screening scripts
 
 - `original-2026-03/screening-ta-auto.csv`: 22,119 rows, Stage-1 automatic labels (1,380 Likely-Include, 1,779 Uncertain, 18,960 Likely-Exclude; 22,114 unique keys).
 - `original-2026-03/screening-ft.csv` and `screening-ft-results.xlsx`: 1,700 rows, labels of the scripted first pass over the full texts (760 Include, 586 Uncertain, 354 Exclude).
-- `original-2026-03/screening-llm-merged.csv` and `screening-llm-results.xlsx`: 1,700 rows, LLM re-screening of the full texts (104 INCLUDE, 1,534 EXCLUDE, 62 NO_TEXT).
+- `original-2026-03/screening-rescreen-merged.csv` and `screening-rescreen-results.xlsx`: 1,700 rows, automated re-screening of the full texts (104 INCLUDE, 1,534 EXCLUDE, 62 NO_TEXT).
 - `original-2026-03/entries-summary.csv`: 22,119 deduplicated records with title, author, year, DOI, arXiv ID, source, and type.
 - `original-2026-03/likely-include.bib`: BibTeX for the likely-include set.
 - `original-2026-03/fine-grained-classification.csv`: 125-row classification from the 122-era corpus.
@@ -20,7 +20,7 @@ The Stage-1 auto-screening table, the classifier and full-text screening scripts
 
 - The recovered auto-screening table is the March 2026 working export. It has 22,119 rows and 22,114 unique keys; the manuscript's final PRISMA uses 22,118 deduplicated records. The difference is an export artifact.
 - The recovered table labels 3,159 records as Likely-Include or Uncertain. The final pipeline retained 3,810 candidates after later manual overrides and export merging. The recovered table is the closest surviving source, not a byte-level reproduction of the final 3,810-row list.
-- The 1,700-row files record the scripted first pass and the LLM re-screening of Stage 3. The authors checked every paper that the re-screening included, which gave the 89 full-text inclusions; snowballing, targeted search, and the April-October 2026 window updates added the rest of the 122/141/152-study corpus. The 760 Include rows of the first pass are not the final included set.
+- The 1,700-row files record the scripted first pass and the automated re-screening of Stage 3. The authors checked every paper that the re-screening included, which gave the 89 full-text inclusions; snowballing, targeted search, and the April-October 2026 window updates added the rest of the 122/141/152-study corpus. The 760 Include rows of the first pass are not the final included set.
 - `fine-grained-classification.csv` has 125 rows and belongs to the 122-era corpus; the final 152-study classification is in `final-corpus-152.csv`.
 - `prisma-counts.json` is an early draft (4,179 raw, 3,810 after dedup), not the final 26,265/22,118/3,810 PRISMA in the manuscript.
 

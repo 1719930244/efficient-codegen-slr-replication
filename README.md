@@ -1,6 +1,6 @@
 # Replication Package: Towards Efficient LLM-Based Code Generation
 
-Replication package for the systematic literature review: *"Towards Efficient LLM-Based Code Generation: A Systematic Review"* (ACM TOSEM, manuscript TOSEM-2026-0589, revision submitted October 2026). Package version **v2.5** (2026-11-13), see [CHANGELOG.md](CHANGELOG.md).
+Replication package for the systematic literature review: *"Towards Efficient LLM-Based Code Generation: A Systematic Review"* (ACM TOSEM, manuscript TOSEM-2026-0589, revision, November 2026). Package version **v2.5** (2026-11-13), see [CHANGELOG.md](CHANGELOG.md).
 
 ## Overview
 
@@ -15,7 +15,7 @@ This review systematically analyzes **117 primary studies** on efficiency techni
 | RQ5 | Evaluation (benchmarks, metrics, reporting compliance) | 15 |
 | RQ6 | Technique Composition and Interaction Effects (controlled experiments) | — |
 
-Note: 28 studies span multiple RQs, so per-RQ counts sum to more than 117. The canonical stage marginals are computed by the mapping documented in `scripts/plot_upset.py` (codes 2c and 3l attach to the data stage; 3g/3h/3i/3m to deployment; 4a/4b to evaluation), which reproduces 24/20/59/26/15 exactly. The legacy `RQ` column of earlier package releases was an incomplete annotation and has been regenerated from this mapping; `classification-scheme.csv`'s RQ column keeps the taxonomy's chapter home for each category. RQ6 is answered by controlled experiments rather than primary-study classification (see `experiments/`).
+Note: 27 studies span multiple RQs, so per-RQ counts sum to more than 117. The canonical stage marginals are computed by the mapping documented in `scripts/plot_upset.py` (codes 2c and 3l attach to the data stage; 3g/3h/3i/3m to deployment; 4a/4b to evaluation), which reproduces 24/20/59/26/15 exactly. The legacy `RQ` column of earlier package releases was an incomplete annotation and has been regenerated from this mapping; `classification-scheme.csv`'s RQ column keeps the taxonomy's chapter home for each category. RQ6 is answered by controlled experiments rather than primary-study classification (see `experiments/`).
 
 ## Repository Structure
 
@@ -90,7 +90,7 @@ Per-study codings are in `data/reporting-audit/reporting-audit-117.csv`, with th
 - `monthly-2026-10.csv`: 20 OpenAlex selections for 2026-09-01..2026-10-31, 11 included and 9 excluded with reasons.
 - `coverage-audit-2026-10.csv`: the 400-record coverage-audit sample with both automated screeners, criteria, reasons, and adjudication.
 - `gap-2026-03.csv`: March 2026 gap-search adjudication records.
-- `original-2026-03/`: recovered March 2026 working records, including the 22,119-row Stage-1 auto-screening table, the 1,700-row scripted first pass and LLM re-screening of the full texts, the recovered classifier and screening scripts, and the early PRISMA draft.
+- `original-2026-03/`: recovered March 2026 working records, including the 22,119-row Stage-1 auto-screening table, the 1,700-row scripted first pass and its automated re-screening, the recovered classifier and screening scripts, and the early PRISMA draft.
 - `dual-screening-kit/`: blank 200-record title-and-abstract and 170-paper full-text dual-screening sheets, with the sampling frame and a kappa script. The sheets are instruments, not filled reliability tables.
 - `stage1-classifier/`: a clean reconstruction of the published Stage-1 scoring rule; the recovered original is in `original-2026-03/scripts/03-screening/`.
 - `RECONSTRUCTION.md`: what is public, what is missing, and how to close the gap.
@@ -99,7 +99,7 @@ The recovered March 2026 records are working data, not the final October 2026 11
 
 ## Quality Tiers
 
-`data/venues/venue-tier-117.csv` lists the venue type and quality tier of every study: CCF 2022 catalogue first (A/B/C), then CORE A* for venues outside the CCF catalogue (ICLR only in this corpus), workshops and unlisted venues as unranked, preprints as n/a. Distribution of the 45 peer-reviewed studies: 27 CCF-A, 7 CCF-B, 6 CCF-C, 1 CORE-A*, 11 unranked; the 72 preprints are n/a. The same column is in `primary-studies.csv`.
+`data/venues/venue-tier-117.csv` lists the venue type and quality tier of every study: CCF 2022 catalogue first (A/B/C), then CORE A* for venues outside the CCF catalogue (ICLR only in this corpus), workshops and unlisted venues as unranked, preprints as n/a. Distribution of the 45 peer-reviewed studies: 23 CCF-A, 7 CCF-B, 6 CCF-C, 1 CORE-A*, 8 unranked; the 72 preprints are n/a. The same column is in `primary-studies.csv`.
 
 ## RQ6: Empirical Composition and Pareto Experiments
 
@@ -191,7 +191,6 @@ Phase 4 (window search, publication window 2026-04-01 to 2026-08-31, run 2026-09
     v  (1 IC2, 15 IC4/EC1, 1 EC5, 18 runtime-of-generated-code)
 117 primary studies (cut-off 2026-10-31)
 ```
-```
 
 ## Quality Assessment
 
@@ -213,9 +212,9 @@ The companion website (https://1719930244.github.io/efficient-codegen-slr-replic
 ## Known Gaps (recorded honestly)
 
 1. **Stage-1 classifier artifacts**: recovered and mirrored in `data/screening-decisions/original-2026-03/`. The original `screening-ta-auto.py` is rule-based, not a weighted threshold; the recovered auto-screening table has 22,119 rows. Re-running it on that table labels 3,159 records Likely-Include or Uncertain; the final list of 3,810 candidates adds records retained by manual overrides and by the merge of export batches. See `RECONSTRUCTION.md`.
-2. **Full-text screening decisions**: recovered and mirrored in `data/screening-decisions/original-2026-03/`. The scripted first pass labels 760 Include, 586 Uncertain, and 354 Exclude; the LLM re-screening labels 104 INCLUDE, 1,534 EXCLUDE, and 62 NO_TEXT. The authors checked every paper that the re-screening included, which gave the 89 full-text inclusions; see `original-2026-03/README.md`. Reliability was measured by dual-author validation on stratified samples of Stage 1 and Stage 3 (manuscript Section 3.3).
+2. **Full-text screening decisions**: recovered and mirrored in `data/screening-decisions/original-2026-03/`. The scripted first pass labels 760 Include, 586 Uncertain, and 354 Exclude; an automated re-screening then labels 104 INCLUDE, 1,534 EXCLUDE, and 62 NO_TEXT. The authors checked every paper that the re-screening included, which gave the 89 full-text inclusions; see `original-2026-03/README.md`. Reliability was measured by dual-author validation on stratified samples of Stage 1 and Stage 3 (manuscript Section 3.3).
 3. **Gap-search record G000** (EAAI 2026, DOI 10.1016/j.engappai.2026.114360): full text requires institutional access; its IC4 adjudication is pending.
-4. Per-study 8-item audit sheets of the original 122 studies: not archived; see the provenance note under Reporting Compliance Audit.
+4. Per-study 8-item audit: the coded sheets are in `data/reporting-audit/` (136 coded rows, 117 of them in the final corpus); `scripts/aggregate_reporting_audit.py` regenerates every rate.
 
 ## License
 
