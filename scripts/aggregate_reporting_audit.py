@@ -1,8 +1,8 @@
 """Regenerate the reporting-audit rates of the manuscript.
 
-Reads data/reporting-audit/reporting-audit-117.csv and prints the overall
+Reads data/reporting-audit/reporting-audit-116.csv and prints the overall
 rates (Table 3), the reporting-breadth counts, the co-reporting counts, and
-the per-stage rates (Table 4), all over the 117 studies of the final corpus.
+the per-stage rates (Table 4), all over the 116 studies of the final corpus.
 
 Stages follow the canonical category mapping used for the RQ marginals:
 1* and 2c and 3l map to RQ1, 2a/2b/2d/2f to RQ2, 3a/3b/3c/3d/3e/3f/3j/3k/3n/3o
@@ -14,8 +14,8 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-AUDIT = ROOT / "data" / "reporting-audit" / "reporting-audit-117.csv"
-CORPUS = ROOT / "data" / "primary-studies-117.csv"
+AUDIT = ROOT / "data" / "reporting-audit" / "reporting-audit-116.csv"
+CORPUS = ROOT / "data" / "primary-studies-116.csv"
 
 ITEMS = ["Correctness", "ModelName", "Hardware", "Latency", "Memory",
          "ServingConfig", "MonetaryCost", "Energy"]

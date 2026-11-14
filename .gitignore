@@ -1,3 +1,27 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Pre-116 corpus vintages: kept locally, not published
+data/primary-studies-135.csv
+data/primary-studies-136.csv
+data/primary-studies-136-legacy.csv
+data/primary-studies-152.csv
+data/statistics-135.json
+data/statistics-136.json
+data/statistics-152.json
+data/statistics.json
+data/reporting-compliance-152.json
+data/screening-decisions/final-corpus-135.csv
+data/screening-decisions/final-corpus-136.csv
+data/screening-decisions/final-corpus-152.csv
+data/venues/venue-tier-135.csv
+data/venues/venue-tier-136.csv
+data/venues/venue-tier-141.csv
+data/venues/venue-tier-152.csv
+data/venues/appendix-b-venue-tier.csv
+data/primary-studies-117.csv
+data/statistics-117.json
+data/reporting-audit/reporting-audit-117.csv
+data/venues/venue-tier-117.csv
+data/screening-decisions/final-corpus-117.csv

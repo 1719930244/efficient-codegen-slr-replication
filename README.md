@@ -23,12 +23,11 @@ Note: 27 studies span multiple RQs, so per-RQ counts sum to more than 117. The c
 data/
   primary-studies.csv          # All 116 primary studies: metadata, canonical RQ column, Quality Tier
   classification-scheme.csv    # Taxonomy: 15 groups over 24 fine-grained categories, study counts and keys regenerated for 117
-  statistics-116.json          # Summary statistics (year, RQ, category, quality-tier distributions, N=117); statistics-152.json keeps the pre-confirmation set
+  statistics-116.json          # Summary statistics (year, RQ, category, quality-tier distributions, N=116)
   reporting-compliance.json    # Per-study QA scores (QA1-QA4) for all 116 studies
   search-log.csv               # Structured log of every search executed (main campaign, window, gap)
   venues/
-    venue-tier-117.csv         # Per-study venue type and CCF/CORE quality tier (all 117); venue-tier-152.csv keeps the pre-confirmation set
-    appendix-b-venue-tier.csv  # 122-era tier table kept for provenance
+    venue-tier-116.csv         # Per-study venue type and CCF/CORE quality tier (all 116)
   by-rq/
     rq1-studies.csv ... rq5-studies.csv   # Per-RQ subsets (24/20/59/26/15, full column schema)
   corpus-merge-20261001/       # The 19 window-search studies: per-study extraction records
@@ -79,7 +78,7 @@ The taxonomy follows the LLM lifecycle with 24 fine-grained categories. Canonica
 
 All 116 studies were audited against an 8-item reporting checklist (Table 3 of the manuscript). Aggregate coverage: functional correctness 89%, model name/version 92%, hardware 66%, latency/throughput 50%, memory 16%, serving configuration 69%, monetary cost 16%, energy/carbon 7%. Nineteen studies report no efficiency metric, and only twelve report latency and memory together.
 
-Per-study codings are in `data/reporting-audit/reporting-audit-117.csv`, with the 136-study coding sheet that preceded the confirmation pass in `reporting-audit-136.csv`. `scripts/aggregate_reporting_audit.py` regenerates the overall rates, the breadth counts, and the per-stage table from the 117-study file. Full texts were read for 110 studies; the other seven were coded from their abstracts and metadata. Per-study QA scores (QA1-QA4) for all 117 studies are in `data/reporting-compliance.json`.
+Per-study codings are in `data/reporting-audit/reporting-audit-116.csv`. `scripts/aggregate_reporting_audit.py` regenerates the overall rates, the breadth counts, and the per-stage table from it. Full texts were read for 109 studies; the other seven were coded from their abstracts and metadata. Per-study QA scores (QA1-QA4) for all 116 studies are in `data/reporting-compliance.json`.
 
 ## Screening Decisions
 
