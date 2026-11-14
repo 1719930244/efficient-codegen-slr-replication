@@ -1,0 +1,28 @@
+{
+ "n": 770,
+ "agreement": 0.9805,
+ "kappa": 0.7954,
+ "rater1_no": 31,
+ "rater2_no": 46,
+ "opposite": 15,
+ "overrides": 0,
+ "by_source": {
+  "Coverage-400": {
+   "rater1_no": 13,
+   "rater2_no": 21
+  },
+  "TA-200": {
+   "rater1_no": 13,
+   "rater2_no": 17
+  },
+  "FT-170": {
+   "rater1_no": 5,
+   "rater2_no": 8
+  }
+ },
+ "coverage_final": {
+  "Include": 3,
+  "Uncertain": 32,
+  "Exclude": 365
+ }
+}

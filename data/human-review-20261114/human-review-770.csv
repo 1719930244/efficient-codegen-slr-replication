@@ -1,0 +1,771 @@
+﻿source,id,proposed_decision,reason,rater1_confirm,rater1_override,rater2_confirm,rater2_override,final_decision
+Coverage-400,R001,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R002,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R003,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R004,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R005,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R006,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,No,,Exclude
+Coverage-400,R007,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,No,,No,,Exclude
+Coverage-400,R008,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,No,,Exclude
+Coverage-400,R009,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R010,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R011,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R012,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R013,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R014,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,No,,No,,Exclude
+Coverage-400,R015,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R016,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R017,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R018,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R019,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R020,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R021,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R022,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R023,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R024,Uncertain,边界情形：LLM heuristic/code design with HPO to cut query cost; unclear whether algorithm-design code counts under IC3,Yes,,Yes,,Uncertain
+Coverage-400,R025,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R026,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R027,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R028,Include,摘要已确认合格：RAG demonstration retrievers for coding tasks incl. program synthesis; efficiency is the core objective; reports retrieval time and 44x speedup,Yes,,Yes,,Include
+Coverage-400,R029,Uncertain,"边界情形：E2LLM long-context efficiency, code mentioned among tasks (version 1)",Yes,,Yes,,Uncertain
+Coverage-400,R030,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R031,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R032,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R033,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R034,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R035,Uncertain,边界情形：generic low-rank compression for target applications that include code; generic method,Yes,,Yes,,Uncertain
+Coverage-400,R036,Uncertain,"边界情形：generic efficient multi-task adaptation, code among tasks",Yes,,Yes,,Uncertain
+Coverage-400,R037,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R038,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,No,,No,,Exclude
+Coverage-400,R039,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R040,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R041,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R042,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R043,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R044,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R045,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R046,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R047,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R048,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R049,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R050,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R051,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R052,Uncertain,边界情形：model comparison on SAFIM with efficiency measures; efficiency not the core technique,Yes,,Yes,,Uncertain
+Coverage-400,R053,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R054,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R055,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R056,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R057,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R058,Exclude,与语料中已有论文的另一版本重复（S003 Greener yet Powerful (journal/arXiv title variant)），按 EC5 不重复计入,Yes,,Yes,,Exclude
+Coverage-400,R059,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R060,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R061,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R062,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R063,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R064,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R065,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R066,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R067,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R068,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R069,Uncertain,"边界情形：generic token-economy inference framework, code among tasks",Yes,,Yes,,Uncertain
+Coverage-400,R070,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R071,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R072,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R073,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R074,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R075,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R076,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R077,Exclude,与语料中已有论文的另一版本重复（S040 Less is More (second OpenAlex work of the same paper)），按 EC5 不重复计入,Yes,,Yes,,Exclude
+Coverage-400,R078,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R079,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R080,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R081,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R082,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R083,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R084,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R085,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R086,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R087,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R088,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R089,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R090,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R091,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R092,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R093,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R094,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R095,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R096,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R097,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R098,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R099,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R100,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R101,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R102,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R103,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R104,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R105,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R106,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R107,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R108,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R109,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R110,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R111,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R112,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R113,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R114,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R115,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R116,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R117,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R118,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R119,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R120,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R121,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R122,Uncertain,边界情形：LLaMoCo instruction tuning for optimization code; computational-efficiency claim relative to iterative EC,Yes,,Yes,,Uncertain
+Coverage-400,R123,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R124,Uncertain,"摘要层面基本合格，需看全文确认效率指标：PennyCoder: lightweight on-device quantum code generation with LoRA; efficiency motive, but the abstract reports only accuracy, IC4 needs the full text",Yes,,Yes,,Uncertain
+Coverage-400,R125,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R126,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R127,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R128,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R129,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,No,,Exclude
+Coverage-400,R130,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R131,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R132,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R133,Uncertain,"摘要层面基本合格，需看全文确认效率指标：Don't Complete It!: early rejection saves 23.3% FLOPs in code completion; ICSE-Companion paper, EC4 page length needs checking",Yes,,Yes,,Uncertain
+Coverage-400,R134,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R135,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R136,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R137,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R138,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R139,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R140,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R141,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R142,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R143,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R144,Uncertain,边界情形：distilling reasoning into smaller code models; no abstract in OpenAlex,Yes,,Yes,,Uncertain
+Coverage-400,R145,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R146,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R147,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R148,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R149,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R150,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R151,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R152,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R153,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R154,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R155,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R156,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R157,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R158,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R159,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R160,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R161,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R162,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R163,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R164,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R165,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,No,,Exclude
+Coverage-400,R166,Uncertain,边界情形：GraphCoder repository-level completion; efficiency claims secondary,Yes,,Yes,,Uncertain
+Coverage-400,R167,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R168,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R169,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R170,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R171,Exclude,与语料中已有论文的另一版本重复（S042 Anchor Attention (second OpenAlex work of the same paper)），按 EC5 不重复计入,Yes,,Yes,,Exclude
+Coverage-400,R172,Uncertain,"边界情形：generic distributed PEFT, code among tasks",Yes,,Yes,,Uncertain
+Coverage-400,R173,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R174,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R175,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R176,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R177,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R178,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R179,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R180,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R181,Uncertain,边界情形：ConceptSearch efficient program search for ARC with fewer LLM calls,Yes,,Yes,,Uncertain
+Coverage-400,R182,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R183,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R184,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R185,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R186,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R187,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R188,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R189,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R190,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R191,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R192,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,No,,Exclude
+Coverage-400,R193,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R194,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,No,,No,,Exclude
+Coverage-400,R195,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R196,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R197,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R198,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R199,Uncertain,边界情形：offline skill curation to avoid costly runtime code generation,Yes,,Yes,,Uncertain
+Coverage-400,R200,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R201,Uncertain,边界情形：JSON-structured prompting claiming generation speed; low-quality non-peer-reviewed record,Yes,,Yes,,Uncertain
+Coverage-400,R202,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R203,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R204,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R205,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R206,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R207,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R208,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R209,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R210,Uncertain,"边界情形：FlyLoRA generic PEFT, code among tasks",Yes,,Yes,,Uncertain
+Coverage-400,R211,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R212,Uncertain,边界情形：TreeRanker fast ranking for IDE completion; LLM basis unclear,Yes,,Yes,,Uncertain
+Coverage-400,R213,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R214,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,No,,Exclude
+Coverage-400,R215,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R216,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,No,,No,,Exclude
+Coverage-400,R217,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R218,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R219,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R220,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,No,,No,,Exclude
+Coverage-400,R221,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R222,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R223,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R224,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R225,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,No,,Exclude
+Coverage-400,R226,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R227,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R228,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R229,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R230,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,No,,No,,Exclude
+Coverage-400,R231,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R232,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R233,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R234,Uncertain,"边界情形：LLM inference performance and power on edge accelerators, code generation as a workload",Yes,,Yes,,Uncertain
+Coverage-400,R235,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R236,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R237,Uncertain,边界情形：cheaper evaluation of NLG tasks including code generation during training,Yes,,Yes,,Uncertain
+Coverage-400,R238,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R239,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R240,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R241,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,No,,Exclude
+Coverage-400,R242,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R243,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R244,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R245,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R246,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R247,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R248,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R249,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R250,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R251,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,No,,No,,Exclude
+Coverage-400,R252,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R253,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R254,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R255,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R256,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R257,Uncertain,"边界情形：ASDT adaptive speculative decoding, generic",Yes,,Yes,,Uncertain
+Coverage-400,R258,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R259,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R260,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R261,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R262,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R263,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R264,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,No,,No,,Exclude
+Coverage-400,R265,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R266,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R267,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R268,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R269,Uncertain,边界情形：efficient library-knowledge updating of code LLMs without retraining (thesis),Yes,,Yes,,Uncertain
+Coverage-400,R270,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R271,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R272,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R273,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R274,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R275,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R276,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R277,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R278,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R279,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R280,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R281,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R282,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R283,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R284,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R285,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R286,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R287,Uncertain,"边界情形：few-step diffusion LM via self-distillation, generic",Yes,,Yes,,Uncertain
+Coverage-400,R288,Include,摘要已确认合格：hybrid distillation to a small model for UAV control code generation; deployment and inference efficiency is the stated objective,Yes,,Yes,,Include
+Coverage-400,R289,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R290,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R291,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R292,Uncertain,"边界情形：channel merging to reduce memory of merged experts, generic",Yes,,Yes,,Uncertain
+Coverage-400,R293,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R294,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R295,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R296,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R297,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R298,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R299,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R300,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R301,Uncertain,"边界情形：dUltra fast diffusion LM decoding, generic",Yes,,Yes,,Uncertain
+Coverage-400,R302,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R303,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R304,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R305,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R306,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R307,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R308,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R309,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R310,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R311,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R312,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R313,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R314,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R315,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R316,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R317,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R318,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R319,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R320,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R321,Uncertain,边界情形：LoRA-One generic PEFT,Yes,,Yes,,Uncertain
+Coverage-400,R322,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R323,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R324,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R325,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R326,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R327,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R328,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R329,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R330,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,No,,No,,Exclude
+Coverage-400,R331,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R332,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R333,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R334,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R335,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R336,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R337,Uncertain,"边界情形：E2LLM long-context efficiency, code mentioned among tasks (version 2)",Yes,,Yes,,Uncertain
+Coverage-400,R338,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R339,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R340,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R341,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R342,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R343,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R344,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R345,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R346,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,No,,No,,Exclude
+Coverage-400,R347,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R348,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R349,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R350,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R351,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R352,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R353,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R354,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R355,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R356,Include,"摘要已确认合格：CPU-only LLM code generation benchmark; reports inference time, memory, CPU usage and energy",Yes,,Yes,,Include
+Coverage-400,R357,Uncertain,"边界情形：cost-aware routing for multi-agent systems, code among tasks",Yes,,Yes,,Uncertain
+Coverage-400,R358,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R359,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R360,Uncertain,边界情形：on-device SLM GUI agent via code generation,Yes,,Yes,,Uncertain
+Coverage-400,R361,Uncertain,"边界情形：generic efficient fine-tuning, code among tasks",Yes,,Yes,,Uncertain
+Coverage-400,R362,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R363,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R364,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R365,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R366,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,No,,No,,Exclude
+Coverage-400,R367,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R368,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R369,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R370,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R371,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R372,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R373,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,No,,No,,Exclude
+Coverage-400,R374,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R375,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R376,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R377,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R378,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R379,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R380,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R381,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R382,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R383,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R384,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R385,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R386,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R387,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R388,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R389,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R390,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R391,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R392,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R393,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R394,Uncertain,"边界情形：optimal reasoning length and compute for RL-trained models, math and code",Yes,,Yes,,Uncertain
+Coverage-400,R395,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R396,Uncertain,边界情形：ChipClaude hardware design via LLM distillation; no abstract,Yes,,Yes,,Uncertain
+Coverage-400,R397,Uncertain,边界情形：OPLoRA generic PEFT,Yes,,Yes,,Uncertain
+Coverage-400,R398,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R399,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+Coverage-400,R400,Exclude,裁决为不合格：摘要中没有面向生成过程的效率目标，或属其他任务、非 LLM 方法、综述类记录,Yes,,Yes,,Exclude
+TA-200,ieee_Le2016empirical,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_Alizadeh2025language,Uncertain,效率词 1 个；LLM 词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,2509_20534,Include,代码生成词 1 个；效率词 2 个；LLM 词 1 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,2310_13976,Include,代码生成词 1 个；效率词 1 个；LLM 词 3 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,2023slabcity,Uncertain,代码生成词 1 个；效率词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,Han2024beyond,Exclude,效率词 2 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,scopus_85029583718,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2208_00497,Uncertain,代码生成词 1 个；效率词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ieee_Duan2023leftover,Uncertain,效率词 1 个；LLM 词 2 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ss_Flink2025fedloraswitch,Include,代码生成词 1 个；效率词 5 个；LLM 词 4 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,ieee_ChagoyaGarzon2011semiautomation,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Anderson2019optimization,Uncertain,效率词 1 个；LLM 词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,2504_07433,Include,代码生成词 1 个；LLM 词 3 个；满足代码生成与 LLM 条件，未见其他任务冲突,No,,No,,Include
+TA-200,2510_21407,Include,代码生成词 1 个；效率词 2 个；LLM 词 5 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,ieee_Mizrahi2024unlocking,Uncertain,效率词 1 个；LLM 词 1 个；词组匹配不完整或存在冲突，需人工判断,No,,No,,Uncertain
+TA-200,2603_02637,Uncertain,代码生成词 1 个；效率词 2 个；LLM 词 1 个；其他任务词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,2509_17589,Uncertain,代码生成词 1 个；效率词 1 个；LLM 词 4 个；其他任务词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,2508_04072,Include,代码生成词 1 个；效率词 1 个；LLM 词 4 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,2103_04747,Exclude,效率词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Zhang2006finding,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2405_10272,Uncertain,代码生成词 1 个；效率词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,No,,Uncertain
+TA-200,Wei2025privacy,Uncertain,效率词 1 个；LLM 词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ss_Zhang2021adaptive,Uncertain,代码生成词 1 个；效率词 2 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,2503_05852,Include,代码生成词 1 个；效率词 1 个；LLM 词 6 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,wos_Kulathunga2025resilient,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2501_13731,Include,代码生成词 1 个；效率词 2 个；LLM 词 4 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,Buyrukoglu2016increasing,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,scopus_84874748635,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2409_12171,Include,代码生成词 1 个；效率词 1 个；LLM 词 3 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,ss_Liu2020multi,Include,代码生成词 2 个；效率词 1 个；LLM 词 4 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,2305_10611,Uncertain,代码生成词 1 个；效率词 4 个；LLM 词 1 个；其他任务词 2 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,Purini2013finding,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ss_2009video,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Li2004exact,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ss_Yin2023pv,Uncertain,效率词 3 个；LLM 词 2 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ieee_Zhang2011university,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,scopus_105020390011,Include,代码生成词 1 个；LLM 词 2 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,ieee_AbiKaram2023inrarch,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2601_05106,Include,代码生成词 1 个；效率词 2 个；LLM 词 6 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,2501_18653,Include,代码生成词 1 个；效率词 2 个；LLM 词 2 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,ieee_Nammouchi2024towards,Uncertain,效率词 1 个；LLM 词 2 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,scopus_84885231024,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Kourai2015zerocopy,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,scopus_84871203710,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,scopus_77954667601,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Kalita2022program,Exclude,代码生成词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,No,,No,,Exclude
+TA-200,2510_23272,Uncertain,代码生成词 1 个；效率词 1 个；LLM 词 5 个；其他任务词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ss_Venkat2019swirl,Uncertain,代码生成词 1 个；效率词 2 个；LLM 词 2 个；其他任务词 1 个；词组匹配不完整或存在冲突，需人工判断,No,,No,,Uncertain
+TA-200,scopus_85185823884,Include,代码生成词 1 个；LLM 词 1 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,ieee_Yuan2003framework,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2512_20724,Uncertain,代码生成词 1 个；效率词 5 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ieee_Kim2015platformspecific,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,scopus_105003208988,Exclude,效率词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_Steuwer2016matrix,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2503_16771,Exclude,LLM 词 4 个；其他任务词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Takaki2025higher,Exclude,效率词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,scopus_85174595059,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_Otomo2025automatic,Exclude,LLM 词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2502_02711,Uncertain,代码生成词 1 个；效率词 2 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,Abid2018efficient,Exclude,效率词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2312_00700,Include,代码生成词 1 个；效率词 5 个；LLM 词 3 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,wos_Lin2017multidimensional,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2505_13772,Include,代码生成词 1 个；效率词 1 个；LLM 词 4 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,2504_09643,Include,代码生成词 1 个；效率词 2 个；LLM 词 2 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,2504_16536,Uncertain,代码生成词 1 个；效率词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,2312_02249,Uncertain,代码生成词 1 个；效率词 1 个；LLM 词 2 个；其他任务词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,scopus_105020405003,Uncertain,代码生成词 1 个；效率词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ieee_Tanaka2025integrating,Exclude,效率词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,scopus_85059519620,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ss_Gong2014optimal,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Bavishi2021gauss,Exclude,代码生成词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2512_05439,Include,代码生成词 1 个；效率词 1 个；LLM 词 3 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,scopus_85171560545,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_Roshan2025roleaware,Include,代码生成词 1 个；LLM 词 2 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,2401_10364,Uncertain,代码生成词 1 个；效率词 1 个；LLM 词 6 个；其他任务词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ss_Wu2021mirroralign,Uncertain,效率词 2 个；LLM 词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,Baca2008evaluating,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Maxiaguine2005dvs,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_MonteMor2011applying,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,wos_Chen2023opara,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ss_Kang2024gear,Uncertain,效率词 6 个；LLM 词 4 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,2508_13920,Uncertain,代码生成词 1 个；效率词 2 个；LLM 词 4 个；其他任务词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,scopus_0024050497,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_Liu2025functionlevel,Exclude,效率词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_Seeker2024revealing,Exclude,效率词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,scopus_85164782552,Uncertain,代码生成词 1 个；效率词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,No,,Uncertain
+TA-200,ieee_Ibnat2025trusting,Exclude,LLM 词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Salas2012rocebush,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Liskowski2020program,Uncertain,代码生成词 1 个；效率词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ieee_Yan2021research,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_Laplante2012programming,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_Komodakis2011mrf,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Wang2024dancecamanimator,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,scopus_105001589815,Exclude,代码生成词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2502_11404,Include,代码生成词 1 个；效率词 2 个；LLM 词 4 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,No,,Include
+TA-200,ieee_Stubbs2008systematics,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,scopus_33746078868,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Bastos2023can,Exclude,效率词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_Feng2023investigating,Include,代码生成词 1 个；LLM 词 2 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,scopus_85213347359,Uncertain,效率词 1 个；LLM 词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ss_Li2021revisiting,Exclude,效率词 5 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2407_09453,Uncertain,效率词 1 个；LLM 词 3 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,2112_12653,Uncertain,代码生成词 1 个；效率词 2 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ieee_Dorninger2014automated,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,scopus_84994519228,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Ghabi2012code,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_unknown2011tutorialb,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2511_22891,Uncertain,代码生成词 1 个；效率词 7 个；LLM 词 5 个；其他任务词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,2411_05010,Include,代码生成词 1 个；效率词 3 个；LLM 词 2 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,scopus_85194710180,Include,代码生成词 1 个；LLM 词 1 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,2504_14557,Include,代码生成词 1 个；效率词 1 个；LLM 词 4 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,ieee_Palkowski2017optimizing,Exclude,效率词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Mller2020eliminating,Exclude,效率词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_Hwu1988exploiting,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Muggleton1994bayesian,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,No,,No,,Exclude
+TA-200,2312_11511,Include,代码生成词 1 个；效率词 2 个；LLM 词 4 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,No,,Include
+TA-200,Blundo2002lightweight,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,No,,No,,Exclude
+TA-200,ieee_Mannion2005system,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ss_Zhu2026flash,Uncertain,效率词 6 个；LLM 词 1 个；其他任务词 1 个；词组匹配不完整或存在冲突，需人工判断,No,,No,,Uncertain
+TA-200,scopus_105027385519,Uncertain,效率词 1 个；LLM 词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,2512_13323,Include,代码生成词 1 个；效率词 1 个；LLM 词 4 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,Clausen2000java,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2106_12496,Uncertain,代码生成词 1 个；效率词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,Zhang2024lightweight,Exclude,效率词 2 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Li2024poster,Exclude,效率词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2302_03763,Uncertain,效率词 1 个；LLM 词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,Atkinson2022semisymbolic,Exclude,效率词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_Li2019hash,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2408_06810,Uncertain,代码生成词 1 个；效率词 3 个；LLM 词 5 个；其他任务词 2 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,Zhang2025boundaryconditioned,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_Limpanukorn2025fuzzing,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Haller2016lacasa,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2602_23407,Uncertain,代码生成词 1 个；效率词 1 个；LLM 词 4 个；其他任务词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ieee_Darte2002generalized,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,No,,No,,Exclude
+TA-200,scopus_78649864892,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Li2005semantic,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,scopus_85044750852,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ss_Osrio2025evaluation,Include,代码生成词 2 个；效率词 2 个；LLM 词 2 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,2601_22230,Include,代码生成词 1 个；LLM 词 1 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,ieee_Collin2008improving,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Fang2022cross,Exclude,效率词 2 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_McFarlin2015bungee,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ss_Brody2020neural,Uncertain,效率词 1 个；LLM 词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ss_Sun2023iqnet,Uncertain,效率词 5 个；LLM 词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ss_Vijayaraghavan2017minimized,Uncertain,代码生成词 1 个；效率词 2 个；其他任务词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ieee_Zhao2019hardwareintheloop,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,scopus_85103207167,Uncertain,代码生成词 1 个；效率词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,Li2021filter,Uncertain,效率词 3 个；LLM 词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ieee_Aloui2022new,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2508_02358,Uncertain,代码生成词 1 个；效率词 3 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ieee_Kohler2002improving,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,scopus_0030410170,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Gu2010efficient,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_Altiero2025securing,Include,代码生成词 1 个；LLM 词 1 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,2601_07348,Include,代码生成词 1 个；效率词 3 个；LLM 词 1 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,ss_Xu2025accelerate,Uncertain,效率词 4 个；LLM 词 2 个；其他任务词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,Lelewer1987data,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ss_Brody2020structural,Uncertain,效率词 1 个；LLM 词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ieee_Pan2019adaptive,Uncertain,效率词 1 个；LLM 词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,2506_00570,Uncertain,代码生成词 1 个；效率词 1 个；LLM 词 3 个；其他任务词 2 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,2308_11900,Uncertain,代码生成词 1 个；效率词 3 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,Mohammadzadeh2021efficient,Exclude,效率词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ss_Brito2020signal,Uncertain,效率词 4 个；LLM 词 3 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,2404_07548,Uncertain,效率词 3 个；LLM 词 2 个；其他任务词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,Kerneis2014qemucpc,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_Alur2015keynote,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,1806_02932,Uncertain,代码生成词 1 个；效率词 1 个；其他任务词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,Zhang2021boosting,Exclude,效率词 2 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2510_10618,Include,代码生成词 1 个；效率词 5 个；LLM 词 3 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,Bentley2006implicit,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Gemeinhardt2023modeldriven,Uncertain,代码生成词 1 个；效率词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,2509_20426,Uncertain,代码生成词 1 个；效率词 1 个；词组匹配不完整或存在冲突，需人工判断,No,,No,,Uncertain
+TA-200,2512_18934,Include,代码生成词 1 个；效率词 3 个；LLM 词 2 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,2509_08315,Include,代码生成词 1 个；效率词 4 个；LLM 词 1 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,Giagnorio2025quantizing,Include,代码生成词 1 个；效率词 1 个；LLM 词 2 个；满足代码生成与 LLM 条件，未见其他任务冲突,No,,No,,Include
+TA-200,ieee_Paradis2025how,Exclude,LLM 词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,Yang2017exceptionization,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,scopus_85096334533,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,No,,No,,Exclude
+TA-200,ss_Kraemer2007efficient,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_Li2025conversion,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ieee_Lano2025comparing,Exclude,LLM 词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2512_23742,Include,代码生成词 1 个；效率词 2 个；LLM 词 3 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,2601_13401,Uncertain,效率词 1 个；LLM 词 3 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,2509_01455,Include,代码生成词 1 个；效率词 1 个；LLM 词 3 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,ieee_Chebolu2016tuning,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,ss_Miura1978access,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2204_08676,Include,代码生成词 1 个；效率词 1 个；LLM 词 1 个；满足代码生成与 LLM 条件，未见其他任务冲突,No,,No,,Include
+TA-200,2101_00961,Uncertain,代码生成词 1 个；效率词 1 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ieee_Zhai2024llm,Uncertain,效率词 1 个；LLM 词 1 个；词组匹配不完整或存在冲突，需人工判断,No,,No,,Uncertain
+TA-200,2602_13280,Include,代码生成词 1 个；效率词 2 个；LLM 词 3 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,2510_08369,Include,代码生成词 1 个；效率词 2 个；LLM 词 2 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,DeRemer1982efficient,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2408_02232,Uncertain,效率词 1 个；LLM 词 3 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,Zhao2024foes,Exclude,效率词 1 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2507_15615,Include,代码生成词 1 个；效率词 1 个；LLM 词 3 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,ss_Sioutas2019schedule,Uncertain,代码生成词 1 个；效率词 3 个；词组匹配不完整或存在冲突，需人工判断,Yes,,Yes,,Uncertain
+TA-200,ss_Sun2022learning,Include,代码生成词 1 个；LLM 词 1 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,scopus_84885009574,Exclude,缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+TA-200,2512_16272,Include,代码生成词 1 个；效率词 2 个；LLM 词 4 个；满足代码生成与 LLM 条件，未见其他任务冲突,Yes,,Yes,,Include
+TA-200,ss_Baldassarre2023variable,Exclude,效率词 2 个；缺少代码生成或 LLM 条件，或明显属于其他任务,Yes,,Yes,,Exclude
+FT-170,2312_08583,Include,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 INCLUDE,Yes,,Yes,,Include
+FT-170,2602_04998,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2410_00558,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,ss_Song2024variable,Uncertain,初筛：text_extraction_failed；复筛判为 NO_TEXT,Yes,,Yes,,Uncertain
+FT-170,2512_05341,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2512_18131,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2502_18658,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,Zhao2025codeswift,Include,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 INCLUDE,Yes,,Yes,,Include
+FT-170,2509_17589,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2403_10059,Include,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 INCLUDE,Yes,,Yes,,Include
+FT-170,ss_Sun2025improvement,Exclude,初筛：IC3:not_codegen_task；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2410_09854,Exclude,初筛：EC2:other_se_task；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2408_08333,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2505_14174,Include,初筛：strong_match；复筛判为 INCLUDE,Yes,,Yes,,Include
+FT-170,2507_08619,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2412_19595,Exclude,初筛：IC3:not_codegen_task；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2402_11453,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2602_20144,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,ss_ElNouby2022image,Exclude,初筛：IC3:not_codegen_task；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,1908_11078,Exclude,初筛：IC2:not_llm_based；复筛判为 EXCLUDE,Yes,,No,,Exclude
+FT-170,2601_01569,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,ss_Sun2024shadowkv,Exclude,初筛：IC3:not_codegen_task；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2501_03166,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2506_17865,Exclude,初筛：EC1:efficiency_not_core；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2312_11701,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,Jin2025enhancing,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2602_04919,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2502_11140,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2601_21469,Include,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 INCLUDE,Yes,,Yes,,Include
+FT-170,ss_Liang2025digital,Uncertain,初筛：text_extraction_failed；复筛判为 NO_TEXT,Yes,,Yes,,Uncertain
+FT-170,2602_10880,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2212_10692,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2503_11624,Exclude,初筛：IC2:not_llm_based；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2410_24198,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,ss_Sun2023iqnet,Uncertain,初筛：text_extraction_failed；复筛判为 NO_TEXT,Yes,,Yes,,Uncertain
+FT-170,2511_03137,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2512_08379,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2601_07084,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2502_10802,Exclude,初筛：EC2:other_se_task；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2508_06414,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2501_09201,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2509_07941,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2312_13115,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2510_11498,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,No,,No,,Exclude
+FT-170,2512_02337,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2504_11919,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2308_02955,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2601_09822,Exclude,初筛：EC2:other_se_task；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2410_21285,Exclude,初筛：EC2:other_se_task；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2504_02052,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,ss_Kim2023computer,Exclude,初筛：IC2:not_llm_based；复筛判为 EXCLUDE,No,,No,,Exclude
+FT-170,ss_Bhattacharyya2024llm,Uncertain,初筛：text_extraction_failed；复筛判为 NO_TEXT,Yes,,Yes,,Uncertain
+FT-170,2410_22375,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2411_03471,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2401_06665,Exclude,初筛：IC2:not_llm_based；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2404_10719,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,ss_Aggarwal2025evolutionary,Exclude,初筛：IC3:not_codegen_task；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,ss_Zhang2024llm,Include,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 INCLUDE,Yes,,Yes,,Include
+FT-170,2602_00746,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2407_21077,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2406_03003,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2412_08063,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,ss_Ye2021scalehls,Exclude,初筛：IC2:not_llm_based；复筛判为 EXCLUDE,No,,No,,Exclude
+FT-170,2603_03233,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2502_19361,Exclude,初筛：IC1:not_efficiency_for_codegen；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,ss_Kang2024gear,Exclude,初筛：IC3:not_codegen_task；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,ss_Susladkar2024motionaura,Exclude,初筛：IC3:not_codegen_task；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2508_02343,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2304_10778,Exclude,初筛：EC1:efficiency_not_core；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,ss_Siuzdak2024snac,Exclude,初筛：IC3:not_codegen_task；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2506_08173,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2201_05587,Exclude,初筛：IC2:not_llm_based；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2602_11000,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2410_13874,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,1912_03978,Exclude,初筛：IC2:not_llm_based；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,ss_Wang2025adaptive,Uncertain,初筛：text_extraction_failed；复筛判为 NO_TEXT,Yes,,Yes,,Uncertain
+FT-170,2502_08756,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2511_15665,Exclude,初筛：EC4:short；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2603_04646,Include,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 INCLUDE,Yes,,Yes,,Include
+FT-170,2506_16500,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2501_12934,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2508_09883,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2505_13073,Exclude,初筛：EC1:efficiency_not_core；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2508_03661,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2508_10074,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2408_12056,Exclude,初筛：EC2:other_se_task；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2312_00273,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2410_05340,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,No,,Exclude
+FT-170,2512_05439,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2601_23254,Include,初筛：strong_match；复筛判为 INCLUDE,Yes,,Yes,,Include
+FT-170,2601_12744,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2512_23742,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2407_21579,Exclude,初筛：EC2:other_se_task；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2502_18467,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2404_02078,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2509_26062,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2510_06014,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2407_09111,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2412_21051,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2506_07596,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2405_17057,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2512_15000,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2409_06957,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2505_10607,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2403_12671,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,No,,No,,Exclude
+FT-170,2405_04600,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2309_17272,Exclude,初筛：EC1:efficiency_not_core；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2511_21104,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2510_18165,Include,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 INCLUDE,Yes,,Yes,,Include
+FT-170,2509_17393,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2410_23894,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2510_06627,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2602_23407,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2509_12649,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2210_10492,Exclude,初筛：IC2:not_llm_based；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2510_24021,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2601_06126,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2209_01975,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2504_07448,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2504_17674,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2602_01705,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2506_09554,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,ieee_Indhuja2025automated,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2305_11860,Include,初筛：partial_IC_match；复筛判为 INCLUDE,No,,No,,Include
+FT-170,2510_23272,Exclude,初筛：EC1:efficiency_not_core；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2512_13438,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2408_00665,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2507_17728,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2408_10554,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2508_13201,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2401_10652,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2410_18194,Include,初筛：strong_match；复筛判为 INCLUDE,Yes,,Yes,,Include
+FT-170,2601_05633,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2507_12507,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2505_02146,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2406_12375,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,ieee_Zhu2024towards,Exclude,初筛：EC4:short；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2602_13723,Exclude,初筛：EC2:other_se_task；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2510_09932,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2503_16913,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2601_07160,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2407_09164,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2307_12856,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2507_03616,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2108_13191,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2505_23254,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2512_06442,Exclude,初筛：IC2:not_llm_based；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2408_05026,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,ss_Qu2025holozip,Uncertain,初筛：text_extraction_failed；复筛判为 NO_TEXT,Yes,,Yes,,Uncertain
+FT-170,2601_00509,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2406_12326,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2308_04724,Exclude,初筛：EC4:short；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2505_10446,Exclude,初筛：EC1:efficiency_not_core；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2602_01187,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2312_15224,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2506_03524,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2408_01651,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2603_02637,Exclude,初筛：初筛以全部纳入标准通过，未见排除项；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2512_00672,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2511_20613,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2509_25848,Exclude,初筛：EC1:efficiency_not_core；复筛判为 EXCLUDE,Yes,,No,,Exclude
+FT-170,ss_Liu2019self,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,ieee_Weinthal2025leveraging,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,ss_He2023efficient,Uncertain,初筛：text_extraction_failed；复筛判为 NO_TEXT,Yes,,Yes,,Uncertain
+FT-170,2410_13213,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2601_17604,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2501_00642,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2509_21164,Exclude,初筛：strong_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2503_08174,Exclude,初筛：weak_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
+FT-170,2512_15076,Exclude,初筛：partial_IC_match；复筛判为 EXCLUDE,Yes,,Yes,,Exclude
