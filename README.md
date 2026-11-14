@@ -78,7 +78,7 @@ The taxonomy follows the LLM lifecycle with 24 fine-grained categories. Canonica
 
 All 116 studies were audited against an 8-item reporting checklist (Table 3 of the manuscript). Aggregate coverage: functional correctness 89%, model name/version 92%, hardware 66%, latency/throughput 50%, memory 16%, serving configuration 69%, monetary cost 16%, energy/carbon 7%. Nineteen studies report no efficiency metric, and only twelve report latency and memory together.
 
-Per-study codings are in `data/reporting-audit/reporting-audit-116.csv`. `scripts/aggregate_reporting_audit.py` regenerates the overall rates, the breadth counts, and the per-stage table from it. Full texts were read for 109 studies; the other seven were coded from their abstracts and metadata. Per-study QA scores (QA1-QA4) for all 116 studies are in `data/reporting-compliance.json`.
+Per-study codings are in `data/reporting-audit/reporting-audit-116.csv`. `scripts/aggregate_reporting_audit.py` regenerates the overall rates, the breadth counts, and the per-stage table from it. Full texts were read for 110 studies; the other six were coded from their abstracts and metadata. Per-study QA scores (QA1-QA4) for all 116 studies are in `data/reporting-compliance.json`.
 
 ## Screening Decisions
 
@@ -210,10 +210,10 @@ The companion website (https://1719930244.github.io/efficient-codegen-slr-replic
 
 ## Known Gaps (recorded honestly)
 
-1. **Stage-1 classifier artifacts**: recovered and mirrored in `data/screening-decisions/original-2026-03/`. The original `screening-ta-auto.py` is rule-based, not a weighted threshold; the recovered auto-screening table has 22,119 rows. Re-running it on that table labels 3,159 records Likely-Include or Uncertain; the final list of 3,810 candidates adds records retained by manual overrides and by the merge of export batches. See `RECONSTRUCTION.md`.
-2. **Full-text screening decisions**: recovered and mirrored in `data/screening-decisions/original-2026-03/`. The scripted first pass labels 760 Include, 586 Uncertain, and 354 Exclude; an automated re-screening then labels 104 INCLUDE, 1,534 EXCLUDE, and 62 NO_TEXT. The authors checked every paper that the re-screening included, which gave the 89 full-text inclusions; see `original-2026-03/README.md`. Reliability was measured by dual-author validation on stratified samples of Stage 1 and Stage 3 (manuscript Section 3.3).
+1. **Stage-1 classifier artifacts**: recovered and mirrored in `data/screening-decisions/original-2026-03/`. The original `screening-ta-auto.py` is rule-based, not a weighted threshold; the recovered auto-screening table has 22,119 rows. Re-running it on that table labels 3,159 records Likely-Include or Uncertain; the final list of 3,840 candidates adds records retained by manual overrides and by the merge of export batches. See `RECONSTRUCTION.md`.
+2. **Full-text screening decisions**: recovered and mirrored in `data/screening-decisions/original-2026-03/`. The scripted first pass labels 760 Include, 586 Uncertain, and 354 Exclude; an automated re-screening then labels 104 INCLUDE, 1,534 EXCLUDE, and 62 NO_TEXT. The authors checked every paper that the re-screening included, which gave 119 full-text inclusions, 89 from the main pass and 30 from the window and October batches; see `original-2026-03/README.md`. Two authors confirmed all 770 records of the three screening samples (agreement 98.1%, kappa 0.795 on the Yes/No step); the manuscript reports the sample result, not a reliability coefficient.
 3. **Gap-search record G000** (EAAI 2026, DOI 10.1016/j.engappai.2026.114360): full text requires institutional access; its IC4 adjudication is pending.
-4. Per-study 8-item audit: the coded sheets are in `data/reporting-audit/` (136 coded rows, 117 of them in the final corpus); `scripts/aggregate_reporting_audit.py` regenerates every rate.
+4. Per-study 8-item audit: the coded sheets are in `data/reporting-audit/` (136 coded rows, 116 of them in the final corpus); `scripts/aggregate_reporting_audit.py` regenerates every rate.
 
 ## License
 

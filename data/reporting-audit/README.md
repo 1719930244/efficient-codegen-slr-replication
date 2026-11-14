@@ -32,7 +32,7 @@ with a number, `BothLatencyMemory` and `BothLatencyCost` mark co-reporting, and
 
 ## Denominators
 
-Full texts were read for 110 of the 116 studies. The other seven were coded
+Full texts were read for 110 of the 116 studies. The other six were coded
 from their abstracts and metadata and carry `FullTextRead=NO`. The manuscript
 reports all rates over the 116 studies, that is, over the whole corpus, so its
 rates and the corpus-level tables use one denominator.
