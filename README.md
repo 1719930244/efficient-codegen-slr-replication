@@ -4,27 +4,27 @@ Replication package for the systematic literature review: *"Towards Efficient LL
 
 ## Overview
 
-This review systematically analyzes **117 primary studies** on efficiency techniques for LLM-based code generation, organized across **six research questions** spanning the full lifecycle from data preparation through deployment and evaluation, plus a cross-cutting controlled experiment on technique composition. The corpus comes from a single search campaign with a literature cut-off of **2026-10-31**. The search returned 43,521 records; deduplication removed 4,147 and left 39,374 unique records; title and abstract screening retained 3,840 candidates; 1,730 full texts were retrieved and screened, which identified 119 included studies. Snowballing and the targeted search added 36 candidates, 3 duplicates were removed, and a confirmation pass re-read all 152 against the criteria and removed 35, which leaves 117 primary studies.
+This review systematically analyzes **116 primary studies** on efficiency techniques for LLM-based code generation, organized across **six research questions** spanning the full lifecycle from data preparation through deployment and evaluation, plus a cross-cutting controlled experiment on technique composition. The corpus comes from a single search campaign with a literature cut-off of **2026-10-31**. The search returned 43,521 records; deduplication removed 4,147 and left 39,374 unique records; title and abstract screening retained 3,840 candidates; 1,730 full texts were retrieved and screened, which identified 119 included studies. Snowballing and the targeted search added 36 candidates, 3 duplicates were removed, and a confirmation pass re-read all 152 against the criteria and removed 35, which leaves 116 primary studies.
 
 | RQ | Scope | Studies |
 |----|-------|---------|
-| RQ1 | Data Preparation (selection, quality, synthesis; distillation and code-specific work counted here) | 24 |
+| RQ1 | Data Preparation (selection, quality, synthesis; distillation and code-specific work counted here) | 23 |
 | RQ2 | Model Training (pre-training, PEFT, curriculum, RL) | 20 |
 | RQ3 | Inference Optimization (decoding, compression, sampling, orchestration) | 59 |
 | RQ4 | Deployment (quantization, pruning, routing, system-level serving) | 26 |
 | RQ5 | Evaluation (benchmarks, metrics, reporting compliance) | 15 |
 | RQ6 | Technique Composition and Interaction Effects (controlled experiments) | — |
 
-Note: 27 studies span multiple RQs, so per-RQ counts sum to more than 117. The canonical stage marginals are computed by the mapping documented in `scripts/plot_upset.py` (codes 2c and 3l attach to the data stage; 3g/3h/3i/3m to deployment; 4a/4b to evaluation), which reproduces 24/20/59/26/15 exactly. The legacy `RQ` column of earlier package releases was an incomplete annotation and has been regenerated from this mapping; `classification-scheme.csv`'s RQ column keeps the taxonomy's chapter home for each category. RQ6 is answered by controlled experiments rather than primary-study classification (see `experiments/`).
+Note: 27 studies span multiple RQs, so per-RQ counts sum to more than 117. The canonical stage marginals are computed by the mapping documented in `scripts/plot_upset.py` (codes 2c and 3l attach to the data stage; 3g/3h/3i/3m to deployment; 4a/4b to evaluation), which reproduces 23/20/59/26/15 exactly. The legacy `RQ` column of earlier package releases was an incomplete annotation and has been regenerated from this mapping; `classification-scheme.csv`'s RQ column keeps the taxonomy's chapter home for each category. RQ6 is answered by controlled experiments rather than primary-study classification (see `experiments/`).
 
 ## Repository Structure
 
 ```
 data/
-  primary-studies.csv          # All 117 primary studies: metadata, canonical RQ column, Quality Tier
+  primary-studies.csv          # All 116 primary studies: metadata, canonical RQ column, Quality Tier
   classification-scheme.csv    # Taxonomy: 15 groups over 24 fine-grained categories, study counts and keys regenerated for 117
-  statistics-117.json          # Summary statistics (year, RQ, category, quality-tier distributions, N=117); statistics-152.json keeps the pre-confirmation set
-  reporting-compliance.json    # Per-study QA scores (QA1-QA4) for all 117 studies
+  statistics-116.json          # Summary statistics (year, RQ, category, quality-tier distributions, N=117); statistics-152.json keeps the pre-confirmation set
+  reporting-compliance.json    # Per-study QA scores (QA1-QA4) for all 116 studies
   search-log.csv               # Structured log of every search executed (main campaign, window, gap)
   venues/
     venue-tier-117.csv         # Per-study venue type and CCF/CORE quality tier (all 117); venue-tier-152.csv keeps the pre-confirmation set
@@ -77,7 +77,7 @@ The taxonomy follows the LLM lifecycle with 24 fine-grained categories. Canonica
 
 ## Reporting Compliance Audit (N=117) and QA Coverage (N=117)
 
-All 117 studies were audited against an 8-item reporting checklist (Table 3 of the manuscript). Aggregate coverage: functional correctness 88%, model name/version 91%, hardware 66%, latency/throughput 50%, memory 16%, serving configuration 68%, monetary cost 16%, energy/carbon 7%. Twenty studies report no efficiency metric, and only twelve report latency and memory together.
+All 116 studies were audited against an 8-item reporting checklist (Table 3 of the manuscript). Aggregate coverage: functional correctness 89%, model name/version 92%, hardware 66%, latency/throughput 50%, memory 16%, serving configuration 69%, monetary cost 16%, energy/carbon 7%. Nineteen studies report no efficiency metric, and only twelve report latency and memory together.
 
 Per-study codings are in `data/reporting-audit/reporting-audit-117.csv`, with the 136-study coding sheet that preceded the confirmation pass in `reporting-audit-136.csv`. `scripts/aggregate_reporting_audit.py` regenerates the overall rates, the breadth counts, and the per-stage table from the 117-study file. Full texts were read for 110 studies; the other seven were coded from their abstracts and metadata. Per-study QA scores (QA1-QA4) for all 117 studies are in `data/reporting-compliance.json`.
 
@@ -136,9 +136,9 @@ The extended suite (2026) adds: five-run A800 replication of the composition and
 ### Study Characteristics
 
 - **Year distribution**: 2022 (1), 2023 (13), 2024 (28), 2025 (39), 2026 (36)
-- **Venue types**: 33 conference, 12 journal, 72 preprint (62% preprints; 45 peer-reviewed)
+- **Venue types**: 33 conference, 12 journal, 71 preprint (61% preprints; 45 peer-reviewed)
 - **Quality tiers** (peer-reviewed subset): 23 CCF-A, 7 CCF-B, 6 CCF-C, 1 CORE-A*, 8 unranked
-- **RQ marginals** from the canonical category mapping: RQ1 24, RQ2 20, RQ3 59, RQ4 26, RQ5 15; 27 studies span two RQs
+- **RQ marginals** from the canonical category mapping: RQ1 23, RQ2 20, RQ3 59, RQ4 26, RQ5 15; 27 studies span two RQs
 
 ## Search Strategy
 
@@ -189,7 +189,7 @@ Phase 4 (window search, publication window 2026-04-01 to 2026-08-31, run 2026-09
     |
     v  Confirmation pass: 35 removed
     v  (1 IC2, 15 IC4/EC1, 1 EC5, 18 runtime-of-generated-code)
-117 primary studies (cut-off 2026-10-31)
+116 primary studies (cut-off 2026-10-31)
 ```
 
 ## Quality Assessment

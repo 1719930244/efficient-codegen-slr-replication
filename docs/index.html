@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Towards Efficient LLM-Based Code Generation: A Systematic Review</title>
-  <meta name="description" content="Companion website for the systematic review on efficient LLM-based code generation. 117 primary studies, continuously maintained.">
+  <meta name="description" content="Companion website for the systematic review on efficient LLM-based code generation. 116 primary studies, continuously maintained.">
   <style>
     :root {
       --primary: #1a3a5c;
@@ -231,7 +231,7 @@
   <div class="authors">Zongwen Shen, Jionghan Wu, Yidan Xu, Xuejin Liu, Xiang Chen, Jidong Ge, Chuanyi Li, Liguo Huang, and Bin Luo</div>
   <div class="venue">Manuscript under review, 2026</div>
   <div class="stats">
-    <div class="stat"><span class="num">117</span><span class="label">Primary Studies</span></div>
+    <div class="stat"><span class="num">116</span><span class="label">Primary Studies</span></div>
     <div class="stat"><span class="num">43,521</span><span class="label">Records Retrieved</span></div>
     <div class="stat"><span class="num">7</span><span class="label">Databases</span></div>
     <div class="stat"><span class="num">24</span><span class="label">Categories</span></div>
@@ -253,7 +253,7 @@
       </div>
     </div>
     <p>
-      Large Language Models (LLMs) have become indispensable tools for code generation, yet their computational costs&mdash;spanning data preparation, model training, inference, and evaluation&mdash;remain a critical barrier to practical adoption. This systematic review analyzes <strong>117 primary studies</strong> to provide a comprehensive map of efficiency techniques across the full lifecycle of LLM-based code generation.
+      Large Language Models (LLMs) have become indispensable tools for code generation, yet their computational costs&mdash;spanning data preparation, model training, inference, and evaluation&mdash;remain a critical barrier to practical adoption. This systematic review analyzes <strong>116 primary studies</strong> to provide a comprehensive map of efficiency techniques across the full lifecycle of LLM-based code generation.
     </p>
     <p>
       Our review spans six research questions aligned with the model lifecycle: data preparation (RQ1, 24 studies), model training (RQ2, 20 studies), inference optimization (RQ3, 59 studies), deployment (RQ4, 26 studies), evaluation (RQ5, 15 studies), and technique composition measured in a controlled experiment suite (RQ6, see <a href="#experiments">Experiments</a>). Studies can address several questions, so the counts overlap. We identify 24 fine-grained technique categories and distill 8 key findings that reveal both progress and critical gaps in the field.
@@ -265,7 +265,7 @@
 <section id="taxonomy">
   <div class="container">
     <h2>Classification Taxonomy</h2>
-    <p>Our taxonomy follows the <strong>LLM lifecycle</strong>, organizing 117 primary studies into 15 groups over 24 fine-grained categories. Click any category to browse its papers with direct links.</p>
+    <p>Our taxonomy follows the <strong>LLM lifecycle</strong>, organizing 116 primary studies into 15 groups over 24 fine-grained categories. Click any category to browse its papers with direct links.</p>
     <div class="search-box">
       <input type="text" id="paperSearch" placeholder="Search papers by title, venue, year, or keyword..." oninput="filterPapers()">
     </div>
@@ -278,7 +278,7 @@
 <section id="updates">
   <div class="container">
     <h2>Living Updates</h2>
-    <p>The <strong>117-study corpus</strong> reflects a single search campaign with a literature cut-off of 2026-10-31. This section logs newly published primary studies tracked by the monthly cadence, applying the same term schema used in the review. The May and September 2026 batches below were logged post-submission under the earlier frozen-corpus design; the September batch&rsquo;s OpenAlex selections, together with a parallel arXiv pass and minus three overlaps, were subsequently screened into the revised corpus as its 19 window-search candidates, as noted on the September card. The October batch&rsquo;s 20 selections were screened next: 11 entered the corpus as its September&ndash;October window studies and 9 were dropped with reasons recorded in the screening decision. Monthly batches continue for studies published after the cut-off and are listed newest first; three batches have been logged so far, covering 51 unique studies. After the 152 candidates were assembled, a confirmation pass re-read every candidate against the inclusion and exclusion criteria and removed 35 that failed IC2, IC4/EC1, or EC5, or addressed generated-code runtime efficiency, which leaves the 117-study corpus.</p>
+    <p>The <strong>116-study corpus</strong> reflects a single search campaign with a literature cut-off of 2026-10-31. This section logs newly published primary studies tracked by the monthly cadence, applying the same term schema used in the review. The May and September 2026 batches below were logged post-submission under the earlier frozen-corpus design; the September batch&rsquo;s OpenAlex selections, together with a parallel arXiv pass and minus three overlaps, were subsequently screened into the revised corpus as its 19 window-search candidates, as noted on the September card. The October batch&rsquo;s 20 selections were screened next: 11 entered the corpus as its September&ndash;October window studies and 9 were dropped with reasons recorded in the screening decision. Monthly batches continue for studies published after the cut-off and are listed newest first; three batches have been logged so far, covering 51 unique studies. After the 152 candidates were assembled, a confirmation pass re-read every candidate against the inclusion and exclusion criteria and removed 35 that failed IC2, IC4/EC1, or EC5, or addressed generated-code runtime efficiency, which leaves the 116-study corpus.</p>
 
     <div class="update-batch">
       <h3>October 2026 &mdash; 20 selected, 11 added to the corpus</h3>
@@ -432,7 +432,7 @@
 <section id="findings">
   <div class="container">
     <h2>Key Findings</h2>
-    <p>Our systematic analysis distills 8 key findings across the LLM code generation lifecycle. Findings 1 to 7 synthesize the 117-study corpus; Finding 8 reports the controlled experiment suite described in the <a href="#experiments">Experiments</a> section:</p>
+    <p>Our systematic analysis distills 8 key findings across the LLM code generation lifecycle. Findings 1 to 7 synthesize the 116-study corpus; Finding 8 reports the controlled experiment suite described in the <a href="#experiments">Experiments</a> section:</p>
     <div style="display:grid; gap:.8rem; margin-top:1rem;">
       <div class="finding-card"><h4>Finding 1: Quality Dominates Quantity</h4><p>Three complementary data-level strategies improve training efficiency with a common insight: quality dominates quantity. Training on as little as 10% of carefully selected examples can match full-corpus performance, and curriculum ordering from simple to complex accelerates convergence by up to 20%. The optimal selection criterion and complexity metric vary by task, which points to the need for strategies tailored to the target setting.</p></div>
       <div class="finding-card"><h4>Finding 2: Minimal Parameter Updates Suffice</h4><p>Two axes dominate the cost of building a code model: the tokens processed per step and the parameters updated. Tokenizer optimization cuts pre-training tokens by up to 25% and sequence packing by up to 40%, while sparse architectures cut per-step computation further. LoRA and QLoRA match full fine-tuning while updating under 1% of parameters, and pairing them with data selection reduces both data volume and trainable parameters, though the two have not been tested together under one harness.</p></div>
@@ -440,7 +440,7 @@
       <div class="finding-card"><h4>Finding 4: Code Structure Enables Unique Optimizations</h4><p>With code, removing material can improve the output, not only cheapen it. Irrelevant context hurts generation, so pruning repository context by 60% raises accuracy while cutting tokens. Syntax-aware compression reaches 4&times; with under 2% loss, and syntax-level shorthand cuts tokens by 30%, because code has fixed syntax and removable redundancy that prose lacks. At this stage, efficiency and quality point the same way more often than at any other.</p></div>
       <div class="finding-card"><h4>Finding 5: Adaptive Resource Allocation Outperforms Uniform</h4><p>A fixed budget wastes computation, but only techniques that can tell when an answer is good enough capture the saving. Early exit, confidence gating, and adaptive sampling each cut latency, cost, or sample count by 45% to 50%, and each rests on a cheap adequacy signal: layer confidence, an agent self-score, or agreement across samples. The signal, not the mechanism, is what makes adaptivity pay.</p></div>
       <div class="finding-card"><h4>Finding 6: Compression Buys Memory, Routing Buys Cost</h4><p>Deployment studies separate two currencies that are often conflated. Compression buys memory: quantization cuts it by 70% to 85% and pruning by 50%, but neither reliably cuts cost, and compression can slow inference or raise energy when the hardware is not built for it. Routing buys cost: sending simple queries to a smaller model cuts spending by 30% to 65% without touching the model. A deployment that needs memory should compress, one that needs cost should route, and the two can be combined, though almost no study measures the combination.</p></div>
-      <div class="finding-card"><h4>Finding 7: Efficiency Evaluation Lags Behind Optimization</h4><p>Evaluation has not kept up with optimization. Each stage reports the metric its own techniques move and rarely the ones they cost: data-level studies disclose latency in 29% of cases and memory in 17%, while inference-level studies disclose latency in 58% but memory in only 10%. Across the 117 studies, latency is disclosed by 50%, memory by 16%, monetary cost by 16%, and energy by 7%. Because a latency win and a memory win are rarely measured on the same model, techniques that optimize different resources cannot be ranked against each other.</p></div>
+      <div class="finding-card"><h4>Finding 7: Efficiency Evaluation Lags Behind Optimization</h4><p>Evaluation has not kept up with optimization. Each stage reports the metric its own techniques move and rarely the ones they cost: data-level studies disclose latency in 29% of cases and memory in 17%, while inference-level studies disclose latency in 58% but memory in only 10%. Across the 116 studies, latency is disclosed by 50%, memory by 16%, monetary cost by 16%, and energy by 7%. Because a latency win and a memory win are rarely measured on the same model, techniques that optimize different resources cannot be ranked against each other.</p></div>
       <div class="finding-card"><h4>Finding 8: Cross-Stage Compositions Pay Less Than the Product of Their Parts, and Hardware Governs Their Gain</h4><p>Hardware governs both the size and the sign of efficiency gains: INT8 raised latency on every platform we ran, and speculation ran slower than standard decoding at 7B. Composed, the observed slowdown stays below the product of the parts, because the dominant overhead of each technique absorbs part of the other&rsquo;s. Aggressive quantization adds virtual downscaling, placing 7B INT4 between 7B FP16 and 3B FP16 on the frontier. The gain of a stack is a property of the technique, the scale, the hardware, and the workload together, not of its parts alone.</p></div>
     </div>
   </div>
@@ -600,7 +600,6 @@ const STUDIES = [
   {id:"S090",key:"2512_08266",title:"Token Sugar: Making Source Code Sweeter for LLMs through Token-Efficient Shorthand",year:2025,venue:"ASE",type:"conference",cats:["3l"],rationale:"Semantic-level shorthand reducing token count for code LLMs"},
   {id:"S091",key:"2512_23367",title:"Post-Training Quantization of OpenPangu Models for Efficient Deployment on Atlas A2",year:2025,venue:"arXiv",type:"preprint",cats:["3g"],rationale:"Post-training quantization of OpenPangu models for deployment on Ascend NPUs"},
   {id:"S092",key:"He2025codepromptzip",title:"CODEPROMPTZIP: Code-specific Prompt Compression for Retrieval-Augmented Generation in Coding Tasks with LMs",year:2025,venue:"arXiv",type:"preprint",cats:["3d"],rationale:"Code-specific prompt compression for retrieval-augmented code generation"},
-  {id:"S093",key:"Zhao2025codeswift",title:"CodeSwift: Accelerating LLM Inference for Efficient Code Generation",year:2025,venue:"arXiv",type:"preprint",cats:["3l"],rationale:"LLM inference acceleration tailored for code generation"},
   {id:"S097",key:"arxiv_2507_02378",title:"Efficient Code LLM Training via Distribution-Consistent and Diversity-Aware Data Selection",year:2025,venue:"arXiv",type:"preprint",cats:["1a"],rationale:"Distribution-consistent and diversity-aware data selection for efficient code LLM training"},
   {id:"S100",key:"doi_10_1109_TCAD_2024_3483089",title:"RTLCoder: Fully Open-Source and Efficient LLM-Assisted RTL Code Generation Technique",year:2025,venue:"TCAD",type:"journal",cats:["2b","1b"],rationale:"Data generation + fine-tuning for RTL code generation"},
   {id:"S101",key:"doi_10_3390_sym17081325",title:"Symmetry-Aware Code Generation: Distilling Pseudocode Reasoning for Lightweight Deployment of Large Language Models",year:2025,venue:"Symmetry",type:"journal",cats:["2c"],rationale:"Distilling pseudocode reasoning for lightweight LLM deployment in code generation"},
@@ -805,7 +804,7 @@ function filterPapers() {
 }
 
 function updateStats(msg) {
-  document.getElementById('searchStats').textContent = msg || `Showing all 117 primary studies across 15 groups. Click a category to expand.`;
+  document.getElementById('searchStats').textContent = msg || `Showing all 116 primary studies across 15 groups. Click a category to expand.`;
 }
 
 document.addEventListener('DOMContentLoaded', renderTaxonomy);

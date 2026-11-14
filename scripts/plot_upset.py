@@ -1,7 +1,7 @@
 """UpSet plot of primary studies across the five lifecycle RQs.
 
-Reads data/primary-studies-117.csv of the replication package (the single
-source of truth for the 117-study corpus; override with UPSET_CSV) and
+Reads data/primary-studies-116.csv of the replication package (the single
+source of truth for the 116-study corpus; override with UPSET_CSV) and
 maps the Primary Categories codes to the five lifecycle stages of the
 per-stage compliance table (Table tab:compliance-stage):
 
@@ -11,7 +11,7 @@ per-stage compliance table (Table tab:compliance-stage):
   3g/3h/3i/3m                       -> RQ4 Deployment
   4*                                -> RQ5 Evaluation
 
-This rule reproduces the stage head counts 24/20/59/26/15 of the
+This rule reproduces the stage head counts 23/20/59/26/15 of the
 manuscript and its 27 multi-stage studies exactly. The RQ column of the
 CSV is generated from the same rule, so the two agree; 2c (distillation)
 and 3l (code-specific optimization) attach to the data stage here and are
@@ -29,7 +29,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 
 ROOT = Path(__file__).resolve().parent.parent
-CSV = Path(os.environ.get("UPSET_CSV", str(ROOT / "data" / "primary-studies-117.csv")))
+CSV = Path(os.environ.get("UPSET_CSV", str(ROOT / "data" / "primary-studies-116.csv")))
 OUT = ROOT / "figures" / "fig-upset.pdf"
 
 RQS = ["RQ1", "RQ2", "RQ3", "RQ4", "RQ5"]
