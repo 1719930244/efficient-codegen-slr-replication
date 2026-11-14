@@ -4,7 +4,7 @@ Replication package for the systematic literature review: *"Towards Efficient LL
 
 ## Overview
 
-This review systematically analyzes **117 primary studies** on efficiency techniques for LLM-based code generation, organized across **six research questions** spanning the full lifecycle from data preparation through deployment and evaluation, plus a cross-cutting controlled experiment on technique composition. The corpus comes from a single search campaign with a literature cut-off of **2026-10-31**: 89 full-text includes and 36 snowballing/targeted additions (net of 3 duplicates) give 122 studies, the Phase-4 OpenAlex/arXiv window search for April to August 2026 contributes 19 more, and the September-October 2026 batches add 11 more, which gives 152 candidates. A confirmation pass re-read all 152 against the criteria and removed 35, which leaves 117 primary studies.
+This review systematically analyzes **117 primary studies** on efficiency techniques for LLM-based code generation, organized across **six research questions** spanning the full lifecycle from data preparation through deployment and evaluation, plus a cross-cutting controlled experiment on technique composition. The corpus comes from a single search campaign with a literature cut-off of **2026-10-31**. The search returned 43,521 records; deduplication removed 4,147 and left 39,374 unique records; title and abstract screening retained 3,840 candidates; 1,730 full texts were retrieved and screened, which identified 119 included studies. Snowballing and the targeted search added 36 candidates, 3 duplicates were removed, and a confirmation pass re-read all 152 against the criteria and removed 35, which leaves 117 primary studies.
 
 | RQ | Scope | Studies |
 |----|-------|---------|
@@ -75,11 +75,11 @@ TAXONOMY.md                    # Full classification taxonomy with descriptions
 
 The taxonomy follows the LLM lifecycle with 24 fine-grained categories. Canonical stage assignment (used for all reported marginals): RQ1 = 1a, 1b, 2c, 3l; RQ2 = 2a, 2b, 2d, 2f; RQ3 = 3a, 3b, 3c, 3d, 3e, 3f, 3j, 3k, 3n, 3o; RQ4 = 3g, 3h, 3i, 3m; RQ5 = 4a, 4b. Distillation (2c) and code-specific optimization (3l) attach to the data stage for counting and are discussed in the chapters of the stages their methods target. See `TAXONOMY.md` for descriptions and `data/classification-scheme.csv` for study-to-category assignments.
 
-## Reporting Compliance Audit (N=110) and QA Coverage (N=117)
+## Reporting Compliance Audit (N=117) and QA Coverage (N=117)
 
-The 110 studies in the reporting audit were audited against an 8-item reporting checklist (Table 5 of the manuscript). Aggregate coverage: functional correctness 87%, model name/version 92%, hardware 65%, latency/throughput 49%, memory 15%, serving configuration 66%, monetary cost 17%, energy/carbon 6%. Many studies report only the single metric their technique targets, and co-reporting is uncommon.
+All 117 studies were audited against an 8-item reporting checklist (Table 5 of the manuscript). Aggregate coverage: functional correctness 88%, model name/version 91%, hardware 66%, latency/throughput 50%, memory 16%, serving configuration 68%, monetary cost 16%, energy/carbon 7%. Twenty studies report no efficiency metric, and only twelve report latency and memory together.
 
-Provenance note, recorded as fact: the per-study 8-item audit sheets of the original 122 studies were not archived; their aggregate counts were back-calculated from the published percentages during the revision audit (`data/corpus-merge-20261001/recompute.py` documents the procedure and its ambiguity bounds). The 19 merged studies carry full per-study audit records (`audit-A.json`, `audit-B.json`). Per-study QA scores (QA1-QA4) for all 117 studies are in `data/reporting-compliance.json`. The initial 144 candidates were scored independently by two reviewers; the 11 October studies were scored with the same rubric. The 8-item reporting audit covers 110 studies, the 117-study corpus minus the nine October studies that were not audited.
+Per-study codings are in `data/reporting-audit/reporting-audit-117.csv`, with the 136-study coding sheet that preceded the confirmation pass in `reporting-audit-136.csv`. `scripts/aggregate_reporting_audit.py` regenerates the overall rates, the breadth counts, and the per-stage table from the 117-study file. Full texts were read for 110 studies; the other seven were coded from their abstracts and metadata. Per-study QA scores (QA1-QA4) for all 117 studies are in `data/reporting-compliance.json`.
 
 ## Screening Decisions
 
@@ -135,9 +135,10 @@ The extended suite (2026) adds: five-run A800 replication of the composition and
 
 ### Study Characteristics
 
-- **Year distribution**: 2020 (1), 2022 (1), 2023 (14), 2024 (35), 2025 (52), 2026 (38)
-- **Venue types**: 42 conference, 13 journal, 86 preprint (61% preprints; 55 peer-reviewed)
-- **Quality tiers** (peer-reviewed subset): 27 CCF-A, 10 CCF-B, 6 CCF-C, 1 CORE-A*, 11 unranked
+- **Year distribution**: 2022 (1), 2023 (13), 2024 (28), 2025 (39), 2026 (36)
+- **Venue types**: 33 conference, 12 journal, 72 preprint (62% preprints; 45 peer-reviewed)
+- **Quality tiers** (peer-reviewed subset): 23 CCF-A, 7 CCF-B, 6 CCF-C, 1 CORE-A*, 8 unranked
+- **RQ marginals** from the canonical category mapping: RQ1 24, RQ2 20, RQ3 59, RQ4 26, RQ5 15; 27 studies span two RQs
 
 ## Search Strategy
 
@@ -152,8 +153,10 @@ Seven digital libraries were searched on **2026-03-06** with a two-group databas
 | Semantic Scholar | 1,505 |
 | Web of Science | 805 |
 | DBLP | 489 |
-| **Total (before dedup)** | **26,265** |
-| **After deduplication** | **22,118** |
+| **Seven-library total (main pass)** | **26,265** |
+| **Update searches, 2026-04 to 2026-10** | **17,256** |
+| **Total retrieved** | **43,521** |
+| **After deduplication** | **39,374** |
 
 Execution note: the Semantic Scholar bulk endpoint was queried twice on 2026-03-06; the working progress log records 864 hits from an earlier partial run, and 1,505 is the final protocol count reported above. The final execution record is with the first author; both counts are documented here and in `data/search-log.csv`.
 
@@ -162,33 +165,32 @@ Phase 4 (window search, publication window 2026-04-01 to 2026-08-31, run 2026-09
 ## PRISMA Flow
 
 ```
-26,265 raw records (7 databases, searched 2026-03-06)
+43,521 records retrieved (cut-off 2026-10-31)
+    26,265 from the seven-library pass of 2026-03-06
+    17,256 from the update searches of April to October 2026
     |
     v  Deduplication (4,147 removed)
-22,118 unique records
+39,374 unique records
     |
-    v  Title & abstract screening (18,308 excluded)
- 3,810 candidates
+    v  Title & abstract screening (35,534 excluded)
+ 3,840 candidates
     |
-    v  Full-text retrieval: 1,700 of 3,810 (2,110 not retrieved)
-    v  Full-text screening: scripted first pass, LLM re-screening,
-    v  author check of every re-screening include (1,611 excluded)
-    89 included
+    v  Full-text retrieval: 1,730 of 3,840
+    v  (2,110 candidates below the retrieval cut were never assessed)
+    v  Full-text screening: scripted first pass, author check of every
+    v  candidate (1,611 excluded)
+   119 included from full-text screening
     |
     +-- Snowballing: 2,645 candidates -> 18 included (2,627 excluded)
     +-- Targeted search: +18
+    +-- Duplicates removed: -3
     |
-    v  Quality assessment, duplicate removal (-3)
-  122 studies (frozen v1 corpus)
+    v  Quality assessment over 152 candidates
     |
-    +-- Phase 4, OpenAlex and arXiv window (April-August 2026):
-    |     OpenAlex 436 -> 16; arXiv 111 -> 6; overlaps -3; +19
-    v
-  110 studies in the reporting audit (cut-off 2026-08-31)
-    |
-    +-- September-October 2026 batches: +11
-    v
-  117 primary studies (cut-off 2026-10-31, after confirmation)
+    v  Confirmation pass: 35 removed
+    v  (1 IC2, 15 IC4/EC1, 1 EC5, 18 runtime-of-generated-code)
+117 primary studies (cut-off 2026-10-31)
+```
 ```
 
 ## Quality Assessment

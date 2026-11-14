@@ -1,10 +1,9 @@
 """UpSet plot of primary studies across the five lifecycle RQs.
 
-Reads data/primary-studies.csv of the replication package (the single
-source of truth for the merged 141-study corpus; override with UPSET_CSV,
-the default path below is the sg hub clone) and maps the Primary
-Categories codes to the five lifecycle stages of the per-stage compliance
-table (Table tab:compliance-stage):
+Reads data/primary-studies-117.csv of the replication package (the single
+source of truth for the 117-study corpus; override with UPSET_CSV) and
+maps the Primary Categories codes to the five lifecycle stages of the
+per-stage compliance table (Table tab:compliance-stage):
 
   1*, 2c, 3l                        -> RQ1 Data
   2a/2b/2d/2f                       -> RQ2 Training
@@ -12,12 +11,11 @@ table (Table tab:compliance-stage):
   3g/3h/3i/3m                       -> RQ4 Deployment
   4*                                -> RQ5 Evaluation
 
-This rule reproduces the stage head counts 29/26/63/28/27 of that table
-and its 32 multi-stage studies exactly (122-study vintage: 25/24/59/24/21
-and 31). This mapping, not the CSV's legacy RQ column, is canonical for
-the stage marginals; 2c (distillation) and 3l (code-specific
-optimization) attach to the data stage here and are discussed in the
-chapters of the stages their methods target.
+This rule reproduces the stage head counts 24/20/59/26/15 of the
+manuscript and its 27 multi-stage studies exactly. The RQ column of the
+CSV is generated from the same rule, so the two agree; 2c (distillation)
+and 3l (code-specific optimization) attach to the data stage here and are
+discussed in the chapters of the stages their methods target.
 
 RQ6 is the controlled-experiment question and does not classify any
 primary study, so it is excluded from this plot. Output: figures/fig-upset.pdf.
@@ -31,7 +29,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 
 ROOT = Path(__file__).resolve().parent.parent
-CSV = Path(os.environ.get("UPSET_CSV", str(ROOT / "data" / "primary-studies.csv")))
+CSV = Path(os.environ.get("UPSET_CSV", str(ROOT / "data" / "primary-studies-117.csv")))
 OUT = ROOT / "figures" / "fig-upset.pdf"
 
 RQS = ["RQ1", "RQ2", "RQ3", "RQ4", "RQ5"]

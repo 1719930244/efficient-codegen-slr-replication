@@ -89,8 +89,12 @@ locally on the title.
 
 ### Totals
 
-26,265 raw records; 22,118 unique records after deduplication (Figure 2 of
-the manuscript). No date restriction was applied at query time; the 2017
+26,265 raw records from the seven libraries. The update searches of April to
+October 2026 (below) added 17,256 records, for 43,521 records in total.
+Deduplication removed 4,147, leaving 39,374 unique records; title and
+abstract screening retained 3,840 candidates, 1,730 full texts were
+retrieved, and 119 studies were included at full text, as Figure 2 of the
+manuscript reports. No date restriction was applied at query time; the 2017
 onward window was enforced at Stage-1 screening.
 
 ## Window searches, April to October 2026 (Phase 4 of the campaign)
