@@ -4,7 +4,7 @@ This directory publishes the screening decisions that can be released without ex
 
 | File | Contents |
 |---|---|
-| `final-corpus-152.csv` | All 152 included studies with source, venue type, quality tier, RQ, categories, and rationale. |
+| `final-corpus-116.csv` | All 116 included studies with source, venue type, quality tier, RQ, categories, and rationale. |
 | `window-2026-arxiv.csv` | 111 arXiv candidates for 2026-04-01..2026-08-31 with INCLUDE/EXCLUDE and reason. |
 | `monthly-2026-10.csv` | 20 OpenAlex selections for the 2026-09-01..2026-10-31 window: 11 included, 9 excluded with reasons. |
 | `coverage-audit-2026-10.csv` | 400-record coverage-audit sample with both automated screeners, criteria, reasons, and adjudication. |
@@ -12,7 +12,7 @@ This directory publishes the screening decisions that can be released without ex
 
 ## What is not in this directory
 
-The Stage-1 classifier code and configuration, the ranked list of 22,118 unique records, and the per-paper INCLUDE/EXCLUDE decisions for the 1,700 full texts of the main pass are not mirrored here. The classifier artifacts and the 1,700-paper decision worksheets were kept outside the package; they are available from the authors. The package does publish every decision needed to reconstruct the final 116-study corpus from the released search log and the files above.
+The Stage-1 classifier code and configuration, the ranked list of 39,374 unique records, and the per-paper INCLUDE/EXCLUDE decisions for the 1,700 full texts of the main pass are not mirrored here. The classifier artifacts and the 1,700-paper decision worksheets were kept outside the package; they are available from the authors. The package does publish every decision needed to reconstruct the final 116-study corpus from the released search log and the files above.
 
 ## Counts
 

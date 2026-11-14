@@ -12,16 +12,16 @@ The Stage-1 auto-screening table, the classifier and full-text screening scripts
 - `original-2026-03/fine-grained-classification.csv`: 125-row classification from the 122-era corpus.
 - `original-2026-03/05-prisma/prisma-counts.json`: early PRISMA draft (4,179 raw, 369 duplicates, 3,810 after dedup).
 - `original-2026-03/scripts/03-screening/`: the recovered `screening-ta-auto.py`, `screening-ft.py`, `screening-ft-llm.py`, and helper scripts.
-- `final-corpus-152.csv`: the final included corpus.
+- `final-corpus-116.csv`: the final included corpus.
 - `window-2026-arxiv.csv`, `monthly-2026-10.csv`, `coverage-audit-2026-10.csv`, `gap-2026-03.csv`: the post-screening batches.
 - `stage1-classifier/classify.py`: a clean reconstruction of the published rule set, kept as a readable companion to the recovered script.
 
 ## What remains different from the final manuscript
 
-- The recovered auto-screening table is the March 2026 working export. It has 22,119 rows and 22,114 unique keys; the manuscript's final PRISMA uses 39,374 unique records deduplicated records. The difference is an export artifact.
-- The recovered table labels 3,159 records as Likely-Include or Uncertain. The final pipeline retained 3,840 candidates after later manual overrides and export merging. The recovered table is the closest surviving source, not a byte-level reproduction of the final 3,810-row list.
+- The recovered auto-screening table is the March 2026 working export. It has 22,119 rows and 22,114 unique keys; the manuscript's final PRISMA uses 39,374 unique records. The difference is an export artifact.
+- The recovered table labels 3,159 records as Likely-Include or Uncertain. The final pipeline retained 3,840 candidates after later manual overrides and export merging. The recovered table is the closest surviving source, not a byte-level reproduction of the final 3,840-row list.
 - The 1,700-row files record the scripted first pass and the automated re-screening of Stage 3. The authors checked every paper that the re-screening included, which gave 119 full-text inclusions, 89 from the main pass and 30 from the window and October batches; snowballing, targeted search, and the April-October 2026 window updates added the rest of the 122/141/152-study corpus. The 760 Include rows of the first pass are not the final included set.
-- `fine-grained-classification.csv` has 125 rows and belongs to the 122-era corpus; the final 116-study classification is in `final-corpus-152.csv`.
+- `fine-grained-classification.csv` has 125 rows and belongs to the 122-era corpus; the final 116-study classification is in `final-corpus-116.csv`.
 - `prisma-counts.json` is an early draft (4,179 raw, 3,810 after dedup), not the final 43,521/39,374/3,840 PRISMA in the manuscript.
 
 ## Provenance
