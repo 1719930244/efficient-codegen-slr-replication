@@ -1,0 +1,10 @@
+{
+  "config_id": "P07",
+  "model": "Qwen2.5-Coder-3B-Instruct",
+  "precision": "fp16",
+  "decoding": "standard",
+  "sampling": "greedy",
+  "device": "cuda:0",
+  "n_problems": 164,
+  "finished_utc": "2026-09-08T02:47:06Z"
+}

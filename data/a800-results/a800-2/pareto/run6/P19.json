@@ -1,0 +1,21 @@
+{
+  "config_id": "P19",
+  "model_name": "Qwen2.5-Coder-32B-Instruct",
+  "precision": "int4",
+  "decoding": "speculative",
+  "sampling": "greedy",
+  "pass_at_1": 83.53658536585365,
+  "pass_at_10": 0.0,
+  "mean_ms_per_token": 81.23955212091407,
+  "mean_total_time_ms": 18980.58198897236,
+  "p50_total_time_ms": 15272.428984986618,
+  "p95_total_time_ms": 44222.26085038856,
+  "mean_tokens_per_sec": 13.981159210785519,
+  "peak_gpu_memory_mb": 21215.0322265625,
+  "total_tokens_generated": 36775,
+  "total_energy_j": 366738.75,
+  "mean_energy_j_per_request": 2236.2118902439024,
+  "mean_energy_j_per_token": 9.972501699524134,
+  "num_problems": 164,
+  "details": []
+}

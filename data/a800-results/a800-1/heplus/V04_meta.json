@@ -1,0 +1,10 @@
+{
+  "config_id": "C04",
+  "model": "Qwen2.5-Coder-7B-Instruct",
+  "precision": "fp16",
+  "decoding": "speculative",
+  "sampling": "greedy",
+  "device": "cuda:3",
+  "n_problems": 164,
+  "finished_utc": "2026-09-07T11:38:55Z"
+}

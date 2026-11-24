@@ -1,0 +1,139 @@
+# Search Protocol and Queries
+
+This document records the complete search protocol of the review: the term
+groups, the exact per-database queries, the executed counts, and the
+supplementary window searches. The structured log is
+[`data/search-log.csv`](../data/search-log.csv).
+
+## Term groups
+
+The database query combines two term groups with Boolean AND. A third group
+characterizes LLM-based approaches; because that terminology varies across
+venues and years, it is not part of the database query. It is enforced at
+Stage-1 screening through inclusion criterion IC2, together with the
+publication-year window of 2017 onward. This keeps the database query
+deliberately broad so that no relevant study is missed.
+
+**Group A (code generation tasks, 6 terms):**
+
+```
+("code generation" OR "code completion" OR "code synthesis" OR "program synthesis" OR "code infilling" OR "automated programming")
+```
+
+**Group B (efficiency concepts, 13 terms):**
+
+```
+("efficien*" OR "optimi*" OR "accelerat*" OR "lightweight" OR "compress*" OR "quantiz*" OR "prun*" OR "distill*" OR "latency" OR "throughput" OR "computational cost" OR "energy" OR "scalab*")
+```
+
+**Group C (LLM scope, 8 terms, applied as the IC2 screening filter):**
+
+```
+("large language model" OR "LLM" OR "language model" OR "transformer" OR "pre-trained model" OR "foundation model" OR "neural network" OR "deep learning")
+```
+
+## Main campaign (executed 2026-03-06)
+
+Four databases were searched through their advanced-search interfaces with
+the field syntax below; three sources were searched through their APIs, which
+limit Boolean querying over abstracts, so each was queried per Group A phrase
+and the Group B conjunction was applied as a local filter on the metadata the
+source exposes (DBLP exposes titles only).
+
+### IEEE Xplore (7,032 records)
+
+Advanced search, Command Search:
+
+```
+("All Metadata":"code generation" OR "All Metadata":"code completion" OR "All Metadata":"code synthesis" OR "All Metadata":"program synthesis" OR "All Metadata":"code infilling" OR "All Metadata":"automated programming") AND ("All Metadata":"efficien*" OR "All Metadata":"optimi*" OR "All Metadata":"accelerat*" OR "All Metadata":"lightweight" OR "All Metadata":"compress*" OR "All Metadata":"quantiz*" OR "All Metadata":"prun*" OR "All Metadata":"distill*" OR "All Metadata":"latency" OR "All Metadata":"throughput" OR "All Metadata":"computational cost" OR "All Metadata":"energy" OR "All Metadata":"scalab*")
+```
+
+### ACM Digital Library (6,708 records)
+
+Advanced search over The ACM Guide to Computing Literature:
+
+```
+[[All: "code generation"] OR [All: "code completion"] OR [All: "code synthesis"] OR [All: "program synthesis"] OR [All: "code infilling"] OR [All: "automated programming"]] AND [[All: efficien*] OR [All: optimi*] OR [All: accelerat*] OR [All: lightweight] OR [All: compress*] OR [All: quantiz*] OR [All: prun*] OR [All: distill*] OR [All: latency] OR [All: throughput] OR [All: "computational cost"] OR [All: energy] OR [All: scalab*]]
+```
+
+### Scopus (7,529 records)
+
+```
+TITLE-ABS-KEY("code generation" OR "code completion" OR "code synthesis" OR "program synthesis" OR "code infilling" OR "automated programming") AND TITLE-ABS-KEY(efficien* OR optimi* OR accelerat* OR lightweight OR compress* OR quantiz* OR prun* OR distill* OR latency OR throughput OR "computational cost" OR energy OR scalab*)
+```
+
+### Web of Science (805 records)
+
+```
+TS=("code generation" OR "code completion" OR "code synthesis" OR "program synthesis" OR "code infilling" OR "automated programming") AND TS=(efficien* OR optimi* OR accelerat* OR lightweight OR compress* OR quantiz* OR prun* OR distill* OR latency OR throughput OR "computational cost" OR energy OR scalab*)
+```
+
+### Semantic Scholar (1,505 records)
+
+Bulk-search API, one query per Group A phrase; a record was kept when its
+title and abstract matched Group B. Execution note, recorded as fact: the
+working progress log of 2026-03-06 lists 864 hits from an earlier partial API
+run on the same day; the final protocol count reported by the review is
+1,505. The final execution record is with the first author; both counts are
+documented here.
+
+### arXiv (2,197 records)
+
+API, one `all:<phrase>` query per Group A phrase in categories `cs.*`, with
+the Group B conjunction applied locally on title and abstract.
+
+### DBLP (489 records)
+
+API, one title query per Group A phrase, with the Group B filter applied
+locally on the title.
+
+### Totals
+
+26,265 raw records from the seven libraries. The update searches of April to
+October 2026 (below) added 17,256 records, for 43,521 records in total.
+Deduplication removed 4,147, leaving 39,374 unique records; title and
+abstract screening retained 3,840 candidates, 1,730 full texts were
+retrieved, and 119 studies were included at full text, as Figure 2 of the
+manuscript reports. No date restriction was applied at query time; the 2017
+onward window was enforced at Stage-1 screening.
+
+## Update searches, April to October 2026
+
+The same two-group query schema was rerun on two openly indexable sources,
+OpenAlex and arXiv, to extend the literature cut-off to 2026-10-31. IEEE
+Xplore, ACM DL, Scopus, and Web of Science require institutional credentials
+and are not part of the update searches.
+
+- **OpenAlex, 2026-04-01 to 2026-08-31 (run 2026-09-07)**:
+  `scripts/monthly_update_openalex.py` schema. 436 candidates, 25 nominated,
+  23 unique, 16 selected. Record: `data/monthly-updates/2026-09.json`.
+- **arXiv, 2026-04-01 to 2026-08-31 (run 2026-09-29)**:
+  `data/window-search-2026/arxiv_search.py`. 1,095 raw, 413 boolean,
+  127 title-strict, 111 nominated new, 6 selected. Per-record screening log:
+  `data/window-search-2026/SCREENING.md`; batch record:
+  `data/window-search-2026/batch-2026-08-31.json`.
+- The two passes share 3 studies, so 19 studies entered the candidate set.
+- **OpenAlex, 2026-09-01 to 2026-10-31 (October 2026)**: 13,861 Group A hits,
+  987 Boolean pass, 218 title-strict nominations, 20 selected, plus 1,424
+  hits, 106 Boolean pass, 21 title-strict nominations, and 0 selected in the
+  final six days of the window. Screening kept 11 of the 20 selections and
+  dropped 9, with reasons in `data/monthly-updates/2026-10-screening.json` and
+  `data/screening-decisions/monthly-2026-10.csv`.
+
+## Gap search, 7 to 31 March 2026
+
+The main campaign ran on 2026-03-06 and the update searches start on
+2026-04-01, leaving 25 days uncovered. The gap was searched on 2026-10-07 with
+the same scripts and criteria: OpenAlex 5,954 Group A hits, 561 boolean, 116
+title-strict; arXiv 150 raw, 54 boolean, 12 title-strict, 12 nominated new;
+118 unique candidates after merge, none already in the corpus. Screening
+against the inclusion and exclusion criteria found no eligible study; one
+record (EAAI 2026, DOI 10.1016/j.engappai.2026.114360) could not be assessed
+because its full text is not publicly available.
+
+## Coverage audit (2026-10-07)
+
+An OpenAlex-based audit estimated recall within the records that the query
+returns on that index at approximately 0.78 (95% CI 0.54 to 0.91), from a
+400-record sample. Both screeners' per-record decisions, the adjudication, and
+the estimation script are in `data/screening-decisions/coverage-audit/`.

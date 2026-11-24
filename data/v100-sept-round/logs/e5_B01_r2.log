@@ -1,0 +1,23 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1789381680.690646 1663068 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[GUARD] deps ready
+[LOAD] Qwen2.5-Coder-7B-Instruct fp16 on cuda:1
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   0%|          | 1/339 [00:02<11:25,  2.03s/it]Loading weights:   1%|          | 2/339 [00:02<06:36,  1.18s/it]Loading weights:   7%|▋         | 24/339 [00:02<00:21, 14.63it/s]Loading weights:   9%|▉         | 30/339 [00:03<00:21, 14.61it/s]Loading weights:  12%|█▏        | 40/339 [00:03<00:17, 16.81it/s]Loading weights:  15%|█▌        | 52/339 [00:04<00:14, 20.33it/s]Loading weights:  17%|█▋        | 56/339 [00:04<00:13, 20.80it/s]Loading weights:  19%|█▉        | 64/339 [00:04<00:15, 17.71it/s]Loading weights:  22%|██▏       | 76/339 [00:04<00:10, 25.56it/s]Loading weights:  24%|██▎       | 80/339 [00:05<00:10, 24.98it/s]Loading weights:  26%|██▌       | 88/339 [00:05<00:10, 23.65it/s]Loading weights:  27%|██▋       | 92/339 [00:05<00:10, 24.52it/s]Loading weights:  29%|██▉       | 100/339 [00:05<00:08, 27.76it/s]Loading weights:  31%|███       | 104/339 [00:06<00:09, 24.60it/s]Loading weights:  33%|███▎      | 112/339 [00:06<00:07, 29.16it/s]Loading weights:  34%|███▍      | 116/339 [00:06<00:08, 27.49it/s]Loading weights:  37%|███▋      | 124/339 [00:06<00:08, 25.86it/s]Loading weights:  37%|███▋      | 127/339 [00:07<00:08, 24.33it/s]Loading weights:  40%|████      | 136/339 [00:07<00:08, 23.76it/s]Loading weights:  44%|████▎     | 148/339 [00:07<00:08, 22.27it/s]Loading weights:  45%|████▍     | 151/339 [00:08<00:08, 22.80it/s]Loading weights:  47%|████▋     | 160/339 [00:08<00:05, 30.87it/s]Loading weights:  49%|████▊     | 165/339 [00:08<00:05, 30.61it/s]Loading weights:  51%|█████     | 172/339 [00:08<00:06, 24.72it/s]Loading weights:  54%|█████▍    | 184/339 [00:09<00:05, 26.44it/s]Loading weights:  55%|█████▌    | 188/339 [00:09<00:06, 24.14it/s]Loading weights:  58%|█████▊    | 196/339 [00:09<00:05, 28.49it/s]Loading weights:  59%|█████▉    | 200/339 [00:09<00:04, 30.03it/s]Loading weights:  60%|██████    | 204/339 [00:09<00:04, 31.20it/s]Loading weights:  61%|██████▏   | 208/339 [00:10<00:04, 27.98it/s]Loading weights:  63%|██████▎   | 212/339 [00:10<00:04, 26.59it/s]Loading weights:  65%|██████▍   | 220/339 [00:10<00:05, 20.73it/s]Loading weights:  68%|██████▊   | 232/339 [00:11<00:04, 23.28it/s]Loading weights:  70%|██████▉   | 236/339 [00:11<00:04, 24.73it/s]Loading weights:  72%|███████▏  | 244/339 [00:11<00:04, 20.92it/s]Loading weights:  76%|███████▌  | 256/339 [00:12<00:03, 22.41it/s]Loading weights:  76%|███████▋  | 259/339 [00:12<00:03, 22.92it/s]Loading weights:  79%|███████▉  | 268/339 [00:12<00:02, 26.18it/s]Loading weights:  80%|███████▉  | 271/339 [00:12<00:02, 24.36it/s]Loading weights:  83%|████████▎ | 280/339 [00:13<00:02, 22.38it/s]Loading weights:  83%|████████▎ | 283/339 [00:13<00:02, 20.23it/s]Loading weights:  86%|████████▋ | 293/339 [00:13<00:01, 28.63it/s]Loading weights:  88%|████████▊ | 297/339 [00:13<00:01, 29.62it/s]Loading weights:  89%|████████▉ | 301/339 [00:13<00:01, 25.60it/s]Loading weights:  90%|████████▉ | 304/339 [00:14<00:01, 19.75it/s]Loading weights:  93%|█████████▎| 316/339 [00:14<00:01, 19.60it/s]Loading weights:  97%|█████████▋| 328/339 [00:15<00:00, 25.88it/s]Loading weights:  98%|█████████▊| 331/339 [00:15<00:00, 24.33it/s]Loading weights: 100%|██████████| 339/339 [00:15<00:00, 22.16it/s]
+[RUN] B01 remaining=300
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+  [B01 25/300] BigCodeBench/24 pass=True 22938ms
+  [B01 50/300] BigCodeBench/49 pass=False 10605ms
+  [B01 75/300] BigCodeBench/74 pass=False 22002ms
+  [B01 100/300] BigCodeBench/99 pass=False 16800ms
+  [B01 125/300] BigCodeBench/124 pass=False 19799ms
+  [B01 150/300] BigCodeBench/149 pass=True 13038ms
+  [B01 175/300] BigCodeBench/174 pass=True 8702ms
+  [B01 200/300] BigCodeBench/199 pass=False 22826ms
+  [B01 225/300] BigCodeBench/224 pass=False 19254ms
+  [B01 250/300] BigCodeBench/249 pass=True 13915ms
+  [B01 275/300] BigCodeBench/274 pass=False 22552ms
+  [B01 300/300] BigCodeBench/299 pass=True 15195ms
+[DONE] B01 pass@1=33.0 p50=17378
+=== BCB-INSTRUCT GEN ALL DONE ===

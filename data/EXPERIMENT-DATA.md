@@ -1,0 +1,339 @@
+# RQ6 Experiment Data Provenance
+
+This document maps every raw-data directory in this package to the machine,
+campaign, and software stack that produced it, and records what was lost,
+quarantined, or dropped, so that every number in the article is traceable.
+
+## Directory map
+
+| Path | Machine | Campaign | Status |
+|---|---|---|---|
+| `v100-original-results/composition,pareto,energy_round` | 4x Tesla V100-SXM2-32GB (original campaign server) | Apr 2026, 3 runs per cell | run-level aggregate JSON only, no per-task records |
+| `v100-original-results/heplus` | same machine | Sep 7 2026 regeneration pass (P10-P12, C04-C06) | full per-task jsonl |
+| `v100-original-results/logs-original-campaign` | same machine | Apr 16-19 2026 | 15 raw campaign logs |
+| `v100-original-results/logs-v100-heplus` | same machine | Sep 2026 regeneration | 4 GPU logs + env logs |
+| `v100-original-results/provenance` | same machine | Apr 2026 | dependency manifests, run scripts, repo README, all as-found |
+| `a800-results/a800-1` | 2x A800-SXM4-40GB (rental server 1) | Aug-Sep 2026 main extension campaign | final state at 2026-09-08 08:47 UTC, machine retired 08:55 UTC |
+| `a800-results/a800-2` | 2x A800-SXM4-40GB (rental server 2) | same campaign, second machine | state at 2026-09-08 06:10 UTC, machine retired 14:30 UTC (see losses below) |
+| `a800-results/logs-a800-1` | rental server 1 | | operational logs of machine 1; files over 10 MB are trimmed to head 3000 + tail 15000 lines and gzip-compressed, trimming is marked inside each file. Machine 2 operational logs were not archived before retirement and are not in the package |
+| `xgpu-3090ti` | GeForce RTX 3090 Ti 24 GB (lab server, third architecture) | Sep 8 2026, single run per cell | full per-task jsonl + acceptance JSONs + judged artifacts |
+| `lcb-results` | 2x Tesla V100-PCIE-32GB (laboratory server) | Sep 10 2026, contamination-free LiveCodeBench layer, single run per cell | full per-task jsonl + official-judge artifacts (dedicated section below) |
+| `v100-sept-round` | same laboratory V100 server; one sub-round generated on the RTX 3090 Ti server and pulled to it | Sep 10-22 2026 replication round | full per-task jsonl + acceptance JSONs + judged artifacts (dedicated section below) |
+
+## Software stacks (recorded as-run)
+
+| Platform | Python | torch | transformers | bitsandbytes | driver |
+|---|---|---|---|---|---|
+| V100 original (Apr 2026) | 3.10 (micromamba env `exp`, not preserved) | see note below | see note below | see note below | 570.195.03 (as of Sep 2026) |
+| V100 regeneration (Sep 2026) | 3.10.6 | 2.6.0+cu124 | 5.5.4 | 0.49.2 | 570.195.03 |
+| A800 (Aug-Sep 2026) | 3.12 | 2.6.0+cu124 | 5.16.1 | 0.50.2 | 590.48.01 |
+| RTX 3090 Ti (Sep 2026) | 3.10.20 (pre-existing borrowed env) | 2.5.1+cu124 | 5.9.0 | 0.49.2 | 550.90.07 |
+
+**V100 original-stack note (irreconcilable evidence, archived as-is).** The
+article records the original V100 runs as PyTorch 2.5.1 with CUDA 12.4, written
+at submission time when the runtime environment was still inspectable. The
+runtime environment (micromamba env `exp`) was later deleted. The dependency
+manifests archived in `v100-original-results/provenance/` (pyproject.toml and
+uv.lock, both dated 2026-04-16 09:35 UTC, roughly 50 minutes before the first
+composition run started) pin `torch==2.6.0` with the cu124 index and
+`transformers>=5.5.4`. The April run logs confirm the micromamba env was the
+actual interpreter, not a uv venv, so the manifests may describe an intended
+migration rather than the runtime. Neither source can now be verified against
+the deleted environment; both are archived unmodified and the article keeps the
+submission-time record.
+
+The Sep 2026 V100 regeneration environment is fully documented by the uv sync
+install log `v100-original-results/logs-v100-heplus/v100-regen-uvsync.log`
+(complete pinned package list) and `v100-regen-dl05b.log` (draft-model download
+checksums).
+
+## Losses at A800 retirement (2026-09-08)
+
+Rental server 1 was backed up in full at 08:47 UTC, eight minutes before its
+08:55 UTC expiry; nothing was lost there. Rental server 2 expired at 14:30 UTC;
+its last off-machine backup was taken at 06:10 UTC, so the following work
+products, all completed on the machine after that backup, were lost:
+
+1. **B02 final judged result** (BigCodeBench instruct protocol, INT8 standard,
+   300 tasks). The run had reached 275/300 by 09:16 UTC and completed on the
+   machine; only the first 83 task records (state at 06:10 UTC) survive, in
+   `a800-results/a800-2/bcb_instruct/B02.jsonl`. The article therefore reports
+   the instruct-protocol check over three of the four central cells and says so
+   explicitly. The September 2026 replication round completed the four-cell
+   instruct layer on the laboratory V100 server
+   (`v100-sept-round/results/bcb-instruct-v100/`, INT8 cell included), and
+   the article reports both the three-cell A800 check and the four-cell V100
+   replication; the A800 INT8 instruct final value remains lost.
+2. **MBPP+ judged values for M01, M02, M04** and the completed M02 generation.
+   This loss has no effect on the article: the MBPP+ layer was dropped on a
+   pre-declared gate (see below) before these values were inspected.
+3. **P15/P13 verification reruns.** The cells they re-verify were already
+   judged and reported from earlier complete runs; nothing in the article
+   depends on the reruns.
+4. **Server 2 orchestrator logs after 06:10 UTC.** Key checkpoints (M03 gate
+   value 32.80 base / 28.57 plus; B02 at 275/300; M04 completion) were captured
+   in monitoring transcripts at 09:16 UTC and are quoted in this README.
+
+## MBPP+ layer: attempted, gated out, dropped
+
+MBPP+ (EvalPlus judge over MBPP) was attempted on server 2. Three successive
+harness defects were found and quarantined under
+`a800-results/a800-2/mbppplus/broken_*` (inner truncation of instruct-style
+outputs; a completion parser defect; and a wrong generation prompt that omitted
+the main-protocol signature scaffolding). After all three fixes, the INT4 cell
+(M03) scored base 32.80 / plus 28.57 against a sanity gate of roughly 60 that
+was declared before the value was inspected (the main-harness MBPP INT4 score
+is 66.20). The gate failed, so the MBPP+ layer was dropped and no MBPP+ number
+appears anywhere in the article. The fixed-prompt regenerations that survived
+the 06:10 backup are archived as-is for audit.
+
+## Quarantine manifest (defective outputs kept for audit)
+
+| Directory | Defect |
+|---|---|
+| `a800-1/heplus/broken_detok` | DeepSeek slow-tokenizer decode dropped spaces (fixed by tokenizer self-heal) |
+| `a800-1/bcb_instruct/broken_judge`, `broken_judge2`, `a800-2/bcb_instruct/broken_judge2` | judge prepended completion-style prefix to instruct outputs; completions not saved (fixed by dedicated instruct judge) |
+| `a800-2/mbppplus/broken_inner_trunc` | generator truncated instruct/chat outputs internally (fixed by `truncate=False`) |
+| `a800-2/mbppplus/broken_parser` | completion parser defect |
+| `a800-2/mbppplus/broken_prompt` | official EvalPlus prompt without main-protocol signature scaffolding (fixed by rebuilding prompts from `eval_mbpp.build_prompt`) |
+
+## Third-architecture reference point (`xgpu-3090ti`)
+
+Generated on the RTX 3090 Ti server on 2026-09-08 (chain log
+`xgpu-3090ti.log`, launcher `xgpu_3090ti.sh`, patched script copies under
+`scripts/`). The server has no internet egress; the draft model and benchmark
+file were relayed in, and generation used a pre-existing environment (stack
+table above), which the article discloses as a third distinct software stack.
+
+Config IDs in `results/heplus/`: P10/P11/P12 = FP16/INT8/INT4 standard greedy,
+C04/C05/C06 = FP16/INT8/INT4 speculative greedy, all HumanEval, 164 problems,
+single run. `results/acceptance/T7*.json` = instrumented draft-verify loop,
+60-problem slice, K=5.
+
+Judging ran on a separate lab server (2x V100) with EvalPlus 0.3.1 under
+Python 3.10.12, using G-prefixed IDs to avoid collision with the A800 key
+space: **G10=P10, G11=P11, G12=P12, G04=C04, G05=C05, G06=C06**. Judged values
+(base pass@1 / HumanEval+ pass@1): G10 81.10/76.22, G11 80.49/75.00,
+G12 79.88/75.00, G04 81.10/76.22, G05 79.88/75.00, G06 78.66/73.78.
+Per-task details and EvalPlus raw results are under `judged/`;
+`judged/heplus_summary.json` is the machine-written summary;
+`judged/judge_217.log` is the judging transcript. The G04-vs-G10 per-task pass
+vectors are identical in all 164 tasks on both base and plus tests, the
+losslessness check greedy speculative decoding must satisfy.
+
+Board energy was not measured on this platform: the GeForce driver does not
+expose `nvmlDeviceGetTotalEnergyConsumption`.
+
+## Article-to-data quick index
+
+- Table "cross-architecture comparison" (V100/A800/3090 Ti): V100 column from
+  `v100-original-results` aggregates + regeneration judged values; A800 column
+  from `a800-results/a800-1` (5-run campaign); 3090 Ti column from
+  `xgpu-3090ti` + `judged/`.
+- Acceptance table: A800 rows from `a800-results/a800-1/acceptance/T7*.json`;
+  3090 Ti rows from `xgpu-3090ti/results/acceptance/T7*.json`.
+- Second-family table: `a800-results/a800-1/heplus/F0*.jsonl` and judged
+  summaries in `heplus_summary.json` on the same directory.
+- BigCodeBench instruct check: `a800-results/a800-1/bcb_instruct/B01,B03,B04`
+  (B02 partially lost, see above); V100 replication incl. the INT8 cell:
+  `v100-sept-round/results/bcb-instruct-v100/B01..B04`.
+- Acceptance table, V100 column: `v100-sept-round/results/acceptance-v100/T7*.json`.
+- LiveCodeBench table, RTX 3090 Ti rows: `v100-sept-round/results/lcb-3090ti/`;
+  1024-token budget sensitivity replicate: `v100-sept-round/results/lcb-cap1024/`;
+  three-run energy-variance replicate: `v100-sept-round/results/lcb-energy-variance/`.
+- Placeholder answers under the raw completion prompt (manuscript Section 9.1):
+  `scripts/placeholder_failures.py` over `a800-results/a800-*/heplus/` per-task
+  records; 27 of 164 tasks at 1.5B FP16, 2 at 3B, 5 at 7B.
+- 32B speculative sign-flip replication on V100 (single-run):
+  `v100-sept-round/results/heplus-x32/` (P17 standard, P19 speculative).
+
+## LiveCodeBench contamination-free layer (`lcb-results`)
+
+Generated 2026-09-10 on the 2x Tesla V100-PCIE-32GB laboratory server (driver
+550.54.15, 32 CPU cores), single run per cell, both GPUs idle and dedicated.
+The SKU follows the torch-recorded `gpu_name` in every `L0*_meta.json`. Note
+that this laboratory server is a different V100 variant from the original
+campaign machine (4x V100-SXM2-32GB): 250 W against 300 W board power
+envelope. An earlier version of this section and of the article's `tab:lcb`
+group header said SXM2; both were corrected on 2026-09-22.
+
+**Environment** (`~/lcb-venv`, python 3.10.12): torch 2.6.0+cu124,
+torchvision 0.21.0+cu124, transformers 5.5.4, tokenizers 0.22.2,
+safetensors 0.7.0, huggingface-hub 1.10.2, accelerate 1.13.0,
+bitsandbytes 0.49.2, numpy 2.2.6, pandas 2.3.3, scipy 1.15.3, tqdm 4.67.3,
+datasets 4.8.4, psutil 7.2.2, nvidia-ml-py, plus the official `livecodebench`
+package installed editable with --no-deps from a clone pinned at commit
+28fef95ea8c9f7a547c8329f2cd3d32b92c1fa24 (2025-07-15). Judge backend
+string in every summary: `official-import@28fef95`.
+
+**Model**: Qwen2.5-Coder-7B-Instruct transferred over the lab LAN from the
+RTX 3090 Ti server; sha256 of all four safetensors shards and config.json
+verified identical to the source (config.json sha256
+c0242402ad6a13b331ea320feea8c7e3776ffb7a4eff0757b9cd667e116d9a28), the same
+checkpoint family copies used on the A800 and the 3090 Ti. Draft model
+Qwen2.5-Coder-0.5B-Instruct likewise sha-verified.
+
+**Dataset**: livecodebench/code_generation_lite release_v6 files via
+hf-mirror (huggingface.co is unreachable from this server). Slice:
+`contest_date >= 2024-11-01`, N=288 (measured span 2024-11-02 to 2025-04-06),
+atcoder 177 / leetcode 111, easy 74 / medium 88 / hard 126, zero id overlap
+with earlier release files, cross-checked against the manifest CSV.
+`data/lcb_tasks.jsonl` (generation side) is in this repo;
+`lcb_eval_samples.jsonl` (judge side, 524 MB because it embeds all public and
+private test cases) is NOT committed and is deterministically rebuilt by
+`data/build_lcb_slice.py` from the official dataset files; its sha256 at
+generation time was
+7f095beae989c8ee3a26fa33b61196e161583c5077395f31a720bb7f6dcae0db.
+
+**Protocol deviations from the suite headline** (all disclosed in the article):
+official two-turn chat prompt with the official system message (the suite's
+other cells use raw prompts); suite-wide 512-token budget (the official LCB
+harness uses larger per-model budgets, so absolute pass@1 is a conservative
+lower bound; cap-hit counts are 7/9/5/7 per cell and capped completions score
+zero exactly as the official extractor scores an unclosed fence); official
+judge over public+private tests (the dataset carries no generated_tests
+field), 6 s per-test timeout, 16-way process parallelism; greedy decoding and
+the bitsandbytes INT8/NF4-INT4 paths identical to the rest of the suite.
+
+**Judge harness note**: the official `check_correctness` spawns a process per
+test, so the outer parallelism uses `ProcessPoolExecutor` (non-daemon
+workers); an `mp.Pool` first attempt failed every task with
+"daemonic processes are not allowed to have children" and was caught by the
+3-problem smoke test before the full run.
+
+**Results** (also in `results/lcb_summary.json` and per-cell detail JSONs):
+L01 FP16 std 17.36 (easy 51.35 / med 10.23 / hard 2.38), p50 8197 ms,
+23.01 tok/s, 1838 J/req; L02 INT8 std 15.97 (50.00/6.82/2.38), p50 34618 ms,
+5.34 tok/s, 2112 J/req; L03 INT4 std 18.75 (56.76/10.23/2.38), p50 13888 ms,
+13.67 tok/s, 2144 J/req; L04 FP16 spec 17.71 (52.70/10.23/2.38), p50 21520 ms,
+8.49 tok/s, 3175 J/req. Latency ratios 4.22/1.69/2.63. Board energy measured
+via NVML (data-center driver exposes the total-energy counter, unlike the
+consumer card). L04 completions are byte-identical to L01 on 270/288 tasks;
+the 18 differences are argmax flips at floating-point near-ties under batched
+verification, a known assisted-decoding numerical artifact, disclosed in the
+article; pass@1 differs by one problem.
+
+**Scripts** in `scripts/`: `run_lcb_gen.py` (generation, resume-safe, imports
+the patched `eval_humaneval.py` core also included), `judge_lcb.py` (official
+judge integration with vendored fallback), `run_lcb_all.sh` (two-GPU launcher
+with GPU-idle guard, retry pass, and judge chain). Logs: `pipeline.log`,
+`judge.log`, and trimmed generation logs.
+
+## September 2026 replication round (`v100-sept-round`)
+
+Run 2026-09-10..14 on the laboratory 2x Tesla V100-PCIE-32GB server (driver
+550.54.15), extending the contamination-free layer and closing three
+cross-validation gaps; one sub-round was generated on the RTX 3090 Ti server
+and pulled over the lab LAN. Every cell of this round is single-run, disclosed
+in the article's Threats to Validity scope conditions.
+
+**acceptance-v100** (2026-09-10, `measure_acceptance.py` under `~/lcb-venv`:
+torch 2.6.0+cu124, transformers 5.5.4, bitsandbytes 0.49.2). The same
+instrumented draft-verify loop as the A800 and 3090 Ti acceptance
+measurements: draft Qwen2.5-Coder-0.5B-Instruct FP16, K=5, fixed 60-problem
+HumanEval slice, greedy. Results (`T7*.json`): FP16 target acceptance 0.8082,
+tau 4.765 +/- 0.662; INT8 0.8030, tau 4.791 +/- 0.658; INT4 0.7816, tau
+4.787 +/- 0.518. Within 0.005 of the A800 values at every precision; the
+article rounds to 0.808/0.803/0.782 with tau between 4.77 and 4.79. The
+acceptance loop was not run at 32B on this machine.
+
+**lcb-cap1024** (2026-09-10, `run_lcb_gen.py` + `judge_lcb.py` under
+`~/lcb-venv`, judge backend official-import@28fef95). The LiveCodeBench
+FP16-standard cell (L01) regenerated with max_new_tokens=1024 instead of the
+suite-wide 512. n_at_cap=0: no completion reached the larger budget, pass@1
+is unchanged at 17.36 with an identical difficulty split (51.35/10.23/2.38),
+so the 512-token budget does not depress the layer's scores.
+
+**heplus-x32** (2026-09-10, generation under `~/lcb-venv` on cuda:0;
+EvalPlus judgment with `judge_heplus_x32.py` under `~/evalplus-venv`,
+evalplus 0.3.1). The two A800 32B cells replicated on V100, single run each:
+P17 Qwen2.5-Coder-32B-Instruct INT4 standard greedy, base pass@1 84.15 and
+HumanEval+ 78.66, p50 32419 ms; P19 INT4 speculative with the 0.5B draft,
+base 82.93 and HumanEval+ 78.66, p50 39112 ms. Speculation therefore remains
+a 1.21x penalty on V100 and does not reproduce the 1.28x A800 gain; the
+article scopes the 32B sign flip to accelerators with A800-class verification
+throughput. Quality agrees with the A800 cells within one task (standard,
+84.15 against 83.54) and the speculative cell differs from its standard
+counterpart by two tasks at base and none under the EvalPlus judge.
+`dl_32b.py`, `verify_32b.py`, and `loadtest_32b.json` record the download,
+sha verification, and single-GPU load feasibility test.
+
+**lcb-3090ti** (generation 2026-09-10 on the RTX 3090 Ti server under its
+pre-existing third-stack environment, torch 2.5.1+cu124, transformers 5.9.0,
+bitsandbytes 0.49.2, as recorded in each `L0*_meta.json`; pulled to the V100
+server and judged there 2026-09-14 with the same official-import@28fef95
+chain). The four central cells of the contamination-free layer, single run
+each: L01 FP16 std 17.71, L02 INT8 std 17.71, L03 INT4 std 18.75, L04 FP16
+spec 17.36; p50 4593/16526/6510/9589 ms; latency ratios 3.60 (INT8), 1.42
+(INT4), 2.09 (spec); cap-hits 8/10/7/6; quality within four problems per cell
+of the V100 layer. Board energy is not measurable because the GeForce driver
+does not expose the NVML total-energy counter. The generation-side workspace
+on the 3090 Ti machine was cleaned before this pull, so the per-task jsonl,
+meta files, judge.log, and summary in this directory are the complete
+surviving record of that sub-round.
+
+**bcb-instruct-v100** (2026-09-14, `run_bcb_instruct_gen_v100.py` under a
+dedicated `~/bcb-venv`: torch 2.6.0+cu124, transformers 5.5.4, plus the
+BigCodeBench test-execution dependencies tensorflow 2.21.0, opencv, nltk and
+peers; setup log `logs/bcb_venv_setup.log`). Official BigCodeBench instruct
+protocol: chat-template-wrapped instruction, official `check_correctness_instruct`
+run inline per task, first-300-problem slice, same script lineage as the A800
+cells. B01 FP16 std pass@1 33.00, p50 17378 ms; B02 INT8 std 31.67, p50
+82081 ms; B03 INT4 std 33.00, p50 27883 ms; B04 FP16 spec 32.67, p50 40446
+ms. Latency ratios 4.72 (INT8), 1.60 (INT4), 2.33 (spec) against B01.
+Quality agrees with the A800 instruct cells within four problems per cell and
+the INT4 cost against FP16 is zero again. This completes the fourth central
+cell (INT8) whose A800 final value was lost at server-2 retirement; the A800
+instruct column in the article still reports three cells. A first attempt on
+2026-09-10 aborted at interpreter import (system python without torch,
+`logs/e5_B0*.log`) and produced no data; all committed records are from the
+2026-09-14 reruns (`logs/e5_B0*_r2.log`).
+
+**lcb-energy-variance** (2026-09-22, `ev_chain.sh`: three sequential full
+replicates of the FP16 standard LCB cell on cuda:1 with an idle-GPU guard
+before each run, identical protocol and stack to the original layer:
+`~/lcb-venv`, official chat prompt, 512-token budget, official judge
+official-import@28fef95). Bounds the single-pass protocol variability:
+pass@1 is 17.36 in all three runs with n_at_cap=7 (greedy determinism);
+energy per request 1879.2 / 1896.3 / 1999.2 J (mean 1924.9, SD 65 J, 3.4%);
+p50 latency 8556 / 8742 / 9061 ms (mean 8786, SD 255 ms, 2.9%); wall 2845-
+3012 s. Against the original 2026-09-10 single pass (1838 J, p50 8197 ms)
+the session drift is +2.2 to +8.8% in energy and +4.4 to +10.5% in latency,
+smaller than every cross-configuration gap the layer reports; the server
+also hosted another user's CPU-only workload during the replicates, unlike
+the fully idle original run. The article quotes these bounds in the Section
+9.1 metrics disclosure.
+
+**Scripts** in `scripts/`: as-run copies for this round
+(`measure_acceptance.py`, `run_lcb_gen.py`, `judge_lcb.py`, `run_lcb_all.sh`,
+`run_bcb_instruct_gen_v100.py`, `judge_heplus_x32.py`, `dl_32b.py`,
+`verify_32b.py`, `loadtest_32b.py`) plus the shared cores they import
+(`eval_humaneval.py`, `eval_bigcodebench.py`, `judge_heplus.py`). Logs:
+`e1_*` acceptance loop, `e2_*` cap1024, `e3_*` 32B replication, `e5_*`
+instruct round, `ev_*` energy-variance runs and judges, `chain_*` launchers,
+`ev_chain.sh`, `bcb_venv_setup.log`.
+
+## Per-problem judged-record inventory (recount of 2026-10-09)
+
+Counting rules, stated for auditability: a record is one judged problem in one released cell. Structured artifacts count non-empty `details` arrays in result JSONs, `per_task` maps in `*.evalplus-detail.json` and `*.lcb-detail.json`, and judged jsonl rows carrying a `pass` field. Log artifacts count `[N/M] TaskID: PASS|FAIL` lines. Generation-side jsonl without judgment fields, meta and summary files, acceptance aggregates, quarantine directories, and byte-identical cross-machine copies are excluded. The judged-sample column additionally expands each adaptive EvalPlus sampled completion into its own record.
+
+| Layer | Location | Per-problem | Judged samples |
+|---|---|---:|---:|
+| A800 MBPP cross-benchmark, 5 runs x 4 cells | `a800-results/a800-1/mbpp` | 19,480 | 19,480 |
+| A800 BigCodeBench, 4 runs x 4 cells | `a800-results/a800-1/bigcodebench` | 18,240 | 18,240 |
+| A800 composition run 5 | `a800-results/a800-1/composition/run5` | 1,968 | 1,968 |
+| A800 composition runs 1-4, surviving trimmed-log fragments (C01, C02, C12 lines only) | `a800-results/logs-a800-1` | 1,316 | 1,316 |
+| A800 HumanEval+ regeneration, 36 configurations | `a800-1/heplus`, `a800-2/heplus` | 5,904 | 10,637 |
+| A800 BigCodeBench instruct (B02 is the 83-problem retirement fragment) | `a800-1/bcb_instruct`, `a800-2/bcb_instruct` | 983 | 983 |
+| LiveCodeBench slice, 4 cells x 288 | `lcb-results` | 1,152 | 1,152 |
+| V100 September round excluding the variance replicate (LCB-on-3090Ti 1,152, cap-1024 288, HE+-32B 328, BCB-instruct 1,200) | `v100-sept-round` | 2,968 | 2,968 |
+| V100 LCB energy-variance replicate, 3 x 288 (added 2026-09-22) | `v100-sept-round/results/lcb-energy-variance` | 864 | 864 |
+| V100 original-campaign log lines (composition runs 1-3 with fix and C10/C12 segments, plus the energy round) | `v100-original-results/logs-original-campaign` | 12,956 | 12,956 |
+| RTX 3090 Ti reference point, 6 x 164 | `xgpu-3090ti/judged` | 984 | 984 |
+| **Total, current package** | | **66,815** | **71,548** |
+
+Coverage qualifications, recorded as fact:
+
+- The A800 Pareto (87 runs), Pareto-32B (8 runs), energy rounds (27 cells), and the bulk of composition runs 1-4 retain no per-problem records: their result JSONs carry empty `details`, machine 2 logs were not archived, and the machine 1 composition logs were trimmed to C01/C02/C12 fragments. These cells are run-level aggregates, as the manuscript's Threats to Validity states.
+- The V100 original-campaign composition logs cover 29 of 36 cells (run 1 lacks C01, runs 2-3 lack C10-C12); the V100 energy-round logs are complete.
+- Historical note: the figure 70,684 that earlier revision drafts carried equals the judged-sample convention applied to the package state of 2026-09-21, before the energy-variance replicate added 864 records. The manuscript and letter no longer quote a single total; this inventory is the reference.

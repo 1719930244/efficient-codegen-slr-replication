@@ -1,0 +1,10 @@
+{
+  "config_id": "C06",
+  "model": "Qwen2.5-Coder-7B-Instruct",
+  "precision": "int4",
+  "decoding": "speculative",
+  "sampling": "greedy",
+  "device": "cuda:1",
+  "n_problems": 164,
+  "finished_utc": "2026-09-07T11:04:26Z"
+}

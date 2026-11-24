@@ -1,0 +1,34 @@
+{
+ "total_studies": 116,
+ "rq_distribution": {
+  "RQ1": 23,
+  "RQ2": 20,
+  "RQ3": 59,
+  "RQ4": 26,
+  "RQ5": 15
+ },
+ "venue_types": {
+  "preprint": 62,
+  "conference": 41,
+  "journal": 13
+ },
+ "year_distribution": {
+  "2022": 1,
+  "2023": 13,
+  "2024": 28,
+  "2025": 38,
+  "2026": 36
+ },
+ "quality_assessment": {
+  "n_studies": 116,
+  "mean": 3.224
+ },
+ "quality_tier_distribution": {
+  "n/a": 62,
+  "CCF A": 27,
+  "CCF B": 9,
+  "CCF C": 6,
+  "CORE A*": 1,
+  "unranked": 11
+ }
+}

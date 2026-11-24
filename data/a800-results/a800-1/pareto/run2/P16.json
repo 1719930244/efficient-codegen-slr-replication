@@ -1,0 +1,21 @@
+{
+  "config_id": "P16",
+  "model_name": "Qwen2.5-Coder-32B-Instruct",
+  "precision": "int8",
+  "decoding": "standard",
+  "sampling": "greedy",
+  "pass_at_1": 86.58536585365853,
+  "pass_at_10": 0.0,
+  "mean_ms_per_token": 314.5075107749192,
+  "mean_total_time_ms": 71273.84498116074,
+  "p50_total_time_ms": 72257.54364751629,
+  "p95_total_time_ms": 161878.3966178802,
+  "mean_tokens_per_sec": 3.179896869433353,
+  "peak_gpu_memory_mb": 33680.32275390625,
+  "total_tokens_generated": 37120,
+  "total_energy_j": -1.0,
+  "mean_energy_j_per_request": -1.0,
+  "mean_energy_j_per_token": -1.0,
+  "num_problems": 164,
+  "details": []
+}

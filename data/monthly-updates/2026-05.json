@@ -1,0 +1,31 @@
+{
+  "batch": "2026-05",
+  "window": {
+    "start": "2026-04-01",
+    "end": "2026-05-28"
+  },
+  "source_note": "Semantic Scholar bulk index, filtered by the manuscript's three-group term schema (Group A code-generation phrases AND Group B efficiency terms AND Group C LLM/transformer terms). IEEE/ACM/Scopus/Web of Science are deferred to the annual full sweep because they require institutional credentials.",
+  "raw_records": 610,
+  "in_window_records": 610,
+  "passed_term_filter": 221,
+  "passed_title_efficiency_filter": 86,
+  "selected": 16,
+  "papers": [
+    { "key": "2604_01193", "arxiv": "2604.01193", "title": "Embarrassingly Simple Self-Distillation Improves Code Generation", "rq": "RQ2", "category": "2c-Knowledge Distillation" },
+    { "key": "2604_23106", "arxiv": "2604.23106", "title": "No Test Cases, No Problem: Distillation-Driven Code Generation for Scientific Workflows", "rq": "RQ2", "category": "2c-Knowledge Distillation" },
+    { "key": "2604_15388", "arxiv": "2604.15388", "title": "Exploring LLM-based Verilog Code Generation with Data-Efficient Fine-Tuning and Testbench Automation", "rq": "RQ1+RQ2", "category": "1a-Data Selection; 2b-PEFT" },
+    { "key": "2604_00491", "arxiv": "2604.00491", "title": "Executing as You Generate: Hiding Execution Latency in LLM Code Generation", "rq": "RQ3", "category": "3l-Code-Specific Optimization" },
+    { "key": "2604_04238", "arxiv": "2604.04238", "title": "Agentic Code Optimization via Compiler-LLM Cooperation", "rq": "RQ3", "category": "3k-Multi-Agent Orchestration" },
+    { "key": "2604_09442", "arxiv": "2604.09442", "title": "UIPress: Bringing Optical Token Compression to UI-to-Code Generation", "rq": "RQ3", "category": "3d-Prompt Compression" },
+    { "key": "2604_10235", "arxiv": "2604.10235", "title": "CodeComp: Structural KV Cache Compression for Agentic Coding", "rq": "RQ3", "category": "3f-KV Cache Optimization" },
+    { "key": "2604_13725", "arxiv": "2604.13725", "title": "On the Effectiveness of Context Compression for Repository-Level Tasks: An Empirical Investigation", "rq": "RQ3", "category": "3e-Context Pruning" },
+    { "key": "2604_16625", "arxiv": "2604.16625", "title": "AdaExplore: Failure-Driven Adaptation and Diversity-Preserving Search for Efficient Kernel Generation", "rq": "RQ3", "category": "3l-Code-Specific Optimization" },
+    { "key": "2604_17182", "arxiv": "2604.17182", "title": "Layer-wise MoE Routing Locality under Shared-Prefix Code Generation: Token-Identity Decomposition", "rq": "RQ3", "category": "3i-Model Routing" },
+    { "key": "2604_26469", "arxiv": "2604.26469", "title": "An Empirical Study of Speculative Decoding on Software Engineering Tasks", "rq": "RQ3", "category": "3a-Speculative Decoding" },
+    { "key": "2604_27296", "arxiv": "2604.27296", "title": "To Diff or Not to Diff? Structure-Aware and Adaptive Output Formats for Efficient LLM-based Coding", "rq": "RQ3", "category": "3l-Code-Specific Optimization" },
+    { "key": "2605_07248", "arxiv": "2605.07248", "title": "PaT: Planning-after-Trial for Efficient Test-Time Code Generation", "rq": "RQ3", "category": "3o-Chain-of-Thought Optimization" },
+    { "key": "2605_15238", "arxiv": "2605.15238", "title": "Hydra: Efficient, Correct Code Generation via Checkpoint-and-Rollback Support", "rq": "RQ3", "category": "3j-Adaptive Sampling" },
+    { "key": "2605_15609", "arxiv": "2605.15609", "title": "PSD: Pushing the Pareto Frontier of Diffusion LLMs via Parallel Speculative Decoding", "rq": "RQ3", "category": "3a-Speculative Decoding" },
+    { "key": "2605_27849", "arxiv": "2605.27849", "title": "FPMoE: A Sparse Mixture-of-Experts Approach to Functional Code Generation", "rq": "RQ3", "category": "3i-Model Routing" }
+  ]
+}

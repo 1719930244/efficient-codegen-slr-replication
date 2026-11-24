@@ -1,0 +1,118 @@
+{
+ "window": "2026-04-01..2026-09-07",
+ "source": "OpenAlex (S2 rate-limited; filtering pipeline identical to original protocol)",
+ "funnel": {
+  "candidates": 436,
+  "nominated": 25,
+  "unique": 23,
+  "selected": 16
+ },
+ "studies": [
+  {
+   "openalex_id": "https://openalex.org/W7134935216",
+   "title": "SiliconMind-V1: Multi-Agent Distillation and Debug-Reasoning Workflows for Verilog Code Generation",
+   "section": "sections/sec-rq1.tex",
+   "bib_key": "chen2026siliconmind"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7148292620",
+   "title": "Embarrassingly Simple Self-Distillation Improves Code Generation",
+   "section": "sections/sec-rq2.tex",
+   "bib_key": "zhang2026selfdistill"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7172015358",
+   "title": "Distilling large language models for code generation via ranking supervision",
+   "section": "sections/sec-rq2.tex",
+   "bib_key": "ding2026rankingdistill"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7162655027",
+   "title": "Efficient Post-training of LLMs for Code Generation With Offline Reinforcement Learning",
+   "section": "sections/sec-rq2.tex",
+   "bib_key": "wu2026offlinerl"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7207852819",
+   "title": "Predict, Don't Iterate: Efficient Adaptive-Length Infilling for Diffusion Language Models",
+   "section": "sections/sec-rq3.tex",
+   "bib_key": "xu2026pill"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7166399941",
+   "title": "Smaller Models, Unexpected Costs: Trade-offs in LLM Quantization for Automated Program Repair",
+   "section": "sections/sec-rq4-deploy.tex",
+   "bib_key": "vallecillosruiz2026quantapr"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7165123083",
+   "title": "Energy Profiling of Pruned LLMs During Python Code Generation",
+   "section": "sections/sec-rq4-deploy.tex",
+   "bib_key": "danda2026energypruning"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7166702558",
+   "title": "Balancing Latency and Accuracy of Code Completion via Local-Cloud Model Cascading",
+   "section": "sections/sec-rq4-deploy.tex",
+   "bib_key": "lu2026mccom"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7165065435",
+   "title": "CacheWise: Understanding Workloads and Optimizing KVCache Management for Efficiently Serving LLM Coding Agents",
+   "section": "sections/sec-rq4-deploy.tex",
+   "bib_key": "tiwari2026cachewise"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7159891673",
+   "title": "MARS: Efficient, Adaptive Co-Scheduling for Heterogeneous Agentic Systems",
+   "section": "sections/sec-rq4-deploy.tex",
+   "bib_key": "wang2026mars"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7163550959",
+   "title": "LiveVerilogEval: Contamination Free and Automatically Scalable Benchmark for Verilog Code Generation",
+   "section": "sections/sec-rq5.tex",
+   "bib_key": "young2026liveverilogeval"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7203609725",
+   "title": "Don't Claim Benchmark-Oriented Optimization Improves General Coding Capability -- Diverse Evaluation Is Required",
+   "section": "sections/sec-rq5.tex",
+   "bib_key": "shibaev2026diverseeval"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7204869549",
+   "title": "DSEffi-Bench: Demystifying Large Language Models' Capability in Efficient Data Science Code Generation",
+   "section": "sections/sec-rq5.tex",
+   "bib_key": "gong2026dseffibench"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7167465800",
+   "title": "Not All Local LLMs Are Equal: A Benchmark of Energy and Performance",
+   "section": "sections/sec-rq5.tex",
+   "bib_key": "cunha2026localllmenergy"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7164973369",
+   "title": "FastContext: Training Efficient Repository Explorer for Coding Agents",
+   "section": "sections/sec-rq6.tex",
+   "bib_key": "zhang2026fastcontext"
+  },
+  {
+   "openalex_id": "https://openalex.org/W7158090237",
+   "title": "Empowering Autonomous Debugging Agents with Efficient Dynamic Analysis",
+   "section": "sections/sec-discussion.tex",
+   "bib_key": "xiang2026agentdebug"
+  }
+ ],
+ "dropped": [
+  "LEAP: Lean Environment-Feedback via Adaptive Pruning for Code RL in GPU Kernel Generation",
+  "Half the Experts, All the Code: One-Shot Domain Pruning of Mixture-of-Experts LLMs for Coding",
+  "Hydra: Efficient, Correct Code Generation via Checkpoint-and-Rollback Support",
+  "Assessing the Sustainability of LLM Inference through Energy-Accuracy Analysis",
+  "SWE-Edit: Rethinking Code Editing for Efficient SWE-Agent",
+  "SWE-Pruner Pro: The Coder LLM Already Knows What to Prune",
+  "Rethinking Automated Program Repair: The Impact of Bug Complexity, Fault Localization, and LLM Cost-efficiency"
+ ],
+ "note": "post-submission coverage update; frozen 122-study corpus unchanged"
+}

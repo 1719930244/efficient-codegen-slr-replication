@@ -1,0 +1,11 @@
+{
+  "device": "cuda:0",
+  "utc": "2026-09-10T16:24:41Z",
+  "load_s": 65.5,
+  "gen_tokens": 21,
+  "reserved_mb": 20586.0,
+  "total_mb": 32494.1,
+  "headroom_mb": 11908.1,
+  "gate": "GO",
+  "spec_gate": "GO"
+}

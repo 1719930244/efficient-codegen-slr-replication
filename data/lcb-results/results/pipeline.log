@@ -1,0 +1,127 @@
+[pipeline] start Thu Sep 10 03:20:03 AM UTC 2026
+[pipeline] gen pids: L02=1342670 (cuda:0)  L01L04L03=1342671 (cuda:1)
+[pipeline] gen exited rc L02=0 L01L04L03=0 Thu Sep 10 07:22:54 AM UTC 2026
+[pipeline] retry done Thu Sep 10 07:24:22 AM UTC 2026
+[pipeline] judge rc=0 Thu Sep 10 07:35:21 AM UTC 2026
+{
+  "L01": {
+    "backend": "official-import@28fef95",
+    "by_difficulty": {
+      "easy": 51.35,
+      "hard": 2.38,
+      "medium": 10.23
+    },
+    "by_platform": {
+      "atcoder": 20.9,
+      "leetcode": 11.71
+    },
+    "config_id": "L01",
+    "energy_j_per_req": 1838.2,
+    "energy_total_j": 529400.3,
+    "judge_wall_s": 306.8,
+    "judged_utc": "2026-09-10T07:29:32Z",
+    "mean_latency_ms": 9401.2,
+    "mean_tok_s": 23.01,
+    "n_at_cap": 7,
+    "n_empty_extraction": 7,
+    "n_tasks": 288,
+    "n_with_starter": 111,
+    "p50_latency_ms": 8196.86663756147,
+    "p95_latency_ms": 18139.032658189535,
+    "pass_at_1": 17.36,
+    "peak_mem_mb": 15514.04345703125,
+    "test_split": "public+private",
+    "timeout_per_test_s": 6,
+    "total_output_tokens": 62308
+  },
+  "L02": {
+    "backend": "official-import@28fef95",
+    "by_difficulty": {
+      "easy": 50.0,
+      "hard": 2.38,
+      "medium": 6.82
+    },
+    "by_platform": {
+      "atcoder": 18.08,
+      "leetcode": 12.61
+    },
+    "config_id": "L02",
+    "energy_j_per_req": 2112.32,
+    "energy_total_j": 608348.5,
+    "judge_wall_s": 18.7,
+    "judged_utc": "2026-09-10T07:29:51Z",
+    "mean_latency_ms": 40320.4,
+    "mean_tok_s": 5.34,
+    "n_at_cap": 9,
+    "n_empty_extraction": 9,
+    "n_tasks": 288,
+    "n_with_starter": 111,
+    "p50_latency_ms": 34618.41121595353,
+    "p95_latency_ms": 83238.85213583708,
+    "pass_at_1": 15.97,
+    "peak_mem_mb": 9296.46142578125,
+    "test_split": "public+private",
+    "timeout_per_test_s": 6,
+    "total_output_tokens": 62065
+  },
+  "L03": {
+    "backend": "official-import@28fef95",
+    "by_difficulty": {
+      "easy": 56.76,
+      "hard": 2.38,
+      "medium": 10.23
+    },
+    "by_platform": {
+      "atcoder": 22.03,
+      "leetcode": 13.51
+    },
+    "config_id": "L03",
+    "energy_j_per_req": 2143.67,
+    "energy_total_j": 617375.7,
+    "judge_wall_s": 21.9,
+    "judged_utc": "2026-09-10T07:30:13Z",
+    "mean_latency_ms": 15558.4,
+    "mean_tok_s": 13.67,
+    "n_at_cap": 5,
+    "n_empty_extraction": 5,
+    "n_tasks": 288,
+    "n_with_starter": 111,
+    "p50_latency_ms": 13888.334207702428,
+    "p95_latency_ms": 33151.2236893177,
+    "pass_at_1": 18.75,
+    "peak_mem_mb": 16482.8017578125,
+    "test_split": "public+private",
+    "timeout_per_test_s": 6,
+    "total_output_tokens": 61273
+  },
+  "L04": {
+    "backend": "official-import@28fef95",
+    "by_difficulty": {
+      "easy": 52.7,
+      "hard": 2.38,
+      "medium": 10.23
+    },
+    "by_platform": {
+      "atcoder": 21.47,
+      "leetcode": 11.71
+    },
+    "config_id": "L04",
+    "energy_j_per_req": 3174.87,
+    "energy_total_j": 914361.7,
+    "judge_wall_s": 306.5,
+    "judged_utc": "2026-09-10T07:35:20Z",
+    "mean_latency_ms": 25443.9,
+    "mean_tok_s": 8.49,
+    "n_at_cap": 7,
+    "n_empty_extraction": 7,
+    "n_tasks": 288,
+    "n_with_starter": 111,
+    "p50_latency_ms": 21520.486152730882,
+    "p95_latency_ms": 53189.63526096195,
+    "pass_at_1": 17.71,
+    "peak_mem_mb": 16482.8017578125,
+    "test_split": "public+private",
+    "timeout_per_test_s": 6,
+    "total_output_tokens": 62226
+  }
+}

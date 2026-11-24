@@ -1,0 +1,32 @@
+{
+  "L01": {
+    "backend": "official-import@28fef95",
+    "by_difficulty": {
+      "easy": 51.35,
+      "hard": 2.38,
+      "medium": 10.23
+    },
+    "by_platform": {
+      "atcoder": 20.9,
+      "leetcode": 11.71
+    },
+    "config_id": "L01",
+    "energy_j_per_req": 1113.35,
+    "energy_total_j": 320643.7,
+    "judge_wall_s": 306.8,
+    "judged_utc": "2026-09-10T14:22:35Z",
+    "mean_latency_ms": 9199.0,
+    "mean_tok_s": 23.8,
+    "n_at_cap": 0,
+    "n_empty_extraction": 0,
+    "n_tasks": 288,
+    "n_with_starter": 111,
+    "p50_latency_ms": 7933.808991219848,
+    "p95_latency_ms": 17459.943359252065,
+    "pass_at_1": 17.36,
+    "peak_mem_mb": 15514.04345703125,
+    "test_split": "public+private",
+    "timeout_per_test_s": 6,
+    "total_output_tokens": 63061
+  }
+}
